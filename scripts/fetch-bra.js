@@ -9,13 +9,32 @@ const DATA_DIR = path.join(__dirname, '..', 'data', 'bra');
 const API_KEY = process.env.MF_API_KEY;
 const API_BASE = 'https://public-api.meteofrance.fr/public/DPBRA/v1/massif/BRA';
 
-const MASSIF_IDS = [
-  'CHABLAIS', 'ARAVIS', 'MONT-BLANC', 'BAUGES', 'BEAUFORTAIN',
-  'HAUTE-TARENTAISE', 'VANOISE', 'HAUTE-MAURIENNE', 'MAURIENNE',
-  'CHARTREUSE', 'BELLEDONNE', 'GRANDES-ROUSSES', 'VERCORS', 'OISANS',
-  'THABOR', 'PELVOUX', 'QUEYRAS', 'DEVOLUY', 'CHAMPSAUR',
-  'EMBRUNAIS-PARPAILLON', 'UBAYE', 'HAUT-VAR-HAUT-VERDON', 'MERCANTOUR'
-];
+// Mapping: numeric API ID -> massif name used in filenames and frontend
+const MASSIFS = {
+  1:  'CHABLAIS',
+  2:  'ARAVIS',
+  3:  'MONT-BLANC',
+  4:  'BAUGES',
+  5:  'BEAUFORTAIN',
+  6:  'HAUTE-TARENTAISE',
+  7:  'CHARTREUSE',
+  8:  'BELLEDONNE',
+  9:  'MAURIENNE',
+  10: 'VANOISE',
+  11: 'HAUTE-MAURIENNE',
+  12: 'GRANDES-ROUSSES',
+  13: 'THABOR',
+  14: 'VERCORS',
+  15: 'OISANS',
+  16: 'PELVOUX',
+  17: 'QUEYRAS',
+  18: 'DEVOLUY',
+  19: 'CHAMPSAUR',
+  20: 'EMBRUNAIS-PARPAILLON',
+  21: 'UBAYE',
+  22: 'HAUT-VAR-HAUT-VERDON',
+  23: 'MERCANTOUR'
+};
 
 // Check BRA season (November - June)
 function isBRASeason() {
@@ -108,20 +127,20 @@ function parseBRA(xmlData, massifId) {
   };
 }
 
-async function fetchMassif(massifId) {
-  const url = `${API_BASE}?id-massif=${massifId}&format=xml`;
+async function fetchMassif(numericId, massifName) {
+  const url = `${API_BASE}?id-massif=${numericId}&format=xml`;
   try {
     const response = await fetch(url, {
       headers: { 'apikey': API_KEY, 'accept': '*/*' }
     });
     if (!response.ok) {
-      console.error(`Failed to fetch ${massifId}: ${response.status} ${response.statusText}`);
+      console.error(`Failed to fetch ${massifName} (id=${numericId}): ${response.status} ${response.statusText}`);
       return null;
     }
     const xml = await response.text();
-    return parseBRA(xml, massifId);
+    return parseBRA(xml, massifName);
   } catch (error) {
-    console.error(`Error fetching ${massifId}:`, error.message);
+    console.error(`Error fetching ${massifName}:`, error.message);
     return null;
   }
 }
@@ -140,7 +159,8 @@ async function main() {
   // Ensure output directory exists
   fs.mkdirSync(DATA_DIR, { recursive: true });
 
-  console.log(`Fetching BRA data for ${MASSIF_IDS.length} massifs...`);
+  const entries = Object.entries(MASSIFS);
+  console.log(`Fetching BRA data for ${entries.length} massifs...`);
 
   const latest = {
     lastUpdate: new Date().toISOString(),
@@ -149,24 +169,24 @@ async function main() {
 
   let successCount = 0;
 
-  // Fetch sequentially to respect rate limits (50/min is generous but let's be nice)
-  for (const massifId of MASSIF_IDS) {
-    const data = await fetchMassif(massifId);
+  // Fetch sequentially to respect rate limits
+  for (const [numericId, massifName] of entries) {
+    const data = await fetchMassif(numericId, massifName);
     if (data) {
       // Write individual massif file
-      const filePath = path.join(DATA_DIR, `${massifId}.json`);
+      const filePath = path.join(DATA_DIR, `${massifName}.json`);
       fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 
       // Add to latest summary
-      latest.massifs[massifId] = {
+      latest.massifs[massifName] = {
         risk: data.riskMax,
         date: data.date
       };
 
       successCount++;
-      console.log(`  ✓ ${massifId}: risk ${data.riskMax}`);
+      console.log(`  ✓ ${massifName}: risk ${data.riskMax}`);
     } else {
-      console.log(`  ✗ ${massifId}: failed`);
+      console.log(`  ✗ ${massifName}: failed`);
     }
 
     // Small delay between requests
@@ -177,7 +197,7 @@ async function main() {
   const latestPath = path.join(DATA_DIR, 'latest.json');
   fs.writeFileSync(latestPath, JSON.stringify(latest, null, 2));
 
-  console.log(`\nDone: ${successCount}/${MASSIF_IDS.length} massifs fetched successfully.`);
+  console.log(`\nDone: ${successCount}/${entries.length} massifs fetched successfully.`);
 
   if (successCount === 0) {
     console.error('No massifs fetched successfully!');

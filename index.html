@@ -11,27 +11,26 @@
 </head>
 <body>
 
-  <!-- Loading overlay -->
   <div id="loading">
     <div class="spinner"></div>
     <p>Chargement des données...</p>
   </div>
 
-  <!-- Map container -->
   <div id="map"></div>
 
-  <!-- Geolocation button -->
+  <!-- Map mode toggle -->
+  <div id="map-toggle" class="map-toggle">
+    <button class="map-toggle-btn active" data-mode="risque" onclick="MapManager.setMode('risque')">Risque</button>
+    <button class="map-toggle-btn" data-mode="enneigement" onclick="MapManager.setMode('enneigement')">Enneigement</button>
+  </div>
+
   <button id="geolocate" title="Ma position">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="12" r="4"/>
-      <line x1="12" y1="2" x2="12" y2="6"/>
-      <line x1="12" y1="18" x2="12" y2="22"/>
-      <line x1="2" y1="12" x2="6" y2="12"/>
-      <line x1="18" y1="12" x2="22" y2="12"/>
+      <circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/>
+      <line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/>
     </svg>
   </button>
 
-  <!-- Risk level legend -->
   <div id="legend">
     <div class="legend-item"><span class="legend-color" style="background:#52B788;"></span><span>1 - Faible</span></div>
     <div class="legend-item"><span class="legend-color" style="background:#FFD60A;"></span><span>2 - Limité</span></div>
@@ -40,7 +39,6 @@
     <div class="legend-item"><span class="legend-color legend-color-5"></span><span>5 - Très fort</span></div>
   </div>
 
-  <!-- Detail panel -->
   <div id="panel">
     <div class="panel-header">
       <div class="drag-handle"></div>
@@ -51,16 +49,13 @@
     <div class="panel-content" id="panel-content"></div>
   </div>
 
-  <!-- PDF fullscreen overlay -->
   <div id="pdf-overlay" class="pdf-overlay hidden">
     <button id="pdf-back" class="pdf-back-btn">← Retour</button>
     <iframe id="pdf-frame" class="pdf-frame"></iframe>
   </div>
 
-  <!-- Last update info -->
   <div id="update-info"></div>
 
-  <!-- Scripts -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="js/config.js"></script>
   <script src="js/data.js"></script>
@@ -68,20 +63,12 @@
   <script src="js/panel.js"></script>
   <script src="js/app.js"></script>
 
-  <!-- Service Worker Registration -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('sw.js')
-          .then(function(registration) {
-            console.log('Service Worker enregistré avec succès:', registration.scope);
-          })
-          .catch(function(error) {
-            console.log('Échec de l\'enregistrement du Service Worker:', error);
-          });
+        navigator.serviceWorker.register('sw.js');
       });
     }
   </script>
-
 </body>
 </html>

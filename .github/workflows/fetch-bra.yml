@@ -15,9 +15,6 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install poppler-utils for PDF image extraction
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils
-
       - name: Install dependencies
         working-directory: scripts
         run: npm ci
@@ -26,39 +23,6 @@ jobs:
         env:
           MF_API_KEY: ${{ secrets.MF_API_KEY }}
         run: node scripts/fetch-bra.js
-
-      - name: Extract illustrations from PDFs
-        run: |
-          mkdir -p data/bra/img
-          for pdf in data/bra/*.pdf; do
-            name=$(basename "$pdf" .pdf)
-            # Extract embedded images
-            pdfimages -png "$pdf" "data/bra/img/${name}"
-            # Delete tiny images (<15KB = icons/decorations), keep real illustrations
-            find data/bra/img -name "${name}-*.png" -size -15k -delete
-          done
-          # Debug: show what's left for CHABLAIS
-          echo "=== Illustrations kept for CHABLAIS ==="
-          ls -lhS data/bra/img/CHABLAIS-*.png 2>/dev/null || echo "None"
-          echo "Total illustrations: $(ls data/bra/img/*.png 2>/dev/null | wc -l)"
-
-      - name: Update JSON with image paths
-        run: |
-          for json in data/bra/*.json; do
-            name=$(basename "$json" .json)
-            if [ "$name" = "latest" ]; then continue; fi
-            node -e "
-              const fs = require('fs');
-              const d = JSON.parse(fs.readFileSync('$json','utf8'));
-              const files = fs.readdirSync('data/bra/img')
-                .filter(f => f.startsWith('${name}-') && f.endsWith('.png'))
-                .sort();
-              if (files.length > 0) {
-                d.extractedImages = files.map(f => './data/bra/img/' + f);
-              }
-              fs.writeFileSync('$json', JSON.stringify(d, null, 2));
-            "
-          done
 
       - name: Commit and push if changed
         run: |

@@ -147,21 +147,18 @@ body {
   font-size: 11px; color: rgba(255,255,255,0.7); text-shadow: 0 1px 3px rgba(0,0,0,0.6);
 }
 
-/* Map image markers */
-.massif-img-marker { background: none !important; border: none !important; }
-.marker-img {
-  width: 75px; height: auto; border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.35);
-  border: 2px solid white;
-  background: white;
-  cursor: pointer;
+/* Map markers */
+.massif-marker { background: none !important; border: none !important; }
+.marker-enneigement {
+  height: auto; border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.35);
+  border: 1.5px solid white; background: white; cursor: pointer;
 }
-.marker-risk-badge {
-  width: 36px; height: 36px; border-radius: 50%;
+.marker-snow-badge {
+  width: 30px; height: 30px; border-radius: 50%; background: #4A90D9;
   display: flex; align-items: center; justify-content: center;
-  font-size: 16px; font-weight: bold;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  border: 2px solid white; cursor: pointer;
+  font-size: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  border: 1.5px solid white; cursor: pointer;
 }
 
 /* Tooltip */

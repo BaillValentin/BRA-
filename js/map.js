@@ -21,12 +21,54 @@ const MapManager = {
       maxZoom: CONFIG.MAX_ZOOM
     }).addTo(this.map);
 
+    // Update marker sizes on zoom
+    this.map.on('zoomend', () => this.updateMarkerSizes());
+
     return this;
   },
 
-  // Get center point of a polygon feature
   getCenter(layer) {
     return layer.getBounds().getCenter();
+  },
+
+  // Get a size factor based on current zoom level
+  getZoomScale() {
+    var zoom = this.map.getZoom();
+    if (zoom <= 7) return 0.6;
+    if (zoom <= 8) return 0.8;
+    if (zoom <= 9) return 1.0;
+    if (zoom <= 10) return 1.3;
+    return 1.6;
+  },
+
+  // ── Risk pictogram SVG (diamond + exclamation marks) ──
+  buildRiskSVG(risk, size) {
+    var color = RISK_COLORS[risk] || '#999';
+    var textColor = RISK_TEXT_COLORS[risk] || '#FFF';
+    var s = size || 44;
+    var h = s * 1.2;
+
+    // Exclamation marks based on risk level
+    var marks = '';
+    var riskNum = parseInt(risk) || 0;
+    if (riskNum >= 1 && riskNum <= 5) {
+      var markCount = riskNum;
+      var markY = h - 4;
+      var spacing = s / (markCount + 1);
+      for (var i = 0; i < markCount; i++) {
+        var mx = spacing * (i + 1);
+        marks += '<text x="' + mx + '" y="' + markY + '" text-anchor="middle" font-size="' + (s * 0.22) + '" font-weight="bold" fill="' + color + '">!</text>';
+      }
+    }
+
+    return '<svg viewBox="0 0 ' + s + ' ' + h + '" width="' + s + '" height="' + h + '" xmlns="http://www.w3.org/2000/svg">' +
+      '<filter id="ds"><feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-opacity="0.3"/></filter>' +
+      '<g filter="url(#ds)">' +
+      '<polygon points="' + (s/2) + ',2 ' + (s-3) + ',' + (h*0.42) + ' ' + (s/2) + ',' + (h*0.72) + ' 3,' + (h*0.42) + '" fill="' + color + '" stroke="#333" stroke-width="1.2"/>' +
+      '<text x="' + (s/2) + '" y="' + (h*0.47) + '" text-anchor="middle" font-size="' + (s*0.36) + '" font-weight="bold" fill="' + textColor + '">' + risk + '</text>' +
+      '</g>' +
+      marks +
+      '</svg>';
   },
 
   renderMassifs(geojson, latestData) {
@@ -34,19 +76,21 @@ const MapManager = {
     var massifsRisks = latestData ? latestData.massifs : {};
 
     this.geojsonLayer = L.geoJSON(geojson, {
-      style: function() {
+      style: function(feature) {
+        var massifId = feature.properties.id;
+        var riskData = massifsRisks[massifId];
+        var risk = riskData ? riskData.risk : 0;
         return {
-          fillColor: 'transparent',
-          fillOpacity: 0,
-          weight: 2,
-          color: '#555',
-          opacity: 0.6
+          fillColor: RISK_COLORS[risk] || '#999',
+          fillOpacity: 0.25,
+          weight: 1.5,
+          color: '#666',
+          opacity: 0.5
         };
       },
       onEachFeature: (feature, layer) => {
         var massifId = feature.properties.id;
         this.massifLayers[massifId] = layer;
-
         layer.on('click', () => {
           this.selectMassif(massifId, layer);
           Panel.show(massifId);
@@ -54,58 +98,67 @@ const MapManager = {
       }
     }).addTo(this.map);
 
-    // Place image markers at each massif center
-    this.createImageMarkers(massifsRisks);
+    this.createMarkers(massifsRisks);
     this.setMode('risque');
   },
 
-  createImageMarkers(massifsRisks) {
+  createMarkers(massifsRisks) {
     for (var massifId in this.massifLayers) {
       var layer = this.massifLayers[massifId];
       var center = this.getCenter(layer);
       var data = massifsRisks[massifId] || {};
+      var massifInfo = MASSIFS[massifId] || { name: massifId };
 
-      // Create marker with a placeholder - will be updated by setMode
       var marker = L.marker(center, {
-        icon: L.divIcon({
-          className: 'massif-img-marker',
-          html: '<div class="marker-img-container"></div>',
-          iconSize: [70, 55],
-          iconAnchor: [35, 27]
-        })
+        icon: L.divIcon({ className: 'massif-marker', html: '', iconSize: [1, 1] }),
+        interactive: true
       }).addTo(this.map);
 
-      // Store data for later updates
       marker._massifId = massifId;
       marker._massifData = data;
 
-      // Click opens panel
-      marker.on('click', () => {
-        this.selectMassif(massifId, layer);
-        Panel.show(massifId);
-      });
+      marker.on('click', ((mid, lay) => {
+        return () => { this.selectMassif(mid, lay); Panel.show(mid); };
+      })(massifId, layer));
 
-      // Tooltip
-      var massifInfo = MASSIFS[massifId] || { name: massifId };
       marker.bindTooltip('<strong>' + massifInfo.name + '</strong>', {
-        direction: 'top', offset: [0, -30]
+        direction: 'top', offset: [0, -25], className: 'massif-tooltip'
       });
 
       this.imageMarkers[massifId] = marker;
     }
   },
 
+  updateMarkerSizes() {
+    this.setMode(this.mode);
+  },
+
   setMode(mode) {
     this.mode = mode;
 
-    // Update toggle buttons
     document.querySelectorAll('.map-toggle-btn').forEach(function(btn) {
       btn.classList.toggle('active', btn.dataset.mode === mode);
     });
 
-    // Update legend visibility
-    var legend = document.getElementById('legend');
-    legend.style.display = mode === 'risque' ? '' : 'none';
+    // Legend
+    document.getElementById('legend').style.display = mode === 'risque' ? '' : 'none';
+
+    var scale = this.getZoomScale();
+    var massifsRisks = this.latestData ? this.latestData.massifs : {};
+
+    // Update polygon fill
+    if (this.geojsonLayer) {
+      this.geojsonLayer.eachLayer(function(layer) {
+        var massifId = layer.feature.properties.id;
+        var riskData = massifsRisks[massifId];
+        var risk = riskData ? riskData.risk : 0;
+        if (mode === 'risque') {
+          layer.setStyle({ fillColor: RISK_COLORS[risk] || '#999', fillOpacity: 0.25 });
+        } else {
+          layer.setStyle({ fillColor: '#4A90D9', fillOpacity: 0.15 });
+        }
+      });
+    }
 
     // Update markers
     for (var massifId in this.imageMarkers) {
@@ -113,48 +166,49 @@ const MapManager = {
       var data = marker._massifData;
       var imgs = data.img || {};
 
-      var imgSrc = '';
-      if (mode === 'risque' && imgs['montagne-risques']) {
-        imgSrc = imgs['montagne-risques'];
-      } else if (mode === 'enneigement' && imgs['montagne-enneigement']) {
-        imgSrc = imgs['montagne-enneigement'];
-      }
-
-      if (imgSrc) {
-        marker.setIcon(L.divIcon({
-          className: 'massif-img-marker',
-          html: '<img src="' + imgSrc + '" class="marker-img" alt="">',
-          iconSize: [75, 60],
-          iconAnchor: [37, 30]
-        }));
-        marker.setOpacity(1);
-      } else {
-        // Fallback: show risk number
+      if (mode === 'risque') {
         var risk = data.risk || '?';
-        var color = RISK_COLORS[risk] || '#999';
-        var textColor = RISK_TEXT_COLORS[risk] || '#FFF';
+        var svgSize = Math.round(38 * scale);
+        var svgH = Math.round(svgSize * 1.2);
         marker.setIcon(L.divIcon({
-          className: 'massif-img-marker',
-          html: '<div class="marker-risk-badge" style="background:' + color + ';color:' + textColor + '">' + risk + '</div>',
-          iconSize: [36, 36],
-          iconAnchor: [18, 18]
+          className: 'massif-marker',
+          html: this.buildRiskSVG(risk, svgSize),
+          iconSize: [svgSize, svgH],
+          iconAnchor: [svgSize / 2, svgH / 2]
         }));
-        marker.setOpacity(1);
+      } else {
+        // Enneigement: show small PNG thumbnail
+        var imgSrc = imgs['montagne-enneigement'];
+        if (imgSrc) {
+          var imgW = Math.round(60 * scale);
+          var imgH = Math.round(48 * scale);
+          marker.setIcon(L.divIcon({
+            className: 'massif-marker',
+            html: '<img src="' + imgSrc + '" class="marker-enneigement" style="width:' + imgW + 'px">',
+            iconSize: [imgW, imgH],
+            iconAnchor: [imgW / 2, imgH / 2]
+          }));
+        } else {
+          marker.setIcon(L.divIcon({
+            className: 'massif-marker',
+            html: '<div class="marker-snow-badge">❄</div>',
+            iconSize: [30, 30],
+            iconAnchor: [15, 15]
+          }));
+        }
       }
     }
   },
 
   selectMassif(massifId, layer) {
-    if (this.selectedLayer) {
-      this.selectedLayer.setStyle({ weight: 2, color: '#555' });
-    }
+    if (this.selectedLayer) this.selectedLayer.setStyle({ weight: 1.5, color: '#666' });
     layer.setStyle({ weight: 3, color: '#0066FF' });
     this.selectedLayer = layer;
   },
 
   deselectMassif() {
     if (this.selectedLayer) {
-      this.selectedLayer.setStyle({ weight: 2, color: '#555' });
+      this.selectedLayer.setStyle({ weight: 1.5, color: '#666' });
       this.selectedLayer = null;
     }
   },

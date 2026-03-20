@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bra-alpes-v16';
+const CACHE_NAME = 'bra-alpes-v17';
 const STATIC_ASSETS = [
   './',
   './index.html',

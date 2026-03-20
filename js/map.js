@@ -207,8 +207,8 @@ const MapManager = {
         // Enneigement: show small PNG thumbnail
         var imgSrc = imgs['montagne-enneigement'];
         if (imgSrc) {
-          var imgW = Math.round(60 * scale);
-          var imgH = Math.round(48 * scale);
+          var imgW = Math.max(80, Math.round(60 * scale));
+          var imgH = Math.max(64, Math.round(48 * scale));
           marker.setIcon(L.divIcon({
             className: 'massif-marker',
             html: '<img src="' + imgSrc + '" class="marker-enneigement" style="width:' + imgW + 'px">',

@@ -125,7 +125,7 @@ const Panel = {
 
     // ── PDF button (top) ──
     if (data.pdfUrl) {
-      html += '<a href="' + data.pdfUrl + '" target="_blank" rel="noopener" class="bra-pdf-link">📄 Voir le BRA officiel (PDF)</a>';
+      html += '<button class="bra-pdf-link" onclick="Panel.showPdf(\'' + data.pdfUrl + '\')">Voir le BRA officiel (PDF)</button>';
     }
 
     // ── Section 1: Estimation des risques ──
@@ -197,7 +197,25 @@ const Panel = {
     this.contentEl.innerHTML = html;
   },
 
+  showPdf(pdfUrl) {
+    // Save current content to restore later
+    this._savedContent = this.contentEl.innerHTML;
+    this.contentEl.innerHTML =
+      '<div class="bra-pdf-view">' +
+        '<button class="bra-pdf-back" onclick="Panel.hidePdf()">← Retour au bulletin</button>' +
+        '<iframe src="' + pdfUrl + '" class="bra-pdf-iframe" title="BRA PDF"></iframe>' +
+      '</div>';
+  },
+
+  hidePdf() {
+    if (this._savedContent) {
+      this.contentEl.innerHTML = this._savedContent;
+      this._savedContent = null;
+    }
+  },
+
   hide() {
+    this._savedContent = null;
     this.panelEl.classList.remove('open');
     this.isOpen = false;
     MapManager.deselectMassif();

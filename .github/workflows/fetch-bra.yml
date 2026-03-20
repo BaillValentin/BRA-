@@ -2,9 +2,8 @@ name: Fetch BRA Data
 
 on:
   schedule:
-    # Every 2 hours during daytime (BRA published ~16h local)
     - cron: '0 6,8,10,12,14,16,18,20 * * *'
-  workflow_dispatch: # Manual trigger
+  workflow_dispatch:
 
 jobs:
   fetch:
@@ -16,6 +15,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Install poppler-utils for PDF image extraction
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
       - name: Install dependencies
         working-directory: scripts
         run: npm ci
@@ -24,6 +26,44 @@ jobs:
         env:
           MF_API_KEY: ${{ secrets.MF_API_KEY }}
         run: node scripts/fetch-bra.js
+
+      - name: Extract images from PDFs
+        run: |
+          mkdir -p data/bra/img
+          for pdf in data/bra/*.pdf; do
+            name=$(basename "$pdf" .pdf)
+            # Extract page 1 as a full PNG (contains all the illustrations)
+            pdftoppm -png -f 1 -l 1 -r 200 "$pdf" "data/bra/img/${name}_page"
+            # Rename the output (pdftoppm adds -1 suffix)
+            if [ -f "data/bra/img/${name}_page-1.png" ]; then
+              mv "data/bra/img/${name}_page-1.png" "data/bra/img/${name}_p1.png"
+            fi
+            # Extract page 2
+            pdftoppm -png -f 2 -l 2 -r 200 "$pdf" "data/bra/img/${name}_page"
+            if [ -f "data/bra/img/${name}_page-2.png" ]; then
+              mv "data/bra/img/${name}_page-2.png" "data/bra/img/${name}_p2.png"
+            fi
+          done
+          echo "Extracted images for $(ls data/bra/img/*_p1.png 2>/dev/null | wc -l) massifs"
+
+      - name: Update JSON with image paths
+        run: |
+          for json in data/bra/*.json; do
+            name=$(basename "$json" .json)
+            if [ "$name" = "latest" ]; then continue; fi
+            if [ -f "data/bra/img/${name}_p1.png" ]; then
+              # Add imageUrls to JSON using node
+              node -e "
+                const fs = require('fs');
+                const d = JSON.parse(fs.readFileSync('$json','utf8'));
+                d.imageUrls = {
+                  page1: './data/bra/img/${name}_p1.png',
+                  page2: fs.existsSync('data/bra/img/${name}_p2.png') ? './data/bra/img/${name}_p2.png' : null
+                };
+                fs.writeFileSync('$json', JSON.stringify(d, null, 2));
+              "
+            fi
+          done
 
       - name: Commit and push if changed
         run: |

@@ -443,21 +443,11 @@ async function main() {
 
   for (const [numericId, massifName] of entries) {
     const data = await fetchMassif(numericId, massifName, isFirst);
-    if (isFirst) {
-      await probeImageEndpoints(numericId);
-    }
     isFirst = false;
     if (data) {
       // Fetch PDF
       const hasPdf = await fetchBinaryFile(numericId, massifName, 'pdf', 'pdf', 'application/pdf');
       data.pdfUrl = hasPdf ? `./data/bra/${massifName}.pdf` : null;
-
-      // Fetch illustration images
-      const savedImgs = await fetchImages(numericId, massifName);
-      if (Object.keys(savedImgs).length > 0) {
-        data.imageUrls = savedImgs;
-        console.log(`    ${Object.keys(savedImgs).length} images saved`);
-      }
 
       const filePath = path.join(DATA_DIR, `${massifName}.json`);
       fs.writeFileSync(filePath, JSON.stringify(data, null, 2));

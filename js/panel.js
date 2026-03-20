@@ -130,40 +130,31 @@ const Panel = {
 
     var imgs = data.imageUrls || {};
 
-    // ── Section 1: Estimation des risques ──
+    // ── Section 1: Estimation des risques (SVG) ──
     html += '<div class="bra-card">';
     html += '<div class="bra-card-header">Estimation des risques</div>';
     html += '<div class="bra-card-body">';
 
-    if (imgs.ImageRisque || imgs.ImagePente) {
-      // Use official Météo France images
-      html += '<div class="bra-images-row">';
-      if (imgs.ImageRisque) html += '<img src="' + imgs.ImageRisque + '" alt="Risque" class="bra-img">';
-      if (imgs.ImagePente) html += '<img src="' + imgs.ImagePente + '" alt="Pentes" class="bra-img">';
-      html += '</div>';
-    } else {
-      // Fallback: SVG risk flags + compass rose
-      var allOrientations = data.risks ? data.risks.reduce(function(acc, r) {
-        return acc.concat(r.orientations || []);
-      }, []) : [];
-      var uniqueOrientations = allOrientations.filter(function(v, i, a) { return a.indexOf(v) === i; });
+    var allOrientations = data.risks ? data.risks.reduce(function(acc, r) {
+      return acc.concat(r.orientations || []);
+    }, []) : [];
+    var uniqueOrientations = allOrientations.filter(function(v, i, a) { return a.indexOf(v) === i; });
 
-      html += '<div class="risk-overview">';
-      html += '<div class="risk-flags">';
-      if (data.risks && data.risks.length > 1) {
-        for (var i = 0; i < data.risks.length; i++) {
-          var r = data.risks[i];
-          html += '<div class="risk-altitude-row">' +
-            this.renderRiskFlag(r.level, 44) +
-            '<span class="risk-alt-label">' + r.altitude + 'm</span></div>';
-        }
-      } else {
-        html += this.renderRiskFlag(risk, 56);
+    html += '<div class="risk-overview">';
+    html += '<div class="risk-flags">';
+    if (data.risks && data.risks.length > 1) {
+      for (var i = 0; i < data.risks.length; i++) {
+        var r = data.risks[i];
+        html += '<div class="risk-altitude-row">' +
+          this.renderRiskFlag(r.level, 44) +
+          '<span class="risk-alt-label">' + r.altitude + 'm</span></div>';
       }
-      html += '</div>';
-      html += '<div class="risk-rose">' + this.renderCompassRose(uniqueOrientations) + '</div>';
-      html += '</div>';
+    } else {
+      html += this.renderRiskFlag(risk, 56);
     }
+    html += '</div>';
+    html += '<div class="risk-rose">' + this.renderCompassRose(uniqueOrientations) + '</div>';
+    html += '</div>';
 
     if (data.summary) {
       html += '<div class="risk-summary">' + data.summary.replace(/\n/g, '<br>') + '</div>';
@@ -194,42 +185,27 @@ const Panel = {
       html += '</div></div>';
     }
 
-    // ── Section 3: Qualité de la neige + enneigement image ──
-    html += '<div class="bra-card">';
-    html += '<div class="bra-card-header">Qualité de la neige</div>';
-    html += '<div class="bra-card-body">';
+    // ── Section 3: Qualité de la neige ──
     if (data.snowQuality) {
-      html += '<p>' + data.snowQuality.replace(/\n/g, '<br>') + '</p>';
-    }
-    if (imgs.ImageEnneigement) {
-      html += '<img src="' + imgs.ImageEnneigement + '" alt="Enneigement" class="bra-img-full">';
-    }
-    html += '</div></div>';
-
-    // ── Section 4: Neige fraîche ──
-    if (imgs.ImageNeigeFraiche) {
       html += '<div class="bra-card">';
-      html += '<div class="bra-card-header">Neige fraîche</div>';
+      html += '<div class="bra-card-header">Qualité de la neige</div>';
+      html += '<div class="bra-card-body"><p>' + data.snowQuality.replace(/\n/g, '<br>') + '</p></div>';
+      html += '</div>';
+    }
+
+    // ── Section 4: Illustrations officielles (extraites du PDF) ──
+    if (imgs.page1) {
+      html += '<div class="bra-card">';
+      html += '<div class="bra-card-header">Bulletin complet — Page 1</div>';
       html += '<div class="bra-card-body">';
-      html += '<img src="' + imgs.ImageNeigeFraiche + '" alt="Neige fraîche" class="bra-img-full">';
+      html += '<img src="' + imgs.page1 + '" alt="BRA page 1" class="bra-img-full">';
       html += '</div></div>';
     }
-
-    // ── Section 5: Aperçu météo ──
-    if (imgs.ImageMeteo) {
+    if (imgs.page2) {
       html += '<div class="bra-card">';
-      html += '<div class="bra-card-header">Aperçu météo</div>';
+      html += '<div class="bra-card-header">Conditions nivo-météo — Page 2</div>';
       html += '<div class="bra-card-body">';
-      html += '<img src="' + imgs.ImageMeteo + '" alt="Météo" class="bra-img-full">';
-      html += '</div></div>';
-    }
-
-    // ── Section 6: 7 derniers jours ──
-    if (imgs.Image7derniersjours) {
-      html += '<div class="bra-card">';
-      html += '<div class="bra-card-header">Conditions des 7 derniers jours</div>';
-      html += '<div class="bra-card-body">';
-      html += '<img src="' + imgs.Image7derniersjours + '" alt="7 derniers jours" class="bra-img-full">';
+      html += '<img src="' + imgs.page2 + '" alt="BRA page 2" class="bra-img-full">';
       html += '</div></div>';
     }
 

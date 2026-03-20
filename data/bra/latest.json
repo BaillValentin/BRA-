@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-20T10:05:46.591Z",
+  "lastUpdate": "2026-03-20T10:11:32.730Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 2,
@@ -105,16 +105,6 @@
       "risk": 2,
       "date": "2026-03-19T16:00:00",
       "pdfUrl": "./data/bra/UBAYE.pdf"
-    },
-    "HAUT-VAR-HAUT-VERDON": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf"
-    },
-    "MERCANTOUR": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/MERCANTOUR.pdf"
     }
   }
 }

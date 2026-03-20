@@ -1,0 +1,19 @@
+{
+  "massif": "VERCORS",
+  "date": "2026-03-19T16:00:00",
+  "validUntil": "2026-03-20T18:00:00",
+  "riskMax": 1,
+  "risks": [
+    {
+      "altitude": "Toutes altitudes",
+      "level": 1,
+      "orientations": []
+    }
+  ],
+  "situations": [],
+  "accidental": "Très rares plaques de neige soufflée dans les versants ombragés.",
+  "natural": "Rares coulées au soleil.",
+  "summary": "Départs spontanés : Rares coulées au soleil.\nDéclenchements skieurs : Très rares plaques de neige soufflée dans les versants ombragés.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud au dessus de1800 m. \nLimites skiables : Vers 1200/1700 m selon les versants. \nQualité de la neige vendredi : Neige croûtée voire très dure, s'humidifiant en journée dans les versants au soleil. Neige dense, parfois travaillée par le vent dans les ubacs.",
+  "stability": "Manteau neigeux bien stabilisé.\n\nDéclenchements provoqués : Le manteau neigeux s'est bien consolidé depuis les dernières chutes de neige. Le risque de déclenchement se limite à de très rares avalanches de plaque formées par le vent de nord, peu épaisses et situées surtout près des crêtes des versants ombragés.\n\nDéparts spontanés : Après un bon regel nocturne, l'humidification du manteau neigeux reprend grâce au soleil. Ponctuellement, une avalanche de neige lourde (taille 1 à 2) reste possible vendredi dans une pente surchauffée qui n'aurait pas déjà purgé depuis les dernières chutes de neige."
+}

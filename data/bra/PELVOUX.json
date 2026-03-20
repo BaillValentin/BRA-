@@ -1,0 +1,34 @@
+{
+  "massif": "PELVOUX",
+  "date": "2026-03-19T16:00:00",
+  "validUntil": "2026-03-20T18:00:00",
+  "riskMax": 2,
+  "risks": [
+    {
+      "altitude": "<2200",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2200",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    }
+  ],
+  "situations": [
+    "neige_humide"
+  ],
+  "accidental": "quelques plaques en place en versants nord.",
+  "natural": "rares départs en neige humide au soleil",
+  "summary": "Départs spontanés : rares départs en neige humide au soleil\nDéclenchements skieurs : quelques plaques en place en versants nord.",
+  "snowQuality": "L'enneigement est proche des normales pour une mi-mars.\nHauteurs de neige observées : 295 cm à la Nivôse des Écrins vers 3000 m, 200 cm au Pré de Mme Carle à 1900 m, 80 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs, 1700/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : après un bon regel nocturne en versants ensoleillés, reprise de l'humidification en journée. Au-dessus de 2200/2300 m, neige récente souvent travaillée par le vent, encore localement poudreuse en ubacs restés abrités. ",
+  "stability": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE\n\nDéclenchements provoqués : quelques plaques à vent en place. Ces instabilités se situent dans les zones d'accumulation de neige, souvent derrière les crêtes et ruptures de pentes. Elles sont présentes principalement au dessus de 2200/2300 m environ, principalement en un large versant nord. Elles sont en cours de stabilisation, mais peuvent être localement déclenchées au passage d'un skieur, et provoquer des avalanches de taille petite, à parfois moyenne (1 à 2). \nBien que difficile à déclencher, une rare grande avalanche n'est pas exclue, si la surcharge d'une avalanche de surface vient déstabiliser une couche fragile persistante enfouie en profondeur dans le manteau neigeux.\nEn dessous de 2200/2300 m, le manteau neigeux est généralement stabilisé.\n\nDéparts spontanés : \n- Rares départs ponctuels de neige s'humidifiant en pentes raides ensoleillées au fil de la journée. Départs généralement de petite taille."
+}

@@ -1,0 +1,34 @@
+{
+  "massif": "GRANDES-ROUSSES",
+  "date": "2026-03-19T16:00:00",
+  "validUntil": "2026-03-20T18:00:00",
+  "riskMax": 3,
+  "risks": [
+    {
+      "altitude": "<2400",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2400",
+      "level": 3,
+      "orientations": [
+        "N",
+        "NE",
+        "W",
+        "NW"
+      ]
+    }
+  ],
+  "situations": [],
+  "accidental": "Quelques plaques en altitude.",
+  "natural": "Rares coulées au soleil.",
+  "summary": "Départs spontanés : Rares coulées au soleil.\nDéclenchements skieurs : Quelques plaques en altitude.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud au dessus de1700 m. \nLimites skiables : Vers 1200/1700 m selon les versants. \nQualité de la neige vendredi : Neige croûtée voire très dure, s'humidifiant en journée dans les versants au soleil. Neige dense, parfois travaillée par le vent dans les ubacs.",
+  "stability": "Quelques instabilités superficielles dues au vent d'Est.\n\nDéclenchements provoqués : sous l'effet du soleil, le manteau neigeux s'est bien consolidé dans les adrets. Les plaques anciennes formées par le vent de nord, essentiellement dans les versants froids à plus de 2400 m, se raréfient. Ces plaques sont constituées de neige plus ou moins compacte suivant l'action du vent, et les cassures ne dépassent généralement pas 20/40 cm. De nouvelles plaques plus fines, plus réactives et plus difficilement détectables se sont formées mercredi après-midi sous l'effet du vent d'est parfois violent.\n\nDéparts spontanés : Après un bon regel nocturne, l'humidification du manteau neigeux reprend grâce au soleil. Ponctuellement, une avalanche de neige lourde (taille 1 à 2) reste possible jeudi dans une pente surchauffée qui n'aurait pas déjà purgé depuis les dernières chutes de neige.\n"
+}

@@ -1,16 +1,45 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-03-20T14:00:00Z",
-  "validUntil": "2026-03-21T00:00:00Z",
-  "riskMax": 4,
+  "date": "2026-03-19T16:00:00",
+  "validUntil": "2026-03-20T18:00:00",
+  "riskMax": 2,
   "risks": [
-    { "altitude": "<2500m", "level": 3, "orientations": ["N", "NE", "E", "NW"] },
-    { "altitude": ">2500m", "level": 4, "orientations": ["N", "NE", "E", "SE", "NW"] }
+    {
+      "altitude": "<1700",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">1700",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    }
   ],
-  "situations": ["neige_fraiche", "plaque_vent"],
-  "accidental": "De nombreuses plaques sont présentes, souvent de grande taille, dans un large secteur d'orientations en altitude. Elles peuvent se déclencher au passage d'un seul skieur.",
-  "natural": "Des avalanches de taille moyenne à grande sont possibles, surtout dans les pentes raides chargées par le vent. Quelques départs spontanés sont attendus au fil de la journée avec le réchauffement.",
-  "summary": "Risque fort au-dessus de 2500m, marqué en dessous. Importantes chutes de neige récentes ventées. Soyez très prudents.",
-  "snowQuality": "20 à 40 cm de neige fraîche tombés au-dessus de 1800m. Neige soufflée et transportée par le vent de sud formant des accumulations importantes en versants nord à est. Sous 1500m, neige lourde et humide.",
-  "stability": "Le manteau neigeux est très instable en altitude. Les récentes chutes de neige ont été accompagnées de vent fort de secteur sud, formant de nombreuses plaques à vent dans les versants nord à est. Des sous-couches fragiles persistent sous la neige récente."
+  "situations": [
+    "plaque_vent",
+    "neige_humide"
+  ],
+  "accidental": "petites avalanches de neige humide au soleil",
+  "natural": "rares plaques à vent",
+  "summary": "Départs spontanés : rares plaques à vent\nDéclenchements skieurs : petites avalanches de neige humide au soleil",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce vendredi matin : \n* Dans les adrets sous 2000 m, neige de printemps avec un bon regel nocturne\n* Dans les adrets vers 2000/2800 m et les ubacs sous 2000 m : petite croûte de regel non portante reposant sur de la neige dense. Humidification de surface en journée. \n* Dans les ubacs au-dessus de 2000 m, neige dure et froide, fortement travaillée par le vent. Des vielles traces de skis ressortent par endroits. \n* En haute montagne, neige très hétérogène soit très dure (la glace ressort dans certaines zones) ou grosses accumulations de neige froide avec un enfoncement piéton important. ",
+  "stability": " \n\nDéclenchements provoqués :\n* quelques plaques à vent, dans les versants est, nord et ouest au-dessus de 2000 m. Elles sont plus nombreuses en montant en altitude. Elles sont dures. Assez difficile à déclencher. Elles ont été formées par le Foehn mercredi après-midi et en haute montagne aussi jeudi matin. Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis. \n* un peu de neige humide peut couler sous les skis dans les versants ensoleillés aux heures les plus chaudes, sous 2500 m. Taille 1 (petite)\n* rares plaques dures sur sous-couche fragile persistante enfouies, au-dessus de 2200 m. Très difficile à déclencher par un skieur. Départ possible par chutes de corniches, séracs ou avalanches en cascade. Taille 2 (moyenne) et rarement 3 (grande) avec d’épaisses cassures.\n\nDéparts spontanés :\n* rares avalanches de neige humide, dans les versants ensoleillés sous 2500 m, très rares en début de matinée et un peu plus nombreuses au fil de la course du soleil. Taille 1 rarement 2.\nObservables : enfoncement piéton important, escargots. \n* rares plaques de fond, de jour comme de nuit, dans les pentes lisses et raides (zones herbeuses, dalles rocheuses). Dans les versants sud sous 2200 m et dans les versants nord sous 2000 m. Taille 2."
 }

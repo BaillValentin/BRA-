@@ -34,11 +34,12 @@ const MapManager = {
   // Get a size factor based on current zoom level
   getZoomScale() {
     var zoom = this.map.getZoom();
-    if (zoom <= 7) return 0.6;
-    if (zoom <= 8) return 0.8;
-    if (zoom <= 9) return 1.0;
-    if (zoom <= 10) return 1.3;
-    return 1.6;
+    if (zoom <= 7) return 0.7;
+    if (zoom <= 8) return 1.0;
+    if (zoom <= 9) return 1.5;
+    if (zoom <= 10) return 2.5;
+    if (zoom <= 11) return 4.0;
+    return 6.0;
   },
 
   // ── Risk pictogram SVG (diamond + exclamation marks) ──
@@ -214,8 +215,9 @@ const MapManager = {
         // Enneigement: show small PNG thumbnail
         var imgSrc = imgs['montagne-enneigement'];
         if (imgSrc) {
-          var imgW = Math.max(80, Math.round(60 * scale));
-          var imgH = Math.max(64, Math.round(48 * scale));
+          // Petit en dézoomé, grandit en zoomant, max 250px pour pouvoir lire
+          var imgW = Math.min(250, Math.round(40 * scale));
+          var imgH = Math.min(200, Math.round(32 * scale));
           marker.setIcon(L.divIcon({
             className: 'massif-marker',
             html: '<img src="' + imgSrc + '" class="marker-enneigement" style="width:' + imgW + 'px">',

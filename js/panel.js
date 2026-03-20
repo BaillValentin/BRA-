@@ -242,7 +242,10 @@ const Panel = {
   openPdf(url) {
     var overlay = document.getElementById('pdf-overlay');
     var frame = document.getElementById('pdf-frame');
-    frame.src = url;
+    // Use PDF.js viewer for proper rendering on iOS (all pages + zoom)
+    var absoluteUrl = new URL(url, window.location.href).href;
+    var pdfJsViewer = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=' + encodeURIComponent(absoluteUrl);
+    frame.src = pdfJsViewer;
     overlay.classList.remove('hidden');
   },
 

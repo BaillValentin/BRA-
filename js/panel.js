@@ -123,9 +123,9 @@ const Panel = {
       html += '<div class="bra-date">Bulletin du ' + dateStr + (validStr ? ' — Valable pour le ' + validStr : '') + '</div>';
     }
 
-    // ── PDF button (top) — opens in Safari so user can zoom and use native back ──
+    // ── PDF button ──
     if (data.pdfUrl) {
-      html += '<a href="' + data.pdfUrl + '" target="_blank" rel="noopener" class="bra-pdf-link">Voir le BRA officiel (PDF)</a>';
+      html += '<button class="bra-pdf-link" onclick="Panel.openPdf(\'' + data.pdfUrl + '\')">Voir le BRA officiel (PDF)</button>';
     }
 
     // ── Section 1: Estimation des risques ──
@@ -195,6 +195,20 @@ const Panel = {
     html += '<div class="bra-footer">Source : Météo-France</div>';
 
     this.contentEl.innerHTML = html;
+  },
+
+  openPdf(url) {
+    var overlay = document.getElementById('pdf-overlay');
+    var frame = document.getElementById('pdf-frame');
+    frame.src = url;
+    overlay.classList.remove('hidden');
+  },
+
+  closePdf() {
+    var overlay = document.getElementById('pdf-overlay');
+    var frame = document.getElementById('pdf-frame');
+    overlay.classList.add('hidden');
+    frame.src = '';
   },
 
   hide() {

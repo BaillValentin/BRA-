@@ -175,14 +175,34 @@ body {
 }
 .tendance-section p { font-size: 13px; line-height: 1.5; color: #333; flex: 1; }
 
-/* PDF button — opens in Safari for native zoom/back */
+/* PDF button in panel */
 .bra-pdf-link {
-  display: block; text-align: center; padding: 10px 16px;
+  display: block; width: 100%; text-align: center; padding: 10px 16px;
   background: #3B6FA0; color: white; border-radius: 8px;
-  text-decoration: none; font-size: 13px; font-weight: 600;
-  margin-bottom: 12px;
+  border: none; cursor: pointer; text-decoration: none;
+  font-size: 13px; font-weight: 600; margin-bottom: 12px;
 }
 .bra-pdf-link:hover { background: #2d5a85; }
+
+/* PDF fullscreen overlay */
+.pdf-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 2000; background: white;
+  display: flex; flex-direction: column;
+}
+.pdf-overlay.hidden { display: none; }
+.pdf-back-btn {
+  flex-shrink: 0; padding: 14px 16px;
+  background: #f5f5f5; border: none; border-bottom: 1px solid #ddd;
+  font-size: 16px; font-weight: 600; color: #3B6FA0;
+  cursor: pointer; text-align: left;
+  /* safe area for iPhone notch */
+  padding-top: calc(14px + env(safe-area-inset-top, 0px));
+}
+.pdf-back-btn:hover { background: #eee; }
+.pdf-frame {
+  flex: 1; width: 100%; border: none;
+}
 
 /* Footer */
 .bra-footer {

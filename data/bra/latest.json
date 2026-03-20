@@ -1,120 +1,65 @@
 {
-  "lastUpdate": "2026-03-20T12:36:57.078Z",
+  "lastUpdate": "2026-03-20T14:22:23.096Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/CHABLAIS.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "ARAVIS": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/ARAVIS.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "MONT-BLANC": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/MONT-BLANC.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "BAUGES": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/BAUGES.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "BEAUFORTAIN": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/BEAUFORTAIN.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "HAUTE-TARENTAISE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "CHARTREUSE": {
       "risk": 1,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/CHARTREUSE.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "BELLEDONNE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/BELLEDONNE.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "MAURIENNE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/MAURIENNE.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "VANOISE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/VANOISE.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "HAUTE-MAURIENNE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "GRANDES-ROUSSES": {
       "risk": 3,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "THABOR": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/THABOR.pdf"
-    },
-    "VERCORS": {
-      "risk": 1,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/VERCORS.pdf"
-    },
-    "OISANS": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/OISANS.pdf"
-    },
-    "PELVOUX": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/PELVOUX.pdf"
-    },
-    "QUEYRAS": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/QUEYRAS.pdf"
-    },
-    "DEVOLUY": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/DEVOLUY.pdf"
-    },
-    "CHAMPSAUR": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/CHAMPSAUR.pdf"
-    },
-    "EMBRUNAIS-PARPAILLON": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf"
-    },
-    "UBAYE": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/UBAYE.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "HAUT-VAR-HAUT-VERDON": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf"
+      "date": "2026-03-19T16:00:00"
     },
     "MERCANTOUR": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": "./data/bra/MERCANTOUR.pdf"
+      "date": "2026-03-19T16:00:00"
     }
   }
 }

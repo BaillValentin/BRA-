@@ -102,15 +102,18 @@ async function fetchXML(numericId, massifName) {
   const url = `${API_BASE}/massif/BRA?id-massif=${numericId}&format=xml`;
   try {
     const resp = await fetch(url, { headers: { 'apikey': API_KEY, 'accept': '*/*' } });
+    if (resp.status === 429) { await sleep(5000); return fetchXML(numericId, massifName); }
     if (!resp.ok) { console.error(`  XML ${massifName}: ${resp.status}`); return null; }
     return parseBRA(await resp.text(), massifName);
   } catch (e) { console.error(`  XML ${massifName}: ${e.message}`); return null; }
 }
 
 async function fetchPDF(numericId, massifName) {
+  await sleep(1300);
   const url = `${API_BASE}/massif/BRA?id-massif=${numericId}&format=pdf`;
   try {
     const resp = await fetch(url, { headers: { 'apikey': API_KEY, 'accept': 'application/pdf' } });
+    if (resp.status === 429) { await sleep(5000); return fetchPDF(numericId, massifName); }
     if (!resp.ok) return null;
     const buffer = Buffer.from(await resp.arrayBuffer());
     fs.writeFileSync(path.join(DATA_DIR, `${massifName}.pdf`), buffer);
@@ -118,10 +121,13 @@ async function fetchPDF(numericId, massifName) {
   } catch (e) { return null; }
 }
 
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
 async function fetchImage(numericId, type) {
   const url = `${API_BASE}/massif/image/${type}?id-massif=${numericId}`;
   try {
     const resp = await fetch(url, { headers: { 'apikey': API_KEY, 'accept': '*/*' } });
+    if (resp.status === 429) { await sleep(5000); return fetchImage(numericId, type); } // retry after rate limit
     if (!resp.ok) return false;
     const buffer = Buffer.from(await resp.arrayBuffer());
     if (buffer.length < 500) return false;
@@ -136,6 +142,7 @@ async function fetchAllImages(numericId) {
   for (const type of IMAGE_TYPES) {
     const imgPath = await fetchImage(numericId, type);
     if (imgPath) result[type] = imgPath;
+    await sleep(1300); // stay under 50 req/min
   }
   return result;
 }
@@ -171,7 +178,7 @@ async function main() {
     console.log(`  ✓ ${name}: risk ${data.riskMax} | ${imgCount} imgs${data.pdfUrl ? ' | PDF' : ''}`);
     ok++;
 
-    await new Promise(r => setTimeout(r, 100));
+    await sleep(1300);
   }
 
   fs.writeFileSync(path.join(DATA_DIR, 'latest.json'), JSON.stringify(latest, null, 2));

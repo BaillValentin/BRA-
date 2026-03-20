@@ -217,8 +217,8 @@ const MapManager = {
         var imgSrc = imgs['montagne-enneigement'];
         if (imgSrc) {
           // Petit en dézoomé, grandit en zoomant, max 250px pour pouvoir lire
-          var imgW = Math.min(250, Math.round(40 * scale));
-          var imgH = Math.min(200, Math.round(32 * scale));
+          var imgW = Math.min(250, Math.round(25 * scale));
+          var imgH = Math.min(200, Math.round(20 * scale));
           marker.setIcon(L.divIcon({
             className: 'massif-marker',
             html: '<img src="' + imgSrc + '" class="marker-enneigement" style="width:' + imgW + 'px">',

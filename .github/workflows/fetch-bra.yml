@@ -27,42 +27,31 @@ jobs:
           MF_API_KEY: ${{ secrets.MF_API_KEY }}
         run: node scripts/fetch-bra.js
 
-      - name: Extract individual images from PDFs
+      - name: Extract illustrations from PDFs
         run: |
           mkdir -p data/bra/img
           for pdf in data/bra/*.pdf; do
             name=$(basename "$pdf" .pdf)
-            # Extract all embedded images as PNG
+            # Extract embedded images
             pdfimages -png "$pdf" "data/bra/img/${name}"
-            # List what was extracted (debug, first PDF only)
-            if [ "$name" = "CHABLAIS" ]; then
-              echo "=== Images extracted from $name ==="
-              ls -la data/bra/img/${name}-*.png 2>/dev/null || echo "No images"
-              # Show image sizes to identify them
-              for img in data/bra/img/${name}-*.png; do
-                if [ -f "$img" ]; then
-                  dims=$(identify -format "%wx%h" "$img" 2>/dev/null || echo "?x?")
-                  echo "  $(basename $img): ${dims}"
-                fi
-              done
-            fi
+            # Delete tiny images (<15KB = icons/decorations), keep real illustrations
+            find data/bra/img -name "${name}-*.png" -size -15k -delete
           done
-          echo "Total images: $(ls data/bra/img/*.png 2>/dev/null | wc -l)"
+          # Debug: show what's left for CHABLAIS
+          echo "=== Illustrations kept for CHABLAIS ==="
+          ls -lhS data/bra/img/CHABLAIS-*.png 2>/dev/null || echo "None"
+          echo "Total illustrations: $(ls data/bra/img/*.png 2>/dev/null | wc -l)"
 
       - name: Update JSON with image paths
         run: |
           for json in data/bra/*.json; do
             name=$(basename "$json" .json)
             if [ "$name" = "latest" ]; then continue; fi
-            # Find all extracted images for this massif
             node -e "
               const fs = require('fs');
-              const path = require('path');
               const d = JSON.parse(fs.readFileSync('$json','utf8'));
-              const imgDir = 'data/bra/img';
-              const prefix = '${name}-';
-              const files = fs.readdirSync(imgDir)
-                .filter(f => f.startsWith(prefix) && f.endsWith('.png'))
+              const files = fs.readdirSync('data/bra/img')
+                .filter(f => f.startsWith('${name}-') && f.endsWith('.png'))
                 .sort();
               if (files.length > 0) {
                 d.extractedImages = files.map(f => './data/bra/img/' + f);

@@ -130,31 +130,40 @@ const Panel = {
 
     var imgs = data.imageUrls || {};
 
-    // ── Section 1: Estimation des risques (SVG) ──
+    // ── Section 1: Estimation des risques ──
     html += '<div class="bra-card">';
     html += '<div class="bra-card-header">Estimation des risques</div>';
     html += '<div class="bra-card-body">';
 
-    var allOrientations = data.risks ? data.risks.reduce(function(acc, r) {
-      return acc.concat(r.orientations || []);
-    }, []) : [];
-    var uniqueOrientations = allOrientations.filter(function(v, i, a) { return a.indexOf(v) === i; });
-
-    html += '<div class="risk-overview">';
-    html += '<div class="risk-flags">';
-    if (data.risks && data.risks.length > 1) {
-      for (var i = 0; i < data.risks.length; i++) {
-        var r = data.risks[i];
-        html += '<div class="risk-altitude-row">' +
-          this.renderRiskFlag(r.level, 44) +
-          '<span class="risk-alt-label">' + r.altitude + 'm</span></div>';
-      }
+    if (imgs.ImageRisque || imgs.ImagePente) {
+      // Official Météo France images
+      html += '<div class="bra-images-row">';
+      if (imgs.ImageRisque) html += '<img src="' + imgs.ImageRisque + '" alt="Risque" class="bra-img-half">';
+      if (imgs.ImagePente) html += '<img src="' + imgs.ImagePente + '" alt="Pentes" class="bra-img-half">';
+      html += '</div>';
     } else {
-      html += this.renderRiskFlag(risk, 56);
+      // Fallback SVG
+      var allOrientations = data.risks ? data.risks.reduce(function(acc, r) {
+        return acc.concat(r.orientations || []);
+      }, []) : [];
+      var uniqueOrientations = allOrientations.filter(function(v, i, a) { return a.indexOf(v) === i; });
+
+      html += '<div class="risk-overview">';
+      html += '<div class="risk-flags">';
+      if (data.risks && data.risks.length > 1) {
+        for (var i = 0; i < data.risks.length; i++) {
+          var r = data.risks[i];
+          html += '<div class="risk-altitude-row">' +
+            this.renderRiskFlag(r.level, 44) +
+            '<span class="risk-alt-label">' + r.altitude + 'm</span></div>';
+        }
+      } else {
+        html += this.renderRiskFlag(risk, 56);
+      }
+      html += '</div>';
+      html += '<div class="risk-rose">' + this.renderCompassRose(uniqueOrientations) + '</div>';
+      html += '</div>';
     }
-    html += '</div>';
-    html += '<div class="risk-rose">' + this.renderCompassRose(uniqueOrientations) + '</div>';
-    html += '</div>';
 
     if (data.summary) {
       html += '<div class="risk-summary">' + data.summary.replace(/\n/g, '<br>') + '</div>';
@@ -185,23 +194,40 @@ const Panel = {
       html += '</div></div>';
     }
 
-    // ── Section 3: Qualité de la neige ──
-    if (data.snowQuality) {
+    // ── Section 3: Qualité de la neige + enneigement ──
+    if (data.snowQuality || imgs.ImageEnneigement) {
       html += '<div class="bra-card">';
       html += '<div class="bra-card-header">Qualité de la neige</div>';
-      html += '<div class="bra-card-body"><p>' + data.snowQuality.replace(/\n/g, '<br>') + '</p></div>';
-      html += '</div>';
+      html += '<div class="bra-card-body">';
+      if (data.snowQuality) html += '<p>' + data.snowQuality.replace(/\n/g, '<br>') + '</p>';
+      if (imgs.ImageEnneigement) html += '<img src="' + imgs.ImageEnneigement + '" alt="Enneigement" class="bra-img-full">';
+      html += '</div></div>';
     }
 
-    // ── Section 4: Illustrations extraites du PDF ──
-    var extractedImgs = data.extractedImages || [];
-    if (extractedImgs.length > 0) {
+    // ── Section 4: Neige fraîche ──
+    if (imgs.ImageNeigeFraiche) {
       html += '<div class="bra-card">';
-      html += '<div class="bra-card-header">Illustrations</div>';
-      html += '<div class="bra-card-body bra-illustrations">';
-      for (var k = 0; k < extractedImgs.length; k++) {
-        html += '<img src="' + extractedImgs[k] + '" alt="Illustration BRA" class="bra-img-extracted">';
-      }
+      html += '<div class="bra-card-header">Neige fraîche</div>';
+      html += '<div class="bra-card-body">';
+      html += '<img src="' + imgs.ImageNeigeFraiche + '" alt="Neige fraîche" class="bra-img-full">';
+      html += '</div></div>';
+    }
+
+    // ── Section 5: Aperçu météo ──
+    if (imgs.ImageMeteo) {
+      html += '<div class="bra-card">';
+      html += '<div class="bra-card-header">Aperçu météo</div>';
+      html += '<div class="bra-card-body">';
+      html += '<img src="' + imgs.ImageMeteo + '" alt="Météo" class="bra-img-full">';
+      html += '</div></div>';
+    }
+
+    // ── Section 6: 7 derniers jours ──
+    if (imgs.Image7derniersjours) {
+      html += '<div class="bra-card">';
+      html += '<div class="bra-card-header">Conditions des 7 derniers jours</div>';
+      html += '<div class="bra-card-body">';
+      html += '<img src="' + imgs.Image7derniersjours + '" alt="7 derniers jours" class="bra-img-full">';
       html += '</div></div>';
     }
 

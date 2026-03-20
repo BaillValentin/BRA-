@@ -252,13 +252,20 @@ function parseBRA(xmlData, massifId) {
     };
   }
 
-  // Extract image filenames from XML
+  // Extract image filenames from XML (nested in sub-elements)
   const images = {};
-  const imageKeys = ['ImageRisque', 'ImagePente', 'ImageEnneigement', 'ImageNeigeFraiche', 'ImageMeteo', 'Image7derniersjours'];
-  imageKeys.forEach(key => {
-    const val = getText(bulletin?.[key]);
-    if (val) images[key] = val;
-  });
+  const imgRisque = getText(cartouche?.ImageRisque);
+  const imgPente = getText(cartouche?.ImagePente);
+  const imgEnneigement = getText(bulletin?.ENNEIGEMENT?.ImageEnneigement);
+  const imgNeigeFraiche = getText(bulletin?.NEIGEFRAICHE?.ImageNeigeFraiche);
+  const imgMeteo = getText(bulletin?.METEO?.ImageMeteo);
+  const imgBSH = getText(bulletin?.BSH?.Image7derniersjours);
+  if (imgRisque) images.ImageRisque = imgRisque;
+  if (imgPente) images.ImagePente = imgPente;
+  if (imgEnneigement) images.ImageEnneigement = imgEnneigement;
+  if (imgNeigeFraiche) images.ImageNeigeFraiche = imgNeigeFraiche;
+  if (imgMeteo) images.ImageMeteo = imgMeteo;
+  if (imgBSH) images.Image7derniersjours = imgBSH;
 
   return {
     massif: massifId,
@@ -362,32 +369,23 @@ async function fetchBinaryFile(numericId, massifName, format, ext, accept) {
   }
 }
 
-// Download illustration images — try multiple URL patterns
-async function fetchImages(numericId, massifName) {
+// Download illustration images using filenames from XML
+async function fetchImages(numericId, massifName, images, isFirst) {
   const IMG_DIR = path.join(DATA_DIR, 'img');
   fs.mkdirSync(IMG_DIR, { recursive: true });
 
-  // Known image types and their filename patterns
-  const imageTypes = {
-    ImageRisque: `montagne_risques_${numericId}.png`,
-    ImagePente: `rose_pentes_${numericId}.png`,
-    ImageEnneigement: `montagne_enneigement_${numericId}.png`,
-    ImageNeigeFraiche: `graphe_neige_fraiche_${numericId}.png`,
-    ImageMeteo: `apercu_meteo_${numericId}.png`,
-    Image7derniersjours: `sept_derniers_jours_${numericId}.png`
-  };
+  const savedImages = {};
 
-  // URL patterns to try for each image
+  // URL patterns to try
   const urlPatterns = (filename) => [
-    `${API_BASE}?id-massif=${numericId}&format=image&nom-image=${filename}`,
-    `https://public-api.meteofrance.fr/public/DPBRA/v1/massif/BRA/image?id-massif=${numericId}&nom-image=${filename}`,
-    `https://public-api.meteofrance.fr/public/DPBRA/v1/image?id-massif=${numericId}&nom-image=${filename}`,
+    `https://public-api.meteofrance.fr/public/DPBRA/v1/massif/BRA/${filename}?id-massif=${numericId}`,
+    `https://public-api.meteofrance.fr/public/DPBRA/v1/${filename}?id-massif=${numericId}`,
+    `https://public-api.meteofrance.fr/public/DPBRA/v1/massif/image/${filename}?id-massif=${numericId}`,
+    `${API_BASE}?id-massif=${numericId}&format=${filename}`,
   ];
 
-  const savedImages = {};
-  let triedFirst = false;
-
-  for (const [key, filename] of Object.entries(imageTypes)) {
+  for (const [key, filename] of Object.entries(images)) {
+    if (!filename) continue;
     let saved = false;
     for (const url of urlPatterns(filename)) {
       try {
@@ -395,25 +393,23 @@ async function fetchImages(numericId, massifName) {
           headers: { 'apikey': API_KEY, 'accept': 'image/png' }
         });
         if (response.ok) {
-          const contentType = response.headers.get('content-type') || '';
-          if (contentType.includes('image') || contentType.includes('octet')) {
-            const buffer = Buffer.from(await response.arrayBuffer());
-            if (buffer.length > 100) { // Not an error page
-              fs.writeFileSync(path.join(IMG_DIR, filename), buffer);
-              savedImages[key] = `./data/bra/img/${filename}`;
-              saved = true;
-              break;
-            }
+          const buffer = Buffer.from(await response.arrayBuffer());
+          if (buffer.length > 500) {
+            fs.writeFileSync(path.join(IMG_DIR, filename), buffer);
+            savedImages[key] = `./data/bra/img/${filename}`;
+            saved = true;
+            if (isFirst) console.log(`    [img] ${key} (${filename}): OK via ${url.split('?')[0]}`);
+            break;
           }
+        } else if (isFirst) {
+          console.log(`    [img] ${key}: ${response.status} at ${url}`);
         }
       } catch (e) { /* try next */ }
     }
-    // Log result for first massif only
-    if (!triedFirst) {
-      console.log(`    [img] ${key}: ${saved ? 'OK' : 'not found'}`);
+    if (!saved && isFirst) {
+      console.log(`    [img] ${key} (${filename}): NOT FOUND`);
     }
   }
-  triedFirst = true;
   return savedImages;
 }
 
@@ -448,6 +444,15 @@ async function main() {
       // Fetch PDF
       const hasPdf = await fetchBinaryFile(numericId, massifName, 'pdf', 'pdf', 'application/pdf');
       data.pdfUrl = hasPdf ? `./data/bra/${massifName}.pdf` : null;
+
+      // Fetch illustration images (names come from XML)
+      if (data.images && Object.keys(data.images).length > 0) {
+        const savedImgs = await fetchImages(numericId, massifName, data.images, isFirst);
+        if (Object.keys(savedImgs).length > 0) {
+          data.imageUrls = savedImgs;
+        }
+        console.log(`    images: ${Object.keys(savedImgs).length}/${Object.keys(data.images).length}`);
+      }
 
       const filePath = path.join(DATA_DIR, `${massifName}.json`);
       fs.writeFileSync(filePath, JSON.stringify(data, null, 2));

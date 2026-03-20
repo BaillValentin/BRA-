@@ -1,11 +1,11 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-03-19T16:00:00",
-  "validUntil": "2026-03-20T18:00:00",
+  "date": "2026-03-20T16:00:00",
+  "validUntil": "2026-03-21T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2000",
+      "altitude": "<2200",
       "level": 1,
       "orientations": [
         "N",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "altitude": ">2000",
+      "altitude": ">2200",
       "level": 2,
       "orientations": [
         "N",
@@ -28,9 +28,9 @@
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques avalanches de neige récente / humide au soleil, petites à moyennes --- Plaques suite au transport de neige par le vent.\nDéclenchements skieurs : plaques faciles à déclencher dans la neige récente et/ou ventée.",
-  "stability": "RARES INSTABILITÉS DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : de rares plaques sont encore en place suite aux récentes chutes de neige et au transport engendré par le vent de nord à nord-est, plus nombreuses en Vésubie/Roya où les quantités de neige récente sont plus importantes. Elles sont plus fréquentes dans les ubacs au-dessus de 2000/2200 m environ, là où le manteau neigeux n'est pas encore printanier. Elles deviennent progressivement difficiles à déclencher, mais peuvent encore céder au passage d'un skieur. Elles sont facilement identifiables, présentes dans les zones d'accumulation, en contrebas ou derrière les crêtes, les ruptures de pente ou les bosses. Elles provoquent des avalanches de taille petite  à moyenne (taille 1 à 2). Une très rare grande avalanche (taille 3) n'est pas exclue en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ de surface par exemple. \n\nDéparts spontanés : l'activité en neige humide reste limitée, mais quelques départs sont possibles dans les pentes raides bien ensoleillées, un peu plus nombreux sur la Vésubie et la Roya. Avalanches petites en général, plus rarement moyennes (taille 1, voire 2). ",
-  "snowQuality": "Enneigement excédentaire dans la Roya, proche des normales sur le reste du massif.\nDonnées observées : 157 cm à la Nivôse de Millefonts à 2430 m, 114 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : * Chaînon frontalier : manteau hétérogène avec un peu de neige récente souvent très travaillée par le vent qui côtoie des surfaces durcies/croutées ou décapées. En cours de journée, humidification au soleil.\n*Reste du massif : manteau neigeux printanier dans les adrets, croûté en début de matinée, s'humidifiant au soleil en cours de journée. Dans les ubacs, la neige reste froide au-dessus de 2000 m environ, encore assez légère dans les combes ou forêts d'altitude abritées, mais souvent très travaillée ou durcie par le vent dans les secteurs exposés.",
+  "summary": "Départs spontanés : rares départs de neige humide, de faible ampleur.\nDéclenchements skieurs : rares plaques dans la neige ventée. ",
+  "stability": "RARES INSTABILITÉS DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : de rares plaques sont encore en place suite aux récentes chutes de neige et au transport engendré par le vent de nord à nord-est, plus nombreuses en Vésubie/Roya où les quantités de neige récente sont plus importantes. Elles sont plus fréquentes dans les ubacs au-dessus de 2200/2400 m environ, là où le manteau neigeux n'est pas encore printanier. Elles deviennent progressivement difficiles à déclencher, mais peuvent encore céder au passage d'un skieur. Elles sont facilement identifiables, présentes dans les zones d'accumulation, en contrebas ou derrière les crêtes, les ruptures de pente ou les bosses. Elles provoquent des avalanches de taille petite  à moyenne (taille 1 à 2). Une très rare grande avalanche (taille 3) n'est pas exclue en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ de surface par exemple. \n\nDéparts spontanés : l'activité en neige humide reste limitée, mais quelques départs sont possibles dans les pentes raides bien ensoleillées, un peu plus nombreux sur la Vésubie et la Roya. Avalanches petites en général, plus rarement moyennes (taille 1, voire 2). ",
+  "snowQuality": "Enneigement excédentaire dans la Roya, proche des normales sur le reste du massif.\nDonnées observées : 155 cm à la Nivôse de Millefonts à 2430 m, 113 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : * Chaînon frontalier : manteau hétérogène avec un peu de neige récente souvent très travaillée par le vent qui côtoie des surfaces durcies/croutées ou décapées. En cours de journée, humidification au soleil.\n*Reste du massif : manteau neigeux printanier dans les adrets, croûté en début de matinée, s'humidifiant au soleil en cours de journée. Dans les ubacs, la neige reste froide au-dessus de 2000 m environ, encore assez légère dans les combes ou forêts d'altitude abritées, mais souvent très travaillée ou durcie par le vent dans les secteurs exposés.",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

@@ -1,7 +1,7 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-03-19T16:00:00",
-  "validUntil": "2026-03-20T18:00:00",
+  "date": "2026-03-20T16:00:00",
+  "validUntil": "2026-03-21T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -28,9 +28,9 @@
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques départs de neige humide, de faible ampleur.\nDéclenchements skieurs : rares plaques dans la neige ventée.",
-  "stability": "RARES INSTABILITÉS DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : rares plaques encore en place en altitude suite au transport de neige par le vent des derniers jours. Elles sont plus fréquentes dans les ubacs au-dessus de 2200/2400 m environ, là où le manteau neigeux n'est pas encore printanier. Elles deviennent progressivement difficiles à déclencher, mais peuvent encore céder au passage d'un skieur. Elles sont facilement identifiables, présentes dans les zones d'accumulation, en contrebas ou derrière les crêtes, les ruptures de pente ou les bosses. Elles provoquent des avalanches de taille petite  à moyenne (taille 1 à 2). Une très rare grande avalanche (taille 3) n'est pas exclue en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ de surface par exemple. \n\nDéparts spontanés : l'activité en neige humide reste limitée, mais quelques départs sont possibles dans les pentes raides bien ensoleillées. Avalanches petites en général, plus rarement moyennes (taille 1, voire 2).",
-  "snowQuality": "Enneigement plutôt excédentaire dans le Haut-Verdon, proche des normales dans le Haut Var.\nHauteurs de neige observées : vers 2000 m, 174 cm dans un fond de vallon du Haut-Verdon, 119 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier dans les adrets, croûté en début de matinée, s'humidifiant au soleil en cours de journée. Des accumulations de neige rapportée par le vent en altitude.\nDans les ubacs, la neige reste froide au-dessus de 2000 m environ, encore assez légère dans les combes ou forêts d'altitude abritées, mais souvent très travaillée ou durcie par le vent dans les secteurs exposés.",
+  "summary": "Départs spontanés : rares départs de neige humide, de faible ampleur.\nDéclenchements skieurs : plaques résiduelles dans la neige ventée.",
+  "stability": "RARES INSTABILITÉS DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : plaques résiduelles encore en place en altitude suite au transport de neige par le vent des derniers jours. Elles sont plus fréquentes dans les ubacs au-dessus de 2200/2400 m environ, là où le manteau neigeux n'est pas encore printanier. Elles deviennent progressivement difficiles à déclencher, mais peuvent encore céder au passage d'un skieur. Elles sont facilement identifiables, présentes dans les zones d'accumulation, en contrebas ou derrière les crêtes, les ruptures de pente ou les bosses. Elles provoquent des avalanches de taille petite  à moyenne (taille 1 à 2). Une très rare grande avalanche (taille 3) n'est pas exclue en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ de surface par exemple. \n\nDéparts spontanés : l'activité en neige humide reste limitée, mais quelques départs sont possibles dans les pentes raides bien ensoleillées. Avalanches petites en général, plus rarement moyennes (taille 1, voire 2).",
+  "snowQuality": "Enneigement plutôt excédentaire dans le Haut-Verdon, proche des normales dans le Haut Var.\nHauteurs de neige observées : vers 2000 m, 175 cm dans un fond de vallon du Haut-Verdon, 116 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier dans les adrets, croûté en début de matinée, s'humidifiant au soleil en cours de journée. Des accumulations de neige rapportée par le vent en altitude.\nDans les ubacs, la neige reste froide au-dessus de 2000 m environ, encore assez légère dans les combes ou forêts d'altitude abritées, mais souvent très travaillée ou durcie par le vent dans les secteurs exposés.",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

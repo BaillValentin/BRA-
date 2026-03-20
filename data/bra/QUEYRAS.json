@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-03-19T16:00:00",
-  "validUntil": "2026-03-20T18:00:00",
+  "date": "2026-03-20T15:00:00",
+  "validUntil": "2026-03-21T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -25,12 +25,11 @@
   ],
   "situations": [
     "plaque_vent",
-    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs en neige humide au soleil\nDéclenchements skieurs : quelques plaques en place en versants nord, plus nombreuses dans le Haut-Guil",
-  "stability": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE\n\nDéclenchements provoqués : quelques plaques à vent en place. Ces instabilités se situent dans les zones d'accumulation de neige, souvent derrière les crêtes et ruptures de pentes. Elles sont présentes principalement au dessus de 2200/2300 m environ, principalement en un large versant nord. Elles sont en cours de stabilisation, mais peuvent être localement déclenchées au passage d'un skieur, et provoquer des avalanches de taille petite, à parfois moyenne (1 à 2). Elles sont toutefois plus nombreuses et plus épaisses dans le Haut-Guil où le blocage frontalier de mercredi à donné un peu plus de neige.\nBien que difficile à déclencher, une rare grande avalanche n'est pas exclue, si la surcharge d'une avalanche de surface vient déstabiliser une couche fragile persistante enfouie en profondeur dans le manteau neigeux.\nEn dessous de 2200/2300 m, le manteau neigeux est généralement stabilisé.\n\nDéparts spontanés : \n- Rares départs ponctuels de neige s'humidifiant en pentes raides ensoleillées au fil de la journée. Départs généralement de petite taille.",
-  "snowQuality": "L'enneigement est proche des normales pour une mi-mars.\nHauteurs de neige observées : 160 cm en versant nord du col Izoard à 2300 m, 94 cm à la Nivôse du Col Agnel à 2630 m, 65 cm à Ristolas à 1670 m.\n\nLimite d'enneigement skiable : vers 1600/1800 m selon les secteurs et orientations.\n\nÉtat de la neige de surface : on trouve quelques cm de neige fraîche en secteurs frontaliers. Ailleurs, après un bon regel nocturne en versants ensoleillés, reprise de l'humidification en journée. Au-dessus de 2200/2300 m, neige récente souvent travaillée par le vent, encore localement poudreuse en ubacs restés abrités. ",
+  "summary": "Départs spontanés : rares et peu volumineux au soleil\nDéclenchements skieurs : possibles dans la neige ventée en versants nord d'altitude",
+  "stability": "RARES INSTABILITÉS EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : le manteau neigeux est plutôt bien stabilisé. Les instabilités sont localisées en orientations nord-ouest, nord et nord-est d'altitude supérieure à 2200 m environ, plutôt à proximité des crêtes et ruptures de pente. Elles peuvent être déclenchées par un seul skieur et générer des avalanches de taille petite à moyenne (taille 1 à 2). Ces instabilités se présentent sous la forme de plaques de neige ventée, encore parfois d'aspect poudreux. Elles se sont formées lors du transport de neige ventée en début de semaine, mais sont en cours de stabilisation avec le temps calme et ensoleillé.  Elles restent un peu plus nombreuses sur la partie est du massif, vers l'Italie, où les dernières chutes de neige ont été un peu plus conséquentes.\n\nDéparts spontanés : rares et peu volumineux en neige humide. Départs ponctuels, près des rochers. Taille 1.",
+  "snowQuality": "L'enneigement est proche des normales pour une mi-mars.\nHauteurs de neige observées :  160 cm en versant nord du col Izoard à 2300 m, 150 cm au-dessus de St Véran à 2700 m, 96 cm à la Nivôse du Col Agnel à 2630 m, 63 cm à Ristolas à 1670 m.\n\nLimite d'enneigement skiable : au plus bas à 1600 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000 m en adrets.\n\nÉtat de la neige de surface : neige de printemps en versants ensoleillés avec un très bon regel nocturne. En large versant nord au-dessus de 2200/2300 m, neige restée sèche, travaillée par le vent ou encore d'aspect poudreux. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

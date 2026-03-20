@@ -1,7 +1,7 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-03-19T16:00:00",
-  "validUntil": "2026-03-20T18:00:00",
+  "date": "2026-03-20T15:00:00",
+  "validUntil": "2026-03-21T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -25,12 +25,11 @@
   ],
   "situations": [
     "plaque_vent",
-    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs en neige humide au soleil\nDéclenchements skieurs : quelques plaques en place en versants nord.",
-  "stability": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE\n\nDéclenchements provoqués : quelques plaques à vent en place. Ces instabilités se situent dans les zones d'accumulation de neige, souvent derrière les crêtes et ruptures de pentes. Elles sont présentes principalement au dessus de 2200/2300 m environ, principalement en un large versant nord. Elles sont en cours de stabilisation, mais peuvent être localement déclenchées au passage d'un skieur, et provoquer des avalanches de taille petite, à parfois moyenne (1 à 2). \nBien que difficile à déclencher, une rare grande avalanche n'est pas exclue, si la surcharge d'une avalanche de surface vient déstabiliser une couche fragile persistante enfouie en profondeur dans le manteau neigeux.\nEn dessous de 2200/2300 m, le manteau neigeux est généralement stabilisé.\n\nDéparts spontanés : \n- Rares départs ponctuels de neige s'humidifiant en pentes raides ensoleillées au fil de la journée. Départs généralement de petite taille.",
-  "snowQuality": "L'enneigement est proche des normales pour une mi-mars.\nHauteurs de neige observées : 295 cm à la Nivôse des Écrins vers 3000 m, 200 cm au Pré de Mme Carle à 1900 m, 80 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs, 1700/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : après un bon regel nocturne en versants ensoleillés, reprise de l'humidification en journée. Au-dessus de 2200/2300 m, neige récente souvent travaillée par le vent, encore localement poudreuse en ubacs restés abrités. ",
+  "summary": "Départs spontanés : rares et peu volumineux au soleil\nDéclenchements skieurs : possibles dans la neige ventée en versants nord d'altitude",
+  "stability": "RARES INSTABILITÉS EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : le manteau neigeux est plutôt bien stabilisé. Les instabilités sont plutôt rares, et localisées en orientations nord-ouest, nord et nord-est d'altitude supérieure à 2200 m environ, plutôt à proximité des crêtes et ruptures de pente. Elles peuvent être déclenchées par un seul skieur et générer des avalanches de taille petite à moyenne (taille 1 à 2). Ces instabilités se présentent sous la forme de plaques de neige ventée, encore parfois d'aspect poudreux. Elles se sont formées lors du transport de neige ventée en début de semaine, mais sont en cours de stabilisation avec le temps calme et ensoleillé.    \n\nDéparts spontanés : rares et peu volumineux en neige humide. Départs ponctuels, près des rochers. Taille 1.",
+  "snowQuality": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 292 cm à la Nivôse des Écrins vers 3000 m, 200 cm au Pré de Mme Carle à 1900 m, 79 cm au hameau de Dormillouse à 1730 m.\n\nLimite d'enneigement skiable : vers 1300/1400 m en ubacs, 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige de printemps en versants ensoleillés avec un très bon regel nocturne. En large versant nord au-dessus de 2200/2300 m, neige restée sèche, travaillée par le vent ou encore d'aspect poudreux.  ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

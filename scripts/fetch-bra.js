@@ -282,7 +282,7 @@ function parseBRA(xmlData, massifId) {
   };
 }
 
-async function fetchMassif(numericId, massifName, saveDebugXml = false) {
+async function fetchMassif(numericId, massifName, debugMode = false) {
   const url = `${API_BASE}?id-massif=${numericId}&format=xml`;
   try {
     const response = await fetch(url, {
@@ -294,17 +294,52 @@ async function fetchMassif(numericId, massifName, saveDebugXml = false) {
     }
     const xml = await response.text();
 
-    // Save raw XML for debugging (first massif only)
-    if (saveDebugXml) {
-      fs.mkdirSync(DEBUG_DIR, { recursive: true });
-      fs.writeFileSync(path.join(DEBUG_DIR, `${massifName}.xml`), xml);
-      console.log(`  [debug] Raw XML saved to data/debug/${massifName}.xml`);
+    if (debugMode) {
+      // Log XML structure to find image tags
+      const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@_' });
+      const parsed = parser.parse(xml);
+      const bulletin = parsed?.BULLETINS_NEIGE_AVALANCHE || parsed;
+      console.log(`  [debug] XML top-level keys: ${Object.keys(bulletin).join(', ')}`);
+      // Log first 500 chars of XML to see structure
+      console.log(`  [debug] XML start: ${xml.substring(0, 800).replace(/\n/g, ' ')}`);
+      // Look for any key containing "image" or "Image"
+      const allKeys = JSON.stringify(Object.keys(bulletin)).toLowerCase();
+      console.log(`  [debug] Keys containing 'image': ${Object.keys(bulletin).filter(k => k.toLowerCase().includes('image')).join(', ') || 'NONE'}`);
     }
 
     return parseBRA(xml, massifName);
   } catch (error) {
     console.error(`Error fetching ${massifName}:`, error.message);
     return null;
+  }
+}
+
+// Probe different API formats/endpoints for images (first massif only)
+async function probeImageEndpoints(numericId) {
+  console.log('  [probe] Testing image endpoints...');
+  const tests = [
+    { label: 'format=png', url: `${API_BASE}?id-massif=${numericId}&format=png` },
+    { label: 'format=image', url: `${API_BASE}?id-massif=${numericId}&format=image` },
+    { label: 'format=illustration', url: `${API_BASE}?id-massif=${numericId}&format=illustration` },
+    { label: '/image endpoint', url: `https://public-api.meteofrance.fr/public/DPBRA/v1/massif/image?id-massif=${numericId}` },
+    { label: '/images endpoint', url: `https://public-api.meteofrance.fr/public/DPBRA/v1/massif/images?id-massif=${numericId}` },
+    { label: '/massif/BRA/image', url: `https://public-api.meteofrance.fr/public/DPBRA/v1/massif/BRA/image?id-massif=${numericId}` },
+  ];
+  for (const test of tests) {
+    try {
+      const resp = await fetch(test.url, {
+        headers: { 'apikey': API_KEY, 'accept': '*/*' }
+      });
+      const ct = resp.headers.get('content-type') || '';
+      const len = resp.headers.get('content-length') || '?';
+      console.log(`  [probe] ${test.label}: ${resp.status} | content-type: ${ct} | size: ${len}`);
+      if (resp.ok && resp.status === 200) {
+        const body = await resp.text();
+        console.log(`  [probe] ${test.label} body (first 200): ${body.substring(0, 200)}`);
+      }
+    } catch (e) {
+      console.log(`  [probe] ${test.label}: ERROR ${e.message}`);
+    }
   }
 }
 
@@ -408,6 +443,9 @@ async function main() {
 
   for (const [numericId, massifName] of entries) {
     const data = await fetchMassif(numericId, massifName, isFirst);
+    if (isFirst) {
+      await probeImageEndpoints(numericId);
+    }
     isFirst = false;
     if (data) {
       // Fetch PDF

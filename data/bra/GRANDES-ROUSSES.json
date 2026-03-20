@@ -25,10 +25,437 @@
       ]
     }
   ],
-  "situations": [],
+  "situations": [
+    "plaque_vent"
+  ],
+  "situationText": "",
   "accidental": "Quelques plaques en altitude.",
   "natural": "Rares coulées au soleil.",
   "summary": "Départs spontanés : Rares coulées au soleil.\nDéclenchements skieurs : Quelques plaques en altitude.",
   "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud au dessus de1700 m. \nLimites skiables : Vers 1200/1700 m selon les versants. \nQualité de la neige vendredi : Neige croûtée voire très dure, s'humidifiant en journée dans les versants au soleil. Neige dense, parfois travaillée par le vent dans les ubacs.",
-  "stability": "Quelques instabilités superficielles dues au vent d'Est.\n\nDéclenchements provoqués : sous l'effet du soleil, le manteau neigeux s'est bien consolidé dans les adrets. Les plaques anciennes formées par le vent de nord, essentiellement dans les versants froids à plus de 2400 m, se raréfient. Ces plaques sont constituées de neige plus ou moins compacte suivant l'action du vent, et les cassures ne dépassent généralement pas 20/40 cm. De nouvelles plaques plus fines, plus réactives et plus difficilement détectables se sont formées mercredi après-midi sous l'effet du vent d'est parfois violent.\n\nDéparts spontanés : Après un bon regel nocturne, l'humidification du manteau neigeux reprend grâce au soleil. Ponctuellement, une avalanche de neige lourde (taille 1 à 2) reste possible jeudi dans une pente surchauffée qui n'aurait pas déjà purgé depuis les dernières chutes de neige.\n"
+  "stability": "Quelques instabilités superficielles dues au vent d'Est.\n\nDéclenchements provoqués : sous l'effet du soleil, le manteau neigeux s'est bien consolidé dans les adrets. Les plaques anciennes formées par le vent de nord, essentiellement dans les versants froids à plus de 2400 m, se raréfient. Ces plaques sont constituées de neige plus ou moins compacte suivant l'action du vent, et les cassures ne dépassent généralement pas 20/40 cm. De nouvelles plaques plus fines, plus réactives et plus difficilement détectables se sont formées mercredi après-midi sous l'effet du vent d'est parfois violent.\n\nDéparts spontanés : Après un bon regel nocturne, l'humidification du manteau neigeux reprend grâce au soleil. Ponctuellement, une avalanche de neige lourde (taille 1 à 2) reste possible jeudi dans une pente surchauffée qui n'aurait pas déjà purgé depuis les dernières chutes de neige.\n",
+  "enneigement": {
+    "altitudeMaxNord": "",
+    "altitudeMaxSud": "",
+    "niveaux": [
+      {
+        "altitude": "1500",
+        "nord": "60",
+        "sud": "0"
+      },
+      {
+        "altitude": "2000",
+        "nord": "230",
+        "sud": "130"
+      },
+      {
+        "altitude": "2500",
+        "nord": "320",
+        "sud": "220"
+      }
+    ]
+  },
+  "neigeFraiche": [
+    {
+      "date": "2026-03-15T00:00:00",
+      "altitude": "",
+      "quantite": ""
+    },
+    {
+      "date": "2026-03-16T00:00:00",
+      "altitude": "",
+      "quantite": ""
+    },
+    {
+      "date": "2026-03-17T00:00:00",
+      "altitude": "",
+      "quantite": ""
+    },
+    {
+      "date": "2026-03-18T00:00:00",
+      "altitude": "",
+      "quantite": ""
+    },
+    {
+      "date": "2026-03-19T00:00:00",
+      "altitude": "",
+      "quantite": ""
+    },
+    {
+      "date": "2026-03-20T00:00:00",
+      "altitude": "",
+      "quantite": ""
+    }
+  ],
+  "meteo": {
+    "echeances": [
+      {
+        "date": "2026-03-20T06:00:00",
+        "temps": "0",
+        "temperature": "",
+        "iso0": "2300",
+        "pluieNeige": "-1",
+        "ventDir": "",
+        "ventVitesse": ""
+      },
+      {
+        "date": "2026-03-20T12:00:00",
+        "temps": "0",
+        "temperature": "",
+        "iso0": "2500",
+        "pluieNeige": "-1",
+        "ventDir": "",
+        "ventVitesse": ""
+      },
+      {
+        "date": "2026-03-20T18:00:00",
+        "temps": "0",
+        "temperature": "",
+        "iso0": "2500",
+        "pluieNeige": "-1",
+        "ventDir": "",
+        "ventVitesse": ""
+      },
+      {
+        "date": "2026-03-21T00:00:00",
+        "temps": "1",
+        "temperature": "",
+        "iso0": "2200",
+        "pluieNeige": "-1",
+        "ventDir": "",
+        "ventVitesse": ""
+      }
+    ],
+    "altitudeVent1": "2000",
+    "altitudeVent2": "3000"
+  },
+  "tendance": null,
+  "bsh": {
+    "meteo": {
+      "echeances": [
+        {
+          "date": "2026-03-13T06:00:00",
+          "temps": "0",
+          "temperature": "",
+          "iso0": "2100",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-13T12:00:00",
+          "temps": "6",
+          "temperature": "",
+          "iso0": "2500",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-13T18:00:00",
+          "temps": "6",
+          "temperature": "",
+          "iso0": "2500",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-14T00:00:00",
+          "temps": "6",
+          "temperature": "",
+          "iso0": "2300",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-14T06:00:00",
+          "temps": "4",
+          "temperature": "",
+          "iso0": "2200",
+          "pluieNeige": "1500",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-14T12:00:00",
+          "temps": "63",
+          "temperature": "",
+          "iso0": "1600",
+          "pluieNeige": "1400",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-14T18:00:00",
+          "temps": "61",
+          "temperature": "",
+          "iso0": "1400",
+          "pluieNeige": "1200",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-15T00:00:00",
+          "temps": "61",
+          "temperature": "",
+          "iso0": "1000",
+          "pluieNeige": "800",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-15T06:00:00",
+          "temps": "61",
+          "temperature": "",
+          "iso0": "1000",
+          "pluieNeige": "600",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-15T12:00:00",
+          "temps": "3",
+          "temperature": "",
+          "iso0": "1800",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-15T18:00:00",
+          "temps": "4",
+          "temperature": "",
+          "iso0": "2100",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-16T00:00:00",
+          "temps": "3",
+          "temperature": "",
+          "iso0": "2000",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-16T06:00:00",
+          "temps": "3",
+          "temperature": "",
+          "iso0": "2000",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-16T12:00:00",
+          "temps": "1",
+          "temperature": "",
+          "iso0": "2200",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-16T18:00:00",
+          "temps": "1",
+          "temperature": "",
+          "iso0": "2300",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-17T00:00:00",
+          "temps": "6",
+          "temperature": "",
+          "iso0": "2300",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-17T06:00:00",
+          "temps": "6",
+          "temperature": "",
+          "iso0": "2300",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-17T12:00:00",
+          "temps": "6",
+          "temperature": "",
+          "iso0": "2900",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-17T18:00:00",
+          "temps": "0",
+          "temperature": "",
+          "iso0": "2800",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-18T00:00:00",
+          "temps": "0",
+          "temperature": "",
+          "iso0": "2900",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-18T06:00:00",
+          "temps": "0",
+          "temperature": "",
+          "iso0": "2900",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-18T12:00:00",
+          "temps": "0",
+          "temperature": "",
+          "iso0": "2600",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-18T18:00:00",
+          "temps": "3",
+          "temperature": "",
+          "iso0": "2200",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-19T00:00:00",
+          "temps": "3",
+          "temperature": "",
+          "iso0": "1800",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-19T06:00:00",
+          "temps": "0",
+          "temperature": "",
+          "iso0": "1800",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-19T12:00:00",
+          "temps": "0",
+          "temperature": "",
+          "iso0": "2400",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-19T18:00:00",
+          "temps": "0",
+          "temperature": "",
+          "iso0": "2500",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        },
+        {
+          "date": "2026-03-20T00:00:00",
+          "temps": "0",
+          "temperature": "",
+          "iso0": "2100",
+          "pluieNeige": "-1",
+          "ventDir": "",
+          "ventVitesse": ""
+        }
+      ]
+    },
+    "neigeFraiche": [
+      {
+        "date": "2026-03-14T00:00:00",
+        "altitude": "",
+        "quantite": ""
+      },
+      {
+        "date": "2026-03-15T00:00:00",
+        "altitude": "",
+        "quantite": ""
+      },
+      {
+        "date": "2026-03-16T00:00:00",
+        "altitude": "",
+        "quantite": ""
+      },
+      {
+        "date": "2026-03-17T00:00:00",
+        "altitude": "",
+        "quantite": ""
+      },
+      {
+        "date": "2026-03-18T00:00:00",
+        "altitude": "",
+        "quantite": ""
+      },
+      {
+        "date": "2026-03-19T00:00:00",
+        "altitude": "",
+        "quantite": ""
+      }
+    ],
+    "risques": [
+      {
+        "date": "2026-03-13T00:00:00",
+        "risqueMax": "3",
+        "evoluRisque": ""
+      },
+      {
+        "date": "2026-03-14T00:00:00",
+        "risqueMax": "3",
+        "evoluRisque": ""
+      },
+      {
+        "date": "2026-03-15T00:00:00",
+        "risqueMax": "3",
+        "evoluRisque": ""
+      },
+      {
+        "date": "2026-03-16T00:00:00",
+        "risqueMax": "3",
+        "evoluRisque": ""
+      },
+      {
+        "date": "2026-03-17T00:00:00",
+        "risqueMax": "3",
+        "evoluRisque": ""
+      },
+      {
+        "date": "2026-03-18T00:00:00",
+        "risqueMax": "3",
+        "evoluRisque": ""
+      },
+      {
+        "date": "2026-03-19T00:00:00",
+        "risqueMax": "3",
+        "evoluRisque": ""
+      }
+    ]
+  },
+  "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.GRANDES-ROUSSES.20260319144539.pdf"
 }

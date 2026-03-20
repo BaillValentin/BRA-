@@ -1,97 +1,120 @@
 {
-  "lastUpdate": "2026-03-20T00:43:01.735Z",
+  "lastUpdate": "2026-03-20T01:15:40.140Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.CHABLAIS.20260319150309.pdf"
     },
     "ARAVIS": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.ARAVIS.20260319150256.pdf"
     },
     "MONT-BLANC": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.MONT-BLANC.20260319150316.pdf"
     },
     "BAUGES": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.BAUGES.20260319150307.pdf"
     },
     "BEAUFORTAIN": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.BEAUFORTAIN.20260319143652.pdf"
     },
     "HAUTE-TARENTAISE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.HAUTE-TARENTAISE.20260319143656.pdf"
     },
     "CHARTREUSE": {
       "risk": 1,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.CHARTREUSE.20260319144402.pdf"
     },
     "BELLEDONNE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.BELLEDONNE.20260319144443.pdf"
     },
     "MAURIENNE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.MAURIENNE.20260319143700.pdf"
     },
     "VANOISE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.VANOISE.20260319143703.pdf"
     },
     "HAUTE-MAURIENNE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.HAUTE-MAURIENNE.20260319143654.pdf"
     },
     "GRANDES-ROUSSES": {
       "risk": 3,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.GRANDES-ROUSSES.20260319144539.pdf"
     },
     "THABOR": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.THABOR.20260319150610.pdf"
     },
     "VERCORS": {
       "risk": 1,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.VERCORS.20260319144428.pdf"
     },
     "OISANS": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.OISANS.20260319144403.pdf"
     },
     "PELVOUX": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.PELVOUX.20260319150610.pdf"
     },
     "QUEYRAS": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.QUEYRAS.20260319150610.pdf"
     },
     "DEVOLUY": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.DEVOLUY.20260319150610.pdf"
     },
     "CHAMPSAUR": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.CHAMPSAUR.20260319150613.pdf"
     },
     "EMBRUNAIS-PARPAILLON": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.EMBRUNAIS-PARPAILLON.20260319150613.pdf"
     },
     "UBAYE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.UBAYE.20260319145730.pdf"
     },
     "HAUT-VAR-HAUT-VERDON": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.HAUT-VAR-HAUT-VERDON.20260319145729.pdf"
     },
     "MERCANTOUR": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00"
+      "date": "2026-03-19T16:00:00",
+      "pdfUrl": "https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA/BRA.MERCANTOUR.20260319145730.pdf"
     }
   }
 }

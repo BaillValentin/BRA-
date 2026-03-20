@@ -1,0 +1,511 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CHABLAIS",
+        "name": "Chablais",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.35, 46.20],
+          [6.50, 46.15],
+          [6.75, 46.18],
+          [6.95, 46.28],
+          [6.90, 46.42],
+          [6.70, 46.50],
+          [6.45, 46.48],
+          [6.35, 46.35],
+          [6.35, 46.20]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ARAVIS",
+        "name": "Aravis",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.25, 45.85],
+          [6.40, 45.82],
+          [6.55, 45.88],
+          [6.60, 45.98],
+          [6.55, 46.08],
+          [6.40, 46.10],
+          [6.28, 46.05],
+          [6.22, 45.95],
+          [6.25, 45.85]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MONT-BLANC",
+        "name": "Mont-Blanc",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.60, 45.75],
+          [6.75, 45.72],
+          [6.95, 45.78],
+          [7.05, 45.88],
+          [7.00, 45.98],
+          [6.85, 46.00],
+          [6.68, 45.95],
+          [6.60, 45.85],
+          [6.60, 45.75]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BAUGES",
+        "name": "Bauges",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.95, 45.55],
+          [6.15, 45.52],
+          [6.30, 45.58],
+          [6.35, 45.68],
+          [6.28, 45.78],
+          [6.10, 45.80],
+          [5.98, 45.75],
+          [5.92, 45.65],
+          [5.95, 45.55]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BEAUFORTAIN",
+        "name": "Beaufortain",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.30, 45.62],
+          [6.50, 45.58],
+          [6.68, 45.62],
+          [6.75, 45.72],
+          [6.70, 45.82],
+          [6.55, 45.85],
+          [6.38, 45.80],
+          [6.30, 45.72],
+          [6.30, 45.62]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "HAUTE-TARENTAISE",
+        "name": "Haute-Tarentaise",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.68, 45.42],
+          [6.85, 45.38],
+          [7.05, 45.42],
+          [7.12, 45.52],
+          [7.05, 45.60],
+          [6.88, 45.62],
+          [6.72, 45.58],
+          [6.65, 45.50],
+          [6.68, 45.42]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "VANOISE",
+        "name": "Vanoise",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.50, 45.30],
+          [6.65, 45.28],
+          [6.82, 45.30],
+          [6.92, 45.38],
+          [6.88, 45.48],
+          [6.72, 45.50],
+          [6.55, 45.45],
+          [6.48, 45.38],
+          [6.50, 45.30]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "HAUTE-MAURIENNE",
+        "name": "Haute-Maurienne",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.75, 45.15],
+          [6.90, 45.12],
+          [7.10, 45.15],
+          [7.15, 45.25],
+          [7.08, 45.35],
+          [6.92, 45.38],
+          [6.78, 45.32],
+          [6.72, 45.22],
+          [6.75, 45.15]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MAURIENNE",
+        "name": "Maurienne",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.22, 45.15],
+          [6.40, 45.12],
+          [6.58, 45.15],
+          [6.72, 45.22],
+          [6.75, 45.32],
+          [6.60, 45.38],
+          [6.42, 45.35],
+          [6.25, 45.30],
+          [6.22, 45.15]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CHARTREUSE",
+        "name": "Chartreuse",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.72, 45.25],
+          [5.85, 45.22],
+          [5.98, 45.25],
+          [6.00, 45.35],
+          [5.95, 45.45],
+          [5.82, 45.48],
+          [5.72, 45.42],
+          [5.68, 45.32],
+          [5.72, 45.25]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BELLEDONNE",
+        "name": "Belledonne",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.90, 45.12],
+          [6.05, 45.08],
+          [6.20, 45.12],
+          [6.25, 45.22],
+          [6.22, 45.35],
+          [6.10, 45.40],
+          [5.95, 45.38],
+          [5.88, 45.28],
+          [5.90, 45.12]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GRANDES-ROUSSES",
+        "name": "Grandes-Rousses",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.95, 45.02],
+          [6.10, 44.98],
+          [6.25, 45.02],
+          [6.28, 45.12],
+          [6.22, 45.22],
+          [6.08, 45.25],
+          [5.95, 45.20],
+          [5.90, 45.10],
+          [5.95, 45.02]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "VERCORS",
+        "name": "Vercors",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.32, 44.88],
+          [5.52, 44.85],
+          [5.68, 44.90],
+          [5.75, 45.02],
+          [5.72, 45.15],
+          [5.58, 45.22],
+          [5.40, 45.18],
+          [5.30, 45.05],
+          [5.32, 44.88]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "OISANS",
+        "name": "Oisans",
+        "zone": "alpes-nord"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.02, 44.88],
+          [6.20, 44.85],
+          [6.40, 44.90],
+          [6.48, 45.00],
+          [6.42, 45.12],
+          [6.25, 45.15],
+          [6.08, 45.10],
+          [5.98, 45.00],
+          [6.02, 44.88]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "THABOR",
+        "name": "Thabor",
+        "zone": "alpes-sud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.35, 45.00],
+          [6.52, 44.98],
+          [6.70, 45.02],
+          [6.78, 45.12],
+          [6.72, 45.22],
+          [6.55, 45.25],
+          [6.40, 45.18],
+          [6.32, 45.08],
+          [6.35, 45.00]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PELVOUX",
+        "name": "Pelvoux",
+        "zone": "alpes-sud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.18, 44.72],
+          [6.35, 44.70],
+          [6.55, 44.75],
+          [6.62, 44.85],
+          [6.55, 44.95],
+          [6.38, 44.98],
+          [6.22, 44.92],
+          [6.15, 44.82],
+          [6.18, 44.72]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "QUEYRAS",
+        "name": "Queyras",
+        "zone": "alpes-sud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.60, 44.60],
+          [6.78, 44.58],
+          [6.95, 44.62],
+          [7.00, 44.72],
+          [6.95, 44.82],
+          [6.78, 44.85],
+          [6.62, 44.80],
+          [6.55, 44.70],
+          [6.60, 44.60]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DEVOLUY",
+        "name": "Devoluy",
+        "zone": "alpes-sud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.72, 44.52],
+          [5.88, 44.50],
+          [6.05, 44.55],
+          [6.10, 44.65],
+          [6.05, 44.75],
+          [5.90, 44.78],
+          [5.75, 44.72],
+          [5.68, 44.62],
+          [5.72, 44.52]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CHAMPSAUR",
+        "name": "Champsaur",
+        "zone": "alpes-sud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.95, 44.62],
+          [6.12, 44.58],
+          [6.30, 44.62],
+          [6.38, 44.72],
+          [6.32, 44.82],
+          [6.15, 44.85],
+          [6.00, 44.80],
+          [5.92, 44.72],
+          [5.95, 44.62]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "EMBRUNAIS-PARPAILLON",
+        "name": "Embrunais-Parpaillon",
+        "zone": "alpes-sud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.30, 44.42],
+          [6.50, 44.38],
+          [6.70, 44.42],
+          [6.78, 44.52],
+          [6.72, 44.62],
+          [6.55, 44.65],
+          [6.38, 44.60],
+          [6.28, 44.52],
+          [6.30, 44.42]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "UBAYE",
+        "name": "Ubaye",
+        "zone": "alpes-sud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.45, 44.25],
+          [6.62, 44.22],
+          [6.82, 44.25],
+          [6.92, 44.35],
+          [6.88, 44.48],
+          [6.72, 44.52],
+          [6.55, 44.48],
+          [6.42, 44.38],
+          [6.45, 44.25]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "HAUT-VAR-HAUT-VERDON",
+        "name": "Haut-Var - Haut-Verdon",
+        "zone": "alpes-sud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.40, 44.00],
+          [6.58, 43.95],
+          [6.78, 43.98],
+          [6.90, 44.08],
+          [6.85, 44.20],
+          [6.68, 44.25],
+          [6.50, 44.22],
+          [6.38, 44.12],
+          [6.40, 44.00]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MERCANTOUR",
+        "name": "Mercantour",
+        "zone": "alpes-sud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [6.88, 43.95],
+          [7.05, 43.92],
+          [7.28, 43.98],
+          [7.38, 44.08],
+          [7.32, 44.20],
+          [7.15, 44.25],
+          [6.98, 44.22],
+          [6.85, 44.10],
+          [6.88, 43.95]
+        ]]
+      }
+    }
+  ]
+}

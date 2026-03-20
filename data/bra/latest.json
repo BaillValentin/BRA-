@@ -1,0 +1,28 @@
+{
+  "lastUpdate": "2026-03-20T14:00:00Z",
+  "massifs": {
+    "CHABLAIS": { "risk": 3, "date": "2026-03-20" },
+    "ARAVIS": { "risk": 3, "date": "2026-03-20" },
+    "MONT-BLANC": { "risk": 4, "date": "2026-03-20" },
+    "BAUGES": { "risk": 2, "date": "2026-03-20" },
+    "BEAUFORTAIN": { "risk": 3, "date": "2026-03-20" },
+    "HAUTE-TARENTAISE": { "risk": 3, "date": "2026-03-20" },
+    "VANOISE": { "risk": 3, "date": "2026-03-20" },
+    "HAUTE-MAURIENNE": { "risk": 3, "date": "2026-03-20" },
+    "MAURIENNE": { "risk": 2, "date": "2026-03-20" },
+    "CHARTREUSE": { "risk": 2, "date": "2026-03-20" },
+    "BELLEDONNE": { "risk": 3, "date": "2026-03-20" },
+    "GRANDES-ROUSSES": { "risk": 3, "date": "2026-03-20" },
+    "VERCORS": { "risk": 2, "date": "2026-03-20" },
+    "OISANS": { "risk": 4, "date": "2026-03-20" },
+    "THABOR": { "risk": 3, "date": "2026-03-20" },
+    "PELVOUX": { "risk": 3, "date": "2026-03-20" },
+    "QUEYRAS": { "risk": 2, "date": "2026-03-20" },
+    "DEVOLUY": { "risk": 2, "date": "2026-03-20" },
+    "CHAMPSAUR": { "risk": 2, "date": "2026-03-20" },
+    "EMBRUNAIS-PARPAILLON": { "risk": 2, "date": "2026-03-20" },
+    "UBAYE": { "risk": 2, "date": "2026-03-20" },
+    "HAUT-VAR-HAUT-VERDON": { "risk": 1, "date": "2026-03-20" },
+    "MERCANTOUR": { "risk": 2, "date": "2026-03-20" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "massif": "MONT-BLANC",
+  "date": "2026-03-20T14:00:00Z",
+  "validUntil": "2026-03-21T00:00:00Z",
+  "riskMax": 4,
+  "risks": [
+    { "altitude": "<2500m", "level": 3, "orientations": ["N", "NE", "E", "NW"] },
+    { "altitude": ">2500m", "level": 4, "orientations": ["N", "NE", "E", "SE", "NW"] }
+  ],
+  "situations": ["neige_fraiche", "plaque_vent"],
+  "accidental": "De nombreuses plaques sont présentes, souvent de grande taille, dans un large secteur d'orientations en altitude. Elles peuvent se déclencher au passage d'un seul skieur.",
+  "natural": "Des avalanches de taille moyenne à grande sont possibles, surtout dans les pentes raides chargées par le vent. Quelques départs spontanés sont attendus au fil de la journée avec le réchauffement.",
+  "summary": "Risque fort au-dessus de 2500m, marqué en dessous. Importantes chutes de neige récentes ventées. Soyez très prudents.",
+  "snowQuality": "20 à 40 cm de neige fraîche tombés au-dessus de 1800m. Neige soufflée et transportée par le vent de sud formant des accumulations importantes en versants nord à est. Sous 1500m, neige lourde et humide.",
+  "stability": "Le manteau neigeux est très instable en altitude. Les récentes chutes de neige ont été accompagnées de vent fort de secteur sud, formant de nombreuses plaques à vent dans les versants nord à est. Des sous-couches fragiles persistent sous la neige récente."
+}

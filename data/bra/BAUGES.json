@@ -1,0 +1,15 @@
+{
+  "massif": "BAUGES",
+  "date": "2026-03-20T14:00:00Z",
+  "validUntil": "2026-03-21T00:00:00Z",
+  "riskMax": 2,
+  "risks": [
+    { "altitude": "Toutes altitudes", "level": 2, "orientations": ["N", "NE", "NW"] }
+  ],
+  "situations": ["neige_humide"],
+  "accidental": "De rares plaques peuvent encore être présentes dans les pentes raides d'altitude, principalement en versants nord.",
+  "natural": "Au fil de la journée, quelques coulées de neige humide sont possibles dans les pentes raides ensoleillées.",
+  "summary": "Risque limité. Quelques plaques résiduelles en altitude en versants froids.",
+  "snowQuality": "Neige de printemps classique : regelée le matin, se ramollissant au fil de la journée en versants ensoleillés. En versants nord au-dessus de 1800m, on trouve encore de la neige froide et poudreuse.",
+  "stability": "Le manteau neigeux est globalement bien stabilisé. Seuls quelques points faibles persistent dans les versants froids d'altitude où des couches fragiles anciennes peuvent encore exister."
+}

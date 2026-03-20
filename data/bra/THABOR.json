@@ -36,6 +36,8 @@
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",
     "rose-pentes": "./data/bra/img/rose-pentes_13.png",
     "montagne-enneigement": "./data/bra/img/montagne-enneigement_13.png",
-    "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_13.png"
+    "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_13.png",
+    "apercu-meteo": "./data/bra/img/apercu-meteo_13.png",
+    "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_13.png"
   }
 }

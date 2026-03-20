@@ -82,10 +82,11 @@ const MapManager = {
         var risk = riskData ? riskData.risk : 0;
         return {
           fillColor: RISK_COLORS[risk] || '#999',
-          fillOpacity: 0.25,
-          weight: 1.5,
-          color: '#666',
-          opacity: 0.5
+          fillOpacity: 0.2,
+          weight: 2.5,
+          color: '#2c3e50',
+          opacity: 0.7,
+          dashArray: ''
         };
       },
       onEachFeature: (feature, layer) => {
@@ -99,6 +100,7 @@ const MapManager = {
     }).addTo(this.map);
 
     this.createMarkers(massifsRisks);
+    this.createLabels();
     this.setMode('risque');
   },
 
@@ -129,6 +131,31 @@ const MapManager = {
     }
   },
 
+  createLabels() {
+    this._labelMarkers = [];
+    for (var massifId in this.massifLayers) {
+      var layer = this.massifLayers[massifId];
+      var center = this.getCenter(layer);
+      var massifInfo = MASSIFS[massifId] || { name: massifId };
+
+      // Offset label below the icon marker
+      var labelPos = L.latLng(center.lat - 0.04, center.lng);
+
+      var label = L.marker(labelPos, {
+        icon: L.divIcon({
+          className: 'massif-label',
+          html: '<span>' + massifInfo.name + '</span>',
+          iconSize: [100, 20],
+          iconAnchor: [50, 0]
+        }),
+        interactive: false,
+        zIndexOffset: -100
+      }).addTo(this.map);
+
+      this._labelMarkers.push(label);
+    }
+  },
+
   updateMarkerSizes() {
     this.setMode(this.mode);
   },
@@ -153,9 +180,9 @@ const MapManager = {
         var riskData = massifsRisks[massifId];
         var risk = riskData ? riskData.risk : 0;
         if (mode === 'risque') {
-          layer.setStyle({ fillColor: RISK_COLORS[risk] || '#999', fillOpacity: 0.25 });
+          layer.setStyle({ fillColor: RISK_COLORS[risk] || '#999', fillOpacity: 0.2, weight: 2.5, color: '#2c3e50' });
         } else {
-          layer.setStyle({ fillColor: '#4A90D9', fillOpacity: 0.15 });
+          layer.setStyle({ fillColor: '#4A90D9', fillOpacity: 0.12, weight: 2.5, color: '#2c3e50' });
         }
       });
     }

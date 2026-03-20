@@ -147,8 +147,17 @@ body {
   font-size: 11px; color: rgba(255,255,255,0.7); text-shadow: 0 1px 3px rgba(0,0,0,0.6);
 }
 
-/* Map markers */
+/* Map markers & labels */
 .massif-marker { background: none !important; border: none !important; }
+.massif-label {
+  background: none !important; border: none !important;
+  text-align: center; pointer-events: none;
+}
+.massif-label span {
+  font-size: 10px; font-weight: 600; color: #2c3e50;
+  text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
+  white-space: nowrap;
+}
 .marker-enneigement {
   height: auto; border-radius: 4px;
   box-shadow: 0 1px 6px rgba(0,0,0,0.35);

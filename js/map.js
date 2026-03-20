@@ -93,8 +93,12 @@ const MapManager = {
         var massifId = feature.properties.id;
         this.massifLayers[massifId] = layer;
         layer.on('click', () => {
-          this.selectMassif(massifId, layer);
-          Panel.show(massifId);
+          if (this.compareMode) {
+            this.handleCompareClick(massifId);
+          } else {
+            this.selectMassif(massifId, layer);
+            Panel.show(massifId);
+          }
         });
       }
     }).addTo(this.map);
@@ -120,7 +124,10 @@ const MapManager = {
       marker._massifData = data;
 
       marker.on('click', ((mid, lay) => {
-        return () => { this.selectMassif(mid, lay); Panel.show(mid); };
+        return () => {
+          if (this.compareMode) { this.handleCompareClick(mid); }
+          else { this.selectMassif(mid, lay); Panel.show(mid); }
+        };
       })(massifId, layer));
 
       marker.bindTooltip('<strong>' + massifInfo.name + '</strong>', {
@@ -238,6 +245,118 @@ const MapManager = {
       this.selectedLayer.setStyle({ weight: 1.5, color: '#666' });
       this.selectedLayer = null;
     }
+  },
+
+  // ── Compare mode ──
+  compareMode: false,
+  compareSelection: [],
+
+  toggleCompare() {
+    if (this.compareMode) {
+      this.cancelCompare();
+    } else {
+      this.compareMode = true;
+      this.compareSelection = [];
+      document.getElementById('compare-btn').classList.add('active');
+      document.getElementById('compare-banner').classList.remove('hidden');
+      document.getElementById('compare-text').textContent = 'Sélectionnez le 1er massif';
+    }
+  },
+
+  cancelCompare() {
+    this.compareMode = false;
+    this.compareSelection = [];
+    document.getElementById('compare-btn').classList.remove('active');
+    document.getElementById('compare-banner').classList.add('hidden');
+  },
+
+  closeCompare() {
+    document.getElementById('compare-panel').classList.add('hidden');
+    this.cancelCompare();
+  },
+
+  handleCompareClick(massifId) {
+    if (this.compareSelection.indexOf(massifId) !== -1) return; // already selected
+    this.compareSelection.push(massifId);
+
+    if (this.compareSelection.length === 1) {
+      var name1 = (MASSIFS[massifId] || {}).name || massifId;
+      document.getElementById('compare-text').textContent = name1 + ' ✓ — Sélectionnez le 2e massif';
+    }
+
+    if (this.compareSelection.length === 2) {
+      document.getElementById('compare-banner').classList.add('hidden');
+      this.showComparison(this.compareSelection[0], this.compareSelection[1]);
+    }
+  },
+
+  async showComparison(id1, id2) {
+    var panel = document.getElementById('compare-panel');
+    var content = document.getElementById('compare-content');
+    panel.classList.remove('hidden');
+    content.innerHTML = '<p style="text-align:center;color:#999;padding:30px;">Chargement...</p>';
+
+    var data1 = await DataManager.loadMassifDetail(id1);
+    var data2 = await DataManager.loadMassifDetail(id2);
+
+    if (!data1 || !data2) {
+      content.innerHTML = '<p style="color:#FF3B30;padding:20px;">Données indisponibles.</p>';
+      return;
+    }
+
+    var name1 = (MASSIFS[id1] || {}).name || id1;
+    var name2 = (MASSIFS[id2] || {}).name || id2;
+    var imgs1 = data1.imageUrls || {};
+    var imgs2 = data2.imageUrls || {};
+
+    var html = '';
+
+    // Header with names
+    html += '<div class="cmp-names"><div class="cmp-name">' + name1 + '</div><div class="cmp-vs">VS</div><div class="cmp-name">' + name2 + '</div></div>';
+
+    // Risk comparison
+    html += '<div class="cmp-section"><div class="cmp-section-title">Risque</div><div class="cmp-row">';
+    html += this.buildCompareImg(imgs1['montagne-risques'], data1.riskMax);
+    html += this.buildCompareImg(imgs2['montagne-risques'], data2.riskMax);
+    html += '</div></div>';
+
+    // Rose des pentes
+    html += '<div class="cmp-section"><div class="cmp-section-title">Rose des pentes</div><div class="cmp-row">';
+    html += this.buildCompareImg(imgs1['rose-pentes']);
+    html += this.buildCompareImg(imgs2['rose-pentes']);
+    html += '</div></div>';
+
+    // Enneigement
+    html += '<div class="cmp-section"><div class="cmp-section-title">Enneigement</div><div class="cmp-row">';
+    html += this.buildCompareImg(imgs1['montagne-enneigement']);
+    html += this.buildCompareImg(imgs2['montagne-enneigement']);
+    html += '</div></div>';
+
+    // Neige fraiche
+    html += '<div class="cmp-section"><div class="cmp-section-title">Neige fraîche</div><div class="cmp-row">';
+    html += this.buildCompareImg(imgs1['graphe-neige-fraiche']);
+    html += this.buildCompareImg(imgs2['graphe-neige-fraiche']);
+    html += '</div></div>';
+
+    // Météo
+    html += '<div class="cmp-section"><div class="cmp-section-title">Météo</div><div class="cmp-row">';
+    html += this.buildCompareImg(imgs1['apercu-meteo']);
+    html += this.buildCompareImg(imgs2['apercu-meteo']);
+    html += '</div></div>';
+
+    content.innerHTML = html;
+  },
+
+  buildCompareImg(src, risk) {
+    if (src) {
+      return '<div class="cmp-cell"><img src="' + src + '" class="cmp-img"></div>';
+    }
+    if (risk) {
+      var color = RISK_COLORS[risk] || '#999';
+      var tc = RISK_TEXT_COLORS[risk] || '#FFF';
+      return '<div class="cmp-cell"><div class="cmp-risk-badge" style="background:' + color + ';color:' + tc + '">' + risk + '</div></div>';
+    }
+    return '<div class="cmp-cell"><span style="color:#ccc">—</span></div>';
   },
 
   geolocate() {

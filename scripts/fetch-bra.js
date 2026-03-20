@@ -327,43 +327,58 @@ async function fetchBinaryFile(numericId, massifName, format, ext, accept) {
   }
 }
 
-// Download illustration images from the XML image names
-async function fetchImages(numericId, massifName, images) {
+// Download illustration images — try multiple URL patterns
+async function fetchImages(numericId, massifName) {
   const IMG_DIR = path.join(DATA_DIR, 'img');
   fs.mkdirSync(IMG_DIR, { recursive: true });
 
-  const savedImages = {};
-  for (const [key, filename] of Object.entries(images)) {
-    if (!filename) continue;
-    // Try fetching image via the API image endpoint
-    const url = `https://public-api.meteofrance.fr/public/DPBRA/v1/massif/BRA/image?id-massif=${numericId}&nom-image=${filename}`;
-    try {
-      const response = await fetch(url, {
-        headers: { 'apikey': API_KEY, 'accept': 'image/png' }
-      });
-      if (response.ok) {
-        const buffer = Buffer.from(await response.arrayBuffer());
-        const imgPath = path.join(IMG_DIR, filename);
-        fs.writeFileSync(imgPath, buffer);
-        savedImages[key] = `./data/bra/img/${filename}`;
-        continue;
-      }
-    } catch (e) { /* try next method */ }
+  // Known image types and their filename patterns
+  const imageTypes = {
+    ImageRisque: `montagne_risques_${numericId}.png`,
+    ImagePente: `rose_pentes_${numericId}.png`,
+    ImageEnneigement: `montagne_enneigement_${numericId}.png`,
+    ImageNeigeFraiche: `graphe_neige_fraiche_${numericId}.png`,
+    ImageMeteo: `apercu_meteo_${numericId}.png`,
+    Image7derniersjours: `sept_derniers_jours_${numericId}.png`
+  };
 
-    // Fallback: try format=image with image name as param
-    const url2 = `${API_BASE}?id-massif=${numericId}&format=image&image=${filename}`;
-    try {
-      const response = await fetch(url2, {
-        headers: { 'apikey': API_KEY, 'accept': 'image/png' }
-      });
-      if (response.ok) {
-        const buffer = Buffer.from(await response.arrayBuffer());
-        const imgPath = path.join(IMG_DIR, filename);
-        fs.writeFileSync(imgPath, buffer);
-        savedImages[key] = `./data/bra/img/${filename}`;
-      }
-    } catch (e) { /* skip */ }
+  // URL patterns to try for each image
+  const urlPatterns = (filename) => [
+    `${API_BASE}?id-massif=${numericId}&format=image&nom-image=${filename}`,
+    `https://public-api.meteofrance.fr/public/DPBRA/v1/massif/BRA/image?id-massif=${numericId}&nom-image=${filename}`,
+    `https://public-api.meteofrance.fr/public/DPBRA/v1/image?id-massif=${numericId}&nom-image=${filename}`,
+  ];
+
+  const savedImages = {};
+  let triedFirst = false;
+
+  for (const [key, filename] of Object.entries(imageTypes)) {
+    let saved = false;
+    for (const url of urlPatterns(filename)) {
+      try {
+        const response = await fetch(url, {
+          headers: { 'apikey': API_KEY, 'accept': 'image/png' }
+        });
+        if (response.ok) {
+          const contentType = response.headers.get('content-type') || '';
+          if (contentType.includes('image') || contentType.includes('octet')) {
+            const buffer = Buffer.from(await response.arrayBuffer());
+            if (buffer.length > 100) { // Not an error page
+              fs.writeFileSync(path.join(IMG_DIR, filename), buffer);
+              savedImages[key] = `./data/bra/img/${filename}`;
+              saved = true;
+              break;
+            }
+          }
+        }
+      } catch (e) { /* try next */ }
+    }
+    // Log result for first massif only
+    if (!triedFirst) {
+      console.log(`    [img] ${key}: ${saved ? 'OK' : 'not found'}`);
+    }
   }
+  triedFirst = true;
   return savedImages;
 }
 
@@ -400,8 +415,8 @@ async function main() {
       data.pdfUrl = hasPdf ? `./data/bra/${massifName}.pdf` : null;
 
       // Fetch illustration images
-      if (data.images && Object.keys(data.images).length > 0) {
-        const savedImgs = await fetchImages(numericId, massifName, data.images);
+      const savedImgs = await fetchImages(numericId, massifName);
+      if (Object.keys(savedImgs).length > 0) {
         data.imageUrls = savedImgs;
         console.log(`    ${Object.keys(savedImgs).length} images saved`);
       }

@@ -204,16 +204,13 @@ body {
   flex: 1; width: 100%; border: none;
 }
 
-/* BRA official images */
-.bra-images-row {
-  display: flex; align-items: center; justify-content: center;
-  gap: 12px; flex-wrap: wrap; margin-bottom: 12px;
+/* BRA extracted illustrations */
+.bra-illustrations {
+  display: flex; flex-direction: column; gap: 8px; align-items: center;
 }
-.bra-img {
-  max-width: 48%; height: auto; border-radius: 4px;
-}
-.bra-img-full {
-  width: 100%; height: auto; border-radius: 4px; margin-top: 10px;
+.bra-img-extracted {
+  max-width: 100%; height: auto; border-radius: 4px;
+  border: 1px solid #eee;
 }
 
 /* Footer */

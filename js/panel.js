@@ -193,19 +193,15 @@ const Panel = {
       html += '</div>';
     }
 
-    // ── Section 4: Illustrations officielles (extraites du PDF) ──
-    if (imgs.page1) {
+    // ── Section 4: Illustrations extraites du PDF ──
+    var extractedImgs = data.extractedImages || [];
+    if (extractedImgs.length > 0) {
       html += '<div class="bra-card">';
-      html += '<div class="bra-card-header">Bulletin complet — Page 1</div>';
-      html += '<div class="bra-card-body">';
-      html += '<img src="' + imgs.page1 + '" alt="BRA page 1" class="bra-img-full">';
-      html += '</div></div>';
-    }
-    if (imgs.page2) {
-      html += '<div class="bra-card">';
-      html += '<div class="bra-card-header">Conditions nivo-météo — Page 2</div>';
-      html += '<div class="bra-card-body">';
-      html += '<img src="' + imgs.page2 + '" alt="BRA page 2" class="bra-img-full">';
+      html += '<div class="bra-card-header">Illustrations</div>';
+      html += '<div class="bra-card-body bra-illustrations">';
+      for (var k = 0; k < extractedImgs.length; k++) {
+        html += '<img src="' + extractedImgs[k] + '" alt="Illustration BRA" class="bra-img-extracted">';
+      }
       html += '</div></div>';
     }
 

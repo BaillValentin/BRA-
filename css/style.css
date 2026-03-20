@@ -175,19 +175,12 @@ body {
 }
 .tendance-section p { font-size: 13px; line-height: 1.5; color: #333; flex: 1; }
 
-/* PDF embed */
-.bra-pdf-container {
-  display: flex; flex-direction: column; gap: 8px;
-  margin-bottom: 12px;
-}
-.bra-pdf-iframe {
-  width: 100%; height: 65vh; border: 1px solid #ddd;
-  border-radius: 8px; background: #f5f5f5;
-}
+/* PDF link button */
 .bra-pdf-link {
-  display: block; text-align: center; padding: 10px;
+  display: block; text-align: center; padding: 10px 16px;
   background: #3B6FA0; color: white; border-radius: 8px;
-  text-decoration: none; font-size: 14px; font-weight: 500;
+  text-decoration: none; font-size: 13px; font-weight: 600;
+  margin-bottom: 12px;
 }
 .bra-pdf-link:hover { background: #2d5a85; }
 

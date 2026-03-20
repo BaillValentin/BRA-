@@ -299,42 +299,25 @@ async function fetchMassif(numericId, massifName, saveDebugXml = false) {
   }
 }
 
-// Fetch the daily BRA index to get PDF timestamps
-const PDF_BASE = 'https://donneespubliques.meteofrance.fr/donnees_libres/Pdf/BRA';
-
-async function fetchPdfIndex() {
-  const today = new Date();
-  // Try today and yesterday (BRA may not be published yet today)
-  for (let daysBack = 0; daysBack <= 1; daysBack++) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - daysBack);
-    const dateStr = d.toISOString().slice(0, 10).replace(/-/g, '');
-    const url = `${PDF_BASE}/bra.${dateStr}.json`;
-    try {
-      const response = await fetch(url);
-      if (response.ok) {
-        const data = await response.json();
-        console.log(`PDF index found for ${dateStr} (${data.length} entries)`);
-        // Build a map of massif name -> timestamp
-        const map = {};
-        data.forEach(entry => {
-          if (entry.massif) {
-            map[entry.massif.toUpperCase()] = entry.heures?.[0] || '';
-          }
-        });
-        return map;
-      }
-    } catch (e) {
-      // continue to next day
+// Fetch BRA PDF from the DPBRA API and save locally
+async function fetchMassifPdf(numericId, massifName) {
+  const url = `${API_BASE}?id-massif=${numericId}&format=pdf`;
+  try {
+    const response = await fetch(url, {
+      headers: { 'apikey': API_KEY, 'accept': 'application/pdf' }
+    });
+    if (!response.ok) {
+      console.error(`  PDF fetch failed for ${massifName}: ${response.status}`);
+      return false;
     }
+    const buffer = Buffer.from(await response.arrayBuffer());
+    const pdfPath = path.join(DATA_DIR, `${massifName}.pdf`);
+    fs.writeFileSync(pdfPath, buffer);
+    return true;
+  } catch (error) {
+    console.error(`  PDF error for ${massifName}:`, error.message);
+    return false;
   }
-  console.log('Could not fetch PDF index');
-  return {};
-}
-
-function buildPdfUrl(massifName, timestamp) {
-  if (!timestamp) return null;
-  return `${PDF_BASE}/BRA.${massifName}.${timestamp}.pdf`;
 }
 
 async function main() {
@@ -349,9 +332,6 @@ async function main() {
   }
 
   fs.mkdirSync(DATA_DIR, { recursive: true });
-
-  // Fetch PDF index in parallel with BRA data
-  const pdfIndex = await fetchPdfIndex();
 
   const entries = Object.entries(MASSIFS);
   console.log(`Fetching BRA data for ${entries.length} massifs...`);
@@ -368,9 +348,9 @@ async function main() {
     const data = await fetchMassif(numericId, massifName, isFirst);
     isFirst = false;
     if (data) {
-      // Add PDF URL
-      const timestamp = pdfIndex[massifName] || '';
-      data.pdfUrl = buildPdfUrl(massifName, timestamp);
+      // Fetch PDF from DPBRA API and save locally
+      const hasPdf = await fetchMassifPdf(numericId, massifName);
+      data.pdfUrl = hasPdf ? `./data/bra/${massifName}.pdf` : null;
 
       const filePath = path.join(DATA_DIR, `${massifName}.json`);
       fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
@@ -382,7 +362,7 @@ async function main() {
       };
 
       successCount++;
-      console.log(`  ✓ ${massifName}: risk ${data.riskMax}${data.pdfUrl ? ' [PDF]' : ''}`);
+      console.log(`  ✓ ${massifName}: risk ${data.riskMax}${hasPdf ? ' [PDF]' : ''}`);
     } else {
       console.log(`  ✗ ${massifName}: failed`);
     }

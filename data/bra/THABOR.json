@@ -458,5 +458,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/THABOR.pdf"
+  "pdfUrl": "./data/bra/THABOR.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/THABOR_p1.png",
+    "page2": "./data/bra/img/THABOR_p2.png"
+  }
 }

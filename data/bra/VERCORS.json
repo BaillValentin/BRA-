@@ -443,5 +443,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/VERCORS.pdf"
+  "pdfUrl": "./data/bra/VERCORS.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/VERCORS_p1.png",
+    "page2": "./data/bra/img/VERCORS_p2.png"
+  }
 }

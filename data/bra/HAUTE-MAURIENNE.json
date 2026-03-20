@@ -448,5 +448,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf"
+  "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/HAUTE-MAURIENNE_p1.png",
+    "page2": "./data/bra/img/HAUTE-MAURIENNE_p2.png"
+  }
 }

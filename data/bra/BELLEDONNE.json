@@ -456,5 +456,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/BELLEDONNE.pdf"
+  "pdfUrl": "./data/bra/BELLEDONNE.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/BELLEDONNE_p1.png",
+    "page2": "./data/bra/img/BELLEDONNE_p2.png"
+  }
 }

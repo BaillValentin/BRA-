@@ -458,5 +458,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/DEVOLUY.pdf"
+  "pdfUrl": "./data/bra/DEVOLUY.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/DEVOLUY_p1.png",
+    "page2": "./data/bra/img/DEVOLUY_p2.png"
+  }
 }

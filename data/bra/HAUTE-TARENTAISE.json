@@ -448,5 +448,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf"
+  "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/HAUTE-TARENTAISE_p1.png",
+    "page2": "./data/bra/img/HAUTE-TARENTAISE_p2.png"
+  }
 }

@@ -468,5 +468,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/ARAVIS.pdf"
+  "pdfUrl": "./data/bra/ARAVIS.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/ARAVIS_p1.png",
+    "page2": "./data/bra/img/ARAVIS_p2.png"
+  }
 }

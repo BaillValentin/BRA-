@@ -458,5 +458,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/UBAYE.pdf"
+  "pdfUrl": "./data/bra/UBAYE.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/UBAYE_p1.png",
+    "page2": "./data/bra/img/UBAYE_p2.png"
+  }
 }

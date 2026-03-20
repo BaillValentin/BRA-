@@ -458,5 +458,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/MERCANTOUR.pdf"
+  "pdfUrl": "./data/bra/MERCANTOUR.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/MERCANTOUR_p1.png",
+    "page2": "./data/bra/img/MERCANTOUR_p2.png"
+  }
 }

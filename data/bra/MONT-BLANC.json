@@ -468,5 +468,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/MONT-BLANC.pdf"
+  "pdfUrl": "./data/bra/MONT-BLANC.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/MONT-BLANC_p1.png",
+    "page2": "./data/bra/img/MONT-BLANC_p2.png"
+  }
 }

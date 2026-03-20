@@ -448,5 +448,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/MAURIENNE.pdf"
+  "pdfUrl": "./data/bra/MAURIENNE.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/MAURIENNE_p1.png",
+    "page2": "./data/bra/img/MAURIENNE_p2.png"
+  }
 }

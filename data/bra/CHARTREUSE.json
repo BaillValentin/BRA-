@@ -443,5 +443,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/CHARTREUSE.pdf"
+  "pdfUrl": "./data/bra/CHARTREUSE.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/CHARTREUSE_p1.png",
+    "page2": "./data/bra/img/CHARTREUSE_p2.png"
+  }
 }

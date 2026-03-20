@@ -467,5 +467,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/BAUGES.pdf"
+  "pdfUrl": "./data/bra/BAUGES.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/BAUGES_p1.png",
+    "page2": "./data/bra/img/BAUGES_p2.png"
+  }
 }

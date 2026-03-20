@@ -448,5 +448,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/BEAUFORTAIN.pdf"
+  "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/BEAUFORTAIN_p1.png",
+    "page2": "./data/bra/img/BEAUFORTAIN_p2.png"
+  }
 }

@@ -468,5 +468,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/CHABLAIS.pdf"
+  "pdfUrl": "./data/bra/CHABLAIS.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/CHABLAIS_p1.png",
+    "page2": "./data/bra/img/CHABLAIS_p2.png"
+  }
 }

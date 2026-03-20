@@ -456,5 +456,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/OISANS.pdf"
+  "pdfUrl": "./data/bra/OISANS.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/OISANS_p1.png",
+    "page2": "./data/bra/img/OISANS_p2.png"
+  }
 }

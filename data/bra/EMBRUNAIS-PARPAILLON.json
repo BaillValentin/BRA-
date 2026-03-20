@@ -458,5 +458,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf"
+  "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/EMBRUNAIS-PARPAILLON_p1.png",
+    "page2": "./data/bra/img/EMBRUNAIS-PARPAILLON_p2.png"
+  }
 }

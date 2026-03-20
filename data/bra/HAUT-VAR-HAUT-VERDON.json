@@ -458,5 +458,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf"
+  "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/HAUT-VAR-HAUT-VERDON_p1.png",
+    "page2": "./data/bra/img/HAUT-VAR-HAUT-VERDON_p2.png"
+  }
 }

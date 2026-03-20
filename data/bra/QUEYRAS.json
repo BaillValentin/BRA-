@@ -458,5 +458,9 @@
     ]
   },
   "images": {},
-  "pdfUrl": "./data/bra/QUEYRAS.pdf"
+  "pdfUrl": "./data/bra/QUEYRAS.pdf",
+  "imageUrls": {
+    "page1": "./data/bra/img/QUEYRAS_p1.png",
+    "page2": "./data/bra/img/QUEYRAS_p2.png"
+  }
 }

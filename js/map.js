@@ -84,11 +84,10 @@ const MapManager = {
         var risk = riskData ? riskData.risk : 0;
         return {
           fillColor: RISK_COLORS[risk] || '#999',
-          fillOpacity: 0.2,
-          weight: 2.5,
-          color: '#2c3e50',
-          opacity: 0.7,
-          dashArray: ''
+          fillOpacity: 0.15,
+          weight: 3,
+          color: '#e74c3c',
+          opacity: 0.8
         };
       },
       onEachFeature: (feature, layer) => {
@@ -148,7 +147,7 @@ const MapManager = {
       var massifInfo = MASSIFS[massifId] || { name: massifId };
 
       // Offset label below the icon marker
-      var labelPos = L.latLng(center.lat - 0.03, center.lng);
+      var labelPos = L.latLng(center.lat - 0.06, center.lng);
 
       var label = L.marker(labelPos, {
         icon: L.divIcon({
@@ -189,9 +188,9 @@ const MapManager = {
         var riskData = massifsRisks[massifId];
         var risk = riskData ? riskData.risk : 0;
         if (mode === 'risque') {
-          layer.setStyle({ fillColor: RISK_COLORS[risk] || '#999', fillOpacity: 0.2, weight: 2.5, color: '#2c3e50' });
+          layer.setStyle({ fillColor: RISK_COLORS[risk] || '#999', fillOpacity: 0.15, weight: 3, color: '#e74c3c' });
         } else {
-          layer.setStyle({ fillColor: '#4A90D9', fillOpacity: 0.12, weight: 2.5, color: '#2c3e50' });
+          layer.setStyle({ fillColor: '#4A90D9', fillOpacity: 0.1, weight: 3, color: '#e74c3c' });
         }
       });
     }
@@ -238,14 +237,14 @@ const MapManager = {
   },
 
   selectMassif(massifId, layer) {
-    if (this.selectedLayer) this.selectedLayer.setStyle({ weight: 1.5, color: '#666' });
-    layer.setStyle({ weight: 3, color: '#0066FF' });
+    if (this.selectedLayer) this.selectedLayer.setStyle({ weight: 3, color: '#e74c3c' });
+    layer.setStyle({ weight: 4, color: '#0066FF' });
     this.selectedLayer = layer;
   },
 
   deselectMassif() {
     if (this.selectedLayer) {
-      this.selectedLayer.setStyle({ weight: 1.5, color: '#666' });
+      this.selectedLayer.setStyle({ weight: 3, color: '#e74c3c' });
       this.selectedLayer = null;
     }
   },

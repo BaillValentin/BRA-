@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <!-- Background with rounded corners -->
+  <rect width="192" height="192" rx="24" ry="24" fill="#1a1a2e"/>
+
+  <!-- Snow/sky subtle gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2a4e" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#1a1a2e" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="roundClip">
+      <rect width="192" height="192" rx="24" ry="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundClip)">
+    <!-- Sky background -->
+    <rect width="192" height="192" fill="url(#skyGrad)"/>
+
+    <!-- Back mountain (lighter) -->
+    <polygon points="20,155 75,65 130,155" fill="#3a3a5e" opacity="0.7"/>
+
+    <!-- Main mountain (white) -->
+    <polygon points="55,155 110,50 165,155" fill="#ffffff"/>
+
+    <!-- Snow cap detail on main mountain -->
+    <polygon points="110,50 95,80 110,72 125,80" fill="#e8e8f0"/>
+
+    <!-- Front-left mountain ridge -->
+    <polygon points="5,155 50,90 95,155" fill="#d0d0e0" opacity="0.8"/>
+
+    <!-- Ground/base -->
+    <rect x="0" y="150" width="192" height="42" fill="#1a1a2e"/>
+
+    <!-- Avalanche risk diamond (warning indicator) -->
+    <g transform="translate(138, 52)">
+      <!-- Diamond shadow -->
+      <polygon points="0,-30 30,0 0,30 -30,0" fill="#000000" opacity="0.3" transform="translate(2,2)"/>
+      <!-- Diamond shape -->
+      <polygon points="0,-30 30,0 0,30 -30,0" fill="#FF9500"/>
+      <!-- Diamond border -->
+      <polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#FFD60A" stroke-width="2"/>
+      <!-- BRA text inside diamond -->
+      <text x="0" y="2" text-anchor="middle" dominant-baseline="middle"
+            font-family="Arial, Helvetica, sans-serif" font-weight="bold"
+            font-size="14" fill="#1a1a2e" letter-spacing="1">BRA</text>
+    </g>
+
+    <!-- Small snowflakes for atmosphere -->
+    <circle cx="30" cy="30" r="2" fill="#ffffff" opacity="0.4"/>
+    <circle cx="70" cy="20" r="1.5" fill="#ffffff" opacity="0.3"/>
+    <circle cx="155" cy="130" r="1.5" fill="#ffffff" opacity="0.3"/>
+    <circle cx="170" cy="35" r="1" fill="#ffffff" opacity="0.2"/>
+
+    <!-- Risk scale bar at bottom -->
+    <rect x="20" y="162" width="35" height="6" rx="3" fill="#52B788"/>
+    <rect x="59" y="162" width="35" height="6" rx="3" fill="#FFD60A"/>
+    <rect x="98" y="162" width="35" height="6" rx="3" fill="#FF9500"/>
+    <rect x="137" y="162" width="35" height="6" rx="3" fill="#FF3B30"/>
+  </g>
+</svg>

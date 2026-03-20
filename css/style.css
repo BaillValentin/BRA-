@@ -231,6 +231,104 @@ body {
   gap: 4px;
 }
 
+/* BRA visuals: risk flag + compass rose */
+.bra-visuals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 16px 0;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 12px;
+}
+
+.risk-flag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.risk-flag-label {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.compass-rose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Risk by altitude cards */
+.risk-altitude-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.risk-altitude-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.risk-altitude-level {
+  flex-shrink: 0;
+}
+
+.risk-altitude-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 13px;
+}
+
+.risk-altitude-info strong {
+  font-size: 14px;
+  color: #333;
+}
+
+.risk-altitude-orientations {
+  color: #888;
+  font-size: 12px;
+}
+
+/* Situations grid with icons */
+.situations-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.situation-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.situation-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #444;
+}
+
+.bra-date {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
 .situation-tag {
   display: inline-block;
   padding: 4px 8px;

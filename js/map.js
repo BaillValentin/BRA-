@@ -28,6 +28,11 @@ const MapManager = {
   },
 
   getCenter(layer) {
+    // Use official center from GeoJSON properties if available
+    var props = layer.feature && layer.feature.properties;
+    if (props && props.lat_center && props.lon_center) {
+      return L.latLng(props.lat_center, props.lon_center);
+    }
     return layer.getBounds().getCenter();
   },
 
@@ -143,7 +148,7 @@ const MapManager = {
       var massifInfo = MASSIFS[massifId] || { name: massifId };
 
       // Offset label below the icon marker
-      var labelPos = L.latLng(center.lat - 0.04, center.lng);
+      var labelPos = L.latLng(center.lat - 0.03, center.lng);
 
       var label = L.marker(labelPos, {
         icon: L.divIcon({

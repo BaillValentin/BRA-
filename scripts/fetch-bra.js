@@ -252,6 +252,14 @@ function parseBRA(xmlData, massifId) {
     };
   }
 
+  // Extract image filenames from XML
+  const images = {};
+  const imageKeys = ['ImageRisque', 'ImagePente', 'ImageEnneigement', 'ImageNeigeFraiche', 'ImageMeteo', 'Image7derniersjours'];
+  imageKeys.forEach(key => {
+    const val = getText(bulletin?.[key]);
+    if (val) images[key] = val;
+  });
+
   return {
     massif: massifId,
     date: getAttr(bulletin, 'DATEBULLETIN') || getAttr(bulletin, 'DATEVALIDITE') || new Date().toISOString(),
@@ -269,7 +277,8 @@ function parseBRA(xmlData, massifId) {
     neigeFraiche,
     meteo,
     tendance: tendanceData,
-    bsh
+    bsh,
+    images
   };
 }
 
@@ -299,25 +308,63 @@ async function fetchMassif(numericId, massifName, saveDebugXml = false) {
   }
 }
 
-// Fetch BRA PDF from the DPBRA API and save locally
-async function fetchMassifPdf(numericId, massifName) {
-  const url = `${API_BASE}?id-massif=${numericId}&format=pdf`;
+// Fetch a binary file from the DPBRA API and save locally
+async function fetchBinaryFile(numericId, massifName, format, ext, accept) {
+  const url = `${API_BASE}?id-massif=${numericId}&format=${format}`;
   try {
     const response = await fetch(url, {
-      headers: { 'apikey': API_KEY, 'accept': 'application/pdf' }
+      headers: { 'apikey': API_KEY, 'accept': accept }
     });
     if (!response.ok) {
-      console.error(`  PDF fetch failed for ${massifName}: ${response.status}`);
       return false;
     }
     const buffer = Buffer.from(await response.arrayBuffer());
-    const pdfPath = path.join(DATA_DIR, `${massifName}.pdf`);
-    fs.writeFileSync(pdfPath, buffer);
+    const filePath = path.join(DATA_DIR, `${massifName}.${ext}`);
+    fs.writeFileSync(filePath, buffer);
     return true;
   } catch (error) {
-    console.error(`  PDF error for ${massifName}:`, error.message);
     return false;
   }
+}
+
+// Download illustration images from the XML image names
+async function fetchImages(numericId, massifName, images) {
+  const IMG_DIR = path.join(DATA_DIR, 'img');
+  fs.mkdirSync(IMG_DIR, { recursive: true });
+
+  const savedImages = {};
+  for (const [key, filename] of Object.entries(images)) {
+    if (!filename) continue;
+    // Try fetching image via the API image endpoint
+    const url = `https://public-api.meteofrance.fr/public/DPBRA/v1/massif/BRA/image?id-massif=${numericId}&nom-image=${filename}`;
+    try {
+      const response = await fetch(url, {
+        headers: { 'apikey': API_KEY, 'accept': 'image/png' }
+      });
+      if (response.ok) {
+        const buffer = Buffer.from(await response.arrayBuffer());
+        const imgPath = path.join(IMG_DIR, filename);
+        fs.writeFileSync(imgPath, buffer);
+        savedImages[key] = `./data/bra/img/${filename}`;
+        continue;
+      }
+    } catch (e) { /* try next method */ }
+
+    // Fallback: try format=image with image name as param
+    const url2 = `${API_BASE}?id-massif=${numericId}&format=image&image=${filename}`;
+    try {
+      const response = await fetch(url2, {
+        headers: { 'apikey': API_KEY, 'accept': 'image/png' }
+      });
+      if (response.ok) {
+        const buffer = Buffer.from(await response.arrayBuffer());
+        const imgPath = path.join(IMG_DIR, filename);
+        fs.writeFileSync(imgPath, buffer);
+        savedImages[key] = `./data/bra/img/${filename}`;
+      }
+    } catch (e) { /* skip */ }
+  }
+  return savedImages;
 }
 
 async function main() {
@@ -348,9 +395,16 @@ async function main() {
     const data = await fetchMassif(numericId, massifName, isFirst);
     isFirst = false;
     if (data) {
-      // Fetch PDF from DPBRA API and save locally
-      const hasPdf = await fetchMassifPdf(numericId, massifName);
+      // Fetch PDF
+      const hasPdf = await fetchBinaryFile(numericId, massifName, 'pdf', 'pdf', 'application/pdf');
       data.pdfUrl = hasPdf ? `./data/bra/${massifName}.pdf` : null;
+
+      // Fetch illustration images
+      if (data.images && Object.keys(data.images).length > 0) {
+        const savedImgs = await fetchImages(numericId, massifName, data.images);
+        data.imageUrls = savedImgs;
+        console.log(`    ${Object.keys(savedImgs).length} images saved`);
+      }
 
       const filePath = path.join(DATA_DIR, `${massifName}.json`);
       fs.writeFileSync(filePath, JSON.stringify(data, null, 2));

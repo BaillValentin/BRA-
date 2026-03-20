@@ -204,6 +204,18 @@ body {
   flex: 1; width: 100%; border: none;
 }
 
+/* BRA official images */
+.bra-images-row {
+  display: flex; align-items: center; justify-content: center;
+  gap: 12px; flex-wrap: wrap; margin-bottom: 12px;
+}
+.bra-img {
+  max-width: 48%; height: auto; border-radius: 4px;
+}
+.bra-img-full {
+  width: 100%; height: auto; border-radius: 4px; margin-top: 10px;
+}
+
 /* Footer */
 .bra-footer {
   text-align: center; font-size: 11px; color: #aaa;

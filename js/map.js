@@ -21,9 +21,8 @@ const MapManager = {
       maxZoom: CONFIG.MAX_ZOOM
     }).addTo(this.map);
 
-    // Update marker sizes on zoom (zoomend + zoom for smooth transitions)
+    // Update marker sizes on zoom end only (avoid flickering during animation)
     this.map.on('zoomend', () => this.updateMarkerSizes());
-    this.map.on('zoom', () => this.updateMarkerSizes());
 
     return this;
   },

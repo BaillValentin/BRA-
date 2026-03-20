@@ -175,7 +175,7 @@ body {
 
 /* ── Compare ── */
 .compare-btn {
-  position: fixed; top: 80px; right: 60px; z-index: 500;
+  position: fixed; top: 130px; right: 10px; z-index: 500;
   width: 44px; height: 44px; background: white; border: none;
   border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   cursor: pointer; display: flex; align-items: center; justify-content: center; color: #333;

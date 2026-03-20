@@ -98,22 +98,25 @@ function parseBRA(xmlData, massifId) {
 
 // ── API Fetching ──
 
-async function fetchXML(numericId, massifName) {
+async function fetchXML(numericId, massifName, retries = 2) {
   const url = `${API_BASE}/massif/BRA?id-massif=${numericId}&format=xml`;
   try {
     const resp = await fetch(url, { headers: { 'apikey': API_KEY, 'accept': '*/*' } });
-    if (resp.status === 429) { await sleep(5000); return fetchXML(numericId, massifName); }
+    if ((resp.status === 429 || resp.status >= 500) && retries > 0) {
+      await sleep(5000);
+      return fetchXML(numericId, massifName, retries - 1);
+    }
     if (!resp.ok) { console.error(`  XML ${massifName}: ${resp.status}`); return null; }
     return parseBRA(await resp.text(), massifName);
   } catch (e) { console.error(`  XML ${massifName}: ${e.message}`); return null; }
 }
 
-async function fetchPDF(numericId, massifName) {
+async function fetchPDF(numericId, massifName, retries = 2) {
   await sleep(1300);
   const url = `${API_BASE}/massif/BRA?id-massif=${numericId}&format=pdf`;
   try {
     const resp = await fetch(url, { headers: { 'apikey': API_KEY, 'accept': 'application/pdf' } });
-    if (resp.status === 429) { await sleep(5000); return fetchPDF(numericId, massifName); }
+    if ((resp.status === 429 || resp.status >= 500) && retries > 0) { await sleep(5000); return fetchPDF(numericId, massifName, retries - 1); }
     if (!resp.ok) return null;
     const buffer = Buffer.from(await resp.arrayBuffer());
     fs.writeFileSync(path.join(DATA_DIR, `${massifName}.pdf`), buffer);
@@ -123,11 +126,11 @@ async function fetchPDF(numericId, massifName) {
 
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-async function fetchImage(numericId, type) {
+async function fetchImage(numericId, type, retries = 2) {
   const url = `${API_BASE}/massif/image/${type}?id-massif=${numericId}`;
   try {
     const resp = await fetch(url, { headers: { 'apikey': API_KEY, 'accept': '*/*' } });
-    if (resp.status === 429) { await sleep(5000); return fetchImage(numericId, type); } // retry after rate limit
+    if ((resp.status === 429 || resp.status >= 500) && retries > 0) { await sleep(5000); return fetchImage(numericId, type, retries - 1); }
     if (!resp.ok) return false;
     const buffer = Buffer.from(await resp.arrayBuffer());
     if (buffer.length < 500) return false;

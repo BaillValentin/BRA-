@@ -1,10 +1,11 @@
 const MapManager = {
   map: null,
   massifLayers: {},
+  imageMarkers: {},
   selectedLayer: null,
   geojsonLayer: null,
   latestData: null,
-  mode: 'risque', // 'risque' or 'enneigement'
+  mode: 'risque',
 
   init() {
     this.map = L.map('map', {
@@ -23,36 +24,28 @@ const MapManager = {
     return this;
   },
 
+  // Get center point of a polygon feature
+  getCenter(layer) {
+    return layer.getBounds().getCenter();
+  },
+
   renderMassifs(geojson, latestData) {
     this.latestData = latestData;
-    const massifsRisks = latestData ? latestData.massifs : {};
+    var massifsRisks = latestData ? latestData.massifs : {};
 
     this.geojsonLayer = L.geoJSON(geojson, {
-      style: (feature) => {
-        const massifId = feature.properties.id;
-        const riskData = massifsRisks[massifId];
-        const risk = riskData ? riskData.risk : 0;
+      style: function() {
         return {
-          fillColor: RISK_COLORS[risk] || '#999999',
-          fillOpacity: 0.5,
+          fillColor: 'transparent',
+          fillOpacity: 0,
           weight: 2,
-          color: '#333333',
-          opacity: 0.8
+          color: '#555',
+          opacity: 0.6
         };
       },
       onEachFeature: (feature, layer) => {
-        const massifId = feature.properties.id;
-        const massifInfo = MASSIFS[massifId] || { name: massifId };
-        const riskData = massifsRisks[massifId];
-        const risk = riskData ? riskData.risk : '?';
-        const label = RISK_LABELS[risk] || 'Inconnu';
-
+        var massifId = feature.properties.id;
         this.massifLayers[massifId] = layer;
-
-        layer.bindTooltip(
-          '<strong>' + massifInfo.name + '</strong><br>Risque: ' + risk + ' - ' + label,
-          { sticky: true, className: 'massif-tooltip' }
-        );
 
         layer.on('click', () => {
           this.selectMassif(massifId, layer);
@@ -60,68 +53,116 @@ const MapManager = {
         });
       }
     }).addTo(this.map);
+
+    // Place image markers at each massif center
+    this.createImageMarkers(massifsRisks);
+    this.setMode('risque');
+  },
+
+  createImageMarkers(massifsRisks) {
+    for (var massifId in this.massifLayers) {
+      var layer = this.massifLayers[massifId];
+      var center = this.getCenter(layer);
+      var data = massifsRisks[massifId] || {};
+
+      // Create marker with a placeholder - will be updated by setMode
+      var marker = L.marker(center, {
+        icon: L.divIcon({
+          className: 'massif-img-marker',
+          html: '<div class="marker-img-container"></div>',
+          iconSize: [70, 55],
+          iconAnchor: [35, 27]
+        })
+      }).addTo(this.map);
+
+      // Store data for later updates
+      marker._massifId = massifId;
+      marker._massifData = data;
+
+      // Click opens panel
+      marker.on('click', () => {
+        this.selectMassif(massifId, layer);
+        Panel.show(massifId);
+      });
+
+      // Tooltip
+      var massifInfo = MASSIFS[massifId] || { name: massifId };
+      marker.bindTooltip('<strong>' + massifInfo.name + '</strong>', {
+        direction: 'top', offset: [0, -30]
+      });
+
+      this.imageMarkers[massifId] = marker;
+    }
   },
 
   setMode(mode) {
     this.mode = mode;
-    // Update toggle UI
-    document.querySelectorAll('.map-toggle-btn').forEach(btn => {
+
+    // Update toggle buttons
+    document.querySelectorAll('.map-toggle-btn').forEach(function(btn) {
       btn.classList.toggle('active', btn.dataset.mode === mode);
     });
-    // Update polygon styles
-    if (!this.geojsonLayer || !this.latestData) return;
-    const massifsRisks = this.latestData.massifs;
 
-    this.geojsonLayer.eachLayer(layer => {
-      const massifId = layer.feature.properties.id;
-      const massifInfo = MASSIFS[massifId] || { name: massifId };
-      const riskData = massifsRisks[massifId];
-      const risk = riskData ? riskData.risk : 0;
+    // Update legend visibility
+    var legend = document.getElementById('legend');
+    legend.style.display = mode === 'risque' ? '' : 'none';
 
-      if (mode === 'risque') {
-        layer.setStyle({
-          fillColor: RISK_COLORS[risk] || '#999',
-          fillOpacity: 0.5
-        });
-        layer.setTooltipContent(
-          '<strong>' + massifInfo.name + '</strong><br>Risque: ' + risk + ' - ' + (RISK_LABELS[risk] || '?')
-        );
-      } else {
-        // Enneigement mode — neutral blue tones
-        layer.setStyle({
-          fillColor: '#4A90D9',
-          fillOpacity: 0.35
-        });
-        layer.setTooltipContent(
-          '<strong>' + massifInfo.name + '</strong><br>Voir enneigement'
-        );
+    // Update markers
+    for (var massifId in this.imageMarkers) {
+      var marker = this.imageMarkers[massifId];
+      var data = marker._massifData;
+      var imgs = data.img || {};
+
+      var imgSrc = '';
+      if (mode === 'risque' && imgs['montagne-risques']) {
+        imgSrc = imgs['montagne-risques'];
+      } else if (mode === 'enneigement' && imgs['montagne-enneigement']) {
+        imgSrc = imgs['montagne-enneigement'];
       }
-    });
+
+      if (imgSrc) {
+        marker.setIcon(L.divIcon({
+          className: 'massif-img-marker',
+          html: '<img src="' + imgSrc + '" class="marker-img" alt="">',
+          iconSize: [75, 60],
+          iconAnchor: [37, 30]
+        }));
+        marker.setOpacity(1);
+      } else {
+        // Fallback: show risk number
+        var risk = data.risk || '?';
+        var color = RISK_COLORS[risk] || '#999';
+        var textColor = RISK_TEXT_COLORS[risk] || '#FFF';
+        marker.setIcon(L.divIcon({
+          className: 'massif-img-marker',
+          html: '<div class="marker-risk-badge" style="background:' + color + ';color:' + textColor + '">' + risk + '</div>',
+          iconSize: [36, 36],
+          iconAnchor: [18, 18]
+        }));
+        marker.setOpacity(1);
+      }
+    }
   },
 
   selectMassif(massifId, layer) {
     if (this.selectedLayer) {
-      this.selectedLayer.setStyle({ weight: 2, color: '#333333' });
+      this.selectedLayer.setStyle({ weight: 2, color: '#555' });
     }
-    layer.setStyle({ weight: 4, color: '#0066FF' });
+    layer.setStyle({ weight: 3, color: '#0066FF' });
     this.selectedLayer = layer;
   },
 
   deselectMassif() {
     if (this.selectedLayer) {
-      this.selectedLayer.setStyle({ weight: 2, color: '#333333' });
+      this.selectedLayer.setStyle({ weight: 2, color: '#555' });
       this.selectedLayer = null;
     }
   },
 
   geolocate() {
-    if (!navigator.geolocation) {
-      alert('Géolocalisation non supportée.');
-      return;
-    }
+    if (!navigator.geolocation) { alert('Géolocalisation non supportée.'); return; }
     var btn = document.getElementById('geolocate');
     btn.classList.add('locating');
-
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         this.map.setView([pos.coords.latitude, pos.coords.longitude], 11);

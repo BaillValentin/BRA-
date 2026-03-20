@@ -162,7 +162,10 @@ async function main() {
     data.imageUrls = await fetchAllImages(id);
 
     fs.writeFileSync(path.join(DATA_DIR, `${name}.json`), JSON.stringify(data, null, 2));
-    latest.massifs[name] = { risk: data.riskMax, date: data.date };
+    latest.massifs[name] = {
+      risk: data.riskMax, date: data.date,
+      img: data.imageUrls || {}
+    };
 
     const imgCount = Object.keys(data.imageUrls).length;
     console.log(`  ✓ ${name}: risk ${data.riskMax} | ${imgCount} imgs${data.pdfUrl ? ' | PDF' : ''}`);

@@ -162,6 +162,7 @@ body {
   height: auto; border-radius: 4px;
   box-shadow: 0 1px 6px rgba(0,0,0,0.35);
   border: 1.5px solid white; background: white; cursor: pointer;
+  transition: width 0.15s ease;
 }
 .marker-snow-badge {
   width: 30px; height: 30px; border-radius: 50%; background: #4A90D9;

@@ -21,8 +21,9 @@ const MapManager = {
       maxZoom: CONFIG.MAX_ZOOM
     }).addTo(this.map);
 
-    // Update marker sizes on zoom
+    // Update marker sizes on zoom (zoomend + zoom for smooth transitions)
     this.map.on('zoomend', () => this.updateMarkerSizes());
+    this.map.on('zoom', () => this.updateMarkerSizes());
 
     return this;
   },
@@ -34,12 +35,8 @@ const MapManager = {
   // Get a size factor based on current zoom level
   getZoomScale() {
     var zoom = this.map.getZoom();
-    if (zoom <= 7) return 0.7;
-    if (zoom <= 8) return 1.0;
-    if (zoom <= 9) return 1.5;
-    if (zoom <= 10) return 2.5;
-    if (zoom <= 11) return 4.0;
-    return 6.0;
+    // Échelle continue : 0.5 à z6, ~6.5 à z13
+    return Math.pow(2, (zoom - 7) * 0.7);
   },
 
   // ── Risk pictogram SVG (diamond + exclamation marks) ──

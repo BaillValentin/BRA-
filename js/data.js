@@ -3,30 +3,30 @@ const DataManager = {
   _latestData: null,
   _geojson: null,
 
-  async loadLatestRisks() {
-    if (this._latestData) return this._latestData;
+  async loadLatestRisks(forceRefresh = false) {
+    if (this._latestData && !forceRefresh) return this._latestData;
     try {
-      const response = await fetch(CONFIG.DATA_BASE_URL + 'latest.json');
+      const response = await fetch(CONFIG.DATA_BASE_URL + 'latest.json', { cache: 'no-cache' });
       if (!response.ok) throw new Error('Failed to load latest risks');
       this._latestData = await response.json();
       return this._latestData;
     } catch (error) {
       console.error('Error loading latest risks:', error);
-      return null;
+      return this._latestData || null;
     }
   },
 
-  async loadMassifDetail(massifId) {
-    if (this._cache[massifId]) return this._cache[massifId];
+  async loadMassifDetail(massifId, forceRefresh = false) {
+    if (this._cache[massifId] && !forceRefresh) return this._cache[massifId];
     try {
-      const response = await fetch(CONFIG.DATA_BASE_URL + massifId + '.json');
+      const response = await fetch(CONFIG.DATA_BASE_URL + massifId + '.json', { cache: 'no-cache' });
       if (!response.ok) throw new Error('Failed to load massif: ' + massifId);
       const data = await response.json();
       this._cache[massifId] = data;
       return data;
     } catch (error) {
       console.error('Error loading massif detail:', error);
-      return null;
+      return this._cache[massifId] || null;
     }
   },
 

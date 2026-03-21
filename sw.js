@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bra-alpes-v25';
+const CACHE_NAME = 'bra-alpes-v26';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -45,7 +45,7 @@ self.addEventListener('fetch', (event) => {
   // For BRA data files: network first, fallback to cache
   if (url.pathname.includes('/data/bra/')) {
     event.respondWith(
-      fetch(event.request)
+      fetch(event.request, { cache: 'no-cache' })
         .then((response) => {
           // Clone and cache the fresh response
           const responseClone = response.clone();

@@ -1,36 +1,29 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-03-20T16:00:00",
-  "validUntil": "2026-03-21T18:00:00",
-  "riskMax": 2,
+  "date": "2026-03-21T16:00:00",
+  "validUntil": "2026-03-22T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2200",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2200",
+      "altitude": "Toutes altitudes",
       "level": 2,
       "orientations": [
         "N",
-        "NE",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "plaque_vent",
-    "sous_couche_fragile",
-    "neige_humide"
+    "neige_fraiche",
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : rares départs de neige humide, de faible ampleur.\nDéclenchements skieurs : plaques résiduelles dans la neige ventée.",
-  "stability": "RARES INSTABILITÉS DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : plaques résiduelles encore en place en altitude suite au transport de neige par le vent des derniers jours. Elles sont plus fréquentes dans les ubacs au-dessus de 2200/2400 m environ, là où le manteau neigeux n'est pas encore printanier. Elles deviennent progressivement difficiles à déclencher, mais peuvent encore céder au passage d'un skieur. Elles sont facilement identifiables, présentes dans les zones d'accumulation, en contrebas ou derrière les crêtes, les ruptures de pente ou les bosses. Elles provoquent des avalanches de taille petite  à moyenne (taille 1 à 2). Une très rare grande avalanche (taille 3) n'est pas exclue en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ de surface par exemple. \n\nDéparts spontanés : l'activité en neige humide reste limitée, mais quelques départs sont possibles dans les pentes raides bien ensoleillées. Avalanches petites en général, plus rarement moyennes (taille 1, voire 2).",
-  "snowQuality": "Enneigement plutôt excédentaire dans le Haut-Verdon, proche des normales dans le Haut Var.\nHauteurs de neige observées : vers 2000 m, 175 cm dans un fond de vallon du Haut-Verdon, 116 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier dans les adrets, croûté en début de matinée, s'humidifiant au soleil en cours de journée. Des accumulations de neige rapportée par le vent en altitude.\nDans les ubacs, la neige reste froide au-dessus de 2000 m environ, encore assez légère dans les combes ou forêts d'altitude abritées, mais souvent très travaillée ou durcie par le vent dans les secteurs exposés.",
+  "summary": "Départs spontanés : rares départs superficiels de neige fraiche, plus fréquents en fin de journée.\nDéclenchements skieurs : rares plaques en journée, devenant nombreuses en fin de journée vers les crêtes avec la levé du vent de nord-est. ",
+  "stability": "PLAQUES EN FORMATION DANS LA NEIGE FRAICHE VENTÉE EN FIN DE JOURNÉE\n\nDéclenchements provoqués : rares plaques en place en ubacs d'altitude en journée, puis de nouvelles plaques à vent se forment en fin d'après-midi avec la poursuite des chutes de neige et la levée du vent de nord-est. Plaques très facile à déclencher au passage d'un skieur, présentes plutôt aux abords des crêtes dans un large versant nord-ouest à sud-est, et générant des avalanches de taille petites à moyenne (taille 1 à 2).\nEn versant nord au-dessus de 2200 m environ, des départs un peu plus volumineux sont possibles au passage d'un skieur par déstabilisation d'une plaque plus ancienne et épaisse, restant généralement de taille moyenne (taille 2).\n\nDéparts spontanés : rares départs superficiels de neige fraiche, devenant un peu plus fréquent en fin de journée avec la levée du vent de nord-est. Avalanches de taille petites à moyenne (taille 1 à 2). ",
+  "snowQuality": "Enneigement plutôt excédentaire dans le Haut-Verdon, proche des normales dans le Haut Var.\nHauteurs de neige observées : vers 2000 m, 175 cm dans le vallon de Valdemars, 115 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : on retrouve le matin une petite couche de neige fraiche peu ventée, reposant sur un manteau neigeux généralement dure/regelé, excepté en ubacs au-dessus de 2000/2200 m environ, où la couche de neige légère peut être plus importante dans les combes abritées du vent. Couche de neige fraiche s'épaississant en journée et devenant légèrement soufflé par le vent proche des crêtes. ",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

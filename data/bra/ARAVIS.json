@@ -1,36 +1,38 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-03-20T16:00:00",
-  "validUntil": "2026-03-21T18:00:00",
+  "date": "2026-03-21T16:00:00",
+  "validUntil": "2026-03-22T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2100",
+      "altitude": "<1800",
       "level": 1,
       "orientations": [
         "N",
         "NE",
+        "E",
         "NW"
       ]
     },
     {
-      "altitude": ">2100",
+      "altitude": ">1800",
       "level": 2,
       "orientations": [
         "N",
         "NE",
+        "E",
         "NW"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent",
-    "sous_couche_fragile",
-    "neige_humide"
+    "sous_couche_fragile"
   ],
-  "summary": "Départs spontanés : Quelques plaques à vent.\nDéclenchements skieurs : Avalanches de fond. Rares coulées de neige humide au soleil.",
-  "stability": " Quelques plaques à vent en altitude.\n\nDéclenchements provoqués :\n* Quelques plaques à vent dans la neige froide (ubac au-dessus de 2000/2100m). Ces plaques sont un peu plus nombreuses là où le vent d'est de mercredi a le plus soufflé. Ces plaques sont plutôt d'aspect dur, et sont assez difficiles à déclencher. Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* Dans les adrets d'altitude, une couche fragile persistante est encore enfouie mais ne semble pas vraiment déclenchable par un skieur. Toutefois, par une forte surcharge (avalanche en cascade, chutes de corniches), elle pourrait être sollicitée et engendrer une avalanche de taille 2 à 3 (moyenne à grande).\n* Coulées humides sous les skis au soleil aux heures les plus chaudes. Taille 1 (petite).\n\nDéparts spontanés :\n* Des plaques de fond sont toujours possibles, en tous versants, à toute heure du jour et de la nuit, dans les pentes lisses et raides (zones herbeuses, dalles, vires). Taille 2 (moyenne).\n* Rares coulées en neige humide toujours possibles au fil de l'ensoleillement. Ces petites avalanches (taille 1) sont un peu plus probables au fil de la journée. Taille 1, rarement 2.",
-  "snowQuality": "Enneigement : \nL'enneigement passe d'inexistant à relativement bon une fois la limite d'enneigement atteinte.\nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce samedi : \n* Dans les adrets sous 2000 m (et les ubacs sous 1800 m), neige de printemps avec un bon regel nocturne. L'humidification est plus lente en nord.\n* Plus haut en altitude, neige froide souvent travaillée par le vent. Dans les couloirs/secteurs encaissés, la neige est restée légère. Plus on monte en altitude, plus la neige est dure.",
+  "summary": "Départs spontanés : Instabilités dans la neige fraiche\nDéclenchements skieurs : Instabilités dans la neige fraiche",
+  "stability": "Nouvelles instabilités dans la neige fraiche\n\nDéclenchements provoqués :\n* Quelques instabilités dans la neige fraiche dès 1800/2000 m. Elles se forment dans la nuit de samedi à dimanche et dimanche en matinée. Elles sont plus nombreuses sous le vent de ouest-sud-ouest puis de sud-est, et peuvent être réactives au passage d'un skieur. D'anciennes plaques, souvent dures sont encore présentes sur un large secteur nord (formée par l'épisode de foehn mercredi dernier), elles sont parfois loin des crêtes, dans les pentes.Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* Dans les adrets d'altitude et en ubacs au-dessus de 2100 m, une couche fragile persistante est encore enfouie, mais ne semble pas vraiment déclenchable par un skieur. Toutefois, par une forte surcharge (avalanche en cascade, chutes de corniches, chutes de séracs), elle pourrait être sollicitée et engendrer une avalanche de taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\n* Départs dans la neige fraiche au cours des chutes ou à cause du vent en journée. Taille 1 à 2.\n* Peu probable, plaques de fond, en tous versants, à toute heure du jour et de la nuit, dans les pentes lisses et raides (zones herbeuses, dalles, vires). Taille 2.",
+  "snowQuality": "Enneigement : \nL'enneigement passe d'inexistant à relativement bon une fois la limite d'enneigement atteinte.\nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce dimanche : \n* Dans les adrets sous 2000 m (et les ubacs sous 1800 m), 5/10 cm (localement) de neige fraiche reposant sur une neige de printemps.\n* Plus haut en altitude, de même, 5/10 cm de neige fraiche localement reposant sur une neige froide souvent travaillée par le vent. Dans les couloirs/secteurs encaissés, la neige est restée légère. Plus on monte en altitude, plus la neige est dure.",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

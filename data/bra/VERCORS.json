@@ -1,21 +1,42 @@
 {
   "massif": "VERCORS",
-  "date": "2026-03-20T16:00:00",
-  "validUntil": "2026-03-21T18:00:00",
-  "riskMax": 1,
+  "date": "2026-03-21T16:00:00",
+  "validUntil": "2026-03-22T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<1800",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">1800",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "SW",
+        "W",
+        "NW"
+      ]
     }
   ],
   "situations": [
-    "plaque_vent"
+    "neige_fraiche"
   ],
-  "summary": "Départs spontanés : Quelques petites coulées possibles au soleil.\nDéclenchements skieurs : Très rares plaques de neige soufflée dans les versants ombragés d'altitude",
-  "stability": "MANTEAU PLUTOT STABLE\n\nDéclenchements provoqués : Le manteau neigeux s'est bien stabilisé depuis les dernières chutes de neige. Le risque de déclenchement se limite à de très rares avalanches de plaque formées par le vent de nord, peu épaisses et situées surtout près des crêtes des versants ombragés.\n\nDéparts spontanés : Après un bon regel nocturne, l'humidification du manteau neigeux reprend grâce au soleil. Ponctuellement, une avalanche de neige lourde (taille 1) reste possible samedi dans une pente surchauffée qui n'aurait pas déjà purgé depuis les dernières chutes de neige.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud au dessus de1800 m. \nLimites skiables : Vers 1300/1700 m selon les versants. \nQualité de la neige samedi : Neige croûtée voire très dure, s'humidifiant en journée dans les versants au soleil. Neige dense, parfois travaillée par le vent dans les ubacs.",
+  "summary": "Départs spontanés : Avalanches de neige fraiche de petites tailles.\nDéclenchements skieurs : Rares plaques dans la neige récente.",
+  "stability": "NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : Le manteau neigeux s'est bien stabilisé depuis les dernières chutes de neige et les chutes de neige ayant lieu durant la journée de demain dimanche vont amener de nouvelles instabilités temporaires. Le risque de déclenchement se limite à des avalanches de plaque peu épaisses disséminées dans la neige fraiche. Elles restent de petite taille et plutot présentes sur les secteurs d'altitude.\n\nDéparts spontanés : Avec les nouvelles chutes de neige qui ont lieu en cours de journée, une avalanche de neige fraiche de petite taille est possible, potentiellement une taille 2 plus haut en altitude et en deuxième moitié de journée.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud au dessus de1500 m. \nLimites skiables : Vers 1300/1700 m selon les versants. \n\nQualité de la neige dimanche : Dès 1300/1400m, on peut attendre une belle couche de neige fraiche de 5/10cm et 15cm au-dessus de 2000m. En sous-couche, la neige est parfois très dure et dense, parfois travaillée par le vent dans les ubacs.",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

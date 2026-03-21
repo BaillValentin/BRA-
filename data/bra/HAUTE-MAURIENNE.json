@@ -1,7 +1,7 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-03-20T16:00:00",
-  "validUntil": "2026-03-21T18:00:00",
+  "date": "2026-03-21T15:00:00",
+  "validUntil": "2026-03-22T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -24,12 +24,12 @@
     }
   ],
   "situations": [
-    "plaque_vent",
-    "neige_humide"
+    "neige_fraiche",
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : Rares départs de neige humide dans les versants ensoleillés\nDéclenchements skieurs : Quelques plaques à vent dans les versants Nord d'altitude",
-  "stability": "Manteau printanier en Sud, très travaillé par le vent en Nord avec quelques instabilités \n\nDéclenchements provoqués : Quelques plaques à vent en versant Nord au-dessus de 2000 m, quelques fois facilement déclenchable par un skieur. Elles sont souvent dures et se retrouvent derrière les ruptures de terrain, en milieu, voire aux pieds des pentes. Le haut des pentes étant souvent décapé par le vent. \nObservables : accumulation de neige ventée derrière une rupture de pente, test de stabilité, fissures devant les skis, éventuellement encore quelques woumfs possible.  \n\nDéparts spontanés : Rares départs ponctuels en neige humide dans les versants raides ensoleillés. Ces départs se retrouvent souvent aux pieds des rochers ou falaises surchauffés par le soleil. Taille 1.",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : En Sud, neige de printemps, regelée en matinée puis humide l'après-midi.\nEn Nord au-dessus de 2000 m, neige sèche souvent travaillée par le vent, cartonnée voire dure proche des crêtes. On trouve encore de rares combes protégées du vent en poudre.\nEn versant Ouest et Est, neige croutée en matinée devenant humide sous l'effet du soleil. Il manque encore quelques cycles de gel/dégel pour arriver à une parfaite neige de printemps.",
+  "summary": "Départs spontanés : Peu probable\nDéclenchements skieurs : Quelques plaques à vent dans les versants Nord d'altitude",
+  "stability": "Petite chute de neige sur un manteau globalement bien stabilisé\n\nDéclenchements provoqués :  Quelques plaques restent  présentes  en versant Nord au-dessus de 2000 m, elles sont très localement encore facilement déclenchable par un skieur. Elles sont souvent dures et se retrouvent derrière les ruptures de terrain, en milieu, voire aux pieds des pentes. Le haut des pentes étant souvent décapé par le vent. \nObservables : accumulation de neige ventée derrière une rupture de pente, test de stabilité, fissures devant les skis.\n\nLes 5/10 cm de fraiche attendus en cours de journée le plus souvent sans vent ne viendront à priori pas créer de nouvelles instabilités.  Sauf éventuellement en cours d'après midi avec le vent d'est qui va se lever et qui pourrait créer de nouvelles petites plaques peu épaisses  \n\nDéparts spontanés : Peu probable hormis quelques rares petites purges de neige fraiche l'après midi dans les rares pentes très raides et rocheuses qui verront assez de soleil pour chauffer suffisamment la neige fraiche.    ",
+  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : \n3/5 cm de saupoudrage dimanche matin devenant un peu plus conséquent (5/10cm) en fin de matinée. \nCes quelques cm de fraiche reposant sur un manteau souvent dur: croute de regel portante en Sud, croute  parfois cassante en Est et Ouest et neige venté le plus souvent cartonnée en Nord.  ",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

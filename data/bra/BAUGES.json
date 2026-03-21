@@ -1,22 +1,37 @@
 {
   "massif": "BAUGES",
-  "date": "2026-03-20T16:00:00",
-  "validUntil": "2026-03-21T18:00:00",
-  "riskMax": 1,
+  "date": "2026-03-21T16:00:00",
+  "validUntil": "2026-03-22T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<1800",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">1800",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "NW"
+      ]
     }
   ],
   "situations": [
-    "plaque_vent",
-    "neige_humide"
+    "neige_fraiche",
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : Avalanches de fond. Rares coulées humides.\nDéclenchements skieurs : Rares plaques à vent en altitude.",
-  "stability": " Petites instabilités sur les plus hauts sommets.\n\nDéparts spontanés :\n* Des plaques de fond sont toujours possibles, en tous versants, à toute heure du jour et de la nuit, dans les pentes lisses et raides (zones herbeuses, dalles, vires). Taille 2 (moyenne).\n* Rares coulées en neige humide toujours possibles au fil de l'ensoleillement. Ces petites avalanches (taille 1) sont un peu plus probables au fil de la journée. Taille 1, rarement 2.\n\nDéclenchements provoqués :\n* Rares plaques à vent, dans la neige froide au-dessus de 1800 m. Elles sont plutôt d'aspect dur et assez difficile à déclencher. Elles ont été formées par le vent d'est de mercredi après-midi. Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* un peu de neige humide peut couler sous les skis dans les versants ensoleillés aux heures les plus chaudes. Taille 1 (petite).",
-  "snowQuality": "Enneigement : \nL'enneigement passe d'inexistant à relativement bon une fois la limite d'enneigement atteinte.\nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce samedi : \n* Dans les adrets (et les ubacs sous 1800 m), neige de printemps avec un bon regel nocturne. L'humidification est plus lente en nord.\n* Dans les ubacs d'altitude, neige froide souvent travaillée par le vent. Dans les couloirs/secteurs encaissés, la neige est restée légère.",
+  "summary": "Départs spontanés : Instabilités dans la neige fraiche\nDéclenchements skieurs : Instabilités dans la neige fraiche",
+  "stability": "Nouvelles instabilités dans la neige fraiche\n\nDéclenchements provoqués :\n* Quelques instabilités dans la neige fraiche dès 1800/2000 m. Elles se forment dans la nuit de samedi à dimanche et dimanche en matinée. Elles sont plus nombreuses sous le vent de sud-ouest puis de sud-est, et peuvent être réactives au passage d'un skieur. Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n\nDéparts spontanés :\n* Départs dans la neige fraiche au cours des chutes ou à cause du vent en journée. Taille 1 à 2.\n* Peu probable, plaques de fond, en tous versants, à toute heure du jour et de la nuit, dans les pentes lisses et raides (zones herbeuses, dalles, vires). Taille 2.",
+  "snowQuality": "Enneigement : \nL'enneigement passe d'inexistant à relativement bon une fois la limite d'enneigement atteinte.\nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce dimanche : \n* Dans les adrets (et les ubacs sous 1800 m), 5/10 cm (localement) de neige fraiche reposant sur une neige de printemps.\n* Dans les ubacs d'altitude, 5/10 cm (localement) de neige fraiche sur de la neige froide souvent travaillée par le vent. Dans les couloirs/secteurs encaissés, la neige est restée légère.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

@@ -1,35 +1,28 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-03-20T15:00:00",
-  "validUntil": "2026-03-21T18:00:00",
+  "date": "2026-03-21T16:00:00",
+  "validUntil": "2026-03-22T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2200",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2200",
+      "altitude": "Toutes altitudes",
       "level": 2,
       "orientations": [
         "N",
         "NE",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent",
-    "neige_humide"
+    "sous_couche_fragile"
   ],
-  "summary": "Départs spontanés : rares et peu volumineux au soleil\nDéclenchements skieurs : possibles dans la neige ventée en versants nord d'altitude",
-  "stability": "RARES INSTABILITÉS EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : le manteau neigeux est plutôt bien stabilisé. Les instabilités sont plutôt rares, et localisées en orientations nord-ouest, nord et nord-est d'altitude supérieure à 2200 m environ, plutôt à proximité des crêtes et ruptures de pente. Elles peuvent être déclenchées par un seul skieur et générer des avalanches de taille petite à moyenne (taille 1 à 2). Ces instabilités se présentent sous la forme de plaques de neige ventée, encore parfois d'aspect poudreux. Elles se sont formées lors du transport de neige ventée en début de semaine, mais sont en cours de stabilisation avec le temps calme et ensoleillé.    \n\nDéparts spontanés : rares et peu volumineux en neige humide. Départs ponctuels, près des rochers. Taille 1.",
-  "snowQuality": "L'enneigement est excédentaire pour une fin mars.\n\nLimite d'enneigement skiable : vers 1300 m en ubacs, 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige de printemps en versants ensoleillés avec un très bon regel nocturne. En large versant nord au-dessus de 2200/2300 m, neige restée sèche, travaillée par le vent ou encore d'aspect poudreux. ",
+  "summary": "Départs spontanés : dans la neige fraîche pendant les chutes. Taille limitée.\nDéclenchements skieurs : plaques à vent en formation dans la neige fraîche, sensibles en versants froids d'altitude",
+  "stability": "NOUVELLES PLAQUES EN FORMATION AVEC LES CHUTES DE NEIGE\n\nDéclenchements provoqués :plaques en formation dans la neige fraîche sous l'action de chutes de neige peu ventées. Plaques souvent peu épaisses mais facilement déclenchables dans un large secteur nord d'altitude supérieure à 2200 m environ, plutôt à proximité des crêtes et ruptures de pente. Elles peuvent générer des avalanches de taille petite à moyenne (taille 1 à 2) en général, rarement grande (taille 3) en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ en surface par exemple. \n\nDéparts spontanés : petites avalanches (taille 1) de neige fraîche en pentes raides au fil des chutes de neige. En fin de journée, des avalanches moyennes (taille 2 ) deviennent possibles dans un couloir chargé. ",
+  "snowQuality": "L'enneigement est excédentaire pour une fin mars.\n\nLimite d'enneigement skiable : vers 1400 m en ubacs, 1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : on retrouve en surface 10/15 cm de neige froide, qui repose sur un manteau neigeux printanier bien croûté en sud. En large versant nord au-dessus de 2200/2300 m, elle repose sur une neige plus sèche, travaillée par le vent ou encore d'aspect poudreux.  ",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

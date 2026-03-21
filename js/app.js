@@ -30,6 +30,11 @@ document.addEventListener('DOMContentLoaded', async () => {
       MapManager.geolocate();
     });
 
+    // PDF overlay back button
+    document.getElementById('pdf-back').addEventListener('click', () => {
+      Panel.closePdf();
+    });
+
   } catch (error) {
     console.error('App initialization error:', error);
   } finally {

@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#1a1a2e">
   <title>BRA Alpes - Risque Avalanche</title>
   <link rel="manifest" href="manifest.json">
@@ -11,27 +11,48 @@
 </head>
 <body>
 
-  <!-- Loading overlay -->
   <div id="loading">
     <div class="spinner"></div>
     <p>Chargement des données...</p>
   </div>
 
-  <!-- Map container -->
   <div id="map"></div>
 
-  <!-- Geolocation button -->
-  <button id="geolocate" title="Ma position">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="12" cy="12" r="4"/>
-      <line x1="12" y1="2" x2="12" y2="6"/>
-      <line x1="12" y1="18" x2="12" y2="22"/>
-      <line x1="2" y1="12" x2="6" y2="12"/>
-      <line x1="18" y1="12" x2="22" y2="12"/>
+  <!-- Map mode toggle -->
+  <div id="map-toggle" class="map-toggle">
+    <button class="map-toggle-btn active" data-mode="risque" onclick="MapManager.setMode('risque')">Risque</button>
+    <button class="map-toggle-btn" data-mode="enneigement" onclick="MapManager.setMode('enneigement')">Enneigement</button>
+  </div>
+
+  <!-- Compare button -->
+  <button id="compare-btn" class="compare-btn" title="Comparer 2 massifs" onclick="MapManager.toggleCompare()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
     </svg>
   </button>
 
-  <!-- Risk level legend -->
+  <!-- Compare banner -->
+  <div id="compare-banner" class="compare-banner hidden">
+    <span id="compare-text">Sélectionnez le 1er massif</span>
+    <button onclick="MapManager.cancelCompare()">Annuler</button>
+  </div>
+
+  <!-- Compare panel -->
+  <div id="compare-panel" class="compare-panel hidden">
+    <div class="compare-header">
+      <h2>Comparaison</h2>
+      <button class="panel-close" onclick="MapManager.closeCompare()">&times;</button>
+    </div>
+    <div class="compare-content" id="compare-content"></div>
+  </div>
+
+  <button id="geolocate" title="Ma position">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/>
+      <line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/>
+    </svg>
+  </button>
+
   <div id="legend">
     <div class="legend-item"><span class="legend-color" style="background:#52B788;"></span><span>1 - Faible</span></div>
     <div class="legend-item"><span class="legend-color" style="background:#FFD60A;"></span><span>2 - Limité</span></div>
@@ -40,7 +61,6 @@
     <div class="legend-item"><span class="legend-color legend-color-5"></span><span>5 - Très fort</span></div>
   </div>
 
-  <!-- Detail panel -->
   <div id="panel">
     <div class="panel-header">
       <div class="drag-handle"></div>
@@ -51,10 +71,13 @@
     <div class="panel-content" id="panel-content"></div>
   </div>
 
-  <!-- Last update info -->
+  <div id="pdf-overlay" class="pdf-overlay hidden">
+    <button id="pdf-back" class="pdf-back-btn">← Retour</button>
+    <iframe id="pdf-frame" class="pdf-frame"></iframe>
+  </div>
+
   <div id="update-info"></div>
 
-  <!-- Scripts -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="js/config.js"></script>
   <script src="js/data.js"></script>
@@ -62,20 +85,12 @@
   <script src="js/panel.js"></script>
   <script src="js/app.js"></script>
 
-  <!-- Service Worker Registration -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('sw.js')
-          .then(function(registration) {
-            console.log('Service Worker enregistré avec succès:', registration.scope);
-          })
-          .catch(function(error) {
-            console.log('Échec de l\'enregistrement du Service Worker:', error);
-          });
+        navigator.serviceWorker.register('sw.js');
       });
     }
   </script>
-
 </body>
 </html>

@@ -1,120 +1,281 @@
 {
-  "lastUpdate": "2026-03-20T06:41:08.173Z",
+  "lastUpdate": "2026-03-21T16:55:56.089Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_1.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_1.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_1.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_1.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_1.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_1.png"
+      }
     },
     "ARAVIS": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_2.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_2.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_2.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_2.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_2.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_2.png"
+      }
     },
     "MONT-BLANC": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_3.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_3.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_3.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_3.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_3.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_3.png"
+      }
     },
     "BAUGES": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_4.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_4.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_4.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_4.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_4.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_4.png"
+      }
     },
     "BEAUFORTAIN": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T15:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_5.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_5.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_5.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_5.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_5.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_5.png"
+      }
     },
     "HAUTE-TARENTAISE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T15:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_6.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_6.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_6.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_6.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_6.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_6.png"
+      }
     },
     "CHARTREUSE": {
-      "risk": 1,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "risk": 2,
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_7.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_7.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_7.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_7.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_7.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_7.png"
+      }
     },
     "BELLEDONNE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_8.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_8.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_8.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_8.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_8.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_8.png"
+      }
     },
     "MAURIENNE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T15:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_9.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_9.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_9.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_9.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_9.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_9.png"
+      }
     },
     "VANOISE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T15:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_10.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_10.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_10.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_10.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_10.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_10.png"
+      }
     },
     "HAUTE-MAURIENNE": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T15:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_11.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_11.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_11.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_11.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_11.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_11.png"
+      }
     },
     "GRANDES-ROUSSES": {
-      "risk": 3,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "risk": 2,
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_12.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_12.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_12.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_12.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_12.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_12.png"
+      }
     },
     "THABOR": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_13.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_13.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_13.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_13.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_13.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_13.png"
+      }
     },
     "VERCORS": {
-      "risk": 1,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "risk": 2,
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_14.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_14.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_14.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_14.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_14.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_14.png"
+      }
     },
     "OISANS": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_15.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_15.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_15.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_15.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_15.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_15.png"
+      }
     },
     "PELVOUX": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_16.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_16.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_16.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_16.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_16.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_16.png"
+      }
     },
     "QUEYRAS": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_17.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_17.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_17.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_17.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_17.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_17.png"
+      }
     },
     "DEVOLUY": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_18.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_18.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_18.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_18.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_18.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_18.png"
+      }
     },
     "CHAMPSAUR": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_19.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_19.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_19.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_19.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_19.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_19.png"
+      }
     },
     "EMBRUNAIS-PARPAILLON": {
       "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_20.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_20.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_20.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_20.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_20.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_20.png"
+      }
     },
     "UBAYE": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "risk": 3,
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_21.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_21.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_21.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_21.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_21.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_21.png"
+      }
     },
     "HAUT-VAR-HAUT-VERDON": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "risk": 3,
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_22.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_22.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_22.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_22.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_22.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_22.png"
+      }
     },
     "MERCANTOUR": {
-      "risk": 2,
-      "date": "2026-03-19T16:00:00",
-      "pdfUrl": null
+      "risk": 3,
+      "date": "2026-03-21T16:00:00",
+      "img": {
+        "montagne-risques": "./data/bra/img/montagne-risques_23.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_23.png",
+        "montagne-enneigement": "./data/bra/img/montagne-enneigement_23.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_23.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_23.png",
+        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_23.png"
+      }
     }
   }
 }

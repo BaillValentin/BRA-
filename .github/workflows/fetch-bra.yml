@@ -2,9 +2,10 @@ name: Fetch BRA Data
 
 on:
   schedule:
-    # Every 2 hours during daytime (BRA published ~16h local)
-    - cron: '0 6,8,10,12,14,16,18,20 * * *'
-  workflow_dispatch: # Manual trigger
+    - cron: '10 16 * * *'  # 17h10 FR - premier essai
+    - cron: '30 16 * * *'  # 17h30 FR - retry si rien à 17h10
+    - cron: '30 7 * * *'   # 8h30 FR - amendements matinaux
+  workflow_dispatch:
 
 jobs:
   fetch:

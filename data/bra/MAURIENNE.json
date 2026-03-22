@@ -1,24 +1,20 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-03-21T15:00:00",
-  "validUntil": "2026-03-22T18:00:00",
+  "date": "2026-03-22T16:00:00",
+  "validUntil": "2026-03-23T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2000",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2000",
+      "altitude": "Toutes altitudes",
       "level": 2,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
@@ -26,9 +22,9 @@
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Peu probable\nDéclenchements skieurs : Quelques plaques à vent dans les versants Nord d'altitude",
-  "stability": "Manteau printanier en Sud, très travaillé par le vent en Nord avec quelques instabilités \n\nDéclenchements provoqués : Quelques plaques à vent en versant Nord au-dessus de 1600 m, quelques fois facilement déclenchable par un skieur. Elles sont souvent d'aspect dure et se retrouvent proche des crêtes, quelques fois jusqu'en milieu de pentes. \nObservables : accumulation de neige ventée derrière une rupture de pente, test de stabilité, fissures devant les skis.\n\nDéparts spontanés : Peu probable",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : En Sud, neige de printemps, restant dure toute la journée.\nEn Nord au-dessus de 1600 m, neige sèche travaillée par le vent ou cartonnée proche des crêtes. Dans les secteurs peu ventés, la neige est encore poudreuse.\nEn versant Ouest et Est, neige croutée cassante.\n\nCe manteau plutôt dur/crouté sera légèrement saupoudré de quelques cm de fraiche en cours de journée avec les petites chutes attendues. ",
+  "summary": "Départs spontanés : purges au soleil.\nDéclenchements skieurs : quelques plaques, parfois réactives.",
+  "stability": "Instabilités temporaires formées par le vent dans la neige légère.\n\nDéclenchements provoqués : Quelques plaques sont en place suite à l'épisode transport de neige par le vent d'Est à Sud de ce dimanche. Elles sont globalement en perte de réactivité mais encore déclenchable : en Nord là où il restait un peu de poudre, derrière les ruptures de pente et près des crêtes, en altitude (où elles sont aussi plus nombreuses), là où le vent de Nord-Est se fait sentir (en altitude sur le Nord-Ouest du massif). Taille 1, plus rarement 2 avec des cassures de 10 à 15 cm.\nObservables : accumulation de neige derrière une rupture de pente, test de stabilité, fissures devant les skis.\n\nDéparts spontanés : Quelques petits départs en poire sont possibles dans les pentes raides qui chauffent au soleil. Taille 1.\nTrès rarement, sur le Nord et l'Ouest du massif, un départ linéaire est possible spontanément par surcharge de neige transportée par le vent de Nord Est en cours. Taille 1 à 2.",
+  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : 5/7 cm de neige fraîche vers 1800 m localement 15 cm en altitude. Le vent a redistribué la neige : on peut trouver des zones pelées et d'autres avec le double d’épaisseur. Cette neige est croutée sous 1500/1700 m. Elle s’alourdit par humidification en journée. Sous-couche souvent dure : croute de regel en Sud, Est et Ouest (sauf très haut) et souvent cartonnée par le vent en Nord.",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

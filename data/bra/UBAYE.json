@@ -1,12 +1,24 @@
 {
   "massif": "UBAYE",
-  "date": "2026-03-21T16:00:00",
-  "validUntil": "2026-03-22T18:00:00",
+  "date": "2026-03-22T16:00:00",
+  "validUntil": "2026-03-23T18:00:00",
   "riskMax": 3,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2000",
       "level": 2,
+      "orientations": [
+        "N",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2000",
+      "level": 3,
       "orientations": [
         "N",
         "SE",
@@ -21,9 +33,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : rares départs superficiels de neige fraiche, plus fréquents en fin de journée.\nDéclenchements skieurs : rares plaques en journée, devenant nombreuses en fin de journée vers les crêtes avec la levé du vent de nord-est. ",
-  "stability": "PLAQUES EN FORMATION DANS LA NEIGE FRAICHE VENTÉE EN FIN DE JOURNÉE\n\nDéclenchements provoqués : rares plaques en place en ubacs d'altitude en journée. De nouvelles plaques à vent se forment en fin d'après-midi avec la poursuite des chutes de neige et la levée du vent de nord-est. Plaques très faciles à déclencher au passage d'un skieur, présentes plutôt aux abords des crêtes dans un large versant nord-ouest à sud-est, et générant des avalanches de taille petites à moyenne (taille 1 à 2).\nEn versant nord au-dessus de 2200 m environ, des départs plus volumineux sont possibles au passage d'un skieur par déstabilisation d'une plaque plus ancienne et épaisse. Avalanche de taille moyenne (taille 2), rarement grande (taille 3).\n\nDéparts spontanés : rares départs superficiels de neige fraiche, devenant un peu plus fréquent en fin de journée avec la levée du vent de nord-est. Avalanches de taille petites à moyenne (taille 1 à 2). ",
-  "snowQuality": "Enneigement proche des normales.\nHauteurs de neige observées : 77 cm à la Nivôse de Restefond à 2550 m (secteur venté), 85 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1800/1900 m en adrets peu pentus. \n\nÉtat de la neige en surface : on retrouve le matin une petite couche de neige fraiche peu ventée, reposant sur un manteau neigeux généralement dure/regelé, excepté en ubacs au-dessus de 2000/2200 m environ, où la couche de neige légère peut être plus importante dans les combes abritées du vent. Couche de neige fraiche s'épaississant en journée et devenant légèrement soufflé par le vent proche des crêtes. ",
+  "summary": "Départs spontanés : départs superficiels de neige fraiche s'humidifiant au soleil\nDéclenchements skieurs : plaques sensibles en altitude dans la neige fraîche ventée, notamment vers les crêtes. ",
+  "stability": "PLAQUES DANS LA NEIGE FRAICHE VENTÉE - QUELQUES DÉPARTS AU SOLEIL\n\nDéclenchements provoqués :  plaques en place dans la neige fraiches en lien avec le transport de neige par le vent de nord-est, possibles en toutes orientations, mais plus nombreuses dans un large versant nord-ouest à sud-est au-dessus de 2000 m. Plaques très faciles à déclencher au passage d'un skieur, présentes plutôt aux abords des crêtes et générant des avalanches de taille petites à moyenne (taille 1 à 2).\nEn versant nord au-dessus de 2200 m environ, des départs un peu plus volumineux sont possibles au passage d'un skieur par déstabilisation d'une plaque plus ancienne et épaisse, restant généralement de taille moyenne (taille 2).\n\nDéparts spontanés : rares départs superficiels de neige fraiche, devenant un peu plus fréquent en fin de journée avec la levée du vent de nord-est. Avalanches de taille petites à moyenne (taille 1 à 2). ",
+  "snowQuality": "Enneigement proche des normales.\nHauteurs de neige observées : 83 cm à la Nivôse de Restefond à 2550 m (secteur venté), 107 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1800/1900 m en adrets peu pentus. \n\nÉtat de la neige en surface : on retrouve le matin 15 à 30 cm de neige fraiche, travaillée par le vent de nord-est proche des crêtes, et s'humidifiant au soleil en journée. Elle repose en général sur un fond dure/regelé, excepté en ubacs au-dessus de 2000/2200 m environ, où la couche de neige légère peut être plus importante dans les combes abritées du vent. ",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_21.png",

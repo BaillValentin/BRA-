@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-03-21T16:00:00",
-  "validUntil": "2026-03-22T18:00:00",
+  "date": "2026-03-22T16:00:00",
+  "validUntil": "2026-03-23T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -12,6 +12,7 @@
         "NE",
         "E",
         "SE",
+        "S",
         "SW",
         "W",
         "NW"
@@ -25,6 +26,7 @@
         "NE",
         "E",
         "SE",
+        "S",
         "SW",
         "W",
         "NW"
@@ -32,11 +34,13 @@
     }
   ],
   "situations": [
-    "neige_fraiche"
+    "neige_fraiche",
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Avalanches de neige fraiche de petites tailles.\nDéclenchements skieurs : Rares plaques dans la neige récente.",
-  "stability": "NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : Le manteau neigeux s'est bien stabilisé depuis les dernières chutes de neige et les chutes de neige ayant lieu durant la journée de demain dimanche vont amener de nouvelles instabilités temporaires. Le risque de déclenchement se limite à des avalanches de plaque peu épaisses disséminées dans la neige fraiche. Elles restent de petite taille et plutot présentes sur les secteurs d'altitude.\n\nDéparts spontanés : Avec les nouvelles chutes de neige qui ont lieu en cours de journée, une avalanche de neige fraiche de petite taille est possible, potentiellement une taille 2 plus haut en altitude et en deuxième moitié de journée.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud au dessus de1500 m. \nLimites skiables : Vers 1300/1700 m selon les versants. \n\nQualité de la neige dimanche : Dès 1300/1400m, on peut attendre une belle couche de neige fraiche de 5/10cm et 15cm au-dessus de 2000m. En sous-couche, la neige est parfois très dure et dense, parfois travaillée par le vent dans les ubacs.",
+  "summary": "Départs spontanés : Avalanches de neige fraiche de petites tailles. Purges au soleil l'après-midi.\nDéclenchements skieurs : Plaques en altitude dans la neige récente.",
+  "stability": "NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : Le manteau neigeux s'est bien stabilisé depuis les dernières chutes de neige et les nouvelles chutes de dimanche ont amené des instabilités temporaires. Le risque de déclenchement se limite à des avalanches de plaque peu épaisses disséminées dans la neige fraiche. Elles restent de petite taille et plutot présentes sur les secteurs d'altitude. Le vent de Nord-est parfois sensible peut avoir favoriser la formation de petites plaques à vent. Avec le retour du soleil, on peut aussi attendre des départs en neige humide en surface sous les skis, ils restent de petites tailles mais parfois généralisés l'après-midi en versant ensoleillé.\n\nDéparts spontanés : Avec les nouvelles chutes de neige qui ont eu lieu dimanche, une avalanche de neige fraiche de petite taille est encore possible en matinée, l'après-midi et plutôt en versants ensoleillés on peut s'attendre à des départs en neige humide de petite taille.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud au dessus de1500 m. \nLimites skiables : Vers 1300/1700 m selon les versants. \n\nQualité de la neige lundi : Dès 1200/1300m, on peut attendre une belle couche de neige fraiche de 5/10cm et 15cm au-dessus de 1500m. En sous-couche, la neige est parfois très dure et dense, parfois travaillée par le vent dans les ubacs. Cependant, cette neige s'alourdit et se tasse rapidement en matinée pour devenir lourde dans la plupart des versants l'après-midi.",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

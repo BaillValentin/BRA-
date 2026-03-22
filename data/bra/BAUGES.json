@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-03-21T16:00:00",
-  "validUntil": "2026-03-22T18:00:00",
+  "date": "2026-03-22T16:00:00",
+  "validUntil": "2026-03-23T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -11,6 +11,10 @@
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     },
@@ -21,17 +25,22 @@
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
     "neige_fraiche",
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Instabilités dans la neige fraiche\nDéclenchements skieurs : Instabilités dans la neige fraiche",
-  "stability": "Nouvelles instabilités dans la neige fraiche\n\nDéclenchements provoqués :\n* Quelques instabilités dans la neige fraiche dès 1800/2000 m. Elles se forment dans la nuit de samedi à dimanche et dimanche en matinée. Elles sont plus nombreuses sous le vent de sud-ouest puis de sud-est, et peuvent être réactives au passage d'un skieur. Taille 1 à 2 (petite à moyenne).\nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n\nDéparts spontanés :\n* Départs dans la neige fraiche au cours des chutes ou à cause du vent en journée. Taille 1 à 2.\n* Peu probable, plaques de fond, en tous versants, à toute heure du jour et de la nuit, dans les pentes lisses et raides (zones herbeuses, dalles, vires). Taille 2.",
-  "snowQuality": "Enneigement : \nL'enneigement passe d'inexistant à relativement bon une fois la limite d'enneigement atteinte.\nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce dimanche : \n* Dans les adrets (et les ubacs sous 1800 m), 5/10 cm (localement) de neige fraiche reposant sur une neige de printemps.\n* Dans les ubacs d'altitude, 5/10 cm (localement) de neige fraiche sur de la neige froide souvent travaillée par le vent. Dans les couloirs/secteurs encaissés, la neige est restée légère.",
+  "summary": "Départs spontanés : Départ en plaque à cause du transport de neige par le vent\nDéclenchements skieurs : Instabilités dans la neige fraiche et neige ventée",
+  "stability": "Instabilités dans la neige récente, nouvelles plaques à vent \n\nDéclenchements provoqués :\n* Quelques instabilités dans la neige fraiche au-dessus de 1800 m sont encore présentes, réactives au passage d'un skieur. Taille 1 voir 2 (petite voir moyenne).\n* Plaques à vent formées sous le vent de SO/SE dimanche, de nouvelles plaques se forment sous le vent de NE lundi en journée. Elles sont d'aspect friable, facilement déclenchables au passage d'un skieur. On les retrouve au voisinage des crêtes. Taille 1 à 2. \nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n\nDéparts spontanés :\n* Départs dans la neige récente à cause du vent de NE en journée. Taille 1.\n* Quelques coulées de neige humide dans les versants ensoleillés au fil du réchauffement (secteur sans vent). Taille 1. \n* Peu probable, plaques de fond, en tous versants, à toute heure du jour et de la nuit, dans les pentes lisses et raides (zones herbeuses, dalles, vires). Taille 1 à 2.",
+  "snowQuality": "Enneigement : \nL'enneigement passe d'inexistant à relativement bon une fois la limite d'enneigement atteinte.\nOn peut chausser les skis vers 1200/1300 m en nord et 1400/1500 m en sud.\nGrosses corniches présentes. \n\nQualité de la neige ce lundi : \n* 5/15 cm de neige récente reposant sur un fond dur (neige croutée en versant ensoleillé, et neige cartonnée en nord et altitude)",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

@@ -1,35 +1,30 @@
 {
   "massif": "VANOISE",
-  "date": "2026-03-21T15:00:00",
-  "validUntil": "2026-03-22T18:00:00",
+  "date": "2026-03-22T16:00:00",
+  "validUntil": "2026-03-23T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2000",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2000",
+      "altitude": "Toutes altitudes",
       "level": 2,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Peu probable\nDéclenchements skieurs : Quelques plaques à vent dans les versants Nord d'altitude",
-  "stability": "Petite chute de neige sur un manteau globalement bien stabilisé\n\nDéclenchements provoqués :  Quelques plaques restent  présentes  en versant Nord au-dessus de 2000 m, elles sont très localement encore facilement déclenchable par un skieur. Elles sont souvent dures et se retrouvent derrière les ruptures de terrain, en milieu, voire aux pieds des pentes. Le haut des pentes étant souvent décapé par le vent. \nObservables : accumulation de neige ventée derrière une rupture de pente, test de stabilité, fissures devant les skis.\n\nLes 3/5 cm de fraiche attendus en cours de journée le plus souvent sans vent ne viendront à priori pas créer de nouvelles instabilités.  Sauf éventuellement en cours d'après midi avec le vent d'est qui va se lever et qui pourrait créer de nouvelles petites plaques peu épaisses  \n\nDéparts spontanés : Peu probable hormis quelques rares petites purges de neige fraiche l'après midi dans les rares pentes très raides et rocheuses qui verront assez de soleil pour chauffer suffisamment la neige fraiche.    ",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : \nLéger saupoudrage dimanche matin devenant un peu plus conséquent (5/10cm) en fin de matinée. \nCes quelques cm de fraiche reposant sur un manteau souvent dur: croute de regel portante en Sud, croute  parfois cassante en Est et Ouest et neige venté le plus souvent cartonnée en Nord.  ",
+  "summary": "Départs spontanés : purges au soleil.\nDéclenchements skieurs : quelques plaques, parfois réactives.",
+  "stability": "Instabilités temporaires formées par le vent dans la neige légère.\n\nDéclenchements provoqués : Quelques plaques sont en place suite à l'épisode transport de neige par le vent d'Est à Sud de ce dimanche. Elles sont globalement en perte de réactivité mais encore déclenchable : en Nord là où il restait un peu de poudre, derrière les ruptures de pente et près des crêtes, en altitude (où elles sont aussi plus nombreuses), là où le vent de Nord-Est se fait sentir (en altitude sur le Nord-Ouest du massif). Taille 1 à 2 avec des cassures de 15 à 30 cm.\nObservables : accumulation de neige derrière une rupture de pente, test de stabilité, fissures devant les skis.\n\nDéparts spontanés : Quelques petits départs en poire sont possibles dans les pentes raides qui chauffent au soleil. Taille 1, rarement 2 si la pente le permet.",
+  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : 7/15 cm de neige fraîche vers 1800 m localement 20/25 cm en altitude. Le vent a redistribué la neige : on peut trouver des zones pelées et d'autres avec le double d’épaisseur. Cette neige est croutée sous 1500/1700 m. Elle s’alourdit par humidification en journée. Sous-couche souvent dure : croute de regel en Sud, Est et Ouest (sauf très haut) et souvent cartonnée par le vent en Nord.  ",
   "pdfUrl": "./data/bra/VANOISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_10.png",

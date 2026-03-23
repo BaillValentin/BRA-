@@ -1,11 +1,11 @@
 {
   "massif": "OISANS",
-  "date": "2026-03-22T16:00:00",
-  "validUntil": "2026-03-23T18:00:00",
+  "date": "2026-03-23T15:00:00",
+  "validUntil": "2026-03-24T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<1600",
+      "altitude": "<2300",
       "level": 1,
       "orientations": [
         "N",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "altitude": ">1600",
+      "altitude": ">2300",
       "level": 2,
       "orientations": [
         "N",
@@ -34,13 +34,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent",
-    "neige_humide"
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : Avalanches de neige fraiche, surtout au-dessus de 1600/1800m. Purges au soleil l'après-midi.\nDéclenchements skieurs : Plaques en altitude dans la neige récente.",
-  "stability": "NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : Le manteau neigeux s'est bien stabilisé depuis les dernières chutes de neige et les nouvelles chutes de dimanche ont amené des instabilités temporaires. Le risque de déclenchement est lié à des plaques la plupart du temps peu épaisses disséminées dans la neige fraiche. Au-dessus de 1800/2000m, à proximité des zones d'accumulation des crêtes et cols, elles peuvent etre de taille moyenne. Le vent de Nord-est parfois sensible peut avoir favoriser la formation de petites plaques à vent qui généralise un peu plus ce risque sur les secteurs exposés. Avec le retour du soleil, on peut aussi attendre des départs en neige humide en surface sous les skis, ils restent de petites tailles mais parfois généralisés l'après-midi en versant ensoleillé.\n\nDéparts spontanés : Avec les nouvelles chutes de neige qui ont eu lieu dimanche, une avalanche de neige fraiche de petite taille est encore possible en matinée, l'après-midi et plutôt en versants ensoleillés on peut s'attendre à des départs en neige humide de petite taille.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300 m. Il est correct en Sud au dessus de 1500 m. \nLimites skiables : Vers 1300/1700 m selon les versants. \n\nQualité de la neige lundi : Dès 1200/1300m, on peut attendre une belle couche de neige fraiche de 5/10cm et 15/20cm au-dessus de 1500m. En sous-couche, la neige est parfois très dure et dense, parfois travaillée par le vent dans les ubacs. Cependant, cette neige s'alourdit et se tasse rapidement en matinée pour devenir lourde dans la plupart des versants l'après-midi. Au-dessus de 1800/2000m en versants ombragés, la neige reste froide et légère.",
+  "summary": "Départs spontanés : En pentes raides ensoleillées, près des rochers, quelques coulées ou rares petites avalanches possibles (de taille 1, rarement  2)..\nDéclenchements skieurs : Près des hautes crêtes, rares petites plaques en faces froides, sous le vent de Nord-Est ?  Au soleil en neige bien humidifiée, possible coulée ponctuelle sous les skis...",
+  "stability": "RARES MINCES PLAQUES EN NORD D'ALTITUDE... EN FACES ENSOLEILLEES, RARES COULES OU PETITES AVALANCHES DE SURFACE...\n\nLes 15/20 cm tombés dimanche tendent à se stabiliser. Rares instabilités mardi et souvent superficielles...\nDéclenchements provoqués :\nRares plaques vers les hautes crêtes, en versant froid. Le récent vent de Nord-Est a pu former de petites accumulations en altitude, parfois instables au passage de skieur ? Indices : manteau ridé, quelques congères , plutôt vers le Taillefer? Cassures 10/20 cm environ, peu larges.\nEn pentes bien ensoleillées, humidifiées, la neige récente peut éventuellement glisser sous les skis.\nDéparts spontanés :\nDes coulées de surface se sont déjà produites. Mardi la douceur gagne plus en altitude... Suivant la course du soleil, en pentes raides, près des rochers, on s'attend à de rares nouvelles coulées voire une avalanche de surface (de taille 1 à 2).\n\nAutres :  Neige localement et temporairement croutée/cassante, ski parfois délicat.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison en versants ombragés au dessus de 1300/1500 m, voire abondant en combes d'altitude. En Sud il est moins bon mais correct dès 1700 m environ. \nLimites skiables : Vers 1300/1700 m selon les versants. \n\nQualité de la neige mardi : Neige récente parfois croutée par le soleil de la veille, délicate à skier avant le dégel.\nEn faces Nord d'altitude, neige encore poudreuse au dessus de 2000/2300m, avec jusque 20 cm de neige récente sur le Nord Oisans et Taillefer... Petite couche assez légère, agréable à skier avec du givre en surface et parfois un peu ventée vers les hautes crêtes ?.",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

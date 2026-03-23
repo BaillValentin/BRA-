@@ -1,41 +1,36 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-03-22T16:00:00",
-  "validUntil": "2026-03-23T18:00:00",
-  "riskMax": 3,
+  "date": "2026-03-23T16:00:00",
+  "validUntil": "2026-03-24T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "<2000",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
-        "SE",
-        "S",
-        "SW",
-        "W",
+        "NE",
         "NW"
       ]
     },
     {
       "altitude": ">2000",
-      "level": 3,
+      "level": 2,
       "orientations": [
         "N",
-        "SE",
-        "S",
-        "SW",
-        "W",
+        "NE",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent"
+    "plaque_vent",
+    "sous_couche_fragile",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : départs superficiels de neige fraiche s'humidifiant au soleil\nDéclenchements skieurs : nombreuses petites plaques sensibles en altitude dans la neige fraîche ventée, notamment vers les crêtes. ",
-  "stability": "NOMBREUSES PETITES PLAQUES DANS LA NEIGE FRAICHE VENTÉE - QUELQUES DÉPARTS AU SOLEIL\n\nDéclenchements provoqués :  nombreuses plaques superficielles dans la neige fraiches en lien avec le transport de neige par le vent de nord-est, possibles en toutes orientations, mais plus fréquentes dans un large versant nord-ouest à sud-est au-dessus de 2000 m. Plaques très faciles à déclencher au passage d'un skieur, présentes plutôt aux abords des crêtes et générant des avalanches de petite taille, rarement moyenne (taille 1 à 2).\nEn versant nord au-dessus de 2200 m environ, des départs un peu plus volumineux sont possibles au passage d'un skieur par déstabilisation d'une plaque plus ancienne et épaisse, restant généralement de taille moyenne (taille 2).\n\nDéparts spontanés : peu probable au levé du jour, puis départs superficiels de neige fraiche s'humidifiant au soleil, devenant fréquents au fil de la journée. Avalanches de petite taille, rarement moyenne (taille 1 à 2).",
-  "snowQuality": "Enneigement excédentaire dans la Roya, proche des normales sur le reste du massif.\nDonnées observées : 170 cm à la Nivôse de Millefonts à 2430 m, 120 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : on retrouve le matin 10 à 15 cm de neige fraiche, travaillée par le vent de nord-est proche des crêtes, et s'humidifiant au soleil en journée. Elle repose en général sur un fond dure/regelé, excepté en ubacs au-dessus de 2000/2200 m environ, où la couche de neige légère peut être plus importante dans les combes abritées du vent. ",
+  "summary": "Départs spontanés : départs superficiels de neige récente s'humidifiant au soleil, de faible ampleur. \nDéclenchements skieurs : encore quelques plaques dans la neige récente ventée, notamment vers le crêtes.",
+  "stability": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE - QUELQUES DÉPARTS SUPERFICIELS EN NEIGE HUMIDE\n\nDéclenchements provoqués :  quelques plaques sont encore en place dans la neige récente, principalement dans les orientations nord-ouest, nord et nord-est au-dessus de 2000/2200 m environ, là où la neige récente ne s'est pas encore humidifiée. Elles deviennent progressivement difficiles à déclencher, mais peuvent encore céder au passage d'un skieur. Elles sont facilement identifiables, présentes notamment dans les zones d'accumulation, à proximité des crêtes et ruptures de pente. Elles génèrent des avalanches de taille petite à moyenne (taille 1 à 2). En versant nord de haute altitude, des départs un peu plus volumineux sont possibles en cas de rupture d'une couche fragile persistante plus profondément enfouie, suite à un premier départ de surface par exemple. Dans ce cas, avalanche restant généralement de taille moyenne. \n\nDéparts spontanés : peu probables au lever du jour puis rares départs de neige récente dans les pentes raides bien ensoleillées. Avalanches petites en général, plus rarement moyennes. ",
+  "snowQuality": "Enneigement excédentaire dans la Roya, proche des normales sur le reste du massif.\nDonnées observées : 167 cm à la Nivôse de Millefonts à 2430 m, 116 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : on retrouve encore la couche de neige récente (10 à 15 cm), travaillée par le vent de nord-est proche des crêtes, et déjà fortement humidifiée jusqu'à haute altitude dans les versants bien ensoleillés. Elle peut rester froide et légère dans les versants nord-ouest, nord et nord-est au-dessus de 2000/2200 m. Elle repose en général sur un fond dur/regelé, excepté en ubacs au-dessus de 2000/2200 m, où la couche de neige légère peut être plus importante dans les combes abritées du vent. ",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

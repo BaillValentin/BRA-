@@ -320,7 +320,21 @@ body {
   width: 0; transition: width 0.3s;
 }
 .offline-progress-text { font-size: 11px; color: #666; margin-top: 4px; }
-.offline-status { font-size: 12px; color: #888; line-height: 1.5; }
+.offline-status { font-size: 12px; color: #888; line-height: 1.5; margin-bottom: 12px; }
+.offline-massif-name { flex: 1; }
+.offline-delete-btn {
+  width: 24px; height: 24px; border: none; border-radius: 50%;
+  background: #FF3B30; color: white; font-size: 12px; font-weight: bold;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; opacity: 0.8;
+}
+.offline-delete-btn:hover { opacity: 1; }
+.offline-purge-btn {
+  display: block; width: 100%; padding: 10px; border: 1px solid #FF3B30;
+  border-radius: 8px; background: white; color: #FF3B30;
+  font-size: 13px; font-weight: 600; cursor: pointer;
+}
+.offline-purge-btn:hover { background: #FFF5F5; }
 
 /* ── Compare ── */
 .compare-btn {

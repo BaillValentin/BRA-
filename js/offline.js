@@ -34,10 +34,14 @@ const OfflineManager = {
       for (var id in MASSIFS) {
         if (MASSIFS[id].zone !== zone) continue;
         var checked = saved[id] ? ' checked' : '';
+        var deleteBtn = saved[id]
+          ? '<button class="offline-delete-btn" onclick="event.preventDefault();event.stopPropagation();OfflineManager.removeMassif(\'' + id + '\')" title="Supprimer du cache">&#10005;</button>'
+          : '';
         html += '<label class="offline-massif-item">' +
           '<input type="checkbox" class="offline-massif-cb" data-massif="' + id + '"' + checked + '>' +
           '<span class="layer-check"></span>' +
-          MASSIFS[id].name + '</label>';
+          '<span class="offline-massif-name">' + MASSIFS[id].name + '</span>' +
+          deleteBtn + '</label>';
       }
     }
     container.innerHTML = html;
@@ -226,6 +230,123 @@ const OfflineManager = {
     var latRad = lat * Math.PI / 180;
     var y = Math.floor((1 - Math.log(Math.tan(latRad) + 1 / Math.cos(latRad)) / Math.PI) / 2 * n);
     return { x: Math.max(0, Math.min(n - 1, x)), y: Math.max(0, Math.min(n - 1, y)) };
+  },
+
+  async removeMassif(massifId) {
+    var name = MASSIFS[massifId] ? MASSIFS[massifId].name : massifId;
+    if (!confirm('Supprimer les données hors-ligne de ' + name + ' ?')) return;
+
+    var progressText = document.getElementById('offline-progress-text');
+    var progressEl = document.getElementById('offline-progress');
+    progressEl.classList.remove('hidden');
+    progressText.textContent = 'Suppression de ' + name + '...';
+
+    try {
+      // Build list of URLs to delete for this massif
+      var urlsToDelete = [];
+
+      // BRA data + PDF
+      urlsToDelete.push(CONFIG.DATA_BASE_URL + massifId + '.json');
+      urlsToDelete.push(CONFIG.DATA_BASE_URL + massifId + '.pdf');
+
+      // BRA images
+      var detail = DataManager._cache[massifId];
+      if (detail && detail.imageUrls) {
+        var imgUrls = Object.values(detail.imageUrls);
+        for (var i = 0; i < imgUrls.length; i++) {
+          urlsToDelete.push(imgUrls[i]);
+        }
+      }
+
+      // Delete from all caches
+      var cacheNames = await caches.keys();
+      for (var c = 0; c < cacheNames.length; c++) {
+        var cache = await caches.open(cacheNames[c]);
+        var keys = await cache.keys();
+        for (var k = 0; k < keys.length; k++) {
+          var reqUrl = keys[k].url;
+          // Match BRA data/images by massif id
+          for (var u = 0; u < urlsToDelete.length; u++) {
+            if (reqUrl.includes(urlsToDelete[u])) {
+              await cache.delete(keys[k]);
+              break;
+            }
+          }
+        }
+      }
+
+      // Delete tiles for this massif's bounding box
+      var geojson = await DataManager.loadMassifBoundaries();
+      if (geojson) {
+        var feature = null;
+        for (var f = 0; f < geojson.features.length; f++) {
+          if (geojson.features[f].properties.id === massifId) {
+            feature = geojson.features[f];
+            break;
+          }
+        }
+        if (feature) {
+          var bounds = this.getFeatureBounds(feature);
+          var tileCache = await caches.open('bra-tiles-v1');
+          var tileKeys = await tileCache.keys();
+          // Build set of tile coords for this massif (zoom 8-14)
+          var massifTiles = {};
+          for (var z = 8; z <= 14; z++) {
+            var tiles = this.getTilesForBounds(bounds, z);
+            for (var t = 0; t < tiles.length; t++) {
+              massifTiles[z + '/' + tiles[t].x + '/' + tiles[t].y] = true;
+            }
+          }
+          // Check each cached tile
+          for (var tk = 0; tk < tileKeys.length; tk++) {
+            var tileUrl = new URL(tileKeys[tk].url);
+            // Extract z/x/y from path like /z/x/y.png
+            var parts = tileUrl.pathname.split('/').filter(Boolean);
+            if (parts.length >= 3) {
+              var tileKey = parts[parts.length - 3] + '/' + parts[parts.length - 2] + '/' + parts[parts.length - 1].replace('.png', '');
+              if (massifTiles[tileKey]) {
+                await tileCache.delete(tileKeys[tk]);
+              }
+            }
+          }
+        }
+      }
+
+      // Remove from saved selection
+      var saved = {};
+      try { saved = JSON.parse(localStorage.getItem('offline-massifs') || '{}'); } catch (e) {}
+      delete saved[massifId];
+      localStorage.setItem('offline-massifs', JSON.stringify(saved));
+
+      // Also clear from DataManager cache
+      delete DataManager._cache[massifId];
+
+      progressText.textContent = name + ' supprimé du cache.';
+      this.renderMassifList();
+      this.updateStatus();
+
+    } catch (e) {
+      console.error('Error removing massif cache:', e);
+      progressText.textContent = 'Erreur lors de la suppression.';
+    }
+  },
+
+  async purgeAll() {
+    if (!confirm('Supprimer toutes les données hors-ligne ?')) return;
+
+    var cacheNames = await caches.keys();
+    for (var i = 0; i < cacheNames.length; i++) {
+      if (cacheNames[i] !== 'bra-alpes-v29') { // Keep static assets
+        await caches.delete(cacheNames[i]);
+      }
+    }
+    localStorage.removeItem('offline-massifs');
+    DataManager._cache = {};
+
+    this.renderMassifList();
+    this.updateStatus();
+    document.getElementById('offline-progress-text').textContent = 'Tout le cache hors-ligne a été supprimé.';
+    document.getElementById('offline-progress').classList.remove('hidden');
   },
 
   async updateStatus() {

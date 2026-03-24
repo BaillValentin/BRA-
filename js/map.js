@@ -17,10 +17,13 @@ const MapManager = {
       zoomControl: true
     });
 
-    L.tileLayer(CONFIG.TILE_URL, {
+    var baseLayer = L.tileLayer(CONFIG.TILE_URL, {
       attribution: CONFIG.TILE_ATTRIBUTION,
       maxZoom: CONFIG.MAX_ZOOM
     }).addTo(this.map);
+
+    // Pass base layer reference to LayerSelector for switching
+    LayerSelector.setInitialBaseLayer(baseLayer);
 
     // Update marker sizes on zoom end only (avoid flickering during animation)
     this.map.on('zoomend', () => this.updateMarkerSizes());

@@ -1,5 +1,8 @@
 const LayerSelector = {
   isOpen: false,
+  _ignTopoLayer: null,
+  _otmLayer: null,
+  _currentBase: 'otm',
 
   toggle() {
     this.isOpen = !this.isOpen;
@@ -15,21 +18,25 @@ const LayerSelector = {
   },
 
   update() {
+    var useIGN = document.getElementById('layer-base-ign').checked;
     var risque = document.getElementById('layer-risque').checked;
     var enneigement = document.getElementById('layer-enneigement').checked;
     var pentes = document.getElementById('layer-pentes').checked;
     var refuges = document.getElementById('layer-refuges').checked;
 
-    // Determine marker mode: prioritize risque > enneigement, pentes is overlay
+    // ── Base map switch ──
+    this.setBasemap(useIGN ? 'ign' : 'otm');
+
+    // ── Marker mode ──
     if (risque) {
       MapManager.setMode('risque');
     } else if (enneigement) {
       MapManager.setMode('enneigement');
     } else {
-      MapManager.setMode('risque'); // default fallback
+      MapManager.setMode('risque');
     }
 
-    // Pentes overlay
+    // ── Pentes overlay ──
     if (pentes) {
       if (!MapManager.slopeLayer) {
         MapManager.slopeLayer = L.tileLayer(CONFIG.SLOPES_URL, {
@@ -45,9 +52,8 @@ const LayerSelector = {
       MapManager.map.removeLayer(MapManager.slopeLayer);
     }
 
-    // Pentes legend
+    // Legends
     document.getElementById('slope-legend').style.display = pentes ? '' : 'none';
-    // Risk legend
     document.getElementById('legend').style.display = risque ? '' : 'none';
 
     // Refuges
@@ -56,6 +62,45 @@ const LayerSelector = {
     } else {
       MapManager.hideRefuges();
     }
+  },
+
+  setBasemap(type) {
+    if (type === this._currentBase) return;
+    this._currentBase = type;
+
+    // Remove current base layer
+    if (this._otmLayer && MapManager.map.hasLayer(this._otmLayer)) {
+      MapManager.map.removeLayer(this._otmLayer);
+    }
+    if (this._ignTopoLayer && MapManager.map.hasLayer(this._ignTopoLayer)) {
+      MapManager.map.removeLayer(this._ignTopoLayer);
+    }
+
+    if (type === 'ign') {
+      if (!this._ignTopoLayer) {
+        this._ignTopoLayer = L.tileLayer(CONFIG.IGN_TOPO_URL, {
+          attribution: CONFIG.IGN_TOPO_ATTRIBUTION,
+          maxZoom: CONFIG.MAX_ZOOM
+        });
+      }
+      this._ignTopoLayer.addTo(MapManager.map);
+      // Send to back so overlays stay on top
+      this._ignTopoLayer.bringToBack();
+    } else {
+      if (!this._otmLayer) {
+        this._otmLayer = L.tileLayer(CONFIG.TILE_URL, {
+          attribution: CONFIG.TILE_ATTRIBUTION,
+          maxZoom: CONFIG.MAX_ZOOM
+        });
+      }
+      this._otmLayer.addTo(MapManager.map);
+      this._otmLayer.bringToBack();
+    }
+  },
+
+  // Store reference to initial OTM layer created by MapManager
+  setInitialBaseLayer(layer) {
+    this._otmLayer = layer;
   }
 };
 

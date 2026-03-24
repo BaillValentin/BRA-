@@ -11,6 +11,7 @@ const OfflineManager = {
     // Zoom slider + tile layer checkboxes live update
     document.getElementById('offline-zoom').addEventListener('input', () => this.updateZoomInfo());
     document.getElementById('offline-topo').addEventListener('change', () => this.updateZoomInfo());
+    document.getElementById('offline-ign-topo').addEventListener('change', () => this.updateZoomInfo());
     document.getElementById('offline-ign-slopes').addEventListener('change', () => this.updateZoomInfo());
 
     // Show current cache status
@@ -70,8 +71,10 @@ const OfflineManager = {
     var tilesPerMassif = Math.round(Math.pow(4, zoom - 8) * 4);
     var layers = 0;
     var topoEl = document.getElementById('offline-topo');
+    var ignTopoEl = document.getElementById('offline-ign-topo');
     var ignEl = document.getElementById('offline-ign-slopes');
     if (topoEl && topoEl.checked) layers++;
+    if (ignTopoEl && ignTopoEl.checked) layers++;
     if (ignEl && ignEl.checked) layers++;
     layers = Math.max(layers, 1);
     var total = tilesPerMassif * layers;
@@ -136,6 +139,7 @@ const OfflineManager = {
 
       // 2. Download map tiles for each massif's bounding box
       var downloadTopo = document.getElementById('offline-topo').checked;
+      var downloadIGNTopo = document.getElementById('offline-ign-topo').checked;
       var downloadIGN = document.getElementById('offline-ign-slopes').checked;
 
       progressText.textContent = 'Téléchargement des tuiles...';
@@ -168,6 +172,14 @@ const OfflineManager = {
                   .replace('{x}', tiles[t].x)
                   .replace('{y}', tiles[t].y);
                 allTileUrls.push(topoUrl);
+              }
+              // IGN topo tiles
+              if (downloadIGNTopo) {
+                var ignTopoUrl = CONFIG.IGN_TOPO_URL
+                  .replace('{z}', z)
+                  .replace('{x}', tiles[t].x)
+                  .replace('{y}', tiles[t].y);
+                allTileUrls.push(ignTopoUrl);
               }
               // IGN slopes tiles
               if (downloadIGN) {

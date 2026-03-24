@@ -26,6 +26,19 @@
       <svg class="layer-arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg>
     </button>
     <div id="layer-dropdown" class="layer-dropdown hidden">
+      <div class="layer-section-title">Fond de carte</div>
+      <label class="layer-option">
+        <input type="radio" name="basemap" id="layer-base-otm" checked onchange="LayerSelector.update()">
+        <span class="layer-radio"></span>
+        OpenTopoMap
+      </label>
+      <label class="layer-option">
+        <input type="radio" name="basemap" id="layer-base-ign" onchange="LayerSelector.update()">
+        <span class="layer-radio"></span>
+        IGN Topo
+      </label>
+      <div class="layer-separator"></div>
+      <div class="layer-section-title">Couches</div>
       <label class="layer-option">
         <input type="checkbox" id="layer-risque" checked onchange="LayerSelector.update()">
         <span class="layer-check"></span>
@@ -39,7 +52,7 @@
       <label class="layer-option">
         <input type="checkbox" id="layer-pentes" onchange="LayerSelector.update()">
         <span class="layer-check"></span>
-        <span class="layer-icon">&#9651;</span> Pentes
+        <span class="layer-icon">&#9651;</span> Pentes IGN
       </label>
       <label class="layer-option">
         <input type="checkbox" id="layer-refuges" onchange="LayerSelector.update()">
@@ -137,6 +150,11 @@
           <input type="checkbox" id="offline-topo" checked>
           <span class="layer-check"></span>
           <span class="offline-massif-name">Fond de carte (OpenTopoMap)</span>
+        </label>
+        <label class="offline-massif-item">
+          <input type="checkbox" id="offline-ign-topo">
+          <span class="layer-check"></span>
+          <span class="offline-massif-name">Carte topographique IGN</span>
         </label>
         <label class="offline-massif-item">
           <input type="checkbox" id="offline-ign-slopes">

@@ -65,6 +65,24 @@ body {
   margin-bottom: 2px;
 }
 .layer-icon { font-size: 15px; width: 20px; text-align: center; }
+.layer-section-title {
+  font-size: 10px; font-weight: 700; text-transform: uppercase;
+  color: #999; letter-spacing: 0.5px; padding: 6px 14px 2px;
+}
+.layer-separator { height: 1px; background: #eee; margin: 4px 10px; }
+.layer-option input[type="radio"] { display: none; }
+.layer-radio {
+  width: 18px; height: 18px; border-radius: 50%; border: 2px solid #ccc;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  transition: all 0.15s;
+}
+.layer-option input[type="radio"]:checked + .layer-radio {
+  border-color: #3B6FA0;
+}
+.layer-option input[type="radio"]:checked + .layer-radio::after {
+  content: ''; display: block; width: 10px; height: 10px;
+  border-radius: 50%; background: #3B6FA0;
+}
 
 /* Geolocate */
 #geolocate {

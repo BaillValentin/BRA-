@@ -1,8 +1,8 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-03-23T16:00:00",
-  "validUntil": "2026-03-24T18:00:00",
-  "riskMax": 2,
+  "date": "2026-03-24T16:00:00",
+  "validUntil": "2026-03-25T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
       "altitude": "Toutes altitudes",
@@ -20,13 +20,14 @@
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent",
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Petits départs de neige humide avec le réchauffement diurne. \nDéclenchements skieurs : Plaques à vent formées par le vent de SO/SE à NE de ces derniers jours en haute-montagne. ",
-  "stability": "Manteau neigeux venté en altitude et plus printanier sous 2200/2400 m. \n\nDéclenchements provoqués :\n* Au-dessus de 2500/2700 m : plaques à vent. Formées par le vent de SO/SE de dimanche puis de NE de lundi. Les plaques sont d'aspect friables en moyenne montagne et plus dures en haute montagne. Déclenchables par un·e skieur·euse. Plus nombreuses vers les crêtes et arêtes. Taille 1 à 2 (petite à moyenne). \nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* Facteur aggravant : au-dessus de 2100 m en versants E/N/O : une couche fragile persistante enfouie est présente localement. Très difficilement déclenchable à skis mais elle peut être sollicitée par une forte surcharge (avalanche en cascade, chute de corniche/sérac ...) et engendrer une avalanche de plus grande ampleur. Taille 2 (moyenne) à 3 (grande). \n* En-dessous de 2500 m : de la neige humide peut couler sous les skis. Taille 1 (petite), rarement 2 (moyenne). \n\nDéparts spontanés :\n* En-dessous de 2500 m : petits départs en neige humide. Principalement dans les pentes raides au soleil et dans les rochers/falaises. Taille 1 (petite) rarement 2 (moyenne).\n* Très rares plaques de fond : possibles en tous versants, à toute heure du jour comme de la nuit. Principalement dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Taille 1 à 2 (petite à moyenne). ",
-  "snowQuality": "Enneigement : Enneigement correct pour la saison. En-dessous de 1100/1300 m, la neige est presque inexistante.\nOn peut chausser les skis vers 1200/1300 m en versants peu ensoleillés et vers 1400/1500 m ailleurs. \nDes grosses corniches sont présentes. \n\nQualité de la neige ce mardi : \n* En-dessous de 2200/2400 m : croûte plus ou moins portante le matin qui décaille rapidement avec la course du soleil et le réchauffement diurne. La neige devient alors molle à humide. \n* Entre 2200 m et la haute montagne : fine couche de poudreuse (3/7 cm) sur un fond dur. \n* En haute montagne : neige globalement dure, travaillée par le vent de SO/SE puis de NE de ces derniers jours. Elle reste encore légère et poudreuse dans quelques pentes abritées du vent.",
+  "summary": "Départs spontanés : Quelques départs pendant les chutes de neige.\nDéclenchements skieurs : Nouvelles plaques à vent dans la neige fraiche en cours d'après-midi.",
+  "stability": "Nouvelles instabilités formées par le vent dans la neige fraiche.\n\nDéclenchements provoqués :\n* De nombreuses plaques à vent se forment en journée de mercredi. Dès la matinée, le vent de sud-ouest souffle mais ne vient créer que de petites instabilités, plutôt d'aspect dur. En cours d’après-midi, des chutes de neige ventées se mettent en place et ainsi, sous le vent d’W, de nombreuses plaques à vent sont en train de se créer, et deviennent un peu plus épaisses. Taille 1 à 2 (petites à moyennes). Ces plaques sont facilement déclenchables au passage d’un skieur et sont un peu plus nombreuses près des crêtes et des arêtes. Elles sont d'aspect friable en moyenne montagne, mais plutôt dures en haute-montagne.\nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* Dans les secteurs concernés par les averses, une fine couche de neige roulée peut servir de couche fragile temporaire et ainsi favoriser la propagation d’une rupture. Localement une avalanche de taille 3 (grande) n'est pas exclue.\n* Facteur aggravant : au-dessus de 2100 m en versants E/N/O : une couche fragile persistante enfouie est présente localement. Très difficilement déclenchable à skis mais elle peut être sollicitée par une forte surcharge (avalanche en cascade, chute de corniche/sérac ...) et engendrer une avalanche de plus grande ampleur. Taille 2 (moyenne) à 3 (grande).\n\nDéparts spontanés :\n* En matinée, rares avalanches de neige humide dans les versants sud à est sous le soleil matinal, en dessous de 2200 m. Taille 1.\n* L'après-midi, rares avalanches de neige fraiche durant les chutes, en tous versants, au-dessus de 1800 m. Taille 1, rarement 2.",
+  "snowQuality": "Enneigement : Enneigement correct pour la saison. La neige est présente au plus bas dès 1100/1300 m.\nEn début d'après-midi de mercredi, la neige tombe et tient au sol dès 1000m mais vient seulement cacher le sol nu.\n\nQualité de la neige ce mercredi :\n* En matinée sous 2100/2200m, la neige croutée se transforme et subit une évolution de printemps dans les orientations sud à est, jusqu’à devenir molle. Dans les autres orientations et altitudes, la neige est travaillée par le vent, et reste parfois encore légère (en nord au-dessus de 1800m notamment) et n’a pas vraiment le temps de se transformer avant les chutes de neige.\n* En fin de matinée dès 1000m, les chutes de neige commencent. On attend environ 20 cm de neige fraîche (autour de 2000m), qui peuvent tomber de façon assez intense sous une averse. Ces chutes de neige sont ventées, et ainsi les croupes sont décapées rapidement et dans certains secteurs, le travail du vent se fait ressentir.",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

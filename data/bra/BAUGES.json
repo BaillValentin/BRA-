@@ -1,13 +1,15 @@
 {
   "massif": "BAUGES",
-  "date": "2026-03-23T16:00:00",
-  "validUntil": "2026-03-24T18:00:00",
+  "date": "2026-03-24T16:00:00",
+  "validUntil": "2026-03-25T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 2,
+      "level": 1,
       "orientations": [
+        "N",
+        "NE",
         "E",
         "SE",
         "S",
@@ -18,12 +20,13 @@
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Petits départs de neige humide avec le réchauffement diurne. \nDéclenchements skieurs : Neige humide sous les skis. ",
-  "stability": "  \n\nDéclenchements provoqués :\n* De la neige humide peut couler sous les skis. Plus nombreux au fil de l'ensoleillement. Taille 1 (petite), rarement 2 (moyenne). \n* Très rares plaques à vent, dans les pentes non chauffées par le soleil, au-dessus de 2000 m. Formées par le vent de NE. Les plaques sont globalement d'aspect friables. Déclenchables par un·e skieur·euse. Taille 1 à 2 (petite à moyenne). \n\nDéparts spontanés :\n* Petits départs en neige humide. Principalement dans les pentes raides au soleil et dans les rochers/falaises. Taille 1 (petite) rarement 2 (moyenne).\n* Très rares plaques de fond : possibles en tous versants, à toute heure du jour comme de la nuit. Principalement dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Taille 1 à 2 (petite à moyenne). ",
-  "snowQuality": "Enneigement : Enneigement correct pour la saison. On peut chausser les skis vers 1200/1300 m en versants peu ensoleillés et vers 1400/1500 m ailleurs. \nDes grosses corniches sont présentes. \n\nQualité de la neige ce mardi : \nCroûte peu portante le matin qui décaille rapidement avec la course du soleil et le réchauffement diurne. La neige devient alors molle à humide. ",
+  "summary": "Départs spontanés : Quelques départs pendant les chutes de neige.\nDéclenchements skieurs : Nouvelles plaques à vent dans la neige fraiche en cours d'après-midi.",
+  "stability": "Nouvelles instabilités formées par le vent dans la neige fraiche.\n\nDéclenchements provoqués :\n* Des plaques à vent se forment en journée de mercredi. Dès la matinée, le vent de sud-ouest souffle mais ne vient créer que de petites instabilités, plutôt d'aspect dur. En cours d’après-midi, des chutes de neige ventées se mettent en place et ainsi, sous le vent d’W, des plaques à vent sont en train de se créer, et deviennent un peu plus épaisses. Taille 1 à 2 (petites à moyennes). Ces plaques sont facilement déclenchables au passage d’un skieur et sont un peu plus nombreuses près des crêtes et des arêtes. Elles sont plutôt d'aspect friable.\nObservables : accumulation de neige, vaguelettes, fissures sous les skis.\n* Dans les secteurs concernés par les averses, une fine couche de neige roulée peut servir de couche fragile temporaire et ainsi favoriser la propagation d’une rupture. Taille 2 (moyenne).\n\nDéparts spontanés :\n* En matinée, rares avalanches de neige humide dans les versants sud à est sous le soleil matinal, en dessous de 2200 m. Taille 1.\n* L'après-midi, rares avalanches de neige fraiche durant les chutes, en tous versants, au-dessus de 1800 m. Taille 1, rarement 2.",
+  "snowQuality": "Enneigement : Enneigement correct pour la saison. La neige est présente au plus bas dès 1100/1300 m.\nEn début d'après-midi de mercredi, la neige tombe et tient au sol dès 1000m mais vient seulement cacher le sol nu.\nOn retrouve les sous-couches vers 1300 m en versants peu ensoleillés et vers 1500 m ailleurs.\n\nQualité de la neige ce mercredi :\n* En matinée, la neige croutée se transforme et subit une évolution de printemps dans les orientations sud à est, jusqu’à devenir molle. Dans les ubacs d'altitude, la neige est travaillée par le vent, et reste parfois encore légère et n’a pas vraiment le temps de se transformer avant les chutes de neige de la mi-journée.\n* En fin de matinée dès 1000m, les chutes de neige commencent et viennent se poser sur ce fond dur/transformé selon les orientations. On attend environ 10/15 cm de neige fraîche, qui peuvent tomber de façon assez intense sous une averse. Ces chutes de neige sont ventées, et ainsi les croupes sont décapées rapidement et dans certains secteurs, le travail du vent se fait ressentir.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

@@ -1,28 +1,28 @@
 {
   "massif": "VERCORS",
-  "date": "2026-03-23T15:00:00",
-  "validUntil": "2026-03-24T18:00:00",
+  "date": "2026-03-24T15:00:00",
+  "validUntil": "2026-03-25T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
+        "N",
+        "NE",
         "E",
         "SE",
-        "S",
-        "SW",
-        "W"
+        "S"
       ]
     }
   ],
   "situations": [
-    "plaque_vent",
-    "glissement"
+    "neige_fraiche",
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : En journée de mardi, suivant la course du soleil, quelques coulées ou rares petites avalanches en pentes raides d'altitude, près des rochers... \nDéclenchements skieurs : Peu probable ou en neige bien humidifiée, une coulée ponctuelle sous les skis...",
-  "stability": "NEIGE SOUVENT STABLE, QUELQUES COULEES OU PETITES AVALANCHES POSSIBLES EN PENTES ENSOLEILLEES...\n\nPeu de neige mobilisable en général (10/15 cm en moyenne), mais avec le redoux au soleil, quelques nouvelles coulées voire petites avalanches au fil de la journée...\nDéclenchements provoqués :\nPeu probable ou en neige réchauffée/humidifiée, possible coulée ponctuelle sous les skis, en pentes raides... Les quelques plaques formées dimanche se sont probablement stabilisées.\nDéparts spontanés :\nAu fil du réchauffement solaire, quelques nouvelles coulées, voire petites avalanches en pentes raides d'altitude (qui ne se sont pas encore purgées). Très rare avalanche de glissement en pente herbeuse/fissurée.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est assez  bon pour la saison, dès la moyenne montagne (hors sapins où la neige manque).  Peu de sous couche en plein Sud, anciens secteurs de reptation... \nLimites skiables : Vers 1200/1700m.\n\nQualité de la neige mardi :    Neige récente peut-être encore poudreuse en faces Nord d'altitude. Sinon neige puis croutée en surface partout ailleurs, davantage tassée au Sud (coulées récentes). Bon regel mardi matin (et sous couche dense/dure), puis assez rapide humidification en faces ensoleillées...",
+  "summary": "Départs spontanés : Peu probables puis mercredi soir,  coulées superficielles en terrain raide, chargé par le vent...\nDéclenchements skieurs : Mercredi en fin d'après-midi petites plaques se formant sous le vent de Nord-Ouest , parfois assez loin des crêtes...",
+  "stability": "INTEMPERIES A PARTIR DE MERCREDI APRES-MIDI, NEIGE FRAICHE TRES SOUFFLEE ;  PETITES PLAQUES EN FORMATION...\n\nEn matinée, neige souvent stable et encore consolidée par regel nocturne. L'après-midi et le soir on attend 5/10 cm sur les hauts du massifs, bien soufflés par le vent de Nord-Ouest...\n\nDéparts spontanés :\nPeu probables le matin, neige dense, encore parfois tendue par regel.\nPuis en cours d'après-midi/ mercredi soir des coulées superficielles sont possibles en pentes raides, notamment en secteur chargé par le vent...\nDéclenchements provoqués :\nPlutôt en fin d'après-midi ou soirée, le fort vent de Nord-Ouest forme quelques accumulations et petites plaques temporairement instables, parfois loin des crêtes...",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison, notamment en faces Nord, dès la moyenne montagne (hors sapins où la neige manque). Peu de sous couche en plein Sud, anciens secteurs de reptation (herbes à nu localement)... \nLimites skiables : Vers 1200/1700m.\n\nQualité de la neige mercredi :    Neige dense croutée ou durcie par regel nocturne. En Nord neige moins transformée... Puis humidification locale au soleil du mercredi matin...  L'après-midi coup de frais en vue. Averses de neige dès 1400 puis 1100m, 900m le soir. Rapide formation d'une petite couche de fraîche, très ventée... En altitude alternance de secteurs dénudés et congères...",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

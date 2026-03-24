@@ -2,7 +2,7 @@ const CONFIG = {
   MAP_CENTER: [45.2, 6.7],
   MAP_ZOOM: 8,
   MIN_ZOOM: 6,
-  MAX_ZOOM: 17,
+  MAX_ZOOM: 18,
   TILE_URL: 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
   TILE_ATTRIBUTION: 'Carte: © <a href="https://opentopomap.org">OpenTopoMap</a> | Données: © <a href="https://openstreetmap.org">OpenStreetMap</a> | BRA: © <a href="https://meteofrance.com">Météo-France</a>',
   IGN_TOPO_URL: 'https://data.geopf.fr/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2&STYLE=normal&FORMAT=image/png&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}',

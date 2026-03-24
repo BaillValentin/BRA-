@@ -3,15 +3,20 @@ document.addEventListener('DOMContentLoaded', async () => {
   const updateInfoEl = document.getElementById('update-info');
   const offlineBanner = document.getElementById('offline-banner');
 
-  // Offline indicator
+  // Offline indicator — robust toggle
   function updateOnlineStatus() {
     if (navigator.onLine) {
       offlineBanner.classList.add('hidden');
+      offlineBanner.setAttribute('aria-hidden', 'true');
     } else {
       offlineBanner.classList.remove('hidden');
+      offlineBanner.setAttribute('aria-hidden', 'false');
     }
   }
-  window.addEventListener('online', updateOnlineStatus);
+  window.addEventListener('online', function() {
+    // Small delay to ensure the event is stable
+    setTimeout(updateOnlineStatus, 300);
+  });
   window.addEventListener('offline', updateOnlineStatus);
   updateOnlineStatus();
 

@@ -370,7 +370,7 @@ const OfflineManager = {
 
     var cacheNames = await caches.keys();
     for (var i = 0; i < cacheNames.length; i++) {
-      if (cacheNames[i] !== 'bra-alpes-v29') { // Keep static assets
+      if (cacheNames[i] !== 'bra-alpes-v30') { // Keep static assets
         await caches.delete(cacheNames[i]);
       }
     }

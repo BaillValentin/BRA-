@@ -131,6 +131,19 @@
         <button class="offline-select-none" onclick="OfflineManager.selectNone()">Tout décocher</button>
       </div>
       <div id="offline-massif-list" class="offline-massif-list"></div>
+      <div class="offline-tile-options">
+        <div class="offline-zone-title">Couches à télécharger</div>
+        <label class="offline-massif-item">
+          <input type="checkbox" id="offline-topo" checked>
+          <span class="layer-check"></span>
+          <span class="offline-massif-name">Fond de carte (OpenTopoMap)</span>
+        </label>
+        <label class="offline-massif-item">
+          <input type="checkbox" id="offline-ign-slopes">
+          <span class="layer-check"></span>
+          <span class="offline-massif-name">Carte des pentes IGN</span>
+        </label>
+      </div>
       <div class="offline-zoom-section">
         <label class="offline-zoom-label">Niveau de zoom des tuiles :</label>
         <div class="offline-zoom-range">

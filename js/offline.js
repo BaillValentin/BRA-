@@ -8,8 +8,10 @@ const OfflineManager = {
     this.renderMassifList();
     this.updateZoomInfo();
 
-    // Zoom slider live update
+    // Zoom slider + tile layer checkboxes live update
     document.getElementById('offline-zoom').addEventListener('input', () => this.updateZoomInfo());
+    document.getElementById('offline-topo').addEventListener('change', () => this.updateZoomInfo());
+    document.getElementById('offline-ign-slopes').addEventListener('change', () => this.updateZoomInfo());
 
     // Show current cache status
     this.updateStatus();
@@ -66,8 +68,15 @@ const OfflineManager = {
   updateZoomInfo() {
     var zoom = parseInt(document.getElementById('offline-zoom').value);
     var tilesPerMassif = Math.round(Math.pow(4, zoom - 8) * 4);
+    var layers = 0;
+    var topoEl = document.getElementById('offline-topo');
+    var ignEl = document.getElementById('offline-ign-slopes');
+    if (topoEl && topoEl.checked) layers++;
+    if (ignEl && ignEl.checked) layers++;
+    layers = Math.max(layers, 1);
+    var total = tilesPerMassif * layers;
     document.getElementById('offline-zoom-info').textContent =
-      'Zoom ' + zoom + ' — estimation ~' + tilesPerMassif + ' tuiles/massif';
+      'Zoom ' + zoom + ' — estimation ~' + total + ' tuiles/massif' + (layers > 1 ? ' (x' + layers + ' couches)' : '');
   },
 
   async download() {
@@ -126,6 +135,9 @@ const OfflineManager = {
       }
 
       // 2. Download map tiles for each massif's bounding box
+      var downloadTopo = document.getElementById('offline-topo').checked;
+      var downloadIGN = document.getElementById('offline-ign-slopes').checked;
+
       progressText.textContent = 'Téléchargement des tuiles...';
       var allTileUrls = [];
 
@@ -149,12 +161,22 @@ const OfflineManager = {
             var tiles = this.getTilesForBounds(bounds, z);
             for (var t = 0; t < tiles.length; t++) {
               // OpenTopoMap tiles
-              var tileUrl = CONFIG.TILE_URL
-                .replace('{s}', ['a', 'b', 'c'][t % 3])
-                .replace('{z}', z)
-                .replace('{x}', tiles[t].x)
-                .replace('{y}', tiles[t].y);
-              allTileUrls.push(tileUrl);
+              if (downloadTopo) {
+                var topoUrl = CONFIG.TILE_URL
+                  .replace('{s}', ['a', 'b', 'c'][t % 3])
+                  .replace('{z}', z)
+                  .replace('{x}', tiles[t].x)
+                  .replace('{y}', tiles[t].y);
+                allTileUrls.push(topoUrl);
+              }
+              // IGN slopes tiles
+              if (downloadIGN) {
+                var ignUrl = CONFIG.SLOPES_URL
+                  .replace('{z}', z)
+                  .replace('{x}', tiles[t].x)
+                  .replace('{y}', tiles[t].y);
+                allTileUrls.push(ignUrl);
+              }
             }
           }
         }

@@ -22,6 +22,7 @@
   <div id="map-toggle" class="map-toggle">
     <button class="map-toggle-btn active" data-mode="risque" onclick="MapManager.setMode('risque')">Risque</button>
     <button class="map-toggle-btn" data-mode="enneigement" onclick="MapManager.setMode('enneigement')">Enneigement</button>
+    <button class="map-toggle-btn" data-mode="pentes" onclick="MapManager.setMode('pentes')">Pentes</button>
   </div>
 
   <!-- Compare button -->
@@ -59,6 +60,15 @@
     <div class="legend-item"><span class="legend-color" style="background:#FF9500;"></span><span>3 - Marqué</span></div>
     <div class="legend-item"><span class="legend-color" style="background:#FF3B30;"></span><span>4 - Fort</span></div>
     <div class="legend-item"><span class="legend-color legend-color-5"></span><span>5 - Très fort</span></div>
+  </div>
+
+  <!-- Slope legend -->
+  <div id="slope-legend" class="slope-legend" style="display:none;">
+    <div class="legend-title">Inclinaison</div>
+    <div class="legend-item"><span class="legend-color" style="background:#FFFF00;"></span><span>30° - 35°</span></div>
+    <div class="legend-item"><span class="legend-color" style="background:#FF8C00;"></span><span>35° - 40°</span></div>
+    <div class="legend-item"><span class="legend-color" style="background:#FF0000;"></span><span>40° - 45°</span></div>
+    <div class="legend-item"><span class="legend-color" style="background:#FF00FF;"></span><span>&gt; 45°</span></div>
   </div>
 
   <div id="panel">

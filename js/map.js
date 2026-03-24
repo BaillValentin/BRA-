@@ -4,6 +4,7 @@ const MapManager = {
   imageMarkers: {},
   selectedLayer: null,
   geojsonLayer: null,
+  slopeLayer: null,
   latestData: null,
   mode: 'risque',
 
@@ -175,8 +176,25 @@ const MapManager = {
       btn.classList.toggle('active', btn.dataset.mode === mode);
     });
 
-    // Legend
+    // Legends
     document.getElementById('legend').style.display = mode === 'risque' ? '' : 'none';
+    document.getElementById('slope-legend').style.display = mode === 'pentes' ? '' : 'none';
+
+    // Slope overlay
+    if (mode === 'pentes') {
+      if (!this.slopeLayer) {
+        this.slopeLayer = L.tileLayer(CONFIG.SLOPES_URL, {
+          attribution: CONFIG.SLOPES_ATTRIBUTION,
+          maxZoom: CONFIG.MAX_ZOOM,
+          opacity: 0.6
+        });
+      }
+      if (!this.map.hasLayer(this.slopeLayer)) {
+        this.slopeLayer.addTo(this.map);
+      }
+    } else if (this.slopeLayer && this.map.hasLayer(this.slopeLayer)) {
+      this.map.removeLayer(this.slopeLayer);
+    }
 
     var scale = this.getZoomScale();
     var massifsRisks = this.latestData ? this.latestData.massifs : {};
@@ -187,7 +205,9 @@ const MapManager = {
         var massifId = layer.feature.properties.id;
         var riskData = massifsRisks[massifId];
         var risk = riskData ? riskData.risk : 0;
-        if (mode === 'risque') {
+        if (mode === 'pentes') {
+          layer.setStyle({ fillOpacity: 0, weight: 1, color: '#666', opacity: 0.4 });
+        } else if (mode === 'risque') {
           layer.setStyle({ fillColor: RISK_COLORS[risk] || '#999', fillOpacity: 0.15, weight: 3, color: '#e74c3c' });
         } else {
           layer.setStyle({ fillColor: '#4A90D9', fillOpacity: 0.1, weight: 3, color: '#e74c3c' });
@@ -195,11 +215,18 @@ const MapManager = {
       });
     }
 
-    // Update markers
+    // Show/hide markers and labels based on mode
+    var showMarkers = mode !== 'pentes';
+
     for (var massifId in this.imageMarkers) {
       var marker = this.imageMarkers[massifId];
       var data = marker._massifData;
       var imgs = data.img || {};
+
+      if (!showMarkers) {
+        marker.setIcon(L.divIcon({ className: 'massif-marker', html: '', iconSize: [0, 0] }));
+        continue;
+      }
 
       if (mode === 'risque') {
         var risk = data.risk || '?';
@@ -215,7 +242,6 @@ const MapManager = {
         // Enneigement: show small PNG thumbnail
         var imgSrc = imgs['montagne-enneigement'];
         if (imgSrc) {
-          // Petit en dézoomé, grandit en zoomant, max 250px pour pouvoir lire
           var imgW = Math.min(250, Math.round(15 * scale));
           var imgH = Math.min(200, Math.round(12 * scale));
           marker.setIcon(L.divIcon({
@@ -231,6 +257,18 @@ const MapManager = {
             iconSize: [30, 30],
             iconAnchor: [15, 15]
           }));
+        }
+      }
+    }
+
+    // Show/hide labels
+    if (this._labelMarkers) {
+      for (var i = 0; i < this._labelMarkers.length; i++) {
+        var lbl = this._labelMarkers[i];
+        if (showMarkers) {
+          if (!this.map.hasLayer(lbl)) lbl.addTo(this.map);
+        } else {
+          if (this.map.hasLayer(lbl)) this.map.removeLayer(lbl);
         }
       }
     }

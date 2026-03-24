@@ -122,6 +122,37 @@ body {
   padding: 10px 0; border-top: 1px solid #eee; margin-top: 4px;
 }
 
+/* Collapsible cards */
+.bra-collapsible > summary {
+  cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between;
+}
+.bra-collapsible > summary::-webkit-details-marker { display: none; }
+.collapse-arrow {
+  display: inline-block; width: 8px; height: 8px;
+  border-right: 2px solid white; border-bottom: 2px solid white;
+  transform: rotate(45deg); transition: transform 0.2s;
+}
+.bra-collapsible[open] > summary .collapse-arrow { transform: rotate(-135deg); }
+
+/* Risk by altitude */
+.risk-altitude-list { display: flex; flex-direction: column; gap: 10px; }
+.risk-altitude-row { display: flex; align-items: center; gap: 10px; }
+.risk-altitude-badge {
+  width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: bold; font-size: 15px;
+}
+.risk-altitude-info { font-size: 13px; color: #333; }
+.risk-altitude-info strong { color: #2c3e50; }
+.risk-orientations { margin-top: 4px; display: inline-block; vertical-align: middle; }
+
+/* Situation tags */
+.situations-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.situation-tag {
+  display: inline-block; padding: 4px 10px; border-radius: 14px;
+  background: #EEF2F7; color: #3B6FA0; font-size: 12px; font-weight: 500;
+}
+
 /* BRA images */
 .bra-img-row {
   display: flex; align-items: flex-start; justify-content: center;
@@ -183,6 +214,28 @@ body {
 
 /* Tooltip */
 .massif-tooltip { font-size: 13px; font-weight: 500; padding: 6px 10px; border-radius: 6px; }
+
+/* ── Map action buttons ── */
+.map-action-btn {
+  position: fixed; z-index: 500;
+  width: 44px; height: 44px; background: white; border: none;
+  border-radius: 50%; box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  cursor: pointer; display: flex; align-items: center; justify-content: center; color: #333;
+}
+.map-action-btn:hover { background: #f0f0f0; }
+.map-action-btn.active { background: #8B4513; color: white; }
+
+/* Refuge markers */
+.refuge-marker { background: none !important; border: none !important; }
+.refuge-tooltip { font-size: 12px; padding: 6px 10px; border-radius: 6px; }
+
+/* Offline banner */
+.offline-banner {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 900;
+  background: #FF9500; color: white; text-align: center;
+  padding: 4px 0; font-size: 12px; font-weight: 600;
+}
+.offline-banner.hidden { display: none; }
 
 /* ── Compare ── */
 .compare-btn {

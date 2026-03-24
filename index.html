@@ -25,6 +25,14 @@
     <button class="map-toggle-btn" data-mode="pentes" onclick="MapManager.setMode('pentes')">Pentes</button>
   </div>
 
+  <!-- Refuges toggle -->
+  <button id="refuges-btn" class="map-action-btn" title="Afficher les refuges" onclick="MapManager.toggleRefuges()" style="top:80px;right:60px;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 21l9-18 9 18H3z"/>
+      <line x1="12" y1="11" x2="12" y2="17"/>
+    </svg>
+  </button>
+
   <!-- Compare button -->
   <button id="compare-btn" class="compare-btn" title="Comparer 2 massifs" onclick="MapManager.toggleCompare()">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -85,6 +93,9 @@
     <button id="pdf-back" class="pdf-back-btn">← Retour</button>
     <iframe id="pdf-frame" class="pdf-frame"></iframe>
   </div>
+
+  <!-- Offline indicator -->
+  <div id="offline-banner" class="offline-banner hidden">Mode hors-ligne</div>
 
   <div id="update-info"></div>
 

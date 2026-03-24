@@ -399,6 +399,110 @@ const MapManager = {
     return '<div class="cmp-cell"><span style="color:#ccc">—</span></div>';
   },
 
+  // ── Refuges layer ──
+  refugesVisible: false,
+  _refugesLayer: null,
+  _refugesData: null,
+
+  toggleRefuges() {
+    if (this.refugesVisible) {
+      this.hideRefuges();
+    } else {
+      this.showRefuges();
+    }
+  },
+
+  async showRefuges() {
+    var btn = document.getElementById('refuges-btn');
+    btn.classList.add('active');
+    this.refugesVisible = true;
+
+    if (this._refugesLayer) {
+      this._refugesLayer.addTo(this.map);
+      return;
+    }
+
+    // Try localStorage cache first
+    var cached = null;
+    try {
+      var raw = localStorage.getItem('refuges-cache');
+      if (raw) {
+        var parsed = JSON.parse(raw);
+        if (parsed.ts && Date.now() - parsed.ts < 7 * 24 * 3600 * 1000) {
+          cached = parsed.data;
+        }
+      }
+    } catch (e) {}
+
+    if (cached) {
+      this._buildRefugesLayer(cached);
+      return;
+    }
+
+    // Fetch from Overpass API — Alpine huts + refuges in French Alps bbox
+    var query = '[out:json][timeout:30];(' +
+      'node["tourism"="alpine_hut"](43.5,4.5,46.5,7.8);' +
+      'node["tourism"="wilderness_hut"](43.5,4.5,46.5,7.8);' +
+      ');out body;';
+    try {
+      var resp = await fetch('https://overpass-api.de/api/interpreter', {
+        method: 'POST',
+        body: 'data=' + encodeURIComponent(query),
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+      });
+      var json = await resp.json();
+      var refuges = json.elements.map(function(el) {
+        return {
+          lat: el.lat, lon: el.lon,
+          name: (el.tags && el.tags.name) || 'Refuge',
+          ele: (el.tags && el.tags.ele) || null,
+          capacity: (el.tags && el.tags.capacity) || null
+        };
+      });
+      // Cache in localStorage
+      try { localStorage.setItem('refuges-cache', JSON.stringify({ ts: Date.now(), data: refuges })); } catch (e) {}
+      this._buildRefugesLayer(refuges);
+    } catch (e) {
+      console.error('Failed to load refuges:', e);
+      btn.classList.remove('active');
+      this.refugesVisible = false;
+    }
+  },
+
+  _buildRefugesLayer(refuges) {
+    this._refugesData = refuges;
+    this._refugesLayer = L.layerGroup();
+
+    var refugeIcon = L.divIcon({
+      className: 'refuge-marker',
+      html: '<svg width="20" height="20" viewBox="0 0 24 24" fill="#8B4513" xmlns="http://www.w3.org/2000/svg">' +
+        '<path d="M12 2L2 12h3v8h14v-8h3L12 2z" stroke="#FFF" stroke-width="1.5"/></svg>',
+      iconSize: [20, 20],
+      iconAnchor: [10, 20]
+    });
+
+    for (var i = 0; i < refuges.length; i++) {
+      var r = refuges[i];
+      var tooltip = '<strong>' + r.name + '</strong>';
+      if (r.ele) tooltip += '<br>' + r.ele + ' m';
+      if (r.capacity) tooltip += '<br>Places : ' + r.capacity;
+
+      L.marker([r.lat, r.lon], { icon: refugeIcon })
+        .bindTooltip(tooltip, { direction: 'top', offset: [0, -18], className: 'refuge-tooltip' })
+        .addTo(this._refugesLayer);
+    }
+
+    this._refugesLayer.addTo(this.map);
+  },
+
+  hideRefuges() {
+    document.getElementById('refuges-btn').classList.remove('active');
+    this.refugesVisible = false;
+    if (this._refugesLayer && this.map.hasLayer(this._refugesLayer)) {
+      this.map.removeLayer(this._refugesLayer);
+    }
+  },
+
   geolocate() {
     if (!navigator.geolocation) { alert('Géolocalisation non supportée.'); return; }
     var btn = document.getElementById('geolocate');

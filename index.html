@@ -18,20 +18,49 @@
 
   <div id="map"></div>
 
-  <!-- Map mode toggle -->
-  <div id="map-toggle" class="map-toggle">
-    <button class="map-toggle-btn active" data-mode="risque" onclick="MapManager.setMode('risque')">Risque</button>
-    <button class="map-toggle-btn" data-mode="enneigement" onclick="MapManager.setMode('enneigement')">Enneigement</button>
-    <button class="map-toggle-btn" data-mode="pentes" onclick="MapManager.setMode('pentes')">Pentes</button>
+  <!-- Layer selector dropdown -->
+  <div id="layer-selector" class="layer-selector">
+    <button class="layer-selector-btn" onclick="LayerSelector.toggle()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      <span>Couches</span>
+      <svg class="layer-arrow" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div id="layer-dropdown" class="layer-dropdown hidden">
+      <div class="layer-section-title">Fond de carte</div>
+      <label class="layer-option">
+        <input type="radio" name="basemap" id="layer-base-otm" checked onchange="LayerSelector.update()">
+        <span class="layer-radio"></span>
+        OpenTopoMap
+      </label>
+      <label class="layer-option">
+        <input type="radio" name="basemap" id="layer-base-ign" onchange="LayerSelector.update()">
+        <span class="layer-radio"></span>
+        IGN Topo
+      </label>
+      <div class="layer-separator"></div>
+      <div class="layer-section-title">Couches</div>
+      <label class="layer-option">
+        <input type="checkbox" id="layer-risque" checked onchange="LayerSelector.update()">
+        <span class="layer-check"></span>
+        <span class="layer-icon">&#9888;</span> Risque
+      </label>
+      <label class="layer-option">
+        <input type="checkbox" id="layer-enneigement" onchange="LayerSelector.update()">
+        <span class="layer-check"></span>
+        <span class="layer-icon">&#10052;</span> Enneigement
+      </label>
+      <label class="layer-option">
+        <input type="checkbox" id="layer-pentes" onchange="LayerSelector.update()">
+        <span class="layer-check"></span>
+        <span class="layer-icon">&#9651;</span> Pentes IGN
+      </label>
+      <label class="layer-option">
+        <input type="checkbox" id="layer-refuges" onchange="LayerSelector.update()">
+        <span class="layer-check"></span>
+        <span class="layer-icon">&#8962;</span> Refuges
+      </label>
+    </div>
   </div>
-
-  <!-- Refuges toggle -->
-  <button id="refuges-btn" class="map-action-btn" title="Afficher les refuges" onclick="MapManager.toggleRefuges()" style="top:80px;right:60px;">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M3 21l9-18 9 18H3z"/>
-      <line x1="12" y1="11" x2="12" y2="17"/>
-    </svg>
-  </button>
 
   <!-- Compare button -->
   <button id="compare-btn" class="compare-btn" title="Comparer 2 massifs" onclick="MapManager.toggleCompare()">
@@ -97,6 +126,63 @@
   <!-- Offline indicator -->
   <div id="offline-banner" class="offline-banner hidden">Mode hors-ligne</div>
 
+  <!-- Offline manager -->
+  <button id="offline-btn" class="offline-mgr-btn" title="Gérer le hors-ligne" onclick="OfflineManager.openPanel()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+  </button>
+
+  <!-- Offline panel -->
+  <div id="offline-panel" class="offline-panel hidden">
+    <div class="offline-panel-header">
+      <h2>Mode hors-ligne</h2>
+      <button class="panel-close" onclick="OfflineManager.closePanel()">&times;</button>
+    </div>
+    <div class="offline-panel-body" id="offline-panel-body">
+      <p class="offline-hint">Sélectionnez les massifs à garder hors-ligne. Les données BRA, images et tuiles cartographiques seront téléchargées.</p>
+      <div class="offline-actions">
+        <button class="offline-select-all" onclick="OfflineManager.selectAll()">Tout sélectionner</button>
+        <button class="offline-select-none" onclick="OfflineManager.selectNone()">Tout décocher</button>
+      </div>
+      <div id="offline-massif-list" class="offline-massif-list"></div>
+      <div class="offline-tile-options">
+        <div class="offline-zone-title">Couches à télécharger</div>
+        <label class="offline-massif-item">
+          <input type="checkbox" id="offline-topo" checked>
+          <span class="layer-check"></span>
+          <span class="offline-massif-name">Fond de carte (OpenTopoMap)</span>
+        </label>
+        <label class="offline-massif-item">
+          <input type="checkbox" id="offline-ign-topo">
+          <span class="layer-check"></span>
+          <span class="offline-massif-name">Carte topographique IGN</span>
+        </label>
+        <label class="offline-massif-item">
+          <input type="checkbox" id="offline-ign-slopes">
+          <span class="layer-check"></span>
+          <span class="offline-massif-name">Carte des pentes IGN</span>
+        </label>
+      </div>
+      <div class="offline-zoom-section">
+        <label class="offline-zoom-label">Niveau de zoom des tuiles :</label>
+        <div class="offline-zoom-range">
+          <span>8</span>
+          <input type="range" id="offline-zoom" min="8" max="14" value="12">
+          <span>14</span>
+        </div>
+        <div id="offline-zoom-info" class="offline-zoom-info">Zoom 12 — estimation ~200 tuiles/massif</div>
+      </div>
+      <button id="offline-download-btn" class="offline-download-btn" onclick="OfflineManager.download()">
+        Télécharger pour hors-ligne
+      </button>
+      <div id="offline-progress" class="offline-progress hidden">
+        <div class="offline-progress-bar"><div id="offline-progress-fill" class="offline-progress-fill"></div></div>
+        <div id="offline-progress-text" class="offline-progress-text">Préparation...</div>
+      </div>
+      <div id="offline-status" class="offline-status"></div>
+      <button class="offline-purge-btn" onclick="OfflineManager.purgeAll()">Tout supprimer du cache</button>
+    </div>
+  </div>
+
   <div id="update-info"></div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -104,6 +190,8 @@
   <script src="js/data.js"></script>
   <script src="js/map.js"></script>
   <script src="js/panel.js"></script>
+  <script src="js/layers.js"></script>
+  <script src="js/offline.js"></script>
   <script src="js/app.js"></script>
 
   <script>

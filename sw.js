@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bra-alpes-v28';
+const CACHE_NAME = 'bra-alpes-v29';
 const TILE_CACHE = 'bra-tiles-v1';
 const IMG_CACHE = 'bra-images-v1';
 const MAX_TILE_CACHE_SIZE = 2000; // max cached tiles
@@ -12,6 +12,8 @@ const STATIC_ASSETS = [
   './js/data.js',
   './js/map.js',
   './js/panel.js',
+  './js/layers.js',
+  './js/offline.js',
   './js/app.js',
   './data/massifs.geojson',
   './manifest.json',

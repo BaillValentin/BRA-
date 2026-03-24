@@ -17,10 +17,13 @@ const MapManager = {
       zoomControl: true
     });
 
-    L.tileLayer(CONFIG.TILE_URL, {
+    var baseLayer = L.tileLayer(CONFIG.TILE_URL, {
       attribution: CONFIG.TILE_ATTRIBUTION,
       maxZoom: CONFIG.MAX_ZOOM
     }).addTo(this.map);
+
+    // Pass base layer reference to LayerSelector for switching
+    LayerSelector.setInitialBaseLayer(baseLayer);
 
     // Update marker sizes on zoom end only (avoid flickering during animation)
     this.map.on('zoomend', () => this.updateMarkerSizes());
@@ -171,30 +174,6 @@ const MapManager = {
 
   setMode(mode) {
     this.mode = mode;
-
-    document.querySelectorAll('.map-toggle-btn').forEach(function(btn) {
-      btn.classList.toggle('active', btn.dataset.mode === mode);
-    });
-
-    // Legends
-    document.getElementById('legend').style.display = mode === 'risque' ? '' : 'none';
-    document.getElementById('slope-legend').style.display = mode === 'pentes' ? '' : 'none';
-
-    // Slope overlay
-    if (mode === 'pentes') {
-      if (!this.slopeLayer) {
-        this.slopeLayer = L.tileLayer(CONFIG.SLOPES_URL, {
-          attribution: CONFIG.SLOPES_ATTRIBUTION,
-          maxZoom: CONFIG.MAX_ZOOM,
-          opacity: 0.6
-        });
-      }
-      if (!this.map.hasLayer(this.slopeLayer)) {
-        this.slopeLayer.addTo(this.map);
-      }
-    } else if (this.slopeLayer && this.map.hasLayer(this.slopeLayer)) {
-      this.map.removeLayer(this.slopeLayer);
-    }
 
     var scale = this.getZoomScale();
     var massifsRisks = this.latestData ? this.latestData.massifs : {};
@@ -404,17 +383,7 @@ const MapManager = {
   _refugesLayer: null,
   _refugesData: null,
 
-  toggleRefuges() {
-    if (this.refugesVisible) {
-      this.hideRefuges();
-    } else {
-      this.showRefuges();
-    }
-  },
-
   async showRefuges() {
-    var btn = document.getElementById('refuges-btn');
-    btn.classList.add('active');
     this.refugesVisible = true;
 
     if (this._refugesLayer) {
@@ -464,7 +433,6 @@ const MapManager = {
       this._buildRefugesLayer(refuges);
     } catch (e) {
       console.error('Failed to load refuges:', e);
-      btn.classList.remove('active');
       this.refugesVisible = false;
     }
   },
@@ -475,10 +443,11 @@ const MapManager = {
 
     var refugeIcon = L.divIcon({
       className: 'refuge-marker',
-      html: '<svg width="20" height="20" viewBox="0 0 24 24" fill="#8B4513" xmlns="http://www.w3.org/2000/svg">' +
-        '<path d="M12 2L2 12h3v8h14v-8h3L12 2z" stroke="#FFF" stroke-width="1.5"/></svg>',
-      iconSize: [20, 20],
-      iconAnchor: [10, 20]
+      html: '<svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">' +
+        '<path d="M12 3L2 13h3v7h14v-7h3L12 3z" fill="#8B4513" stroke="#FFF" stroke-width="1.5"/>' +
+        '<rect x="10" y="14" width="4" height="6" fill="#FFF" rx="0.5"/></svg>',
+      iconSize: [22, 22],
+      iconAnchor: [11, 22]
     });
 
     for (var i = 0; i < refuges.length; i++) {
@@ -496,7 +465,6 @@ const MapManager = {
   },
 
   hideRefuges() {
-    document.getElementById('refuges-btn').classList.remove('active');
     this.refugesVisible = false;
     if (this._refugesLayer && this.map.hasLayer(this._refugesLayer)) {
       this.map.removeLayer(this._refugesLayer);

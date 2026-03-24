@@ -33,7 +33,7 @@ const LayerSelector = {
     } else if (enneigement) {
       MapManager.setMode('enneigement');
     } else {
-      MapManager.setMode('risque');
+      MapManager.setMode('none');
     }
 
     // ── Pentes overlay ──
@@ -90,7 +90,8 @@ const LayerSelector = {
       if (!this._otmLayer) {
         this._otmLayer = L.tileLayer(CONFIG.TILE_URL, {
           attribution: CONFIG.TILE_ATTRIBUTION,
-          maxZoom: CONFIG.MAX_ZOOM
+          maxZoom: CONFIG.MAX_ZOOM,
+          maxNativeZoom: 17
         });
       }
       this._otmLayer.addTo(MapManager.map);

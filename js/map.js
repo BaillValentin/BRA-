@@ -19,7 +19,8 @@ const MapManager = {
 
     var baseLayer = L.tileLayer(CONFIG.TILE_URL, {
       attribution: CONFIG.TILE_ATTRIBUTION,
-      maxZoom: CONFIG.MAX_ZOOM
+      maxZoom: CONFIG.MAX_ZOOM,
+      maxNativeZoom: 17
     }).addTo(this.map);
 
     // Pass base layer reference to LayerSelector for switching
@@ -184,7 +185,7 @@ const MapManager = {
         var massifId = layer.feature.properties.id;
         var riskData = massifsRisks[massifId];
         var risk = riskData ? riskData.risk : 0;
-        if (mode === 'pentes') {
+        if (mode === 'pentes' || mode === 'none') {
           layer.setStyle({ fillOpacity: 0, weight: 1, color: '#666', opacity: 0.4 });
         } else if (mode === 'risque') {
           layer.setStyle({ fillColor: RISK_COLORS[risk] || '#999', fillOpacity: 0.15, weight: 3, color: '#e74c3c' });
@@ -195,7 +196,7 @@ const MapManager = {
     }
 
     // Show/hide markers and labels based on mode
-    var showMarkers = mode !== 'pentes';
+    var showMarkers = (mode !== 'pentes' && mode !== 'none');
 
     for (var massifId in this.imageMarkers) {
       var marker = this.imageMarkers[massifId];

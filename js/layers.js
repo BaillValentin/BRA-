@@ -80,7 +80,8 @@ const LayerSelector = {
       if (!this._ignTopoLayer) {
         this._ignTopoLayer = L.tileLayer(CONFIG.IGN_TOPO_URL, {
           attribution: CONFIG.IGN_TOPO_ATTRIBUTION,
-          maxZoom: CONFIG.MAX_ZOOM
+          maxZoom: CONFIG.MAX_ZOOM,
+          maxNativeZoom: 16
         });
       }
       this._ignTopoLayer.addTo(MapManager.map);

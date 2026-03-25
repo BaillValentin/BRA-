@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bra-alpes-v31';
+const CACHE_NAME = 'bra-alpes-v32';
 const TILE_CACHE = 'bra-tiles-v1';
 const IMG_CACHE = 'bra-images-v1';
 const MAX_TILE_CACHE_SIZE = 2000; // max cached tiles

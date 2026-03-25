@@ -1,26 +1,34 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-03-24T16:00:00",
-  "validUntil": "2026-03-25T18:00:00",
-  "riskMax": 2,
+  "date": "2026-03-25T16:00:00",
+  "validUntil": "2026-03-26T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2000",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2000",
+      "altitude": "<2300",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2300",
+      "level": 3,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
@@ -28,9 +36,9 @@
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : départs superficiels de neige récente s'humidifiant au soleil, de faible ampleur. \nDéclenchements skieurs : encore quelques plaques dans la neige récente, notamment vers le crêtes.",
-  "stability": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE - UN PEU D’ACTIVITÉ NATURELLE AU SOLEIL\n\nDéclenchements provoqués : quelques plaques en place en versants froids d'altitude formées lors des chutes ventées de dimanche dernier, d'autres en formation sous l'action du vent de nord-ouest qui se renforce mercredi après-midi, devenant tempétueux en fin de journée. Ces plaques sont facilement déclenchables et présentes notamment dans les zones d'accumulation, à proximité des crêtes et ruptures de pente. Elles génèrent des avalanches de taille petite à moyenne (taille 1 à 2). En versant nord de haute altitude, un départ un peu plus volumineux n'est pas à exclure. \n\nDéparts spontanés : rares départs ponctuels de neige récente dans les pentes raides bien ensoleillées. Avalanches de taille 1, rarement 2. Ces départs cessent en fin de journée avec le net refroidissement de la masse d'air.",
-  "snowQuality": "Enneigement excédentaire dans la Roya, proche des normales sur le reste du massif.\nDonnées observées : 166 cm à la Nivôse de Millefonts à 2430 m, 115 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : on retrouve encore la couche de neige récente (10 à 15 cm), travaillée par le vent de nord-est proche des crêtes, et déjà fortement densifiée jusqu'à haute altitude en sud. Elle peut rester froide et légère dans les versants nord-ouest, nord et nord-est au-dessus de 2000/2200 m. Elle repose en général sur un fond dur/regelé, excepté en ubacs au-dessus de 2000/2200 m, où la couche de neige légère peut être plus importante dans les combes abritées du vent. ",
+  "summary": "Départs spontanés : quelques ruptures spontanées suite au transport de neige par le vent\nDéclenchements skieurs : plaques faciles à déclencher dans la neige transportée par le vent",
+  "stability": "NOMBREUSES PLAQUES EN FORMATION DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : plaques en place et nombreuses en formation au dessus de 2300 m environ, même loin des crêtes, entretenues par un fort vent de nord à nord-ouest. Ces plaques sont facilement déclenchables, surtout dans les versants froids où le manteau neigeux n'est pas encore printanier. Elles génèrent des avalanches souvent de taille moyenne (taille 2), une rare grande (taille 3) non exclue dans les zones de forte accumulation de neige ou couloirs chargés.\nSous 2300 m, la probabilité de déclencher une plaque est plus limitée.\n\nDéparts spontanés : quelques plaques cèdent spontanément en pentes raides sous le fort vent de nord à nord-ouest. Avalanches de taille 1 à 2. ",
+  "snowQuality": "Enneigement excédentaire dans la Roya, proche des normales sur le reste du massif.\nDonnées observées : 162 cm à la Nivôse de Millefonts à 2430 m, 112 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : en sud, neige souvent croûtée, parfois recouverte par des accumulations de neige rapportée par le fort vent de nord. Dans les versants froids, la neige reste froide au dessus de 2000/2200 m environ, encore assez légère dans les combes abritées du vent, mais de plus en plus travaillée et durcie par le vent dans les secteurs exposés. ",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

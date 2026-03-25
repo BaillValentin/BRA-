@@ -1,18 +1,20 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-03-24T16:00:00",
-  "validUntil": "2026-03-25T18:00:00",
+  "date": "2026-03-25T16:00:00",
+  "validUntil": "2026-03-26T18:00:00",
   "riskMax": 3,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 2,
+      "level": 3,
       "orientations": [
         "N",
         "NE",
         "E",
         "SE",
         "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
@@ -20,9 +22,9 @@
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : sous le vent.\nDéclenchements skieurs : instabilités de plus en plus généralisées.",
-  "stability": "Vent et chutes de neige : nouvelles instabilités, de plus en plus nombreuses et réactives.\n\nDéclenchements provoqués :\nLe matin, quelques plaques sont alimentées par le vent d'Ouest, essentiellement en ubacs (où la neige était restée poudreuse et transportable). Taille 1 à 2 (petite à moyenne) avec des cassures de 10 à 20 cm.\nL'après-midi, avec les chutes de neige et le renforcement du vent de Nord-Ouest, les plaques deviennent plus nombreuses, plus épaisses et plus réactives au fil des heures, le risque devient marqué en fin d'après-midi. On les trouve jusqu'en bas des versants sous le vent, souvent derrière les ruptures de pente. Taille 1 à 2 (petite à moyenne) avec des cassures de 10 à 20 cm, localement 40 cm en ubac.\nObservables : accumulation, test de stabilité, fissures devant les skis.\n\nDéparts spontanés :\nLe matin sous le vent d'ouest, rares départs de petites plaques en secteur NO, Nord et NE d'altitude. Avec les chutes de neige ventées l'après midi, quelques départs, parfois linéaires de petites à moyennes avalanches sous les crêtes et rupture de pentes. ",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : Le matin, en adrets, neige dure ou croutée, qui peine à ramollir en journée là où le vent souffle; en ubacs, on peut encore trouver de la poudreuse (7 à 15 cm), parfois densifiée par le vent. Chute de neige l'après-midi : couche de fraîche s'épaississant, nombreuses accumulations par le vent.",
+  "summary": "Départs spontanés : toute la journée. \nDéclenchements skieurs : nombreuses plaques très réactives. ",
+  "stability": "TEMPETE EN MONTANGE. NEIGE ET VENT FORT.\n\nDéclenchements provoqués : nombreuses plaques dans ce contexte neigeux et venté. On le trouve en tous versants, aussi bien aux abords des crêtes qu'en bas de pentes. Elles sont très réactives car en cours de formation (averses de neige et vent de Nord soutenu en cours) et d'épaisseur très variable. Les avalanches engendrées sont fréquemment de taille moyenne (taille 2).\nSecteur Belledonne/Sybelles : les cumuls de neige sont plus importants qu'ailleurs, les avalanches sont plus nombreuses et généralement de plus grandes tailles.  \nObservables : transport de neige en cours, accumulation, fissures devant les skis.\n\nDéparts spontanés : pendant les averses et/ou tant que le vent transporte la neige, des plaques se décrochent dans les pentes/talus raides (sous le vent). Activité possible toute la journée. Avalanches petites à moyennes (taille 1 à 2).",
+  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : nouvelle livraison de neige fraiche malheureusement battue par le vent. La couche est hétérogène. Des zones sont pelées, décapées. D'autres accumulent la neige fraîche. Le vent entretient la sensation de froid et la neige reste hivernale en journée.",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

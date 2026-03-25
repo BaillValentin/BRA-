@@ -1,18 +1,21 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-03-24T15:00:00",
-  "validUntil": "2026-03-25T18:00:00",
-  "riskMax": 2,
+  "date": "2026-03-25T16:00:00",
+  "validUntil": "2026-03-26T18:00:00",
+  "riskMax": 4,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 1,
+      "level": 4,
       "orientations": [
         "N",
         "NE",
         "E",
         "SE",
-        "S"
+        "S",
+        "SW",
+        "W",
+        "NW"
       ]
     }
   ],
@@ -20,9 +23,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Peu probables puis mercredi soir,  coulées superficielles en terrain raide, chargé par le vent...\nDéclenchements skieurs : Mercredi en fin d'après-midi petites plaques se formant sous le vent de Nord-Ouest , parfois assez loin des crêtes...",
-  "stability": "INTEMPERIES A PARTIR DE MERCREDI APRES-MIDI, NEIGE FRAICHE TRES SOUFFLEE ;  PETITES PLAQUES EN FORMATION...\n\nEn matinée, neige souvent stable et encore consolidée par regel nocturne. L'après-midi on attend jusque 10 puis 15 cm sur les hauts du massifs, bien soufflés par le vent de Nord-Ouest...\n\nDéparts spontanés :\nPeu probables le matin, neige dense, encore parfois tendue par regel.\nPuis en cours d'après-midi/ mercredi soir des coulées superficielles sont possibles en pentes raides, notamment en secteur chargé par le vent...\nDéclenchements provoqués :\nPlutôt en fin d'après-midi ou soirée, le fort vent de Nord-Ouest forme quelques accumulations et plaques temporairement instables, parfois loin des crêtes...",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison, notamment en faces Nord, dès la moyenne montagne (hors sapins où la neige manque). Peu de sous couche en plein Sud, anciens secteurs de reptation (herbes à nu localement)... \nLimites skiables : Vers 1200/1600m.\n\nQualité de la neige mercredi :    Neige dense croutée ou durcie par regel nocturne. Puis humidification locale au soleil du mercredi matin...  L'après-midi coup de frais en vue. Averses de neige dès 1400 puis 1100m, 900m le soir.\nRapide formation d'une petite couche de fraîche, très ventée... En altitude alternance de secteurs dénudés et congères...",
+  "summary": "Départs spontanés : Nombreuses avalanches possibles sous les chutes de neige\nDéclenchements skieurs : Formation de nombreuses plaques sous les chutes de neige ventées, parfois faciles à déclencher ",
+  "stability": "FORMATION DE NOMBREUSES PLAQUES SOUS LES CHUTES DE NEIGE VENTEES\n\nConditions hivernales en montagne, avec des cumuls de neige importants jusqu'à basse altitude, sous un vent de Nord sensible. D'ici jeudi soir : 30 cm possibles dés 800m, localement 50-60cm en altitude. \nDéclenchements provoqués : De nombreuses plaques se forment sous les chutes de neige ventées. Elles sont présentes en tout versants, parfois loin des crêtes et sont difficiles à identifier car de tout aspect (en neige poudreuse ou dure). Elles sont souvent faciles à déclencher, avec des cassures pouvant être épaisses en secteurs d'accumulations. Toutefois d'éventuelles éclaircies dans la journée pourraient rendre le manteau neigeux moins instable par tassement de la neige fraîche. \nDéparts spontanés : Au fil de la journée et des chutes de neige, des avalanches (souvent de tailles moyennes, parfois de grandes tailles) pourraient partir spontannément. Elle sont plus nombreuses et plus épaisses dans les pentes chargées par le vent. ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon pour la saison, même à basse altitude avec les nouvelles chutes de neige. Peu de sous couche en plein Sud et sous les sapins. \nLimites skiables : Vers 1200/1600m, s'abaissant vers 1000m avec les nouveaux cumuls.\n\nQualité de la neige jeudi : Neige fraîche souvent déjà densifiée par le vent. Sous-couche humide dans la plupart des versants, n'ayant parfois pas encore eu le temps de regeler. En altitude, crêtes dégarnies par le vent, formations de corniches. ",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

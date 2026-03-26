@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-03-25T16:00:00",
-  "validUntil": "2026-03-26T18:00:00",
+  "date": "2026-03-26T16:00:00",
+  "validUntil": "2026-03-27T18:00:00",
   "riskMax": 3,
   "risks": [
     {
@@ -23,9 +23,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : en neige fraiche\nDéclenchements skieurs : nombreuses plaques dans la neige fraîche",
-  "stability": "Retour de l'hiver\n\nDéclenchements provoqués :\nPlaques dans la neige fraîche, tous les versants et particulièrement au-dessus de 2000 m. Facile à déclencher. La taille des plaques augmente au fil des chutes de neige. Taille 2 (moyenne).\nFacteur aggravant : accumulations de neige formées par le fort vent d’ouest puis nord, zones propices aux plaques. \n\nDéparts spontanés :\nAvalanches de neige fraîche, rares dans la nuit de mercredi à jeudi, plus nombreuses au fil des chutes de neige de jeudi. Taille 2 (moyenne). ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nJeudi matin, faible enneigement dès 800 m. Néanmoins, on retrouve un manteau neigeux skiable vers 1200/1300 m en nord et 1500/1600 m en sud.\nFormation de corniches dans la nuit et en journée. \n\nQualité de la neige ce jeudi matin : \nVers 1800/2000 m, 15/20 cm de neige fraîche ventée reposant :\n* en sud et en dessous de 2000 m en nord, sur un fond dur (croûte de regel) \n* en nord au-dessus de 2000 m, sur 10/15 cm de vielle neige froide ventée",
+  "summary": "Départs spontanés : quelques avalanches de neige fraîche \nDéclenchements skieurs : plaques à vent",
+  "stability": " \n\nDéclenchements provoqués :\nPlaques à vent dans la neige fraîche. Facile à déclencher. Formées par le fort vent de nord/nord-est de jeudi et vendredi matin. Situées particulièrement au-dessus de 2000 m et parfois loin des crêtes. Taille 1 à 2 (petite à moyenne), cassures de 40/60 cm. \nObservables : accumulations de neige, fissures sous les skis, transport de neige par le vent. \n\nDéparts spontanés :\nQuelques avalanches de neige fraiche, avec petit aérosol, durant les chutes de neige (nuit de jeudi à vendredi) ou les plus fortes rafales de vent (vendredi matin). Dans toutes les orientations. Taille 1 à 2 (petite à moyenne).",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nVendredi matin, les sols sont blancs au-dessus de 800 m, mais il n’y a pas de sous-couches en dessous de 1200/1300 m en nord et 1500/1600 m en sud.\n\nQualité de la neige ce jeudi matin : \n10/25 cm de neige fraîche ventée. \nNombreuses corniches, accumulations et congères en toutes orientations. ",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

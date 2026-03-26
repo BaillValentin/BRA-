@@ -1,11 +1,11 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-03-25T16:00:00",
-  "validUntil": "2026-03-26T18:00:00",
+  "date": "2026-03-26T15:00:00",
+  "validUntil": "2026-03-27T18:00:00",
   "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2000",
+      "altitude": "<2200",
       "level": 2,
       "orientations": [
         "N",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "altitude": ">2000",
+      "altitude": ">2200",
       "level": 3,
       "orientations": [
         "N",
@@ -33,12 +33,10 @@
       ]
     }
   ],
-  "situations": [
-    "plaque_vent"
-  ],
-  "summary": "Départs spontanés : sous les chutes de neige fortement ventées, taille petite à moyenne, parfois grande à haute altitude\nDéclenchements skieurs : nombreuses nouvelles instabilités formées par le vent",
-  "stability": "NOMBREUSES NOUVELLES INSTABILITÉS DIFFICILEMENT IDENTIFIABLES EN ALTITUDE\n\nDéclenchements provoqués : instabilités sur de nombreuses pentes d'altitude, surtout au-dessus de 2000/2200 m. Possibles en toute orientation, même loin des crêtes, elles sont facilement déclenchables par un seul skieur et génèrent des avalanches de taille petite à moyenne (taille 1 à 2), parfois grande (taille 3) dans les secteurs d'accumulation par le vent de haute altitude. Ces instabilités dans la neige ventée se multiplient et deviennent localement très épaisses au fil des heures, notamment sur le secteur du Sirac ou du Vieux Chaillol, plus abondamment enneigés. Elles sont en outre rendues difficilement identifiables par la visibilité quasi-nulle.\nEn allant vers le sud du massif, ces instabilités sont un peu moins épaisses, et plutôt identifiables, d'aspect fortement durci dans les zones d'accumulation par le vent.\nSous 2200 m, instabilité plus limitée, sous forme de plaques plus minces et localisées, car les quantités de neige mobilisable par le vent sont moindres.\n\nDéparts spontanés : nombreux sous les chutes de neige ventée, taille petite à moyenne, grande avalanche possible dans les secteurs de plus forte accumulation par le vent à haute altitude ",
-  "snowQuality": "L'enneigement est proche des normales ou excédentaire pour une fin mars.\nHauteurs de neige observées : 135 cm à la Nivôse d'Orcières à 2280 m, et 185 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige fraîche fortement travaillée par le vent. Formation de congères en pleine pente et d'épaisses corniches sur les crêtes, côtoyant des zones durcies voire décapées.",
+  "situations": [],
+  "summary": "Départs spontanés : parfois de taille moyenne sous l'effet du vent jeudi soir\nDéclenchements skieurs : nombreuses instabilités, plus épaisses en altitude",
+  "stability": "NOMBREUSES INSTABILITÉS FORMÉES PAR LE VENT DE NORD\n\nDéclenchements provoqués : instabilités sur de nombreuses pentes. Possibles en toute orientation, même loin des crêtes, elles sont déclenchables par un seul skieur et peuvent générer des avalanches de taille petite à moyenne (taille 1 à 2). Ces instabilités formées sous l'effet du fort vent de nord jeudi sont généralement d'aspect dur, avec cassure peu large mais localement épaisse, notamment sur le nord du massif.\nEn allant vers le sud du massif et sous 2000 m d'altitude environ, ces instabilités sont un peu moins épaisses, généralement de taille 1.\n\nDéparts spontanés : avalanche de taille moyenne encore possible jeudi soir dans les secteurs de plus forte accumulation par le vent à haute altitude. Peu probables vendredi en journée.",
+  "snowQuality": "L'enneigement est proche des normales ou excédentaire pour une fin mars.\nHauteurs de neige observées : 130 cm à la Nivôse d'Orcières à 2280 m, et 188 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige récente fortement travaillée par le vent. Nombreuses congères dans les pentes. Sur les crêtes, d'épaisses corniches côtoient des zones dégarnies voire pelées par le vent.  \nPetite humidification de surface au soleil jusqu'à 2200/2400 m environ.",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

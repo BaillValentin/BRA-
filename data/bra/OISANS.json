@@ -1,12 +1,12 @@
 {
   "massif": "OISANS",
-  "date": "2026-03-25T16:00:00",
-  "validUntil": "2026-03-26T18:00:00",
-  "riskMax": 4,
+  "date": "2026-03-26T16:00:00",
+  "validUntil": "2026-03-27T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 4,
+      "level": 3,
       "orientations": [
         "N",
         "NE",
@@ -20,11 +20,13 @@
     }
   ],
   "situations": [
-    "plaque_vent"
+    "neige_fraiche",
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Nombreuses avalanches possibles sous les chutes de neige\nDéclenchements skieurs : Formation de nombreuses plaques sous les chutes de neige ventées, parfois faciles à déclencher ",
-  "stability": "FORMATION DE NOMBREUSES PLAQUES SOUS LES CHUTES DE NEIGE VENTEES\n\nConditions hivernales en montagne, avec des cumuls de neige importants jusqu'à basse altitude, sous un vent de Nord sensible. D'ici jeudi soir : 50-60cm possibles vers le Taillefer, 20-30cm vers la Meije. \nDéclenchements provoqués : De nombreuses plaques se forment sous les chutes de neige ventées. Elles sont présentes en tout versants, parfois loin des crêtes et sont difficiles à identifier car de tout aspect (en neige poudreuse ou dure). Elles sont souvent faciles à déclencher, avec des cassures pouvant être épaisses en secteurs d'accumulations. Le risque est surtout fort vers le Taillefer où les cumuls de neige sont plus importants. Les plaques sont également nombreuses et réactives vers le coeur du massif, mais les volumes mobilisables seront moins importants. A noter que d'éventuelles éclaircies dans la journée pourraient rendre le manteau neigeux moins instable en versants ensoleillés.\nDéparts spontanés : Au fil de la journée et des chutes de neige, des avalanches (de tailles moyennes à grandes) pourraient partir spontanément. Elle sont plus nombreuses et plus épaisses dans les pentes chargées par le vent. Vers le Taillefer où les cumuls sont plus importants, des avalanches de très grandes tailles sont possibles, principalement dans les versants Est. Dans les couloirs déjà chargés par les avalanches de février, une coulée pourrait éventuellement approcher une route (vers Ornon notamment).",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude avec les nouvelles chutes de neige, et même excellent en haute-montagne. Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1200/1600m, s'abaissant vers 1000m avec les nouveaux cumuls ( mais ski délicat sous les sapins).\n\nQualité de la neige jeudi : Neige fraîche souvent déjà densifiée par le vent. Sous-couche humide dans la plupart des versants, n'ayant parfois pas encore eu le temps de regeler. En altitude, crêtes dégarnies par le vent, formations de corniches. ",
+  "summary": "Départs spontanés : Quelques ruptures de plaques sous le vent de Nord en journée. L'après-midi, rares coulées humides sous les rochers.\nDéclenchements skieurs : Nombreuses plaques en neige ventée. ",
+  "stability": "NOMBREUSES PLAQUES SUITE AUX CHUTES DE NEIGE RECENTE FORTEMENT VENTEES\n\nDepuis mercredi soir, les chutes de neige ont été abondantes, avec 15 à 30cm de neige fraîche, voire 40-50cm dans de rares secteurs abrités. Le vent tempétueux a souvent fortement travaillé le manteau, avec alternance de zones dégarnies et zones d'accumulation. \nDéclenchements provoqués : De nombreuses plaques se sont formées et se forment encore en journée sous l'effet du vent. Elles se retrouvent en tout versant, mais peuvent être de plus grandes ampleurs en versants Est et Sud, qui sont généralement plus chargés. Les plaques peuvent se retrouver loin des crêtes, parfois même en bas de pentes. Les plaques se retrouvent souvent loin des crêtes, jusqu'en bas de pentes (les croûpes et sommets sont souvent dégarnis). Dans les secteurs où le vent tombe, le manteau se stabilise assez rapidement au soleil. \nObservables : Transport en cours, zones d'accumulations, fissures devant les skis, test du bâton éventuellement (neige soufflée en surface, reposant sur une neige plus meuble). \nDéclenchements spontanés : Principalement en versants Sud d'altitude, quelques ruptures de plaques ( de tailles petites à moyennes en général) sont possibles dans les pentes chargées par le vent. Le risque diminue l'après-midi avec l'affaiblissement du vent. Le retour du soleil engendre des coulées dans les pentes raides ayant trop chauffées, sous les rôchers / corniches, plutôt en fin de journée, donc dans les pentes Sud à Ouest.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même excellent dés 1800 / 2000m. Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1000 / 1200m, avec prudence en Sud / sous les sapins \n\nQualité de la neige vendredi : Manteau très hétérogène. La neige récente a été fortement travaillée par le vent, de qualité irrégulière / souvent cartonnée. Certains secteurs ont été totalement dégarnis et on ski sur la vieille croûte de regel. On peut toutefois retrouver des secteurs en neige poudreuse agréable, notamment en bas de pentes / dans les arbres (souvent en neige roulée). ",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

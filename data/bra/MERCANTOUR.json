@@ -1,34 +1,24 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-03-25T16:00:00",
-  "validUntil": "2026-03-26T18:00:00",
-  "riskMax": 3,
+  "date": "2026-03-26T16:00:00",
+  "validUntil": "2026-03-27T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2300",
-      "level": 2,
+      "altitude": "<2000",
+      "level": 1,
       "orientations": [
         "N",
         "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2300",
-      "level": 3,
+      "altitude": ">2000",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     }
@@ -36,9 +26,9 @@
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : quelques ruptures spontanées suite au transport de neige par le vent\nDéclenchements skieurs : plaques faciles à déclencher dans la neige transportée par le vent",
-  "stability": "NOMBREUSES PLAQUES EN FORMATION DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : plaques en place et nombreuses en formation au dessus de 2300 m environ, même loin des crêtes, entretenues par un fort vent de nord à nord-ouest. Ces plaques sont facilement déclenchables, surtout dans les versants froids où le manteau neigeux n'est pas encore printanier. Elles génèrent des avalanches souvent de taille moyenne (taille 2), une rare grande (taille 3) non exclue dans les zones de forte accumulation de neige ou couloirs chargés.\nSous 2300 m, la probabilité de déclencher une plaque est plus limitée.\n\nDéparts spontanés : quelques plaques cèdent spontanément en pentes raides sous le fort vent de nord à nord-ouest. Avalanches de taille 1 à 2. ",
-  "snowQuality": "Enneigement excédentaire dans la Roya, proche des normales sur le reste du massif.\nDonnées observées : 162 cm à la Nivôse de Millefonts à 2430 m, 112 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : en sud, neige souvent croûtée, parfois recouverte par des accumulations de neige rapportée par le fort vent de nord. Dans les versants froids, la neige reste froide au dessus de 2000/2200 m environ, encore assez légère dans les combes abritées du vent, mais de plus en plus travaillée et durcie par le vent dans les secteurs exposés. ",
+  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : quelques plaques ventées en place.",
+  "stability": "QUELQUES PLAQUES EN PLACE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : quelques plaques en place, formées jeudi par le transport de neige restée légère en versants ombragés, sous l'action du fort vent de nord. Elles sont présentes essentiellement au dessus de 2000 m, surtout en versants nord, où elles peuvent localement être faciles à déclencher au passage d'un skieur. Dans les autres orientations et à plus basse altitude, elles sont plus rares et généralement plus difficiles à déclencher, car elles se stabilisent rapidement sous l'action du soleil et du redoux. Ces plaques sont généralement d'aspect durci par le vent, et en cas de rupture, peuvent provoquer des avalanches de taille petite à moyenne (taille 1 à 2).\n\nDéparts spontanés : peu probables, avec l'affaiblissement du vent, et des températures encore fraîches malgré le bon ensoleillement.",
+  "snowQuality": "Enneigement excédentaire dans la Roya, proche des normales sur le reste du massif.\nDonnées observées : 157 cm à la Nivôse de Millefonts à 2430 m, 108 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : bon regel nocturne. En versants ensoleillés, neige souvent croûtée. Dans les versants ombragés, la neige reste froide au dessus de 2000/2200 m environ, encore assez légère dans les combes abritées du vent, mais de plus en plus travaillée et durcie par le vent dans les secteurs exposés. ",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

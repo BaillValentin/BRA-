@@ -1,30 +1,27 @@
 {
   "massif": "VANOISE",
-  "date": "2026-03-25T16:00:00",
-  "validUntil": "2026-03-26T18:00:00",
+  "date": "2026-03-26T17:00:00",
+  "validUntil": "2026-03-27T18:00:00",
   "riskMax": 3,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 3,
       "orientations": [
-        "N",
-        "NE",
         "E",
         "SE",
         "S",
         "SW",
-        "W",
-        "NW"
+        "W"
       ]
     }
   ],
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : toute la journée. \nDéclenchements skieurs : nombreuses plaques très réactives. ",
-  "stability": "TEMPETE EN MONTANGE. NEIGE ET VENT FORT.\n\nDéclenchements provoqués : nombreuses plaques dans ce contexte neigeux et venté. On le trouve en tous versants, aussi bien aux abords des crêtes qu'en bas de pentes. Elles sont très réactives car en cours de formation (averses de neige et vent de Nord soutenu en cours) et d'épaisseur très variable. Les avalanches engendrées sont fréquemment de taille moyenne (taille 2).\nSecteur Lauzière : les cumuls de neige sont plus importants qu'ailleurs, les avalanches sont plus nombreuses et généralement de plus grandes tailles.  \nObservables : transport de neige en cours, accumulation, fissures devant les skis.\n\nDéparts spontanés : pendant les averses et/ou tant que le vent transporte la neige, des plaques se décrochent dans les pentes/talus raides (sous le vent). Activité possible toute la journée. Avalanches petites à moyennes (taille 1 à 2).",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : nouvelle livraison de neige fraiche malheureusement battue par le vent. La couche est hétérogène. Des zones sont pelées, décapées. D'autres accumulent la neige fraîche. Le vent entretient la sensation de froid et la neige reste hivernale en journée.",
+  "summary": "Départs spontanés : plutôt faible activité.\nDéclenchements skieurs : nombreuses plaques dures en montagne. ",
+  "stability": "Manteau neigeux hivernal, très venté. \n\nDéclenchements provoqués : nombreuses plaques dans ce contexte venté. On les trouve en tous versants, plutôt loin des crêtes, jusqu'en bas de pentes, derrières les bosses et les croupes. Elles sont réactives au matin avec une tendance à la stabilisation au fil des heures. D'épaisseur très variable, les plaques sont souvent en neige ferme/dure et engendrent des avalanches moyennes (taille 2). \nSecteur Lauzière : les cumuls de neige sont plus importants qu'ailleurs, les avalanches sont plus nombreuses et généralement de plus grandes tailles.  \nObservables : accumulations visibles derrière les ruptures de pente.  \n\nDéparts spontanés : la baisse du vent en matinée met fin au risque de départs naturels de plaques dans les zones d’accumulations sous le vent. Le retour du Soleil engendre des coulées dans les pentes raides ayant trop chauffées, au départ des rochers/des corniches, plutôt en fin de journée donc dans les pentes Sud à Ouest. Taille 1 à 2. ",
+  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : c'est en forêt qu'il y a le plus de neige poudreuse. Au-dessus, le vent a fait du grabuge. La neige est au mieux densifiée, sinon elle est cartonnée, irrégulière, dure. Les crêtes et les croupes face au vent de Nord sont pelées, glacées bétonnées. \nLes pentes très exposées au Soleil chauffent. La neige botte et devient lourde/collante après plusieurs heures d’ensoleillement. En haute montagne ensoleillée, le vent de Nord ralentie le réchauffement dans les pentes ensoleillées.  ",
   "pdfUrl": "./data/bra/VANOISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_10.png",

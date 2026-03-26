@@ -1,30 +1,27 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-03-25T16:00:00",
-  "validUntil": "2026-03-26T18:00:00",
+  "date": "2026-03-26T17:00:00",
+  "validUntil": "2026-03-27T18:00:00",
   "riskMax": 3,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 3,
       "orientations": [
-        "N",
-        "NE",
         "E",
         "SE",
         "S",
         "SW",
-        "W",
-        "NW"
+        "W"
       ]
     }
   ],
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : toute la journée. \nDéclenchements skieurs : quelques plaques très réactives. ",
-  "stability": "TEMPETE EN MONTANGE. VENT TRES FORT.\n\nDéclenchements provoqués : le vent tempétueux créer des plaques dures partout où la neige arrive à se déposer. On le trouve en tous versants, aussi bien aux abords des crêtes qu'en bas de pentes. Elles sont réactives car en cours de formation (vent de Nord soutenu en cours) et d'épaisseur très variable. Les avalanches engendrées sont de taille petite à moyenne (taille 2).\nObservables : transport de neige en cours, accumulation, fissures devant les skis.\n\nDéparts spontanés : tant que le vent transporte la neige, des plaques se décrochent dans les pentes/talus raides (sous le vent). Activité possible toute la journée. Avalanches petites à moyennes (taille 1 à 2).",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : \nEn ubac, la neige est très travaillée par le vent. Cartonnée, irrégulière, durcie... tout y est. La poudre est en voie de disparition. \nEn adret, la neige de printemps se fait recouvrir localement par de la neige transportée depuis les ubacs. Le vent glacial empêche la neige de ramollir en journée. ",
+  "summary": "Départs spontanés : plutôt faible activité. \nDéclenchements skieurs : quelques plaques assez réactives.",
+  "stability": "manteau neigeux extrêmement venté.\n\nDéclenchements provoqués : le vent tempétueux de secteur Nord a créée des plaques dures. Dans les vallons, on les trouve dans toutes les orientations, là où la neige a réussi à se déposer. En altitude, la plupart sont situées dans les versants Est, Sud et Ouest, surtout loin des crêtes, dans les creux, derrière les bosses. Assez réactive au passage d'une skieur en début de journée, leur stabilisation est plutôt rapide avec le retour du Soleil. D'épaisseur très variable, les plaques sont souvent en neige ferme/dure et engendrent des avalanches moyennes (taille 2). \nObservables : accumulations visibles derrière les ruptures de pente.  \n\nDéparts spontanés : la baisse du vent en matinée met fin au risque de départs naturels de plaques dans les zones d’accumulations sous le vent. Le retour du Soleil engendre des coulées dans les pentes raides ayant trop chauffées, au départ des rochers/des corniches, plutôt en fin de journée donc dans les pentes Sud à Ouest. Taille 1 à 2. ",
+  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : \nEn ubac, le vent a fait du grabuge. La neige est au mieux densifiée, sinon elle est cartonnée, irrégulière, dure. Les crêtes et les croupes face au vent de Nord sont pelées, glacées bétonnées. \nLes pentes très exposées au Soleil chauffent. La neige botte et devient lourde/collante après plusieurs heures d’ensoleillement. En haute montagne ensoleillée, le vent de Nord ralentie le réchauffement dans les pentes ensoleillées.  ",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

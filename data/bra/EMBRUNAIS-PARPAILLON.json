@@ -1,12 +1,12 @@
 {
   "massif": "EMBRUNAIS-PARPAILLON",
-  "date": "2026-03-25T16:00:00",
-  "validUntil": "2026-03-26T18:00:00",
-  "riskMax": 3,
+  "date": "2026-03-26T15:00:00",
+  "validUntil": "2026-03-27T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "<2200",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -20,7 +20,7 @@
     },
     {
       "altitude": ">2200",
-      "level": 3,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -33,12 +33,10 @@
       ]
     }
   ],
-  "situations": [
-    "plaque_vent"
-  ],
-  "summary": "Départs spontanés : sous l'effet du vent, taille petite à moyenne\nDéclenchements skieurs :  nouvelles instabilités formées par le vent",
-  "stability": "NOUVELLES INSTABILITÉS DANS LA NEIGE FORTEMENT VENTÉE\n\nDéclenchements provoqués : instabilités sur de nombreuses pentes d'altitude, surtout au-dessus de 2200 m. Possibles en toute orientation, même loin des crêtes, elles sont facilement déclenchables par un seul skieur et génèrent des avalanches de taille petite à moyenne (taille 1 à 2). Ces instabilités dans la neige récente fortement ventée se multiplient et deviennent localement épaisses au fil des heures.\nSous 2200 m, instabilité plus limitée, sous forme de plaques plus minces et localisées, car les quantités de neige mobilisable par le vent sont moindres.\n\nDéparts spontanés : nombreux sous l'effet du vent, taille petite à moyenne, grande avalanche possible dans les secteurs de plus forte accumulation par le vent à haute altitude ",
-  "snowQuality": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 113 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : au plus bas à 1400/1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 1900/2000 m en adrets.\n\nÉtat de la neige de surface : neige fortement travaillée par le vent, crêtes parfois décapées.",
+  "situations": [],
+  "summary": "Départs spontanés : rares et de petite taille sous l'effet du vent jeudi soir\nDéclenchements skieurs : instabilités peu épaisses en altitude",
+  "stability": "INSTABILITÉS LOCALISÉES EN ALTITUDE\n\nDéclenchements provoqués : instabilités disséminées en altitude, au-dessus de 2000 m. Possibles en toute orientation, même loin des crêtes, elles sont déclenchables par un seul skieur mais génèrent des avalanches de taille petite à moyenne (taille 1 à 2). Ces instabilités formées sous l'effet du fort vent de nord jeudi sont généralement d'aspect dur, localement épaisses mais restent peu larges.\nSous 2000 m d'altitude environ, instabilités rares et restant minces, disparaissant en cours de journée grâce au net redoux.\n\nDéparts spontanés : avalanche de petite taille encore possible jeudi soir dans les secteurs de plus forte accumulation par le vent à haute altitude. Peu probables vendredi en journée.",
+  "snowQuality": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 108 cm à la nivôse du Parpaillon à 2500 m.\n\nLimite d'enneigement skiable : au plus bas à 1400/1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : neige fortement travaillée par le vent, crêtes parfois décapées.En journée, humidification en surface jusque 2200/2400 m environ.",
   "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_20.png",

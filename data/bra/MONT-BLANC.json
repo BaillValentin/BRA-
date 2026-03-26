@@ -1,11 +1,25 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-03-26T08:00:00",
-  "validUntil": "2026-03-26T18:00:00",
+  "date": "2026-03-26T16:00:00",
+  "validUntil": "2026-03-27T18:00:00",
   "riskMax": 4,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2000",
+      "level": 3,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2000",
       "level": 4,
       "orientations": [
         "N",
@@ -24,9 +38,9 @@
     "plaque_vent",
     "sous_couche_fragile"
   ],
-  "summary": "Départs spontanés : en neige fraiche, de plus en plus nombreuses\nDéclenchements skieurs : nombreuses plaques dans la neige fraîche",
-  "stability": "Retour de l'hiver\n\nDéclenchements provoqués :\n* nombreuses plaques dans la neige fraîche. Généralisées à tous les versants. Très facile à déclencher. La taille des plaques augmente au fil des chutes de neige. Taille 2 (moyenne) à 3 (grande).\nFacteur aggravant : accumulations de neige formées par le fort vent d’ouest puis nord, zones propices aux plaques. \n* rares plaques dures sur sous-couche fragile persistante enfouies, au-dessus de 2200 m. Très difficile à déclencher par un skieur. Départ possible par chutes de corniches, séracs ou avalanches en cascade. Taille 2 (moyenne) et rarement 3 (grande) avec d’épaisses cassures.\n\nDéparts spontanés :\nAvalanches de neige fraîche, avec petit aérosol possible. Rares dans la nuit de mercredi à jeudi, plus nombreuses au fil des chutes de neige de jeudi. Taille 2 (moyenne) à 3 (grande). ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nJeudi matin, faible enneigement dès 800 m. Néanmoins, on retrouve un manteau neigeux skiable vers 1200/1300 m en nord et 1500/1600 m en sud.\nFormation de corniches dans la nuit et en journée. \n\nQualité de la neige ce jeudi matin : \nVers 1800/2000 m, 40/50 cm de neige fraîche ventée reposant :\n* en sud, sur un fond dur (croûte de regel) \n* en nord, sur 10/15 cm de vielle neige froide ventée",
+  "summary": "Départs spontanés : nombreuses avalanches de neige fraîche \nDéclenchements skieurs : nombreuses plaques à vent",
+  "stability": " \n\nDéclenchements provoqués :\n* nombreuses plaques à vent dans la neige fraîche. Très facile à déclencher. Formées par le fort vent de nord/nord-est de jeudi et vendredi matin.  Situées particulièrement au-dessus de 2000 m et parfois loin des crêtes. Taille 1 à 2 (petite à moyenne), cassures de 40/60 cm. \nObservables : accumulations de neige, fissures sous les skis, transport de neige par le vent. \n*rares plaques dures sur sous-couche fragile persistante enfouies, au-dessus de 2200 m. Très difficile à déclencher par un skieur. Départ possible par chutes de corniches, séracs ou avalanches en cascade. Taille 2 (moyenne) et rarement 3 (grande) avec d’épaisses cassures.\n\nDéparts spontanés :\nQuelques avalanches de neige fraiche, avec petit aérosol, durant les chutes de neige (nuit de jeudi à vendredi) ou les plus fortes rafales de vent (vendredi matin). Dans toutes les orientations. Taille 1 à 2 (petite à moyenne).",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nVendredi matin, les sols sont blancs au-dessus de 800 m, mais il n’y a pas de sous-couches en dessous de 1200/1300 m en nord et 1500/1600 m en sud.\n\nQualité de la neige ce jeudi matin : \n30/60 cm de neige fraîche ventée. \nNombreuses corniches, accumulations et congères en toutes orientations. ",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

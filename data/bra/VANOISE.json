@@ -1,27 +1,31 @@
 {
   "massif": "VANOISE",
-  "date": "2026-03-26T17:00:00",
-  "validUntil": "2026-03-27T18:00:00",
-  "riskMax": 3,
+  "date": "2026-03-27T16:00:00",
+  "validUntil": "2026-03-28T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 3,
+      "level": 2,
       "orientations": [
+        "N",
+        "NE",
         "E",
         "SE",
         "S",
         "SW",
-        "W"
+        "W",
+        "NW"
       ]
     }
   ],
   "situations": [
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : plutôt faible activité.\nDéclenchements skieurs : nombreuses plaques dures en montagne. ",
-  "stability": "Manteau neigeux hivernal, très venté. \n\nDéclenchements provoqués : nombreuses plaques dans ce contexte venté. On les trouve en tous versants, plutôt loin des crêtes, jusqu'en bas de pentes, derrières les bosses et les croupes. Elles sont réactives au matin avec une tendance à la stabilisation au fil des heures. D'épaisseur très variable, les plaques sont souvent en neige ferme/dure et engendrent des avalanches moyennes (taille 2). \nSecteur Lauzière : les cumuls de neige sont plus importants qu'ailleurs, les avalanches sont plus nombreuses et généralement de plus grandes tailles.  \nObservables : accumulations visibles derrière les ruptures de pente.  \n\nDéparts spontanés : la baisse du vent en matinée met fin au risque de départs naturels de plaques dans les zones d’accumulations sous le vent. Le retour du Soleil engendre des coulées dans les pentes raides ayant trop chauffées, au départ des rochers/des corniches, plutôt en fin de journée donc dans les pentes Sud à Ouest. Taille 1 à 2. ",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : c'est en forêt qu'il y a le plus de neige poudreuse. Au-dessus, le vent a fait du grabuge. La neige est au mieux densifiée, sinon elle est cartonnée, irrégulière, dure. Les crêtes et les croupes face au vent de Nord sont pelées, glacées bétonnées. \nLes pentes très exposées au Soleil chauffent. La neige botte et devient lourde/collante après plusieurs heures d’ensoleillement. En haute montagne ensoleillée, le vent de Nord ralentie le réchauffement dans les pentes ensoleillées.  ",
+  "summary": "Départs spontanés : petits départs en neige humide dans les versants ensoleillés.\nDéclenchements skieurs : encore quelques plaques dans la neige récente ventée.",
+  "stability": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE.\n\nDéclenchement provoqués : quelques plaques en perte de réactivité, encore un peu entretenues par le vent de nord en altitude. On les trouve en tout versant, plaques dures près des crêtes, parfois encore d'aspect poudreux dans les pentes. Épaisseur des cassures hétérogènes, 20 à 40 cm en moyenne. Elles occasionnent de petites à moyennes avalanches.\nA l'ouest du massif, les cassures et les volumes mobilisables peuvent être plus importants. \nObservables : accumulation de neige, généralement plus dense voire dure.\n \nDéparts spontanés :\nQuelques avalanches de neige humide dans les versants qui auront bien chauffé avant que le ciel se couvre à la mi-journée, plutôt dans les pentes raides. Généralement de petites avalanches.",
+  "snowQuality": "Enneigement : encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : les secteurs d'altitude, notamment les versants nord, sont soufflés par le vent : la neige est inégalement répartie entre zones dégarnies décapées et accumulations sous le vent.\nPour trouver de la poudreuse, viser plutôt les moyennes/basses altitudes et la forêt.\nDans les versants ensoleillés, notamment Sud à Est, la neige s'humidifie en surface (ça botte). Toutefois en altitude, le vent du nord bien frais concurrence l'action du soleil, limitant le ramollissement de la neige.",
   "pdfUrl": "./data/bra/VANOISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_10.png",

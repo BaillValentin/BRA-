@@ -1,12 +1,12 @@
 {
   "massif": "VERCORS",
-  "date": "2026-03-26T16:00:00",
-  "validUntil": "2026-03-27T18:00:00",
-  "riskMax": 3,
+  "date": "2026-03-27T16:00:00",
+  "validUntil": "2026-03-28T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 3,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -20,13 +20,12 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Quelques ruptures de plaques sous le vent de Nord en journée. L'après-midi, rares coulées humides sous les rochers.\nDéclenchements skieurs : Nombreuses plaques en neige ventée. ",
-  "stability": "NOMBREUSES PLAQUES SUITE AUX CHUTES DE NEIGE RECENTES FORTEMENT VENTEES\n\nDepuis mercredi soir, les chutes de neige ont été abondantes, avec 20 à 40cm de neige fraîche, voire plus de 50cm en secteurs abrités. Le vent tempétueux a la plupart du temps fortement travaillé le manteau, avec alternance de zones dégarnies et zones d'accumulation. \nDéclenchements provoqués : De nombreuses plaques se sont formées et se forment encore en journée sous l'effet du vent. Elles se retrouvent en tout versant, mais peuvent être de plus grandes ampleurs en versants Est et Sud, qui sont généralement plus chargés ( notamment secteur Belle Etoile / Cabottes / vallée des Villards où les cumuls sont les plus importants). Les plaques se retrouvent souvent loin des crêtes, jusqu'en bas de pentes (les croûpes et sommets sont souvent dégarnis). Elles sont souvent d'aspect de plaques dures, parfois en neige plus poudreuse en secteurs abrités. Dans les secteurs où le vent tombe, le manteau se stabilise assez rapidement au soleil. \nObservables : Transport en cours, zones d'accumulations, fissures devant les skis, test du bâton éventuellement (neige soufflée en surface, reposant sur une neige plus meuble). \nDéclenchements spontanés : Principalement en versants Sud d'altitude, quelques ruptures de plaques ( de tailles petites à moyennes en général) sont possibles dans les pentes chargées par le vent. Le risque diminue l'après-midi avec l'affaiblissement du vent. Le retour du soleil engendre des coulées dans les pentes raides ayant trop chauffées, sous les rôchers / corniches, plutôt en fin de journée, donc dans les pentes Sud à Ouest.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même excellent dés 1800 / 2000m. Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1000 / 1200m, avec prudence en Sud / sous les sapins \n\nQualité de la neige vendredi : Manteau très hétérogène. La neige récente a été fortement travaillée par le vent, de qualité irrégulière / souvent cartonnée. Certains secteurs ont été totalement dégarnis et on ski sur la vieille croûte de regel. On peut toutefois retrouver des secteurs en neige poudreuse agréable, notamment en bas de pentes / dans les arbres (souvent en neige roulée). ",
+  "summary": "Départs spontanés : Rare rupture de plaque sous le vent de Nord-Nord-Est en journée. Le matin surtout, de rares coulées humides au soleil. \nDéclenchements skieurs : Quelques plaques dans la neige ventée, parfois loin des crêtes. ",
+  "stability": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE.\n\nDéclenchements provoqués : Quelques plaques à vent subsistent ce samedi, dans les zones d'accumulations formées par le vent de Nord-Nord-Est qui reste encore sensible à soutenu en altitude ce samedi. Elles peuvent être situées loin des crêtes, parfois même en bas de pente. Elles se retrouvent en tout versant, bien que plus fréquemment dans les versants à composante Sud à Est, qui ont été généralement plus chargés. Souvent difficiles à déclencher et d'aspect dur, mais localement elles peuvent présenter un aspect un peu plus friable voire poudreux, tout en étant plus réactives au passage d'un pratiquant.\n\nDéclenchements spontanés : - Principalement en versant d'un large Sud d'altitude, une rare rupture de plaque de taille 1 à 2 est possible dans les pentes chargées par le vent de Nord-Nord-Est, encore sensible à soutenu ce samedi. \n- Egalement un risque de rares coulées humides dans les pentes ensoleillées (surtout samedi matin où le ciel sera moins encombré), dans la neige récente qui peut s'humidifier au soleil et près des rochers.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même excellent dés 1800 / 2000m. Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1000 / 1200m, avec prudence en Sud / sous les sapins \n\nQualité de la neige samedi : La neige récente a été fortement travaillée / soufflée par le vent dans de nombreux secteurs, le manteau neigeux est parfois très irrégulier. Les crêtes et les pentes les plus ventées, où la neige a été arrachée, sont même dégarnies et le ski se fait parfois sur la vieille croûte de regel. Toutefois, on retrouve des secteurs en neige poudreuse plus agréable, notamment en bas de pentes / dans les arbres. A noter que dans certaines pentes exposées au soleil, la neige récente s'est parfois humidifiée (ou s'humidifie un peu ce samedi matin avant que le ciel ne se charge davantage), on peut alors y retrouver des surfaces croûtées glissantes. En fin de journée et soirée, une petite couche de neige fraîche plus ou moins ventée pourrait se déposer par endroits au passage de la nouvelle perturbation.",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

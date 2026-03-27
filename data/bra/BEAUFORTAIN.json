@@ -1,12 +1,12 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-03-26T17:00:00",
-  "validUntil": "2026-03-27T18:00:00",
-  "riskMax": 3,
+  "date": "2026-03-27T16:00:00",
+  "validUntil": "2026-03-28T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 3,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -20,12 +20,12 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : possibles en journée. \nDéclenchements skieurs : nombreuses plaques. ",
-  "stability": "Conditions hivernales en montagne. Nombreuses plaques poudreuses. \n\nDéclenchements provoqués : nombreuses plaques en place en tous versants et à toutes altitudes. Elles sont réactives au matin avec une tendance à la stabilisation au fil des heures. Elles engendrent des avalanches de taille 1 à 2 (petit à moyenne). D’aspect poudreux, leur identification visuelle n’est pas forcément possible. Observables : neige densifiée par le vent, fissures devant les skis, accumulation de neige fraîche. \n\nDéparts spontanés : la baisse du vent en matinée met fin au risque de départs naturels de plaques dans les zones d’accumulations sous le vent. Le retour du Soleil engendre des coulées dans les pentes raides ayant trop chauffées, au départ des rochers/des corniches, plutôt en fin de journée donc dans les pentes Sud à Ouest. Taille 1 à 2. ",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1100 m au mieux en Nord. Plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : 20 cm de neige fraîche à 1500 m, 30 à 50 cm au-dessus de 2000 m. La répartition est variable avec de belles accumulations possibles mais la neige reste dans l’ensemble poudreuse. La qualité se dégrade à l’approche des crêtes. D’ailleurs ces dernières, ainsi que les croupes exposées au vent sont « sèches » et laissent ressortir la vieille neige dure, la glace, les rochers… \nEn journée, les pentes très exposées au Soleil chauffent. La neige botte et devient lourde/collante après plusieurs heures d’ensoleillement. En haute montagne ensoleillée, le vent de Nord ralentie le réchauffement dans les pentes ensoleillées.  ",
+  "summary": "Départs spontanés : petits départs en neige humide dans les versants ensoleillés.\nDéclenchements skieurs : encore quelques plaques dans la neige récente.",
+  "stability": "STABILISATION RAPIDE DE LA NEIGE RÉCENTE, ENCORE QUELQUES PLAQUES EN PERTE DE RÉACTIVITÉ.\n\nDéclenchement provoqués : quelques plaques en perte de réactivité, encore un peu entretenues par le vent de nord en altitude. On les trouve en tout versant, plaques dures près des crêtes, plutôt d'aspect poudreux et difficilement identifiables dans les pentes. Épaisseurs des cassures hétérogènes, 30 à 50 cm en moyenne. Elles occasionnent de petites à moyennes avalanches.\nObservables : accumulation de neige, localement plus dense voire dure près des crêtes.\n \nDéparts spontanés :\nQuelques avalanches de neige humide dans les versants qui auront bien chauffé avant que le ciel se couvre à la mi-journée, plutôt dans les pentes raides. Généralement de petites avalanches.",
+  "snowQuality": "Enneigement : encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1100 m au mieux en Nord. Plutôt 1400/1500 m en sud pas trop raide.\n\nQualité de la neige : Bonne neige au global, la neige récente est encore poudreuse bien que souvent densifiée et inégalement répartie par le vent. Les crêtes et les bosses d'altitude sont soufflées.\nDans les versants ensoleillés, notamment Sud à Est, la neige s'humidifie en surface (ça botte). Toutefois en altitude, le vent du nord bien frais concurrence l'action du soleil, limitant le ramollissement de la neige.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

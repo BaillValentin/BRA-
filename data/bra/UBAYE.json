@@ -1,7 +1,7 @@
 {
   "massif": "UBAYE",
-  "date": "2026-03-26T16:00:00",
-  "validUntil": "2026-03-27T18:00:00",
+  "date": "2026-03-27T16:00:00",
+  "validUntil": "2026-03-28T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -24,11 +24,12 @@
     }
   ],
   "situations": [
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : quelques plaques ventées en place.",
-  "stability": "QUELQUES PLAQUES EN PLACE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : quelques plaques en place, formées jeudi par le transport de neige restée légère en versants ombragés, sous l'action du fort vent de nord. Elles sont présentes essentiellement au dessus de 2000 m, surtout en versants nord, où elles peuvent localement être faciles à déclencher au passage d'un skieur. Dans les autres orientations et à plus basse altitude, elles sont plus rares et généralement plus difficiles à déclencher, car elles se stabilisent rapidement sous l'action du soleil et du redoux. Ces plaques sont généralement d'aspect durci par le vent, et en cas de rupture, peuvent provoquer des avalanches de taille petite à moyenne (taille 1 à 2).\n\nDéparts spontanés : peu probables, avec l'affaiblissement du vent, et des températures encore fraîches malgré le bon ensoleillement.",
-  "snowQuality": "Enneigement proche des normales.\nHauteurs de neige observées : 77 cm à la Nivôse de Restefond à 2550 m (secteur venté), 85 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1900/2000 m en adrets peu pentus. \n\nÉtat de la neige en surface : bon regel nocturne. En versants ensoleillés, neige souvent croûtée. Dans les versants ombragés, la neige reste froide au dessus de 2000/2200 m environ, encore assez légère dans les combes abritées du vent, mais de plus en plus travaillée et durcie par le vent dans les secteurs exposés. ",
+  "summary": "Départs spontanés : peu probables, rares départs en neige humide en journée.\nDéclenchements skieurs : quelques plaques ventées en place.",
+  "stability": "QUELQUES PLAQUES EN PLACE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : quelques plaques en place, formées jeudi par le transport de neige restée légère en versants ombragés, sous l'action du fort vent de nord. Elles sont présentes essentiellement au dessus de 2000/2200 m, surtout en versants nord, où elles peuvent localement être encore faciles à déclencher au passage d'un skieur. Dans les autres orientations et à plus basse altitude, elles sont rares et généralement difficiles à déclencher, car elles se stabilisent sous l'action du soleil et du redoux. Ces plaques sont généralement d'aspect durci par le vent, et en cas de rupture, peuvent provoquer des avalanches peu étendues, de taille petite à moyenne (taille 1 à 2).\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis rares départs de petite taille en neige humide. Départs ponctuels en pentes raides ensoleillées, généralement près des rochers.",
+  "snowQuality": "Enneigement proche des normales.\nHauteurs de neige observées : 77 cm à la Nivôse de Restefond à 2550 m (secteur venté), 85 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1900/2000 m en adrets peu pentus. \n\nÉtat de la neige en surface : très bon regel nocturne. En versants ensoleillés, neige souvent croûtée. Dans les versants ombragés, la neige reste froide au dessus de 2000/2200 m environ, encore assez légère dans les combes abritées du vent, mais de plus en plus travaillée et durcie par le vent de nord dans les secteurs exposés. ",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_21.png",

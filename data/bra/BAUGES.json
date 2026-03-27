@@ -1,12 +1,12 @@
 {
   "massif": "BAUGES",
-  "date": "2026-03-26T16:00:00",
-  "validUntil": "2026-03-27T18:00:00",
-  "riskMax": 3,
+  "date": "2026-03-27T16:00:00",
+  "validUntil": "2026-03-28T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 3,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -20,12 +20,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : quelques avalanches de neige fraîche \nDéclenchements skieurs : plaques à vent",
-  "stability": " \n\nDéclenchements provoqués :\nPlaques à vent dans la neige fraîche. Facile à déclencher. Formées par le fort vent de nord/nord-est de jeudi et vendredi matin. Situées particulièrement au-dessus de 2000 m et parfois loin des crêtes. Taille 1 à 2 (petite à moyenne), cassures de 40/60 cm. \nObservables : accumulations de neige, fissures sous les skis, transport de neige par le vent. \n\nDéparts spontanés :\nQuelques avalanches de neige fraiche, avec petit aérosol, durant les chutes de neige (nuit de jeudi à vendredi) ou les plus fortes rafales de vent (vendredi matin). Dans toutes les orientations. Taille 1 à 2 (petite à moyenne).",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nVendredi matin, les sols sont blancs au-dessus de 800 m, mais il n’y a pas de sous-couches en dessous de 1200/1300 m en nord et 1500/1600 m en sud.\n\nQualité de la neige ce jeudi matin : \n10/25 cm de neige fraîche ventée. \nNombreuses corniches, accumulations et congères en toutes orientations. ",
+  "summary": "Départs spontanés : Peu probables\nDéclenchements skieurs : Plaques à vent dans la neige récente",
+  "stability": " Plaques à vent en perte de réactivité\n\nDéclenchements provoqués :\n* Plaques à vent dans la neige récente, majoritairement au-dessus de 1700 m, formées par le vent de Nord-Ouest à Nord-Est, facilement déclenchables par un skieur. Elles sont souvent friables mais peuvent être dures à proximité des crêtes. Taille 1 à 2 (petite à moyenne). Cassures de 30/40 cm.\n Observables : accumulations de neige, fissures sous les skis, transport de neige par le vent. \n\nDéparts spontanés :\nPeu probables.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nSamedi matin, les sols sont blancs au-dessus de 900 m, mais il n’y a pas de sous-couches en dessous de 1200/1300 m en nord et 1500/1600 m en sud.\n\nQualité de la neige ce samedi matin :\n10/25 cm de neige fraîche ventée. Souvent poudreuse dans les secteurs abrités du vent de Nord, ventée ailleurs, voire cartonnée ou glacée proche des crêtes ou dans certaines pentes Nord.\nNombreuses corniches, accumulations et congères en toutes orientations. ",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

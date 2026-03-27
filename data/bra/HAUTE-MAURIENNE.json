@@ -1,27 +1,31 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-03-26T17:00:00",
-  "validUntil": "2026-03-27T18:00:00",
-  "riskMax": 3,
+  "date": "2026-03-27T16:00:00",
+  "validUntil": "2026-03-28T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 3,
+      "level": 2,
       "orientations": [
+        "N",
+        "NE",
         "E",
         "SE",
         "S",
         "SW",
-        "W"
+        "W",
+        "NW"
       ]
     }
   ],
   "situations": [
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : plutôt faible activité. \nDéclenchements skieurs : quelques plaques assez réactives.",
-  "stability": "manteau neigeux extrêmement venté.\n\nDéclenchements provoqués : le vent tempétueux de secteur Nord a créée des plaques dures. Dans les vallons, on les trouve dans toutes les orientations, là où la neige a réussi à se déposer. En altitude, la plupart sont situées dans les versants Est, Sud et Ouest, surtout loin des crêtes, dans les creux, derrière les bosses. Assez réactive au passage d'une skieur en début de journée, leur stabilisation est plutôt rapide avec le retour du Soleil. D'épaisseur très variable, les plaques sont souvent en neige ferme/dure et engendrent des avalanches moyennes (taille 2). \nObservables : accumulations visibles derrière les ruptures de pente.  \n\nDéparts spontanés : la baisse du vent en matinée met fin au risque de départs naturels de plaques dans les zones d’accumulations sous le vent. Le retour du Soleil engendre des coulées dans les pentes raides ayant trop chauffées, au départ des rochers/des corniches, plutôt en fin de journée donc dans les pentes Sud à Ouest. Taille 1 à 2. ",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : \nEn ubac, le vent a fait du grabuge. La neige est au mieux densifiée, sinon elle est cartonnée, irrégulière, dure. Les crêtes et les croupes face au vent de Nord sont pelées, glacées bétonnées. \nLes pentes très exposées au Soleil chauffent. La neige botte et devient lourde/collante après plusieurs heures d’ensoleillement. En haute montagne ensoleillée, le vent de Nord ralentie le réchauffement dans les pentes ensoleillées.  ",
+  "summary": "Départs spontanés : petits départs en neige humide dans les versants ensoleillés.\nDéclenchements skieurs : encore quelques plaques dans la neige récente ventée.",
+  "stability": "ENCORE QUELQUES INSTABILITÉS DANS UN MANTEAU GLOBALEMENT TRÈS VENTÉ.\n\nDéclenchement provoqués : quelques plaques en perte de réactivité, encore un peu entretenues par le vent de nord en altitude. On les trouve en tous versants, surtout loin des crêtes, et en particulier dans les ruptures de pentes ou derrières les bosses. Plaques en neige dense à dure. Épaisseurs des cassures très hétérogènes, 20 à 40 cm en moyenne. Elles occasionnent de petites à moyennes avalanches.\nObservables : accumulation de neige, généralement plus dense voire dure.\n \nDéparts spontanés :\nQuelques avalanches de neige humide dans les versants qui auront bien chauffé avant que le ciel se couvre à la mi-journée, plutôt dans les pentes raides. Généralement de petites avalanches.",
+  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : nombreux secteurs soufflés par le vent, notamment en versants nord : la neige est inégalement répartie entre zones dégarnies décapées et accumulations sous le vent.\nPour trouver de la poudreuse, viser plutôt les moyennes/basses altitudes et la forêt.\nDans les versants ensoleillés, notamment Sud à Est, la neige s'humidifie en surface (ça botte). Toutefois en altitude, le vent du nord bien frais concurrence l'action du soleil, limitant le ramollissement de la neige.",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

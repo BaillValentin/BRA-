@@ -1,7 +1,7 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-03-27T16:00:00",
-  "validUntil": "2026-03-28T18:00:00",
+  "date": "2026-03-28T16:00:00",
+  "validUntil": "2026-03-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,12 +20,12 @@
     }
   ],
   "situations": [
-    "plaque_vent",
-    "neige_humide"
+    "neige_fraiche",
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : petits départs en neige humide dans les versants ensoleillés.\nDéclenchements skieurs : encore quelques plaques dans la neige récente ventée.",
-  "stability": "ENCORE QUELQUES INSTABILITÉS DANS UN MANTEAU GLOBALEMENT TRÈS VENTÉ.\n\nDéclenchement provoqués : quelques plaques en perte de réactivité, encore un peu entretenues par le vent de nord en altitude. On les trouve en tous versants, surtout loin des crêtes, et en particulier dans les ruptures de pentes ou derrières les bosses. Plaques en neige dense à dure. Épaisseurs des cassures très hétérogènes, 20 à 40 cm en moyenne. Elles occasionnent de petites à moyennes avalanches.\nObservables : accumulation de neige, généralement plus dense voire dure.\n \nDéparts spontanés :\nQuelques avalanches de neige humide dans les versants qui auront bien chauffé avant que le ciel se couvre à la mi-journée, plutôt dans les pentes raides. Généralement de petites avalanches.",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : nombreux secteurs soufflés par le vent, notamment en versants nord : la neige est inégalement répartie entre zones dégarnies décapées et accumulations sous le vent.\nPour trouver de la poudreuse, viser plutôt les moyennes/basses altitudes et la forêt.\nDans les versants ensoleillés, notamment Sud à Est, la neige s'humidifie en surface (ça botte). Toutefois en altitude, le vent du nord bien frais concurrence l'action du soleil, limitant le ramollissement de la neige.",
+  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : quelques plaques en neige ventée, tous versants.",
+  "stability": "HIVERNAL. IL TOMBE QUELQUES CENTIMÈTRES DE NEIGE SUR UN MANTEAU TRÈS VENTÉ MAIS PLUTÔT STABLE.\n\nDéclenchements provoqués : quelques plaques en neige ventée, a priori surtout dans les orientations sud à est mais un déclenchement reste possible en tous versants. Ce sont essentiellement d'anciennes plaques datant du coup de vent mercredi-jeudi, plutôt dures, plutôt loin des crêtes, et qui sont désormais peu réactives au passage d'un skieur. La neige fraîche qui tombe dans la nuit ne devrait pas créer d'instabilités supplémentaires car les cumuls sont très faibles (souvent < 5 cm). Par contre, cette fine couche aura pour effet de masquer la plupart des indices visuels, compliquant l'identification des anciennes plaques. Cassures 20-40 cm, petites à moyennes avalanches.\nObservables peu nombreux : fissures sous les skis...\n\nDéparts spontanés : peu probables.",
+  "snowQuality": "Enneigement : encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : avec la petite chute de la nuit, il sera possible de skier dès 1000/1200 m dans les prairies. Sous-couche vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : 1-5 cm de neige fraîche ce dimanche matin, voire localement un peu plus dans les zones d'accumulation en altitude. Neige poudreuse, légère, sur un fond généralement bien plus ferme : ski agréable. Se méfier des cailloux sur les crêtes/croupes d'altitude, bien souvent pelées et juste recouvertes de ce saupoudrage, notamment versant nord.\nGrâce aux nuages et à la masse d'air froide, la neige reste légère en tous versants et quasiment à toutes les altitudes.",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

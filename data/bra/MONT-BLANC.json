@@ -1,26 +1,12 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-03-27T16:00:00",
-  "validUntil": "2026-03-28T18:00:00",
-  "riskMax": 3,
+  "date": "2026-03-28T16:00:00",
+  "validUntil": "2026-03-29T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "<1700",
+      "altitude": "Toutes altitudes",
       "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">1700",
-      "level": 3,
       "orientations": [
         "N",
         "NE",
@@ -37,9 +23,9 @@
     "plaque_vent",
     "sous_couche_fragile"
   ],
-  "summary": "Départs spontanés : Peu probables\nDéclenchements skieurs : Plaques à vent dans la neige récente",
-  "stability": " Plaques à vent en perte de réactivité\n\nDéclenchements provoqués :\n* Plaques à vent dans la neige récente, majoritairement au-dessus de 1700 m, formées par le vent de Nord-Ouest à Nord-Est, facilement déclenchables par un skieur. Elles sont souvent friables mais peuvent être dures à proximité des crêtes. Taille 1 à 2 (petite à moyenne), rarement 3 (grande) à haute altitude. Cassures de 40/60 cm.\n Observables : accumulations de neige, fissures sous les skis, transport de neige par le vent. \n* Facteur aggravant : ces plaques à vent reposent parfois sur une sous-couche fragile persistante enfouie, au-dessus de 2200 m. Très difficile à déclencher par un skieur. Départ possible par chutes de corniches, séracs ou avalanches en cascade. Taille 2 (moyenne) et rarement 3 (grande) avec d’épaisses cassures.\n\nDéparts spontanés :\nPeu probables.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nSamedi matin, les sols sont blancs au-dessus de 900 m, mais il n’y a pas de sous-couches en dessous de 1200/1300 m en nord et 1500/1600 m en sud.\n\nQualité de la neige ce samedi matin :\n30/60 cm de neige fraîche ventée. Souvent poudreuse dans les secteurs abrités du vent de Nord, ventée ailleurs, voire cartonnée ou glacée proche des crêtes ou dans certaines pentes Nord.\nNombreuses corniches, accumulations et congères en toutes orientations. ",
+  "summary": "Départs spontanés : quelques accumulations par le vent de N/NE, pouvant céder\nDéclenchements skieurs : plaques à vent nouvelles dans la neige récente",
+  "stability": " \n\nDéclenchements provoqués :\nPlaques à vent nouvelles dans la neige récente : 10/15 cm de fraîche, sur 20/40 cm tombés en milieu de semaine, en cours de tassement. Plaques friables pour la plupart, éventuellement dures en secteurs très ventés. Formation sous l'effet du vent de N/NE la nuit de samedi à dimanche, voire dimanche matin. Plaques pas très nombreuses, mais disséminées un peu partout dans et autour du massif. Petite prudence dans les Aiguilles Rouges, soumises à un coup de Bise en seconde partie de nuit et matinée. Plaques pas très larges, cassure 30/50 cm, localement réactives. Taille 1 à 2 (petite à moyenne).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n* Facteur aggravant : ces plaques reposent localement sur une couche fragile persistante enfouie. En versants N, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (un première avalanche, ou une chute de corniche, déclenche une plaque épaisse). Taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\nQuelques accumulations de neige récente peuvent céder dans des pentes très raides, ou des entrées de couloirs chargés par le vent de N/NE. Départs ponctuels ou en plaques peu larges. Taille 1, éventuellement 2.",
+  "snowQuality": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200 m environ. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce dimanche :\n10/15 cm de neige fraîche en surface, irrégulièrement soufflée. Sous-couche hétérogène : froide meuble sur 20/30 cm en versants N abrités des vents, compacte dans les autres orientations, dure ou glacée près des crêtes.\nNombreuses corniches et accumulations.",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

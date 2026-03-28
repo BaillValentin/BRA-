@@ -1,35 +1,28 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-03-27T16:00:00",
-  "validUntil": "2026-03-28T18:00:00",
+  "date": "2026-03-28T16:00:00",
+  "validUntil": "2026-03-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2000",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2000",
+      "altitude": "Toutes altitudes",
       "level": 2,
       "orientations": [
         "N",
         "NE",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "plaque_vent",
-    "neige_humide"
+    "neige_fraiche",
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : peu probables, rares départs en neige humide en journée.\nDéclenchements skieurs : quelques plaques ventées en place.",
-  "stability": "QUELQUES PLAQUES EN PLACE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : quelques plaques en place, formées jeudi par le transport de neige restée légère en versants ombragés, sous l'action du fort vent de nord. Elles sont présentes essentiellement au dessus de 2000/2200 m, surtout en versants nord, où elles peuvent localement être encore faciles à déclencher au passage d'un skieur. Dans les autres orientations et à plus basse altitude, elles sont rares et généralement difficiles à déclencher, car elles se stabilisent sous l'action du soleil et du redoux. Ces plaques sont généralement d'aspect durci par le vent, et en cas de rupture, peuvent provoquer des avalanches peu étendues, de taille petite à moyenne (taille 1 à 2).\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis rares départs de petite taille en neige humide. Départs ponctuels en pentes raides ensoleillées, généralement près des rochers.",
-  "snowQuality": "Enneigement plutôt excédentaire dans le Haut-Verdon, proche des normales dans le Haut Var.\nHauteurs de neige observées : vers 2000 m, 182 cm dans le vallon de Valdemars, 121 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : très bon regel nocturne. En versants ensoleillés, neige souvent croûtée. Dans les versants ombragés, la neige reste froide au dessus de 2000/2200 m environ, encore assez légère dans les combes abritées du vent, mais de plus en plus travaillée et durcie par le vent de nord dans les secteurs exposés. ",
+  "summary": "Départs spontanés : départs ponctuels, voire en plaque, peu fréquents.\nDéclenchements skieurs : quelques nouvelles instabilités, faciles à déleclencher mais de taille petite, plus rarement moyenne.",
+  "stability": "NOUVELLES INSTABILITÉS DE TAILLE LIMITÉE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : nouvelles instabilités en formation avec les chutes de neige attendues et le vent. Plaques à vent de taille limitée, plus fréquentes en versants d’altitude de large nord à ouest, même loin de des crêtes et sommets. Elles peuvent céder facilement au passage d’un skieur, mobilisant surtout la neige tombée dans la nuit de samedi à dimanche. \n\nDéparts spontanés : en pente raide d'altitude, éventuels départs ponctuels, voire en plaque, avec le transport de la neige par le vent de nord-est à est. Taille petite, plus rarement moyenne.  \nDimanche après-midi avec le retour des éclaircies, départs superficiels en pentes raides ensoleillées, près des rochers de la neige fraiche s’humidifiant.",
+  "snowQuality": "Enneigement plutôt excédentaire dans le Haut-Verdon, proche des normales dans le Haut Var.\nHauteurs de neige observées : vers 2000 m, 182 cm dans le vallon de Valdemars, 119 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1400/1500 m en ubacs, 1700/1800 m en adrets peu pentus.\n\nÉtat de la neige en surface : 5/15 cm de neige fraiche reposant sur de la neige souvent regelée / croutée. En ubacs d'altitude, sur de la neige sèche souvent durcie par le vent, plus rarement poudreuse dans les combes abritées. ",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

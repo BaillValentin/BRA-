@@ -1,7 +1,7 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-03-27T15:00:00",
-  "validUntil": "2026-03-28T18:00:00",
+  "date": "2026-03-28T16:00:00",
+  "validUntil": "2026-03-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -38,8 +38,8 @@
     "plaque_vent"
   ],
   "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : instabilités superficielles dans la neige ventée, plus épaisses en altitude. ",
-  "stability": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, FORMÉES JEUDI PAR LE VENT DE NORD\n\nDéclenchements provoqués : quelques instabilités en place dans la neige fraiche ventée, plutôt au-dessus de 2000 m en versants froids, et 2200/2400 m en versants ensoleillés. Formées jeudi par le vent tempétueux de nord, ces instabilités restent possibles en toutes orientations, même loin des crêtes, et sont encore déclenchables par un seul skieur. Plaques généralement en neige dure faciles à identifier, générant des avalanches de taille petite à moyenne (taille 1 à 2). \n\nDéparts spontanés : Peu probables, quelques boulettes au soleil en journée. ",
-  "snowQuality": "L'enneigement est proche des normales ou excédentaire pour une fin mars.\nHauteurs de neige observées : 129 cm à la Nivôse d'Orcières à 2280 m, et 181 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige fraiche fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.  \nEn versant sud, neige croutée sous 2200/2400, s'humidifiant en journée.",
+  "stability": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE VENTÉE \n\nDéclenchements provoqués : quelques instabilités sont encore en place dans la neige fraîche ventée, plutôt au-dessus de 2000 m en versants froids, et 2200/2400 m en versants ensoleillés. Formées jeudi par le vent tempétueux de nord, ces instabilités restent possibles en toutes orientations, même loin des crêtes, et sont encore déclenchables par un seul skieur. Plaques généralement en neige dure faciles à identifier, générant des avalanches de taille petite (taille 1) à moyenne (taille 2). \nLes faibles chutes de neige ne modifient guère la stabilité du manteau neigeux. \n\nDéparts spontanés : peu probables, quelques boulettes au soleil au fil des éclaircies se développant l'après-midi. ",
+  "snowQuality": "L'enneigement est proche des normales ou excédentaire pour une fin mars.\nHauteurs de neige observées : 130 cm à la Nivôse d'Orcières à 2280 m, et 181 cm au-dessus de Prapic à 2480 m.\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige fraiche fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.  \nEn versant sud, neige croutée sous 2200/2400, s'humidifiant en journée.",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

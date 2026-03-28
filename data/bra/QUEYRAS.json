@@ -1,25 +1,11 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-03-27T15:00:00",
-  "validUntil": "2026-03-28T18:00:00",
+  "date": "2026-03-28T16:00:00",
+  "validUntil": "2026-03-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2000",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2000",
+      "altitude": "Toutes altitudes",
       "level": 2,
       "orientations": [
         "N",
@@ -37,9 +23,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : instabilités superficielles dans la neige ventée, plus épaisses autour de Ceillac.",
-  "stability": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, FORMÉES JEUDI PAR LE VENT DE NORD\n\nDéclenchements provoqués : instabilités en place dans la neige fraiche ventée, plutôt au-dessus de 2000 m en versants froids, et 2200/2400 m en versants ensoleillés. Formées jeudi par le vent tempétueux de nord, ces instabilités restent possibles en toutes orientations, même loin des crêtes, et sont encore déclenchables par un seul skieur. Plaques généralement en neige dure faciles à identifier, générant des avalanches de petite taille (taille 1), voir moyenne (taille 2) autour de Ceillac. \n\nDéparts spontanés : Peu probables, quelques boulettes au soleil en journée. ",
-  "snowQuality": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 152 cm en versant nord du col Izoard à 2300 m, 144 cm au-dessus de St Véran à 2700 m, 92 cm à la Nivôse du Col Agnel à 2630 m \n\nLimite d'enneigement skiable : au plus bas à 1400/1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : neige fraiche fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Crêtes parfois décapées. En versant sud, neige croutée sous 2200/2400, s'humidifiant en journée.",
+  "summary": "Départs spontanés : avalanches de neige fraîche, petites à moyennes. \nDéclenchements skieurs : nouvelles plaques en formation, principalement à l'est du massif. ",
+  "stability": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE, PLUS NOMBREUSES ET ÉPAISSES SUR LE HAUT-GUIL\n\nDéclenchements provoqués : de nouvelles plaques sont en formation avec les chutes de neige dans la nuit de samedi à dimanche et le vent de nord-est modéré dimanche matin. Elles sont présentes en toutes orientations au-dessus de 1800/2000 m environ, plus nombreuses et épaisses sur le Haut-Guil (Abriès / Ristolas). Elles sont d'aspect durcies dans les zones exposées au vent, mais encore d'aspect poudreux dans les combes bien abritées. Elles sont facilement déclenchables par un skieur et engendrent des avalanches de taille petite (taille 1) à moyenne (taille 2) vers les crêtes frontalières du Haut-Guil. \nDe plus, des instabilités sont encore en place dans la neige récente ventée. Elles sont présentes en toutes orientations au-dessus de 2000/2200 m environ. Sous forme de plaques dures, elles sont facilement identifiables, localisées même loin des crêtes et ruptures de pente, et encore facilement déclenchables par un seul skieur. Elles génèrent des avalanches de petite taille (taille 1), voire moyenne (taille 2) autour de Ceillac ou sur le Haut-Guil. \n\nDéparts spontanés : avalanches de neige récente l'après-midi au fil des éclaircies qui se développent ou par surcharge du au vent de nord-est qui se renforce en matinée. Petite taille, voire moyenne sur le Haut-Guil. ",
+  "snowQuality": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 152 cm en versant nord du col Izoard à 2300 m, 142 cm au-dessus de St Véran à 2700 m, 94 cm à la Nivôse du Col Agnel à 2630 m \n\nLimite d'enneigement skiable : au plus bas à 1400/1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : 15 à 20 cm de neige fraîche, plutôt 5/10 cm vers les Fonts de Cervières ou entre Ceillac et Saint-Véran. Cette neige tombe peu ventée et est donc légère. Neige localement durcie par le vent qui se lève en matinée de dimanche. Sur l'ouest du massif, neige récente fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Crêtes parfois décapées. En versant sud, neige croutée sous 2200/2400 m, s'humidifiant en journée.",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

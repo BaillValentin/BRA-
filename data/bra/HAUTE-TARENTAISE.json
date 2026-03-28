@@ -1,7 +1,7 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-03-27T16:00:00",
-  "validUntil": "2026-03-28T18:00:00",
+  "date": "2026-03-28T16:00:00",
+  "validUntil": "2026-03-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,12 +20,12 @@
     }
   ],
   "situations": [
-    "plaque_vent",
-    "neige_humide"
+    "neige_fraiche",
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : petits départs en neige humide dans les versants ensoleillés.\nDéclenchements skieurs : encore quelques plaques dans la neige récente ventée.",
-  "stability": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE VENTÉE.\n\nDéclenchement provoqués : quelques plaques en perte de réactivité, encore un peu entretenues par le vent de nord en altitude. On les trouve en tout versant, plaques dures près des crêtes, parfois encore d'aspect poudreux dans les pentes. Épaisseurs des cassures hétérogènes, 20 à 40 cm en moyenne. Elles occasionnent de petites à moyennes avalanches.\nDe l'Aiguille des Glaciers à la Rosière, les cassures et les volumes mobilisables peuvent être plus importants. \nObservables : accumulation de neige, généralement plus dense voire dure.\n \nDéparts spontanés :\nQuelques avalanches de neige humide dans les versants qui auront bien chauffé avant que le ciel se couvre à la mi-journée, plutôt dans les pentes raides. Généralement de petites avalanches.",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : 1300 m au mieux en Nord. Plutôt 1600 m en sud pas trop raide.\n\nQualité de la neige : les secteurs d'altitude, notamment les versants nord, sont soufflés par le vent : la neige est inégalement répartie entre zones dégarnies décapées et accumulations sous le vent.\nPour trouver de la poudreuse, viser plutôt les moyennes/basses altitudes et la forêt.\nDans les versants ensoleillés, notamment Sud à Est, la neige s'humidifie en surface (ça botte). Toutefois en altitude, le vent du nord bien frais concurrence l'action du soleil, limitant le ramollissement de la neige.",
+  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : quelques plaques en neige ventée, tous versants.",
+  "stability": "HIVERNAL. MANTEAU PLUTÔT STABLE MALGRÉ LA PETITE CHUTE DE NEIGE DE LA NUIT.\n\nDéclenchements provoqués : quelques plaques en neige ventée, en tous versants. D'une part, la petite chute de neige cette nuit, faiblement ventée, crée de nouvelles petites instabilités, notamment près des crêtes. D'autre part, il subsiste d'anciennes plaques datant du coup de vent mercredi-jeudi, plutôt dures, plutôt loin des crêtes, et désormais peu réactives au passage d'un skieur. La neige fraîche tombée dans la nuit aura pour effet de masquer la plupart des indices visuels, compliquant l'identification de ces plaques. Les cassures sont limitées, généralement 10-20 cm, jusqu'à 40 cm si une plaque dure un peu plus ancienne est déclenchée, donnant alors une avalanche de taille moyenne.\nObservables : fissures sous les skis, accumulation de neige un peu plus dense.\n\nDéparts spontanés : peu probables. A la marge, une rare petite plaque peut se décrocher spontanément dans un endroit très défavorable : au pied d'une barre rocheuse sous le petit vent de nord par exemple.",
+  "snowQuality": "Enneigement : encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : avec la petite chute de la nuit, il sera possible de skier dès 1000/1200 m dans les prairies. Sous-couche vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : 3-7 cm de neige fraîche ce dimanche matin, voire localement un peu plus dans les zones d'accumulation en altitude. Neige poudreuse, légère, sur un fond généralement bien plus ferme : ski agréable.\nGrâce aux nuages et à la masse d'air froide, la neige reste légère en tous versants et quasiment à toutes les altitudes.",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

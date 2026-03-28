@@ -1,7 +1,7 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-03-27T16:00:00",
-  "validUntil": "2026-03-28T18:00:00",
+  "date": "2026-03-28T16:00:00",
+  "validUntil": "2026-03-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -22,9 +22,9 @@
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Peu probables\nDéclenchements skieurs : Plaques à vent dans la neige récente",
-  "stability": " Plaques à vent en perte de réactivité\n\nDéclenchements provoqués :\n* Plaques à vent dans la neige récente, majoritairement au-dessus de 1700 m, formées par le vent de Nord-Ouest à Nord-Est, facilement déclenchables par un skieur. Elles sont souvent friables mais peuvent être dures à proximité des crêtes. Taille 1 à 2 (petite à moyenne). Cassures de 30/50 cm.\n Observables : accumulations de neige, fissures sous les skis, transport de neige par le vent. \n\nDéparts spontanés :\nPeu probables.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nSamedi matin, les sols sont blancs au-dessus de 900 m, mais il n’y a pas de sous-couches en dessous de 1200/1300 m en nord et 1500/1600 m en sud.\n\nQualité de la neige ce samedi matin :\n20/30 cm de neige fraîche ventée. Souvent poudreuse dans les secteurs abrités du vent de Nord, ventée ailleurs, voire cartonnée ou glacée proche des crêtes ou dans certaines pentes Nord.\nNombreuses corniches, accumulations et congères en toutes orientations. ",
+  "summary": "Départs spontanés : peu probables, quelques accumulations par le vent de N, pouvant céder\nDéclenchements skieurs : plaques à vent nouvelles dans la neige récente",
+  "stability": " \n\nDéclenchements provoqués :\nPlaques à vent nouvelles dans la neige récente : 10 cm de fraîche sur 20/30 cm récents tombés en milieu de semaine, en cours de tassement. Plaques friables pour la plupart, éventuellement dures près des crêtes. Formation sous l'effet du vent de N/NE la nuit de samedi à dimanche, voire dimanche en journée. Plaques plutôt rares de l’Étale au Charvin, un peu plus nombreuses dans les secteurs des Combes, Pointe Percée, Areu, davantage impactés par la Bise. Pas très larges ni épaisses (cassure 30/40 cm) mais localement réactives. Taille 1 à 2 (petite à moyenne).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n\nDéparts spontanés :\nQuelques accumulations de neige récente peuvent céder dans des pentes très raides, surtout près des crêtes ou sur des hauts de couloirs chargés par le vent de N/NE. Départs ponctuels ou en plaques peu larges. Taille 1, éventuellement 2.",
+  "snowQuality": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200 m environ. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce dimanche :\n10 cm de neige fraîche en surface, irrégulièrement soufflée. Sous-couche hétérogène : froide meuble sur 15/25 cm en versants N abrités des vents, compacte dans les autres orientations, dure ou glacée près des crêtes.\nNombreuses corniches et accumulations.",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-03-27T16:00:00",
-  "validUntil": "2026-03-28T18:00:00",
+  "date": "2026-03-28T16:00:00",
+  "validUntil": "2026-03-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -22,9 +22,9 @@
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Peu probables\nDéclenchements skieurs : Plaques à vent dans la neige récente",
-  "stability": " Plaques à vent en perte de réactivité\n\nDéclenchements provoqués :\n* Plaques à vent dans la neige récente, majoritairement au-dessus de 1700 m, formées par le vent de Nord-Ouest à Nord-Est, facilement déclenchables par un skieur. Elles sont souvent friables mais peuvent être dures à proximité des crêtes. Taille 1 à 2 (petite à moyenne). Cassures de 30/40 cm.\n Observables : accumulations de neige, fissures sous les skis, transport de neige par le vent. \n\nDéparts spontanés :\nPeu probables.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nSamedi matin, les sols sont blancs au-dessus de 900 m, mais il n’y a pas de sous-couches en dessous de 1200/1300 m en nord et 1500/1600 m en sud.\n\nQualité de la neige ce samedi matin :\n10/25 cm de neige fraîche ventée. Souvent poudreuse dans les secteurs abrités du vent de Nord, ventée ailleurs, voire cartonnée ou glacée proche des crêtes ou dans certaines pentes Nord.\nNombreuses corniches, accumulations et congères en toutes orientations. ",
+  "summary": "Départs spontanés : peu probables, rares accumulations par le vent de N\nDéclenchements skieurs : rares plaques à vent dans la neige récente",
+  "stability": " \n\nDéclenchements provoqués :\n* Plaques à vent dans la neige récente. Surtout au-dessus de 1600/1700 m, formées par les vents successifs de NW puis N/NE. Plaques friables pour la plupart, localement dures près des crêtes. Peu nombreuses, et de dimensions modestes (cassure 30 cm, pas très larges). Taille 1 (petite), rarement 2 (moyenne).\n Observables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n\nDéparts spontanés :\nPlutôt peu probables. De rares accumulations par le vent de N/NE peuvent céder dans une pente très raides, un haut de couloir. Taille 1.",
+  "snowQuality": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200 m environ. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce dimanche :\n5 cm de neige fraîche en surface, irrégulièrement soufflée. Sous-couche hétérogène : froide meuble sur 10/20 cm en versants N abrités des vents, compacte dans les autres orientations, dure ou glacée près des crêtes.\nNombreuses corniches et accumulations.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

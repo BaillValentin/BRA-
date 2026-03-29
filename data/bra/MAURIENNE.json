@@ -1,7 +1,7 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-03-28T16:00:00",
-  "validUntil": "2026-03-29T18:00:00",
+  "date": "2026-03-29T16:00:00",
+  "validUntil": "2026-03-30T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,12 +20,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : quelques plaques en neige ventée, tous versants.",
-  "stability": "HIVERNAL. UN PEU DE NEIGE FRAÎCHE SUR UN MANTEAU GLOBALEMENT STABILISÉ.\n\nDéclenchements provoqués : quelques plaques en neige ventée, en tous versants. D'une part, la petite chute de neige cette nuit, faiblement ventée, crée de nouvelles petites instabilités, notamment près des crêtes. D'autre part, il subsiste d'anciennes plaques datant du coup de vent mercredi-jeudi, plutôt dures, plutôt loin des crêtes, et désormais peu réactives au passage d'un skieur. La neige fraîche tombée dans la nuit aura pour effet de masquer la plupart des indices visuels, compliquant l'identification de ces plaques. Les cassures sont limitées, généralement 10-20 cm, jusqu'à 40 cm si une plaque dure un peu plus ancienne est déclenchée, donnant alors une avalanche de taille moyenne.\nObservables : fissures sous les skis, accumulation de neige un peu plus dense.\n\nDéparts spontanés : peu probables. A la marge, une rare petite plaque peut se décrocher spontanément dans un endroit très défavorable : au pied d'une barre rocheuse sous le petit vent de nord par exemple.",
-  "snowQuality": "Enneigement : encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : avec la petite chute de la nuit, il sera possible de skier dès 1000/1200 m dans les prairies. Sous-couche vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : 3-10 cm de neige fraîche ce dimanche matin, voire localement un peu plus dans les zones d'accumulation en altitude. Neige poudreuse, légère, sur un fond généralement bien plus ferme : ski agréable.\nGrâce aux nuages et à la masse d'air froide, la neige reste légère en tous versants et quasiment à toutes les altitudes.",
+  "summary": "Départs spontanés : Peu probable\nDéclenchements skieurs : Quelques plaques en neige ventée,",
+  "stability": "NOUVEAU EPISODE DE NEIGE ET VENT FORT SUR UN MANTEAU GLOBALEMENT ASSEZ BIEN STABILISÉ.\n\nDéclenchements provoqués : Quelques plaques en neige ventée, très localisées mais possible un peu en tous versants. D'une part, il subsiste d'anciennes plaques datant des épisodes de la semaine dernière, elles sont plutôt dures et désormais assez  peu réactives au passage d'un skieur.  D'autre part, la petite chute de neige attendu ce lundi après midi et l'épisode  de vent fort, vont créer quelques  nouvelles  instabilités sous le vent de Nord et souvent loin des crêtes pelées par les nombreux épisodes de vent. Les cassures sont limitées, généralement 20-30 cm, jusqu'à 50 cm si une plaque dure un peu plus ancienne est déclenchée, donnant alors une avalanche de taille moyenne. \nObservables : fissures sous les skis, accumulation de neige un peu plus dense derrière une rupture de pente  loin des crêtes.\n\nDéparts spontanés : peu probable. En fin de journée et soirée le transport de neige par le vent pourrait finir par faire se décrocher spontanément  une plaque dans un secteur de dépot sous le vent de Nord à Nord-ouest ",
+  "snowQuality": "Enneigement : encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : vers 1200 m en Nord, 1600 m en Sud.\n\nQualité de la neige :  En Nord,  neige poudreuse peu épaisse 5/10cm en général , légère, sur un fond généralement plus ferme . \nEn sud la neige fraiche s'est alourdi et est maintenant souvent croutée avec juste le léger saupoudrage  de ce samedi par dessus.  \nEn cours de journée de lundi, dans les secteurs qui vont prendre le vent,  les conditions de ski vont se dégrader avec du carton/ neige dure en remplacement progressif de la petite couche de poudre.  ",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

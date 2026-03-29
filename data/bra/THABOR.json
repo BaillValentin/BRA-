@@ -1,7 +1,7 @@
 {
   "massif": "THABOR",
-  "date": "2026-03-28T16:00:00",
-  "validUntil": "2026-03-29T18:00:00",
+  "date": "2026-03-29T16:00:00",
+  "validUntil": "2026-03-30T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -36,9 +36,9 @@
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : petites avalanches de neige récente au fil des éclaircies l'après-midi.\nDéclenchements skieurs : instabilités superficielles dans la neige ventée, plus nombreuses vers la Savoie.",
-  "stability": "PLAQUES EN PLACE DANS LA NEIGE VENTÉE - DE NOUVELLES PEU ÉPAISSES EN FORMATION VERS LA SAVOIE\n\nDéclenchements provoqués : à proximité de la Savoie uniquement, de rares plaques minces se forment avec les faibles chutes de neige dans la nuit de samedi à dimanche. Présentes en toutes orientations, elles peuvent être faciles à déclencher par le passage d'un skieur, mais engendrent des avalanches de taille petite uniquement (taille 1). \nDe plus et sur l'ensemble du massif, des instabilités sont encore en place dans la neige récente ventée. Elles sont présentes en toutes orientations au-dessus de 2000/2200 m environ. Sous forme de plaques dures, elles sont facilement identifiables, localisées même loin des crêtes et ruptures de pente, et encore facilement déclenchables par un seul skieur. Elles génèrent des avalanches de petite taille (taille 1), voire moyenne (taille 2) en allant vers la Savoie. \n\nDéparts spontanés : peu probables le matin. À proximité de la Savoie, quelques avalanches de neige récente l'après-midi au fil des éclaircies qui se développent. Petite taille uniquement. ",
-  "snowQuality": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées vers 2500 m : 173 cm dans le vallon du Chardonnet, 115 cm à la nivôse des Rochilles, 82 cm à la Nivôse du Galibier (secteurs fortement ventés).\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : 5/10 cm de neige fraîche à proximité de la Savoie. Sinon, neige récente fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.  \nEn versant sud, neige croutée sous 2200/2400, s'humidifiant en journée.",
+  "summary": "Départs spontanés : départs superficiels au soleil ou par surcharge du au vent. \nDéclenchements skieurs : instabilités dans la neige ventée, plus nombreuses vers la Savoie.",
+  "stability": "PLAQUES EN PLACE DANS LA NEIGE RÉCENTE VENTÉE \n\nDéclenchements provoqués : des instabilités sont en place dans la neige ventée, de rares en formation par le fort vent de nord-ouest là où il reste éventuellement encore de la neige légère et transportable. Présentes en toutes orientations au-dessus de 2000/2200 m environ, elles sont néanmoins plus nombreuses et sensibles dans les orientations d'un large secteur nord (nord-ouest, nord et nord-est) ainsi que vers la Savoie où les quantités de neige récente sont un peu plus importantes. Elles sont facilement identifiables, d'aspect durcie par le vent et localisées même loin des crêtes et ruptures de pentes. Elles peuvent encore être déclenchables par le passage d'un skieur et génèrent des avalanches de taille petite à moyenne (taille 1 à 2). \n\nDéparts spontanés : avalanches de petite taille ou sous forme de boulettes dans les pentes raides ensoleillées. Un départ par surcharge du au vent (rupture de corniche par exemple) est également possibles : avalanche petite à moyenne. ",
+  "snowQuality": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées vers 2500 m : 172 cm dans le vallon du Chardonnet, 127 cm à la nivôse des Rochilles, 82 cm à la Nivôse du Galibier (secteurs fortement ventés).\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : 5/10 cm de neige récente à proximité de la Savoie, fortement durcie et travaillée par le fort vent ou encore localement légère dans les secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent. En versant sud, neige croutée sous 2200/2400, s'humidifiant en journée.",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

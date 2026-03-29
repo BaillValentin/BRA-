@@ -1,28 +1,32 @@
 {
   "massif": "UBAYE",
-  "date": "2026-03-28T16:00:00",
-  "validUntil": "2026-03-29T18:00:00",
+  "date": "2026-03-29T15:00:00",
+  "validUntil": "2026-03-30T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2200",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2200",
       "level": 2,
       "orientations": [
         "N",
         "NE",
-        "SW",
-        "W",
         "NW"
       ]
     }
   ],
-  "situations": [
-    "neige_fraiche",
-    "plaque_vent"
-  ],
-  "summary": "Départs spontanés : départs ponctuels, voire en plaque, peu fréquents.\nDéclenchements skieurs : quelques nouvelles instabilités, faciles à déleclencher mais de taille petite, plus rarement moyenne.",
-  "stability": "NOUVELLES INSTABILITÉS DE TAILLE LIMITÉE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : nouvelles instabilités en formation avec les chutes de neige attendues puis le vent. Plaques à vent de taille limitée, plus fréquentes en versants d’altitude de large nord à ouest, même loin de des crêtes et sommets. Elles peuvent céder facilement au passage d’un skieur, mobilisant surtout la neige tombée dans la nuit de samedi à dimanche. \n\nDéparts spontanés : en pente raide d'altitude, éventuels départs ponctuels, voire en plaque, avec le transport de la neige par le vent de nord-est à est. Taille petite, plus rarement moyenne.  \nDimanche après-midi avec le retour des éclaircies, départs superficiels en pentes raides ensoleillées, près des rochers de la neige fraiche s’humidifiant.",
-  "snowQuality": "Enneigement proche des normales.\nHauteurs de neige observées : 78 cm à la Nivôse de Restefond à 2550 m (secteur venté), 85 cm au-dessus de Larche à 2270 m en adret. \n\nEnneigement skiable : vers 1500 m en ubacs, 1900/2000 m en adrets peu pentus. \n\nÉtat de la neige en surface : 5/15 cm de neige fraiche reposant sur de la neige souvent regelée / croutée. En ubacs d'altitude, sur de la neige sèche souvent durcie par le vent, plus rarement poudreuse dans les combes abritées. ",
+  "situations": [],
+  "summary": "Départs spontanés : rares et à haute altitude, en neige ventée\nDéclenchements skieurs : instabilités de surface dans la neige ventée, ponctuellement volumineuses",
+  "stability": "INSTABILITÉS EN ALTITUDE, DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : instabilités limitées à quelques pentes d'altitude. Possibles surtout en large orientation nord au-dessus de 2200 m environ, parfois à distance des crêtes, ces instabilités sont plutôt bien identifiables dans la neige ventée. Un seul skieur peut parfois les déclencher, générant une avalanche de taille petite à moyenne. Le vent souffle de plus en plus fort au fil des heures, mobilisant la faible quantité de neige récente tombée la nuit de samedi à dimanche. \n\nDéparts spontanés : rares et restant peu volumineux dans les secteurs d'accumulation par le vent en altitude. Taille petite, plus rarement moyenne.   ",
+  "snowQuality": "Enneigement proche des normales.\nHauteurs de neige observées : 76 cm à la Nivôse de Restefond à 2550 m, secteur relativement peu enneigé cet hiver.  \n\nEnneigement skiable : vers 1500 m en ubacs, 1900/2000 m en adrets peu pentus. \n\nÉtat de la neige en surface : quelques cm de neige récente en altitude, tombés la nuit de samedi à dimanche sur un manteau neigeux printanier en adrets, durcis par le vent en ubacs d'altitude. En journée de lundi, humidification restant superficielle avec le redoux temporaire et les éclaircies.",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_21.png",

@@ -1,12 +1,26 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-03-29T16:00:00",
-  "validUntil": "2026-03-30T18:00:00",
-  "riskMax": 2,
+  "date": "2026-03-30T16:00:00",
+  "validUntil": "2026-03-31T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2000",
       "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2000",
+      "level": 3,
       "orientations": [
         "N",
         "NE",
@@ -20,11 +34,12 @@
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : plaques à vent dans la neige récente",
-  "stability": " \n\nDéclenchements provoqués :\nPlaques à vent dans la neige récente en cours de tassement. Plaques friables pour la plupart, éventuellement dures près des crêtes et en secteurs soumis à la Bise (ce dimanche). Plaques pas très nombreuses. Pas très larges ni épaisses (cassure 20/40 cm) mais localement réactives. Localisation : un peu à toutes altitude, surtout au-dessus de 1600/1700 m, à fortiori en secteurs soumis à la Bise. Taille 1 à 2 (petite à moyenne).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n\nDéparts spontanés :\nPeu probables.",
-  "snowQuality": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200/1300 m. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce lundi :\nNeige majoritairement froide, dense, souple, sauf en versants S sous 2000 m où elle est déjà un peu croûtée. Neige soufflée dans les secteurs soumis à la Bise. Dure ou glacée près des crêtes.\nNombreuses corniches et accumulations/congères.",
+  "summary": "Départs spontanés : quelques accumulations dans la neige fraiche peuvent céder\nDéclenchements skieurs : nouvelles plaques à vent dans la neige fraiche ",
+  "stability": " Nouvelles plaques à vent sous la forte Bise de NNE. \n\nDéclenchements provoqués :\nPlaques à vent dans la neige récente subsistent encore mais sont désormais moins réactives. De nouvelles plaques se forment dans la neige fraiche sous le vent de NNE dans la nuit de lundi à mardi et continuent de se former mardi en journée. Elles sont plus nombreuses et plus épaisses au-dessus de 2000 m. La Bise de NNE souffle fort, les plaques se trouvent jusqu'en milieu des pentes, parfois loin des crêtes. Elles sont souvent dures (parfois encore friables), très réactives au passage d'un skieur. Les cassures sont entre 20/30 cm et parfois 50/60 cm. Taille 1 à 2, rarement 3 (petite à moyenne, rarement 3).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n\nDéparts spontanés :\nQuelques départs spontanés à cause du vent sont possibles. Taille 1 . ",
+  "snowQuality": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200/1300 m. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce mardi :\n5/15 cm de neige fraiche reposant sur une neige encore froide, dense, souple, sauf en versants S sous 2000 m où elle est déjà un peu croûtée. Neige soufflée dans les secteurs soumis à la Bise. Dure ou glacée près des crêtes.\nNombreuses corniches et accumulations/congères.",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

@@ -1,7 +1,7 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-03-29T16:00:00",
-  "validUntil": "2026-03-30T18:00:00",
+  "date": "2026-03-30T16:00:00",
+  "validUntil": "2026-03-31T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,11 +20,12 @@
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Peu probable\nDéclenchements skieurs : Quelques plaques en neige ventée,",
-  "stability": "NOUVEAU EPISODE DE NEIGE ET VENT FORT SUR UN MANTEAU GLOBALEMENT ASSEZ BIEN STABILISÉ.\n\nDéclenchements provoqués : Quelques plaques en neige ventée, très localisées mais possible un peu en tous versants. D'une part, il subsiste d'anciennes plaques datant des épisodes de la semaine dernière, elles sont plutôt dures et désormais assez  peu réactives au passage d'un skieur.  D'autre part, la petite chute de neige attendu ce lundi après midi et l'épisode  de vent fort, vont créer quelques  nouvelles  instabilités sous le vent de Nord et souvent loin des crêtes pelées par les nombreux épisodes de vent. Les cassures sont limitées, généralement 20-30 cm, jusqu'à 50 cm si une plaque dure un peu plus ancienne est déclenchée, donnant alors une avalanche de taille moyenne. \nObservables : fissures sous les skis, accumulation de neige un peu plus dense derrière une rupture de pente  loin des crêtes.\n\nDéparts spontanés : peu probable. En fin de journée et soirée le transport de neige par le vent pourrait finir par faire se décrocher spontanément  une plaque dans un secteur de dépot sous le vent de Nord à Nord-ouest ",
-  "snowQuality": "Enneigement : encore un peu au dessus de la moyenne, sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\n\nLimite skiable : vers 1200 m en Nord, 1600 m en Sud.\n\nQualité de la neige :  En Nord,  neige poudreuse peu épaisse 5/10cm en général , légère, sur un fond généralement plus ferme . \nEn sud la neige fraiche s'est alourdi et est maintenant souvent croutée avec juste le léger saupoudrage  de ce samedi par dessus.  \nEn cours de journée de lundi, dans les secteurs qui vont prendre le vent,  les conditions de ski vont se dégrader avec du carton/ neige dure en remplacement progressif de la petite couche de poudre.  ",
+  "summary": "Départs spontanés : Peu probable\nDéclenchements skieurs : Petites plaques en formation dans la neige fraiche",
+  "stability": "L'hiver fait de la résistance avec du vent fort en altitude,  du froid pour la saison  et quelques chutes de neige attendues dans la nuit de lundi à mardi. Nouvelles petites plaques en formation dans ces conditions.  \n\nDéclenchements provoqués : Quelques nouvelles petites plaques en formation avec la neige fraiche ventée attendue ce lundi soir.  Avec 5/10 cm attendu au mieux ces nouvelles plaques ne seront pas être bien épaisses en général  mais attention toutefois aux qelques zones d'accumulations sous le vent .  Ce mardi elles seront temporairement  sensible au passage d'un skieur, généralement peu étendu avec cassure de 15 à 30 cm  taille 1.  Elles seront présentes  surtout au dessus de 2200m ( limite haute des arbres) et plus fréquentes en Est et Sud souvent loin des crêtes qui sont elles souvent décapés par le vent.  On pourra aussi en trouver quelques unes en nord derrière une rupture de pente là aussi loin des crêtes.   \nDéparts spontanés : Peu probable.\n",
+  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne grâce à cette petite séquence hivernale retardant depuis quelques  jours l'inéluctable fonte printanière.  \nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\nQualité de la neige :  neige poudreuse à l'abri du vent donc essentiellement à basse altitude dans les zones boisées ou au moins avec quelques arbres isolés.  Au dessus de la ligne des arbres neige le plus souvent cartonnée à durcie par le vent, aspect poudreux à l'abri du vent seulement.  \n Crêtes et cols en neige ventée très dure, ou en glace avec beaucoup de cailloux.    ",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

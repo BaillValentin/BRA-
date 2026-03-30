@@ -1,7 +1,7 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-03-29T16:00:00",
-  "validUntil": "2026-03-30T18:00:00",
+  "date": "2026-03-30T16:00:00",
+  "validUntil": "2026-03-31T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -24,11 +24,12 @@
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : départs superficiels au soleil ou par surcharge du au vent. \nDéclenchements skieurs : instabilités superficielles dans la neige ventée, plus épaisses vers Écrins / Agneaux / Combeynots",
-  "stability": "PLAQUES EN PLACE DANS LA NEIGE VENTÉE \n\nDéclenchements provoqués : des instabilités sont en place dans la neige ventée, de rares en formation par le fort vent de nord-ouest là où il reste éventuellement encore de la neige légère et transportable. Elles sont présentes plutôt au-dessus de 2000/2200 m en versants froids, et en toutes orientations aux plus hautes altitudes du massif. Elles sont facilement identifiables, d'aspect durcie par le vent et localisées même loin des crêtes et ruptures de pentes. Elles peuvent encore être déclenchables par le passage d'un skieur et génèrent des avalanches de taille petite (taille 1), voire moyenne (taille 2), notamment vers Écrins/Agneaux/Combeynots. \n\nDéparts spontanés : avalanches de petite taille ou sous forme de boulettes dans les pentes raides ensoleillées. Un départ par surcharge du au vent (rupture de corniche par exemple) est également possibles : avalanche petite à moyenne. ",
-  "snowQuality": "L'enneigement est proche des normales ou excédentaire pour une fin mars.\nHauteurs de neige observées : 295 cm à la Nivôse des Écrins vers 3000 m, 190 cm au Pré de Mme Carle à 1900 m.\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige récente fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.  \nEn versant sud, neige croutée sous 2200/2400, s'humidifiant en journée.",
+  "summary": "Départs spontanés : une plaque surchargée par le vent peut céder spontanément. Taille limitée.\nDéclenchements skieurs : instabilités dans la neige ventée, plus épaisses en bordure de l'Oisans.",
+  "stability": "PLAQUES A VENT DANS LA NEIGE VENTÉE \n\nDéclenchements provoqués : plaques en place dans la neige ventée, d'autres en formation sous l'action d'un fort vent de nord là où il reste encore de la neige légère et transportable. Présentes en toutes orientations au-dessus de 2000/2200 m environ, elles sont néanmoins plus nombreuses et sensibles dans les orientations d'un large secteur nord (nord-ouest, nord et nord-est) ainsi que vers l'Oisans où les quantités de neige fraîche sont un peu plus importantes. Facilement déclenchables par le passage d'un skieur, ces instabilités génèrent des avalanches de taille petite (taille 1), voire moyenne (taille 2), notamment vers Écrins/Agneaux/Combeynots. \n\nDéparts spontanés : rares ruptures par surcharge du au vent (rupture de corniche par exemple). Avalanche petite à moyenne (taille 1 à 2). ",
+  "snowQuality": "L'enneigement est proche des normales ou excédentaire pour une fin mars.\nHauteurs de neige observées : 295 cm à la Nivôse des Écrins vers 3000 m, 189 cm au Pré de Mme Carle à 1900 m.\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige récente fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.  \nEn versant sud, neige croutée sous 2500 m.",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

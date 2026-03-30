@@ -1,11 +1,11 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-03-29T15:00:00",
-  "validUntil": "2026-03-30T18:00:00",
+  "date": "2026-03-30T16:00:00",
+  "validUntil": "2026-03-31T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2400",
+      "altitude": "<2200",
       "level": 1,
       "orientations": [
         "N",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "altitude": ">2400",
+      "altitude": ">2200",
       "level": 2,
       "orientations": [
         "N",
@@ -23,10 +23,12 @@
       ]
     }
   ],
-  "situations": [],
-  "summary": "Départs spontanés : rares et à haute altitude, en neige ventée\nDéclenchements skieurs : instabilités de surface dans la neige ventée ",
-  "stability": "RARES INSTABILITÉS EN ALTITUDE, DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : instabilités limitées à de rares pentes d'altitude. Possibles surtout en large orientation nord au-dessus de 2400 m environ, parfois à distance des crêtes, ces instabilités sont plutôt bien identifiables dans la neige ventée. Un seul skieur peut parfois les déclencher, générant une avalanche de petite taille. Le vent souffle de plus en plus fort au fil des heures, mais ne mobilise que de faibles quantités de neige.  \n\nDéparts spontanés : rares et restant peu volumineux dans les secteurs d'accumulation par le vent en altitude. Taille généralement petite. ",
-  "snowQuality": "Enneigement plutôt excédentaire pour une fin mars.\nHauteurs de neige observées : 154 cm à la Nivôse de Millefonts à 2430 m, 108 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400/1500 m en terrain favorable en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier en adrets, durcis par le vent en ubacs d'altitude. En journée de lundi, humidification restant superficielle avec le redoux temporaire et les éclaircies.",
+  "situations": [
+    "plaque_vent"
+  ],
+  "summary": "Départs spontanés : rares et à haute altitude, en neige ventée\nDéclenchements skieurs : rares instabilités de surface dans la neige ventée ",
+  "stability": "RARES INSTABILITÉS EN ALTITUDE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : instabilités limitées à de rares pentes d'altitude dans la neige récente ventée. Généralement en neige dure bien identifiable, ces plaques sont possibles surtout en large orientation nord au-dessus de 2200/2400 m environ, plutôt à distance des crêtes. Départs possibles au passage d'un seul skieur et générant des avalanches de petite taille.\n\nDéparts spontanés : rares et restants peu volumineux dans les secteurs d'accumulation par le vent en altitude. Taille généralement petite. ",
+  "snowQuality": "Enneigement plutôt excédentaire pour une fin mars.\nHauteurs de neige observées : 152 cm à la Nivôse de Millefonts à 2430 m, 106 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400/1500 m en terrain favorable en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux souvent dur/regelé en adrets, durcis par le vent en ubacs d'altitude. Pas ou peu d'humidification au soleil en journée.",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

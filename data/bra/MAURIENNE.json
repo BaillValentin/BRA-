@@ -1,11 +1,11 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-03-30T16:00:00",
-  "validUntil": "2026-03-31T18:00:00",
-  "riskMax": 2,
+  "date": "2026-03-31T16:00:00",
+  "validUntil": "2026-04-01T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2200",
       "level": 2,
       "orientations": [
         "N",
@@ -13,9 +13,19 @@
         "E",
         "SE",
         "S",
-        "SW",
-        "W",
-        "NW"
+        "SW"
+      ]
+    },
+    {
+      "altitude": ">2200",
+      "level": 3,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW"
       ]
     }
   ],
@@ -23,9 +33,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Peu probable\nDéclenchements skieurs : Petites plaques en formation dans la neige fraiche",
-  "stability": "L'hiver fait de la résistance avec du vent fort en altitude,  du froid pour la saison  et quelques chutes de neige attendues dans la nuit de lundi à mardi. Nouvelles petites plaques en formation dans ces conditions.  \n\nDéclenchements provoqués : Quelques nouvelles petites plaques en formation avec la neige fraiche ventée attendue ce lundi soir.  Avec 5/10 cm attendu au mieux ces nouvelles plaques ne seront pas être bien épaisses en général  mais attention toutefois aux qelques zones d'accumulations sous le vent .  Ce mardi elles seront temporairement  sensible au passage d'un skieur, généralement peu étendu avec cassure de 15 à 30 cm  taille 1.  Elles seront présentes  surtout au dessus de 2200m ( limite haute des arbres) et plus fréquentes en Est et Sud souvent loin des crêtes qui sont elles souvent décapés par le vent.  On pourra aussi en trouver quelques unes en nord derrière une rupture de pente là aussi loin des crêtes.   \nDéparts spontanés : Peu probable.\n",
-  "snowQuality": "Enneigement : Encore un peu au dessus de la moyenne grâce à cette petite séquence hivernale retardant depuis quelques  jours l'inéluctable fonte printanière.  \nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\nQualité de la neige :  neige poudreuse à l'abri du vent donc essentiellement à basse altitude dans les zones boisées ou au moins avec quelques arbres isolés.  Au dessus de la ligne des arbres neige le plus souvent cartonnée à durcie par le vent, aspect poudreux à l'abri du vent seulement.  \n Crêtes et cols en neige ventée très dure, ou en glace avec beaucoup de cailloux.    ",
+  "summary": "Départs spontanés : petits départs sous le vent et au soleil.\nDéclenchements skieurs : quelques plaques encore sensibles.",
+  "stability": "Le manteau encore hivernal et le vent toujours sensible en matinée maintiennent le risque de plaques réactives.\n\nDéclenchements provoqués : Quelques plaques sont encore alimentées par le vent de Nord à Nord-Est en matinée. Elles sont temporairement très réactives tant que le vent transporte encore la neige. On les trouve surtout dans les zones d'accumulation sous le vent (derrière les crêtes, croupes ou ruptures de pente), et jusqu'en bas des versants. Elles sont plus fréquentes au-dessus de 2000 m (limite haute des arbres) et dans les versants Sud-Ouest à Est (et Nord dans une moindre mesure). Les cassures atteignent 15 à 30 cm, pour des avalanches de taille 1 à 2 (petite à moyenne). L'après-midi, avec la décélération du vent, les plaques tendent à être moins réactives.\n\nDéparts spontanés :\n - Quelques petites coulées sont attendues dans les pentes raides avec l'humidification de la neige fraîche par le soleil. Taille 1.\n - Un petit départ linéaire sous le vent de Nord à Nord-Est reste possible le matin. Taille 1 à 2.",
+  "snowQuality": "Enneigement : un peu au dessus de la moyenne, ces derniers jours hivernaux retardent quelques peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1300 m en Nord, 1500 m en Sud.\n\nQualité de la neige : couche de neige fraîche rendue très hétérogène par le vent : en moyenne ~10/15 cm vers 2000 m, parfois rien et l'ancienne neige est en surface, parfois plus du double dans les trous, qu'il faut viser pour faire du bon ski. Généralement densifiée par le vent, et même cartonnée à durcie près des crêtes (où les cailloux ressortent). Seules les zones très abritées ou boisées sont encore en poudre légère.",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

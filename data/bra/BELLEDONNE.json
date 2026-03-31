@@ -1,11 +1,11 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-03-30T17:00:00",
-  "validUntil": "2026-03-31T18:00:00",
+  "date": "2026-03-31T16:00:00",
+  "validUntil": "2026-04-01T18:00:00",
   "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2000",
+      "altitude": "<2600",
       "level": 2,
       "orientations": [
         "N",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "altitude": ">2000",
+      "altitude": ">2600",
       "level": 3,
       "orientations": [
         "N",
@@ -34,12 +34,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Quelques départs spontanés sont possibles sous les chutes de neige, puis mardi dans les pentes sous le vent. \nDéclenchements skieurs : Nouvelles plaques formées par le vent dans la neige fraîche",
-  "stability": "NOUVELLES INSTABILITES DANS LA NEIGE FRAICHE VENTEE\n\nNouveau passage perturbé apportant 5 à 15cm de neige fraîche sur le massif d'ici mardi matin. Ces chutes de neige s'accompagnent d'un vent de secteur Nord parfois tempétueux. \nDéclenchements provoqués : De nouvelles plaques se forment sous ces chutes de neige nocturnes, puis sous le vent de Nord en journée de mardi. Elles peuvent se retrouver en tout versant, mais sont généralement plus nombreuses, plus réactives et plus épaisses en large Sud, où la neige des derniers jours était parfois restée poudreuse et où la neige s'accumule sous l'effet du vent. Elles sont plutôt dures à déclencher lorsqu'elles sont en neige dure / cartonnée (souvent près des crêtes), mais plus réactives lorsqu'elles sont en neige plus légère (en s'éloignant des crêtes / en secteurs moins ventés).\nLes plaques sont un peu plus rares en large Nord, car ces pentes sont plus souvent dégarnies suite aux épisodes répétés de vent de Nord.\nObservables : transport en cours, zones d'accumulations, congères, signes du travail par le vent...\n\nDéparts spontanés : Principalement en versants Sud, des ruptures de plaques ( de tailles petites à moyennes) sont possibles dans les pentes qui se chargent sous le vent de Nord. Le vent étant particulièrement fort, ces ruptures peuvent se produire même loin des crêtes. Sous les éclaircies en journée, quelques coulées de petites tailles sont possibles en pentes raides ensoleillées. Départs seulement sous les rochers, en secteurs peu ventés (donc plutôt à basse altitude). \n\nAutres : Suite au faible épisode de pluie vitrifiante de lundi, des surfaces verglacées peuvent localement apparaître près des crêtes et dans les pentes exposées au vent de Nord, rendant la progression délicate sans équipement adapté.  ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même très bon dés 1800 / 2000m mais avec des répartitions assez hétérogènes à cause du vent. Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1000 / 1200m selon le versant, avec prudence en Sud / sous les sapins \n\nQualité de la neige mardi : Neige de qualité très variable sur le massif. La plupart du temps, neige fraîche travaillée ou cartonnée par le vent dans de nombreux endroits. Les crêtes et pentes exposées au vent de Nord sont souvent dégarnies, et présentent parfois une couche de glace vive, formée par un épisode de pluie vitrifiante ce lundi après-midi. En versants Sud, dans certaines combes abritées (vallée des Villards, Allemond) et en bas de pentes / secteurs forestiers, la neige est parfois restée poudreuse avec encore du bon ski par endroits. \nEn journée, la neige de surface s'humidifie au soleil, dans les pentes protégées du vent. ",
+  "summary": "Départs spontanés : Quelques ruptures de plaques possibles dans les pentes chargées par le vent \nDéclenchements skieurs : Plaques à vent plus nombreuses en altitude, généralement peu épaisses mais réactives ",
+  "stability": "MANTEAU HIVERNAL, AVEC DE NOMBREUSES PLAQUES SE FORMANT SOUS LE VENT EN ALTITUDE\n\nDéclenchements provoqués : De nouvelles plaques se forment encore ce mercredi sous le vent de Nord à Nord-Est, surtout au-dessus de 2600m où il est tempétueux. Ces instabilités se retrouvent même loin des crêtes / jusque dans les bas de pentes et en tout versant, mais sont de manière générale plus nombreuses en large Sud. Les plaques restent souvent peu larges et peu épaisses, mais sont très réactives pendant l'épisode de vent. L'après-midi, le vent faiblit et n'est plus suffisamment fort pour transporter efficacement de la neige et former de nouvelles instabilités. Les plaques formées en matinée se stabilisent progressivement. \nObservables : Transport en cours, accumulation, neige sculptée par le vent. \nDéparts spontanés : Surtout au-dessus de 2600m, dans les pentes chargées par le vent (généralement en large Sud) quelques ruptures de plaques de tailles petites à moyennes restent possible jusqu'à la fin de l'épisode de vent, autour du milieu de journée. L'après-midi, de petites coulées sont possibles sous les rochers qui prennent le soleil, surtout à basse altitude. ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même très bon dés 1800 / 2000m mais avec des répartitions assez hétérogènes à cause du vent. Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1000 / 1200m selon le versant, avec prudence en Sud / sous les sapins \n\nQualité de la neige mercredi : Neige de qualité très variable sur le massif. Alternance de neige durcie / cartonnée par le vent et de zones pelées, faisant ressortir une vieille neige très dure / croûtée. Certaines lentilles de neige plus meubles sont parfois présentes (souvent synonyme de plaques). Les crêtes et pentes exposées au vent de Nord sont souvent dégarnie. En versants Sud, dans certaines combes abritées et en bas de pentes / secteurs forestiers, la neige est parfois restée poudreuse, avec encore du bon ski par endroits. \n",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

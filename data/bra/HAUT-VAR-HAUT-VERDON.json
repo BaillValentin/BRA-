@@ -1,7 +1,7 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-03-30T16:00:00",
-  "validUntil": "2026-03-31T18:00:00",
+  "date": "2026-03-31T16:00:00",
+  "validUntil": "2026-04-01T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -26,9 +26,9 @@
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : rares et à haute altitude, en neige ventée\nDéclenchements skieurs : rares instabilités de surface dans la neige ventée ",
-  "stability": "RARES INSTABILITÉS EN ALTITUDE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : instabilités limitées à de rares pentes d'altitude dans la neige récente ventée. Généralement en neige dure bien identifiable, ces plaques sont possibles surtout en large orientation nord au-dessus de 2200/2400 m environ, plutôt à distance des crêtes. Départs possibles au passage d'un seul skieur et générant des avalanches de petite taille.\n\nDéparts spontanés : rares et restants peu volumineux dans les secteurs d'accumulation par le vent en altitude. Taille généralement petite. ",
-  "snowQuality": "Enneigement plutôt excédentaire pour une fin mars.\nHauteurs de neige observées : vers 2000 m, 183 cm dans le vallon de Valdemars, 119 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1500 m en ubacs, 1900/2000 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux souvent dur/regelé en adrets, durcis par le vent en ubacs d'altitude. Pas ou peu d'humidification au soleil en journée.",
+  "summary": "Départs spontanés : rares départs en altitude\nDéclenchements skieurs : rares plaques à vent en altitude",
+  "stability": "RARES INSTABILITÉS EN ALTITUDE DANS LA NEIGE VENTÉE\n\nDéclenchements provoqués : instabilités limitées à de rares pentes d'altitude. Possibles surtout en versants de large nord au-dessus de 2200/2400 m environ, plutôt loin des crêtes. Ces plaques à vent sont généralement bien identifiables. Un skieur peut encore les déclencher, générant une avalanche de petite taille, rarement moyenne.\n\nDéparts spontanés : rares départs spontanés, restants peu volumineux, en pente raide dans les secteurs d'accumulation de la neige par le vent en altitude. Taille généralement petite. ",
+  "snowQuality": "Enneigement plutôt excédentaire pour une fin mars.\nHauteurs de neige observées : vers 2000 m, 179 cm dans le vallon de Valdemars, 115 cm dans le Haut Var.  \n\nEnneigement skiable : vers 1500 m en ubacs, 1900/2000 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux souvent dur/regelé en adrets, durcis par le vent en ubacs d'altitude. On retrouve localement un peu de neige légère en surface dans les combes nord bien abritées du vent. Pas ou peu d'humidification au soleil en journée.",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

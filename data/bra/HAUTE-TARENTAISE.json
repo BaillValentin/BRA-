@@ -1,26 +1,12 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-03-30T16:00:00",
-  "validUntil": "2026-03-31T18:00:00",
-  "riskMax": 3,
+  "date": "2026-03-31T16:00:00",
+  "validUntil": "2026-04-01T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2200",
+      "altitude": "Toutes altitudes",
       "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2200",
-      "level": 3,
       "orientations": [
         "N",
         "NE",
@@ -37,9 +23,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Petite au soleil dans les pentes très raides et rocheuses\nDéclenchements skieurs : Plaques à vent surtout au dessus de 2200m",
-  "stability": "L'hiver fait de la résistance avec du vent fort en altitude,  du froid pour la saison  et quelques chutes de neige attendues dans la nuit de lundi à mardi. Nouvelles plaques en formation dans ces conditions.  \n\nDéclenchements provoqués : Plaques friables à dures présentes dans les pentes en neige récentes travaillées par le vent. Au dessus de 2200m et en Nord les volumes mobilisables sont encore conséquents et le transport en cours ce lundi est efficace.  Demain mardi le passage d'un skieur dans une pente raide pourra alors suffire à déclencher une belle plaque récemment formée avec une cassure pouvant  facilement dépasser les 50 cm, taille 2. Ces plaques se trouveront possiblement un peu en tous versants de haute altitude ( au dessus de 2400m environ)  dès que l'on rencontre des zones d'accumulations de neige récente (  donc souvent loin des crêtes qui sont elles le plus souvent complètement gelées car décapées par le vent en cours ce lundi ). \nSous 2400m moins de neige mobilisable ce lundi  plaque possible mardi dans une accumulation mais beaucoup plus petite et localisée, taille 1.      \nDéparts spontanés :  Rares et petites purges de neige fraiche s'humidifiant au soleil dans les pentes rocheuses raides qui auront accumulées suffisamment de neige fraiche. Escargots,  boulettes partant sous les rochers et au plus une taille 1. ",
-  "snowQuality": "Enneigement : encore un peu au dessus de la moyenne. , sauf aux plus basses altitudes où les hauteurs de neige sont tout juste correctes pour la saison.\nLimite skiable : vers 1300 m en Nord, 1700 m en Sud.\nQualité de la neige :  neige poudreuse à l'abri du vent donc essentiellement à basse altitude dans les zones boisées ou au moins avec quelques arbres isolés.  Au dessus de la ligne des arbres neige le plus souvent cartonnée à durci par le vent, aspect poudreux à l'abri du vent.  Crêtes et cols en neige ventée très dure, ou en glace avec beaucoup de cailloux.    \nL'après midi, humidification de surface au soleil (pente ouest surtout )  même si l'air reste  encore frais pour la saison. ",
+  "summary": "Départs spontanés : petites coulées au soleil.\nDéclenchements skieurs : quelques plaques encore sensibles, surtout au moyennes altitudes.",
+  "stability": "Manteau encore hivernal, portant les stigmates du vent.\n\nDéclenchements provoqués : Quelques plaques sont en place, formées par le vent de secteur Nord-Ouest à Nord-Est ces dernier jours. Leur neutralisation est en cours mais elles sont encore localement réactives, surtout là où le vent a tardé à se calmer. On les trouve dans les zones d'accumulation sous le vent (croupes, ruptures de pente), plutôt loin des crêtes et jusqu'en bas des versants. Elles sont plus fréquentes entre ~2200 m (limite haute des arbres) et ~3200 m (la haute montagne est souvent pelée mais on peut trouver de profondes accumulations), ainsi que dans les versants Sud-Ouest à Est (et Nord dans une moindre mesure). Les cassures atteignent 30 à 50 cm (localement 80 cm en altitude), pour des avalanches peu larges, de taille 1 à 2 (petite à moyenne).\n\nDéparts spontanés : Quelques petites coulées sont attendues dans les pentes raides avec l'humidification de la neige fraîche par le soleil. Taille 1.",
+  "snowQuality": "Enneigement : un peu au dessus de la moyenne, ces derniers jours hivernaux retardent quelques peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : couche de neige fraîche rendue très hétérogène par le vent : en moyenne ~10/15 cm vers 2000 m, parfois rien et l'ancienne neige est en surface, parfois plus du double dans les trous, qu'il faut viser pour faire du bon ski. Généralement densifiée par le vent, et même cartonnée à durcie près des crêtes (où les cailloux ressortent). Seules les zones très abritées ou boisées sont encore en poudre légère. Une croute peut-être présente en Sud à Ouest.",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

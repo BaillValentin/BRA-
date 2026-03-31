@@ -1,7 +1,7 @@
 {
   "massif": "EMBRUNAIS-PARPAILLON",
-  "date": "2026-03-30T16:00:00",
-  "validUntil": "2026-03-31T18:00:00",
+  "date": "2026-03-31T16:00:00",
+  "validUntil": "2026-04-01T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,6 +10,7 @@
       "orientations": [
         "N",
         "NE",
+        "W",
         "NW"
       ]
     },
@@ -19,6 +20,7 @@
       "orientations": [
         "N",
         "NE",
+        "W",
         "NW"
       ]
     }
@@ -26,8 +28,8 @@
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : une plaque surchargée par le vent peut céder spontanément. Taille limitée.\nDéclenchements skieurs : instabilités dans la neige ventée, plus épaisses en altitude. ",
-  "stability": "PLAQUES A VENT DANS LA NEIGE RÉCENTE VENTÉE \n\nDéclenchements provoqués : plaques en place dans la neige ventée, d'autres en formation sous l'action d'un fort vent de nord là où il reste encore de la neige légère et transportable. Présentes en toutes orientations au-dessus de 2000/2200 m environ, elles sont néanmoins plus nombreuses et sensibles dans les orientations d'un large secteur nord (nord-ouest, nord et nord-est) ainsi que vers le Parpaillon où les quantités de neige récente sont un peu plus importantes. Facilement déclenchables par le passage d'un skieur, ces instabilités génèrent des avalanches de taille petite (taille 1), voire moyenne (taille 2) aux plus hautes altitudes du massif. \n\nDéparts spontanés : rares ruptures par surcharge du au vent (rupture de corniche par exemple). Avalanche petite à moyenne (taille 1 à 2). ",
+  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : quelques plaques dans la neige ventée, plus épaisses en altitude",
+  "stability": "QUELQUES PLAQUES EN ALTITUDE DANS LA NEIGE VENTÉE \n\nDéclenchements provoqués : plaques dures en place dans la neige ventée et entretenues par la Lombarde modérée. Présentes au-dessus de 2200 m environ dans les orientations d'un large secteur nord (ouest, nord et nord-est) , ces plaques sont néanmoins plus nombreuses et sensibles vers le Parpaillon où les quantités de neige récente sont un peu plus importantes. Facilement déclenchables par le passage d'un skieur, ces instabilités génèrent des avalanches de taille petite (taille 1), voire moyenne (taille 2) aux plus hautes altitudes du massif. \n\nDéparts spontanés : rares ruptures par surcharge du au vent. Avalanche petite à moyenne (taille 1, rarement 2). ",
   "snowQuality": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 107 cm à la nivôse du Parpaillon à 2500 m.\n\nLimite d'enneigement skiable : au plus bas à 1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : neige récente fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Crêtes parfois décapées. En versant sud, neige croutée sous 2500 m.",
   "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf",
   "imageUrls": {

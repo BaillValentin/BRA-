@@ -1,7 +1,7 @@
 {
   "massif": "THABOR",
-  "date": "2026-03-30T16:00:00",
-  "validUntil": "2026-03-31T18:00:00",
+  "date": "2026-03-31T16:00:00",
+  "validUntil": "2026-04-01T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,10 +10,6 @@
       "orientations": [
         "N",
         "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
@@ -24,10 +20,6 @@
       "orientations": [
         "N",
         "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
@@ -38,7 +30,7 @@
     "plaque_vent"
   ],
   "summary": "Départs spontanés : une plaque surchargée par le vent peut céder spontanément. Taille limitée.\nDéclenchements skieurs : instabilités dans la neige ventée, plus nombreuses vers la Savoie.",
-  "stability": "PLAQUES A VENT DANS LA NEIGE RÉCENTE VENTÉE \n\nDéclenchements provoqués : plaques en place dans la neige récente ventée, d'autres en formation sous l'action d'un fort vent de nord là où il reste de la neige légère et transportable. Présentes en toutes orientations au-dessus de 2000 m environ, elles sont néanmoins plus nombreuses et sensibles dans les orientations d'un large secteur nord (nord-ouest, nord et nord-est) ainsi que vers la Savoie où les quantités de neige fraîche sont un peu plus importantes. Facilement déclenchables par le passage d'un skieur, ces instabilités génèrent des avalanches de taille petite à moyenne (taille 1 à 2). \n\nDéparts spontanés : rares ruptures par surcharge du au vent (rupture de corniche par exemple). Avalanche petite à moyenne (taille 1 à 2). ",
+  "stability": "QUELQUES PLAQUES EN ALTITUDE DANS LA NEIGE RÉCENTE VENTÉE \n\nDéclenchements provoqués : plaques dures en place dans la neige récente ventée et entretenues par la Lombarde modérée. Présentes au-dessus de 2000 m environ dans les orientations d'un large secteur nord (ouest, nord et nord-est) , ces plaques sont néanmoins plus nombreuses et sensibles vers la Savoie où les quantités de neige fraîche sont un peu plus importantes. Facilement déclenchables par le passage d'un skieur, ces instabilités génèrent des avalanches de taille petite à moyenne (taille 1 à 2). \n\nDéparts spontanés : rares ruptures par surcharge du au vent (rupture de corniche par exemple). Avalanche petite à moyenne (taille 1 à 2). ",
   "snowQuality": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées vers 2500 m : 173 cm dans le vallon du Chardonnet, 125 cm à la nivôse des Rochilles, 84 cm à la Nivôse du Galibier (secteurs fortement ventés).\n\nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1800/1900 m en adrets pas trop raides.\n\nÉtat de la neige de surface : 3/5 cm de neige fraîche à proximité de la Savoie, fortement durcie et travaillée par le fort vent ou encore localement légère dans les secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent. En versant sud, neige croutée sous 2500 m.",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {

@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-03-31T16:00:00",
-  "validUntil": "2026-04-01T18:00:00",
+  "date": "2026-04-01T16:00:00",
+  "validUntil": "2026-04-02T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -26,11 +26,12 @@
     }
   ],
   "situations": [
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : une plaque surchargée par le vent peut céder spontanément. Taille limitée.\nDéclenchements skieurs : instabilités dans la neige ventée, principalement à l'est du massif. ",
-  "stability": "QUELQUES PLAQUES DANS LA NEIGE RÉCENTE VENTÉE , PLUS NOMBREUSES ET ÉPAISSES SUR LE HAUT-GUIL\n\nDéclenchements provoqués : plaques dures en place dans la neige ventée et entretenues par la Lombarde modérée. Présentes au-dessus de 2000 m environ dans les orientations d'un large secteur nord (ouest, nord et nord-est) , ces plaques sont néanmoins plus nombreuses et sensibles sur l'est du massif (secteur Abriès/Ristolas/Viso) où les quantités de neige récente sont un plus importantes. Facilement déclenchables par le passage d'un skieur, ces instabilités génèrent des avalanches de taille petite (taille 1), voire moyenne (taille 2) vers les crêtes frontalières avec l'Italie. \n\nDéparts spontanés : rares ruptures par surcharge du au vent (rupture de corniche par exemple). Avalanche petite à moyenne (taille 1 à 2). ",
-  "snowQuality": "L'enneigement est proche des normales pour une fin mars.\nHauteurs de neige observées : 154 cm en versant nord du col Izoard à 2300 m et au-dessus de St Véran à 2700 m, 102 cm à la Nivôse du Col Agnel à 2630 m \n\nLimite d'enneigement skiable : au plus bas à 1400/1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : neige récente fortement travaillée par le vent, mais localement encore légère dans les secteurs bien abrités. Crêtes parfois décapées. En versant sud, neige croutée sous 2500 m.",
+  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : quelques instabilités dans la neige ventée.",
+  "stability": "QUELQUES PLAQUES EN ALTITUDE DANS LA NEIGE VENTÉE \n\nDéclenchements provoqués : des plaques sont encore présentes dans quelques pentes d'altitude, formées par transport de neige récente par le vent de nord à nord-est de ces derniers jours. Elles se situent au dessus de 2200 m, possibles en tous versants mais plutôt en un large secteur nord à ouest, généralement loin des crêtes, et sont plus nombreuses et sensibles dans le Haut-Guil où la dernière chute de neige était un peu plus importante. Elles sont le plus souvent d'aspect durci par le vent, et bien identifiables. En cas de déclenchement par un skieur, elles provoquent des avalanches de taille petite à parfois moyenne.\n\nDéparts spontanés : peu probables. De rares départs superficiels de neige humide sont possibles l'après-midi, par départ ponctuel à proximité des rochers en pentes raides ensoleillées.",
+  "snowQuality": "L'enneigement est proche des normales pour un début avril.\nHauteurs de neige observées : 158 cm en versant nord du col Izoard à 2300 m, 150 cm au-dessus de St Véran à 2700 m, 100 cm à la Nivôse du Col Agnel à 2630 m \n\nLimite d'enneigement skiable : au plus bas à 1400/1500 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : quelques cm de neige récente à proximité de la Savoie, souvent fortement durcie et travaillée par le vent, encore localement légère dans les secteurs bien abrités en versants nord. En versants sud, manteau neigeux souvent regelé sous 2500 m, s'humidifiant superficiellement en journée. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

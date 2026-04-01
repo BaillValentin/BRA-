@@ -1,26 +1,12 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-03-31T16:00:00",
-  "validUntil": "2026-04-01T18:00:00",
-  "riskMax": 3,
+  "date": "2026-04-01T16:00:00",
+  "validUntil": "2026-04-02T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2000",
+      "altitude": "Toutes altitudes",
       "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2000",
-      "level": 3,
       "orientations": [
         "N",
         "NE",
@@ -34,12 +20,11 @@
     }
   ],
   "situations": [
-    "plaque_vent",
-    "neige_humide"
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : quelques accumulations dans la neige récente peuvent céder\nDéclenchements skieurs : nouvelles plaques à vent dans la neige récente",
-  "stability": " Nouvelles plaques à vent sous la Bise de NNE. \n\nDéclenchements provoqués :\nQuelques plaques à vent dans la neige récente, elles continuent de se former mercredi en journée sous le vent de NNE.  Elles sont friables voir dures, réactives au passage d'un skieur. Elles sont proches des crêtes (qui auront moins pris le vent) ou derrière les ruptures de pente. La Bise de NNE a soufflé fort ce lundi, les plaques peuvent aussi localement se trouver jusqu'en milieu des pentes, loin des crêtes (souvent décapées). Les cassures sont entre 20/30 cm et parfois 50/60 cm dans les accumulations. Taille 1 à 2, rarement 3 (petite à moyenne, rarement 3).\nObservables : accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n\nDéparts spontanés :\nRares voir quelques départs spontanés à cause du vent sont encore possibles. Taille 1.\nRares coulées de neige humide sous une éclaircie dans les versants ensoleillés (sous les rochers), mais très limité à cause du vent. Taille 1.",
-  "snowQuality": "Enneigement : \nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200/1300 m. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce mercredi :\nSous 2000 m : 5/15 cm de neige récente reposant sur une neige encore froide, présence d'une croute en profondeur sauf en Nord. Dans les versants ensoleillés, la neige s'humidifie en surface. \nAu-dessus de 2000 m : 5/20 cm de neige récente, soufflée dans les secteurs soumis à la Bise. Dure ou glacée près des crêtes.\nNombreuses corniches et accumulations/congères.",
+  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : plaques à vent dans la neige récente",
+  "stability": " \n\nDéclenchements provoqués :\nQuelques plaques à vent dans la neige récente, elles continuent de se former jeudi sous l'effet du vent de N/NE. Plaques friables la plupart, dures en secteurs très ventés. Pas uniquement près des crêtes (souvent dures ravagées), mais aussi bien en contrebas car le vent a soufflé très fort. Secteurs les plus exposés : Bornes, chaîne des Aravis de Areu/PointePercée à Tête Pelouse. Cassure 20/30 cm, localement 40/50 cm dans une accumulation. Taille 1 à 2 (petite à moyenne).\nObservables : alternance érosions/accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance.\n\nDéparts spontanés :\nPeu probables.",
+  "snowQuality": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m environ. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce jeudi :\nVariable selon l'exposition au vent de N/NE. 10/30 cm de neige récente, froide et meuble, reposant sur un fond dense. Dure ou glacée près des crêtes. Nombreuses corniches et accumulations/congères.\nLégère humidification en surface dans les versants S/SW, en début d'après-midi, sans importance.",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

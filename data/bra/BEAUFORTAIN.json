@@ -1,11 +1,11 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-03-31T16:00:00",
-  "validUntil": "2026-04-01T18:00:00",
-  "riskMax": 3,
+  "date": "2026-04-01T16:00:00",
+  "validUntil": "2026-04-02T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2200",
+      "altitude": "Toutes altitudes",
       "level": 2,
       "orientations": [
         "N",
@@ -13,19 +13,9 @@
         "E",
         "SE",
         "S",
-        "SW"
-      ]
-    },
-    {
-      "altitude": ">2200",
-      "level": 3,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW"
+        "SW",
+        "W",
+        "NW"
       ]
     }
   ],
@@ -33,9 +23,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : petits départs sous le vent et au soleil.\nDéclenchements skieurs : quelques plaques encore sensibles.",
-  "stability": "Le manteau encore hivernal et le vent toujours sensible en matinée maintiennent le risque de plaques réactives.\n\nDéclenchements provoqués : Quelques plaques sont encore alimentées par le vent de Nord à Nord-Est en matinée. Elles sont temporairement très réactives tant que le vent transporte encore la neige. On les trouve surtout dans les zones d'accumulation sous le vent (derrière les crêtes, croupes ou ruptures de pente), et jusqu'en bas des versants. Elles sont plus fréquentes au-dessus de 2000 m (limite haute des arbres) et dans les versants Sud-Ouest à Est (et Nord dans une moindre mesure). Les cassures atteignent 30 à 50 cm, pour des avalanches peu larges, de taille 1 à 2 (petite à moyenne). L'après-midi, avec la décélération du vent, les plaques tendent à être moins réactives.\n\nDéparts spontanés :\n - Quelques petites coulées sont attendues dans les pentes raides avec l'humidification de la neige fraîche par le soleil. Taille 1.\n - Un petit départ linéaire sous le vent de Nord à Nord-Est reste possible le matin. Taille 1 à 2.",
-  "snowQuality": "Enneigement : un peu au dessus de la moyenne, ces derniers jours hivernaux retardent quelques peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1200 m en Nord, 1500 m en Sud.\n\nQualité de la neige : couche de neige fraîche rendue très hétérogène par le vent : en moyenne ~10/15 cm vers 2000 m, parfois rien et l'ancienne neige est en surface, parfois plus du double dans les trous, qu'il faut viser pour faire du bon ski. Généralement densifiée par le vent, et même cartonnée à durcie près des crêtes. Seules les zones très abritées ou boisées sont encore en poudre légère. Une croute peut-être présente en Sud à Ouest.",
+  "summary": "Départs spontanés : peu probable, hormis de petits départs au soleil.\nDéclenchements skieurs : quelques plaques dans les accumulations.",
+  "stability": "Manteau encore hivernal, portant les stigmates du vent.\n\nDéclenchements provoqués : Quelques plaques sont en place, formées par le vent de secteur Nord-Ouest à Nord-Est ces dernier jours. Leur neutralisation est en cours mais elles sont encore localement réactives, surtout là où le vent trouve encore de la neige à transporter. On trouve ces plaques essentiellement dans les zones d'accumulation sous le vent (croupes, ruptures de pente), plutôt loin des crêtes et jusqu'en bas des versants. Elles sont plus fréquentes entre ~2200 m (limite haute des arbres) et ~3200 m (la haute montagne est souvent pelée mais on peut trouver de profondes accumulations), ainsi que dans les versants Sud-Ouest à Est (et Nord dans une moindre mesure). Les cassures atteignent 20 à 40 cm (localement 60 cm en altitude), pour des avalanches peu larges, de taille 1 à 2 (petite à moyenne).\n\nDéparts spontanés : Quelques boulettes voire petites coulées sont attendues dans les pentes raides avec l'humidification de la neige fraîche par le soleil. Taille 1.",
+  "snowQuality": "Enneigement : un peu au dessus de la moyenne, ces derniers jours hivernaux retardent quelques peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1200 m en Nord, 1500 m en Sud.\n\nQualité de la neige : manteau rendu très hétérogène par le vent. La neige récente a été fortement redistribuée, voire sublimée en haute montagne. Résultat : l'ancienne neige dure voire le sol ressort régulièrement, et même systématiquement près des croupes, crêtes et cols. La neige s'est accumulée dans les trous, talwegs, et autres zones sous le vent/abritées (souvent 10 à 30 cm, jsuqu'à 60 cm localement). Ce sont ces zones qu'il faut viser pour faire du bon ski, mais ce sont aussi elles qui hébergent les éventuelles plaques. Une croute peut être présente en Sud à Ouest.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

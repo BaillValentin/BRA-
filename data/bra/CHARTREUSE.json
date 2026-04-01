@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-03-31T16:00:00",
-  "validUntil": "2026-04-01T18:00:00",
+  "date": "2026-04-01T17:00:00",
+  "validUntil": "2026-04-02T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -22,9 +22,9 @@
   "situations": [
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : De rares ruptures de petites plaques possibles dans les pentes sous le vent\nDéclenchements skieurs : Quelques plaques à vent peu épaisses mais réactives",
-  "stability": "MANTEAU HIVERNAL, HEBERGEANT QUELQUES PLAQUES FORMEES PAR LE VENT \n\nDéclenchements provoqués : Quelques nouvelles plaques se forment encore ce mercredi sous le vent de Nord à Nord-Est. Ces instabilités se retrouvent même loin des crêtes / jusque dans les bas de pentes et en tout versant, mais sont de manière générale plus nombreuses en large Sud. Les plaques restent très localisées, sont peu larges et peu épaisses, mais peuvent être réactives pendant l'épisode de vent. L'après-midi, le vent faiblit et n'est plus suffisamment fort pour transporter efficacement de la neige et former de nouvelles instabilités. Les plaques formées en matinée se stabilisent progressivement. \nObservables : Transport en cours, accumulation, neige sculptée par le vent. \nDéparts spontanés : Dans les pentes chargées par le vent (généralement en large Sud) de rares ruptures de plaques de tailles petites à moyennes restent possible jusqu'à la fin de l'épisode de vent, autour du milieu de journée. L'après-midi, de petites coulées sont possibles sous les rochers qui prennent le soleil. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même très bon dés 1800 / 2000m mais avec des répartitions assez hétérogènes à cause du vent. Peu de sous couche sous 1700m en plein Sud.\nLimites skiables : Vers 1000 / 1200m selon le versant, avec prudence en Sud / sous les sapins \n\nQualité de la neige mercredi : Neige souvent travaillée voire cartonnée par le vent. Les crêtes et versants Nord exposés au vent sont souvent pelés, faisant ressortir une vieille neige dure / croûtée. On peut encore retrouver quelques combes en poudreuse, à priori plutôt celles abritées du vent de Nord ( où la neige aura été soufflée, ou parfois croûtée par la pluie). ",
+  "summary": "Départs spontanés : Possibles petites plaques dans les pentes chargées par le vent.\nDéclenchements skieurs : Quelques plaques à vent dans les secteurs exposés d'altitude.",
+  "stability": " QUELQUES INSTABILITES DUES AU VENT\n\nDéclenchements provoqués : Quelques nouvelles plaques se forment encore ce jeudi sous le vent de Nord à Nord-Est qui reste fort. Ces instabilités se retrouvent même loin des crêtes/cols et en tous versants mais plutôt au-dessus de 1800/2000m. Les plaques restent localisées et peu nombreuses, la plupart du temps peu épaisses, mais peuvent être réactives au passage d'un unique skieur. Quelques coulées de petites tailles possibles sous les skis l'après-midi en versants ensoleillés sous 1800m.\n\nObservables : Encore du transport en cours, accumulations et congères nombreuses, neige sculptée par le vent. \n\nDéparts spontanés : Dans les pentes chargées par le vent (généralement en large Sud) de rares ruptures de plaques de tailles petites à moyennes restent possible en altitude au-dessus de 2000/2200m. L'après-midi, de petites coulées sont possibles sous les rochers qui prennent le soleil à l a faveur de quelques éclaircies.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même très bon dés 1800 / 2000m mais avec des répartitions assez hétérogènes à cause du vent. Peu de sous couche sous 1700m en plein Sud.\n\nLimites skiables : Vers 1000 / 1200m selon le versant, avec prudence en Sud / sous les sapins \n\nQualité de la neige jeudi : Neige souvent travaillée voire cartonnée par le vent. Les crêtes et versants Nord exposés au vent sont souvent pelés, faisant ressortir une vieille neige dure / croûtée. On peut encore retrouver quelques combes en poudreuse, à priori plutôt celles abritées du vent de Nord ( où la neige aura été soufflée, ou parfois croûtée par la pluie). ",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

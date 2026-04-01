@@ -1,11 +1,11 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-03-31T16:00:00",
-  "validUntil": "2026-04-01T18:00:00",
+  "date": "2026-04-01T16:00:00",
+  "validUntil": "2026-04-02T18:00:00",
   "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2500",
+      "altitude": "<2600",
       "level": 2,
       "orientations": [
         "N",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "altitude": ">2500",
+      "altitude": ">2600",
       "level": 3,
       "orientations": [
         "N",
@@ -38,9 +38,9 @@
     "plaque_vent",
     "sous_couche_fragile"
   ],
-  "summary": "Départs spontanés : petites coulées au soleil.\nDéclenchements skieurs : quelques plaques encore sensibles.",
-  "stability": "Manteau encore hivernal, portant les stigmates du vent et hébergeant quelques plaques, plus réactives et épaisses en altitude.\n\nDéclenchements provoqués : Quelques plaques sont en place, formées par le vent de secteur Nord-Ouest à Nord-Est ces dernier jours. Leur neutralisation est généralement en cours mais elles sont encore localement réactives, surtout là où le vent a tardé à se calmer. On les trouve dans les zones d'accumulation sous le vent (croupes, ruptures de pente), plutôt loin des crêtes et jusqu'en bas des versants. Elles sont plus fréquentes entre ~2200 m (limite haute des arbres) et ~3200 m (la haute montagne est souvent pelée mais on peut trouver de profondes accumulations), ainsi que dans les versants Sud-Ouest à Est (et Nord dans une moindre mesure). Les cassures atteignent 30 à 50 cm (localement 80 cm en altitude), pour des avalanches peu larges, de taille 1 à 2 (petite à moyenne).\nFait aggravant : dans les ubacs d'altitude (sup 2500 m), il subsiste des couches fragiles persistantes parfois trop peu enfouies pour être isolées. Dès lors, une avalanche de grande taille avec large propagation est possible (taille 3). Observable : test au bâton, test de compression.\n\nDéparts spontanés : Quelques petites coulées sont attendues dans les pentes raides avec l'humidification de la neige fraîche par le soleil. Taille 1.",
-  "snowQuality": "Enneigement : un peu au dessus de la moyenne, ces derniers jours hivernaux retardent quelques peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : couche de neige fraîche rendue très hétérogène par le vent : en moyenne ~10/15 cm vers 2000 m, parfois rien et l'ancienne neige est en surface, parfois plus du double dans les trous, qu'il faut viser pour faire du bon ski. Généralement densifiée par le vent, et même cartonnée à durcie près des crêtes (où les cailloux ressortent beaucoup). Seules les zones très abritées ou boisées sont encore en poudre légère. Une croute peut-être présente en Sud à Ouest.",
+  "summary": "Départs spontanés : petites coulées au soleil.\nDéclenchements skieurs : quelques plaques encore sensibles, notamment en ubacs d'altitude.",
+  "stability": "Manteau encore hivernal, portant les stigmates du vent et hébergeant quelques plaques.\n\nDéclenchements provoqués : Quelques plaques sont en place, formées par le vent de secteur Nord-Ouest à Nord-Est ces dernier jours. Leur neutralisation est en cours mais elles sont encore localement réactives, surtout là où le vent trouve encore de la neige à transporter. On trouve ces plaques essentiellement dans les zones d'accumulation sous le vent (croupes, ruptures de pente), plutôt loin des crêtes et jusqu'en bas des versants. Elles sont plus fréquentes entre ~2200 m (limite haute des arbres) et ~3200 m (la haute montagne est souvent pelée mais on peut trouver de profondes accumulations), ainsi que dans les versants Sud-Ouest à Est (et Nord dans une moindre mesure). Les cassures atteignent 30 à 50 cm (localement 80 cm en altitude), pour des avalanches peu larges, de taille 1 à 2 (petite à moyenne).\nFait aggravant : dans les ubacs d'altitude (sup 2500 m), il subsiste des couches fragiles persistantes parfois trop peu enfouies pour être isolées. Dès lors, une avalanche de grande taille avec large propagation est possible (taille 3). Observable : test au bâton, test de compression.\n\nDéparts spontanés : Quelques boulettes voire petites coulées sont attendues dans les pentes raides avec l'humidification de la neige fraîche par le soleil. Taille 1.",
+  "snowQuality": "Enneigement : un peu au dessus de la moyenne, ces derniers jours hivernaux retardent quelques peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : manteau rendu très hétérogène par le vent. La neige récente a été fortement redistribuée, voire sublimée en haute montagne. Résultat : l'ancienne neige dure voire le sol ressort régulièrement, et même systématiquement près des croupes, crêtes et cols. La neige s'est accumulée dans les trous, talwegs, et autres zones sous le vent/abritées (souvent 10 à 30 cm, jsuqu'à 60 cm localement). Ce sont ces zones qu'il faut viser pour faire du bon ski, mais ce sont aussi elles qui hébergent les éventuelles plaques. Une croute peut être présente en Sud à Ouest.",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

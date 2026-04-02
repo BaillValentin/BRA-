@@ -1,7 +1,7 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-04-01T16:00:00",
-  "validUntil": "2026-04-02T18:00:00",
+  "date": "2026-04-02T16:00:00",
+  "validUntil": "2026-04-03T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,12 +20,12 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probable, hormis de petits départs au soleil.\nDéclenchements skieurs : quelques plaques dans les accumulations.",
-  "stability": "Manteau encore hivernal, portant les stigmates du vent.\n\nDéclenchements provoqués : Quelques plaques sont en place, formées par le vent de secteur Nord-Ouest à Nord-Est ces dernier jours. Leur neutralisation est en cours mais elles sont encore localement réactives, surtout là où le vent trouve encore de la neige à transporter. On trouve ces plaques essentiellement dans les zones d'accumulation sous le vent (croupes, ruptures de pente), plutôt loin des crêtes et jusqu'en bas des versants. Elles sont plus fréquentes entre ~2200 m (limite haute des arbres) et ~3200 m (la haute montagne est souvent pelée mais on peut trouver de profondes accumulations), ainsi que dans les versants Sud-Ouest à Est (et Nord dans une moindre mesure). Les cassures atteignent 15 à 30 cm (localement 50 cm en altitude), pour des avalanches peu larges, de taille 1 à 2 (petite à moyenne).\n\nDéparts spontanés : Quelques boulettes voire petites coulées sont attendues dans les pentes raides avec l'humidification de la neige fraîche par le soleil. Taille 1.",
-  "snowQuality": "Enneigement : un peu au dessus de la moyenne, ces derniers jours hivernaux retardent quelques peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1300 m en Nord, 1500 m en Sud.\n\nQualité de la neige : manteau rendu très hétérogène par le vent. La neige récente a été fortement redistribuée, voire sublimée en haute montagne. Résultat : l'ancienne neige dure voire le sol ressort régulièrement, et même systématiquement près des croupes, crêtes et cols. La neige s'est accumulée dans les trous, talwegs, et autres zones sous le vent/abritées (souvent 10 à 20 cm, jsuqu'à 50 cm localement). Ce sont ces zones qu'il faut viser pour faire du bon ski, mais ce sont aussi elles qui hébergent les éventuelles plaques. Une croute peut être présente en Sud à Ouest.",
+  "summary": "Départs spontanés : quelques petits départs en neige humide au soleil.\nDéclenchements skieurs : quelques plaques dans la neige ventée, en tous versants.",
+  "stability": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE ET VENTÉE DES DERNIERS JOURS. REDOUX TIMIDE POUR L'INSTANT.\n\nDéclenchements provoqués : quelques plaques sont encore en place dans la neige ventée. Avec l'affaiblissement du vent, elles perdent en réactivité au fil des jours, mais le déclenchement par un skieur reste possible en tous versants dans les zones d'accumulation. Ces plaques, désormais plutôt dures, se trouvent généralement loin des crêtes, parfois jusqu'en bas de pentes. Cassures moyennes 15 à 30 cm, avalanches peu larges (taille petite à moyenne). A noter que dans les secteurs très ventés, lorsque l'ancienne neige (souvent dure/croutée) ré-apparaît en surface, le risque est bien moindre (et le ski moins bon...).\nObservables : test du bâton, fissures sous les skis.\n\nDéparts spontanés : quelques petits départs en neige humide dans les versants ensoleillés, qui subissent un premier coup de chaud superficiel jusqu'à assez haute altitude. Exceptionnellement une avalanche moyenne dans une pente raide.",
+  "snowQuality": "Enneigement : un peu au dessus de la moyenne, le \"petit hiver\" des derniers jours a retardé quelque peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1300 m en Nord, 1500 m en Sud.\n\nQualité de la neige : manteau hétérogène d'un secteur à l'autre. Dans les zones très sensibles à la bise, la neige récente a été fortement redistribuée, et l'ancienne neige dure voire le sol ressort régulièrement près des croupes, crêtes et cols tandis que la neige s'est accumulée dans les trous. A l'inverse, dans les zones relativement abritées, on trouve une poudreuse dense, répartie plutôt uniformément et agréable à skier. Petite croute dans un large secteur sud et/ou à basse altitude le matin, puis en journée tous les versants ensoleillés subissent une première humidification superficielle jusqu'à haute altitude (bottage).",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

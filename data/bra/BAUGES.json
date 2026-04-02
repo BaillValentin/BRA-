@@ -1,18 +1,28 @@
 {
   "massif": "BAUGES",
-  "date": "2026-04-01T16:00:00",
-  "validUntil": "2026-04-02T18:00:00",
+  "date": "2026-04-02T16:00:00",
+  "validUntil": "2026-04-03T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<1800",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">1800",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
         "SW",
         "W",
         "NW"
@@ -20,11 +30,12 @@
     }
   ],
   "situations": [
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : nouvelles plaques à vent dans la neige récente",
-  "stability": " \n\nDéclenchements provoqués :\nQuelques plaques à vent dans la neige récente, elles continuent de se former jeudi sous l'effet du vent de N. Plaques friables la plupart, dures en secteurs très ventés. Pas uniquement près des crêtes (souvent dures ravagées), mais aussi bien en contrebas car le vent a soufflé fort.. Cassure 15/30 cm, localement 40 cm dans une accumulation. Taille 1 à 2 (petite à moyenne).\nObservables : alternance érosions/accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance.\n\nDéparts spontanés :\nPeu probables.",
-  "snowQuality": "Enneigement :\nBon pour une fin mars. On peut chausser skis ou raquettes dès 1200/1300 m environ. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce jeudi :\nVariable selon l'exposition au vent de N. 5/15 cm de neige récente, froide et meuble, reposant sur un fond dense. Dure ou glacée près des crêtes. Nombreuses corniches et accumulations/congères.\nLégère humidification en surface dans les versants S/SW, en début d'après-midi, sans importance.",
+  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : rares plaques à vent",
+  "stability": " \n\nDéclenchements provoqués :\nQuelques plaques à vent dans la neige récente, formées ces derniers jours par le vent de N. Plaques friables la plupart, dures en secteurs très ventés. Pas uniquement près des crêtes (souvent dures ravagées), mais aussi plus loin en contrebas. Pas très larges ni épaisses, cassure 15/30 cm, localement 40 cm. Taille 1 à 2 (petite à moyenne).\nObservables : alternance érosions/accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance.\n\nDéparts spontanés :\nPeu probables. Rares boules humides ou petites coulées en versants S raides et réchauffés .",
+  "snowQuality": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, 1400/1600 m en S.\n\nQualité de la neige ce vendredi :\nVariable selon l'exposition au vent de N. 5/15 cm de neige récente, encore froide, dense à meuble. Elle repose sur un fond dense voire dur. Neige dure ou glacée près des crêtes. Nombreuses corniches et accumulations/congères récentes.\nFine humidification dans les versants SE/S/SW, sans grande importance.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

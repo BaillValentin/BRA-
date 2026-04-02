@@ -1,32 +1,28 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-04-01T16:00:00",
-  "validUntil": "2026-04-02T18:00:00",
-  "riskMax": 3,
+  "date": "2026-04-02T16:00:00",
+  "validUntil": "2026-04-03T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2500",
-      "level": 2,
+      "altitude": "<1800",
+      "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
         "SW",
         "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2500",
-      "level": 3,
+      "altitude": ">1800",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
         "SW",
         "W",
         "NW"
@@ -37,9 +33,9 @@
     "plaque_vent",
     "sous_couche_fragile"
   ],
-  "summary": "Départs spontanés : peu probables, rares purges de couloirs surchargés\nDéclenchements skieurs : nouvelles plaques à vent dans la neige récente",
-  "stability": " \n\nDéclenchements provoqués :\nQuelques plaques à vent dans la neige récente, elles continuent de se former jeudi sous l'effet du vent de N/NE. Plaques friables la plupart, dures en secteurs très ventés. Pas uniquement près des crêtes (souvent dures ravagées), mais aussi bien en contrebas car le vent a soufflé très fort. Elles sont plus nombreuses au-dessus de 2500 m. Cassure 20/30 cm, parfois 40/60 cm dans les accumulations. Taille 1 à 2 (petite à moyenne).\nObservables : alternance érosions/accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n* Anecdotique mais pas impossible : ces plaques reposent localement sur une couche fragile persistante enfouie. En versants N, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (une première avalanche, ou une chute de corniche, déclenche une plaque épaisse). Taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\nRares départs spontanés dans des couloirs très raides d'altitude, à force de surcharge par le vent. Peu probables. Taille 1 à 2.",
-  "snowQuality": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m environ. Attention, absence de sous-couches sous 1500/1600 m en versants S.\n\nQualité de la neige ce jeudi :\nVariable selon l'exposition au fort vent de N/NE. 20/30 cm de neige récente, froide et meuble, reposant sur un fond dense. Les zones très exposées au vent sont dures ou ravagées (difficile à skier). Secteurs les plus soufflés ces derniers jours : Aiguilles Rouges, Col de Balme. Nombreuses corniches et accumulations/congères. Arêtes en glace en haute-montagne.\nFine humidification en surface dans les versants S/SW en dessous de 2000/2200 m, en début d'après-midi, sans importance.",
+  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : rares plaques à vent dans la neige récente",
+  "stability": " \n\nDéclenchements provoqués :\nQuelques plaques à vent dans la neige récente, formées par le vent fort de N/NE ces derniers jours. Plaques majoritairement dures, plus rarement friables dans les secteurs relativement abrités. Pas uniquement près des crêtes/arêtes (souvent dures ravagées), mais aussi en contrebas. Plaques plus nombreuses dans la tranche d'altitude 2500/3500 m. Cassure 20/40 cm, localement 60 cm. Taille 1 à 2 (petite à moyenne).\nHaute-montagne au-dessus de 3500 m : le vent de NE a soufflé plusieurs jours en tempête, les faces exposées sont ravagées. Plaques isolées, moins nombreuses, dures et épaisses, difficiles à déclencher. \nObservables : alternance érosions/accumulations, fissures devant les skis, changement de qualité de neige sur une courte distance. \n* Anecdotique mais pas impossible : présence locale d'une couche fragile persistante enfouie. En versants NE/N/NW, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (une première avalanche, ou une chute de corniche, déclenche une plaque épaisse). Taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\nPeu probables. Rares boules ou coulées en versants S très raides et réchauffés sous 2500 m.",
+  "snowQuality": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, 1400/1600 m en S.\n\nQualité de la neige ce vendredi :\nVariable selon l'exposition au fort vent de N/NE. 20/30 cm de neige récente, froide et meuble, reposant sur un fond dense. Les zones très exposées au vent sont dures ou ravagées (difficile à skier). Secteurs les plus soufflés ces derniers jours : Aiguilles Rouges, Col de Balme. Nombreuses corniches et accumulations/congères. Arêtes en glace vive en haute-montagne.\nFine humidification en surface dans les versants S/SW en dessous de 2300/2500 m, l'après-midi, sans importance.",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

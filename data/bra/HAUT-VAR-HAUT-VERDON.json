@@ -1,7 +1,7 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-04-01T15:00:00",
-  "validUntil": "2026-04-02T18:00:00",
+  "date": "2026-04-02T16:00:00",
+  "validUntil": "2026-04-03T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -12,8 +12,8 @@
   ],
   "situations": [],
   "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : très rares",
-  "stability": "MANTEAU NEIGEUX BIEN STABILISÉ\n\nDéclenchements provoqués : le manteau neigeux est bien stable. Les instabilités ne concernent éventuellement que de rares pentes de haute altitude, elles sont bien identifiables et restent de petite taille.  \n\nDéparts spontanés : peu probables. Le vent faible et la masse d'air frais en altitude limitent l'activité naturelle.  ",
-  "snowQuality": "Enneigement plutôt excédentaire pour une fin mars.\nHauteurs de neige observées : vers 2000 m, 175 cm dans le vallon de Valdemars, 114 cm à la Sanguinière dans le Haut Var.  \n\nEnneigement skiable : vers 1500 m en terrain favorable en ubacs, 1900/2000 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier bien regelé en adrets, fortement durci par le vent en  altitude. Humidification superficielle au soleil en journée.",
+  "stability": "MANTEAU NEIGEUX BIEN STABILISÉ\n\nDéclenchements provoqués : le manteau neigeux est bien stable. Les instabilités ne concernent éventuellement que de rares pentes de haute altitude, elles sont bien identifiables et restent de petite taille.  \n\nDéparts spontanés : généralement peu probables. Le radoucissement de la masse d'air l'après-midi peut engendrer de rares et petits départs en pentes raides. Départs en boulettes. ",
+  "snowQuality": "Enneigement plutôt excédentaire pour un début avril.\nHauteurs de neige observées : vers 2000 m, 174 cm dans le vallon de Valdemars, 113 cm à la Sanguinière dans le Haut Var.  \n\nEnneigement skiable : vers 1500 m en terrain favorable en ubacs, 1900/2000 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier bien regelé en adrets, fortement durci par le vent en  altitude. Humidification superficielle au soleil en journée.",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

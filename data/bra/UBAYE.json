@@ -1,33 +1,20 @@
 {
   "massif": "UBAYE",
-  "date": "2026-04-01T15:00:00",
-  "validUntil": "2026-04-02T18:00:00",
-  "riskMax": 2,
+  "date": "2026-04-02T16:00:00",
+  "validUntil": "2026-04-03T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2400",
+      "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2400",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "W",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
-  "situations": [],
-  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : rares et peu volumineux dans la neige ventée",
-  "stability": "RARES INSTABILITÉS EN ALTITUDE DANS LA NEIGE VENTÉE, NOTAMMENT PRÈS DE L'ITALIE\n\nDéclenchements provoqués : instabilités limitées à de rares pentes d'altitude. Possibles surtout en versants de nord et ouest au-dessus de 2400 m environ, parfois loin des crêtes, ces instabilités sont un peu plus fréquentes en Haute Ubaye, près de l'Italie. Un seul skieur peut encore les déclencher, à l'origine de départs d'avalanches de petite taille. Elles sont généralement bien identifiables depuis la surface.\n\nDéparts spontanés : peu probables. Le vent faible et la masse d'air frais en altitude limitent l'activité naturelle.  ",
+  "situations": [
+    "plaque_vent"
+  ],
+  "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : plaques résiduelles dans la neige ventée. Très rares. ",
+  "stability": "MANTEAU NEIGEUX BIEN STABILISÉ - INSTABILITÉS RÉSIDUELLES EN ALTITUDE DANS LA NEIGE VENTÉE, NOTAMMENT PRÈS DE L'ITALIE\n\nDéclenchements provoqués : le manteau neigeux devient bien stabilisé. Des instabilités résiduelles peuvent persister dans de rares pentes d'altitude, notamment en versants nord à ouest au-dessus de 2400 m environ. Ces instabilités sont un peu plus fréquentes en Haute-Ubaye. Elles deviennent difficiles à déclencher par un seul skieur et sont facilement identifiables. Elles génèrent des avalanches de petite taille (taille 1), plus rarement de taille moyenne (taille 2). \n\nDéparts spontanés : généralement peu probables. Le radoucissement de la masse d'air l'après-midi peut engendrer de rares et petits départs en pentes raides. Départs en boulettes. ",
   "snowQuality": "Enneigement proche des normales pour un début avril.\nHauteurs de neige observées : 73 cm à la Nivôse de Restefond à 2550 m dans un secteur relativement peu enneigé et hiver, encore 90 cm en fond de vallée vers Maljasset à 2000 m.\n\nEnneigement skiable : vers 1600 m en terrain favorable en ubacs, 2000/2100 m en adrets peu pentus. \n\nÉtat de la neige en surface : manteau neigeux printanier bien regelé en adrets, fortement durci par le vent en  altitude. Humidification superficielle au soleil en journée.",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {

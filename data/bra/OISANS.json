@@ -1,11 +1,25 @@
 {
   "massif": "OISANS",
-  "date": "2026-04-01T17:00:00",
-  "validUntil": "2026-04-02T18:00:00",
+  "date": "2026-04-02T16:00:00",
+  "validUntil": "2026-04-03T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<1800",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">1800",
       "level": 2,
       "orientations": [
         "N",
@@ -24,7 +38,7 @@
   ],
   "summary": "Départs spontanés : Possibles petites plaques dans les pentes chargées par le vent.\nDéclenchements skieurs : Quelques plaques à vent dans les secteurs exposés d'altitude.",
   "stability": "INSTABILITES DANS LA NEIGE VENTEE\n\nDéclenchements provoqués : Quelques nouvelles plaques se forment encore ce jeudi sous le vent de Nord à Nord-Est qui reste fort. Ces instabilités se retrouvent même loin des crêtes/cols et en tous versants mais plutôt au-dessus de 1800/2000m. Les plaques restent localisées mais parfois nombreuses dans les secteurs les plus exposés au vent. Elles sont la plupart du temps peu épaisses, mais peuvent être réactives au passage d'un unique skieur. Quelques coulées de petites tailles possibles sous les skis l'après-midi en versants ensoleillés sous 1800m.\n\nObservables : Encore du transport en cours, accumulations et congères nombreuses, neige sculptée par le vent. \n\nDéparts spontanés : Dans les pentes chargées par le vent (généralement en large Sud) de rares ruptures de plaques de tailles petites à moyennes restent possible en altitude au-dessus de 2000/2200m. L'après-midi, de petites coulées sont possibles sous les rochers qui prennent le soleil à l a faveur de quelques éclaircies.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même très bon dés 1800 / 2000m mais avec des répartitions assez hétérogènes à cause du vent. Peu de sous couche sous 1700m en plein Sud.\n\nLimites skiables : Vers 1000 / 1200m selon le versant, avec prudence en Sud / sous les sapins \n\nQualité de la neige jeudi : Neige souvent travaillée voire cartonnée par le vent. Les crêtes et versants Nord exposés au vent sont souvent pelés, faisant ressortir une vieille neige dure / croûtée. On peut encore retrouver quelques combes en poudreuse, à priori plutôt celles abritées du vent de Nord ( où la neige aura été soufflée, ou parfois croûtée par la pluie). ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même très bon dés 1800 / 2000m mais avec des répartitions assez hétérogènes à cause du vent. Peu de sous couche sous 1700m en plein Sud.\n\nLimites skiables : Vers 1200/1400m selon le versant, avec prudence en Sud / sous les sapins \n\nQualité de la neige jeudi vendredi : Neige souvent travaillée voire cartonnée par le vent. Les crêtes et versants Nord exposés au vent sont souvent pelés, faisant ressortir une vieille neige dure / croûtée. On peut encore retrouver quelques combes en poudreuse, à priori plutôt celles abritées du vent de Nord ( où la neige aura été soufflée, ou parfois croûtée par la pluie). ",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

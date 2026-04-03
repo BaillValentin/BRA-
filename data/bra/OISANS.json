@@ -1,11 +1,11 @@
 {
   "massif": "OISANS",
-  "date": "2026-04-02T16:00:00",
-  "validUntil": "2026-04-03T18:00:00",
+  "date": "2026-04-03T16:00:00",
+  "validUntil": "2026-04-04T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<1800",
+      "altitude": "<2400",
       "level": 1,
       "orientations": [
         "N",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "altitude": ">1800",
+      "altitude": ">2400",
       "level": 2,
       "orientations": [
         "N",
@@ -34,11 +34,13 @@
     }
   ],
   "situations": [
-    "plaque_vent"
+    "plaque_vent",
+    "sous_couche_fragile",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Possibles petites plaques dans les pentes chargées par le vent.\nDéclenchements skieurs : Quelques plaques à vent dans les secteurs exposés d'altitude.",
-  "stability": "INSTABILITES DANS LA NEIGE VENTEE\n\nDéclenchements provoqués : Quelques nouvelles plaques se forment encore ce jeudi sous le vent de Nord à Nord-Est qui reste fort. Ces instabilités se retrouvent même loin des crêtes/cols et en tous versants mais plutôt au-dessus de 1800/2000m. Les plaques restent localisées mais parfois nombreuses dans les secteurs les plus exposés au vent. Elles sont la plupart du temps peu épaisses, mais peuvent être réactives au passage d'un unique skieur. Quelques coulées de petites tailles possibles sous les skis l'après-midi en versants ensoleillés sous 1800m.\n\nObservables : Encore du transport en cours, accumulations et congères nombreuses, neige sculptée par le vent. \n\nDéparts spontanés : Dans les pentes chargées par le vent (généralement en large Sud) de rares ruptures de plaques de tailles petites à moyennes restent possible en altitude au-dessus de 2000/2200m. L'après-midi, de petites coulées sont possibles sous les rochers qui prennent le soleil à l a faveur de quelques éclaircies.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même très bon dés 1800 / 2000m mais avec des répartitions assez hétérogènes à cause du vent. Peu de sous couche sous 1700m en plein Sud.\n\nLimites skiables : Vers 1200/1400m selon le versant, avec prudence en Sud / sous les sapins \n\nQualité de la neige jeudi vendredi : Neige souvent travaillée voire cartonnée par le vent. Les crêtes et versants Nord exposés au vent sont souvent pelés, faisant ressortir une vieille neige dure / croûtée. On peut encore retrouver quelques combes en poudreuse, à priori plutôt celles abritées du vent de Nord ( où la neige aura été soufflée, ou parfois croûtée par la pluie). ",
+  "summary": "Départs spontanés : Suivant la course du soleil, quelques nouvelles coulées puis avalanches en pentes raides/humidifiées (près des rochers), de taille 1 à 2...\nDéclenchements skieurs : Rare plaque de surface en versant Nord à Nord-Ouest d'altitude. En pente bien humide, possible coulée ponctuelle sous les skis...",
+  "stability": "REDOUX AU SOLEIL, DAVANTAGE EN ALTITUDE : QUELQUES COULEES OU AVALANCHES HUMIDES AU FIL DES HEURES... EN FACES NORD, RARES PLAQUES...\n\nUn peu d'activité printanière suivant la course du soleil, et plus en altitude. En faces Nord de rares plaques. Attention aussi aux surfaces durcies/regelées.\nDéparts spontanés :\nRegel nocturne puis samedi le redoux sera net en versants ensoleillés et se produit davantage en altitude. Au fil de la journée et notamment près des rochers on peut s'attendre à quelques nouvelles coulées humides. En longue pente raide possible avalanche plus conséquente. \nUne rupture spontanée de corniche n'est pas exclue, notamment sous 2500/2800m environ ?\nDéclenchements provoqués :\nEn faces Nord d'altitude, la neige récente a été soufflée (bise de Nord-Est). Risque résiduel de plaque de surface, parfois dure, notamment vers le Nord Oisans et le Taillefer où il neigé mardi. \nLe travail du vent est les accumulations seraient assez visibles, prendre des distances... Rupture potentielle 15/30 cm environ\nEn pentes soutenues et bien humidifiées (suivant la course du soleil), le skieur se méfiera d'un risque de coulée humide ponctuelle sous un virage, la neige plus récente pouvant glisser sur les sous-couches denses...\n\nAutres :  A l'ombre neige durcie par regel, anciennes traces parfois lustrées. En pentes où le soleil est plus rasant des secteurs temporairement croutés et ski délicat....",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon dès la moyenne montagne \"froide\", les fonds de vallées et même abondant vers les combes. En revanche la haute altitude raide et certains glaciers sont assez secs...\nLimites skiables : Vers 1300/1500m en Nord, 1600/2100m au soleil suivant l'exposition/ la raideur de la pente...\n\nQualité de la neige samedi :   En Sud neige plus transformée, quasi printanière à modeste altitude... Regel nocturne puis rapide humidification suivant la course du soleil. Humidification plus conséquente par rapport aux jours précédents...\nNeige encore sèche en plein Nord au dessus de 2200m environ. Neige rarement poudreuse dense en couloirs abrités ou bien souvent cartonnée/sculptée, durcie par la bise du début de semaine...",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

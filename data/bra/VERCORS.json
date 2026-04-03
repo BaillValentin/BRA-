@@ -1,44 +1,29 @@
 {
   "massif": "VERCORS",
-  "date": "2026-04-02T16:00:00",
-  "validUntil": "2026-04-03T18:00:00",
+  "date": "2026-04-03T16:00:00",
+  "validUntil": "2026-04-04T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<1800",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
         "NE",
         "E",
         "SE",
         "S",
         "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">1800",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
+        "W"
       ]
     }
   ],
   "situations": [
-    "plaque_vent"
+    "sous_couche_fragile",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Possibles petites plaques dans les pentes chargées par le vent.\nDéclenchements skieurs : Quelques plaques à vent dans les secteurs exposés d'altitude.",
-  "stability": " QUELQUES INSTABILITES DUES AU VENT\n\nDéclenchements provoqués : Quelques nouvelles plaques se forment encore ce jeudi sous le vent de Nord à Nord-Est qui reste fort. Ces instabilités se retrouvent même loin des crêtes/cols et en tous versants mais plutôt au-dessus de 1800/2000m. Les plaques restent localisées et peu nombreuses, la plupart du temps peu épaisses, mais peuvent être réactives au passage d'un unique skieur. Quelques coulées de petites tailles possibles sous les skis l'après-midi en versants ensoleillés sous 1800m.\n\nObservables : Encore du transport en cours, accumulations et congères nombreuses, neige sculptée par le vent. \n\nDéparts spontanés : Dans les pentes chargées par le vent (généralement en large Sud) de rares ruptures de plaques de tailles petites à moyennes restent possible en altitude au-dessus de 2000/2200m. L'après-midi, de petites coulées sont possibles sous les rochers qui prennent le soleil à l a faveur de quelques éclaircies.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon à basse altitude, et même très bon dés 1800 / 2000m mais avec des répartitions assez hétérogènes à cause du vent. Peu de sous couche sous 1700m en plein Sud.\n\nLimites skiables : Vers 1200/1400m selon le versant, avec prudence en Sud / sous les sapins \n\nQualité de la neige vendredi : Neige souvent travaillée voire cartonnée par le vent. Les crêtes et versants Nord exposés au vent sont souvent pelés, faisant ressortir une vieille neige dure / croûtée. On peut encore retrouver quelques combes en poudreuse, à priori plutôt celles abritées du vent de Nord ( où la neige aura été soufflée, ou parfois croûtée par la pluie). ",
+  "summary": "Départs spontanés : Suivant la course du soleil, quelques nouvelles coulées en pentes raides/humidifiées, ou de rares avalanches...\nDéclenchements skieurs : En pente bien humide, possible coulée ponctuelle sous les skis...",
+  "stability": "REDOUX ENSOLEILLE, QUELQUES COULEES OU AVALANCHES HUMIDES AU FIL DES HEURES...\n\nNeige s'humidifiant au soleil, un peu d'activité printanière ...\nDéparts spontanés :\nRegel nocturne puis samedi le redoux sera net en versants ensoleillés. Au fil de la journée on peut s'attendre à quelques nouvelles coulées humides, parfois une avalanche plus conséquente en longue pente raide, vers la barrière orientale. Une rupture de corniche n'est pas exclue\nDéclenchements provoqués :\nEn faces Nord sommitales, le matin, il peut rester un peu de neige sèche soufflée, mais le risque de plaque parait assez minime.\nEn pentes soutenues et bien humidifiées (suivant la course du soleil), le skieur se méfiera d'un risque de coulée humide ponctuelle sous un virage, la neige plus récente glissant sur les sous-couches denses...\n\nAutres :  A l'ombre neige durcie ou croutée par regel, surfaces glissantes ou ski parfois délicat en versant moins ensoleillé (où la neige est moins transformée)...",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon dès assez basse altitude, et même abondant vers les hauts du Vercors... \nLimites skiables : Vers 1200/1300m en Nord, 1500/1700m au soleil...\n\nQualité de la neige samedi : En Nord d'altitude, neige finement croutée ou encore sèche travaillée par le vent.  En Sud neige printanière... Les pentes ensoleillées sont plus denses ou croutées par regel et vont rapidement s'humidifier au fil de la course du soleil. Humidification plus conséquente par rapport aux jours précédents...",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

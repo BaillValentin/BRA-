@@ -1,11 +1,25 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-04-02T16:00:00",
-  "validUntil": "2026-04-03T18:00:00",
+  "date": "2026-04-03T16:00:00",
+  "validUntil": "2026-04-04T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2000",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2000",
       "level": 2,
       "orientations": [
         "N",
@@ -23,9 +37,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques petits départs en neige humide au soleil.\nDéclenchements skieurs : quelques plaques dans la neige ventée, en tous versants.",
-  "stability": "ENCORE QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE ET VENTÉE DES DERNIERS JOURS. REDOUX TIMIDE POUR L'INSTANT.\n\nDéclenchements provoqués : quelques plaques sont encore en place dans la neige ventée. Avec l'affaiblissement du vent, elles perdent en réactivité au fil des jours, mais le déclenchement par un skieur reste possible en tous versants dans les zones d'accumulation. Ces plaques se trouvent aussi bien près des crêtes qu'en milieu ou bas de pentes. Cassures 20 à 40 cm, avalanches peu larges (taille petite à moyenne). A noter que dans certains secteurs très ventés, l'ancienne neige (souvent dure/croutée) ré-apparaît en surface, le risque est alors bien moindre (et le ski moins bon...).\nObservables : test du bâton, fissures sous les skis.\n\nDéparts spontanés : quelques petits départs en neige humide dans les versants ensoleillés, qui subissent un premier coup de chaud superficiel jusqu'à assez haute altitude. Exceptionnellement une avalanche moyenne dans une pente raide.",
-  "snowQuality": "Enneigement : un peu au dessus de la moyenne, le \"petit hiver\" des derniers jours a retardé quelque peu l'inéluctable fonte printanière.\n\nLimite skiable : vers 1200 m en Nord, 1500 m en Sud.\n\nQualité de la neige : manteau hétérogène d'un secteur à l'autre. Dans les zones très sensibles à la bise, la neige récente a été fortement redistribuée, et l'ancienne neige dure voire le sol ressort régulièrement près des croupes, crêtes et cols tandis que la neige s'est accumulée dans les trous. A l'inverse, dans les zones relativement abritées, on trouve une poudreuse dense, répartie plutôt uniformément et agréable à skier. Petite croute dans un large secteur sud et/ou à basse altitude le matin, puis en journée tous les versants ensoleillés subissent une première humidification superficielle jusqu'à haute altitude (bottage).",
+  "summary": "Départs spontanés : nombreux petits départs en neige humide au fil de la journée.\nDéclenchements skieurs : rares plaques en neige ventée dans les versants froids.",
+  "stability": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. RARES INSTABILITÉS EN NEIGE FROIDE EN NORD.\n\nDéparts spontanés : nombreux départs en neige humide dans les versants ensoleillés, au fil de la journée. Généralement des petites avalanches, mais quelques tailles moyennes sont aussi attendues (notamment couloirs et pentes raides qui se \"purgent\"). Attention car à cette période de l'année le soleil commence à être haut et atteint aussi les pentes NE/NO.\n\nDéclenchements provoqués : il subsiste de rares plaques en neige ventée dans les versants Nord au-dessus de 2000/2200 m. Elles sont encore localement réactives, notamment dans les zones d'accumulation en pente raide. Ces plaques sont constituées  d'une neige fortement densifiée voire durcie par le vent en surface, ce qui permet dans la plupart des cas de les identifier. Cassures modestes, 20 à 40 cm donnant des avalanches petites à moyennes.",
+  "snowQuality": "Enneigement : un peu au dessus de la moyenne, mais les prochains jours de chaleur vont bien attaquer le manteau.\n\nLimite skiable : vers 1200 m en Nord, 1500 m en Sud.\n\nQualité de la neige : encore une neige froide dans les versants Nord, dès 2000/2200 m, avec une poudre tassée agréable sauf dans les secteurs ayant subi la bise et alors parfois très hétérogènes (croupes/crêtes pelées).\nDans tous les autres versants, manteau en cours de \"printanisation\" : neige n'ayant pas encore subi suffisamment de cycles gel/dégel pour assurer une portance dans tous les secteurs au matin (sauf en Sud où ça devrait déjà être bon jusqu'à ~2500 m). Puis bottage/collante l'après-midi :-(",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

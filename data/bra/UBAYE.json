@@ -1,21 +1,31 @@
 {
   "massif": "UBAYE",
-  "date": "2026-04-02T16:00:00",
-  "validUntil": "2026-04-03T18:00:00",
-  "riskMax": 1,
+  "date": "2026-04-03T16:00:00",
+  "validUntil": "2026-04-04T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
     }
   ],
   "situations": [
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : plaques résiduelles dans la neige ventée. Très rares. ",
-  "stability": "MANTEAU NEIGEUX BIEN STABILISÉ - INSTABILITÉS RÉSIDUELLES EN ALTITUDE DANS LA NEIGE VENTÉE, NOTAMMENT PRÈS DE L'ITALIE\n\nDéclenchements provoqués : le manteau neigeux devient bien stabilisé. Des instabilités résiduelles peuvent persister dans de rares pentes d'altitude, notamment en versants nord à ouest au-dessus de 2400 m environ. Ces instabilités sont un peu plus fréquentes en Haute-Ubaye. Elles deviennent difficiles à déclencher par un seul skieur et sont facilement identifiables. Elles génèrent des avalanches de petite taille (taille 1), plus rarement de taille moyenne (taille 2). \n\nDéparts spontanés : généralement peu probables. Le radoucissement de la masse d'air l'après-midi peut engendrer de rares et petits départs en pentes raides. Départs en boulettes. ",
-  "snowQuality": "Enneigement proche des normales pour un début avril.\nHauteurs de neige observées : 73 cm à la Nivôse de Restefond à 2550 m dans un secteur relativement peu enneigé et hiver, encore 90 cm en fond de vallée vers Maljasset à 2000 m.\n\nEnneigement skiable : vers 1600 m en terrain favorable en ubacs, 2000/2100 m en adrets peu pentus. \n\nÉtat de la neige en surface : manteau neigeux printanier bien regelé en adrets, fortement durci par le vent en  altitude. Humidification superficielle au soleil en journée.",
+  "summary": "Départs spontanés : quelques départs superficiels de neige humide. \nDéclenchements skieurs : très rares plaques résiduelles dans la neige ventée. ",
+  "stability": "DÉPARTS SUPERFICIELS EN NEIGE HUMIDE\n\nDéparts spontanés : peu probables le matin avec le regel nocturne. Puis des avalanches de neige humide se produisent dans les pentes raides, au fil de l'ensoleillement. Départs superficiels générant principalement des avalanches de petite taille (taille 1), très rarement moyenne (taille 2). \n\nDéclenchements provoqués : - le manteau neigeux est bien stabilisé. Des plaques résiduelles peuvent persister dans de très rares pentes d'altitude, notamment en versants nord-ouest, nord et nord-est au-dessus de 2400 m environ. Elles deviennent difficiles à déclencher par un seul skieur et sont facilement identifiables. Elles génèrent des avalanches de petite taille (taille 1), plus rarement de taille moyenne (taille 2). \n- Par ailleurs, un skieur peut provoquer un départ ponctuel et généralement superficiel en neige humide, en évoluant tardivement dans une pente raide ensoleillée. Avalanches de taille petite. ",
+  "snowQuality": "Enneigement proche des normales pour un début avril.\nHauteurs de neige observées : 72 cm à la Nivôse de Restefond à 2550 m dans un secteur relativement peu enneigé et hiver, encore 88 cm en fond de vallée vers Maljasset à 2000 m.\n\nEnneigement skiable : vers 1600 m en terrain favorable en ubacs, 2000/2100 m en adrets peu pentus. \n\nÉtat de la neige en surface : manteau neigeux printanier bien regelé en adrets, fortement durci par le vent en  altitude. Humidification superficielle au soleil en journée.",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_21.png",

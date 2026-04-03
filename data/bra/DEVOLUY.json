@@ -1,7 +1,7 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-04-02T16:00:00",
-  "validUntil": "2026-04-03T18:00:00",
+  "date": "2026-04-03T16:00:00",
+  "validUntil": "2026-04-04T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,6 +10,11 @@
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     },
@@ -19,6 +24,11 @@
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
@@ -27,9 +37,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares petits départs superficiels en neige humidifiée.\nDéclenchements skieurs : quelques instabilités dans la neige ventée.",
-  "stability": "QUELQUES PLAQUES EN ALTITUDE DANS LA NEIGE VENTÉE \n\nDéclenchements provoqués : des plaques sont encore localement présentes dans quelques pentes d'altitude, formées par transport de neige récente par le vent de nord des jours précédents. Elles se situent au dessus de 2200 m, plutôt en un large secteur nord, généralement loin des crêtes. Elles sont le plus souvent d'aspect durci par le vent, et bien identifiables. Elles sont généralement peu étendues, et peuvent provoquer des avalanches de taille petite à parfois moyenne, mais sont en cours de stabilisation et deviennent plus difficiles à déclencher au passage d'un seul skieur.\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis de rares départs superficiels de neige humide sont ensuite possibles, par départ ponctuel à proximité des rochers en pentes raides ensoleillées.",
-  "snowQuality": "L'enneigement est excédentaire pour un début avril.\n \nLimite d'enneigement skiable : dès 1300 m en ubacs favorables (terrains herbeux, pistes forestières), 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige souvent fortement durcie et travaillée par le vent, encore localement légère dans les secteurs bien abrités en versants nord. En versants sud, manteau neigeux souvent regelé, s'humidifiant superficiellement en journée. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent. ",
+  "summary": "Départs spontanés : quelques départs ponctuels, plus rarement linéaires, en neige humide\nDéclenchements skieurs : plaques résiduelles en neige sèche en altitude",
+  "stability": "QUELQUES INSTABILITÉS RÉSIDUELLES EN ALTITUDE - QUELQUES DÉPARTS EN NEIGE HUMIDE AU SOLEIL \n\nDéclenchements provoqués : plaques à vent localisées dans quelques pentes d'altitude au-dessus de 2200 m environ, plutôt en large secteur nord, généralement loin des crêtes. Elles sont le plus souvent d'aspect durci par le vent, et bien identifiables. Déclenchement encore possible par un skieur, engendrant une avalanche peu étendue de taille petite à parfois moyenne. \nPar ailleurs, un skieur, évoluant tardivement en pentes raides ensoleillées, peut provoquer un départ ponctuel en neige humide sous les skis.\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis possibles départs de neige humide en pentes raides au soleil. Départs ponctuels en poire, plus rarement linéaires. Petite taille, moyenne non exclue.",
+  "snowQuality": "L'enneigement est excédentaire pour un début avril.\n \nLimite d'enneigement skiable : dès 1400 m en ubacs favorables (terrains herbeux, pistes forestières), 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : en adrets, manteau printanier, dur/ regelé, s'humidifiant en journée. En ubacs sous 2000/2200 m neige souvent croutée, plus haut neige durcie, travaillée par le vent, encore localement légère dans des secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent. ",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

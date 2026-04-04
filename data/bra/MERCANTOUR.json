@@ -1,7 +1,7 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-04-03T16:00:00",
-  "validUntil": "2026-04-04T18:00:00",
+  "date": "2026-04-04T16:00:00",
+  "validUntil": "2026-04-05T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -23,9 +23,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : plaques résiduelles dans la neige ventée. Très rares. ",
-  "stability": "DÉPARTS SUPERFICIELS EN NEIGE HUMIDE\n\nDéparts spontanés : peu probables le matin avec le regel nocturne. Puis des avalanches de neige humide se produisent dans les pentes raides, au fil de l'ensoleillement. Départs superficiels générant principalement des avalanches de petite taille (taille 1), très rarement moyenne (taille 2). \n\nDéclenchements provoqués : - le manteau neigeux est bien stabilisé. Des plaques résiduelles peuvent persister dans de très rares pentes d'altitude, notamment en versants nord-ouest, nord et nord-est au-dessus de 2400 m environ. Elles deviennent difficiles à déclencher par un seul skieur et sont facilement identifiables. Elles génèrent des avalanches de petite taille (taille 1), plus rarement de taille moyenne (taille 2). \n- Par ailleurs, un skieur peut provoquer un départ ponctuel et généralement superficiel en neige humide, en évoluant tardivement dans une pente raide ensoleillée. Avalanches de taille petite. ",
-  "snowQuality": "Enneigement plutôt excédentaire pour un début avril.\nHauteurs de neige observées : 148 cm à la nivose de Millefonts à 2430 m, 100 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400/1500 m en terrain favorable en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier bien regelé en adrets, fortement durci par le vent en  altitude. Humidification superficielle au soleil en journée.",
+  "summary": "Départs spontanés : quelques petits départs superficiels au soleil. \nDéclenchements skieurs : petits départs en neige humide, notamment en altitude. ",
+  "stability": "QUELQUES DÉPARTS SUPERFICIELS EN NEIGE HUMIDE\n\nDéparts spontanés : peu probables le matin avec le regel nocturne, puis quelques petits départs superficiels de neige humide se produisent au fil de l'ensoleillement. Avalanches de petite taille (taille 1), rarement moyenne (taille 2)\n\nDéclenchements provoqués :\n- un skieur évoluant tardivement dans une pente humidifiée peut provoquer un petit départ ponctuel de neige humide, voir un départ linéaire proche des crêtes ou dans certains versants ombragés s'humidifiant. Avalanches généralement de petite taille (taille 1), rarement moyenne (taille 2) en cas de départ linéaire. \n- par ailleurs, des plaques résiduelles peuvent persister en neige froide dans de rares pentes nord-ouest, nord et nord-est au-dessus de 2400 m environ. Plaques difficiles à déclencher et facilement identifiables, généralement de petite taille (taille 1).",
+  "snowQuality": "Enneigement plutôt excédentaire pour un début avril.\nHauteurs de neige observées : 147 cm à la nivose de Millefonts à 2430 m, 97 cm à Isola 2000 à 1912 m.\n\nEnneigement skiable : vers 1400/1500 m en terrain favorable en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier avec un regel correct le matin, s'humidifiant au soleil en journée. On trouve localement un peu de neige plus froide et meuble en ubacs bien abrités du vent au-dessus de 2200/2400 m. Neige fortement travaillée par le vent en altitude.",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

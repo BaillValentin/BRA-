@@ -1,11 +1,11 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-04-03T16:00:00",
-  "validUntil": "2026-04-04T18:00:00",
+  "date": "2026-04-04T16:00:00",
+  "validUntil": "2026-04-05T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2000",
+      "altitude": "<2300",
       "level": 1,
       "orientations": [
         "N",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "altitude": ">2000",
+      "altitude": ">2300",
       "level": 2,
       "orientations": [
         "N",
@@ -37,9 +37,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : nombreux petits départs en neige humide au fil de la journée.\nDéclenchements skieurs : rares plaques en neige ventée dans les versants froids.",
-  "stability": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. RARES INSTABILITÉS EN NEIGE FROIDE EN NORD.\n\nDéparts spontanés : nombreux départs en neige humide dans les versants ensoleillés, au fil de la journée. Généralement des petites avalanches, mais quelques tailles moyennes sont aussi attendues (notamment couloirs et pentes raides qui se \"purgent\"). Attention car à cette période de l'année le soleil commence à être haut et atteint aussi les pentes NE/NO.\n\nDéclenchements provoqués : il subsiste de rares plaques en neige ventée dans les versants Nord au-dessus de 2000/2200 m. Elles sont encore localement réactives, notamment dans les zones d'accumulation en pente raide. Ces plaques sont constituées  d'une neige fortement densifiée voire durcie par le vent en surface, ce qui permet dans la plupart des cas de les identifier. Cassures modestes, 15 à 30 cm donnant des avalanches petites à moyennes.",
-  "snowQuality": "Enneigement : un peu au dessus de la moyenne, mais les prochains jours de chaleur vont bien attaquer le manteau.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : encore une neige froide dans les versants Nord, dès 2000/2200 m, avec une poudre tassée agréable sauf dans les secteurs ayant subi la bise et alors parfois très hétérogènes (croupes/crêtes pelées).\nDans tous les autres versants, manteau en cours de \"printanisation\" : neige n'ayant pas encore subi suffisamment de cycles gel/dégel pour assurer une portance dans tous les secteurs au matin (sauf en Sud où ça devrait déjà être bon jusqu'à ~2500 m). Puis bottage/collante l'après-midi :-(",
+  "summary": "Départs spontanés : quelques petits départs en neige humide au fil de la journée.\nDéclenchements skieurs : rares plaques en neige ventée dans les versants froids.",
+  "stability": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. RARES INSTABILITÉS EN NEIGE FROIDE EN NORD.\n\nDéparts spontanés : départs en neige humide dans les versants ensoleillés, au fil de la journée. Généralement des petites avalanches, mais quelques tailles moyennes sont aussi attendues (notamment couloirs et pentes raides qui se \"purgent\"). Attention car à cette période de l'année le soleil commence à être haut et l'activité avalancheuse atteint aussi les pentes NE/NO.\n\nDéclenchements provoqués : il subsiste de rares plaques en neige ventée dans les versants Nord au-dessus de 2300/2500 m. Elles sont encore localement réactives, notamment dans les zones d'accumulation en pente raide. Ces plaques sont constituées  d'une neige fortement densifiée voire durcie par le vent en surface, ce qui permet dans la plupart des cas de les identifier. Cassures modestes, 15 à 30 cm donnant des avalanches petites à moyennes.",
+  "snowQuality": "Enneigement : un peu au dessus de la moyenne, mais les prochains jours de chaleur vont bien attaquer le manteau.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : encore une neige froide dans les versants Nord, au-dessus de 2200/2300 m, avec une poudre tassée agréable sauf dans les secteurs ayant subi la bise et alors parfois très hétérogènes (croupes/crêtes pelées).\nLes versants ensoleillés sont bien regelés au réveil. Après décaillage, la neige de printemps est bonne à skier en Sud et même en Est et Ouest à des altitudes \"modestes\" (sous 2500 m ?). Plus haut, elle peut avoir manqué de cycle gel/degel et être légèrement moins bonne sous les skis. ",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

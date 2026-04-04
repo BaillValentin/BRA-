@@ -1,7 +1,7 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-04-03T16:00:00",
-  "validUntil": "2026-04-04T18:00:00",
+  "date": "2026-04-04T16:00:00",
+  "validUntil": "2026-04-05T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,11 +20,12 @@
     }
   ],
   "situations": [
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : très rares",
-  "stability": "DÉPARTS SUPERFICIELS EN NEIGE HUMIDE\n\nDéparts spontanés : peu probables le matin avec le regel nocturne. Puis des avalanches de neige humide se produisent dans les pentes raides, au fil de l'ensoleillement. Départs superficiels générant principalement des avalanches de petite taille (taille 1), très rarement moyenne (taille 2). \n\nDéclenchements provoqués : le manteau neigeux est bien stable. Les instabilités ne concernent éventuellement que de rares pentes de haute altitude, elles sont bien identifiables et restent de petite taille.",
-  "snowQuality": "Enneigement plutôt excédentaire pour un début avril.\nHauteurs de neige observées : vers 2000 m, 171 cm dans le vallon de Valdemars, 110 cm à la Sanguinière dans le Haut Var.  \n\nEnneigement skiable : vers 1500 m en terrain favorable en ubacs, 1900/2000 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier bien regelé en adrets, fortement durci par le vent en  altitude. Humidification superficielle au soleil en journée.",
+  "summary": "Départs spontanés : quelques petits départs superficiels au soleil. \nDéclenchements skieurs : petits départs en neige humide, notamment en altitude. ",
+  "stability": "QUELQUES DÉPARTS SUPERFICIELS EN NEIGE HUMIDE\n\nDéparts spontanés : peu probables le matin avec le regel nocturne, puis quelques petits départs superficiels de neige humide se produisent au fil de l'ensoleillement. Avalanches de petite taille (taille 1), rarement moyenne (taille 2). \n\nDéclenchements provoqués : \n- un skieur évoluant tardivement dans une pente humidifiée peut provoquer un petit départ ponctuel de neige humide, voir un départ linéaire proche des crêtes ou dans certains versants ombragés s'humidifiant. Avalanches généralement de petite taille (taille 1), rarement moyenne (taille 2) en cas de départ linéaire. \n- par ailleurs, des plaques résiduelles peuvent persister en neige froide dans de rares pentes nord-ouest, nord et nord-est au-dessus de 2400 m environ. Plaques difficiles à déclencher et facilement identifiables, généralement de petite taille (taille 1).",
+  "snowQuality": "Enneigement plutôt excédentaire pour un début avril.\nHauteurs de neige observées : vers 2000 m, 171 cm dans le vallon de Valdemars, 108 cm à la Sanguinière dans le Haut Var.  \n\nEnneigement skiable : vers 1500/1600 m en terrain favorable en ubacs, 1800/1900 m en adrets peu pentus.\n\nÉtat de la neige en surface : manteau neigeux printanier avec un regel correct le matin, s'humidifiant au soleil en journée. On trouve localement un peu de neige plus froide et meuble en ubacs bien abrités du vent au-dessus de 2200/2400 m. Neige fortement travaillée par le vent en altitude.",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

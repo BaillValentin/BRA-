@@ -1,37 +1,30 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-04-03T16:00:00",
-  "validUntil": "2026-04-04T18:00:00",
+  "date": "2026-04-04T16:00:00",
+  "validUntil": "2026-04-05T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2200",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2200",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
     "plaque_vent",
-    "sous_couche_fragile",
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Coulées humides au soleil.\nDéclenchements skieurs : Plaques à vent encore un peu réactives en altitude.",
-  "stability": "Retour du printemps en montagne.\n\nDéclenchements provoqués :\n* Des plaques à vent sont encore présentes dans la neige récente et froide en altitude. Elles se sont formées sous la Bise des derniers jours. Ces plaques sont présentes principalement  près des arêtes/crêtes, mais dans les secteurs les plus exposés, on peut en retrouver plus bas. Au-dessus de 2500m, elles sont un peu plus nombreuses. Cassure de 20/40 cm, localement un peu plus. Taille 1 à 2 (petites à moyennes).\n* Au fil de l'humidification, ces plaques sont temporairement plus réactives, mais ne sont pas plus épaisses ni larges.\n* Anecdotique mais pas impossible : présence locale d'une couche fragile persistante enfouie. En versants NE/N/NW, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (une première avalanche, ou une chute de corniche). Taille 2 à 3 (moyenne à grande).\n\nDéparts spontanés :\n* Coulées de neige humide sous 2500m en journée sous le soleil au fil de l'humidification. Les orientations concernées évoluent au fil de l'ensoleillement. Les pentes raides réagissent un peu plus rapidement.\n* A toute heure du jour et de la nuit, des fissures de reptations peuvent s'ouvrir et des avalanches de fond sont possibles sur les terrains lisses (pentes herbeuses, dalles rocheuses, ...). Taille 1 à 2.",
-  "snowQuality": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, et 1400/1600 m en versants S.\n\nQualité de la neige ce samedi :\n* 20/30 cm de neige froide récente et meuble, reposant sur un fond dur.\n* Selon l'exposition au vent de N/NE de la semaine passée, on retrouve parfois des accumulations de neige plus importantes, ou au contraire, des zones dures voire ravagées par le vent. Les crêtes et sommets sont les plus ravagées par le vent.\n* Nombreuses corniches et accumulations/congères.\n* En cours de journée, la neige s'humidifie dans un large sud (SE/S/SW/S) sous 3000 m.",
+  "summary": "Départs spontanés : Coulées humides au soleil, avalanches de fond\nDéclenchements skieurs : Coulées de neige sous les skis, de rares plaques à vent dans les secteurs froids.",
+  "stability": "Neige humide dans les versants ensoleillés et de rares instabilités (rares plaques à vent) en secteurs froids\n\nDéparts spontanés :\n* Coulées de neige humide en journée sous le soleil au fil de l'humidification. Les orientations concernées évoluent au fil de l'ensoleillement. Les pentes raides réagissent un peu plus rapidement. Taille 1 à 2.(petite à moyenne).\n* À toute heure du jour et de la nuit, des fissures de reptations peuvent s'ouvrir et des avalanches de fond sont possibles sur les terrains lisses (pentes herbeuses, dalles rocheuses, ...). Taille 1 à 2.\n\nDéclenchements provoqués :\n* Coulées de neige humide sous les skis. Taille 1, 2. \n* Au fil de l'humidification, ces plaques sont temporairement plus réactives, mais ne sont pas plus épaisses ni larges. Taille 1 voir 2. (petit à moyenne).\n* Rares plaques à vent encore présentes dans la neige récente et froide en altitude, elles sont peu réactives. Elles se sont formées sous la Bise des derniers jours. Ces plaques sont présentes principalement près des arêtes/crêtes, mais dans les secteurs les plus exposés, on peut en retrouver plus bas. Cassure de 20/40 cm, localement un peu plus. Taille 1 à 2 (petites à moyennes).\n\nAutre :\n* Le redoux peut occasionner des chutes de corniches. ",
+  "snowQuality": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, et 1400/1600 m en versants S.\n\nQualité de la neige ce dimanche:\n* Regel plutôt bon en matinée. En cours de journée, la neige s'humidifie dans un large sud/ouest. \n* En nord, légère humidification en surface puis neige froide/ventée au-dessus de 2300 m environ. Encore des accumulations de neige plus importantes, ou au contraire, des zones dures voire ravagées par le vent. Les crêtes et sommets sont les plus ravagées par le vent.\n* Nombreuses corniches et accumulations/congères.",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

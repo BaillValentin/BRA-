@@ -1,32 +1,16 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-04-03T16:00:00",
-  "validUntil": "2026-04-04T18:00:00",
+  "date": "2026-04-04T16:00:00",
+  "validUntil": "2026-04-05T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2200",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
         "NE",
         "E",
         "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2200",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
         "SW",
         "W",
         "NW"
@@ -38,9 +22,9 @@
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Suivant la course du soleil, quelques nouvelles coulées puis avalanches en pentes raides/humidifiées (près des rochers), de taille 1 à 2...\nDéclenchements skieurs : Rare plaque de surface en versant Nord à Nord-Ouest d'altitude. En pente bien humide, possible coulée ponctuelle sous les skis...",
-  "stability": "REDOUX AU SOLEIL, QUELQUES COULEES OU AVALANCHES HUMIDES AU FIL DES HEURES... EN NORD D'ALTITUDE, RARES PLAQUES...\n\nUn peu d'activité printanière suivant la course du soleil, et plus en altitude. En faces Nord de rares plaques. Attention aux surfaces durcies/regelées.\nDéparts spontanés :\nRegel nocturne puis samedi le redoux sera net en versants ensoleillés et se produit davantage en altitude. Au fil de la journée et notamment près des rochers on peut s'attendre à quelques nouvelles coulées humides. En longue pente raide possible avalanche plus conséquente. \nUne rupture spontanée de corniche n'est pas exclue, notamment sous 2500m environ...\nDéclenchements provoqués :\nEn faces Nord d'altitude, la neige récente a été soufflée (bise de Nord-Est). Risque résiduel de plaque de surface, parfois dure. Le travail du vent est les accumulations seraient assez visibles, prendre des distances... Rupture potentielle 20/40 cm environ\nEn pentes soutenues et bien humidifiées (suivant la course du soleil), le skieur se méfiera d'un risque de coulée humide ponctuelle sous un virage, la neige plus récente pouvant glisser sur les sous-couches denses...\n\nAutres :  A l'ombre neige durcie par le regel, anciennes traces parfois lustrées. En pentes où le soleil est plus rasant des secteurs temporairement croutés et ski délicat....",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bon dès la moyenne montagne, et même abondant vers les combes d'altitude\nLimites skiables : Vers 1100/1300m en plein Nord (hors sapins), 1500/1800m au soleil...\n\nQualité de la neige samedi :   En Sud neige plus transformée, quasi printanière à modeste altitude... Regel nocturne puis rapide humidification suivant la course du soleil. Humidification plus conséquente par rapport aux jours précédents...\nNeige encore sèche en plein Nord au dessus de 2200m environ. Neige poudreuse dense (15/30 cm) ou bien cartonnée/durcie par la bise du début de semaine...",
+  "summary": "Départs spontanés : Suivant la course du soleil, quelques nouvelles coulées/boules, parfois une avalanche en pentes raides/humidifiées (près des rochers), de taille 1 à 2. Dans un rare cas possible avalanche de fond, au terrain (taille 2 à 3) ?\nDéclenchements skieurs : Rare plaque de surface en versant Nord-Ouest d'altitude. En pente bien humide, possible coulée ponctuelle sous les skis...",
+  "stability": "REDOUX RAPIDE AU SOLEIL, QUELQUES NOUVELLES COULEES POSSIBLES, PARFOIS UNE AVALANCHE...\n\nUn peu d'activité printanière suivant la course du soleil, et plus en altitude. En faces Nord de rares plaques. Attention aux surfaces durcies/regelées.\nDéparts spontanés :\nRegel nocturne puis samedi le redoux sera net en versants ensoleillés et se produit davantage en altitude. Au fil de la journée et notamment près des rochers on peut s'attendre à quelques nouvelles coulées humides. En longue pente raide possible avalanche plus conséquente. \nUne rupture spontanée de corniche n'est pas exclue, notamment sous 2500m environ...\nDéclenchements provoqués :\nEn faces Nord d'altitude, la neige récente a été soufflée (bise de Nord-Est). Risque très résiduel de plaque de surface, parfois dure. Le travail du vent est les accumulations seraient assez visibles, prendre des distances... \nEn pentes soutenues et bien humidifiées (suivant la course du soleil), le skieur se méfiera d'un risque de coulée humide ponctuelle sous un virage, la neige plus récente pouvant glisser sur les sous-couches denses...\n\nAutres :  A l'ombre neige durcie par le regel, anciennes traces parfois lustrées. En pentes où le soleil est plus rasant des secteurs temporairement croutés et ski délicat....",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est très bon dès la moyenne montagne peu ensoleillée, et dans les combes d'altitude (ce qui est plus classique)... Fonte en bas du massif et en plein Sud...\nLimites skiables : Vers 1100/1300m en plein Nord (hors sapins), 1500/1800m au soleil...\n\nQualité de la neige dimanche :   En large Sud et sous 1800m, neige de plus en plus  transformée, printanière... Regel nocturne modéré puis rapide humidification suivant la course du soleil. Humidification plus conséquente par rapport aux jours précédents...\nNeige encore sèche en plein Nord au dessus de 2200m environ. Neige poudreuse dense (15/30 cm) ou bien cartonnée/durcie par la bise du début de semaine...",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

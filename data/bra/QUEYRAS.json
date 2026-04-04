@@ -1,11 +1,11 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-04-03T16:00:00",
-  "validUntil": "2026-04-04T18:00:00",
+  "date": "2026-04-04T16:00:00",
+  "validUntil": "2026-04-05T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2200",
+      "altitude": "<2300",
       "level": 1,
       "orientations": [
         "N",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "altitude": ">2200",
+      "altitude": ">2300",
       "level": 2,
       "orientations": [
         "N",
@@ -37,9 +37,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques départs ponctuels, plus rarement linéaires, en neige humide\nDéclenchements skieurs : plaques résiduelles en neige sèche en altitude, surtout vers le Haut Guil",
-  "stability": "QUELQUES INSTABILITÉS RÉSIDUELLES EN ALTITUDE - QUELQUES DÉPARTS EN NEIGE HUMIDE AU SOLEIL \n\nDéclenchements provoqués : plaques à vent, surtout sur le Haut Guil, localisées dans quelques pentes d'altitude au-dessus de 2200 m environ, plutôt en large secteurs nord à ouest, généralement loin des crêtes. Elles sont le plus souvent d'aspect durci par le vent, et bien identifiables. Déclenchement encore possible par un skieur, engendrant une avalanche peu étendue de taille petite à parfois moyenne. \nPar ailleurs, un skieur, évoluant tardivement en pentes raides ensoleillées, peut provoquer un départ ponctuel en neige humide sous les skis.\n\nDéparts spontanés : peu probables en début de journée après un bon regel nocturne, puis possibles départs de neige humide en pentes raides au soleil. Départs ponctuels en poire, plus rarement linéaires. Petite taille, moyenne non exclue.",
-  "snowQuality": "L'enneigement est proche des normales pour un début avril.\nHauteurs de neige observées : 155 cm en versant nord du col Izoard à 2300 m, 142 cm au-dessus de St Véran à 2700 m, 92 cm à la Nivôse du Col Agnel à 2630 m \n\nLimite d'enneigement skiable : au plus bas à 1500/1600 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2200 m en adrets.\n\nÉtat de la neige de surface : en adrets, manteau printanier, dur/ regelé, s'humidifiant en journée. En ubacs sous 2000/2200 m neige souvent croutée, plus haut neige durcie, travaillée par le vent, encore localement légère dans des secteurs bien abrités. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent. ",
+  "summary": "Départs spontanés : en neige humide au fil de l'ensoleillement - départs ponctuels, plus rarement linéaires.\nDéclenchements skieurs : rares plaques en altitude ou neige humide sous les skis.",
+  "stability": "ACTIVITÉ EN NEIGE HUMIDE AU FIL DE L'ENSOLEILLEMENT - RARES PLAQUES ENCORE EN PLACE EN ALTITUDE\n\nDéparts spontanés : activité en neige humide en hausse au fil de la journée selon la course du soleil, en particulier dans les pentes raides près des rochers. Départs généralement ponctuels en poire, mais parfois linéaires, engendrant des avalanches petites à moyennes (taille 1 à 2).\n\nDéclenchements provoqués : * au-dessus de 2300/2400 m environ, de rares plaques sont encore en place dans les accumulations de neige transportée par les derniers épisodes de vent fort. Ces plaques sont souvent d'aspect durci et peuvent encore céder au passage d'un seul skieur. \nÀ noter que l'humidification des couches superficielles en cours de journée peut parfois faciliter leur déclenchement (structure de plaque en neige froide enfouie sous la neige humide de surface). Avalanches petites à moyennes en général (taille 1 à 2).\n* Un skieur évoluant trop tardivement dans une pente raide ayant trop chauffé peut provoquer un départ de neige humide sous ses skis.",
+  "snowQuality": "L'enneigement est proche des normales pour un début avril.\nHauteurs de neige observées : 155 cm en versant nord du col Izoard à 2300 m, 142 cm au-dessus de St Véran à 2700 m, 92 cm à la Nivôse du Col Agnel à 2630 m \n\nLimite d'enneigement skiable : au plus bas à 1500/1600 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2200 m en adrets.\n\nÉtat de la neige de surface : en ubacs sous 2200 m et en adrets à toute altitude, manteau neigeux printanier, durci par le regel en début de journée, puis s'humidifiant au soleil. Dans les ubacs suffisamment raides au-dessus de 2200/2300 m environ, neige encore froide, durcie ou travaillée par le vent dans les secteurs exposés, mais encore assez légère dans les combes ou pentes abritées. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

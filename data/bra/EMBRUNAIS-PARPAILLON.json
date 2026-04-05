@@ -1,26 +1,12 @@
 {
   "massif": "EMBRUNAIS-PARPAILLON",
-  "date": "2026-04-04T16:00:00",
-  "validUntil": "2026-04-05T18:00:00",
+  "date": "2026-04-05T16:00:00",
+  "validUntil": "2026-04-06T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2300",
+      "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2300",
-      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -37,9 +23,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide au fil de l'ensoleillement - départs ponctuels, plus rarement linéaires.\nDéclenchements skieurs : rares plaques en altitude ou neige humide sous les skis.",
-  "stability": "ACTIVITÉ EN NEIGE HUMIDE AU FIL DE L'ENSOLEILLEMENT - RARES PLAQUES ENCORE EN PLACE EN ALTITUDE\n\nDéparts spontanés : activité en neige humide en hausse au fil de la journée selon la course du soleil, en particulier dans les pentes raides près des rochers. Départs généralement ponctuels en poire, mais parfois linéaires, engendrant des avalanches petites à moyennes (taille 1 à 2).\n\nDéclenchements provoqués : * au-dessus de 2300/2400 m environ, de rares plaques sont encore en place dans les accumulations de neige transportée par les derniers épisodes de vent fort. Ces plaques sont souvent d'aspect durci et peuvent encore céder au passage d'un seul skieur. \nÀ noter que l'humidification des couches superficielles en cours de journée peut parfois faciliter leur déclenchement (structure de plaque en neige froide enfouie sous la neige humide de surface). Avalanches petites à moyennes en général (taille 1 à 2).\n* Un skieur évoluant trop tardivement dans une pente raide ayant trop chauffé peut provoquer un départ de neige humide sous ses skis.",
-  "snowQuality": "L'enneigement est proche des normales pour un début avril.\nHauteurs de neige observées : 102 cm à la nivôse du Parpaillon à 2500 m.\n\nLimite d'enneigement skiable : au plus bas à 1500/1600 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : en ubacs sous 2200 m et en adrets à toute altitude, manteau neigeux printanier, durci par le regel en début de journée, puis s'humidifiant au soleil. Dans les ubacs suffisamment raides au-dessus de 2200/2300 m environ, neige encore froide, durcie ou travaillée par le vent dans les secteurs exposés, mais encore assez légère dans les combes ou pentes abritées. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
+  "summary": "Départs spontanés : en neige humide au fil de l'ensoleillement - départs ponctuels, plus rarement linéaires.\nDéclenchements skieurs : très rares plaques en altitude ou neige humide sous les skis.",
+  "stability": "ACTIVITÉ PRINTANIÈRE EN NEIGE HUMIDE AU SOLEIL - AVALANCHES LOCALEMENT DE GRANDE TAILLE\n\nDéparts spontanés : activité en neige humide en hausse au fil de la journée en suivant la course du soleil, en particulier dans les pentes raides près des rochers. Départs ponctuels en poire, mais parfois linéaires, engendrant fréquemment des avalanches petites à moyennes (taille 1 à 2). Ponctuellement, un départ linéaire de grande taille est possible (taille 3), notamment dans les orientations est et ouest, où l'humidification pourrait atteindre pour la première fois les couches fragiles enfouies à la base du manteau neigeux.\n\nDéclenchements provoqués : * de très rares plaques résiduelles persistent près des plus hauts sommets du massif, dans les accumulations de neige transportée par les derniers épisodes de vent fort. À noter que leur déclenchement peut être facilité par l'humidification des couches superficielles en cours de journée (structure de plaque en neige froide enfouie sous la neige humide de surface). Avalanches petites à moyennes (taille 1 à 2). \n* Un skieur évoluant tardivement dans une pente raide ayant trop chauffé peut provoquer un départ de neige humide sous ses skis.",
+  "snowQuality": "L'enneigement est proche des normales pour un début avril.\nHauteurs de neige observées : 101 cm à la Nivôse du Parpaillon à 2500 m.\n\nLimite d'enneigement skiable : au plus bas à 1500/1600 m en ubacs bien protégés ou sur pistes forestières, plutôt 2000/2100 m en adrets.\n\nÉtat de la neige de surface : excepté dans les ubacs de haute altitude (> 2500/2700 m), neige en cycle printanier partout ailleurs : petite croûte plus ou moins portante en début de journée, puis rapide humidification au soleil. Dans les ubacs raides de haute altitude, neige encore froide, durcie ou travaillée par le vent dans les secteurs exposés, mais encore assez légère dans les combes ou pentes abritées. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
   "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_20.png",

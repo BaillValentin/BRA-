@@ -1,25 +1,11 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-04-04T16:00:00",
-  "validUntil": "2026-04-05T18:00:00",
+  "date": "2026-04-05T16:00:00",
+  "validUntil": "2026-04-06T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2500",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2500",
+      "altitude": "Toutes altitudes",
       "level": 2,
       "orientations": [
         "N",
@@ -39,9 +25,9 @@
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Coulées humides au soleil, avalanches de fond\nDéclenchements skieurs : Coulées de neige sous les skis, de rares plaques à vent dans les secteurs froids.",
-  "stability": "Grande douceur, coulées de neige humide et de rares plaques à vent encore présentes en altitude.\n\nDéparts spontanés :\n* Coulées de neige humide en journée sous le soleil au fil de l'humidification. Les orientations concernées évoluent au fil de l'ensoleillement. Les pentes raides réagissent un peu plus rapidement. Elles peuvent être plus épaisses côté Aiguilles Rouges. Taille 1 à 2 (petite à moyenne). \n* À toute heure du jour et de la nuit, des fissures de reptations peuvent s'ouvrir et des avalanches de fond sont possibles sur les terrains lisses (pentes herbeuses, dalles rocheuses, ...). Taille 1 à 2.\n\nDéclenchements provoqués :\n* Coulées de neige humide sous les skis. Taille 1, 2. \n* Au-dessus de 2500 m : rares à quelques plaques à vent encore présentes dans la neige froide en altitude. Elles se sont formées sous la Bise des derniers jours. Ces plaques sont présentes principalement près des arêtes/crêtes, mais dans les secteurs les plus exposés, on peut en retrouver plus bas. Cassure de 20/40 cm, localement un peu plus. Taille 1 à 2 (petites à moyennes).\n* En haute-montagne, le vent de NE a été tempétueux et ainsi la neige est plus dure et les plaques moins nombreuses (mais plus épaisses et plus difficiles à déclencher).\n* Anecdotique mais pas impossible : présence locale d'une couche fragile persistante enfouie. En versants NE/N/NW, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (une première avalanche, ou une chute de corniche). Taille 2 à 3 (moyenne à grande).\n\nAutre :\n* Le redoux peut occasionner des chutes de corniches. ",
-  "snowQuality": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, et 1400/1600 m en versants S.\n\nQualité de la neige ce dimanche :\n* Selon l'exposition au vent de N/NE de la semaine passée, on retrouve parfois des accumulations de neige plus importantes, ou au contraire, des zones dures voire ravagées par le vent. Les crêtes et sommets sont les plus ravagées par le vent.\n* Nombreuses corniches et accumulations/congères.\n* Arêtes en glace vive en haute-montagne.\n* En cours de journée, la neige s'humidifie dans un large sud (SE/S/SW/S) sous 3000 m.",
+  "summary": "Départs spontanés : Coulées humides au soleil, avalanches de fond.\nDéclenchements skieurs : Coulées de neige sous les skis, rares plaques dures en haute montagne.",
+  "stability": "Activité humide en hausse, dès le matin \n\nDéparts spontanés :\n* Quelques coulées de neige humide, tous versants ensoleillés. Dès les premiers rayons du soleil en versant est suite au mauvais regel de la nuit, les coulées suivent l'ensoleillement, même dans les versants NE/NO. Généralement de taille 1 à 2 (petite à moyenne). Elles sont toutes altitudes et peuvent être plus épaisses en versant ouest, est et sud d'altitude, notamment côté Aiguilles Rouges. Facteur aggravant : la présence d'une couche fragile persistante localement peut engendrer un départ en plaque, d'apparence humide en surface. Rarement une taille 3 (grande). \n* À toute heure du jour et de la nuit, des fissures de reptations peuvent s'ouvrir et des avalanches de fond sont possibles sur les terrains lisses (pentes herbeuses, dalles rocheuses, etc). Taille 1 à 2.\n\nDéclenchements provoqués :\n* Coulées de neige humide sous les skis. Taille 1, 2. \n* En haute-montagne, au-dessus de 3000 m, le vent de NE a été tempétueux, la neige est plus dure et les rares plaques restantes sont difficiles à déclencher. Taille 2.\n* Anecdotique mais pas impossible : présence locale d'une couche fragile persistante enfouie. En versants NE/N/NW, au-dessus de 2200 m. Déclenchement par skieur très peu probable, mais départ possible en cascade (une première avalanche, ou une chute de corniche). Taille 2 à 3 (moyenne à grande).\n\nAutre :\n* Le redoux peut occasionner des chutes de corniches ou séracs. ",
+  "snowQuality": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1200/1300 m en versants N, et 1400/1600 m en versants S.\n\nQualité de la neige ce lundi :\n* Regel médiocre, les pentes chauffent rapidement dans les versants ensoleillés. \n* En nord, humidification en surface sous 2500 m voir plus haut sous les quelques nuages. Encore des accumulations de neige importantes, ou au contraire, des zones dures voire ravagées par le vent. Les crêtes et sommets sont les plus ravagées par le vent.\n* Nombreuses corniches et accumulations/congères.",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

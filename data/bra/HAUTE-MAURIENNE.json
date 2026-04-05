@@ -1,25 +1,11 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-04-04T16:00:00",
-  "validUntil": "2026-04-05T18:00:00",
+  "date": "2026-04-05T17:00:00",
+  "validUntil": "2026-04-06T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2300",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2300",
+      "altitude": "Toutes altitudes",
       "level": 2,
       "orientations": [
         "N",
@@ -37,9 +23,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques petits départs en neige humide au fil de la journée.\nDéclenchements skieurs : quelques plaques en neige ventée dans les versants froids.",
-  "stability": "GRANDE DOUCEUR : ÉVOLUTION RAPIDE VERS UN MANTEAU PRINTANIER. \nPERSISTANCE DE QUELQUES INSTABILITÉS EN NEIGE FROIDE EN NORD.\n\nDéparts spontanés : départs en neige humide dans les versants ensoleillés, au fil de la journée. Généralement des petites avalanches, mais quelques tailles moyennes sont aussi attendues (notamment couloirs et pentes raides qui se \"purgent\"). Attention car à cette période de l'année le soleil commence à être haut et l'activité avalancheuse atteint aussi les pentes NE/NO.\n\nDéclenchements provoqués : il subsiste de quelques plaques en neige ventée dans les versants Nord au-dessus de 2300/2500 m. Elles sont encore localement réactives, notamment dans les zones d'accumulation en pente raide. Ces plaques sont constituées  d'une neige fortement densifiée voire durcie par le vent en surface, ce qui permet dans la plupart des cas de les identifier. Cassures en générale de 20 à 50 cm donnant des avalanches petites à moyennes. A noter que dans les secteurs très ventés, lorsque l'ancienne neige (souvent dure/croutée) ré-apparaît en surface, le risque est bien moindre (et le ski moins bon...).\nObservables : test du bâton, fissures sous les skis.",
-  "snowQuality": "Enneigement : un peu au dessus de la moyenne, mais les prochains jours de chaleur vont bien attaquer le manteau.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : encore une neige froide dans les versants Nord, au-dessus de 2200/2300 m, avec une poudre tassée agréable sauf dans les secteurs ayant subi la bise et alors parfois très hétérogènes (croupes/crêtes pelées).\nLes versants ensoleillés sont bien regelés au réveil. Après d'écaillage, la neige de printemps est bonne à skier en Sud et même en Est et Ouest à des altitudes \"modestes\" (sous 2500 m ?). Plus haut, elle peut avoir manqué de cycle gel/degel et être légèrement moins bonne sous les skis. ",
+  "summary": "Départs spontanés : quelques départs en neige humide au fil de la journée.\nDéclenchements skieurs : quelques plaques en neige ventée dans les versants froids.",
+  "stability": "GRANDE DOUCEUR : PROBLEMATIQUE D'ACTIVITEE NATURELLE EN NEIGE HUMIDE. \n\nDéparts spontanés : regel médiocre. Départs en neige humide dans les versants ensoleillés au fil de la journée. Généralement des petites avalanches, mais quelques tailles moyennes/grandes sont aussi attendues avec cassures linéaires possibles, notamment en large versant Est et Ouest. Attention car à cette période de l'année le soleil commence à être haut et l'activité avalancheuse atteint aussi les pentes NE/NO et peut donc concerner des couloirs Nord.\n\nDéclenchements provoqués : il subsiste quelques plaques en neige ventée dans les versants Nord au-dessus de 2300/2500 m. Elles sont encore localement réactives, notamment dans les zones d'accumulation en pente raide. Ces plaques sont constituées  d'une neige fortement densifiée voire durcie par le vent en surface, ce qui permet dans la plupart des cas de les identifier. Cassures en générale de 20 à 50 cm donnant des avalanches petites à moyennes. A noter que dans les secteurs très ventés, lorsque l'ancienne neige (souvent dure/croutée) ré-apparaît en surface, le risque est bien moindre (et le ski moins bon...).\nObservables : test du bâton, fissures sous les skis.",
+  "snowQuality": "Enneigement : un peu au dessus de la moyenne, mais les prochains jours de chaleur vont bien attaquer le manteau.\n\nLimite skiable : vers 1300 m en Nord, 1600 m en Sud.\n\nQualité de la neige : encore une neige froide dans les versants Nord, au-dessus de ~2300 m, avec une poudre tassée agréable sauf dans les secteurs ayant subi la bise et alors parfois très hétérogènes (croupes/crêtes pelées).\nLes versants ensoleillés sont moyennement regelés au réveil. Après un décaillage rapide, la neige de printemps est bonne à skier en Sud et même en Est et Ouest à des altitudes \"modestes\" (sous 2500 m ?). Plus haut, elle peut avoir manqué de cycle gel/degel et être légèrement moins bonne sous les skis. ",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

@@ -1,12 +1,12 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-04-06T16:00:00",
-  "validUntil": "2026-04-07T18:00:00",
+  "date": "2026-04-07T16:00:00",
+  "validUntil": "2026-04-08T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -21,13 +21,11 @@
   ],
   "situations": [
     "plaque_vent",
-    "sous_couche_fragile",
-    "neige_humide",
-    "glissement"
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Coulées humides au soleil, avalanches de fond.\nDéclenchements skieurs : Coulées de neige sous les skis.",
-  "stability": "Poursuite de l'humidification au soleil, elle gagne en altitude et en profondeur.\n\nDéparts spontanés :\n* Coulées de neige humide, dans les versants ensoleillés, elles suivent l'ensoleillement en journée. Elles sont toutes altitudes et toutes orientations. Elles peuvent être plus épaisses sur un très large secteur O/NO, le bon regel de la nuit limitant le réchauffement dans les premiers versants voyant le soleil donc NE/E. Généralement de taille 1, parfois 2 (petite à moyenne). Facteur aggravant : la présence d'une couche fragile persistante localement peut engendrer un départ en plaque, d'apparence humide en surface. De la même manière une première coulée peut déclencher en cascade une seconde plaque avec une cassure linéaire et/ou jusqu'au terrain. Taille 2, plus rarement une taille 3 (grande). \n* À toute heure du jour et de la nuit, des fissures de reptations peuvent s'ouvrir et des avalanches de fond sont possibles sur les terrains lisses (pentes herbeuses, dalles rocheuses, etc). Taille 1 à 2.\n\nDéclenchements provoqués :\n* Coulées de neige humide sous les skis. Taille 1, 2. \n\nAutre :\n* Le redoux peut occasionner des chutes de corniches. ",
-  "snowQuality": "Enneigement :\nBon pour un début avril. On peut chausser skis ou raquettes dès 1300/1400 m en versants N, et 1500/1600 m en versants S.\n\nQualité de la neige ce lundi :\n* Très bon regel.\n* Les pentes chauffent au fil de l'ensoleillement.\n* En nord, humidification en surface sous 2500 m voir plus haut sous les quelques nuages. Encore des accumulations de neige importantes, ou au contraire, des zones dures voire ravagées par le vent. Les crêtes et sommets sont les plus ravagées par le vent.\n* Nombreuses corniches et accumulations/congères.",
+  "summary": "Départs spontanés : avalanches de neige humide\nDéclenchements skieurs : avalanches de neige humide",
+  "stability": "Le printemps s'installe\n\nDéclenchements provoqués :\n* avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. En toutes orientations et altitudes. Taille 1 à 2 (petite à moyenne) et rarement 3 (grande). Dans la tranche 2200/2800 m, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de fond ou seulement en surface. \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous de 2100 m en nord et 2500 m en sud. Taille 2 (moyenne). \n\nDéparts spontanés :\n* avalanches de neige humide en sud et en dessous de 2500 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis, pouvant parfois déclencher, en cascade, une petite plaque.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire. ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1600 m en sud et 1300/1400 m en nord. \n\nQualité de la neige ce mercredi matin : \nBon regel nocturne. Manteau neigeux printanier sous 2600 m en sud et 2000 m en nord.\nL’humidification de surface a progressé à toutes altitudes en sud et jusqu'à 2700 m en nord. \nAu-dessus de 2700 m en versant nord, il reste de la neige froide et soufflée.\nCorniches fragilisées par le redoux. ",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

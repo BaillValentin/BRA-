@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-04-07T16:00:00",
-  "validUntil": "2026-04-08T18:00:00",
+  "date": "2026-04-08T16:00:00",
+  "validUntil": "2026-04-09T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -23,8 +23,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : avalanches de neige humide\nDéclenchements skieurs : avalanches de neige humide",
-  "stability": "Le printemps s'installe\n\nDéclenchements provoqués :\n* avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. En toutes orientations et altitudes. Taille 1 à 2 (petite à moyenne) et rarement 3 (grande). \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. À toutes altitudes et orientations. Taille 2 (moyenne). \n\nDéparts spontanés :\n* avalanches de neige humide. Facile à déclencher au soleil. Départ ponctuel sous les skis, pouvant parfois déclencher, en cascade, une petite plaque.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire. ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1600 m en sud et 1300/1400 m en nord. \n\nQualité de la neige ce mercredi matin : \nBon regel nocturne. Manteau neigeux printanier. \nCorniches fragilisées par le redoux. ",
+  "stability": "Le printemps s'installe\n\nDéparts spontanés :\n* avalanches de neige humide, rares au lever du jour, puis de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. En toutes orientations et altitudes, en particulier dans les zones près des rochers ou des falaises. Taille 1 à 2 (petite à moyenne) et rarement 3 (grande). \nObservable : enfoncement piéton important, boulettes, escargots. \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. À toutes altitudes et orientations. Taille 2 (moyenne). \n\nDéclenchements provoqués :\n* avalanches de neige humide. Facile à déclencher au soleil. Départ ponctuel sous les skis, pouvant parfois déclencher, en cascade, une petite plaque.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire. ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. \nCorniches fragilisées par le redoux. \n\nQualité de la neige ce jeudi : \nEn sud et en dessous de 2000 m en nord, manteau neigeux printanier. Humidification rapide et profonde au soleil. \nAu-dessus de 2000 m en nord, croute de regel portante sur de la vielle neige dense, s'humidifiant un peu au soleil. ",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

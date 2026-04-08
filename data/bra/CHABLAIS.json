@@ -1,8 +1,8 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-04-07T16:00:00",
-  "validUntil": "2026-04-08T18:00:00",
-  "riskMax": 2,
+  "date": "2026-04-08T16:00:00",
+  "validUntil": "2026-04-09T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
       "altitude": "Toutes altitudes",
@@ -20,12 +20,12 @@
     }
   ],
   "situations": [
-    "plaque_vent",
+    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : avalanches de neige humide\nDéclenchements skieurs : avalanches de neige humide",
-  "stability": "Le printemps s'installe\n\nDéclenchements provoqués :\n* avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. En toutes orientations et altitudes. Taille 1 à 2 (petite à moyenne) et rarement 3 (grande). Dans la tranche 2200/2800 m, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de fond ou seulement en surface. \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous de 2100 m en nord et 2500 m en sud. Taille 2 (moyenne). \n\nDéparts spontanés :\n* avalanches de neige humide en sud et en dessous de 2500 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis, pouvant parfois déclencher, en cascade, une petite plaque.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire. ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1600 m en sud et 1300/1400 m en nord. \n\nQualité de la neige ce mercredi matin : \nBon regel nocturne. Manteau neigeux printanier sous 2600 m en sud et 2000 m en nord.\nL’humidification de surface a progressé à toutes altitudes en sud et jusqu'à 2700 m en nord. \nAu-dessus de 2700 m en versant nord, il reste de la neige froide et soufflée.\nCorniches fragilisées par le redoux. ",
+  "summary": "Départs spontanés : nombreuses avalanches de neige humide, parfois grandes\nDéclenchements skieurs : avalanches de neige humide",
+  "stability": "Forte humidification du manteau neigeux à moyenne altitude\n\nDéparts spontanés :\n* nombreuses avalanches de neige humide, rares au lever du jour, puis de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. En toutes orientations et altitudes, en particulier dans les zones près des rochers ou des falaises. Taille 1 à 2 (petite à moyenne). \nObservable : enfoncement piéton important, boulettes, escargots. \n* rares avalanches en plaque de neige humide sur sous-couche fragile persistante, dans la tranche 1800/2500 m en toutes orientations, aux heures les plus chaudes de la journée. Taille 2 à 3 (moyenne à grande) avec des cassures épaisses et/ou larges. Causé par l'humidification de la couche fragile persistante. \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous de 2100 m en nord et 2500 m en sud. Taille 2 (moyenne). \n\nDéclenchements provoqués :\n* avalanches de neige humide en sud et en dessous de 2500 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis, pouvant parfois déclencher, en cascade, une petite plaque.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire. ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. \nCorniches fragilisées par le redoux. \n\nQualité de la neige ce jeudi : \nEn dessous de 2000 m en nord et 2600 m en sud, manteau neigeux printanier. Humidification rapide et profonde au soleil. \nVers 2000/2700 m en nord et au-dessus de 2600 m en sud, croute de regel portante sur de la vielle neige dense, s'humidifiant un peu au soleil. \nAu-dessus de 2700 m en nord, il reste de la neige froide et soufflée.",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

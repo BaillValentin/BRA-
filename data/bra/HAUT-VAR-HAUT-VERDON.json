@@ -1,19 +1,15 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-04-07T16:00:00",
-  "validUntil": "2026-04-08T18:00:00",
-  "riskMax": 2,
+  "date": "2026-04-08T14:00:00",
+  "validUntil": "2026-04-09T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
@@ -22,9 +18,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés :  en neige humide au soleil \nDéclenchements skieurs : en neige humide sous les skis ",
-  "stability": "CONDITIONS PRINTANIÈRES. DÉPARTS EN NEIGE HUMIDE GÉNÉRALEMENT SUPERFICIELS\n\nDéclenchements provoqués : le manteau neigeux est bien stable le matin. Les déclenchements d'avalanches concernent les pentes raides ensoleillées de haute altitude, ou plus rarement des versants nord sous 2200/2400 m. Elles peuvent être déclenchées par un seul skieur, mais ne mobilisent qu'un volume limité de neige (taille 1). Un départ linéaire emportant tout le manteau neigeux n'est pas exclu, générant des avalanches de taille moyenne( taille 2), dans les orientations nord-ouest à nord-est.  \n\nDéparts spontanés : peu probables au lever du jour avec le bon regel nocturne, puis activité en neige humide au fil de la journée en suivant la course du soleil. Départs généralement ponctuels de taille petite, un départ de taille moyenne voire grande (taille 2 à 3) non exclu en versants nord-ouest à nord-est d'altitude.",
-  "snowQuality": "Enneigement encore légèrement excédentaire pour un début avril. \n\nEnneigement skiable généralement à partir de 1600 m en terrain favorable et 2000/2200 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier avec un bon regel nocturne le matin, s'humidifiant rapidement en journée. Neige sèche en orientations bien nord de haute altitude, mais généralement fortement durcie par le vent.  ",
+  "summary": "Départs spontanés :  en neige humide, parfois de grande taille\nDéclenchements skieurs : en neige humide sous les skis, parfois linéaires",
+  "stability": "CONDITIONS PRINTANIÈRES. DÉPARTS EN NEIGE HUMIDE PARFOIS TRÈS VOLUMINEUX\n\nDéclenchements provoqués : le manteau neigeux est bien stable le matin. Les déclenchements d'avalanches concernent les pentes raides ensoleillées. Elles peuvent être déclenchées par un seul skieur, et générer des avalanches de taille moyenne à grande (taille 2 à 3) en orientations ouest, nord-ouest, nord-est et est d'altitude, avec une cassure linéaire relativement large. \nLes pentes plein nord de haute altitude sont moins dangereuses, l'humidification restant superficielle. Les pentes d'un large secteur sud sont en neige transformée jusqu'au fond, les déclenchements provoqués restent de petite taille.\n \nDéparts spontanés : peu probables au lever du jour avec le bon regel nocturne, puis activité en neige humide au fil de la journée en suivant la course du soleil. Départs nombreux au soleil, parfois linéaires et de taille moyenne à grande (taille 2 à 3) en orientations ouest ou est de haute altitude.",
+  "snowQuality": "Enneigement encore légèrement excédentaire pour un début avril. \n\nEnneigement skiable généralement à partir de 1700 m en terrain favorable et 2200 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier avec un bon regel nocturne le matin, s'humidifiant rapidement en journée. Neige restée sèche seulement en orientations raides et plein nord de haute altitude, mais généralement fortement durcie par le vent.  ",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

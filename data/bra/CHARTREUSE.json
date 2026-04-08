@@ -1,12 +1,12 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-04-07T17:00:00",
-  "validUntil": "2026-04-08T18:00:00",
+  "date": "2026-04-08T17:00:00",
+  "validUntil": "2026-04-09T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -24,8 +24,8 @@
     "glissement"
   ],
   "summary": "Départs spontanés : Possibles avalanches en pentes raides/humidifiées, possibles en toutes orientations même en secteur Nord. Rare avalanche de glissement de taille 2 à 3 non exclue. \nDéclenchements skieurs : En versants ensoleillés, possibles coulées ponctuelles sous les skis.",
-  "stability": "HUMIDIFICATION DU MANTEAU NEIGEUX EN TOUS VERSANTS\n\nDéparts spontanés : - Après un bon regel nocturne, de nouvelles avalanches humides peuvent se produire ce mercredi dès la fin de matinée, notamment dans les pentes réchauffées par le soleil, le plus souvent de taille 1 à 2. Dans un rare cas, une avalanche de glissement plus conséquente, au terrain, atteignant la taille 2 à 3, ne peut être exclue (alpage raide). Ces problématiques augmente au fil des heures au gré du parcours du soleil et du réchauffement des pentes. (Sud-est à Est le matin jusquà Ouest Sud-ouest en fin de journée).\n- Une rupture spontanée de corniche est également possible l'après-midi et à surveiller dans les secteurs concernés.\n\nDéclenchements provoqués : En pentes soutenues et bien humidifiées, le pratiquant pourrait faire couler la neige humide sous les skis.\n\nAutres :  A l'ombre (le matin surtout) neige souvent très dure ou croutée par le regel. Surfaces glissantes généralisées.",
-  "snowQuality": "Qualification de l’enneigement :  La fonte s'accélère, mais l'enneigement reste encore correct dès assez basse altitude, et même très bon vers les hauts de Chartreuse... \nLimites skiables : Vers 1300/1500m en Nord, 1700/2100m au soleil...\n\nQualité de la neige mercredi : Neige printanière, bon regel nocturne, puis rapide humidification en journée, dans tous les versants. En Nord d'altitude toutefois, la neige peut encore être croutée/cassante le matin avec des restes de congères/effets du vent.. ",
+  "stability": "HUMIDIFICATION DU MANTEAU NEIGEUX EN TOUS VERSANTS\n\nDéparts spontanés : - Après un bon regel nocturne, de nouvelles avalanches humides peuvent se produire ce jeudi dès la  matinée, notamment dans les pentes réchauffées par le soleil, le plus souvent de taille 1 à 2. Dans un rare cas, une avalanche de glissement plus conséquente, au terrain, atteignant la taille 2 à 3, ne peut être exclue (alpage raide). Ces problématiques augmente au fil des heures au gré du parcours du soleil et du réchauffement des pentes. (Sud-est à Est le matin jusquà Ouest Sud-ouest en fin de journée).\n- Une rupture spontanée de corniche est également possible l'après-midi et à surveiller dans les secteurs concernés.\n\nDéclenchements provoqués : En pentes soutenues et bien humidifiées, le pratiquant pourrait faire couler la neige humide sous les skis.\n\nAutres :  A l'ombre (le matin surtout) neige souvent très dure ou croutée par le regel. Surfaces glissantes généralisées.",
+  "snowQuality": "Qualification de l’enneigement :  La fonte s'accélère, mais l'enneigement reste encore correct dès la moyenne altitude, et même très bon vers les hauteurs.\n\nLimites skiables : Vers 1300/1500m en Nord, 1700/2100m au soleil...\n\nQualité de la neige jeudi : Neige printanière, bon regel nocturne, puis rapide humidification en journée, dans tous les versants. En Nord d'altitude toutefois, la neige peut encore être croutée/cassante le matin avec des restes de congères/effets du vent.. ",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

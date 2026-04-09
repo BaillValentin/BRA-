@@ -1,7 +1,7 @@
 {
   "massif": "UBAYE",
-  "date": "2026-04-08T14:00:00",
-  "validUntil": "2026-04-09T18:00:00",
+  "date": "2026-04-09T16:00:00",
+  "validUntil": "2026-04-10T18:00:00",
   "riskMax": 3,
   "risks": [
     {
@@ -18,9 +18,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés :  en neige humide, parfois de grande taille\nDéclenchements skieurs : en neige humide sous les skis, parfois linéaires",
-  "stability": "CONDITIONS PRINTANIÈRES. DÉPARTS EN NEIGE HUMIDE PARFOIS TRÈS VOLUMINEUX\n\nDéclenchements provoqués : le manteau neigeux est bien stable le matin. Les déclenchements d'avalanches concernent les pentes raides ensoleillées. Elles peuvent être déclenchées par un seul skieur, et générer des avalanches de taille moyenne à grande (taille 2 à 3) en orientations ouest, nord-ouest, nord-est et est d'altitude, avec une cassure linéaire relativement large. \nLes pentes plein nord de haute altitude sont moins dangereuses, l'humidification restant superficielle. Les pentes d'un large secteur sud sont en neige transformée jusqu'au fond, les déclenchements provoqués restent de petite taille.\n \nDéparts spontanés : peu probables au lever du jour avec le bon regel nocturne, puis activité en neige humide au fil de la journée en suivant la course du soleil. Départs nombreux au soleil, parfois linéaires et de taille moyenne à grande (taille 2 à 3) en orientations ouest ou est de haute altitude.",
-  "snowQuality": "Enneigement proche des normales pour un début avril. \n\nEnneigement skiable généralement à partir de 1800 m en terrain favorable et 2200/2300 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier avec un bon regel nocturne le matin, s'humidifiant rapidement en journée. Neige restée sèche seulement en orientations raides et plein nord de haute altitude, mais généralement fortement durcie par le vent.  ",
+  "summary": "Départs spontanés :  en neige humide, parfois linéraires et de grande taille\nDéclenchements skieurs : départs ponctuels en neige humide ou avalanches de plaque dans la niege d'aspect humifiée, facile à déclencher",
+  "stability": "CONDITIONS PRINTANIÈRES. DÉPARTS EN NEIGE HUMIDE PARFOIS TRÈS VOLUMINEUX\n\nDéparts spontanés : - départs généralement ponctuels en neige humide, de taille petite à moyenne. Peu probables en tout début de journée après un bon regel nocturne, puis augmentation suivant la course du soleil. En pentes raides, toutes orientations et altitude, plutôt près des rochers.\n- départs linéaires, cassures pouvant être larges et épaisses, engendrant des avalanches de taille moyenne à grande. En seconde partie de journée plus particulièrement au-dessus de 2200/2400 m, dans les orientations est à nord-est et ouest à nord-ouest bien réchauffées. En effet l’humidification gagne en profondeur et peut atteindre désormais pour la 1ere fois les couches fragiles enfouies à la base du manteau neigeux. \n\nDéclenchements provoqués :  le manteau neigeux est bien stable le matin. Les déclenchements d’avalanches concernent ensuite les pentes raides ensoleillées. \n- avalanches de plaque dans la neige d’aspect humidifiée pouvant être déclenchées par un seul skieur évoluant tardivement. Orientations privilégiées est / nord / ouest d’altitude. Taille moyenne, voire grande. \n- départs ponctuels en neige humide / pourrie sous les skis. Taille petite à moyenne. ",
+  "snowQuality": "Enneigement proche des normales pour la saison. \n\nEnneigement skiable généralement à partir de 1800 m en terrain favorable et 2200/2300 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier avec un bon regel nocturne, s'humidifiant rapidement en journée. Neige restée sèche seulement en orientations raides et plein nord de haute altitude, mais généralement fortement durcie par le vent.  ",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_21.png",

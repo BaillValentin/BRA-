@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-04-09T16:00:00",
-  "validUntil": "2026-04-10T18:00:00",
+  "date": "2026-04-10T16:00:00",
+  "validUntil": "2026-04-11T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -24,8 +24,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : Nombreuses avalanches de neige humide.\nDéclenchements skieurs : Avalanches de neige humide sous les skis.",
-  "stability": "Forte humidification du manteau neigeux à moyenne altitude.\n\nDéparts spontanés :\n* Nombreuses avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et de l'ensoleillement. En adrets, l'humidification commence dès le lever du soleil. Globalement à toutes altitudes et orientations, l'humidification est sensible, notamment près des rochers et des falaises. Taille 1 à 2.\n* Ces avalanches superficielles de neige humide peuvent réussir à déclencher, en cascade, une petite plaque de 30/40 cm.\n* Des avalanches de fond sont possibles à toute heure du jour et de la nuit, sur les pentes herbeuses ou les dalles rocheuses. Taille 1 à 2 (petite à moyenne).\n\nDéclenchements provoqués :\n* Au passage d'un skieur, de la neige peut couler sous les skis. Ces avalanches sont sensibles au soleil. La neige poussée par le skieur peut réussir à déclencher une plaque de 30/40 cm d'épaisseur. Taille 1 à 2 (petite à moyenne).\n\nAutres :\n* Avec les fortes chaleurs, attentions aux chutes de pierre et aux corniches qui cèdent.",
-  "snowQuality": "Enneigement :\nL'enneigement est correct pour la saison.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige ce vendredi :\nEn dessous de 2000 m en nord à toutes altitudes en sud, manteau neigeux printanier. Humidification rapide et profonde au soleil. \nEn matinée, croute de regel (du au regel nocturne plutôt correcte) portante sur de la vielle neige dense, s'humidifiant un peu au soleil.",
+  "stability": "Forte humidification du manteau neigeux à toutes altitudes.\n\nDéparts spontanés :\n* Nombreuses avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et de l'ensoleillement. En adrets, l'humidification commence dès le lever du soleil. Dans toutes les altitudes l'humidification est sensible, et commence à être profonde, notamment près des rochers et des falaises. Taille 1 à 2 (petite à moyenne).\n* Sur les plus hauts sommets, des avalanches de plaques humides peuvent aussi partir spontanément lors de l'humidification d'une couche fragile enfouie sous 30/40 cm de neige. Taille 1 à 2.\n* Des avalanches de fond sont possibles à toute heure du jour et de la nuit, sur les pentes herbeuses ou les dalles rocheuses. Taille 2.\n\nDéclenchements provoqués :\n* Au passage d'un skieur, de la neige humide peut couler sous les skis. Ces avalanches concernent les secteurs ensoleillés, là où la neige devient meuble suite à l'humidification lié au soleil. Sur les plus hauts sommets (au-delà de 2000m), le skieur peut également déclencher une plaque humide de 30/40 cm d'épaisseur.\n\nAutres :\n* Avec les fortes chaleurs, attentions aux chutes de pierre et aux corniches qui cèdent.",
+  "snowQuality": "Enneigement :\nL'enneigement est correct pour la saison.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige ce samedi :\n* Regel nocturne plutôt bon.\n* Manteau neigeux printanier. Humidification rapide et profonde au soleil. ",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

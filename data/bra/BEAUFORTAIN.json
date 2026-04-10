@@ -1,7 +1,7 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-04-09T16:00:00",
-  "validUntil": "2026-04-10T18:00:00",
+  "date": "2026-04-10T16:00:00",
+  "validUntil": "2026-04-11T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,9 +10,6 @@
       "orientations": [
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
@@ -23,8 +20,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : quelques départs en neige humide au fil du réchauffement de  la journée.\nDéclenchements skieurs : petites coulées sous les skis en versants ensoleillés. ",
-  "stability": "Forte humidification du manteau neigeux en cours de journée. Conditions presque estivales. \n\nDéparts spontanés : regel nocturne correct après une nuit claire et sans vent.  Les premières heures du matin sont calmes puis reprise, au fil de la course du soleil, des départs en neige humide dans les versants ensoleillés. D'abord en Nord-Est (raide)/Est puis Sud et enfin surtout en Ouest et Nord-Ouest en fin de journée. Avalanches de petite taille (taille 1) en générale. Taille moyenne (taille 2) possible quand la topographie s'y prête ou lors d'un déclenchement en cascade d'une plaque d'aspect humide (cassure linéaire pouvant, dans le pire des cas générer une grande avalanche). \nPar ailleurs, des plaques de fond sont à craindre, à toute heure, surtout en Nord sous 2300 m. Aussi, chutes de corniches possibles. \n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop ramollie par le Soleil. Sinon, au-dessus de 2500 m en Nord dans une pente très raide, une petite plaque peut déstabiliser le skieur qui la déclenche.",
-  "snowQuality": "Enneigement : encore un peu au-dessus de la moyenne, mais plus pour longtemps avec une fonte accélérée de 5 à 10 cm par jour  avec la chaleur en cours.\n\nLimite skiable : vers 1200/1300 m en Nord, 1500/1600 m en Sud.\n\nQualité de la neige : en Nord au-dessus de 2500 m, poudre tassée agréable à l'abri des vents, sinon dans les nombreux secteurs ventés très hétérogènes carton à dure dans les pentes et croupes/crêtes pelées.\nPartout ailleurs, regel nocturne correct avec une croûte portante au lever du jour, ramollissant très rapidement dans les versants Est, plus tardivement ailleurs en suivant la course du soleil. Le créneau en neige de printemps agréable à descendre risque d'être court avec une neige devenant vite pourrie. L'après midi, neige pourrie dans un grand nombre de pentes. ",
+  "stability": "Manteau neigeux fortement humidifié en cours de journée. Très chaud.\n\nDéparts spontanés : regel nocturne correct après une nuit claire et sans vent.  Les premières heures du matin sont calmes puis reprise, au fil de la course du soleil, des départs en neige humide dans les versants ensoleillés. D'abord en Nord-Est (raide)/Est puis Sud et enfin surtout en Ouest et Nord-Ouest en fin de journée. Avalanches de petite taille (taille 1) en général. Taille moyenne (taille 2) possible quand la topographie s'y prête ou lors d'un déclenchement en cascade d'une plaque d'aspect humide (cassure linéaire pouvant, dans le pire des cas générer une grande avalanche). \nPar ailleurs, des plaques de fond sont à craindre, à toute heure, surtout en Nord sous 2300 m. Aussi, chutes de corniches possibles. \n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop ramollie par le Soleil. Sinon, au-dessus de 2500 m en Nord dans une pente très raide, une petite plaque peut déstabiliser le skieur qui la déclenche.",
+  "snowQuality": "Enneigement : encore un peu au-dessus de la moyenne, mais plus pour longtemps avec une fonte accélérée de 5 à 10 cm par jour avec la chaleur en cours.\n\nLimite skiable : vers 1200/1300 m en Nord, 1500/1600 m en Sud.\n\nQualité de la neige : en Nord au-dessus de 2500 m, poudre tassée agréable à l'abri des vents, sinon dans les nombreux secteurs ventés très hétérogènes carton à dure dans les pentes et croupes/crêtes pelées.\nPartout ailleurs, regel nocturne correct avec une croûte portante au lever du jour, ramollissant très rapidement dans les versants Est, plus tardivement ailleurs en suivant la course du soleil. Le créneau en neige de printemps agréable à descendre risque d'être court avec une neige devenant vite pourrie. L'après midi, neige pourrie dans un grand nombre de pentes. ",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

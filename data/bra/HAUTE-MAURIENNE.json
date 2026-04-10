@@ -1,7 +1,7 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-04-09T16:00:00",
-  "validUntil": "2026-04-10T18:00:00",
+  "date": "2026-04-10T16:00:00",
+  "validUntil": "2026-04-11T18:00:00",
   "riskMax": 3,
   "risks": [
     {
@@ -10,9 +10,6 @@
       "orientations": [
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
@@ -23,7 +20,7 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : quelques gros départs à craindre en neige humide au fil du réchauffement.\nDéclenchements skieurs : plaques humides sous les skis en versants ensoleillés. ",
-  "stability": "Chaleurs anormales : nombreuses problématiques en neige humide. \n\nDéparts spontanés : regel nocturne correct après une nuit claire et sans vent.  Les premières heures du matin sont calmes puis reprise, au fil de la course du soleil, des départs en neige humide dans les versants ensoleillés. D'abord en Nord-Est (raide)/Est puis Sud et enfin surtout en Ouest et Nord-Ouest en fin de journée. Les avalanches en départ ponctuel (taille petite à moyenne, 1 à 2) sont de moins en moins nombreuses. En revanche, l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. De grandes avalanches (taille 3) avec cassures linéaires sont possibles. Elles sont plus probables en large versant Ouest, sous 2700 m et en cours d'après midi. \nPar ailleurs, des plaques de fond sont à craindre, à toute heure, en Est, Ouest et Nord, sous 2500 m. Aussi, chutes de corniches possibles.\n\nDéclenchements provoqués : un skieur coupant une pente raide en neige pourrie peut aider une avalanche de fonte à partir. Coulées sous les skis voire cassure linéaire pouvant donner une rare grande avalanche quand les couches fragiles du début de saison s'humidifient.\nSinon, au-dessus de 2500 m en Nord dans une pente très raide, une petite plaque peut déstabiliser le skieur qui la déclenche.",
+  "stability": "Manteau neigeux fortement humidifié en cours de journée. Très chaud.\n\nDéparts spontanés : regel nocturne correct après une nuit claire et sans vent.  Les premières heures du matin sont calmes puis reprise, au fil de la course du soleil, des départs en neige humide dans les versants ensoleillés. D'abord en Nord-Est (raide)/Est puis Sud et enfin surtout en Ouest et Nord-Ouest en fin de journée. Les avalanches en départ ponctuel (taille petite à moyenne, 1 à 2) sont de moins en moins nombreuses. En revanche, l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. De grandes avalanches (taille 3) avec cassures linéaires sont possibles. Elles semblent plus probables en versant Est à NE ainsi que Ouest à NO, sous 2700 m et après quelques heures d’ensoleillement. \nPar ailleurs, des plaques de fond sont à craindre, à toute heure, en Est, Ouest et Nord, sous 2500 m. Aussi, chutes de corniches possibles.\n\nDéclenchements provoqués : un skieur coupant une pente raide en neige pourrie peut aider une avalanche de fonte à partir. Coulées sous les skis voire cassure linéaire pouvant donner une rare grande avalanche quand les couches fragiles du début de saison s'humidifient.\nSinon, au-dessus de 2500 m en Nord dans une pente très raide, une petite plaque peut déstabiliser le skieur qui la déclenche.",
   "snowQuality": "Enneigement : encore un peu au dessus de la moyenne, mais plus pour longtemps avec une fonte accélérée de 5 à 10 cm par jour  avec la chaleur en cours .\n\nLimite skiable : vers 1400 m en Nord, 1800 m en Sud.\n\nQualité de la neige : en Nord au-dessus de 2500 m, poudre tassée agréable à l'abri des vents, sinon dans les nombreux secteurs ventés très hétérogènes carton à dure dans les pentes et croupes/crêtes pelées.\nPartout ailleurs, regel nocturne correct avec une croûte portante au lever du jour, ramollissant très rapidement dans les versants Est, plus tardivement ailleurs en suivant la course du soleil. Le créneau en neige de printemps agréable à descendre risque d'être court avec une neige devenant vite pourrie. L'après midi, neige pourrie dans un grand nombre de pentes. ",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {

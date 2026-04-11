@@ -1,15 +1,17 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-04-10T16:00:00",
-  "validUntil": "2026-04-11T18:00:00",
-  "riskMax": 3,
+  "date": "2026-04-11T16:00:00",
+  "validUntil": "2026-04-12T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "W",
         "NW"
       ]
     }
@@ -19,9 +21,9 @@
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés :  en neige humide, parfois linéraires et de grande taille\nDéclenchements skieurs : départs ponctuels en neige humide ou avalanches de plaque dans la neige d'aspect humifiée, faciles à déclencher",
-  "stability": "CONDITIONS PRINTANIÈRES. ACTIVITÉ AVEC LA NEIGE HUMIDE. GRANDES AVALANCHES POSSIBLES\n\nDéparts spontanés : \n- éventuels départs en neige humide, généralement en poire, de taille petite à moyenne. Peu probables en tout début de journée après un bon regel nocturne, puis en augmentation suivant la course du soleil. En pentes raides, toutes orientations et altitude, plutôt près des rochers.\n- Aussi des départs linéaires en neige humide. Cassures pouvant être larges et épaisses, engendrant des avalanches de taille moyenne à grande. Seconde partie de journée, plus particulièrement au-dessus de 2200/2400 m, dans les orientations nord-est et nord-ouest bien réchauffées. En effet, l’humidification gagne en profondeur et peut atteindre désormais des couches fragiles existantes, notamment à la base du manteau neigeux, provoquant la rupture. \n\nDéclenchements provoqués : le manteau neigeux est bien stable le matin. Les déclenchements d’avalanches concernent ensuite les pentes raides ensoleillées. \n- avalanches de plaque dans la neige d’aspect humidifiée pouvant être déclenchées par un seul skieur évoluant tardivement. Orientations privilégiées nord-est / nord / nord-ouest d’altitude. Taille moyenne, voire grande. En effet, avec l’humidification en journée de la neige de la partie supérieure du manteau neigeux, le skieur peut ensuite solliciter une plaque enfouie reposant sur une couche fragile persistante.\n- départs ponctuels en neige humide / pourrie sous les skis. Taille petite à moyenne. ",
-  "snowQuality": "Enneigement encore légèrement excédentaire pour la saison.\nHauteurs de neige observées :  122 cm à la nivose de Millefonts à 2430 m, 72 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable généralement à partir de 1700 m en terrain favorable et 2200 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier avec un bon regel nocturne, s'humidifiant rapidement en journée. Seuls les nord de haute altitude sont restés en neige peu transformée.",
+  "summary": "Départs spontanés :  en neige humide, parfois linéraires et rarement de grande taille\nDéclenchements skieurs : départs ponctuels sous les skis en neige humide",
+  "stability": "MANTEAU NEIGEUX BIEN HUMIDE JUSQU’À 2500 M. GRANDES AVALANCHES EN NEIGE HUMIDE POSSIBLES\n\nDéparts spontanés : des avalanches de neige humide peuvent se produire à tout moment, en particulier en versant nord entre 2200 et 2500 m environ, favorisées par un regel nocturne plutôt médiocre en moyenne montagne (correct en haute altitude) et des averses de pluie sous 2500 m de l'après-midi. Avalanches le plus souvent de taille moyenne (taille 2). L’humidification gagnant en profondeur, on ne peut exclure qu'elle atteigne des couches fragiles enfouies, notamment à la base du manteau neigeux, provoquant une avalanche plus conséquente de grande taille.\nCes départs cessent en fin de journée avec le net refroidissement de la masse d'air. \n\nDéclenchements provoqués : le pratiquant peut déclencher une avalanche de plaque dans la neige humide / pourrie dans les pentes raides. Orientations privilégiées est / nord / ouest d’altitude. Taille moyenne, voire grande. En effet, avec l’humidification peut solliciter une plaque enfouie reposant sur une couche fragile persistante.",
+  "snowQuality": "Enneigement encore légèrement excédentaire pour la saison.\nHauteurs de neige observées :  117 cm à la nivose de Millefonts à 2430 m, 62 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable généralement à partir de 1800 m en terrain favorable et 2200 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux bien humide dans toutes les orientations avec un regel nocturne souvent médiocre à moyenne altitude. Seuls les nord de haute altitude sont restés en neige peu transformée. Au dessus de 2500 m, saupoudrage possible en fin de journée sous une averse de neige.",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

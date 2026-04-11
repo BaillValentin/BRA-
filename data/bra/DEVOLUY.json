@@ -1,20 +1,15 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-04-10T16:00:00",
-  "validUntil": "2026-04-11T18:00:00",
+  "date": "2026-04-11T16:00:00",
+  "validUntil": "2026-04-12T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     }
@@ -23,9 +18,9 @@
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide au fil de l'ensoleillement. \nDéclenchements skieurs : en neige humide sous les skis. ",
-  "stability": "DÉPARTS DE NEIGE HUMIDE AU SOLEIL\n\nDéparts spontanés : \n- Peu probables en tout début de journée après un bon regel nocturne, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Départs généralement ponctuels en particulier en pentes raides près des rochers, engendrant des avalanches petites à moyennes (taille 1 à 2). \n-  Un départ linéaire de grande taille reste non exclu (taille 3), notamment dans les orientations est, nord-est, nord-ouest et ouest au-dessus de 2200/2400 m environ, quand l'humidification gagne en profondeur et atteint pour la première fois les couches fragiles persistantes enfouies à la base du manteau neigeux.\n\nDéclenchements provoqués : \n- Un skieur évoluant tardivement en pentes raides fortement humidifiées, peut provoquer des départs de neige humide sous les skis, engendrant des avalanches en poires de taille petite à moyenne (taille 1 à 2). \n- Un départ linéaire de grande taille (taille 3) non exclu dans les orientations est, nord-est, nord-ouest et ouest au-dessus de 2200/2400 m environ, en cas de sollicitation de couches fragiles persistantes enfouies à la base du manteau neigeux, notamment après un premier départ de surface.\n",
-  "snowQuality": "L'enneigement est excédentaire pour un début avril.\n \nLimite d'enneigement skiable : vers 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1700/1800 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne plutôt bon, reprise rapide de l'humidification au soleil. Dans certains ubacs raides au-dessus de 2400 m, neige encore froide, souvent durcie ou travaillée par le vent dans les secteurs exposés. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
+  "summary": "Départs spontanés : en neige humide, rarement de grande taille\nDéclenchements skieurs : en neige humide sous les skis",
+  "stability": "MANTEAU NEIGEUX FORTEMENT HUMIDIFIÉ, ACTIVITÉ AVALANCHEUSE LIMITÉE\n\nDéclenchements provoqués : instabilités localisées dans les pentes d'un large secteur nord, plutôt au-dessus de 2000/2200 m d'altitude. Ces instabilités sont parfois déclenchables par un seul skieur et peuvent générer des avalanches de taille moyenne, très rarement grande.\nL'humidification du manteau neigeux se poursuit et peut solliciter des couches fragiles persistantes situées près de la base du manteau neigeux. \nCes déclenchements d'ampleur restent aléatoires mais contrairement aux jours précédents,ils peuvent intervenir tôt le matin, car le regel nocturne est très limité et superficiel.\n\nDéparts spontanés : en neige humide, possibles à toute heure de la journée, plus probables en cas d'éclaircies durables. Généralement de taille petite à moyenne, grande non exclue, en particulier en versant plein nord entre 2200 et 2600 m environ. Sur ces pentes, le temps humide et encore très doux entraîne une première humidification notable du manteau neigeux ; c'est encore plus vrai en fin de journée, lorsque les précipitations, pluvieuses jusque 2500 m, se mettent en place.  \n",
+  "snowQuality": "Enneigement excédentaire pour un début avril, notamment en ubacs et vallons d'altitude.  \n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1900/2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : manteau printanier, mauvais regel nocturne. Humidification profonde en journée même en l'absence de franc soleil. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

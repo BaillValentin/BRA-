@@ -1,13 +1,14 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-04-10T16:00:00",
-  "validUntil": "2026-04-11T18:00:00",
+  "date": "2026-04-11T16:00:00",
+  "validUntil": "2026-04-12T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 1,
+      "level": 2,
       "orientations": [
+        "N",
         "NE",
         "E",
         "W",
@@ -16,12 +17,12 @@
     }
   ],
   "situations": [
-    "plaque_vent",
-    "neige_humide"
+    "neige_humide",
+    "glissement"
   ],
-  "summary": "Départs spontanés : quelques départs en neige humide au fil du réchauffement de  la journée.\nDéclenchements skieurs : petites coulées sous les skis en versants ensoleillés. ",
-  "stability": "Manteau neigeux fortement humidifié en cours de journée. Très chaud.\n\nDéparts spontanés : regel nocturne correct après une nuit claire et sans vent.  Les premières heures du matin sont calmes puis reprise, au fil de la course du soleil, des départs en neige humide dans les versants ensoleillés. D'abord en Nord-Est (raide)/Est puis Sud et enfin surtout en Ouest et Nord-Ouest en fin de journée. Avalanches de petite taille (taille 1) en général. Taille moyenne (taille 2) possible quand la topographie s'y prête ou lors d'un déclenchement en cascade d'une plaque d'aspect humide (cassure linéaire pouvant, dans le pire des cas générer une grande avalanche). \nPar ailleurs, des plaques de fond sont à craindre, à toute heure, surtout en Nord sous 2300 m. Aussi, chutes de corniches possibles. \n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop ramollie par le Soleil. Sinon, au-dessus de 2500 m en Nord dans une pente très raide, une petite plaque peut déstabiliser le skieur qui la déclenche.",
-  "snowQuality": "Enneigement : encore un peu au-dessus de la moyenne, mais plus pour longtemps avec une fonte accélérée de 5 à 10 cm par jour avec la chaleur en cours.\n\nLimite skiable : vers 1200/1300 m en Nord, 1500/1600 m en Sud.\n\nQualité de la neige : en Nord au-dessus de 2500 m, poudre tassée agréable à l'abri des vents, sinon dans les nombreux secteurs ventés très hétérogènes carton à dure dans les pentes et croupes/crêtes pelées.\nPartout ailleurs, regel nocturne correct avec une croûte portante au lever du jour, ramollissant très rapidement dans les versants Est, plus tardivement ailleurs en suivant la course du soleil. Le créneau en neige de printemps agréable à descendre risque d'être court avec une neige devenant vite pourrie. L'après midi, neige pourrie dans un grand nombre de pentes. ",
+  "summary": "Départs spontanés : quelques départs en neige humide possibles à toutes heures, même en nord. Avalanches de glissement.\nDéclenchements skieurs : petites coulées sous les skis dans la neige fortement humidifiée (pourrie).",
+  "stability": "CIEL COUVERT, MAUVAIS REGEL ET HUMIDIFICATION MÊME EN PLEIN NORD.\n\nDéparts spontanés : \n- Quelques départs en neige humide sont attendus en tous versants et à toute heure de la journée. Ce sont principalement des départs ponctuels (poires), donnant des petites à moyennes avalanches. En effet, le regel est très mauvais et malgré l'absence de soleil, la masse d'air très douce combinée à la présence d'une épaisse couverture nuageuse va permettre la poursuite de l'activité en neige humide. On s'attend à une activité moins soutenue que les jours précédents en versants ensoleillés. Mais, à l'inverse, les versants nord encaissés et protégés du soleil (restés en neige froide jusqu'à maintenant) vont subir leur première humidification en surface et seront donc eux aussi concernés par ce risque.\n- Quelques avalanches de glissement (plaques de fond) à toute heure sur terrain propice, notamment en Nord sous 2400 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée (dès le matin).\n\nAutres : chutes de corniches possibles à toute heure.",
+  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours (fonte accélérée de 5 à 10 cm par jour).\n\nLimite skiable : vers 1200/1300 m en Nord, 1600/1700 m en Sud.\n\nQualité de la neige : regel mauvais ou inexistant. Neige humide voire pourrie partout et ce dès le matin. Collante possible en Nord, dans les rares secteurs qui étaient encore en neige froide et s’humidifient eux aussi. En fin de journée, il peut tomber localement 5 à 10 cm de neige au-dessus de 2300/2400 m (cela ne donnera de la neige froide/poudreuse qu'au dessus de 2700 m, et donc ne concernera qu'une partie très réduite du Beaufortain...).",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

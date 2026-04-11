@@ -1,12 +1,12 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-04-10T16:00:00",
-  "validUntil": "2026-04-11T18:00:00",
-  "riskMax": 3,
+  "date": "2026-04-11T16:00:00",
+  "validUntil": "2026-04-12T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -24,9 +24,9 @@
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Nombreuses avalanches de neige humide, parfois grandes dans les configurations défavorables.\nDéclenchements skieurs : Avalanches de neige humide sous les skis.",
-  "stability": "Forte humidification du manteau neigeux qui commence à atteindre les altitudes\n\nDéparts spontanés :\n* Nombreuses avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et de l'ensoleillement. En adrets, l'humidification commence dès le lever du soleil. Globalement sous 2500m en Nord et 3500 m en Sud, l'humidification est sensible, et commence à être profonde, notamment près des rochers et des falaises. Taille 1 à 2 (petite à moyenne).\n* Au-delà de 2000m, des avalanches de plaques humides peuvent aussi partir spontanément lors de l'humidification d'une couche fragile enfouie sous 30/40 cm de neige. Taille 1 à 2.\n* Des avalanches de fond sont possibles à toute heure du jour et de la nuit, sur les pentes herbeuses ou les dalles rocheuses. Taille 2.\n\nDéclenchements provoqués :\n* Au passage d'un skieur, de la neige humide peut couler sous les skis. Ces avalanches concernent les secteurs ensoleillés, là où la neige devient meuble suite à l'humidification lié au soleil. Au-delà de 2000m, le skieur peut également déclencher une plaque humide de 30/40 cm d'épaisseur.\n\nAutres :\n* ATTENTION, il reste encore une couche fragile persistante enfouie sous 1m/1m20 de neige. Ces couches fragiles sont présentes entre 1800 et 2500m. Dans le cas d'un déclenchement en cascade (naturel ou provoqué), cette couche fragile pourrait être sollicitée et ainsi engendrer des avalanches de plus grandes ampleurs. Taille 2 à 3 (moyenne à grande). Aux heures les plus chaudes, cette couche fragile pourrait céder spontanément, sans signe apparent.\n* Avec les fortes chaleurs, attentions aux chutes de pierre et aux corniches qui cèdent.",
-  "snowQuality": "Enneigement :\nL'enneigement est correct au-dessus de 2700m. En dessous, il commence à être déficitaire.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige ce samedi :\n* Regel nocturne plutôt bon.\n* En dessous de 2000 m en nord et 2600 m en sud, manteau neigeux printanier. Humidification rapide et profonde au soleil. \n* Entre 2000 et 2700 m en nord, et 2600 et 3500 m en sud, croute de regel portante sur de la vielle neige dense, s'humidifiant un peu au soleil. \n* Au-délà de ces altitudes, il reste de la neige froide et soufflée. En haute-montagne, les crêtes sont décapés et de nombreux endroits ressortent en glace à cause du vent passé.",
+  "summary": "Départs spontanés : Avalanches en neige humide.\nDéclenchements skieurs : avalanches de neige humide sous les skis.",
+  "stability": "Manteau neigeux qui s'humidifie jusqu'à 3000 m.\n\nDéparts spontanés :\n* Avalanches de neige humide sur tous les versants jusqu'à 2800/3000 m surtout sur les versants nord entre 2300/2500 m et 3000 m. Sous l'effet des nuages et de l'isotherme 0°C encore élevés,  les faces nord s'humidifient jusqu'à 2800/3000 m. Taille 1 à 2 (petite à moyenne).\nFacteur aggravant : départ en cascade possible entre 1800 m et 2500 m (naturel ou provoqué) sur un secteur Est à Nord Ouest sur de la couche fragile persistante enfouie sous environ 1m/1m20 de neige. Taille 2 à 3 (moyenne à grande)\n* Au-delà de 2000m, des avalanches de plaques humides peuvent aussi partir spontanément lors de l'humidification d'une couche fragile enfouie sous 30/40 cm de neige. Taille 1 à 2.\n* Des avalanches de fond sont possibles à toute heure du jour et de la nuit, sur les pentes herbeuses ou les dalles rocheuses. Taille 2.\n\nDéclenchements provoqués :\n* Au passage d'un skieur, de la neige humide peut couler sous les skis. Ces avalanches concernent toutes les orientations et toutes altitudes. Au-delà de 2000m en ubacs, le skieur peut également déclencher une plaque humide de 30/40 cm d'épaisseur.\n\nAutres :\n* Chutes de corniche possible au vu de l'humidification des versants nord d'altitude et de l'absence de regel nocturne.",
+  "snowQuality": "Enneigement :\nL'enneigement est correct au-dessus de 2700m. En dessous, il commence à être déficitaire.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1400/1500 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige dimanche :\n* Absence de regel nocturne en dessous de 2800/3000 m. Bon au-dessus.\n * En dessous de 2800/3000 m : neige humide\n* Entre 2800/3000 m et 3500 m en adrets : neige regelée.\n* En ubacs au-dessus de 3000 m et au-dessus de 3500 m en adrets : neige froide souvent soufflée. En haute-montagne, les crêtes sont décapées et de nombreux endroits ressortent en glace à cause du vent passé.",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

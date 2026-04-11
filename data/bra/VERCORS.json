@@ -1,12 +1,12 @@
 {
   "massif": "VERCORS",
-  "date": "2026-04-10T16:00:00",
-  "validUntil": "2026-04-11T18:00:00",
+  "date": "2026-04-11T16:00:00",
+  "validUntil": "2026-04-12T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -23,9 +23,9 @@
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Avalanches humides et de glissement en pentes ensoleillées. Rares avalanches de grandes tailles possibles. \nDéclenchements skieurs : En pente bien humide, coulée ponctuelle sous les skis.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER, ASSOCIE A UNE ACTIVITE NATURELLE EN JOURNEE, UN RARE DEPART VOLUMINEUX POSSIBLE\n\nDéparts spontanés : \n- Après un regel nocturne médiocre, de nouvelles avalanches humides peuvent se produire dès la matinée dans les pentes réchauffées par le soleil, le plus souvent de petite taille ou de taille moyenne. Cette problématique augmente au fil des heures au gré du parcours du soleil et du réchauffement des pentes. (Sud-est à Est le matin jusqu'à Ouest Sud-ouest en fin de journée).\n- A toute heure (parfois même la nuit) et dans la plupart des versants, des avalanches de glissement peuvent se produire. De tailles moyennes, voire rarement de grandes tailles. Surtout en alpage raide / sur les dalles rocheuses. Parfois précédées par l'ouverture d'une fissure (gueule de baleine). \n- Une rupture spontanée de corniche est également possible l'après-midi et à surveiller dans les secteurs concernés.\n\nDéclenchements provoqués : En pentes soutenues et bien humidifiées, le pratiquant pourrait faire couler la neige humide sous les skis. \n\nAutres :  A l'ombre (le matin surtout) neige souvent très dure ou croutée par le regel. Surfaces glissantes généralisées.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est toujours bon dès la moyenne montagne peu ensoleillée, et dans les combes d'altitude (ce qui est plus classique)... La fonte a bien débuté aux plus basses altitudes enneigées et dans les versants bien ensoleillés, elle se poursuit ce samedi.\nLimites skiables : Vers 1200/1500m en plein Nord (hors sapins), 1700/1800m au soleil...\n\nQualité de la neige samedi :   En large Sud neige transformée, printanière. Regel nocturne médiocre, puis rapide humidification suivant la course du soleil. Petite créneau de moquette, mais rapidement retour en neige pourrie. En versants intermédiaires neige souvent croutée/cassante jusqu'en fin de journée.",
+  "summary": "Départs spontanés : Avalanches humides et de glissement possibles à toutes heures \nDéclenchements skieurs : En pente bien humide, coulée ponctuelle sous les skis.",
+  "stability": "CIEL COUVERT, PAS DE REGEL, HUMIDIFICATION MEME EN PLEIN NORD \n\nDéparts spontanés : \n-  Des avalanches humides peuvent partir à toute heure, mais le risque est plus marqué sous les averses ainsi que dimanche aux heures les plus chaudes. Elles sont le plus souvent de petites tailles ou de tailles moyennes. Elles pourraient être un peu plus fréquentes dans les versants Nord où le manteau neigeux avait jusqu'ici été plus \"épargné\" par le redoux printanier. \n- A toute heure (parfois même la nuit) et dans la plupart des versants, des avalanches de glissement peuvent se produire. De tailles moyennes, voire rarement de grandes tailles. Surtout en alpage raide / sur les dalles rocheuses. Parfois précédées par l'ouverture d'une fissure (gueule de baleine). \n\nDéclenchements provoqués : En pentes soutenues, le pratiquant pourrait faire couler la neige humide sous les skis. ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est toujours correct en moyenne montagne peu ensoleillée. bon dès la moyenne montagne peu ensoleillée, mais il se dégrade fortement depuis maintenant une grosse semaine. La fonte se poursuit ce dimanche, et s'accélère en versant Nord.\nLimites skiables : Vers 1200/1500m en plein Nord (hors sapins), 1700/1800m au soleil...\n\nQualité de la neige dimanche :  Regel nocturne inexistant. Neige pourrie dans la plupart des versants dés le réveil. Un peu moins mauvaise en Nord... ",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

@@ -1,28 +1,45 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-04-11T16:00:00",
-  "validUntil": "2026-04-12T18:00:00",
-  "riskMax": 2,
+  "date": "2026-04-12T16:00:00",
+  "validUntil": "2026-04-13T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2400",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2400",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
         "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "sous_couche_fragile",
+    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide, rarement de grande taille\nDéclenchements skieurs : en neige humide sous les skis",
-  "stability": "MANTEAU NEIGEUX FORTEMENT HUMIDIFIÉ, ACTIVITÉ AVALANCHEUSE LIMITÉE\n\nDéclenchements provoqués : instabilités localisées dans les pentes orientées est, nord et ouest, plutôt au-dessus de 2200/2400 m d'altitude. Ces instabilités sont parfois déclenchables par un seul skieur et peuvent générer des avalanches de taille moyenne, très rarement grande.\nL'humidification du manteau neigeux se poursuit et peut solliciter des couches fragiles persistantes situées près de la base du manteau neigeux. \nCes déclenchements d'ampleur restent aléatoire mais contrairement aux jours précédents,ils peuvent intervenir tôt le matin, car le regel nocturne est très limité et superficiel.\n\nDéparts spontanés : en neige humide, possibles à toute heure de la journée, plus probables en cas d'éclaircies durables. Généralement de taille petite à moyenne, grande non exclue, en particulier en versant plein nord entre 2200 et 2600 m environ. Sur ces pentes, le temps humide et encore très doux entraîne une première humidification notable du manteau neigeux.",
-  "snowQuality": "Enneigement déficitaire pour un début avril, notamment en adrets, parfois secs jusqu'à 2500 m.\nHauteurs de neige observées vers 2500 m : 120 cm en versant nord du col Izoard et au-dessus de Saint-Véran à 2700 m, 71 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 1700/1800 m en ubacs bien protégés ou sur pistes forestières, plutôt 2200/2300 m en adrets.\n\nÉtat de la neige de surface : manteau printanier, sauf en versants nord au-dessus de 2500/2700 m environ. Mauvais regel nocturne. Humidification profonde en journée même en l'absence de franc soleil. ",
+  "summary": "Départs spontanés : Avalanches de neige fraîche à haute altitude sur le secteur frontalier, taille moyenne à grande en fin de journée\nDéclenchements skieurs : Nombreuses instabilités en formation sur le secteur frontalier italien",
+  "stability": "NEIGE DEVENANT ABONDANTE A LA FRONTIÈRE ITALIENNE\n\nDéclenchements provoqués : nombreuses instabilités de surface en formation sous les chutes de neige modérément ventées. Localisées surtout à la frontière italienne au-dessus de 2400 m (secteur Fonts de Cervières, Le Roux, Valpréveyre, L'Échalp), elles sont facilement déclenchables par un seul skieur. Avalanches possibles en toute orientation et de taille petite à moyenne. Cet apport important de neige fraîche tombe sur un manteau généralement humide et plutôt sain (voire un sol nu en adrets) ; en ubacs de haute altitude, il peut cependant réactiver les couches fragiles enfouies à la base du manteau neigeux, générant alors une avalanche de grande taille, avec déclenchement possible à distance. \nSur l'ouest du massif où les chutes sont négligeables, le danger est plus limité, les instabilités se situent dans la neige encore humide, plutôt sous 2400 m.  \n\nDéparts spontanés : de neige fraîche ventée, taille petite à moyenne sur le secteur frontalier italien, grande non exclue en fin de journée dans les secteurs d'accumulation par la lombarde à haute altitude. Sur le reste du massif, rares et ponctuels en neige humide, taille petite à moyenne en versants nord. ",
+  "snowQuality": "Enneigement nettement déficitaire pour une mi-avril avant l'épisode de ce lundi, notamment en adrets, parfois secs jusqu'à 2500 m.\nHauteurs de neige observées vers 2500 m : 115 cm en versant nord du col Izoard et au-dessus de Saint-Véran à 2700 m, 65 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 1700/1800 m en ubacs bien protégés ou sur pistes forestières, plutôt 2200/2300 m en adrets.\n\nÉtat de la neige de surface : neige fraîche de plus en plus épaisse en allant vers la frontière italienne, tombant sèche et modérément ventée à partir de 2300/2400 m. Sur la majeure partie du massif, manteau neigeux humide, regel très limité à partir de 2600/2800 m. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

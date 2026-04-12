@@ -1,16 +1,19 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-04-11T16:00:00",
-  "validUntil": "2026-04-12T18:00:00",
-  "riskMax": 2,
+  "date": "2026-04-12T17:00:00",
+  "validUntil": "2026-04-13T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 2,
+      "level": 3,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
         "W",
         "NW"
       ]
@@ -21,9 +24,9 @@
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : quelques départs en neige humide possibles à toutes heures, même en nord.\nDéclenchements skieurs : petites coulées voire localement une plaque sous les skis dans la neige fortement humidifiée (pourrie).",
-  "stability": "CIEL DE PLUS EN PLUS NUAGEUX ET MASSE D'AIR TRÈS DOUCE : HUMIDIFICATION MÊME EN PLEIN NORD.\n\nDéparts spontanés : \n- Quelques départs en neige humide sont attendus en tous versants et à toute heure de la journée. Les départs peuvent être ponctuels (poires), donnant des petites à moyennes avalanches, mais aussi plus rarement linéaires (plaques) donnant alors de grandes avalanches (taille 3) car l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. Ces cassures linéaires semblent plus probables en versants Est/Nord/Ouest, sous 2700 m. \nEn effet, le regel est plutôt médiocre et malgré un soleil quasi inexistant, la masse d'air très douce combinée à la présence d'une épaisse couverture nuageuse va permettre la poursuite de l'activité en neige humide. On s'attend à une activité moins soutenue que les jours précédents en versants ensoleillés. Mais, à l'inverse, les versants nord encaissés et protégés du soleil (restés en neige froide jusqu'à maintenant) vont subir leur première humidification en surface et seront donc eux aussi concernés par ce risque.\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrain propice, notamment sous 2500 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée (notamment aux altitudes intermédiaires 2000/2800 m). Coulées sous les skis voire cassure linéaire pouvant donner une rare grande avalanche quand les couches fragiles du début de saison s'humidifient.\n\nAutres : chutes de corniches possibles à toute heure.",
-  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours (fonte accélérée de 5 à 10 cm par jour).\n\nLimite skiable : vers 1400 m en Nord, 1800/1900 m en Sud.\n\nQualité de la neige : le regel est plutôt médiocre à cause du voile nuageux. Neige rapidement humide voire pourrie partout dès le matin. Collante possible en Nord, dans les rares secteurs qui étaient encore en neige froide et s’humidifient eux aussi. Un retour d'Est se met en place en fin de journée, avec une limite pluie-neige vers 2200 m.",
+  "summary": "Départs spontanés : nombreux départs. Humides en bas; secs et parfois volumineux en haut.\nDéclenchements skieurs : nouvelles plaques réactives en altitude.",
+  "stability": "RETOUR D'EST ACTIF : FORTES CHUTES DE NEIGE PRÈS DE LA FRONTIÈRE\n\nDéparts spontanés :\n - Au dessus de la limite pluie-neige (~2000/2200 m), nombreux départs au cours des chutes, essentiellement dans les pentes raides et taille 1 à 2 ( petits à moyens), quelques grands départs linéaires (taille 3) sont possibles, notamment dans les faces Nord qui hébergeaient des couches fragiles. Les départs sont plus fréquents et volumineux au fil des heures et en s'approchant de la frontière. Cassure approchant 80 cm le soir vers la frontière.\n - En-dessous, quelques départs en neige humide, facilités par la pluie et le mauvais regel, sont attendus en tous versants. Les départs peuvent être ponctuels (poires), donnant des petites à moyennes avalanches, mais aussi plus rarement linéaires (plaques) donnant alors de grandes avalanches (taille 3) car l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. Ces cassures linéaires semblent plus probables en versants Est/Nord/Ouest. \n - Rares avalanches de glissement (plaques de fond) à toute heure sur terrain propice, notamment sous 2500 m. Taille 2.\n\nDéclenchements provoqués : \n - Au dessus de la limite pluie-neige (~2000/2200 m), quelques plaques réactives devenant plus nombreuses et plus épaisses au fil des heures, surtout vers la frontière. Toute pente suffisamment raide est concernée.\n - Plus bas, avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée. Coulées sous les skis voire cassure linéaire pouvant donner une rare grande avalanche quand les couches fragiles du début de saison s'humidifient.\n\nAutres : chutes de corniches possibles à toute heure.",
+  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours (fonte accélérée de 5 à 10 cm par jour).\n\nLimite skiable : vers 1400 m en Nord, 1800/1900 m en Sud.\n\nQualité de la neige : sous la limite pluie-neige (oscillant entre 1800 et 2200 m), neige pourrie par le mauvais regel et la pluie, au-dessus, la couche de neige fraîche s’épaissit vite, surtout près de la frontière (des Lévanna à la dent d'Ambin). D'ici lundi fin d'après-midi, jusqu'à 80 cm près des sommets frontaliers, 40 cm au-dessus de Bonneval, 20/30 cm vers Valfréjus, 10/15 cm vers le Mont Cenis.",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

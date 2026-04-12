@@ -1,7 +1,7 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-04-11T16:00:00",
-  "validUntil": "2026-04-12T18:00:00",
+  "date": "2026-04-12T16:00:00",
+  "validUntil": "2026-04-13T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,13 +17,13 @@
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent",
-    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés :  en neige humide, parfois linéraires et rarement de grande taille\nDéclenchements skieurs : départs ponctuels sous les skis en neige humide",
-  "stability": "MANTEAU NEIGEUX BIEN HUMIDE JUSQU’À 2500 M. GRANDES AVALANCHES EN NEIGE HUMIDE POSSIBLES\n\nDéparts spontanés : des avalanches de neige humide peuvent se produire à tout moment, en particulier en versant nord entre 2200 et 2500 m environ, favorisées par un regel nocturne plutôt médiocre en moyenne montagne (correct en haute altitude) et des averses de pluie sous 2500 m de l'après-midi. Avalanches le plus souvent de taille moyenne (taille 2). L’humidification gagnant en profondeur, on ne peut exclure qu'elle atteigne des couches fragiles enfouies, notamment à la base du manteau neigeux, provoquant une avalanche plus conséquente de grande taille.\nCes départs cessent en fin de journée avec le net refroidissement de la masse d'air. \n\nDéclenchements provoqués : le pratiquant peut déclencher une avalanche dans la neige humide / pourrie dans les pentes raides. Orientations privilégiées est / nord / ouest d’altitude. Taille moyenne, voire grande. En effet, avec l’humidification peut solliciter une plaque enfouie reposant sur une couche fragile persistante.",
-  "snowQuality": "Enneigement encore légèrement excédentaire pour la saison. \nHauteurs de neige observées :  vers 2000 m, 133 cm dans le vallon de Valdemars et , 63 cm à Ia Sanguinière dans le Haut-Var.\n\nEnneigement skiable généralement à partir de 1800 m en terrain favorable et 2200 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux bien humide dans toutes les orientations avec un regel nocturne souvent médiocre à moyenne altitude. Seuls les nord de haute altitude sont restés en neige peu transformée. Au dessus de 2500 m, saupoudrage possible en fin de journée sous une averse de neige.",
+  "summary": "Départs spontanés : en neige humide en moyenne montagne, de neige fraîche au dessus de 2500 m\nDéclenchements skieurs : plaques à vent en formation au dessus de 2500 m",
+  "stability": "NOUVELLES PLAQUES EN FORMATION AU DESSUS DE 2500 M, MANTEAU NEIGEUX RESTANT BIEN HUMIDE EN DESSOUS\n\nDéclenchements provoqués : plaques en formations au dessus de 2500 m environ, avec les chutes ventées. Sous l'action d'un vent d'est modéré, ces instabilité sont possibles dans toutes les orientations mais plus nombreuses en ouest, nord et est. Plaques d'épaisseur limitée mais facilement déclenchables, pouvant engendrer des avalanches petites à moyennes (taille 1 à 2). \nSous 2300/2500 m, le pratiquant peut déclencher sous les skis une avalanche dans la neige humide / pourrie dans les pentes raides. Taille moyenne en général.\n\nDéparts spontanés : sous 2200/2400 m, des avalanches de neige humide peuvent encore se produire à tout moment, en particulier en versant nord, favorisées par les pluies sous 2000/2200 m et par l'eau qui continue de percoler dans le manteau neigeux. Avalanches le plus souvent de taille moyenne (taille 2). Au dessus de 2500 m, des petits départs de neige sèche ventée sont possibles en pentes raides pendant les chutes.",
+  "snowQuality": "Enneigement encore légèrement excédentaire pour la saison. \nHauteurs de neige observées :  vers 2000 m, 126 cm dans le vallon de Valdemars et , 58 cm à Ia Sanguinière dans le Haut-Var.\n\nEnneigement skiable généralement à partir de 1800 m en terrain favorable et 2200 m en adrets peu pentus.  \n\nÉtat de la neige en surface : sous 2300/2500 m, manteau neigeux bien humide dans toutes les orientations. On retrouve 5/10 cm de neige fraîche au dessus de 2500 m, souvent travaillée par le vent d'Est. ",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

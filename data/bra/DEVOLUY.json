@@ -1,7 +1,7 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-04-11T16:00:00",
-  "validUntil": "2026-04-12T18:00:00",
+  "date": "2026-04-12T16:00:00",
+  "validUntil": "2026-04-13T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,17 +10,19 @@
       "orientations": [
         "N",
         "NE",
+        "E",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "sous_couche_fragile",
-    "neige_humide"
+    "neige_humide",
+    "glissement"
   ],
-  "summary": "Départs spontanés : en neige humide, rarement de grande taille\nDéclenchements skieurs : en neige humide sous les skis",
-  "stability": "MANTEAU NEIGEUX FORTEMENT HUMIDIFIÉ, ACTIVITÉ AVALANCHEUSE LIMITÉE\n\nDéclenchements provoqués : instabilités localisées dans les pentes d'un large secteur nord, plutôt au-dessus de 2000/2200 m d'altitude. Ces instabilités sont parfois déclenchables par un seul skieur et peuvent générer des avalanches de taille moyenne, très rarement grande.\nL'humidification du manteau neigeux se poursuit et peut solliciter des couches fragiles persistantes situées près de la base du manteau neigeux. \nCes déclenchements d'ampleur restent aléatoires mais contrairement aux jours précédents,ils peuvent intervenir tôt le matin, car le regel nocturne est très limité et superficiel.\n\nDéparts spontanés : en neige humide, possibles à toute heure de la journée, plus probables en cas d'éclaircies durables. Généralement de taille petite à moyenne, grande non exclue, en particulier en versant plein nord entre 2200 et 2600 m environ. Sur ces pentes, le temps humide et encore très doux entraîne une première humidification notable du manteau neigeux ; c'est encore plus vrai en fin de journée, lorsque les précipitations, pluvieuses jusque 2500 m, se mettent en place.  \n",
-  "snowQuality": "Enneigement excédentaire pour un début avril, notamment en ubacs et vallons d'altitude.  \n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1900/2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : manteau printanier, mauvais regel nocturne. Humidification profonde en journée même en l'absence de franc soleil. Sur les crêtes, d'épaisses corniches côtoient des zones pelées par le vent.",
+  "summary": "Départs spontanés : Résiduels en neige humide ou rare avalanche de glissement\nDéclenchements skieurs : ponctuels dans la neige humide, parfois volumineux",
+  "stability": "MANTEAU NEIGEUX HUMIDE ET PLUTÔT STABLE\n\nDéclenchements provoqués : ponctuels dans la neige humide, mais pouvant mobiliser une grande partie du manteau neigeux en versant ouest, nord et est d'altitude, surtout au-dessus de 2200 m. Parfois déclenchables par un seul skieur, générant des avalanches de taille petite à moyenne. \n\nDéparts spontanés : en neige humide, en atténuation. Rares départs de taille moyenne encore possible en large versant nord, parfois sous forme d'avalanche de glissement, emportant tout le manteau neigeux.\n",
+  "snowQuality": "Enneigement encore excédentaire pour une mi-avril, notamment en ubacs et vallons d'altitude.  \n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1900/2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : manteau neigeux humide regelant progressivement lundi avec le refroidissement de la masse d'air",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

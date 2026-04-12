@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-04-11T16:00:00",
-  "validUntil": "2026-04-12T18:00:00",
+  "date": "2026-04-12T16:00:00",
+  "validUntil": "2026-04-13T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -11,21 +11,17 @@
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_humide",
-    "glissement"
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Avalanches humides et de glissement possibles à toutes heures \nDéclenchements skieurs : En pente bien humide, coulée ponctuelle sous les skis.",
-  "stability": "CIEL COUVERT, PAS DE REGEL, HUMIDIFICATION MEME EN PLEIN NORD \n\nDéparts spontanés : \n-  Des avalanches humides peuvent partir à toute heure, mais le risque est plus marqué sous les averses ainsi que dimanche aux heures les plus chaudes. Elles sont le plus souvent de petites tailles ou de tailles moyennes. Elles pourraient être un peu plus fréquentes dans les versants Nord où le manteau neigeux avait jusqu'ici été plus \"épargné\" par le redoux printanier. \n- A toute heure (parfois même la nuit) et dans la plupart des versants, des avalanches de glissement peuvent se produire. De tailles moyennes, voire rarement de grandes tailles. Surtout en alpage raide / sur les dalles rocheuses. Parfois précédées par l'ouverture d'une fissure (gueule de baleine). \n\nDéclenchements provoqués : En pentes soutenues, le pratiquant pourrait faire couler la neige humide sous les skis. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est toujours correct en moyenne montagne peu ensoleillée. bon dès la moyenne montagne peu ensoleillée, mais il se dégrade fortement depuis maintenant une grosse semaine. La fonte se poursuit ce dimanche, et s'accélère en versant Nord.\nLimites skiables : Vers 1200/1500m en plein Nord (hors sapins), 1700/1800m au soleil...\n\nQualité de la neige dimanche :  Regel nocturne inexistant. Neige pourrie dans la plupart des versants dés le réveil. Un peu moins mauvaise en Nord... ",
+  "summary": "Départs spontanés : Quelques coulées humides ou un rare départ au terrain\nDéclenchements skieurs : Coulée ponctuelles sous les skis en pentes raides",
+  "stability": "MANTEAU ENTIEREMENT HUMIDE, FINE COUCHE DE NEIGE RECENTE EN ALTITUDE\n\nDéparts spontanés :\n-Le manteau neigeux est la plupart du temps humide jusqu'à la base, hormis peut être dans les versants Nord d'altitude. L'humidification se poursuit et s'accélère sous les averses dans la nuit de dimanche à lundi, favorisant le risque de coulées humides, notamment en versants Nord. En plein Sud le risque de coulées est plus faible, la plupart des coulées étant déjà parties lors de la semaine dernière. \n- Dans les pentes raides herbeuses ou sur les dalles rocheuses, un rare départ au terrain reste possible, parfois précédé par l'ouverture d'une fissure (gueule de baleine).  \n\nDéclenchements provoqués : \n- En pente raide, possibilité de faire partir une petite coulée humide sous les skis. ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est toujours correct en moyenne montagne peu ensoleillée, mais il se dégrade fortement depuis maintenant une grosse semaine. La fonte se poursuit ce lundi, mais ralentit sur le haut du massif avec l'arrivée d'air moins doux.\nLimites skiables : Vers 1200/1500m en plein Nord (hors sapins), 1700/1800m au soleil...\n\nQualité de la neige lundi :  Neige humide voire pourrie sur l'ensemble du massif. La masse d'air se rafraîchit légèrement l'après-midi et quelques cm de neige récente humide sont possibles au-dessus de 1500m. ",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

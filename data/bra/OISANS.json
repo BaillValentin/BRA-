@@ -1,7 +1,7 @@
 {
   "massif": "OISANS",
-  "date": "2026-04-11T16:00:00",
-  "validUntil": "2026-04-12T18:00:00",
+  "date": "2026-04-12T16:00:00",
+  "validUntil": "2026-04-13T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -11,9 +11,6 @@
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
@@ -25,9 +22,9 @@
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Avalanches humides et de glissement en pentes ensoleillées. Rares avalanches de grandes tailles possibles. \nDéclenchements skieurs : En pente bien humide, coulée ponctuelle sous les skis.",
-  "stability": "CIEL VOILE A COUVERT, REGEL MEDIOCRE, HUMIDIFICATION MEME EN PLEIN NORD \n\nDéparts spontanés : \n- Regel nocturne médiocre sur l'Est du massif, inexistant vers le Taillefer. Des avalanches humides peuvent partir à toute heure, mais le risque est plus marqué sous les averses de pluie (sous 2500m) ainsi que dimanche aux heures les plus chaudes. Elles sont le plus souvent de petites tailles ou de tailles moyennes. Elles pourraient être un peu plus fréquentes dans les versants Nord où le redoux printanier avait moins impacté le manteau neigeux. Elles sont au contraire moins nombreuses en Sud-Ouest à Sud-Est où l'humidification a déjà purgé la plupart des pentes. \nEn Nord-Est et Nord-Ouest, l'humidification gagne en profondeur et on ne peut exclure qu'elle atteigne localement des couches fragiles enfouies dans le manteau, auquel cas une avalanche plus conséquente est envisageable, avec un départ linéaire et/ou jusqu'au terrain. \n- A toute heure (parfois même la nuit) et dans la plupart des versants hormis en plein Nord, des avalanches de glissement peuvent se produire. De tailles moyennes, voire rarement de grandes tailles. Surtout en alpage raide / sur les dalles rocheuses. Parfois précédées par l'ouverture d'une fissure (gueule de baleine). \n- Une rupture spontanée de corniche est également possible l'après-midi et à surveiller dans les secteurs concernés.\n\nDéclenchements provoqués : En pentes soutenues et bien humidifiées, le pratiquant pourrait faire couler la neige humide sous les skis. Très localement en large Nord d'altitude, le départ d'une coulée ponctuelle pourrait venir solliciter les couches fragiles persistantes et faire partir en cascade une plaque de grande taille. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit cette semaine mais reste toujours bon dès la moyenne montagne peu ensoleillée, et dans les combes d'altitude... L'enneigement devient en revanche moins généreux aux basses altitudes et en versants bien ensoleillés. \nLimites skiables : Vers 1300/1500m en plein Nord (hors sapins), 1700/1800m au soleil...\n\nQualité de la neige dimanche :  Regel médiocre sur l'Est du massif sous un ciel voilé, et inexistant en allant vers le Taillefer où le ciel sera couvert. Par conséquent, neige souvent pourrie à basse et moyenne altitude dés le réveil sous 3000 / 3200m. Neige un peu meilleure en Nord, mais la neige s'humidifie également dans ces versants, rendant la neige parfois collante. Au-dessus de 3200m, neige plus froide, mais s'humidifiant malgré tout en journée. L'après-midi, l'humidification s'accéllère sous les averses sous 2500m, tandis qu'une petite couche de neige fraîche se dépose à plus haute altitude. ",
+  "summary": "Départs spontanés : Avalanches humides et de glissement en pentes ensoleillées. Rares avalanches de grandes tailles possibles. \nDéclenchements skieurs : En pente bien humide, coulée ponctuelle sous les skis. Rares plaques superficielles vers les Ecrins. ",
+  "stability": "CIEL COUVERT, QUELQUES AVERSES DE NEIGE EN ALTITUDE, POURSUITE DE L'HUMIDIFICATION EN MOYENNE MONTAGNE \n\nDéparts spontanés : \n- Pas de regel nocturne sous 2500 / 2700m environ. Sous ces altitudes, des avalanches humides peuvent encore partir à toute heure, de tailles petites à moyennes. Au-dessus de 2500m, le risque diminue légèrement grâce au léger regel nocturne, mais reprends en journée. Les coulées sont moins fréquentes en secteurs Sud-Ouest à Sud-Est où l'humidification a déjà purgé la plupart des pentes la semaine dernière. En Nord-Est et Nord-Ouest en revanche, l'humidification gagne en profondeur et on ne peut exclure qu'elle atteigne localement des couches fragiles enfouies dans le manteau, auquel cas une avalanche plus conséquente est envisageable, avec un départ linéaire et/ou jusqu'au terrain. \n- A toute heure (parfois même la nuit) et dans la plupart des versants hormis en plein Nord, des avalanches de glissement peuvent se produire. De tailles moyennes, voire rarement de grandes tailles. Surtout en alpage raide / sur les dalles rocheuses. Parfois précédées par l'ouverture d'une fissure (gueule de baleine). \n- Une rupture spontanée de corniche est également possible l'après-midi et à surveiller dans les secteurs concernés.\n\nDéclenchements provoqués :\n- En pentes soutenues et bien humidifiées, le pratiquant pourrait faire couler la neige humide sous les skis. Très localement en large Nord-Ouest à Nord-Est d'altitude, le départ d'une coulée ponctuelle pourrait venir solliciter les couches fragiles persistantes et faire partir en cascade une plaque (de taille petite à moyenne, parfois grande). \n- Très localement vers les Ecrins, surtout au-dessus de 3000m, des plaques superficielles et de largeur limitées peuvent se former dans les 10-20cm de neige récente.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit la semaine dernière mais reste toujours bon dès la moyenne montagne peu ensoleillée, et dans les combes d'altitude... L'enneigement devient en revanche moins généreux aux basses altitudes et en versants bien ensoleillés. \nLimites skiables : Vers 1400/1600m en plein Nord (hors sapins), 1900/2100m au soleil...\n\nQualité de la neige lundi :  Regel inexistant sous 2500 / 2700m environ. Au-dessus, regel assez médiocre avec une croûte pas toujours portante. Au-dessus de 2200m environ on retrouve parfois une fine couche de neige récente tombée sous les averses dimanche soir, jusqu'à 15cm vers les Ecrins. En journée, forte humidification sous 3000m, parfois même plus haut dans le brouillard, la neige récente colle aux skis. ",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

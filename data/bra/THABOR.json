@@ -1,7 +1,7 @@
 {
   "massif": "THABOR",
-  "date": "2026-04-11T16:00:00",
-  "validUntil": "2026-04-12T18:00:00",
+  "date": "2026-04-12T16:00:00",
+  "validUntil": "2026-04-13T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,12 +17,12 @@
     }
   ],
   "situations": [
-    "sous_couche_fragile",
+    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide, rarement de grande taille\nDéclenchements skieurs : en neige humide sous les skis",
-  "stability": "MANTEAU NEIGEUX FORTEMENT HUMIDIFIÉ, ACTIVITÉ AVALANCHEUSE LIMITÉE\n\nDéclenchements provoqués : instabilités localisées dans les pentes orientées est, nord et ouest, plutôt au-dessus de 2200/2400 m d'altitude. Ces instabilités sont parfois déclenchables par un seul skieur et peuvent générer des avalanches de taille moyenne, très rarement grande.\nL'humidification du manteau neigeux se poursuit et peut solliciter des couches fragiles persistantes situées près de la base du manteau neigeux. \nCes déclenchements d'ampleur restent aléatoires mais contrairement aux jours précédents,ils peuvent intervenir tôt le matin, car le regel nocturne est très limité et superficiel.\n\nDéparts spontanés : en neige humide, possibles à toute heure de la journée, plus probables en cas d'éclaircies durables. Généralement de taille petite à moyenne, grande non exclue, en particulier en versant plein nord entre 2200 et 2600 m environ. Sur ces pentes, le temps humide et encore très doux entraîne une première humidification notable du manteau neigeux ; c'est encore plus vrai en fin de journée, lorsque les précipitations, pluvieuses jusque 2500 m, se mettent en place.  \n",
-  "snowQuality": "Enneigement déficitaire pour un début avril en adrets, plus proche des normales en ubacs d'altitude.\nHauteurs de neige observées vers 2500 m : 136 cm dans le vallon du Chardonnet, 98 cm aux Rochilles, 50 cm dans le vallon de Roche Noire vers le Galibier.\n\nLimite d'enneigement skiable : vers 1600/1700 m en ubacs favorables (terrains herbeux, pistes forestières), 2100/2200 m en adrets pas trop raides.\n\nÉtat de la neige de surface : manteau printanier, sauf en versants nord au-dessus de 2500/2700 m environ. Mauvais regel nocturne la nuit de samedi à dimanche ; humidification généralisée en journée, superficielle en versants nord.",
+  "summary": "Départs spontanés : de plus en plus résiduels dans la neige humide\nDéclenchements skieurs : petites instabilités dans la neige fraîche à haute altitude",
+  "stability": "UN PEU DE NEIGE FRAÎCHE EN ALTITUDE SUR UN MANTEAU NEIGEUX PLUTÔT HUMIDE ET STABLE \n\nDéclenchements provoqués : rares instabilités en formation dans la neige récente à haute altitude, au-dessus de 2400 m. Possibles en toute orientation, elles sont plus nombreuses en ouest, nord et nord-est, et plutôt localisées vers le Mont Thabor et la frontière italienne. Un seul skieur peut les déclencher, générant des avalanches de taille petite, à rarement moyenne, en cas de départ linéaire dans les accumulations de neige ventée. Les chutes de neige prévues sont modestes, tombent peu ventées et sur un manteau neigeux plutôt sain, n'aggravant pas significativement le danger d'avalanche.\n Sous 2400 m, le manteau neigeux est complètement humide. Les déclenchements sont ponctuels, mais peuvent mobiliser l'ensemble du manteau neigeux et générer des avalanches de taille moyenne en versant ouest, nord-ouest, nord-est ou est.\n\n\nDéparts spontanés : en neige humide, en atténuation. Départs encore possibles notamment dimanche soir d'avalanches de taille petite à moyenne sous 2400 m, en particulier sous la pluie. Petits départs de neige sèche ventée à haute altitude dans les secteurs d'accumulation.\n",
+  "snowQuality": "Enneigement déficitaire pour une mi-avril en adrets, plus proche des normales en ubacs d'altitude.\nHauteurs de neige observées vers 2500 m : 136 cm dans le vallon du Chardonnet, 96 cm aux Rochilles, 49 cm dans le vallon de Roche Noire vers le Galibier.\n\nLimite d'enneigement skiable : vers 1600/1700 m en ubacs favorables (terrains herbeux, pistes forestières), 2100/2200 m en adrets pas trop raides.\n\nÉtat de la neige de surface : un peu de neige à partir de 2000/2200 m, sur un manteau humide ou mal regelé jusque 2700/2800 m. ",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

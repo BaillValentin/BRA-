@@ -1,12 +1,12 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-04-12T17:00:00",
-  "validUntil": "2026-04-13T18:00:00",
+  "date": "2026-04-13T16:00:00",
+  "validUntil": "2026-04-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -20,9 +20,9 @@
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : quelques départs en neige humide possibles à toutes heures, même en nord.\nDéclenchements skieurs : petites coulées sous les skis dans la neige fortement humidifiée (pourrie).",
-  "stability": "CIEL COUVERT, MAUVAIS REGEL ET HUMIDIFICATION MÊME EN PLEIN NORD.\n\nDéparts spontanés : \n- Quelques départs en neige humide sont attendus en tous versants et à toute heure de la journée. Ce sont principalement des départs ponctuels (poires), donnant des petites à moyennes avalanches. En effet, le regel est très mauvais et malgré l'absence de soleil, la masse d'air très douce combinée à la présence d'une épaisse couverture nuageuse va permettre la poursuite de l'activité en neige humide. On s'attend à une activité moins soutenue que les jours précédents, notamment en versants ensoleillés. En revanche, les versants nord encaissés et protégés du soleil (restés en neige froide jusqu'à maintenant) subissent leur première humidification marquée et seront donc eux aussi concernés par ce risque.\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrain propice, notamment en Nord sous 2400 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée (dès le matin).\n\nAutres : chutes de corniches possibles à toute heure.",
-  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours (fonte accélérée de 5 à 10 cm par jour).\n\nLimite skiable : vers 1200/1300 m en Nord, 1600/1700 m en Sud.\n\nQualité de la neige : regel mauvais ou inexistant. Neige humide voire profondément pourrie partout dès le matin. Collante possible en Nord, dans les rares secteurs qui étaient encore en neige froide et s’humidifient eux aussi. Quelques centimètres de fraiche à partir de 2200 m mais souvent humide sous 2500 m.",
+  "summary": "Départs spontanés : quelques départs en neige humide.\nDéclenchements skieurs : petites coulées sous les skis dans la neige fortement humidifiée (pourrie).",
+  "stability": "NUAGES ET CHAUFFAGE, HUMIDIFICATION MÊME EN PLEIN NORD.\n\nDéparts spontanés : \n- Quelques départs en neige humide sont attendus en tous versants, ils deviennent plus fréquents l'après midi. Ce sont principalement des départs ponctuels (poires), donnant des petites à moyennes avalanches. Avec les nuages, les versants nord chauffent et sont donc aussi concernés par ce risque, un rare cassure linéaire au volume plus important peut y être observée si l'humidification atteint pour la première fois une couche fragile enfouie. \n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrain propice, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée au fil des heures, avec les nuages toutes les orientations chauffent en même temps.\n\nAutres : chutes de corniches possibles.",
+  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1200/1300 m en Nord, 1600/1700 m en Sud.\n\nQualité de la neige : Les quelques centimètres de fraiche possibles au dessus de 2200 m se tassent et s'humidifient vite en tous versants même en nord où la neige devient collante. Regel aléatoire et manteau profondément pourri parfois dès le matin.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-04-12T16:00:00",
-  "validUntil": "2026-04-13T18:00:00",
+  "date": "2026-04-13T16:00:00",
+  "validUntil": "2026-04-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,11 +17,12 @@
     }
   ],
   "situations": [
-    "neige_humide"
+    "neige_humide",
+    "glissement"
   ],
-  "summary": "Départs spontanés : Quelques coulées humides ou un rare départ au terrain\nDéclenchements skieurs : Coulée ponctuelles sous les skis en pentes raides",
-  "stability": "MANTEAU ENTIEREMENT HUMIDE, FINE COUCHE DE NEIGE RECENTE EN ALTITUDE\n\nDéparts spontanés :\n-Le manteau neigeux est la plupart du temps humide jusqu'à la base, hormis peut être dans les versants Nord d'altitude. L'humidification se poursuit et s'accélère sous les averses dans la nuit de dimanche à lundi, favorisant le risque de coulées humides, notamment en versants Nord. En plein Sud le risque de coulées est plus faible, la plupart des coulées étant déjà parties lors de la semaine dernière. \n- Dans les pentes raides herbeuses ou sur les dalles rocheuses, un rare départ au terrain reste possible, parfois précédé par l'ouverture d'une fissure (gueule de baleine).  \n\nDéclenchements provoqués : \n- En pente raide, possibilité de faire partir une petite coulée humide sous les skis. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est toujours correct en moyenne montagne peu ensoleillée, mais il se dégrade fortement depuis maintenant une grosse semaine. La fonte se poursuit ce lundi, mais ralentit sur le haut du massif avec l'arrivée d'air moins doux.\nLimites skiables : Vers 1200/1500m en plein Nord (hors sapins), 1700/1800m au soleil...\n\nQualité de la neige lundi :  Neige humide voire pourrie sur l'ensemble du massif. La masse d'air se rafraîchit légèrement l'après-midi et quelques cm de neige récente humide sont possibles au-dessus de 1500m. ",
+  "summary": "Départs spontanés : Au fil des heures, rares coulées humides ou avalanches plus conséquentes en faces \"froides\", notamment sous 2000/2300m (de taille 2, parfois 3)...\nDéclenchements skieurs : Peu probable ou coulée humide ponctuelle sous les skis...",
+  "stability": "FAIBLE REGEL MARDI MATIN EN ALTITUDE, PUIS REDOUX/BROUILLARD, RISQUE LOCALISE D'AVALANCHE HUMIDE, PARFOIS AU TERRAIN ?\n\nSaupoudrage sans conséquence lundi. Mardi, faible regel au matin puis neige rapidement humide sur une grande épaisseur, un peu instable en versants \"froids\", rares avalanches possibles, glissant parfois au terrain...\nDéparts spontanés : \nEn altitude, un peu de regel puis avec le redoux et le brouillard prévu la neige s'humidifie en tous versants, sur une grande épaisseur...\nOn s'attend à quelques coulées de neige \"lourde\", parfois une avalanche conséquente en faces Nord. Noter que certaines pentes herbeuses sont fissurées, une avalanche de glissement, au terrain n'est pas exclue, notamment sous 2000/2300m environ.\nEnfin vers les hautes crêtes un effondrement spontané de corniche n'est pas exclu.\n\nDéclenchements provoqués :\nPas de risque de plaque a priori. En pentes soutenues et bien humidifiées, plutôt un risque de coulée ponctuelle sous les skis...\n\nAutres : Regel superficiel mardi matin, neige parfois croutée/cassante. En journée neige très humide  à \"soupe\", ski parfois difficile...",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 10 jours mais reste assez important en faces peu ensoleillées et en combe d'altitude....\nLimites skiables : Vers 1400 à 1800/2100m suivant l'exposition, la raideur de la pente...\n\nQualité de la neige mardi :  Hauts sommets saupoudrés la veille.\nMardi matin faible regel au dessus de 2000/2200m (croute parfois cassante ?)  puis rapide humidification, en tous versants avec les nuages...  neige très humide, plus \"molle\" en versants froids.",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

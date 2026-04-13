@@ -1,7 +1,7 @@
 {
   "massif": "THABOR",
-  "date": "2026-04-12T16:00:00",
-  "validUntil": "2026-04-13T18:00:00",
+  "date": "2026-04-13T16:00:00",
+  "validUntil": "2026-04-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,12 +17,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "neige_humide"
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : de plus en plus résiduels dans la neige humide\nDéclenchements skieurs : petites instabilités dans la neige fraîche à haute altitude",
-  "stability": "UN PEU DE NEIGE FRAÎCHE EN ALTITUDE SUR UN MANTEAU NEIGEUX PLUTÔT HUMIDE ET STABLE \n\nDéclenchements provoqués : rares instabilités en formation dans la neige récente à haute altitude, au-dessus de 2400 m. Possibles en toute orientation, elles sont plus nombreuses en ouest, nord et nord-est, et plutôt localisées vers le Mont Thabor et la frontière italienne. Un seul skieur peut les déclencher, générant des avalanches de taille petite, à rarement moyenne, en cas de départ linéaire dans les accumulations de neige ventée. Les chutes de neige prévues sont modestes, tombent peu ventées et sur un manteau neigeux plutôt sain, n'aggravant pas significativement le danger d'avalanche.\n Sous 2400 m, le manteau neigeux est complètement humide. Les déclenchements sont ponctuels, mais peuvent mobiliser l'ensemble du manteau neigeux et générer des avalanches de taille moyenne en versant ouest, nord-ouest, nord-est ou est.\n\n\nDéparts spontanés : en neige humide, en atténuation. Départs encore possibles notamment dimanche soir d'avalanches de taille petite à moyenne sous 2400 m, en particulier sous la pluie. Petits départs de neige sèche ventée à haute altitude dans les secteurs d'accumulation.\n",
-  "snowQuality": "Enneigement déficitaire pour une mi-avril en adrets, plus proche des normales en ubacs d'altitude.\nHauteurs de neige observées vers 2500 m : 136 cm dans le vallon du Chardonnet, 96 cm aux Rochilles, 49 cm dans le vallon de Roche Noire vers le Galibier.\n\nLimite d'enneigement skiable : vers 1600/1700 m en ubacs favorables (terrains herbeux, pistes forestières), 2100/2200 m en adrets pas trop raides.\n\nÉtat de la neige de surface : un peu de neige à partir de 2000/2200 m, sur un manteau humide ou mal regelé jusque 2700/2800 m. ",
+  "summary": "Départs spontanés : en neige récente humidifiée. \nDéclenchements skieurs : petites instabilités dans la neige récente ventée à haute altitude. ",
+  "stability": "RARES PLAQUES À HAUTE ALTITUDE\n\nDéclenchements provoqués : de rares instabilités sont en place dans la neige récente ventée à haute altitude (au-dessus de 2400 m), plutôt localisées vers le Mont Thabor et la frontière italienne où les chutes de neige de ce lundi sont un peu plus importantes. Elles sont possibles en toute orientation, mais plus nombreuses dans les orientations ouest à est en passant par le nord. Elles peuvent encore être déclenchées par un seul skieur et génèrent des avalanches de taille petite (taille 1), à rarement moyenne (taille 2). \nSous 2400 m, le manteau neigeux est maintenant complètement humidifé. Un skieur peut engendrer un départ ponctuel dans une pente raide fortement humidifiée. L'ensemble du manteau neigeux peut alors être mobilisé des avalanches de taille moyenne (taille 2) sont possibles notamment en versant ouest, nord-ouest, nord-est et est. \n\nDéparts spontanés : quelques départs en neige récente humidifiée dans les pentes raides, au fil des éclaircies se mettant en place en cours de journée. \n",
+  "snowQuality": "Enneigement déficitaire pour une mi-avril en adrets, plus proche des normales en ubacs d'altitude.\nHauteurs de neige observées vers 2500 m : 138 cm dans le vallon du Chardonnet, 98 cm aux Rochilles, 58 cm dans le vallon de Roche Noire vers le Galibier.\n\nLimite d'enneigement skiable : vers 1600/1700 m en ubacs favorables (terrains herbeux, pistes forestières), 2100/2200 m en adrets pas trop raides.\n\nÉtat de la neige de surface : un peu de neige récente (5/10 cm) à partir de 2000/2200 m, sur un manteau neigeux humide ou mal regelé jusqu'à 2700/2800 m. ",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

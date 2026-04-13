@@ -1,7 +1,7 @@
 {
   "massif": "OISANS",
-  "date": "2026-04-12T16:00:00",
-  "validUntil": "2026-04-13T18:00:00",
+  "date": "2026-04-13T16:00:00",
+  "validUntil": "2026-04-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -11,20 +11,21 @@
         "N",
         "NE",
         "E",
+        "SW",
         "W",
         "NW"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent",
-    "sous_couche_fragile",
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Avalanches humides et de glissement en pentes ensoleillées. Rares avalanches de grandes tailles possibles. \nDéclenchements skieurs : En pente bien humide, coulée ponctuelle sous les skis. Rares plaques superficielles vers les Ecrins. ",
-  "stability": "CIEL COUVERT, QUELQUES AVERSES DE NEIGE EN ALTITUDE, POURSUITE DE L'HUMIDIFICATION EN MOYENNE MONTAGNE \n\nDéparts spontanés : \n- Pas de regel nocturne sous 2500 / 2700m environ. Sous ces altitudes, des avalanches humides peuvent encore partir à toute heure, de tailles petites à moyennes. Au-dessus de 2500m, le risque diminue légèrement grâce au léger regel nocturne, mais reprends en journée. Les coulées sont moins fréquentes en secteurs Sud-Ouest à Sud-Est où l'humidification a déjà purgé la plupart des pentes la semaine dernière. En Nord-Est et Nord-Ouest en revanche, l'humidification gagne en profondeur et on ne peut exclure qu'elle atteigne localement des couches fragiles enfouies dans le manteau, auquel cas une avalanche plus conséquente est envisageable, avec un départ linéaire et/ou jusqu'au terrain. \n- A toute heure (parfois même la nuit) et dans la plupart des versants hormis en plein Nord, des avalanches de glissement peuvent se produire. De tailles moyennes, voire rarement de grandes tailles. Surtout en alpage raide / sur les dalles rocheuses. Parfois précédées par l'ouverture d'une fissure (gueule de baleine). \n- Une rupture spontanée de corniche est également possible l'après-midi et à surveiller dans les secteurs concernés.\n\nDéclenchements provoqués :\n- En pentes soutenues et bien humidifiées, le pratiquant pourrait faire couler la neige humide sous les skis. Très localement en large Nord-Ouest à Nord-Est d'altitude, le départ d'une coulée ponctuelle pourrait venir solliciter les couches fragiles persistantes et faire partir en cascade une plaque (de taille petite à moyenne, parfois grande). \n- Très localement vers les Ecrins, surtout au-dessus de 3000m, des plaques superficielles et de largeur limitées peuvent se former dans les 10-20cm de neige récente.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit la semaine dernière mais reste toujours bon dès la moyenne montagne peu ensoleillée, et dans les combes d'altitude... L'enneigement devient en revanche moins généreux aux basses altitudes et en versants bien ensoleillés. \nLimites skiables : Vers 1400/1600m en plein Nord (hors sapins), 1900/2100m au soleil...\n\nQualité de la neige lundi :  Regel inexistant sous 2500 / 2700m environ. Au-dessus, regel assez médiocre avec une croûte pas toujours portante. Au-dessus de 2200m environ on retrouve parfois une fine couche de neige récente tombée sous les averses dimanche soir, jusqu'à 15cm vers les Ecrins. En journée, forte humidification sous 3000m, parfois même plus haut dans le brouillard, la neige récente colle aux skis. ",
+  "summary": "Départs spontanés : Au fil des heures, rares coulées humides ou avalanches plus conséquentes en faces \"froides\", notamment sous 2500 voire 2800m (de taille 2, parfois 3 ?)...\nDéclenchements skieurs : Peu probable ou coulée humide ponctuelle sous les skis...",
+  "stability": "POSSIBLES COULES/AVALANCHES HUMIDES AU FIN DES HEURES ;  VERS LES ECRINS, A HAUTE ALTITUDE, RARES PETITES PLAQUES SOUS LE VENT D'EST ?\n\nLundi, jusque 10/15 cm de neige fraîche vers les hauts sommets, près des Ecrins... Mardi matin un peu de regel, puis neige rapidement humide sur une grande épaisseur, un peu instable en versants \"froids\", notamment sous 2500m : rares avalanches possibles.\nDéparts spontanés : \nEn altitude, là où il a neigé (près des Ecrins surtout) des coulées ou boules au soleil.\nEn journée, neige humide, voire sans grande cohésion en faces Nord sous 2500/2800m. On attend quelques coulées ou avalanches locales, parfois volumineuses, au terrain (de taille 2 à 3) - présence d'anciennes couches à moindre cohésion. \nNoter que certaines pentes herbeuses sont fissurées, une avalanche de glissement n'est pas exclue, notamment sous 2000/2300m environ. Enfin vers les crêtes un effondrement spontané de corniche n'est pas exclu.\nLes faces Sud sont aussi humides mais en neige plus dense/transformée, peu de risque d'avalanche volumineuse... \n\nDéclenchements provoqués :\nRisque de plaque a priori très localisé, plutôt le matin en altitude et près des Ecrins, de La Meije, sous le vent d'Est (cassure accidentelle non exclue de 10/20 cm ? ). En journée, peu de risque de plaque, mais en pentes soutenues et bien humidifiées, plutôt un risque de coulée ponctuelle sous les skis...\n\nAutres : Regel superficiel mardi matin, neige parfois croutée/cassante. En journée neige très humide  à \"soupe\" selon le versant/ l'altitude, ski parfois difficile...",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est dégradé depuis 10 jours mais reste assez important en faces peu ensoleillées et en combes d'altitude....\nLimites skiables : Vers 1500m au Nord à 1800/2200m au soleil suivant l'exposition, la raideur de la pente...\n\nQualité de la neige mardi :  Hauts sommets saupoudrés la veille, jusque 10/20 cm maxi près des Ecrins, de La Meije.\nMardi matin faible regel au dessus de 2000/2200m (croute parfois cassante ?)  puis rapide humidification, en tous versants avec les nuages...  neige très humide, plus \"molle\" en versants froids.",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

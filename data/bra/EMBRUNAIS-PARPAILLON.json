@@ -1,7 +1,7 @@
 {
   "massif": "EMBRUNAIS-PARPAILLON",
-  "date": "2026-04-12T16:00:00",
-  "validUntil": "2026-04-13T18:00:00",
+  "date": "2026-04-13T16:00:00",
+  "validUntil": "2026-04-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,11 +17,13 @@
     }
   ],
   "situations": [
-    "neige_humide"
+    "plaque_vent",
+    "neige_humide",
+    "glissement"
   ],
-  "summary": "Départs spontanés : Résiduels en neige humide\nDéclenchements skieurs : ponctuels dans la neige humide, parfois volumineux",
-  "stability": "MANTEAU NEIGEUX HUMIDE ET PLUTÔT STABLE\n\nDéclenchements provoqués : ponctuels dans la neige humide, mais pouvant mobiliser une grande partie du manteau neigeux en versant est, nord et ouest d'altitude, surtout au-dessus de 2200 m. Parfois déclenchables par un seul skieur, générant des avalanches de taille petite à moyenne. \n\nDéparts spontanés : en neige humide, en atténuation. Rares départs de taille moyenne encore possible en large versant nord ",
-  "snowQuality": "Enneigement déficitaire pour un début avril, notamment en adrets, parfois secs jusqu'à 2500 m.\nHauteurs de neige observées vers 2500 m : 79 cm à la nivôse du Parpaillon à 2500 m.\n\nLimite d'enneigement skiable : au plus bas à 1700/1800 m en ubacs bien protégés ou sur pistes forestières, plutôt 2200/2300 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux humide, regel très limité à partir de 2700/2800 m. ",
+  "summary": "Départs spontanés : en neige récente humidifiée. \nDéclenchements skieurs : ponctuels dans la neige humide, parfois volumineux. ",
+  "stability": "PLAQUES RÉSIDUELLES À HAUTE ALTITUDE\n\nDéclenchements provoqués : de rares instabilités sont en place dans la récente ventée. Elles sont plutôt localisées dans les orientations ouest, nord et est au-dessus de 2400 m. Elles sont facilement identifiables et déclenchables par le passage d'un seul skieur, générant des avalanches de taille petite (taille 1), à très rarement moyenne (taille 2). \n Sous 2400 m, le manteau neigeux est maintenant complètement humidifié. Un skieur peut engendrer un départ ponctuel dans une pente raide fortement humidifiée. L'ensemble du manteau neigeux peut alors être mobilisé des avalanches de taille moyenne (taille 2) sont possibles notamment en versant ouest, nord-ouest, nord-est et est.\n\nDéparts spontanés : quelques départs en neige récente humidifiée dans les pentes raides, au fil des éclaircies se mettant en place en cours de journée. Avalanches de glissement possibles (taille moyenne). \n",
+  "snowQuality": "Enneigement déficitaire pour un début avril, notamment en adrets, parfois secs jusqu'à 2500 m.\nHauteurs de neige observées vers 2500 m : 78 cm à la nivôse du Parpaillon à 2500 m.\n\nLimite d'enneigement skiable : au plus bas à 1700/1800 m en ubacs bien protégés ou sur pistes forestières, plutôt 2200/2300 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux humide, regel très limité à partir de 2700/2800 m. ",
   "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_20.png",

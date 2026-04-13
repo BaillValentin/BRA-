@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-04-12T16:00:00",
-  "validUntil": "2026-04-13T18:00:00",
+  "date": "2026-04-13T16:00:00",
+  "validUntil": "2026-04-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,11 +17,12 @@
     }
   ],
   "situations": [
-    "neige_humide"
+    "neige_humide",
+    "glissement"
   ],
-  "summary": "Départs spontanés : Quelques coulées humides ou un rare départ au terrain\nDéclenchements skieurs : Coulée ponctuelles sous les skis en pentes raides",
-  "stability": "MANTEAU ENTIEREMENT HUMIDE, FINE COUCHE DE NEIGE RECENTE EN ALTITUDE\n\nDéparts spontanés :\n-Le manteau neigeux est la plupart du temps humide jusqu'à la base, hormis peut être dans les versants Nord d'altitude. L'humidification se poursuit et s'accélère sous les averses dans la nuit de dimanche à lundi, favorisant le risque de coulées humides, notamment en versants Nord. En plein Sud le risque de coulées est plus faible, la plupart des coulées étant déjà parties lors de la semaine dernière. \n- Dans les pentes raides herbeuses ou sur les dalles rocheuses, un rare départ au terrain reste possible, parfois précédé par l'ouverture d'une fissure (gueule de baleine).  \n\nDéclenchements provoqués : \n- En pente raide, possibilité de faire partir une petite coulée humide sous les skis. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est toujours correct en moyenne montagne peu ensoleillée, mais il se dégrade fortement depuis maintenant une grosse semaine. La fonte se poursuit ce lundi, mais ralentit sur le haut du massif avec l'arrivée d'air moins doux.\nLimites skiables : Vers 1200/1500m en plein Nord (hors sapins), 1700/1800m au soleil...\n\nQualité de la neige lundi :  Neige humide voire pourrie sur l'ensemble du massif. La masse d'air se rafraîchit légèrement l'après-midi et quelques cm de neige récente humide sont possibles au-dessus de 1500m. ",
+  "summary": "Départs spontanés : Là où il a neigé, des boules/coulées de surface. En faces \"froides\" plus enneigées rare avalanche humide conséquente (taille 2 à 3), parfois glissant au terrain (faces Nord raides/herbeuses ?) ...\nDéclenchements skieurs : RAS ou coulée de surface humide sous les skis...",
+  "stability": "MANTEAU DENSE MAIS BIEN HUMIDE EN PROFONDEUR, RARES COULEES OU AVALANCHE DE FOND...\n\nMardi 10 cm de neige récente possibles sur l'Ouest du massif, saupoudrage ailleurs... quelques mini coulées de surface... En versants froid d'altitude/pentes herbeuses, rare avalanche de fond, glissant au terrain ?\nDéparts spontanés :\nDès le matin rapide dégel en tous versants.\nLà où il a neigé (jusque 10 cm sur les sommets de Ouest Vercors), de possibles boules/coulées de surface.\nEn faces froides, il reste encore pas mal de neige dense, humide en profondeur, des fissures de reptation s'ouvrent ponctuellement. \nA toute heure, risque très local de coulée ou avalanche de glissement au terrain, de taille plus conséquente ? (pentes herbeuses notamment)\n\nDéclenchements provoqués : \nPeu probable ou coulée ponctuelle de neige humide sous les skis, en pentes soutenues...",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement a nettement régressé depuis 10 jours, et ne reste correct que sur les hauts du massif en pentes peu ensoleillées. Un peu de fraîche lundi sur l'Ouest du massif, saupoudrage ailleurs.\nLimites skiables : Vers 1400 à 1800m selon le versant (hors sapins), plein Sud sec...\n\nQualité de la neige mardi :  Faible regel nocturne à l'aube en haut du massif, puis rapide dégel en matinée.\nUn peu de neige récente sur les sommets de l'Ouest du massif (10 cm maxi, ailleurs saupoudrage), devenant collante/humide. Sous couche en neige dense très humide, pas du grand ski en perspective..\n",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

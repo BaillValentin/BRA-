@@ -1,7 +1,7 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-04-12T16:00:00",
-  "validUntil": "2026-04-13T18:00:00",
+  "date": "2026-04-13T16:00:00",
+  "validUntil": "2026-04-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,11 +17,12 @@
     }
   ],
   "situations": [
+    "plaque_vent",
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Résiduels en neige humide ou rare avalanche de glissement\nDéclenchements skieurs : ponctuels dans la neige humide, parfois volumineux",
-  "stability": "MANTEAU NEIGEUX HUMIDE ET PLUTÔT STABLE\n\nDéclenchements provoqués : ponctuels dans la neige humide, mais pouvant mobiliser une grande partie du manteau neigeux en versant ouest, nord et est d'altitude, surtout au-dessus de 2200 m. Parfois déclenchables par un seul skieur, générant des avalanches de taille petite à moyenne. \n\nDéparts spontanés : en neige humide, en atténuation. Rares départs de taille moyenne encore possible en large versant nord, parfois sous forme d'avalanche de glissement, emportant tout le manteau neigeux.\n",
+  "summary": "Départs spontanés : en neige récente humidifiée ou rare avalanche de glissement. \nDéclenchements skieurs : ponctuels dans la neige humide, parfois volumineux. ",
+  "stability": "PLAQUES RÉSIDUELLES À HAUTE ALTITUDE\n\nDéclenchements provoqués : de rares instabilités sont en place dans la récente ventée. Elles sont plutôt localisées dans les orientations ouest, nord et est au-dessus de 2400 m. Elles sont facilement identifiables et déclenchables par le passage d'un seul skieur, générant des avalanches de taille petite (taille 1), à très rarement moyenne (taille 2). \n Sous 2400 m, le manteau neigeux est maintenant complètement humidifié. Un skieur peut engendrer un départ ponctuel dans une pente raide fortement humidifiée. L'ensemble du manteau neigeux peut alors être mobilisé des avalanches de taille moyenne (taille 2) sont possibles notamment en versant ouest, nord-ouest, nord-est et est. \n\nDéparts spontanés : quelques départs en neige récente humidifiée dans les pentes raides, au fil des éclaircies se mettant en place en cours de journée. Avalanches de glissement possibles (taille moyenne). \n",
   "snowQuality": "Enneigement encore excédentaire pour une mi-avril, notamment en ubacs et vallons d'altitude.  \n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1900/2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : manteau neigeux humide regelant progressivement lundi avec le refroidissement de la masse d'air",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {

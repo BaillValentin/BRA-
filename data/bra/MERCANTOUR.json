@@ -1,7 +1,7 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-04-12T16:00:00",
-  "validUntil": "2026-04-13T18:00:00",
+  "date": "2026-04-13T16:00:00",
+  "validUntil": "2026-04-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,13 +17,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide en moyenne montagne, de neige fraîche au dessus de 2500 m\nDéclenchements skieurs : plaques à vent en formation au dessus de 2500 m",
-  "stability": "NOUVELLES PLAQUES EN FORMATION AU DESSUS DE 2500 M, MANTEAU NEIGEUX RESTANT BIEN HUMIDE EN DESSOUS\n\nDéclenchements provoqués : plaques en formations au dessus de 2500 m environ, avec les chutes ventées. Sous l'action d'une Lombarde modérée, ces instabilité sont possibles dans toutes les orientations mais plus nombreuses en ouest, nord et est. Plaques d'épaisseur limitée mais facilement déclenchables, pouvant engendrer des avalanches petites à moyennes (taille 1 à 2). En fin de journée, une grande avalanche devient possible sur le chaînon frontalier, là où on attend le plus de neige fraîche mobilisable. \nSous 2300/2500 m, le pratiquant peut déclencher sous les skis une avalanche dans la neige humide / pourrie dans les pentes raides. Taille moyenne en général.\n\nDéparts spontanés : sous 2200/2400 m, des avalanches de neige humide peuvent encore se produire à tout moment, en particulier en versant nord, favorisées par les pluies sous 2000/2200 m et par l'eau qui continue de percoler dans le manteau neigeux. Avalanches le plus souvent de taille moyenne (taille 2). Au dessus de 2500 m, des petits départs de neige sèche ventée sont possibles en pentes raides pendant les chutes.",
-  "snowQuality": "Enneigement encore légèrement excédentaire pour la saison.\nHauteurs de neige observées :  113 cm à la nivose de Millefonts à 2430 m, 60 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable généralement à partir de 1800 m en terrain favorable et 2200 m en adrets peu pentus.  \n\nÉtat de la neige en surface : sous 2300/2500 m, manteau neigeux bien humide dans toutes les orientations. On retrouve 5/10 cm de neige fraîche au dessus de 2500 m, localement 20 cm sur le chaînon frontalier, souvent travaillée par la Lombarde. ",
+  "summary": "Départs spontanés : Taille parfois moyenne en neige récente à la frontière italienne\nDéclenchements skieurs : Instabilités localisées à la frontière italienne, plus épaisses sur l'est du massif",
+  "stability": "ÉPISODE NEIGEUX NON NÉGLIGEABLE A LA FRONTIÈRE ITALIENNE, SUR L'EST DU MASSIF\n\nDéclenchements provoqués : dans la neige récente (et qui tombe encore ce mardi) sur la frontière italienne sur les hautes vallées du Boréon, de la Gordolasque ou de Valmasque, aussi bien en neige froide aux plus hautes altitudes qu'en fraîche s'humidifiant aux premières éclaircies l'après-midi. Déclenchables par un seul skieur, parfois de taille moyenne au-dessus de 2400 m. En Tinée, les chutes prévues sont trop faibles pour aggraver le danger d'avalanche. Les instabilités sont plus minces et plus rares, elles se situent surtout dans la vieille neige humide en large nord d'altitude et sont difficilement déclenchables par un seul skieur, mais peuvent être volumineuses (taille moyenne). \n\nDéparts spontanés : sous 2200/2400 m, des avalanches de neige humide peuvent encore se produire à tout moment, en particulier en versant nord, favorisées par les pluies sous 2000/2200 m et par l'eau qui continue de percoler dans le manteau neigeux. Avalanches le plus souvent de taille moyenne (taille 2). Au dessus de 2500 m, des petits départs de neige sèche ventée sont possibles en pentes raides pendant les chutes.",
+  "snowQuality": "Enneigement proche des normales pour la saison.\nHauteurs de neige observées :  118 cm à la nivose de Millefonts à 2430 m, 56 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable généralement à partir de 1800 m en terrain favorable et 2200/2300 m en adrets peu pentus.  \n\nÉtat de la neige en surface : neige récente à la frontière italienne, en quantité négligeable (5/10 cm au plus) en Tinée, bien plus épaisse en allant en hautes vallées du Boréon, de la Gordolasque ou de Valmasque (jusqu'à 30/40 cm au-dessus de 2400 m). Cette chute s'humidifie rapidement l'après-midi sous les éclaircies.",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

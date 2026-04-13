@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-04-12T16:00:00",
-  "validUntil": "2026-04-13T18:00:00",
+  "date": "2026-04-13T16:00:00",
+  "validUntil": "2026-04-14T18:00:00",
   "riskMax": 3,
   "risks": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "altitude": ">2400",
-      "level": 2,
+      "level": 3,
       "orientations": [
         "N",
         "NE",
@@ -35,11 +35,12 @@
   ],
   "situations": [
     "neige_fraiche",
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Avalanches de neige fraîche à haute altitude sur le secteur frontalier, taille moyenne à grande en fin de journée\nDéclenchements skieurs : Nombreuses instabilités en formation sur le secteur frontalier italien",
-  "stability": "NEIGE DEVENANT ABONDANTE A LA FRONTIÈRE ITALIENNE\n\nDéclenchements provoqués : nombreuses instabilités de surface en formation sous les chutes de neige modérément ventées. Localisées surtout à la frontière italienne au-dessus de 2400 m (secteur Fonts de Cervières, Le Roux, Valpréveyre, L'Échalp), elles sont facilement déclenchables par un seul skieur. Avalanches possibles en toute orientation et de taille petite à moyenne. Cet apport important de neige fraîche tombe sur un manteau généralement humide et plutôt sain (voire un sol nu en adrets) ; en ubacs de haute altitude, il peut cependant réactiver les couches fragiles enfouies à la base du manteau neigeux, générant alors une avalanche de grande taille, avec déclenchement possible à distance. \nSur l'ouest du massif où les chutes sont négligeables, le danger est plus limité, les instabilités se situent dans la neige encore humide, plutôt sous 2400 m.  \n\nDéparts spontanés : de neige fraîche ventée, taille petite à moyenne sur le secteur frontalier italien, grande non exclue en fin de journée dans les secteurs d'accumulation par la lombarde à haute altitude. Sur le reste du massif, rares et ponctuels en neige humide, taille petite à moyenne en versants nord. ",
-  "snowQuality": "Enneigement nettement déficitaire pour une mi-avril avant l'épisode de ce lundi, notamment en adrets, parfois secs jusqu'à 2500 m.\nHauteurs de neige observées vers 2500 m : 115 cm en versant nord du col Izoard et au-dessus de Saint-Véran à 2700 m, 65 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 1700/1800 m en ubacs bien protégés ou sur pistes forestières, plutôt 2200/2300 m en adrets.\n\nÉtat de la neige de surface : neige fraîche de plus en plus épaisse en allant vers la frontière italienne, tombant sèche et modérément ventée à partir de 2300/2400 m. Sur la majeure partie du massif, manteau neigeux humide, regel très limité à partir de 2600/2800 m. ",
+  "summary": "Départs spontanés : Avalanches de neige récente à haute altitude sur le secteur frontalier. \nDéclenchements skieurs : instabilités en place dans la neige récente sur le secteur frontalier. ",
+  "stability": "PLAQUES DANS LA NEIGE FRAÎCHE À LA FRONTIÈRE ITALIENNE\n\nDéclenchements provoqués : sur le secteur frontalier avec l'Italie (Fonts de Cervières, Le Roux, Valpréveyre, l'Echalp), de nombreuses instabilités sont en formation au-dessus de 2400 m avec les chutes de neige s'intensifiant dans la nuit de lundi à mardi. Elles sont localisées en toute orientation et encore facilement déclenchables par un seul skieur. En ubacs de haute altitude, cette neige fraîche se dépose sur un manteau neigeux encore peu stabilisé, composé de couches fragiles enfouies à la base du manteau neigeux. Ces instabilités peuvent engendrer des avalanches de taille petite à moyenne (taille 1 à 2), voire une grande (taille 3) dans les ubacs de haute altitude dans le cas de sollicitation d'une couche fragile. \nSur l'ouest du massif, les chutes de neige sont négligeables. le danger est plus limité, les instabilités se situent dans la neige encore humide, plutôt sous 2400 m.  \n\nDéparts spontanés : sur le secteur frontalier avec l'Italie, avalanches de neige fraîche ventée au cours des chutes de neige dans la nuit de lundi à mardi. En journée de mardi, des avalanches se produisent en pentes raides au fil des éclaircies. Avalanches de taille petite à moyenne (taille 1 à 2), voire grande (taille 3) dans les zones de forte accumulation par la lombarde. Sur le reste du massif, rares départs ponctuels en neige humide, de taille petite à moyenne. \n",
+  "snowQuality": "Enneigement nettement déficitaire pour une mi-avril avant l'épisode de ce lundi, notamment en adrets, parfois secs jusqu'à 2500 m.\nHauteurs de neige observées vers 2500 m : 115 cm en versant nord du col Izoard et au-dessus de Saint-Véran à 2700 m, 67 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 1700/1800 m en ubacs bien protégés ou sur pistes forestières, plutôt 2200/2300 m en adrets.\n\nÉtat de la neige de surface : neige fraîche de plus en plus épaisse en allant vers la frontière italienne, tombant sèche et modérément ventée à partir de 2300/2400 m. Sur la majeure partie du massif, manteau neigeux humide, regel très limité à partir de 2600/2800 m. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

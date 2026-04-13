@@ -1,12 +1,12 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-04-12T17:00:00",
-  "validUntil": "2026-04-13T18:00:00",
+  "date": "2026-04-13T16:00:00",
+  "validUntil": "2026-04-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -17,13 +17,12 @@
     }
   ],
   "situations": [
-    "plaque_vent",
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : quelques départs en neige humide possibles à toutes heures, même en nord.\nDéclenchements skieurs : petites coulées voire localement une plaque sous les skis dans la neige fortement humidifiée (pourrie).",
-  "stability": "CIEL COUVERT, MAUVAIS REGEL ET HUMIDIFICATION MÊME EN PLEIN NORD. HIVERNAL SECTEUR SOURCES DE L'ISERE\n\nDéparts spontanés : \n- Quelques départs en neige humide sont attendus en tous versants et à toute heure de la journée. Les départs peuvent être ponctuels (poires), donnant des petites à moyennes avalanches, mais aussi plus rarement linéaires (plaques) donnant alors de grandes avalanches (taille 3) car l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. Ces cassures linéaires semblent plus probables en versants Est/Nord/Ouest, sous 2700 m. \nEn effet, le regel est plutôt médiocre et malgré un soleil quasi inexistant, la masse d'air très douce combinée à la présence d'une épaisse couverture nuageuse va permettre la poursuite de l'activité en neige humide. On s'attend à une activité moins soutenue que les jours précédents en versants ensoleillés. Mais, à l'inverse, les versants nord encaissés et protégés du soleil (restés en neige froide jusqu'à maintenant) vont subir leur première humidification en surface et seront donc eux aussi concernés par ce risque.\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrain propice, notamment sous 2500 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée (notamment aux altitudes intermédiaires 2000/2800 m). Coulées sous les skis voire cassure linéaire pouvant donner une rare grande avalanche quand les couches fragiles du début de saison s'humidifient.\n\nSecteur sources de l'Isère : retour d'Est en cours. En altitude, nouvelles plaques d'aspect poudreux, de plus en plus fréquentes, réactive et épaisses en cours de journée. Cassures jsuqu'à 20 cm en fin de journée.\n\nAutres : chutes de corniches possibles à toute heure.",
-  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours (fonte accélérée de 5 à 10 cm par jour).\n\nLimite skiable : vers 1300 m en Nord, 1700/1800 m en Sud.\n\nQualité de la neige : regel mauvais ou inexistant. Neige humide voire profondément pourrie partout dès le matin. Collante possible en Nord, dans les rares secteurs qui étaient encore en neige froide et s’humidifient eux aussi. Quelques centimètres de fraiche à partir de 2300 m (jsuqu'à 15/20 cm vers le Pisaillas) mais souvent humide sous 2600 m.",
+  "summary": "Départs spontanés : quelques départs en neige humide.\nDéclenchements skieurs : petites coulées voire localement une plaque sous les skis dans la neige fortement humidifiée (pourrie).",
+  "stability": "NUAGES ET CHAUFFAGE, HUMIDIFICATION MÊME EN PLEIN NORD.\n\nDéparts spontanés : \n- Quelques départs en neige humide sont attendus en tous versants, ils deviennent plus fréquents l'après midi. Ce sont principalement des départs ponctuels (poires), donnant des petites à moyennes avalanches. Avec les nuages, les versants nord chauffent et sont donc aussi concernés par ce risque. Plus rarement des cassures linéaires (plaques) donnant alors de grandes avalanches (taille 3) car l'eau de fonte qui percole dans le manteau atteint désormais les couches fragiles enfouies du début de saison. Ces cassures linéaires semblent plus probables en versants Est/Nord/Ouest, sous 2700 m.\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrain propice, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée au fil des heures, avec les nuages toutes les orientations chauffent en même temps. Coulées sous les skis voire cassure linéaire pouvant donner une rare grande avalanche quand les couches fragiles du début de saison s'humidifient.\n\nSecteur sources de l'Isère et Pisaillas : En altitude, le retour d'Est de la veille a créé de nouvelles plaques d'aspect poudreux, réactives et on les trouve en toute orientation, plutôt près des crêtes et des ruptures de pentes, au dessus de 2200m. Petites à moyennes avalanches.\n\nAutres : chutes de corniches possibles.",
+  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1300 m en Nord, 1700/1800 m en Sud.\n\nQualité de la neige : Les quelques centimètres de fraiche possibles au dessus de 2200 m se tassent et s'humidifient vite en tous versants même en nord où la neige devient collante. Regel aléatoire et manteau profondément pourri parfois dès le matin. Des sources de l'Isère au Pisaillas, la neige fraîche se tasse et s'humidifie rapidement.",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

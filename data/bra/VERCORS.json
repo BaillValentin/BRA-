@@ -1,12 +1,12 @@
 {
   "massif": "VERCORS",
-  "date": "2026-04-13T16:00:00",
-  "validUntil": "2026-04-14T18:00:00",
+  "date": "2026-04-14T16:00:00",
+  "validUntil": "2026-04-15T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -20,9 +20,9 @@
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Là où il a neigé, des boules/coulées de surface. En faces \"froides\" plus enneigées rare avalanche humide conséquente (taille 2 à 3), parfois glissant au terrain (faces Nord raides/herbeuses ?) ...\nDéclenchements skieurs : RAS ou coulée de surface humide sous les skis...",
-  "stability": "MANTEAU DENSE MAIS BIEN HUMIDE EN PROFONDEUR, RARES COULEES OU AVALANCHE DE FOND...\n\nMardi 10 cm de neige récente possibles sur l'Ouest du massif, saupoudrage ailleurs... quelques mini coulées de surface... En versants froid d'altitude/pentes herbeuses, rare avalanche de fond, glissant au terrain ?\nDéparts spontanés :\nDès le matin rapide dégel en tous versants.\nLà où il a neigé (jusque 10 cm sur les sommets de Ouest Vercors), de possibles boules/coulées de surface.\nEn faces froides, il reste encore pas mal de neige dense, humide en profondeur, des fissures de reptation s'ouvrent ponctuellement. \nA toute heure, risque très local de coulée ou avalanche de glissement au terrain, de taille plus conséquente ? (pentes herbeuses notamment)\n\nDéclenchements provoqués : \nPeu probable ou coulée ponctuelle de neige humide sous les skis, en pentes soutenues...",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement a nettement régressé depuis 10 jours, et ne reste correct que sur les hauts du massif en pentes peu ensoleillées. Un peu de fraîche lundi sur l'Ouest du massif, saupoudrage ailleurs.\nLimites skiables : Vers 1400 à 1800m selon le versant (hors sapins), plein Sud sec...\n\nQualité de la neige mardi :  Faible regel nocturne à l'aube en haut du massif, puis rapide dégel en matinée.\nUn peu de neige récente sur les sommets de l'Ouest du massif (10 cm maxi, ailleurs saupoudrage), devenant collante/humide. Sous couche en neige dense très humide, pas du grand ski en perspective..\n",
+  "summary": "Départs spontanés : Quelques avalanches de fonte ou de fond de taille 1 à 2, surtout en journée au soleil et/ou sous les nuages. Rare taille 3 non exclue.\nDéclenchements skieurs : Peu probables ou sous les skis en neige très humide.",
+  "stability": "POURSUITE DE L'HUMIDIFICATION, MÊME EN NORD : QUELQUES DÉPARTS HUMIDES POSSIBLES, PARFOIS AU TERRAIN.\n\nDéparts spontanés : Assez peu probables au lever du jour avec le regel attendu meilleur en altitude et sous ciel bien dégagé. Puis au fil de la journée, quelques avalanches de neige humide sont à nouveau possibles dans les pentes réchauffées par le soleil, ou encore sous les nuages qui humidifient tous les versants qu'ils recouvrent. Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure une rare taille 3 (grande) dans un versant d'un large Nord. Par ailleurs, dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue. Enfin vers les hautes crêtes, un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur.\n\nAutres : Regel correct par endroits le matin (surtout sous les éclaircies), neige parfois croutée. En journée neige très humide à \"soupe\" selon le versant/l'altitude, ski parfois difficile...",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement a nettement régressé depuis 10 jours, et ne reste correct que sur les hauts du massif en pentes peu ensoleillées. Un peu de fraîche lundi sur l'Ouest du massif, saupoudrage ailleurs.\nLimites skiables : Vers 1400 à 1800m selon le versant (hors sapins), plein Sud sec...\n\nQualité de la neige mercredi :  Neige humide parfois croûtée au petit matin (meilleur regel si les éclaircies sont plus belles), puis rapide humidification au soleil en journée, ainsi que sous les nuages en tous versants.",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

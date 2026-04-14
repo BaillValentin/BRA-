@@ -1,26 +1,12 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-04-13T16:00:00",
-  "validUntil": "2026-04-14T18:00:00",
-  "riskMax": 3,
+  "date": "2026-04-14T16:00:00",
+  "validUntil": "2026-04-15T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2400",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2400",
-      "level": 3,
+      "altitude": "Toutes altitudes",
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -34,13 +20,13 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent",
+    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Avalanches de neige récente à haute altitude sur le secteur frontalier. \nDéclenchements skieurs : instabilités en place dans la neige récente sur le secteur frontalier. ",
-  "stability": "PLAQUES DANS LA NEIGE FRAÎCHE À LA FRONTIÈRE ITALIENNE\n\nDéclenchements provoqués : sur le secteur frontalier avec l'Italie (Fonts de Cervières, Le Roux, Valpréveyre, l'Echalp), de nombreuses instabilités sont en formation au-dessus de 2400 m avec les chutes de neige s'intensifiant dans la nuit de lundi à mardi. Elles sont localisées en toute orientation et encore facilement déclenchables par un seul skieur. En ubacs de haute altitude, cette neige fraîche se dépose sur un manteau neigeux encore peu stabilisé, composé de couches fragiles enfouies à la base du manteau neigeux. Ces instabilités peuvent engendrer des avalanches de taille petite à moyenne (taille 1 à 2), voire une grande (taille 3) dans les ubacs de haute altitude dans le cas de sollicitation d'une couche fragile. \nSur l'ouest du massif, les chutes de neige sont négligeables. le danger est plus limité, les instabilités se situent dans la neige encore humide, plutôt sous 2400 m.  \n\nDéparts spontanés : sur le secteur frontalier avec l'Italie, avalanches de neige fraîche ventée au cours des chutes de neige dans la nuit de lundi à mardi. En journée de mardi, des avalanches se produisent en pentes raides au fil des éclaircies. Avalanches de taille petite à moyenne (taille 1 à 2), voire grande (taille 3) dans les zones de forte accumulation par la lombarde. Sur le reste du massif, rares départs ponctuels en neige humide, de taille petite à moyenne. \n",
-  "snowQuality": "Enneigement nettement déficitaire pour une mi-avril avant l'épisode de ce lundi, notamment en adrets, parfois secs jusqu'à 2500 m.\nHauteurs de neige observées vers 2500 m : 115 cm en versant nord du col Izoard et au-dessus de Saint-Véran à 2700 m, 67 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 1700/1800 m en ubacs bien protégés ou sur pistes forestières, plutôt 2200/2300 m en adrets.\n\nÉtat de la neige de surface : neige fraîche de plus en plus épaisse en allant vers la frontière italienne, tombant sèche et modérément ventée à partir de 2300/2400 m. Sur la majeure partie du massif, manteau neigeux humide, regel très limité à partir de 2600/2800 m. ",
+  "summary": "Départs spontanés : en neige humide au fil de l'ensoleillement.\nDéclenchements skieurs : en neige humide sous les skis. Quelques instabilités dans la neige ventée sur le secteur frontalier.",
+  "stability": "DÉPARTS DE NEIGE HUMIDE AU SOLEIL - RARES PLAQUES À PROXIMITÉ DE L'ITALIE\n\nDéparts spontanés : peu probables en début de journée après un regel nocturne correct, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Départs généralement ponctuels en particulier en pentes raides près des rochers, engendrant des avalanches de taille petite à moyenne (taille 1 à 2). Les départs sont plus nombreux à proximité de l'Italie avec les récentes chutes de neige. Un départ linéaire de plus grande taille (taille 3), est possible mais reste rare, plutôt dans les orientations est à ouest en passant par le nord au-dessus de 2200/2400 m environ, lorsque l'humidification gagne en profondeur et atteint pour la première fois des couches fragiles persistantes enfouies à la base du manteau neigeux. \n\nDéclenchements provoqués : \n- Un skieur évoluant tardivement en pentes raides fortement humidifiées peut provoquer des départs de neige humide sous les skis, engendrant des avalanches en poires de taille petite à moyenne (taille 1 à 2). Un départ linéaire de grande taille (taille 3) est possible mais rare, notamment dans les orientations est, nord-est, nord-ouest et ouest au-dessus de 2200/2400 m environ dans le cas de sollicitation de couches fragiles persistantes enfouies à la base du manteau neigeux. Départs avec cassures linéaires larges et épaisses, possibles au passage d'un skieur, notamment après un premier départ de surface. \n- Sur le secteur frontalier avec l'Italie, des instabilités sont en place, formées par les chutes de neige de lundi. Elles sont facilement identifiables, mais peuvent encore être déclenchées par le passage d'un skieur, générant alors des avalanches de taille petite à moyenne. \n",
+  "snowQuality": "Enneigement nettement déficitaire pour une mi-avril avant l'épisode de ce lundi, notamment en adrets, parfois secs jusqu'à 2500 m.\nHauteurs de neige observées vers 2500 m : 114 cm en versant nord du col Izoard et au-dessus de Saint-Véran à 2700 m, 71 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 1700/1800 m en ubacs bien protégés ou sur pistes forestières, plutôt 2200/2300 m en adrets.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. Dans les ubacs raides aux plus hautes altitudes du massif, neige encore froide, souvent durcie ou travaillée par le vent dans les secteurs exposés, parfois plus légère dans les combes ou pentes abritées. Sur le secteur frontalier avec l'Italie, on peut trouver un peu de neige récente (15/20 cm) qui s'humidifie rapidement. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

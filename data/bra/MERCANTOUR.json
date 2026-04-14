@@ -1,7 +1,7 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-04-13T16:00:00",
-  "validUntil": "2026-04-14T18:00:00",
+  "date": "2026-04-14T16:00:00",
+  "validUntil": "2026-04-15T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,18 +10,18 @@
       "orientations": [
         "N",
         "NE",
-        "E",
-        "W",
         "NW"
       ]
     }
   ],
   "situations": [
+    "plaque_vent",
+    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Taille parfois moyenne en neige récente à la frontière italienne\nDéclenchements skieurs : Instabilités localisées à la frontière italienne, plus épaisses sur l'est du massif",
-  "stability": "ÉPISODE NEIGEUX NON NÉGLIGEABLE A LA FRONTIÈRE ITALIENNE, SUR L'EST DU MASSIF\n\nDéclenchements provoqués : dans la neige récente (et qui tombe encore ce mardi) sur la frontière italienne sur les hautes vallées du Boréon, de la Gordolasque ou de Valmasque, aussi bien en neige froide aux plus hautes altitudes qu'en fraîche s'humidifiant aux premières éclaircies l'après-midi. Déclenchables par un seul skieur, parfois de taille moyenne au-dessus de 2400 m. En Tinée, les chutes prévues sont trop faibles pour aggraver le danger d'avalanche. Les instabilités sont plus minces et plus rares, elles se situent surtout dans la vieille neige humide en large nord d'altitude et sont difficilement déclenchables par un seul skieur, mais peuvent être volumineuses (taille moyenne). \n\nDéparts spontanés : sous 2200/2400 m, des avalanches de neige humide peuvent encore se produire à tout moment, en particulier en versant nord, favorisées par les pluies sous 2000/2200 m et par l'eau qui continue de percoler dans le manteau neigeux. Avalanches le plus souvent de taille moyenne (taille 2). Au dessus de 2500 m, des petits départs de neige sèche ventée sont possibles en pentes raides pendant les chutes.",
-  "snowQuality": "Enneigement proche des normales pour la saison.\nHauteurs de neige observées :  118 cm à la nivose de Millefonts à 2430 m, 56 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable généralement à partir de 1800 m en terrain favorable et 2200/2300 m en adrets peu pentus.  \n\nÉtat de la neige en surface : neige récente à la frontière italienne, en quantité négligeable (5/10 cm au plus) en Tinée, bien plus épaisse en allant en hautes vallées du Boréon, de la Gordolasque ou de Valmasque (jusqu'à 30/40 cm au-dessus de 2400 m). Cette chute s'humidifie rapidement l'après-midi sous les éclaircies.",
+  "summary": "Départs spontanés :  avalanches en neige humide au fil de l'ensoleillement.\nDéclenchements skieurs : départs en neige humide sous les skis, de taille parfois moyenne en ubacs d'altitude.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER\n\nDéclenchements provoqués : \n- Quelques plaques en neige sèche sont possibles à proximité de la frontière italienne au dessus de 2700 m environ, à proximité des crêtes et ruptures de pentes. D'aspect encore poudreux ou légèrement travaillées par le vent de nord à nord-est, elles peuvent être déclenchées au passage d'un skieur et provoquer des avalanches généralement de petite taille.\n- Des départs en neige humide sont possibles sous les skis en pentes raides ensoleillées, plus rarement sous forme de plaques peu épaisses et peu étendues près de la frontière italienne. Avalanches de petite taille.\n- Des couches fragiles persistantes enfouies à la base du manteau neigeux sont encore localement présentes en orientations nord-ouest, nord et nord-est d'altitude comprise entre 2200 et 2700 m environ. Avec l'humidification progressive du manteau neigeux, un skieur peut venir les solliciter, et déclencher une avalanche de taille moyenne.\n\nDéparts spontanés : \n- à la frontière italienne où les nuages sont restés présents tardivement, départs en neige s'humidifiant au soleil possibles dès le début de journée puis en suivant la course du soleil. Ailleurs, début plus tardif de l'activité suite à un bon regel nocturne, puis reprise de l'humidification en cours de matinée. Départs de petite taille, parfois moyenne dans quelques pentes d'orientations nord-ouest, nord et nord-est d'altitude supérieure à 2200 m environ. ",
+  "snowQuality": "Enneigement proche des normales pour la saison.\nHauteurs de neige observées :  114 cm à la nivose de Millefonts à 2430 m, 55 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable généralement à partir de 1800 m en terrain favorable et 2200/2300 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier, avec un bon regel nocturne en général au dessus de 2000 m, sauf vers la frontière italienne où les nuages ont résisté plus longtemps. Vers la frontière italienne, quelques cm de neige récente, déjà le plus souvent alourdie.",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

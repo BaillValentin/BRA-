@@ -1,31 +1,29 @@
 {
   "massif": "OISANS",
-  "date": "2026-04-13T16:00:00",
-  "validUntil": "2026-04-14T18:00:00",
+  "date": "2026-04-14T16:00:00",
+  "validUntil": "2026-04-15T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SW",
         "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent",
+    "sous_couche_fragile",
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Au fil des heures, rares coulées humides ou avalanches plus conséquentes en faces \"froides\", notamment sous 2500 voire 2800m (de taille 2, parfois 3 ?)...\nDéclenchements skieurs : Peu probable ou coulée humide ponctuelle sous les skis...",
-  "stability": "POSSIBLES COULES/AVALANCHES HUMIDES AU FIN DES HEURES ;  VERS LES ECRINS, A HAUTE ALTITUDE, RARES PETITES PLAQUES SOUS LE VENT D'EST ?\n\nLundi, jusque 10/15 cm de neige fraîche vers les hauts sommets, près des Ecrins... Mardi matin un peu de regel, puis neige rapidement humide sur une grande épaisseur, un peu instable en versants \"froids\", notamment sous 2500m : rares avalanches possibles.\nDéparts spontanés : \nEn altitude, là où il a neigé (près des Ecrins surtout) des coulées ou boules au soleil.\nEn journée, neige humide, voire sans grande cohésion en faces Nord sous 2500/2800m. On attend quelques coulées ou avalanches locales, parfois volumineuses, au terrain (de taille 2 à 3) - présence d'anciennes couches à moindre cohésion. \nNoter que certaines pentes herbeuses sont fissurées, une avalanche de glissement n'est pas exclue, notamment sous 2000/2300m environ. Enfin vers les crêtes un effondrement spontané de corniche n'est pas exclu.\nLes faces Sud sont aussi humides mais en neige plus dense/transformée, peu de risque d'avalanche volumineuse... \n\nDéclenchements provoqués :\nRisque de plaque a priori très localisé, plutôt le matin en altitude et près des Ecrins, de La Meije, sous le vent d'Est (cassure accidentelle non exclue de 10/20 cm ? ). En journée, peu de risque de plaque, mais en pentes soutenues et bien humidifiées, plutôt un risque de coulée ponctuelle sous les skis...\n\nAutres : Regel superficiel mardi matin, neige parfois croutée/cassante. En journée neige très humide  à \"soupe\" selon le versant/ l'altitude, ski parfois difficile...",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est dégradé depuis 10 jours mais reste assez important en faces peu ensoleillées et en combes d'altitude....\nLimites skiables : Vers 1500m au Nord à 1800/2200m au soleil suivant l'exposition, la raideur de la pente...\n\nQualité de la neige mardi :  Hauts sommets saupoudrés la veille, jusque 10/20 cm maxi près des Ecrins, de La Meije.\nMardi matin faible regel au dessus de 2000/2200m (croute parfois cassante ?)  puis rapide humidification, en tous versants avec les nuages...  neige très humide, plus \"molle\" en versants froids.",
+  "summary": "Départs spontanés : Avalanches de fonte ou de fond, dans les pentes au soleil mais aussi celles concernées par les cumulus de l'après-midi. De taille 1 à 2, plus rarement de taille 3 avec départ linéaire non exclu.\nDéclenchements skieurs : Peu probables ou sous les skis en neige très humide. Très rare plaque en Nord vers les hauts sommets du massif.",
+  "stability": "POURSUITE DE L'HUMIDIFICATION, MÊME EN NORD : AVALANCHES HUMIDES POSSIBLES, TRÈS LOCALEMENT VOLUMINEUSES.\n\nDéparts spontanés : Assez peu probables au lever du jour avec le regel attendu meilleur en altitude et sous ciel bien dégagé. Puis au fil de l'ensoleillement généreux, des avalanches de neige humide sont à nouveau possibles en journée dans les pentes réchauffées par le soleil, ou encore sous les cumulus de l'après-midi qui humidifient tous les versants qu'ils recouvrent. Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure de rares tailles 3 (grandes) dans les versants à composante Est à Ouest en passant par le Nord. Dans ces versants, l'humidification qui gagne en profondeur pourrait ainsi atteindre de vieilles sous-couches fragiles enfouies, avec départ linéaire possible. Dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue. Enfin vers les crêtes un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : - Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur.\n-  Très ponctuellement vers le coeur des Ecrins, en versant Nord de très haute montagne (plutôt au-dessus de 3000/3200 m), de très rares plaques difficiles à déclencher pourraient encore être présentes dans quelques accumulations de neige récente qui ne serait pas encore humidifiée ou suffisamment tassée.\n\nAutres : Bon regel par endroits le matin, neige parfois croutée. En journée neige très humide à \"soupe\" selon le versant/l'altitude, ski parfois difficile...",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est dégradé depuis 10 jours mais reste assez important en faces peu ensoleillées et en combes d'altitude....\nLimites skiables : Vers 1600m au Nord à 1900/2300m au soleil suivant l'exposition, la raideur de la pente...\n\nQualité de la neige mercredi : Neige humide souvent croûtée par regel au petit matin, puis rapide humidification au soleil en journée. L'humidification peut également se produire en tous versants sous les cumulus de l'après-midi (effet \"cocotte-minute\"). Vers les plus hauts sommets du massif, la neige pourrait être restée un peu moins humide à l'ombre, bien que déjà bien densifiée par le tassement et par le vent. En Sud, neige de printemps déjà très densifiée.",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

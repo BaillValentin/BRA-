@@ -1,16 +1,19 @@
 {
   "massif": "BAUGES",
-  "date": "2026-04-13T16:00:00",
-  "validUntil": "2026-04-14T18:00:00",
+  "date": "2026-04-14T16:00:00",
+  "validUntil": "2026-04-15T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
         "W",
         "NW"
       ]
@@ -19,9 +22,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Départs de neige humide.\nDéclenchements skieurs : De la niege humide coule sous les skis. ",
-  "stability": "Manteau neigeux humide, printanier. \n\nDéparts spontanés :\n* Départs de neige humide avec la course du soleil et avec le réchauffement diurne. Possibles en tous versants mais principalement en ouest/nord/est. Rares départs en plaques au-dessus de 2000 m. Taille 1 à 2 (petite à moyenne). \n* Plaques de fond possibles à toute heure du jour et de la nuit dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Taille 1 à 2 (petite à moyenne).\n\nDéclenchements provoqués :\n* De la neige humide peut couler sous les skis. Possibles à toutes altitudes et en tous versants, mais principalement en ouest/nord/est. De plus en plus probable au fil du réchauffement diurne. Taille 1 à 2 (petite à moyenne). ",
-  "snowQuality": "Enneigement :\nL'enneigement est correct au-dessus de 2000 m. En dessous, il commence à être déficitaire.\nOn peut chausser les skis au-dessus de 1700/1800 m en sud et 1500/1600 m en nord. Des traces de neige sont présentes sous ces altitudes, mais l'enneigement est loin d'être continu.\n\nQualité de la neige mardi :\n* En dessous de 1800 m : neige très humide ou absente. Pas de regel nocturne. \n* Au-dessus de 1800 m : Faible regel nocturne. La croûte se ramollit avec le réchauffement et le manteau neigeux est alors humide en profondeur. Enfoncement piéton pouvant facilement atteindre 30/50 cm. ",
+  "summary": "Départs spontanés : avalanches de neige humide\nDéclenchements skieurs : avalanches de neige humide",
+  "stability": "Retour de la douceur et du soleil\n\nDéparts spontanés :\n* avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. Taille 1 à 2 (petite à moyenne). \nObservables : enfoncement piéton important, boulettes, escargots.\n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. Taille 2 (moyenne).\n\n Déclenchements provoqués :\nAvalanches de neige humide. Facile à déclencher au soleil. Départ ponctuel sous les skis.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire. ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2000 m, en dessous il est déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en sud et 1500 m en nord. \n\nQualité de la neige ce mercredi matin : \n* au-dessus des nuages bas (1700 m), neige de printemps avec un bon regel nocturne. \n* en dessous de 1700 m, vielle neige humide sans regel nocturne.\n",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

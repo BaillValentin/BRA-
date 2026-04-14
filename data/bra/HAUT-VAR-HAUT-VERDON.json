@@ -1,12 +1,12 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-04-13T16:00:00",
-  "validUntil": "2026-04-14T18:00:00",
+  "date": "2026-04-14T16:00:00",
+  "validUntil": "2026-04-15T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -15,12 +15,12 @@
     }
   ],
   "situations": [
-    "neige_humide",
-    "glissement"
+    "sous_couche_fragile",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : taille moyenne en neige humide\nDéclenchements skieurs : dans la neige humide, taille moyenne",
-  "stability": "MANTEAU NEIGEUX BIEN HUMIDE ET PLUTÔT STABLE\n\nDéclenchements provoqués : manteau neigeux bien dense et plutôt stable. Les instabilités se situent surtout en orientations nord-ouest, nord et nord-est d'altitude comprise entre 2200 et 2600 m environ. Un seul skieur peut parfois déclencher une avalanche de taille moyenne, très rarement grande. Le manteau neigeux est bien humide, mais des couches fragiles sont encore localement sollicitables à sa base. \nSous 2200 m, manteau neigeux entièrement transformé et bien stable.\n\nDéparts spontanés : rares avalanches de neige humide de taille moyenne, parfois sous forme d'avalanches de glissement en orientations nord-ouest, nord et nord-est d'altitude.",
-  "snowQuality": "Enneigement proche des normales pour la saison.\nHauteurs de neige observées :  vers 2000 m, 122 cm dans le vallon de Valdemars en Haut Verdon, 55 cm à Ia Sanguinière dans le Haut-Var.\n\nEnneigement skiable généralement à partir de 1800  m en terrain favorable (routes forestières, terrains herbeux) et 2200/2300 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux humide et mal regelé sous 2500/2600 m, plus souvent regelé au-dessus, saupoudré d'un peu de neige récente, 10/15 cm possible vers 2800 m...\nHumidification plus nette sous les éclaircies plus généreuses ce mardi",
+  "summary": "Départs spontanés :  avalanches en neige humide au fil de l'ensoleillement.\nDéclenchements skieurs : départs en neige humide sous les skis, de taille parfois moyenne en ubacs d'altitude.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER\n\nDéclenchements provoqués : \n- Des départs en neige humide sont possibles sous les skis en pentes raides ensoleillées. Avalanches de petite taille.\n- Des couches fragiles persistantes enfouies à la base du manteau neigeux sont encore localement présentes en orientations nord-ouest, nord et nord-est d'altitude comprise entre 2200 et 2700 m environ. Avec l'humidification progressive du manteau neigeux, un skieur peut venir les solliciter, et déclencher une avalanche de taille moyenne.\n\nDéparts spontanés : \n- peu probables en début de journée après un bon regel nocturne, puis reprise de l'humidification en cours de matinée. Départs de petite taille en pentes raides ensoleillées, parfois moyenne dans quelques pentes d'orientations nord-ouest, nord et nord-est d'altitude supérieure à 2200 m environ. ",
+  "snowQuality": "Enneigement proche des normales pour la saison.\nHauteurs de neige observées :  vers 2000 m, 124 cm dans le vallon de Valdemars en Haut Verdon, 53 cm à Ia Sanguinière dans le Haut-Var.\n\nEnneigement skiable généralement à partir de 1800  m en terrain favorable (routes forestières, terrains herbeux) et 2200/2300 m en adrets peu pentus.  \n\nÉtat de la neige en surface : manteau neigeux printanier, avec un bon regel nocturne en général au dessus de 2000 m.",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

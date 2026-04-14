@@ -1,27 +1,46 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-04-13T16:00:00",
-  "validUntil": "2026-04-14T18:00:00",
+  "date": "2026-04-14T16:00:00",
+  "validUntil": "2026-04-15T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2800",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2800",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
         "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "plaque_vent"
+    "plaque_vent",
+    "sous_couche_fragile",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige récente humidifiée. \nDéclenchements skieurs : petites instabilités dans la neige récente ventée à haute altitude. ",
-  "stability": "RARES PLAQUES À HAUTE ALTITUDE\n\nDéclenchements provoqués : de rares instabilités sont en place dans la neige récente ventée à haute altitude (au-dessus de 2400 m), plutôt localisées en coeur de massif. Elles sont possibles en toute orientation, mais plus nombreuses dans les orientations ouest à est en passant par le nord. Elles peuvent encore être déclenchées par un seul skieur et génèrent des avalanches de taille petite (taille 1), à rarement moyenne (taille 2). \nSous 2400 m, le manteau neigeux est maintenant complètement humidifé. Un skieur peut engendrer un départ ponctuel dans une pente raide fortement humidifiée. L'ensemble du manteau neigeux peut alors être mobilisé des avalanches de taille moyenne (taille 2) sont possibles notamment en versant ouest, nord-ouest, nord-est et est.\n\nDéparts spontanés : quelques départs en neige récente humidifiée dans les pentes raides, au fil des éclaircies se mettant en place en cours de journée. \n",
-  "snowQuality": "Enneigement déficitaire pour une mi-avril en adrets, proche des normales en ubacs et fonds de vallons.\nHauteurs de neige observées vers 2500 m : 269 cm à la nivôse des Ecrins à 3000 m, 142 cm au Pré de Madame Carle à 1900 m. \n\nLimite d'enneigement skiable : généralement vers 1600/1700 m, très localement 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 2000/2100 m en adrets pas trop raides.\n\nÉtat de la neige de surface : un peu de neige récente (5/10 cm) à partir de 2000/2200 m, sur un manteau humide ou mal regelé jusque 2700/2800 m.  ",
+  "summary": "Départs spontanés : en neige humide au fil de l'ensoleillement. \nDéclenchements skieurs : en neige humide sous les skis. Quelques instabilités dans la neige ventée à haute altitude. ",
+  "stability": "DÉPARTS DE NEIGE HUMIDE AU SOLEIL - RARES PLAQUES À HAUTE ALTITUDE\n\nDéparts spontanés : peu probables en début de journée après un regel nocturne correct, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Départs généralement ponctuels en particulier en pentes raides près des rochers, engendrant des avalanches de taille petite à moyenne (taille 1 à 2). Un départ linéaire de plus grande taille (taille 3), est possible mais reste rare, plutôt dans les orientations est, nord-est, nord-ouest et ouest au-dessus de 2200/2400 m environ, lorsque l'humidification gagne en profondeur et atteint pour la première fois des couches fragiles persistantes enfouies à la base du manteau neigeux. \n\nDéclenchements provoqués : \n- Un skieur évoluant tardivement en pentes raides fortement humidifiées peut provoquer des départs de neige humide sous les skis, engendrant des avalanches en poires de taille petite à moyenne (taille 1 à 2). Un départ linéaire de grande taille (taille 3) est possible mais rare, notamment dans les orientations est, nord-est, nord-ouest et ouest au-dessus de 2200/2400 m environ dans le cas de sollicitation de couches fragiles persistantes enfouies à la base du manteau neigeux. Départs avec cassures linéaires larges et épaisses, possibles au passage d'un skieur, notamment après un premier départ de surface. \n- Au-dessus de 2800/3000 m environ, des instabilités sont en place surtout en coeur de massif, formées par les chutes de neige de lundi. Elles sont facilement identifiables, présentes en toute orientation et peuvent encore être déclenchées par le passage d'un skieur, générant alors des avalanches de taille petite à moyenne. \n",
+  "snowQuality": "Enneigement déficitaire pour une mi-avril en adrets, proche des normales en ubacs et fonds de vallons.\nHauteurs de neige observées vers 2500 m : 265 cm à la nivôse des Ecrins à 3000 m, 138 cm au Pré de Madame Carle à 1900 m. \n\nLimite d'enneigement skiable : généralement vers 1600/1700 m, très localement 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 2000/2100 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. En coeur de massif, on peut trouver un peu de neige récente (15/25 cm) qui s'humidifie rapidement, mais reste légère en ubacs raides aux plus hautes altitudes du massif. ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

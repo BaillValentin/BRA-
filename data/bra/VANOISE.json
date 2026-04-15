@@ -1,7 +1,7 @@
 {
   "massif": "VANOISE",
-  "date": "2026-04-14T17:00:00",
-  "validUntil": "2026-04-15T18:00:00",
+  "date": "2026-04-15T16:00:00",
+  "validUntil": "2026-04-16T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,12 +17,13 @@
     }
   ],
   "situations": [
+    "plaque_vent",
     "neige_humide",
     "glissement"
   ],
   "summary": "Départs spontanés : quelques départs en neige humide.\nDéclenchements skieurs : petites coulées sous les skis dans la neige fortement humidifiée (pourrie).",
-  "stability": "ACTION DU SOLEIL, POURSUITE DE L'HUMIDIFICATION.\n\nDéparts spontanés : - Le matin le regel est bon par ciel clair et réduit le risque de départs naturels au dessus des nuages matinaux .\n- Quelques départs en neige humide, après quelques heures d'ensoleillement. L'activité avalancheuse suit la course du soleil, d'abord en versants NE, Est et ensuite Ouest et NO.\nPlus rarement une cassure linéaire (plaques) est possible donnant alors de grandes avalanches (taille 3) si l'eau de fonte qui percole dans le manteau atteint les couches fragiles enfouies du début de saison. Cette cassure linéaire semble plus probable en versants Est/Nord/Ouest, sous 2700 m.\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée au fil des heures. Exceptionnellement une poire peut déclencher en cascade une cassure linéaire et une grande avalanche en sollicitant une couche fragile du début de saison.\n\nSecteur Arpont-Parrachée : En versants froids de haute altitude, rares plaques d'aspect poudreux, de moins en moins réactives, on les trouve plutôt près des crêtes et des ruptures de pentes. Petites à moyennes avalanches.\n\nAutres : chutes de corniches possibles à toute heure.",
-  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1400 m en Nord, 1700/1800 m en Sud.\n\nQualité de la neige : Bon regel le matin par ciel clair. Neige croûtée, moquette au soleil devenant profondément pourrie après avoir trop chauffée. En secteur nord la neige est collante. Secteur Parrachée, la croûte s'humidifie progressivement, la neige botte facilement.",
+  "stability": "ACTION DU SOLEIL, POURSUITE DE L'HUMIDIFICATION.\n\nDéparts spontanés : - Mer de nuages vers 2000 m la nuit jusqu'au matin : au dessus bon regel par ciel clair, risque réduit. Pas de regel dans les nuages, rares départs en neige humide, petite avalanche.\n- Quelques départs en neige humide, qui suivent la course du soleil, d'abord en versants NE, Est et ensuite Ouest et NO. Petites à moyennes avalanches. \nRare cassure linéaire (plaque), grande avalanche (taille 3) si l'eau de fonte qui percole dans le manteau atteint un couche fragile enfouie du début de saison. Cette cassure linéaire semble plus probable en versants Est/Nord/Ouest, sous 2700 m.\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée au fil des heures. Exceptionnellement une petite coulée peut déclencher en cascade une cassure linéaire, grande avalanche, en sollicitant une couche fragile du début de saison.\n\nSecteur Arpont-Parrachée : En versants froids de haute altitude, rares plaques d'aspect poudreux, de moins en moins réactives, on les trouve plutôt près des crêtes et des ruptures de pentes. Petites à moyennes avalanches.\n\nAutres : chutes de corniches possibles à toute heure.",
+  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1400 m en Nord, 1700/1800 m en Sud.\n\nQualité de la neige : La nuit et le matin sous la mer de nuages, pas de regel et neige pourrie. Au dessus de la mer de nuages, bon regel et neige croûtée le matin, moquette au soleil devenant profondément pourrie après avoir trop chauffé. En secteur nord la neige devient collante après quelques heures, on peut trouver encore un peu de poudreuse au dessus de 2800 m.  Secteur Parrachée, la croûte s'humidifie progressivement, la neige botte facilement.",
   "pdfUrl": "./data/bra/VANOISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_10.png",

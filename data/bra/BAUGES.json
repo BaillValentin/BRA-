@@ -1,12 +1,12 @@
 {
   "massif": "BAUGES",
-  "date": "2026-04-14T16:00:00",
-  "validUntil": "2026-04-15T18:00:00",
+  "date": "2026-04-15T16:00:00",
+  "validUntil": "2026-04-16T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -22,9 +22,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : avalanches de neige humide\nDéclenchements skieurs : avalanches de neige humide",
-  "stability": "Retour de la douceur et du soleil\n\nDéparts spontanés :\n* avalanches de neige humide, de plus en plus nombreuses au fil du réchauffement et du rayonnement solaire. Taille 1 à 2 (petite à moyenne). \nObservables : enfoncement piéton important, boulettes, escargots.\n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. Taille 2 (moyenne).\n\n Déclenchements provoqués :\nAvalanches de neige humide. Facile à déclencher au soleil. Départ ponctuel sous les skis.  Taille 1 à 2 (petite à moyenne). Causé par le réchauffement et le rayonnement solaire. ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2000 m, en dessous il est déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en sud et 1500 m en nord. \n\nQualité de la neige ce mercredi matin : \n* au-dessus des nuages bas (1700 m), neige de printemps avec un bon regel nocturne. \n* en dessous de 1700 m, vielle neige humide sans regel nocturne.\n",
+  "summary": "Départs spontanés : Avalanches de neige humide\nDéclenchements skieurs : Avalanches de neige humide",
+  "stability": "Poursuite de l'humidification du manteau neigeux\n\nDéparts spontanés :\n* avalanches de neige humide, possibles dès le matin et de plus en plus nombreuses au fil du rayonnement solaire, en tous versants. Taille 1 à 2 (petites à moyennes).\nObservables : enfoncement piéton important, boulettes, escargots\n* quelques plaques de fond dans les zones herbeuses ou dalles rocheuses, en tous versants, à toute heure du jour ou de la nuit. Taille 2.\n\n Déclenchements provoqués :\nAvalanches de neige humides dans les versants raides et chauffés par le soleil, facilement déclenchable par un skieur. Départ ponctuel pouvant parfois déclencher, en cascade, une petite plaque. Taille 1, rarement 2.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2000 m, en dessous il est déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en sud et 1500 m en nord. \n\nQualité de la neige ce jeudi matin : \n* à toute altitude et tous versants, neige fortement humidifiée sans regel nocturne.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

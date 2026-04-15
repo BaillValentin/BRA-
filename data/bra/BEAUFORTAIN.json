@@ -1,7 +1,7 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-04-14T17:00:00",
-  "validUntil": "2026-04-15T18:00:00",
+  "date": "2026-04-15T16:00:00",
+  "validUntil": "2026-04-16T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,12 +17,13 @@
     }
   ],
   "situations": [
+    "plaque_vent",
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : quelques départs en neige humide.\nDéclenchements skieurs : petites coulées sous les skis dans la neige fortement humidifiée (pourrie).",
-  "stability": "ACTION DU SOLEIL, POURSUITE DE L'HUMIDIFICATION.\n\nDéparts spontanés : - Le matin le regel est bon par ciel clair et réduit le risque de départs naturels au dessus des nuages matinaux.\n- Quelques départs en neige humide, après quelques heures d'ensoleillement. L'activité avalancheuse suit la course du soleil, d'abord en versants NE, Est et ensuite Ouest et NO. \nExceptionnellement, une cassure linéaire au volume plus important peut y être observée si l'humidification atteint pour la première fois une couche fragile enfouie. \n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée au fil des heures.\n\nAutres : chutes de corniches possibles.",
-  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1200/1300 m en Nord, 1600/1700 m en Sud.\n\nQualité de la neige : Bon regel le matin par ciel clair. Neige croûtée, moquette au soleil devenant profondément pourrie après avoir trop chauffée. En secteur nord la neige est collante.",
+  "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : petites coulées sous les skis dans la neige fortement humidifiée (pourrie).",
+  "stability": "POURSUITE DE L'HUMIDIFICATION SOUS L'EFFET DU SOLEIL.\n\nDéparts spontanés : - Mer de nuages vers 2000 m la nuit jusqu'au matin : au dessus bon regel par ciel clair, risque réduit. Pas de regel dans les nuages, rares départs en neige humide, petite avalanche.\n- rares départs en neige humide qui suivent la course du soleil, d'abord en versants NE, Est et ensuite Ouest et NO. Petites à moyennes avalanches. \nExceptionnellement, une cassure linéaire plus volumineuse peut partir si l'humidification atteint pour la première fois une couche fragile enfouie. \n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée au fil des heures.\n\nAutres : chutes de corniches possibles.",
+  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1300/1400 m en Nord, 1600/1700 m en Sud.\n\nQualité de la neige : La nuit et le matin sous la mer de nuages, pas de regel et neige pourrie.\nAu dessus de la mer de nuages, bon regel et neige croûtée le matin, moquette au soleil devenant profondément pourrie après avoir trop chauffé. En secteur nord la neige devient collante après quelques heures.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

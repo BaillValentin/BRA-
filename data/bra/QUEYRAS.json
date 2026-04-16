@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-04-15T16:00:00",
-  "validUntil": "2026-04-16T18:00:00",
+  "date": "2026-04-16T16:00:00",
+  "validUntil": "2026-04-17T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -29,12 +29,11 @@
   ],
   "situations": [
     "plaque_vent",
-    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide au soleil, rarement volumineux.\nDéclenchements skieurs : en neige humide sous les skis. Quelques instabilités dans la neige ventée sur le secteur frontalier.",
-  "stability": "ACTIVITÉ NATURELLE AU SOLEIL - RARES PLAQUES À PROXIMITÉ DE L'ITALIE\n\nDéparts spontanés : peu probables au petit matin après un regel nocturne correct, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Avalanches de taille petite à moyenne (taille 1 à 2). Un rare départ linéaire de plus grande taille (taille 3), est possible, dans les versants d'un large secteur nord au-dessus de 2400/2800 m environ, si l'humidification, gagnant en profondeur, atteint pour la première fois des couches fragiles persistantes enfouies à la base du manteau neigeux. \n\nDéclenchements provoqués : plaques en place surtout sur le secteur frontalier à haute altitude, formées par les chutes de neige de lundi. Elles sont facilement identifiables, présentes en toute orientation et peuvent encore être déclenchées par le passage d'un skieur, générant alors des avalanches de taille petite à moyenne. Sous 2800 m, un pratiquant évoluant tardivement peut déclencher un départ de neige humide sous les skis.  Avalanches généralement de taille moyenne, rarement grande, notamment dans les orientations est, nord-est, nord-ouest et ouest.",
-  "snowQuality": "Enneigement nettement déficitaire pour une mi-avril avant l'épisode de ce lundi, notamment en adrets, parfois secs jusqu'à 2500 m.\nHauteurs de neige observées vers 2500 m : 112 cm en versant nord du col Izoard et au-dessus de Saint-Véran à 2700 m, 66 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 1700/1800 m en ubacs bien protégés ou sur pistes forestières, plutôt 2200/2300 m en adrets.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. Dans les ubacs raides aux plus hautes altitudes du massif, neige encore froide, souvent durcie ou travaillée par le vent dans les secteurs exposés, parfois plus légère dans les combes ou pentes abritées. Sur le secteur frontalier avec l'Italie, on peut trouver un peu de neige récente (15/20 cm).",
+  "summary": "Départs spontanés : en neige humide au soleil, rarement volumineux.\nDéclenchements skieurs : en neige humide sous les skis. Rares plaques à vent sur le secteur frontalier.",
+  "stability": "ACTIVITÉ NATURELLE AU SOLEIL - RARES PLAQUES À PROXIMITÉ DE L'ITALIE\n\nDéparts spontanés : peu probables au petit matin après un bon regel nocturne, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Avalanches de taille petite à moyenne (taille 1 à 2). Un rare départ linéaire de plus grande taille (taille 3), est possible, dans les versants d'un large secteur nord entre 2400/2800 m environ, emportant ainsi la totalité du manteau neigeux.\n\nDéclenchements provoqués : plaques résiduelles sur le secteur frontalier à haute altitude, formées par les chutes de neige de lundi. Présentes plein nord, elle peuvent encore être déclenchées par le passage d'un skieur, générant alors des avalanches de taille petite à moyenne. Sous 2800 m, un pratiquant évoluant tardivement peut déclencher un départ de neige humide sous les skis. Avalanches généralement de taille moyenne, rarement grande.",
+  "snowQuality": "Enneigement nettement déficitaire pour une mi-avril avant l'épisode de ce lundi, notamment en adrets, parfois secs jusqu'à 2500 m.\nHauteurs de neige observées vers 2500 m : 110 cm en versant nord du col Izoard et au-dessus de Saint-Véran à 2700 m, 64 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 2000 m en ubacs bien protégés ou sur pistes forestières, plutôt 2400 m en adrets.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. Dans les ubacs raides aux plus hautes altitudes du massif, neige encore froide, souvent durcie ou travaillée par le vent dans les secteurs exposés, parfois plus légère dans les combes ou pentes abritées. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

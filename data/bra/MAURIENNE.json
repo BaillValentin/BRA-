@@ -1,7 +1,7 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-04-15T16:00:00",
-  "validUntil": "2026-04-16T18:00:00",
+  "date": "2026-04-16T17:00:00",
+  "validUntil": "2026-04-17T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,13 +17,12 @@
     }
   ],
   "situations": [
-    "plaque_vent",
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : quelques départs en neige humide.\nDéclenchements skieurs : petites coulées sous les skis dans la neige fortement humidifiée (pourrie).",
-  "stability": "POURSUITE DE L'HUMIDIFICATION SOUS L'EFFET DU SOLEIL.\n\nDéparts spontanés : - Mer de nuages vers 2000 m la nuit jusqu'au matin : au dessus bon regel par ciel clair, risque réduit. Pas de regel dans les nuages, rares départs en neige humide, petite avalanche.\n- Quelques départs en neige humide, qui suivent la course du soleil, d'abord en versants NE, Est et ensuite Ouest et NO.  Petites à moyennes avalanches. \nRare cassure linéaire (plaque), grande avalanche (taille 3) si l'eau de fonte qui percole dans le manteau atteint un couche fragile enfouie du début de saison. Cette cassure linéaire semble plus probable en versants Est/Nord/Ouest, sous 2700 m.\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée au fil des heures. Exceptionnellement une petite coulée peut déclencher en cascade une cassure linéaire, grande avalanche, en sollicitant une couche fragile du début de saison.\n\nSecteur Thabor : En versants froids au dessus de 2800 m, rares petites plaques d'aspect poudreux, de moins en moins réactives. Petites à moyennes avalanches.\n\nAutres : chutes de corniches possibles.",
-  "snowQuality": "Enneigement : l'enneigement est revenu au niveau des normales suite à la chaleur des derniers jours, le chauffage et la présence des nuages accélèrent la fonte.\n\nLimite skiable : vers 1500/1600 m en Nord, 1800/1900 m en Sud.\n\nQualité de la neige : La nuit et le matin sous la mer de nuages, pas de regel et neige pourrie. Au dessus de la mer de nuages, bon regel et neige croûtée le matin, moquette au soleil devenant profondément pourrie après avoir trop chauffé. En secteur nord la neige devient collante après quelques heures, on peut encore trouver un peu de poudreuse au dessus de 2800 m. Secteur Thabor, la croûte s'humidifie progressivement, la neige botte facilement.",
+  "summary": "Départs spontanés : quelques départs en neige humide.\nDéclenchements skieurs : neige humide sous les skis.",
+  "stability": "MANTEAU PRINTANIER, NEIGE DURE A L'AUBE PUIS QUELQUES DÉPARTS EN NEIGE HUMIDE AU SOLEIL.\n\nDéparts spontanés :\n- Quelques avalanches de neige humide dans les pentes ensoleillées au fil de la journée. Ce sont généralement des départs ponctuels (poires), donnant de petites à moyennes avalanches. Avec l'avancée dans la saison, les pentes Sud deviennent relativement inertes avec une neige transformée sur toute l'épaisseur du manteau. Par contre, dans les versants Est, Nord et Ouest, l'humidification gagne des couches plus profondes et, si une couche fragile est atteinte, un départ linéaire est possible. On peut alors s'attendre, plus rarement, à une taille 3 (grande).\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée. Exceptionnellement une petite coulée déclenchée peut mobiliser en cascade une plaque en sollicitant une couche fragile du début de saison (grande avalanche envisageable).\n\nAutres : chutes de corniches signalées.",
+  "snowQuality": "Enneigement : à peine correct pour la saison, la montagne subit les assauts répétés de la chaleur excessive...\n\nLimite skiable : vers 1500/1600 m en Nord, 1800/1900 m en Sud.\n\nQualité de la neige : bon regel. Neige de printemps sauf dans le Nord raide au-delà de 2800/3000 m où on peut encore trouver un peu de neige froide. Possibilité de faire du très bon ski en trouvant le créneau de \"moquette\",  mais les pentes Est chauffent très vite le matin.",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

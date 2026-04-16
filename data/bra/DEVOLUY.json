@@ -1,7 +1,7 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-04-15T16:00:00",
-  "validUntil": "2026-04-16T18:00:00",
+  "date": "2026-04-16T16:00:00",
+  "validUntil": "2026-04-17T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -15,12 +15,11 @@
     }
   ],
   "situations": [
-    "sous_couche_fragile",
     "neige_humide"
   ],
   "summary": "Départs spontanés : en neige humide au soleil. \nDéclenchements skieurs : ponctuels dans la neige humide. ",
-  "stability": "ACTIVITÉ NATURELLE AU SOLEIL, RARES DÉPARTS VOLUMINEUX\n\nDéparts spontanés : peu probables au petit matin après un regel nocturne correct, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Avalanches de taille petite à moyenne (taille 1 à 2). Un rare départ linéaire de plus grande taille (taille 3), est possible, dans les versants d'un large secteur nord au-dessus de 2400/2800 m environ, si l'humidification, gagnant en profondeur, atteint pour la première fois des couches fragiles persistantes enfouies à la base du manteau neigeux. \n\nDéclenchements provoqués : un pratiquant évoluant tardivement peut déclencher un départ de neige humide sous les skis, dans une pente raide fortement humidifiée.  Avalanches de taille petite à moyenne (taille 1 à 2), rarement grande dans les orientations nord-est à nord-ouest.",
-  "snowQuality": "Enneigement encore excédentaire pour une mi-avril, notamment en ubacs et vallons d'altitude.  \n\nLimite d'enneigement skiable : vers 1400/1500 m en ubacs favorables (terrains herbeux, pistes forestières), 1900/2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. ",
+  "stability": "ACTIVITÉ NATURELLE AU SOLEIL, RARES DÉPARTS VOLUMINEUX EN NORD D'ALTITUDE\n\nDéparts spontanés : peu probables au petit matin après un bon regel nocturne, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Avalanches de taille petite à moyenne (taille 1 à 2). Un rare départ linéaire de plus grande taille (taille 3), est possible, dans les versants d'un large secteur nord entre 2400/2800 m environ, emportant ainsi la totalité du manteau neigeux.\n\nDéclenchements provoqués : un pratiquant évoluant tardivement peut déclencher un départ de neige humide sous les skis, dans une pente raide fortement humidifiée. Avalanches de taille petite à moyenne (taille 1 à 2), très rarement grande.",
+  "snowQuality": "Enneigement encore excédentaire pour une mi-avril, notamment en ubacs et vallons d'altitude.  \n\nLimite d'enneigement skiable : vers 1700 m en ubacs favorables (terrains herbeux, pistes forestières), 2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. ",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

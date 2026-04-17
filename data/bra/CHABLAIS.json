@@ -1,7 +1,7 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-04-16T16:00:00",
-  "validUntil": "2026-04-17T18:00:00",
+  "date": "2026-04-17T16:00:00",
+  "validUntil": "2026-04-18T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -24,8 +24,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : Avalanches de neige humide\nDéclenchements skieurs : Avalanches de neige humide",
-  "stability": "Poursuite de l'humidification du manteau neigeux\n\nDéparts spontanés :\n* avalanches de neige humide de plus en plus nombreuses au fil de la course du soleil. Taille 1 à 2 (petites à moyennes). Au-dessus de 2200 m, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de plus grandes ampleurs (taille 3, grande).\nObservables : enfoncement piéton important, boulettes, escargots\n* quelques plaques de fond dans les zones herbeuses ou dalles rocheuses, à toute heure du jour ou de la nuit, en dessous de 2600 m. Taille 2.\n\n Déclenchements provoqués :\nAvalanches de neige humides dans les versants raides et chauffés par le soleil, facilement déclenchable par un skieur. Départ ponctuel pouvant parfois déclencher, en cascade, une petite plaque. Taille 1, rarement 2.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2000 m, en dessous il est déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en sud et 1500 m en nord. \n\nQualité de la neige ce vendredi matin : \n* neige de printemps avec un bon regel nocturne. Neige portante à skis et souvent à pied en début de journée. ",
+  "stability": "Poursuite de l'humidification du manteau neigeux\n\nDéparts spontanés :\n* avalanches de neige humide de plus en plus nombreuses au fil de la course du soleil. Taille 1 à 2 (petites à moyennes). Au-dessus de 2200 m, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de plus grande ampleur (taille 3, grande).\nObservables : enfoncement piéton important, boulettes, escargots\n* quelques plaques de fond dans les zones herbeuses ou dalles rocheuses, à toute heure du jour ou de la nuit, en dessous de 2700 m. Taille 2.\n\n Déclenchements provoqués :\nAvalanches de neige humides dans les versants raides et chauffés par le soleil, facilement déclenchable par un skieur. Départ ponctuel pouvant parfois déclencher, en cascade, une petite plaque. Taille 1, rarement 2.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2000 m, en dessous il est déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en sud et 1500 m en nord. \n\nQualité de la neige ce samedi matin : \n* neige de printemps avec un bon regel nocturne. Neige portante à skis et souvent à pied en début de journée. ",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

@@ -1,39 +1,25 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-04-16T16:00:00",
-  "validUntil": "2026-04-17T18:00:00",
+  "date": "2026-04-17T16:00:00",
+  "validUntil": "2026-04-18T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2800",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
         "N",
         "NE",
-        "E",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2800",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide au soleil, rarement volumineux.\nDéclenchements skieurs : en neige humide sous les skis. Rares plaques à vent à haute altitude. ",
-  "stability": "ACTIVITÉ NATURELLE AU SOLEIL - RARES PLAQUES À HAUTE ALTITUDE\n\nDéparts spontanés : peu probables au petit matin après un bon regel nocturne, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Avalanches de taille petite à moyenne (taille 1 à 2). Un rare départ linéaire de plus grande taille (taille 3), est possible, dans les versants d'un large secteur nord entre 2400/2800 m environ, emportant ainsi la totalité du manteau neigeux.\n\nDéclenchements provoqués : plaques résiduelles sur le secteur frontalier à haute altitude, formées par les chutes de neige de lundi. Présentes plein nord, elle peuvent encore être déclenchées par le passage d'un skieur, générant alors des avalanches de taille petite à moyenne. Sous 2800 m, un pratiquant évoluant tardivement peut déclencher un départ de neige humide sous les skis. Avalanches généralement de taille moyenne, rarement grande.",
-  "snowQuality": "Enneigement déficitaire pour une mi-avril en adrets, proche des normales en ubacs et fonds de vallons.\nHauteurs de neige observées vers 2500 m : 253 cm à la nivôse des Ecrins à 3000 m, 133 cm au Pré de Madame Carle à 1900 m. \n\nLimite d'enneigement skiable : généralement vers 1700 m en ubacs favorables (terrains herbeux, pistes forestières), 2200 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. Dans les ubacs raides aux plus hautes altitudes du massif, neige encore froide, souvent durcie ou travaillée par le vent dans les secteurs exposés, parfois plus légère dans les combes ou pentes abritées. ",
+  "summary": "Départs spontanés : en neige humide en versants nord d'altitude\nDéclenchements skieurs : en neige humide en versants nord d'altitude",
+  "stability": "MANTEAU NEIGEUX PRINTANIER, RARES DÉPARTS VOLUMINEUX EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : instabilités localisées en versants nord-ouest, nord et nord-est d'altitude, à partir de 2400 m environ, dans les pentes raides fortement humidifiées au soleil. Avalanches de neige humide pouvant être déclenchées par un seul skieur, généralement ponctuelles et de taille petite à moyenne (taille 1), plus rarement moyenne à grande (taille 3) avec départ linéaire et jusqu'au sol.\nL'humidification du manteau neigeux se poursuit et peut atteindre localement les couches fragiles encore présentes à la base du manteau neigeux.\n\nDéparts spontanés : peu probables au petit matin après un regel nocturne correct, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Avalanches généralement ponctuelles et de taille petite à moyenne (taille 1), plus rarement moyenne à grande (taille 3) avec départ linéaire et jusqu'au sol.",
+  "snowQuality": "Enneigement légèrement déficitaire sur l'ensemble du massif  : nettement déficitaires en adrets, plus proche des normales voire légèrement déficitaire en ubacs et vallons d'altitude au-dessus de 2500 m environ.  \nHauteurs de neige observées  : 247 cm à la nivôse des Ecrins à 2900 m, 129 cm au Pré de Madame Carle à 1900 m.    \n\nLimite d'enneigement skiable : à partir de 1600/1700 m en ubacs favorables (terrains herbeux, pistes forestières), 2200/2400 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. Neige restée sèche seulement au-dessus de 3000/3200 m en versants nord. ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

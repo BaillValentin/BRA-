@@ -1,7 +1,7 @@
 {
   "massif": "THABOR",
-  "date": "2026-04-16T16:00:00",
-  "validUntil": "2026-04-17T18:00:00",
+  "date": "2026-04-17T16:00:00",
+  "validUntil": "2026-04-18T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,9 +17,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide au soleil. \nDéclenchements skieurs : en neige humide sous les skis. ",
-  "stability": "ACTIVITÉ NATURELLE AU SOLEIL, RARES DÉPARTS VOLUMINEUX EN NORD D'ALTITUDE\n\nDéparts spontanés : peu probables au petit matin après un bon regel nocturne, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Avalanches de taille petite à moyenne (taille 1 à 2). Un rare départ linéaire de plus grande taille (taille 3), est possible, dans les versants d'un large secteur nord entre 2400/2800 m environ, emportant ainsi la totalité du manteau neigeux.\n\nDéclenchements provoqués : un pratiquant évoluant tardivement peut déclencher un départ de neige humide sous les skis, dans une pente raide fortement humidifiée. Avalanches de taille petite à moyenne (taille 1 à 2), très rarement grande.",
-  "snowQuality": "Enneigement déficitaire pour une mi-avril en adrets, plus proche des normales en ubacs d'altitude.\nHauteurs de neige observées vers 2500 m : 125 cm dans le vallon du Chardonnet, 93 cm aux Rochilles, 45 cm dans le vallon de Roche Noire vers le Galibier.\n\nLimite d'enneigement skiable : vers 1700 m en ubacs favorables (terrains herbeux, pistes forestières), 2200 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. Dans les ubacs raides aux plus hautes altitudes du massif, neige encore froide, souvent durcie ou travaillée par le vent dans les secteurs exposés, parfois plus légère dans les combes ou pentes abritées. ",
+  "summary": "Départs spontanés : en neige humide en versants nord d'altitude\nDéclenchements skieurs : en neige humide en versants nord d'altitude",
+  "stability": "MANTEAU NEIGEUX PRINTANIER, RARES DÉPARTS VOLUMINEUX EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : instabilités localisées en versants nord-ouest, nord et nord-est d'altitude, à partir de 2400 m environ, dans les pentes raides fortement humidifiées au soleil. Avalanches de neige humide pouvant être déclenchées par un seul skieur, généralement ponctuelles et de petite taille (taille 1), plus rarement moyenne (taille 2) et exceptionnellement grande (taille 3) avec départ linéaire et jusqu'au sol.\nL'humidification du manteau neigeux se poursuit et peut atteindre localement les couches fragiles encore présentes à la base du manteau neigeux.\n\nDéparts spontanés : peu probables au petit matin après un regel nocturne correct, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Avalanches généralement ponctuelles et de petite taille (taille 1), plus rarement moyenne (taille 2) et exceptionnellement grande (taille 3) avec départ linéaire et jusqu'au sol.",
+  "snowQuality": "Enneigement déficitaire sur le massif, particulièrement en adrets. \nHauteurs de neige observées vers 2500 m : 128 cm dans le vallon du Chardonnet, 91 cm aux Rochilles, 42 cm dans le vallon de Roche Noire vers le Galibier.\n\nLimite d'enneigement skiable : vers 1700/1800 m en ubacs favorables (terrains herbeux, pistes forestières), 2200/2400 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. ",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

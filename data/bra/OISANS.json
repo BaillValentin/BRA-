@@ -1,7 +1,7 @@
 {
   "massif": "OISANS",
-  "date": "2026-04-16T17:00:00",
-  "validUntil": "2026-04-17T18:00:00",
+  "date": "2026-04-17T15:00:00",
+  "validUntil": "2026-04-18T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,9 +20,9 @@
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Avalanches humides de taille 1 à 2, plus rarement de taille 3 avec départ linéaire non exclu. Plutôt l'après-midi au soleil.\nDéclenchements skieurs : Peu probables ou sous les skis en neige très humide l'après-midi.",
-  "stability": "POURSUITE DE L'HUMIDIFICATION DU MANTEAU : QUELQUES DÉPARTS POSSIBLES, PARFOIS AU TERRAIN ET TRÈS LOCALEMENT VOLUMINEUX.\n\nDéparts spontanés : Après un bon regel, le risque est faible en matinée puis augmente au fil des heures avec quelques avalanches de neige humide possibles en tous versants. Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure une rare taille 3 (grande) dans un versant d'un large Nord. Par ailleurs, dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue. Enfin vers les hautes crêtes, un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur. Ce risque est plutot présent l'après-midi.\n\nAutres : Neige très humide à \"soupe\" selon le versant/l'altitude, ski parfois difficile...",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien dégradé réduit depuis une dizaine de jours mais reste assez important en faces peu ensoleillées et en combes d'altitude....\nLimites skiables : Vers 1500m en Nord à 1800/2200m suivant l'exposition, la raideur de la pente...\n\nQualité de la neige vendredi :  Après un bon regel, neige dure voire croitée en matinée et surface glacées. L'après-midi, la neige poursuit son humidification en profondeur, dans les versants exposés au soleil, mais aussi dans les versants Nords de moyenne montagne. En Sud, neige de printemps déjà très densifiée.",
+  "summary": "Départs spontanés : Avalanches humides de taille 1 à 2, plus rarement de taille 3 avec départ linéaire non exclu. Plutôt l'après-midi.\nDéclenchements skieurs : Peu probables ou sous les skis en neige très humide l'après-midi.",
+  "stability": "POURSUITE DE L'HUMIDIFICATION DU MANTEAU : QUELQUES DÉPARTS POSSIBLES, PARFOIS AU TERRAIN ET TRÈS LOCALEMENT VOLUMINEUX.\n\nDéparts spontanés : Après un bon regel, le risque est faible en matinée puis augmente au fil des heures avec quelques avalanches de neige humide possibles en tous versants. Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure une rare taille 3 (grande) dans un versant d'un large Nord. Par ailleurs, dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue. Enfin vers les hautes crêtes, un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur. Ce risque est plutot présent l'après-midi.\n",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien dégradé réduit depuis une dizaine de jours mais reste assez important en faces peu ensoleillées et en combes d'altitude.\n\nLimites skiables : Vers 1500m en Nord à 1800/2200m suivant l'exposition, la raideur de la pente...\n\nQualité de la neige samedi :  Après un bon regel, neige dure voire croutée en matinée et surface glacées. L'après-midi, la neige poursuit son humidification en profondeur, dans les versants exposés au soleil, mais aussi dans les versants Nords de moyenne montagne. En Sud, neige de printemps déjà très densifiée.\nNeige très humide à \"soupe\" selon le versant/l'altitude.",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

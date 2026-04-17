@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-04-16T17:00:00",
-  "validUntil": "2026-04-17T18:00:00",
+  "date": "2026-04-17T15:00:00",
+  "validUntil": "2026-04-18T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,9 +20,9 @@
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Quelques avalanches humides de taille 1 à 2, possibles surtout l'après-midi. Rare taille 3 non exclue. \nDéclenchements skieurs : Peu probables ou sous les skis en neige très humide l'après-midi",
-  "stability": "POURSUITE DE L'HUMIDIFICATION DU MANTEAU : QUELQUES DÉPARTS POSSIBLES, PARFOIS AU TERRAIN.\n\nDéparts spontanés : Après un bon regel, le risque est faible en matinée puis augmente au fil des heures avec quelques avalanches de neige humide possibles en tous versants. Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure une rare taille 3 (grande) dans un versant d'un large Nord. Par ailleurs, dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue. Enfin vers les hautes crêtes, un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur. Ce risque est plutot présent l'après-midi.\n\nAutres : Neige très humide à \"soupe\" selon le versant/l'altitude, ski parfois difficile...",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis une dizaine de jours mais reste assez important en faces peu ensoleillées et en combe d'altitude....\nLimites skiables : Vers 1500 à 1800/2200m suivant l'exposition, la raideur de la pente...\n\nQualité de la neige jeudi vendredi :  Bon regel attendu. Neige dure et surface glacée en matinée puis devenant humide en profondeur, au soleil. En Sud, neige de printemps déjà très densifiée.",
+  "summary": "Départs spontanés : Quelques avalanches humides de taille 1 à 2, possibles surtout l'après-midi.\nDéclenchements skieurs : Peu probables ou sous les skis en neige très humide l'après-midi.",
+  "stability": "POURSUITE DE L'HUMIDIFICATION DU MANTEAU : QUELQUES DÉPARTS POSSIBLES, PARFOIS AU TERRAIN.\n\nDéparts spontanés : Après un bon regel, le risque est faible en matinée puis augmente au fil des heures avec quelques avalanches de neige humide possibles en tous versants. Généralement de taille 1 à 2 (petite à moyenne), on ne peut cependant exclure une rare taille 3 (grande) dans un versant d'un large Nord. Par ailleurs, dans certaines pentes herbeuses / secteurs de reptation, une avalanche de glissement n'est pas exclue. Enfin vers les hautes crêtes, un effondrement spontané de corniche n'est pas exclu. A noter que si les faces d'un large Sud sont également très humides, elles sont en neige plus dense/transformée, et le risque d'avalanche volumineuse y est moindre. \n\nDéclenchements provoqués : Le principal risque pour le pratiquant est de faire couler la neige humide sous les skis, dans une pente raide où la neige est humidifiée jusqu'en profondeur. Ce risque est plutot présent l'après-midi.\n",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis une dizaine de jours mais reste assez important en faces peu ensoleillées et en combe d'altitude....\n\nLimites skiables : Vers 1500 à 1800/2200m suivant l'exposition, la raideur de la pente...\n\nQualité de la neige samedi :  Bon regel attendu. Neige dure et surfaces glacées en matinée puis devenant humide au fil des heures jusqu'en  profondeur, au soleil. En Sud, neige de printemps déjà très densifiée.\nNeige très humide à \"soupe\" selon le versant/l'altitude.",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

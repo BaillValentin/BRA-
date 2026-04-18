@@ -1,7 +1,7 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-04-17T16:00:00",
-  "validUntil": "2026-04-18T18:00:00",
+  "date": "2026-04-18T16:00:00",
+  "validUntil": "2026-04-19T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -15,10 +15,11 @@
     }
   ],
   "situations": [
+    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide en versants nord d'altitude\nDéclenchements skieurs : en neige humide en versants nord d'altitude",
-  "stability": "MANTEAU NEIGEUX PRINTANIER, RARES DÉPARTS VOLUMINEUX EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : instabilités localisées en versants nord-ouest, nord et nord-est d'altitude, à partir de 2000/2200 m environ, dans les pentes raides fortement humidifiées au soleil. Avalanches de neige humide pouvant être déclenchées par un seul skieur, généralement ponctuelles et de taille petite à moyenne (taille 1 à 2), très rarement grande avec un départ linéaire (taille 3) avec départ linéaire jusqu'au sol.\nL'humidification du manteau neigeux se poursuit et peut atteindre localement les couches fragiles encore présentes à la base du manteau neigeux.\n\nDéparts spontanés : peu probables au petit matin après un regel nocturne correct, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Avalanches de taille petite à moyenne (taille 1 à 2), très rarement grande avec un départ linéaire (taille 3) avec départ linéaire jusqu'au sol.",
+  "summary": "Départs spontanés : en neige humide.\nDéclenchements skieurs : en neige humide.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER, RARES DÉPARTS VOLUMINEUX EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : \ndéparts possibles de neige fortement humidifiée par le soleil en pente raide. Instabilités localisées principalement en versants ouest, nord et est d'altitude, les pentes sud et les basses altitudes étant déjà en neige transformée sur l'intégralité du manteau neigeux. Avalanches pouvant être déclenchées par un seul skieur, généralement ponctuelles et de petite taille (taille 1), plus rarement moyenne (taille 2). Exceptionnellement une grande taille est possible sous forme de départ linéaire jusqu'au sol , en un large versant nord au dessus de 2300/2400 m environ où se trouvent encore localement des couches fragiles persistantes enfouies à la base du manteau neigeux.\n\nDéparts spontanés : peu probables en tout début de journée après un regel nocturne modéré, puis reprise rapide de l'activité en neige humide au fil de la course du soleil. Avalanches généralement sous forme de départ ponctuel de petite taille (taille 1), plus rarement moyenne (taille 2), et exceptionnellement grande (taille 3) en cas de départ linéaire en versants nord de haute altitude si l'humidification du manteau neigeux atteint pour la première fois la couche fragile encore présente à la base du manteau neigeux.",
   "snowQuality": "Enneigement en nette diminution, encore légèrement excédentaire pour une mi avril, notamment en ubacs et vallons d'altitude. \n\nLimite d'enneigement skiable : vers 1600 m en ubacs favorables (terrains herbeux, pistes forestières), 2000 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne correct, reprise rapide de l'humidification au soleil. ",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {

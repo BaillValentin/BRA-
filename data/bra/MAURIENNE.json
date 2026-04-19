@@ -1,7 +1,7 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-04-18T17:00:00",
-  "validUntil": "2026-04-19T18:00:00",
+  "date": "2026-04-19T16:00:00",
+  "validUntil": "2026-04-20T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,12 +17,11 @@
     }
   ],
   "situations": [
-    "neige_humide",
-    "glissement"
+    "neige_humide"
   ],
   "summary": "Départs spontanés : rares mais possiblement gros départs en neige humide.\nDéclenchements skieurs : neige humide sous les skis.",
-  "stability": "LES CONDITIONS DE PRINTEMPS SE MAINTIENNENT AVEC TOUTEFOIS UN REGEL MOINS BON CE DIMANCHE MATIN.\n\nDéparts spontanés :\n- Rares avalanches de neige humide dans les pentes ensoleillées au fil de la journée. Les départs ponctuels (en poire) se font désormais petits et rares. Avec l'avancée dans la saison, les pentes Sud deviennent relativement inertes avec une neige transformée sur toute l'épaisseur du manteau jusqu'à haute altitude. Par contre, dans les versants Est, Nord et Ouest, l'humidification gagne des couches plus profondes. Ainsi, lorsqu'une couche fragile est atteinte, un départ linéaire est possible. On peut alors s'attendre à de grandes avalanches (taille 3).\n- Rares avalanches de glissement (plaques de fond) à toute heure sur terrains propices, notamment en Nord sous 2500/2600 m. Taille 2.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée. Exceptionnellement une petite coulée déclenchée peut mobiliser en cascade une plaque en sollicitant une couche fragile du début de saison (grande avalanche envisageable).\n\nAutres : chutes de corniches signalées.",
-  "snowQuality": "Enneigement : à peine correct pour la saison, la montagne subit les assauts répétés de la chaleur excessive...\n\nLimite skiable : vers 1500/1600 m en Nord, 1800/1900 m en Sud.\n\nQualité de la neige : neige de printemps mais regel moyen, contrarié par un voile nuageux épais une bonne partie de la nuit. La neige devrait tout de même être portante au-dessus de 2000/2200 m, avec possibilité de faire du bon ski en trouvant le créneau de \"moquette\". Comme les jours précédents, les pentes Est chauffent très vite le matin...",
+  "stability": "CONDITIONS DE PRINTEMPS AVEC FONTE RAPIDE AVEC LA CHALEUR EXCESSIVE EN COURS \n\nDéparts spontanés :\n- Rares avalanches de neige humide dans les pentes ensoleillées au fil de la journée. Les départs ponctuels (en poire) se font désormais petits et rares. Avec l'avancée dans la saison, les pentes Sud deviennent relativement inertes avec une neige transformée sur toute l'épaisseur du manteau jusqu'à haute altitude. Par contre, dans les versants Est, Nord et Ouest, l'humidification gagne des couches plus profondes. Ainsi, lorsqu'une couche fragile est atteinte, un départ linéaire est possible. On peut alors s'attendre à de grandes avalanches (taille 3).\n\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée. Exceptionnellement une petite coulée déclenchée peut mobiliser en cascade une plaque en sollicitant une couche fragile du début de saison \n\nAutres : chutes de corniches signalées.",
+  "snowQuality": "Enneigement : à peine correct pour la saison, la montagne subit les assauts répétés de la chaleur excessive et la neige fond à vue d'œil\n\nLimite skiable : vers 1500/1600 m en Nord, 1800/1900 m en Sud.\n\nQualité de la neige : neige de printemps après un très bon regel nocturne. Neige dure aux premières heures du jour puis moquette aux bonnes heures (milieu de matinée à la mi journée suivant orientations et altitude. Comme les jours précédents, les pentes Est chauffent très vite le matin.. Neige pourrie l'après midi / soirée.",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

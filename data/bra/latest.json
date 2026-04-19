@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-18T17:07:23.736Z",
+  "lastUpdate": "2026-04-19T08:33:18.669Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 2,
@@ -87,7 +87,7 @@
     },
     "BELLEDONNE": {
       "risk": 2,
-      "date": "2026-04-18T15:00:00",
+      "date": "2026-04-19T07:00:00",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_8.png",
         "rose-pentes": "./data/bra/img/rose-pentes_8.png",
@@ -135,7 +135,7 @@
     },
     "GRANDES-ROUSSES": {
       "risk": 2,
-      "date": "2026-04-18T15:00:00",
+      "date": "2026-04-19T07:00:00",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_12.png",
         "rose-pentes": "./data/bra/img/rose-pentes_12.png",
@@ -171,7 +171,7 @@
     },
     "OISANS": {
       "risk": 2,
-      "date": "2026-04-18T15:00:00",
+      "date": "2026-04-19T07:00:00",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_15.png",
         "rose-pentes": "./data/bra/img/rose-pentes_15.png",

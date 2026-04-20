@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-04-19T16:00:00",
-  "validUntil": "2026-04-20T18:00:00",
+  "date": "2026-04-20T16:00:00",
+  "validUntil": "2026-04-21T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -14,9 +14,9 @@
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Avalanches de neige humide au soleil.\nDéclenchements skieurs : Avalanches de neige humide",
-  "stability": "Poursuite de l'humidification (et de la fonte) du manteau neigeux.\n\nDéparts spontanés :\n* Des fissures de reptations continuent de s'ouvrir sur les dalles herbeuses ou rocheuses à toute heure du jour et de la nuit. Par conséquent, des avalanches de fond sont toujours possibles, mais elles peuvent descendre tout de même sans signe avant-coureur. Taille 1 à 2.\n* Avalanches de neige humide, en toutes orientations et à toutes altitudes. Ces avalanches  sont de plus en plus nombreuses et probables au fil de l'ensoleillement. Taille 1 à 2 (petites à moyennes).\nObservables : enfoncement piéton important, boulettes, escargots\n\n Déclenchements provoqués :\n* Avalanches de neige humide, dans les versants raides et chauffés par le soleil, facilement déclenchable par un skieur. Taille 1 à 2.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct, au-dessus de 2000 m, en dessous, il est légèrement déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en sud et 1500 m en nord.\n\nQualité de la neige ce lundi :\n* On retrouve un manteau neigeux printanier à toutes les altitudes. Durant la nuit, le regel a été bon et ainsi la neige est dure le matin et ramollit rapidement en journée.\n* Les crêtes et les arêtes sont souvent décapées.",
+  "summary": "Départs spontanés : rares avalanches de neige humide\nDéclenchements skieurs : rares avalanches de neige humide",
+  "stability": " \n\nDéparts spontanés :\n* fissures de reptation sur entes raides herbeuses très raides et dalles rocheuses. Plaques de fond rares mais possibles, à toute heure. Taille 1 à 2 (petite à moyenne).\n* avalanches de neige humide, au fil de l'ensoleillement, et surtout en mi-journée/après-midi. Départs ponctuels en surface, s'élargissant en forme de poire, et pouvant racler toute la neige jusqu'au sol. Taille 1 à 2.\n\n Déclenchements provoqués :\n* un skieur peut pousser une avalanche de neige humide, une fois le manteau réchauffé par le soleil. Principalement en pentes raides. Taille 1 à 2.\nObservables : enfoncement piéton important.",
+  "snowQuality": "Enneigement :\nil reste encore pas mal de neige dans les ubacs au-dessus de 1600 m. Dans les versants S, on peut encore trouver quelques bancs de neige au-dessus de 1800 m.\n\nQualité de la neige ce mardi :\n* manteau neigeux printanier. Assez bon regel nocturne : neige dure le matin, puis rapidement humide voire très humide en journée.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

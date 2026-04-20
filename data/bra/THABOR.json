@@ -1,11 +1,11 @@
 {
   "massif": "THABOR",
-  "date": "2026-04-19T16:00:00",
-  "validUntil": "2026-04-20T18:00:00",
+  "date": "2026-04-20T16:00:00",
+  "validUntil": "2026-04-21T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2300",
+      "altitude": "<2400",
       "level": 1,
       "orientations": [
         "N",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "altitude": ">2300",
+      "altitude": ">2400",
       "level": 1,
       "orientations": [
         "N",
@@ -24,12 +24,11 @@
     }
   ],
   "situations": [
-    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide en altitude.\nDéclenchements skieurs : en neige humide en altitude.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER, QUELQUES AVALANCHES DE NEIGE HUMIDE POSSIBLES EN UBACS D'ALTITUDE\n\nDéclenchements provoqués : \nDéparts possibles sous les skis de neige fortement humidifiée par le soleil en pente raide. Instabilités localisées principalement en versants ouest, nord et est d'altitude supérieure à 2300 m, les pentes sud et les basses altitudes étant déjà en neige transformée sur l'intégralité du manteau neigeux. Avalanches pouvant être déclenchées par un skieur, généralement ponctuelles et de petite taille (taille 1), plus rarement moyenne (taille 2). Exceptionnellement une grande taille est possible sous forme de départ linéaire jusqu'au sol, en un large versant nord au dessus de 2300/2400 m environ où se trouvent encore localement des couches fragiles persistantes enfouies à la base du manteau neigeux.\n\nDéparts spontanés : \nPeu probables en tout début de journée après un regel nocturne plutôt bon, puis reprise rapide de l'humidification au fil de la course du soleil. Quelques avalanches peuvent alors se déclencher, principalement au dessus de 2300 m environ, généralement sous forme de départ ponctuel de petite taille (taille 1), plus rarement moyenne (taille 2), et exceptionnellement grande (taille 3) en cas de départ linéaire en versant nord si l'humidification du manteau neigeux atteint pour la première fois la couche fragile encore présente à la base du manteau neigeux.",
-  "snowQuality": "Enneigement déficitaire sur le massif, particulièrement en adrets. \nHauteurs de neige observées vers 2500 m : 119 cm dans le vallon du Chardonnet, 86 cm aux Rochilles, 36 cm dans le vallon de Roche Noire vers le Galibier.\n\nLimite d'enneigement skiable : vers 1800 m en ubacs favorables (terrains herbeux, pistes forestières), 2300/2400 m en adrets pas trop raides.\n\nÉtat de la neige de surface : neige en cycle printanier. Après un regel nocturne plutôt efficace, reprise rapide de l'humidification au soleil. ",
+  "summary": "Départs spontanés : rares en neige humide en altitude.\nDéclenchements skieurs : rares en neige humide en altitude.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER ET BIEN STABLE EN GÉNÉRAL\n\nDéclenchements provoqués : le manteau neigeux est ancien, très dense et bien stable en général. Les instabilités en neige humide sont localisées uniquement en versants nord d'altitude supérieure au-dessus de 2400 m environ. Avalanches pouvant être déclenchées par un skieur, généralement ponctuelles et de petite taille (taille 1), plus rarement moyenne (taille 2). Exceptionnellement, une avalanche de grande taille (taille 3) n'est pas exclue. L'humidification qui se poursuit et qui est très en avance pour la saison peut encore atteindre dans ces orientations des couches fragiles enfouies vers la base du manteau neigeux. Dans les autres orientations où la neige est déjà humidifiée sur toute l'épaisseur, le risque est faible, le fait de faire glisser la neige mouillée en surface ne constitue pas un risque d'avalanche\n\nDéparts spontanés : peu probables en tout début de journée après un regel nocturne plutôt bon, puis de rares départs de taille 1 à 2 (exceptionnellement taille 3) en ubacs d'altitude humidifiés au soleil, parfois jusqu'au sol après un premier départ de surface. ",
+  "snowQuality": "Enneigement déficitaire sur le massif, particulièrement en adrets. \nHauteurs de neige observées : 116 cm dans le vallon du Chardonnet, 81 cm aux Rochilles\n\nLimite d'enneigement skiable : très localement vers 1800 m en terrain favorable, 2300/2400 m en adrets.\n\nÉtat de la neige de surface : neige de type névé en toute orientation sous 2300/2400 m environ et en adrets d'altitude, regel très limité et superficiel, inexistant en forêts. Manteau neigeux pas encore totalement transformé au-dessus en ubacs avec un bon regel nocturne. Poursuite de l'humidification en journée.",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

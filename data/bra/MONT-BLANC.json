@@ -1,7 +1,7 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-04-20T16:00:00",
-  "validUntil": "2026-04-21T18:00:00",
+  "date": "2026-04-21T15:00:00",
+  "validUntil": "2026-04-22T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -21,8 +21,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : rares avalanches de neige humide\nDéclenchements skieurs : rares plaques anciennes ou avalanches de neige humide",
-  "stability": " \n\nDéparts spontanés :\n* avalanches de neige humide, principalement sous 4000 m en S et 3000 m en N. Surtout en pentes raides réchauffées par le soleil. Taille 1 à 2 (petites à moyennes). \n* au-dessus de 2000/2200 m en versants E, N, W, une ancienne couche fragile persistante enfouie peut encore réagir, notamment en cas d'avalanches en cascade. Ainsi, un petit départ ponctuel peut engendrer une cassure plus épaisse, finissant en taille 3 (grande).\n* rares plaques de fond en terrain très raide herbeux, en dessous de 2600/2800 m. Taille 1 à 2.\n\n Déclenchements provoqués :\n* avalanches de neige humide au passage d'un skieur en pente raide, aux heures réchauffées. Taille 1 à 2. Observables : enfoncement piéton important.",
-  "snowQuality": "Enneigement :\ncorrect au-dessus de 3000 m. En dessous, légèrement déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en S, 1500 m en N.\n\nQualité de la neige ce mardi :\n* On retrouve un manteau neigeux printanier à presque toutes les altitudes (excepté en haute-montagne). Le bon regel nocturne favorise une neige dure le matin, puis elle ramollit rapidement en journée.\n* En ubacs de haute-montagne, on retrouve 10/20 cm de neige encore froide, mais souvent travaillée par le vent. Cette neige repose sur un fond dur. Les crêtes et les arêtes sont souvent décapées ou en glace vive.",
+  "stability": " \n\nDéparts spontanés :\n* avalanches de neige humide, dans les pentes raides réchauffées par le soleil, principalement sous 3000m en S et 2500 m en N. Taille 1 à 2 (petite à moyenne). \n* au-dessus de 2000/2200 m en versants E, N, W, une ancienne couche fragile persistante enfouie peut encore réagir, notamment en cas d'avalanches en cascade. Ainsi, un petit départ ponctuel peut engendrer une cassure plus épaisse, finissant en taille 3 (grande).\n* rares plaques de fond en terrain très raide herbeux, en dessous de 2600/2800 m. Taille 1 à 2.\n\n Déclenchements provoqués :\n* avalanches de neige humide au passage d'un skieur en pente raide, aux heures réchauffées. Taille 1 à 2. Observables : enfoncement piéton important.",
+  "snowQuality": "Enneigement :\nCorrect au-dessus de 3000 m. En dessous, légèrement déficitaire. \nOn peut chausser les skis au-dessus de 1800/2000 m en S, 1500 m en N.\n\nQualité de la neige ce mercredi :\n* Bon regel nocturne, neige très dure le matin. Humidification sous 2500/3000 m, superficielle et tardive. \n* En ubacs de haute-montagne, neige encore froide, travaillée par le vent, parfois poudreuse dans quelques combes abritées. \n* Crêtes et arêtes décapées ou en glace vive.",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

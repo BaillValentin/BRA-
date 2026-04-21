@@ -1,26 +1,22 @@
 {
   "massif": "VERCORS",
-  "date": "2026-04-20T15:00:00",
-  "validUntil": "2026-04-21T18:00:00",
-  "riskMax": 2,
+  "date": "2026-04-21T16:00:00",
+  "validUntil": "2026-04-22T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "neige_humide",
     "glissement"
   ],
-  "summary": "Départs spontanés : Rares coulées ou avalanches humides, possibles surtout l'après-midi... En faces Nord avalanche de glissement au terrain non exclue (taille 2 à 3 ?)\nDéclenchements skieurs : Peu probables, ou juste une coulée ponctuelle sous les skis en neige très humide ?",
-  "stability": "NEIGE DENSE, TRES HUMIDE EN JOURNE : RARE AVALANCHE POSSIBLE, PARFOIS AU TERRAIN  ? (PENTES NORD HERBEUSES)...\n\nDéparts spontanés : Neige transformée dense avec un un regel nocturne/matinal. Au fil des heures neige devenant très humide sur de grandes épaisseurs. Une coulée n'est pas exclue, près des rochers, voire une rare avalanche plus volumineuse ?\nNoter que dans certaines faces Nord herbeuses, une avalanche de glissement - au terrain - n'est pas exclue, plutôt entre l'après-midi et la soirée. Des fissures de reptations sont présentes...\nEn Sud il y a peu de neige et de type névé, stable...\n\nDéclenchements provoqués : Pas de risque de plaque. En terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis.\n\nAutres : Neige temporairement durcie par regel ou croutée/cassante...",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 2 semaines mais reste correct en faces peu ensoleillées d'altitude. Au Sud il ne reste plus que des névés...\nLimites skiables : Vers 1500 à 1900m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige mardi :  Regel correct mardi matin en altitude. Neige temporairement durcie ou croutée. Rapide dégel au soleil/ fonte. Neige devenant très humide au fil des heures et ce jusqu'en profondeur.... En  large Sud, neige presque de névé.\nLa neige est plus colorée, avec davantage de reliefs désormais.",
+  "summary": "Départs spontanés : Une rare coulée humide ou avalanche de glissement possible.\nDéclenchements skieurs : Peu probables, ou juste une coulée ponctuelle sous les skis en neige très humide",
+  "stability": "NEIGE DENSE, MANTEAU PRINTANIER BIEN STABILISE \n\nDéparts spontanés : Peu probables. Neige transformée dense avec un un regel nocturne correct. En journée, le manteau neigeux s'humidifie parfois jusqu'au fond, mais le risque de coulée humide / reptation reste faible, la plupart des pentes ayant déjà purgées. Par ailleurs la présence d'un voile nuageux temporairement bien dense en journée va limiter l'humidification du manteau neigeux par le soleil. \n\nDéclenchements provoqués : Pas de risque de plaque. Manteau neigeux dense et bien stabilisé. En terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 2 semaines et devient déficitaire pour la saison. Au Sud il ne reste plus que des névés...\nLimites skiables : Vers 1400 à 1900m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige mercredi :  Regel correct mercredi matin en altitude. Le dégel sera plus tardif que les jours précédents avec un ciel voilé en journée. Le manteau finie toutefois par s'humidifier en profondeur. En large Sud l'enneigement ressemble de plus en plus à du névé. ",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

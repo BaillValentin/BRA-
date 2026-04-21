@@ -1,34 +1,21 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-04-20T16:00:00",
-  "validUntil": "2026-04-21T18:00:00",
-  "riskMax": 2,
+  "date": "2026-04-21T16:00:00",
+  "validUntil": "2026-04-22T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2300",
+      "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2300",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares en neige humide en altitude.\nDéclenchements skieurs : rares en neige humide en altitude.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER ET BIEN STABLE EN GÉNÉRAL\n\nDéclenchements provoqués : le manteau neigeux est ancien, très dense et bien stable en général.  Les instabilités en neige humide sont localisées uniquement en versants nord d'altitude comprise entre 2200 et 2600 m environ, et en versants nord-est ou nord--ouest entre 2600 et 3000 m.  Avalanches pouvant être déclenchées par un skieur, généralement ponctuelles et de petite taille (taille 1), plus rarement moyenne (taille 2) voire grande (taille 3). Exceptionnellement, une avalanche de grande taille (taille 3) n'est pas exclue. L'humidification qui se poursuit et qui est très en avance pour la saison peut encore atteindre dans ces orientations des couches fragiles enfouies vers la base du manteau neigeux. Dans les autres orientations où la neige est déjà humidifiée sur toute l'épaisseur, le risque est faible, le fait de faire glisser la neige mouillée en surface ne constitue pas un risque d'avalanche\n\nDéparts spontanés : peu probables en tout début de journée après un regel nocturne plutôt bon, puis de rares départs de taille 1 à 2 (exceptionnellement taille 3) en ubacs d'altitude humidifiés au soleil, parfois jusqu'au sol après un premier départ de surface. ",
-  "snowQuality": "Enneigement désormais déficitaire, notamment en adrets.\nHauteurs de neige observées  : 115 cm au-dessus de Prapic à 2500 m, 65 cm à la nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1600/1700 m en fond de vallée en cœur de massif, 2200/2400 m en adrets.\n\nÉtat de la neige de surface : neige de type névé en toute orientation sous 2200 m environ et en adrets d'altitude, regel très limité et superficiel, inexistant en forêts. Manteau neigeux pas encore totalement transformé au-dessus en ubacs et en de plus larges orientations au-dessus de 2800/3000 m, avec un bon regel nocturne. Poursuite de l'humidification en journée.",
+  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : peu probables",
+  "stability": "MANTEAU NEIGEUX BIEN STABILISÉ, ACTIVITÉ EN NEIGE HUMIDE EN NETTE ATTÉNUATION AVEC LE CIEL NUAGEUX\n\nDéclenchements provoqués : le manteau neigeux est ancien, très dense et bien stabilisé.  On ne peut exclure de déclenchements de neige humide sous les éclaircies par des skieurs en versants nord d'altitude supérieure à 2400 m, cependant le voile nuageux épais et le léger rafraîchissement de la masse d'air limitent fortement l'activité par rapport aux jours précédents. \n\nDéparts spontanés : peu probables. Le bon regel nocturne puis la couverture nuageuse limitent l'humidification du manteau neigeux par rapport aux jours précédents.",
+  "snowQuality": "Enneigement désormais déficitaire, notamment en adrets.\nHauteurs de neige observées  : 115 cm au-dessus de Prapic à 2500 m, 64 cm à la nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1600/1700 m en fond de vallée en cœur de massif, 2200/2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2200 m environ et en adrets jusqu'à 3000 m d'altitude. On trouve encore de la neige froide en versants nord de haute altitude au delà de 2900/3000 m. Bon regel nocturne, humidification limitée en journée en raison de la couverture nuageuse. ",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

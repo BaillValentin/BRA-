@@ -1,21 +1,27 @@
 {
   "massif": "OISANS",
-  "date": "2026-04-21T16:00:00",
-  "validUntil": "2026-04-22T18:00:00",
-  "riskMax": 1,
+  "date": "2026-04-22T16:00:00",
+  "validUntil": "2026-04-23T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
     }
   ],
   "situations": [
+    "plaque_vent",
+    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables, ou une rare coulée sous une éclaircie. \nDéclenchements skieurs : Coulées ponctuelles sous les skis ",
-  "stability": "MANTEAU NEIGEUX STABLE. ACTIVITEE PRINTANIERE FORTEMENT LIMITEE PAR LE BON REGEL NOCTURNE ET LA PRESENCE D'UN VOILE NUAGEUX EN JOURNEE\n\nDéparts spontanés : Peu probables. Le regel nocturne est bon, et l'arrivée d'un voile nuageux très dense en journée limitera fortement l'humidification et donc l'activitée avalancheuse. Une rare coulée humide resterait toutefois possible sous des éclaircies. \nTrès localement, une avalanche de fond reste possible en pente herbeuse / dalle rocheuse, parfois précédée par l'ouverture d'une fissure (gueule de baleine). \n\nDéclenchements provoqués : Pas de risque de plaque. En terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis (en cas d'éclaircies et plutôt en moyenne montagne).\n\nAutres : Neige parfois durcie / croûtée par le regel.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis 3 semaines, et devient progressivement déficitaire en Sud et en moyenne montagne. Il reste de saison dans les versants peu ensoleillés au-dessus de 2000m.\n\nLimites skiables : Vers 1500/1700m en Nord à 1900/2300m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige mercredi :  Regel nocturne correct à très bon en altitude. Neige croûtée / durcie par le regel. En journée, l'humidification est bien plus lente que les jours précédents, voire inexistante au-dessus de 2800m sous un ciel voilé à couvert. Dans les versants Nord au-dessus de 3000m, neige parfois encore en poudreuse dense.",
+  "summary": "Départs spontanés : Rares coulées humides ou départs au terrain. Une cassure linéaire ne peut être totalement exclue en Nord.\nDéclenchements skieurs : Coulées ponctuelles sous les skis en neige pourrie. ",
+  "stability": "MANTEAU NEIGEUX PRINTANIER, BON REGEL NOCTURNE, HUMIDIFICATION EN JOURNEE\n\nDéparts spontanés : Rares avalanches humides aux heures chaudes de la journée. Dans les pentes Est, Nord et Ouest, l'humidification gagne en profondeur et pourrait atteindre une couche fragile persistante, dans quel cas une avalanche de grande taille serait possible, avec une cassure linéaire. Dans les autres pentes, le manteau est souvent déjà stabilisé suite aux trois dernières semaines printanières, limitant fortement le risque de coulées. \n\nDéclenchements provoqués : En terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis. Très rarement dans les pentes Est, Nord et Ouest, le départ d'une coulée ponctuelle pourrait créer une surcharge suffisante pour venir solliciter les couches fragiles enfouies, et faire partir en cascade une avalanche de plaque de grande taille. \n\nAutres : Neige parfois durcie / croûtée par le regel en matinée. ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis 3 semaines, et devient progressivement déficitaire en Sud et en moyenne montagne. Il reste de saison dans les versants peu ensoleillés au-dessus de 2000m.\n\nLimites skiables : Vers 1600/1800m en Nord à 1900/2300m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige jeudi :  Regel nocturne correct à très bon en altitude. Neige croûtée / durcie par le regel. L'humidification reprend rapidement au soleil, avec un créneau en \"moquette\", avant un passage en neige pourrie dans l'après-midi. Dans les versants plein Nord d'altitude, possibilité de trouver encore quelques pentes en poudreuse dense. ",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

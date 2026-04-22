@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-04-21T15:00:00",
-  "validUntil": "2026-04-22T18:00:00",
+  "date": "2026-04-22T16:00:00",
+  "validUntil": "2026-04-23T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,8 +15,8 @@
     "glissement"
   ],
   "summary": "Départs spontanés : rares avalanches de neige humide\nDéclenchements skieurs : rares avalanches de neige humide",
-  "stability": " \n\nDéparts spontanés :\n* fissures de reptation sur pentes raides herbeuses très raides et dalles rocheuses. Plaques de fond rares mais possibles, à toute heure. Taille 1 à 2 (petite à moyenne).\n* avalanches de neige humide, au fil de l'ensoleillement, et surtout en mi-journée/après-midi. Départs ponctuels en surface, s'élargissant en forme de poire, et pouvant racler toute la neige jusqu'au sol. Taille 1 à 2.\n\n Déclenchements provoqués :\n* un skieur peut pousser une avalanche de neige humide, une fois le manteau réchauffé par le soleil. Principalement en pentes raides. Taille 1 à 2.\nObservables : enfoncement piéton important.",
-  "snowQuality": "Enneigement :\nIl reste encore pas mal de neige dans les ubacs au-dessus de 1600 m. Dans les versants S, on peut encore trouver quelques bancs de neige au-dessus de 1800 m.\n\nQualité de la neige ce mercredi :\n* manteau neigeux printanier. Assez bon regel nocturne : neige dure le matin, puis rapidement humide, voire très humide en journée.",
+  "stability": " Poursuite de l'humidification du manteau neigeux.\n\nDéparts spontanés :\n* fissures de reptation sur pentes raides herbeuses très raides et dalles rocheuses. Plaques de fond rares mais possibles, à toute heure. Taille 1 à 2 (petite à moyenne).\n\n Déclenchements provoqués :\n* un skieur peut pousser une avalanche de neige humide, une fois le manteau réchauffé par le soleil. Principalement en pentes raides. Taille 1 à 2.\nObservables : enfoncement piéton important.",
+  "snowQuality": "Enneigement :\nIl reste encore pas mal de neige dans les ubacs au-dessus de 1600 m. Dans les versants S, on peut encore trouver quelques bancs de neige au-dessus de 1800 m.\n\nQualité de la neige ce jeudi :\n* manteau neigeux printanier. Bon regel nocturne : neige dure le matin, puis rapidement humide, voire très humide en journée.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

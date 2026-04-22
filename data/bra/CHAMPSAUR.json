@@ -1,21 +1,35 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-04-21T16:00:00",
-  "validUntil": "2026-04-22T18:00:00",
-  "riskMax": 1,
+  "date": "2026-04-22T16:00:00",
+  "validUntil": "2026-04-23T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2300",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2300",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
     }
   ],
   "situations": [
+    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : peu probables",
-  "stability": "MANTEAU NEIGEUX BIEN STABILISÉ, ACTIVITÉ EN NEIGE HUMIDE EN NETTE ATTÉNUATION AVEC LE CIEL NUAGEUX\n\nDéclenchements provoqués : le manteau neigeux est ancien, très dense et bien stabilisé.  On ne peut exclure de déclenchements de neige humide sous les éclaircies par des skieurs en versants nord d'altitude supérieure à 2400 m, cependant le voile nuageux épais et le léger rafraîchissement de la masse d'air limitent fortement l'activité par rapport aux jours précédents. \n\nDéparts spontanés : peu probables. Le bon regel nocturne puis la couverture nuageuse limitent l'humidification du manteau neigeux par rapport aux jours précédents.",
-  "snowQuality": "Enneigement désormais déficitaire, notamment en adrets.\nHauteurs de neige observées  : 115 cm au-dessus de Prapic à 2500 m, 64 cm à la nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1600/1700 m en fond de vallée en cœur de massif, 2200/2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2200 m environ et en adrets jusqu'à 3000 m d'altitude. On trouve encore de la neige froide en versants nord de haute altitude au delà de 2900/3000 m. Bon regel nocturne, humidification limitée en journée en raison de la couverture nuageuse. ",
+  "summary": "Départs spontanés : en neige humide en altitude. \nDéclenchements skieurs : en neige humide en altitude. ",
+  "stability": "MANTEAU NEIGEUX PRINTANIER - REPRISE DE L'ACTIVITÉ EN NEIGE HUMIDE\n\nDéparts spontanés : peu probables en tout début de journée après le regel nocturne, puis reprise de l'humidification au fil de la course du soleil avec la hausse de l'isotherme 0 degré. Quelques départs superficiels sont alors possibles en journée, avalanches de petite taille (taille 1) en général. Néanmoins, un départ de plus grande ampleur est possible dans les pentes nord-ouest à nord-est au-dessus de 2300/2400 m environ, emportant la totalité du manteau neigeux. Avalanches de taille moyenne à grande (taille 2 à 3), dans le cas où l'humidification atteint des couches fragiles persistantes enfouies dans le manteau neigeux. \n\nDéclenchements provoqués : un skieur coupant une pente raide trop tardivement peut initier un départ de neige humide sous ses skis, plutôt dans les versants nord d'altitude comprise entre 2200 et 2600 m, et en versants nord-ouest à nord-est entre 2600 et 3000 m. Départs ponctuels engendrant des avalanches de petite taille (taille 1), plus rarement moyenne (taille 2), voire exceptionnellement grande (taille 3). Une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un second départ linéaire plus volumineux en venant solliciter une couche fragile persistante plus profondément enfouie dans le manteau neigeux. \n",
+  "snowQuality": "Enneigement désormais déficitaire, notamment en adrets.\nHauteurs de neige observées  : 112 cm au-dessus de Prapic à 2500 m, 60 cm à la nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1600/1700 m en fond de vallée en cœur de massif, 2200/2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2200 m environ et en adrets jusqu'à 3000 m d'altitude. On trouve encore de la neige froide en versants nord de haute altitude au delà de 2900/3000 m. Regel nocturne correct, puis reprise de l'humidification avec le retour du soleil et la hausse de l'isotherme 0 degré.",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

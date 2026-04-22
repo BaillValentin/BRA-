@@ -1,7 +1,7 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-04-21T15:00:00",
-  "validUntil": "2026-04-22T18:00:00",
+  "date": "2026-04-22T16:00:00",
+  "validUntil": "2026-04-23T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,8 +20,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : rares avalanches de neige humide\nDéclenchements skieurs : rares avalanches de neige humide",
-  "stability": " \n\nDéparts spontanés :\n* avalanches de neige humide, au fil du réchauffement par le soleil. Possibles toutes orientations et altitudes, mais plus probables en versants E et W bien réchauffés et raides, où il reste encore beaucoup de neige. Taille 1 à 2 (petite à moyenne).\n* plaques de fond, plutôt rares mais encore possibles. En pentes raides herbeuses. Avec ou sans fissure préalable (gueule de baleine) Taille 1 à 2.\n* rare mais pas impossible, la combinaison des deux types d'avalanches, dans une longue pente encore bien chargée, pourrait terminer en taille 3 (grande).\n\n Déclenchements provoqués :\n* avalanches de neige humide : un skieur, en coupant une pente raide aux heures suffisamment chaudes, peut déclencher une coulée de neige humide, pouvant atteindre la taille 2+.\nObservables : enfoncement piéton important.",
-  "snowQuality": "Enneigement :\nPour la saison, l’enneigement est correct au-dessus de 2000 m, en dessous, il est légèrement déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en S, 1500 m en N.\n\nQualité de la neige ce mercredi :\n* manteau neigeux printanier à toutes les altitudes. Durant la nuit, le bon regel durcit la neige. Elle ramollit et s'humidifie rapidement en journée.\n* les crêtes et les arêtes sont souvent décapées.\n* encore quelques corniches molles à surveiller.",
+  "stability": " Poursuite de l'humidification du manteau neigeux.\n\nDéparts spontanés :\n* avalanches de neige humide, au fil du réchauffement par le soleil. Possibles toutes orientations et altitudes, mais plus probables en versants E et W bien réchauffés et raides, où il reste encore beaucoup de neige. Taille 1 à 2 (petite à moyenne).\n* plaques de fond, plutôt rares mais encore possibles. En pentes raides herbeuses. Avec ou sans fissure préalable (gueule de baleine) Taille 1 à 2.\n* rare mais pas impossible, la combinaison des deux types d'avalanches, dans une longue pente encore bien chargée, pourrait terminer en taille 3 (grande).\n\n Déclenchements provoqués :\n* avalanches de neige humide : un skieur, en coupant une pente raide aux heures suffisamment chaudes, peut déclencher une coulée de neige humide, pouvant atteindre la taille 2+.\nObservables : enfoncement piéton important.",
+  "snowQuality": "Enneigement :\nPour la saison, l’enneigement est correct au-dessus de 2000 m, en dessous, il est déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en S, 1500 m en N.\n\nQualité de la neige ce jeudi :\n* manteau neigeux printanier à toutes les altitudes. Durant la nuit, le bon regel durcit la neige. Elle ramollit et s'humidifie rapidement en journée.\n* les crêtes et les arêtes sont souvent décapées.\n* encore quelques corniches molles à surveiller.",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

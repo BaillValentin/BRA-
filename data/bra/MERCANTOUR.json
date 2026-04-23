@@ -1,7 +1,7 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-04-22T16:00:00",
-  "validUntil": "2026-04-23T18:00:00",
+  "date": "2026-04-23T16:00:00",
+  "validUntil": "2026-04-24T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -24,12 +24,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : avalanches en neige humide. Rares, mais possiblement volumineuses en ubacs d'altitude. \nDéclenchements skieurs : en neige humide sous les skis.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER - UN PEU D'ACTIVITÉ EN NEIGE HUMIDE\n\nDéparts spontanés : avalanches en neige humide restant rares mais pouvant être volumineuse en cas de départ linéaire. Taille moyenne, grande non exclue, dans les pentes nord-ouest / nord / nord-est au-dessus de 2400 m environ, pouvant emporter la totalité du manteau neigeux en place. Peu probables en début de journée, puis risque en augmentation au fil du réchauffement au soleil. Dans les autres orientations / altitudes, le manteau neigeux printanier, dense, est bien stabilisé. Le risque de départ en neige humide est peu probable ou se limite à localement à quelques départs ponctuels superficiels en pente raide près des rochers, de la petite couche de neige fraiche en altitude.\n\nDéclenchements provoqués : un skieur coupant une pente raide trop tardivement peut initier un départ de neige humide sous ses skis. Dans les ubacs d'altitude supérieure à 2400 m environ, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de très rares cas provoquer un second départ linéaire plus volumineux. ",
-  "snowQuality": "Enneigement nettement déficitaire pour la période, avec une fonte qui se poursuit à un rythme élevé. Absence de précipitations significatives depuis plus d'1 mois et grande douceur en place depuis début avril.\nHauteurs de neige observées : 86 cm à la Nivose de Millefonts à 2430 m, 18 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable généralement à partir de 1900/2000 m en ubacs sur terrain favorable (routes forestières, terrains herbeux) et 2300/2400 m en adrets peu pentus. \n\nÉtat de la neige en surface : localement un peu de neige fraiche au-dessus de 2500 m environ, s'humidifiant en journée. Manteau neigeux printanier sous 2400 m environ ou en adrets d'altitude. Dense. Regel aléatoire. Manteau neigeux pas totalement transformé en ubac au dessus de 2400 m environ. ",
+  "summary": "Départs spontanés : avalanches en neige humide aux heures chaudes de la journée\nDéclenchements skieurs : en neige humide sous les skis",
+  "stability": "MANTEAU NEIGEUX PRINTANIER - UN PEU D'ACTIVITÉ EN NEIGE HUMIDE\n\nDéparts spontanés : peu probables au petit matin avec le bon regel nocturne, puis risque en augmentation au fil du réchauffement au soleil. Rares avalanches en neige humide, de taille moyenne, grande non exclue, dans les pentes nord-ouest / nord / nord-est au-dessus de 2400 m environ, pouvant emporter la totalité du manteau neigeux en place.  Dans les autres orientations / altitudes, le manteau neigeux printanier, dense, est bien stabilisé. \n\nDéclenchements provoqués : un skieur coupant une pente raide trop tardivement peut initier un départ de neige humide sous ses skis. Dans les ubacs d'altitude supérieure à 2400 m environ, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de très rares cas provoquer un second départ linéaire plus volumineux. ",
+  "snowQuality": "Enneigement nettement déficitaire pour la période, avec une fonte qui se poursuit à un rythme élevé. Absence de précipitations significatives depuis plus d'un mois et grande douceur en place depuis début avril.\nHauteurs de neige observées : 81 cm à la Nivose de Millefonts à 2430 m, 6 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable généralement à partir de 1900/2000 m en ubacs sur terrain favorable (routes forestières, terrains herbeux) et 2300/2400 m en adrets peu pentus. \n\nÉtat de la neige en surface : manteau neigeux printanier sous 2400 m environ ou en adrets d'altitude. Neige durcie par le regel le matin  puis passage en neige pourrie dans l'après-midi. Manteau neigeux pas totalement transformé dans les versants plein nord au dessus de 2400/2500 m environ. ",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

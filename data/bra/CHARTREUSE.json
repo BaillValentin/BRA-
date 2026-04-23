@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-04-22T16:00:00",
-  "validUntil": "2026-04-23T18:00:00",
+  "date": "2026-04-23T16:00:00",
+  "validUntil": "2026-04-24T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -16,7 +16,7 @@
   ],
   "summary": "Départs spontanés : Peu probables. \nDéclenchements skieurs : Peu probables",
   "stability": "CONDITIONS PRINTANIERES, MANTEAU NEIGEUX STABLE\n\nDéclenchements provoqués : Le manteau neigeux est dense et stable. Pas de risque de plaque. Risque éventuellement de faire partir une petite coulée ponctuelle de neige humide sous les skis, en pente raide ensoleillée. \nDéparts spontanés : Peu probables. Les conditions printanières des 3 dernières semaines ont purgé la plupart des pentes. Le risque de coulée humide ou de plaque de fond ne peut être totalement exclue mais devient franchement faible. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 3 semaines et devient déficitaire pour la saison. Au Sud il ne reste plus que des névés...\nLimites skiables : Vers 1400 à 1900m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige jeudi :  Manteau neigeux printanier. Regel nocturne correct. En journée l'humidification reprend, neige de névé, dense.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 3 semaines et devient déficitaire pour la saison. Au Sud il ne reste plus que des névés...\nLimites skiables : Vers 1400 à 1900m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige vendredi :  Manteau neigeux printanier. Regel nocturne correct. En journée l'humidification reprend, neige de névé, dense.",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

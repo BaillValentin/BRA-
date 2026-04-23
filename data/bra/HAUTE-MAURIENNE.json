@@ -1,7 +1,7 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-04-22T16:00:00",
-  "validUntil": "2026-04-23T18:00:00",
+  "date": "2026-04-23T16:00:00",
+  "validUntil": "2026-04-24T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -19,9 +19,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares mais possiblement gros départs en neige humide.\nDéclenchements skieurs : neige humide sous les skis.",
-  "stability": "CONDITIONS DE PRINTEMPS AVANCÉES\n\nDéparts spontanés :\n- Rares avalanches de neige humide dans les pentes ensoleillées au fil de la journée. Les départs ponctuels (en poire) se font désormais petits et rares. Avec l'avancée dans la saison, les pentes Sud deviennent relativement inertes avec une neige transformée sur toute l'épaisseur du manteau jusqu'à haute altitude (type névé). Par contre, dans les versants Est, Nord et Ouest, l'humidification gagne des couches plus profondes. Ainsi, lorsqu'une couche fragile est atteinte, un départ linéaire est possible. On peut alors s'attendre à de rares grandes avalanches (taille 3).\n- En plein Nord de haute altitude (sup ~3000 m), une très rare plaque en neige froide peut subsister. Une couche enfouie moins dense qu'en surface doit alerter.\n\nDéclenchements provoqués : avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée.\n\nAutres : chutes de corniches signalées.",
-  "snowQuality": "Enneigement : déficitaire pour la saison, la montagne subit les assauts répétés de la chaleur excessive et la neige fond à vue d'œil.\n\nLimite skiable : vers 1600 m en Nord,  2000 m en Sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : neige de printemps après un très bon regel nocturne. Neige dure aux premières heures du jour puis moquette aux bonnes heures (milieu de matinée à la mi journée suivant orientations et altitude). Comme les jours précédents, les pentes Est chauffent très vite le matin. Neige pourrie à partir de l'après midi. Neige froide souvent poudreuse au-dessus de 3000 m en plein Nord.",
+  "summary": "Départs spontanés : rares mais potentiellement grands départs en neige humide.\nDéclenchements skieurs : neige humide sous les skis.",
+  "stability": "POURSUITE DE L'HUMIDIFICATION EN PROFONDEUR.\n\nDéparts spontanés :\n- Rares avalanches de neige humide dans les pentes ensoleillées. Départs ponctuels (poires) désormais plus petits et rares, petites avalanches. Les pentes Sud sont relativement inertes en cette saison déjà bien avancée avec une neige de type névé à haute altitude sur toute l'épaisseur du manteau. En versants Est, Nord et Ouest, l'humidification gagne en profondeur. Un rare départ linéaire est possible si l’humidification atteint une couche fragile enfouie, exceptionnellement une grande avalanche. De même, un rare départ en cascade est possible si une petite coulée humide sollicite une couche fragile, cassure linéaire et potentiellement grande avalanche.\n\nDéclenchements provoqués :  peu probables sauf avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée.\n- En plein Nord de haute altitude (>3000 m), une très rare plaque en neige froide peut subsister. Observable : couche enfouie moins dense qu'en surface.\n\nAutres : chutes de corniches signalées.",
+  "snowQuality": "Enneigement : déficitaire pour la saison, la chaleur est durablement excessive et la neige fond à vue d'œil.\n\nLimite skiable : vers 1600 m en Nord,  2000 m en Sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : neige de printemps après un bon regel nocturne. Neige dure aux premières heures du jour puis rapidement moquette de la matinée à la mi journée suivant orientations et altitudes. Neige pourrie rapidement le matin en versant Est et généralement partout après midi. Il faut monter au-dessus de 3000 m en plein Nord pour trouver de la neige froide souvent poudreuse.",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

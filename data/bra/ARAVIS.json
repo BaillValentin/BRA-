@@ -1,7 +1,7 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-04-23T16:00:00",
-  "validUntil": "2026-04-24T18:00:00",
+  "date": "2026-04-24T16:00:00",
+  "validUntil": "2026-04-25T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,11 +17,12 @@
     }
   ],
   "situations": [
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares avalanches de neige humide\nDéclenchements skieurs : rares avalanches de neige humide",
-  "stability": " Poursuite de l'humidification du manteau neigeux.\n\nDéparts spontanés :\n* avalanches de neige humide, au fil du réchauffement par le soleil. Possibles toutes orientations et altitudes, mais plus probables en versants E et W bien réchauffés et raides, où il reste encore beaucoup de neige. Taille 1 à 2 (petite à moyenne).\n* plaques de fond, plutôt rares mais encore possibles. En pentes raides herbeuses. Avec ou sans fissure préalable (gueule de baleine) Taille 1 à 2.\n* rare mais pas impossible, la combinaison des deux types d'avalanches, dans une longue pente encore bien chargée, pourrait terminer en taille 3 (grande).\n\n Déclenchements provoqués :\n* avalanches de neige humide : un skieur, en coupant une pente raide aux heures suffisamment chaudes, peut déclencher une coulée de neige humide, pouvant atteindre la taille 2+.\nObservables : enfoncement piéton important.",
-  "snowQuality": "Enneigement :\nPour la saison, l’enneigement est correct au-dessus de 2000 m, en dessous, il est déficitaire. \nOn peut chausser les skis au-dessus de 1800 m en S, 1500 m en N.\n\nQualité de la neige ce vendredi :\n* manteau neigeux printanier à toutes les altitudes. Durant la nuit, le bon regel durcit la neige. Elle ramollit et s'humidifie rapidement en journée.\n* les crêtes et les arêtes sont souvent décapées.\n* encore quelques corniches molles à surveiller.",
+  "summary": "Départs spontanés : avalanche de neige humide\nDéclenchements skieurs : petits départs en neige humide sous les skis",
+  "stability": "Conditions printanières\n\nDéparts spontanés : \n* rares avalanches de neige humide, plus nombreuses au fil du réchauffement et du rayonnement solaire. En sud et en dessous de 2500 m en nord. Taille 1 à 2 (petite à moyenne).\n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 2 (moyenne). Au-dessus de 2300 m, dans les versants est, ouest et nord, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de fond. Rare taille 3 (grande).\n\nDéclenchements provoqués : \n* avalanches de neige humide. En sud et en dessous de 2500 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis. Taille 1 à  2. Causé par le réchauffement et le rayonnement solaire. ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2500 m \nOn peut chausser les skis au-dessus de 2000 m en sud et 1600 m en nord. \n\nQualité de la neige ce samedi matin : \n* sous 2000 m, neige de névé avec un bon regel nocturne\n* au-dessus de 2000 m, neige de printemps avec un bon regel nocturne. ",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

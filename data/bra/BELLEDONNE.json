@@ -1,20 +1,11 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-04-23T16:00:00",
-  "validUntil": "2026-04-24T18:00:00",
+  "date": "2026-04-24T16:00:00",
+  "validUntil": "2026-04-25T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2200",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2200",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
         "N",
@@ -24,13 +15,11 @@
     }
   ],
   "situations": [
-    "plaque_vent",
-    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Rares coulées humides ou départs au terrain. Une cassure linéaire ne peut être totalement exclue en Nord.\nDéclenchements skieurs : Coulées ponctuelles sous les skis en neige pourrie. ",
-  "stability": "MANTEAU NEIGEUX PRINTANIER, BON REGEL NOCTURNE, HUMIDIFICATION EN JOURNEE\n\nDéparts spontanés : Rares avalanches humides aux heures chaudes de la journée. Dans les pentes Est, Nord et Ouest, l'humidification gagne en profondeur et pourrait atteindre une couche fragile persistante, dans quel cas une avalanche de grande taille serait possible, avec une cassure linéaire. \nDans les autres pentes et sous 2200m, le manteau est souvent déjà bien stabilisé par les trois dernières semaines printanières, limitant fortement le risque de coulées. \n\nDéclenchements provoqués : En terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis. Très rarement dans les pentes Est, Nord et Ouest, le départ d'une coulée ponctuelle pourrait créer une surcharge suffisante pour venir solliciter les couches fragiles enfouies, et faire partir en cascade une avalanche de plaque de grande taille. \n\nAutres : Neige parfois durcie / croûtée par le regel en matinée. Risque de chutes de corniches...",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis 3 semaines, et devient progressivement déficitaire en Sud et en moyenne montagne. Il reste de saison dans les versants peu ensoleillés au-dessus de 2000m.\n\nLimites skiables : Vers 1500/1700m en Nord à 1800/2200m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige vendredi :  Regel nocturne correct à très bon en altitude. Neige croûtée / durcie par le regel. L'humidification reprend rapidement au soleil, avec un créneau en \"moquette\", avant un passage en neige pourrie dans l'après-midi.",
+  "summary": "Départs spontanés : Rares coulées humides ou départs au terrain, plutôt en faces \"froides\".\nDéclenchements skieurs : RAS ou coulée ponctuelle sous les skis en neige très humide. ",
+  "stability": "MANTEAU NEIGEUX PRINTANIER, RARE AVALANCHE DE \"FONTE\"...\n\nDéparts spontanés : Rares avalanches humides aux heures chaudes de la journée ou le soir. Dans les pentes Est, Nord et Ouest, l'humidification gagne en profondeur, une avalanche ne peut être exclue. En faces Sud moins de neige et très dense, presque de névé, stable...\n\nDéclenchements provoqués : RAS puis en terrain raide et bien humidifié, risque limité de coulée ponctuelle sous les skis.\n\nAutres : Neige parfois durcie / croûtée par le regel à l'ombre, en matinée notamment.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis 3 semaines, il devient déficitaire en faces Sud et en moyenne montagne. Il reste correct dans les versants Nord d'altitude.\n\nLimites skiables : Vers 1500/1700m en Nord à 1900/2200m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige samedi :  Regel nocturne correct à bon en altitude. Neige bosselée, croûtée / durcie par le regel. L'humidification reprend rapidement au soleil. Un créneau de bon ski \"de printemps\", avant un passage en neige trop humide au fil de la course du soleil...",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

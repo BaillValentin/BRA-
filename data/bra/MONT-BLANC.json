@@ -1,7 +1,7 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-04-23T16:00:00",
-  "validUntil": "2026-04-24T18:00:00",
+  "date": "2026-04-24T16:00:00",
+  "validUntil": "2026-04-25T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -17,12 +17,13 @@
     }
   ],
   "situations": [
+    "plaque_vent",
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares avalanches de neige humide\nDéclenchements skieurs : rares avalanches de neige humide",
-  "stability": " Poursuite de l'humidification du manteau neigeux.\n\nDéparts spontanés :\n* avalanches de neige humide, dans les pentes raides réchauffées par le soleil, principalement sous 3500m en S et 3000 m en N. Taille 1 à 2 (petite à moyenne). \n* au-dessus de 2200/2300 m en versants E, N, W, une ancienne couche fragile persistante enfouie peut encore réagir, notamment en cas d'avalanches en cascade. Ainsi, un petit départ ponctuel peut engendrer une cassure plus épaisse, finissant en taille 3 (grande).\n* rares plaques de fond en terrain très raide herbeux, en dessous de 2600/2800 m. Taille 1 à 2.\n\n Déclenchements provoqués :\n* avalanches de neige humide au passage d'un skieur en pente raide, aux heures réchauffées. Taille 1 à 2. Observables : enfoncement piéton important.",
-  "snowQuality": "Enneigement :\nCorrect au-dessus de 3000 m. En dessous, déficitaire. \nOn peut chausser les skis au-dessus de 1800/2000 m en S, 1500 m en N.\n\nQualité de la neige ce vendredi :\n* Bon regel nocturne, neige très dure le matin. Humidification progressive sous 3000/3500 m, au fil de la course du soleil.\n* En ubacs de haute-montagne, neige encore froide, travaillée par le vent, parfois poudreuse dans quelques combes abritées. \n* Crêtes et arêtes décapées ou en glace vive.",
+  "summary": "Départs spontanés : avalanche de neige humide\nDéclenchements skieurs : petits départs en neige humide sous les skis",
+  "stability": "Conditions printanières\n\nDéparts spontanés : \n* rares avalanches de neige humide, plus nombreuses au fil du réchauffement et du rayonnement solaire. En dessous de 2500 m en nord et 4000 m en sud. Taille 1 à 2 (petite à moyenne). Dans la tranche 2300/3000 m, dans les versants est, ouest et nord, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de plus grande ampleur. Rare taille 3 (grande). Dû à une vielle sous-couche fragile persistante en cours d'humidification. \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 2 (moyenne). \n\nDéclenchements provoqués : \n* avalanches de neige humide sous 4000 m en sud et 2500 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis. Taille 1 à 2. Causé par le réchauffement et le rayonnement solaire. ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 3000 m \nOn peut chausser les skis au-dessus de 2000 m en sud et 1600 m en nord. \n\nQualité de la neige ce samedi matin : \n* sous 2000 m, neige de névé avec un bon regel nocturne.\n* sous 3000 m en nord et 4000 m en sud, neige de printemps avec un bon regel nocturne. \n* au-dessus de 3000 m en nord et 4000 m en sud, neige encore froide avec de nombreux endroits où la glace ressort. ",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

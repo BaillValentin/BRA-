@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-04-24T16:00:00",
-  "validUntil": "2026-04-25T18:00:00",
+  "date": "2026-04-25T16:00:00",
+  "validUntil": "2026-04-26T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,9 +13,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables. \nDéclenchements skieurs : Non, attention le matin aux surfaces durcies par regel.",
-  "stability": "CONDITIONS PRINTANIERES, MANTEAU NEIGEUX TRES DENSE, STABLE..\n\nDe moins en moins de neige en place et très dense, presque de névé, donc stable...\nDéparts spontanés : Peu probables. Suite au redoux prolongé, la neige a bien diminuée et devient très dense, stable même lorsqu'elle est humide en journée. Noter aussi du regel nocturne/samedi marin\nRAS ou très rare coulée en pente bien raide ?\nDéclenchements provoqués :  Pas de risque de plaque. \n\nAutres : Surfaces temporairement durcies par regel nocturne, surfaces glissantes parfois.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 3 semaines et devient déficitaire pour la saison. Au Sud il ne reste plus que de rares névés... la fin de saison approche.\nLimites skiables : Vers 1500 à 2000m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige samedi :  Manteau printanier avec du relief. Regel nocturne correct. En journée l'humidification et la fonte reprennent, neige très humide, mais dense.",
+  "summary": "Départs spontanés : Peu probables. \nDéclenchements skieurs : Peu probables. Attention le matin aux surfaces durcies par regel.",
+  "stability": "MANTEAU NEIGEUX TRES DENSE, STABLE..\n\nDe moins en moins de neige en place et très dense, presque de névé, donc stable même lorsqu'elle est humide en journée...\nDéparts spontanés : Peu probables, ou très rare coulée humide en pente bien raide. Noter aussi un peu de regel nocturne possible dimanche matin.\nDéclenchements provoqués :  Peu probables, ou de manière très rare sous les skis en neige humide dans une pente réchauffée. \n\nAutres : Surfaces temporairement durcies en cas de regel nocturne, pouvant être glissantes.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis 3 semaines et devient déficitaire pour la saison. Au Sud il ne reste plus que de rares névés... la fin de saison approche.\nLimites skiables : Vers 1500 à 2000m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige dimanche :  Manteau neigeux printanier. Regel nocturne moyen à correct. En journée reprise de l'humidification et de la fonte. Neige très humide, mais dense.",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

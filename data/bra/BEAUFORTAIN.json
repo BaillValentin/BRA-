@@ -1,7 +1,7 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-04-24T16:00:00",
-  "validUntil": "2026-04-25T18:00:00",
+  "date": "2026-04-25T16:00:00",
+  "validUntil": "2026-04-26T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,8 +20,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : peu probables sauf coulées humides sous les skis.",
-  "stability": "L'HUMIDIFICATION EN PROFONDEUR CONTINUE.\n\nDéparts spontanés :\n- Rares avalanches de neige humide dans les pentes ensoleillées. Elles se produisent après quelques heures d'action du soleil, départs majoritairement ponctuels (coulées en \"poires\"), petites à moyennes avalanches. Les pentes sud sont d'avantage stabilisées en cette saison déjà bien avancée avec une neige dense de type névé sur toute l'épaisseur du manteau. En versants Est, Nord et Ouest, l'humidification gagne en profondeur. Un rare départ linéaire est possible si l’humidification atteint une couche fragile enfouie, exceptionnellement une grande avalanche.\n\nDéclenchements provoqués :  peu probables sauf avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée.",
-  "snowQuality": "Enneigement : à peine correct pour la saison, la chaleur est durablement excessive et la neige fond à vue d'œil.\n\nLimite skiable : vers 1500 m en nord, 1700/1800 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : neige de printemps après un bon regel nocturne. Neige dure aux premières heures du jour puis rapidement moquette de la matinée à la mi journée suivant orientations et altitudes. Neige pourrie rapidement le matin en versant Est et généralement partout après midi.",
+  "stability": "L'HUMIDIFICATION EN PROFONDEUR CONTINUE.\n\nDéparts spontanés : rares avalanches de neige humide dans les pentes ensoleillées. Elles se produisent après plusieurs heures d'action du soleil, départs majoritairement ponctuels (coulées en \"poires\"), petites avalanches. Les pentes sud sont davantage stabilisées en cette saison déjà bien avancée avec une neige dense de type névé sur toute l'épaisseur du manteau. En versants Est, Nord et Ouest, l'humidification gagne en profondeur. Un rare départ linéaire est possible si l’humidification atteint une couche fragile enfouie, exceptionnellement une grande avalanche est possible.\n\nDéclenchements provoqués :  peu probables sauf avalanche de neige humide (pourrie) sous les skis en coupant une pente trop humidifiée.",
+  "snowQuality": "Enneigement : à peine correct pour la saison, la chaleur est durablement excessive et la neige fond à vue d'œil.\n\nLimite skiable : vers 1500 m en nord, 1900 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : neige de printemps après un bon regel nocturne. Neige dure aux premières heures du jour puis moquette de la matinée à la mi journée suivant orientations et altitudes. En altitude, la ramollie doucement, surtout en versant Nord. Neige devenant pourrie au fil des heures.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

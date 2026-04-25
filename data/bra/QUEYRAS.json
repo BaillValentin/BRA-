@@ -1,11 +1,11 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-04-24T16:00:00",
-  "validUntil": "2026-04-25T18:00:00",
+  "date": "2026-04-25T16:00:00",
+  "validUntil": "2026-04-26T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2300",
+      "altitude": "<2400",
       "level": 1,
       "orientations": [
         "N",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "altitude": ">2300",
+      "altitude": ">2400",
       "level": 1,
       "orientations": [
         "N",
@@ -24,12 +24,11 @@
     }
   ],
   "situations": [
-    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide.\nDéclenchements skieurs : en neige humide.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER\n\nDéparts spontanés : peu probables en tout début de journée après un bon regel nocturne, puis quelques départs sont ensuite possibles avec la reprise de l'humidification sous l'effet de  la chaleur et du bon ensoleillement. Départs ponctuels provoquant des avalanches de petite taille (taille 1) en général. \nUne rare avalanche de taille moyenne à grande (taille 2 à 3) est possible sous forme de départ linéaire emportant la totalité du manteau neigeux, dans les pentes nord-ouest à nord-est au-dessus de 2300/2400 m environ, dans le cas où l'humidification atteint une couche fragile persistante enfouie dans le manteau neigeux.\nEn dessous de 2300 m environ, et dans les pentes sud jusqu'à haute altitude, le manteau neigeux printanier est désormais dense et bien stabilisé.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis. Départ ponctuel engendrant une avalanche de petite taille (taille 1), plus rarement moyenne (taille 2). \nDans les orientation nord-ouest, nord et nord-est au-dessus de 2300/2400 m environ, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un départ linéaire plus volumineux, en venant solliciter la couche fragile persistante enfouie dans le manteau neigeux, provoquant une avalanche de taille moyenne à grande (taille 2 à 3).",
-  "snowQuality": "Enneigement très déficitaire pour une mi-avril, notamment en adrets, souvent secs jusqu'à plus de 2500 m.\nHauteurs de neige observées : 47 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 1900 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais, plus souvent 2000/2100 m. \n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2300/2400 m environ et en adrets d'altitude. On peut encore trouver quelques pentes nord en neige froide au-dessus de 2900/3000 m. Bon regel nocturne, puis reprise de l'humidification avec le retour du soleil et la hausse des températures.",
+  "summary": "Départs spontanés : en neige humide. Rares, mais possiblement volumineux en ubacs d'altitude.\nDéclenchements skieurs : en neige humide.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER. L'HUMIDIFICATION EN PROFONDEUR EN UBAC D'ALTITUDE SE POURSUIT.\n\nDéparts spontanés : avalanches en neige humide restant rares mais pouvant être volumineuses en cas de départ linéaire. Taille moyenne, grande non exclue, dans les pentes nord-ouest / nord / nord-est au-dessus de 2400 m environ, pouvant emporter la totalité du manteau neigeux. Peu probables en début de journée après un bon regel nocturne, puis risque en augmentation au fil du réchauffement et de l’ensoleillement. En dessous de 2400 m environ, et dans les pentes sud jusqu'à haute altitude, le manteau neigeux printanier est désormais dense et bien stabilisé.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis. Dans les ubacs au-dessus de 2400 m environ, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un départ linéaire plus volumineux.",
+  "snowQuality": "Enneigement très déficitaire pour une mi-avril, notamment en adrets, souvent secs jusqu'à plus de 2500 m.\nHauteurs de neige observées : 44 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 1900 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais, plus souvent 2000/2100 m. \n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2300/2400 m environ et en adrets d'altitude. On peut encore trouver quelques pentes nord en neige froide au-dessus de 2900/3000 m. Bon regel nocturne, puis reprise de l'humidification en journée.",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

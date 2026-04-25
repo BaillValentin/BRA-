@@ -1,7 +1,7 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-04-24T16:00:00",
-  "validUntil": "2026-04-25T18:00:00",
+  "date": "2026-04-25T16:00:00",
+  "validUntil": "2026-04-26T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -11,6 +11,9 @@
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
         "W",
         "NW"
       ]
@@ -21,8 +24,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : avalanche de neige humide\nDéclenchements skieurs : petits départs en neige humide sous les skis",
-  "stability": "Conditions printanières\n\nDéparts spontanés : \n* rares avalanches de neige humide, plus nombreuses au fil du réchauffement et du rayonnement solaire. En sud et en dessous de 2500 m en nord. Taille 1 à 2 (petite à moyenne).\n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 2 (moyenne). Au-dessus de 2300 m, dans les versants est, ouest et nord, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de fond. Rare taille 3 (grande).\n\nDéclenchements provoqués : \n* avalanches de neige humide. En sud et en dessous de 2500 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis. Taille 1 à  2. Causé par le réchauffement et le rayonnement solaire. ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2500 m \nOn peut chausser les skis au-dessus de 2000 m en sud et 1600 m en nord. \n\nQualité de la neige ce samedi matin : \n* sous 2000 m, neige de névé avec un bon regel nocturne\n* au-dessus de 2000 m, neige de printemps avec un bon regel nocturne. ",
+  "stability": "Conditions printanières\n\nDéparts spontanés : \n* rares avalanches de neige humide, plus nombreuses au fil du réchauffement et du rayonnement solaire. Taille 1 à 2 (petite à moyenne).\n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 2 (moyenne). Au-dessus de 2300 m, dans les versants est, ouest et nord, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de fond. Rare taille 3 (grande).\n\nDéclenchements provoqués : \n* avalanches de neige humide. Facile à déclencher au soleil. Départ ponctuel sous les skis. Taille 1 à  2. Causé par le réchauffement et le rayonnement solaire. ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2500 m \nOn peut chausser les skis au-dessus de 2000 m en sud et 1600 m en nord. \n\nQualité de la neige ce dimanche matin : \n* sous 2000 m, neige de névé avec un bon regel nocturne\n* au-dessus de 2000 m, neige de printemps avec un bon regel nocturne. ",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

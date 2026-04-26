@@ -1,7 +1,7 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-04-25T16:00:00",
-  "validUntil": "2026-04-26T18:00:00",
+  "date": "2026-04-26T16:00:00",
+  "validUntil": "2026-04-27T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,8 +20,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : Rares avalanches humides ou départs au terrain, plutôt en faces \"froides\".\nDéclenchements skieurs : Peu probables, ou sous les skis en neige très humide (pentes raides)... ",
-  "stability": "MANTEAU NEIGEUX PRINTANIER, RARE AVALANCHE DE \"FONTE\".\n\nDéparts spontanés : Dans les pentes Est, Nord et Ouest, où l'humidification gagne en profondeur, de rares avalanches humides peuvent se produire aux heures chaudes de la journée ou le soir. De taille 1 à 2 avec départ ponctuel, mais exceptionnellement, une grande avalanche de taille 3 ne peut être exclue avec départ au terrain. En faces Sud, moins de neige et très dense, presque de névé, stable...\n\nDéclenchements provoqués : Peu probables, hormis un risque limité de coulée ponctuelle sous les skis en terrain raide et bien humidifié.\n\nAutres : Neige parfois durcie / croûtée par le regel à l'ombre, en début de journée notamment.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis 3 semaines, il devient déficitaire en faces Sud et en moyenne montagne. Il reste correct dans les versants Nord d'altitude.\n\nLimites skiables : Vers 1500/1700m en Nord à 1900/2200m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige dimanche :  Neige bosselée, parfois croûtée / durcie par le regel (moyen à correct en altitude). Puis l'humidification et la fonte reprennent, assez rapidement au soleil, donnant une neige très humide.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER, RARE AVALANCHE DE \"FONTE\".\n\nDéparts spontanés : Après un bon regel nocturne en altitude, de rares avalanches humides peuvent se produire aux heures chaudes de la journée ou le soir dans les pentes Est, Nord puis Ouest, avec l'humidification qui gagne en profondeur. De taille 1 à 2 avec départ ponctuel, mais exceptionnellement et plutôt en versant Nord, une grande avalanche de taille 3 ne peut être exclue si l'humidification atteint une couche fragile plus enfouie, avec départ linéaire et/ou au terrain possible. En faces Sud, moins de neige et très dense, presque de névé, stable...\n\nDéclenchements provoqués : Peu probables, hormis un risque limité de coulée ponctuelle sous les skis en terrain raide et bien humidifié.\n\nAutres : Neige parfois durcie / croûtée par le regel à l'ombre, en début de journée notamment.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis 3 semaines, il devient déficitaire en faces Sud et en moyenne montagne. Il reste correct dans les versants Nord d'altitude.\n\nLimites skiables : Vers 1500/1700m en Nord à 1900/2200m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige lundi :  Neige bosselée, parfois croûtée / durcie par le regel (correct à bon en altitude). Puis l'humidification et la fonte reprennent, assez rapidement au soleil, donnant une neige très humide.",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

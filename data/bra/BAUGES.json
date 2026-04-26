@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-04-25T16:00:00",
-  "validUntil": "2026-04-26T18:00:00",
+  "date": "2026-04-26T16:00:00",
+  "validUntil": "2026-04-27T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -20,8 +20,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : avalanche de neige humide\nDéclenchements skieurs : petits départs en neige humide sous les skis",
-  "stability": "Conditions printanières\n\nDéparts spontanés : \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. Taille 2 (moyenne). \n* rares avalanches de neige humide, un peu plus nombreuses au fil du réchauffement et du rayonnement solaire. Taille 1 (petite). \n\nDéclenchements provoqués : \n* départ ponctuel en neige humide, sous les skis. Taille 1. Causé par le réchauffement et le rayonnement solaire. ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1700 m en nord. Les versants sud sont secs. \n\nQualité de la neige ce dimanche matin : \n* sous 2000 m, neige de névé avec un bon regel nocturne\n* au-dessus de 2000 m, neige de printemps avec un bon regel nocturne. ",
+  "stability": "Conditions printanières\n\nDéparts spontanés : \n* rares avalanches de neige humide, un peu plus nombreuses au fil du réchauffement et du rayonnement solaire. Taille 1 (petite). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. Taille 2 (moyenne). \n\nDéclenchements provoqués : \n* départ ponctuel en neige humide, sous les skis. Taille 1. Causé par le réchauffement et le rayonnement solaire. ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1700 m en nord. Les versants sud sont secs. \n\nQualité de la neige ce lundi matin :  neige de névé avec un bon regel nocturne",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

@@ -1,7 +1,7 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-04-26T16:00:00",
-  "validUntil": "2026-04-27T18:00:00",
+  "date": "2026-04-27T16:00:00",
+  "validUntil": "2026-04-28T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -20,8 +20,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : Rares avalanches humides ou départs au terrain, plutôt en faces \"froides\".\nDéclenchements skieurs : Peu probables, ou sous les skis en neige très humide (pentes raides)... ",
-  "stability": "MANTEAU NEIGEUX PRINTANIER, RARE AVALANCHE DE \"FONTE\".\n\nDéparts spontanés : Après un bon regel nocturne en altitude, de rares avalanches humides peuvent se produire aux heures chaudes de la journée ou le soir dans les pentes Est, Nord puis Ouest, avec l'humidification qui gagne en profondeur. De taille 1 à 2 avec départ ponctuel, mais exceptionnellement et plutôt en versant Nord, une grande avalanche de taille 3 ne peut être exclue si l'humidification atteint une couche fragile plus enfouie, avec départ linéaire et/ou au terrain possible. En faces Sud, moins de neige et très dense, presque de névé, stable...\n\nDéclenchements provoqués : Peu probables, hormis un risque limité de coulée ponctuelle sous les skis en terrain raide et bien humidifié.\n\nAutres : Neige parfois durcie / croûtée par le regel à l'ombre, en début de journée notamment.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis 3 semaines, il devient déficitaire en faces Sud et en moyenne montagne. Il reste correct dans les versants Nord d'altitude.\n\nLimites skiables : Vers 1500/1700m en Nord à 1900/2200m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige lundi :  Neige bosselée, parfois croûtée / durcie par le regel (correct à bon en altitude). Puis l'humidification et la fonte reprennent, assez rapidement au soleil, donnant une neige très humide.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER, RARE AVALANCHE DE \"FONTE\".\n\nDéparts spontanés : Regel nocturne correct en altitude, parfois médiocre sous 2500m avec l'arrivée du voile nuageux. En journée sous les averses, de rares coulées seront possibles dans les pentes Est, Nord ou Ouest, surtout sous 2600 à 2700m (limite de la pluie). Exceptionnellement, plutôt en Nord, une grande avalanche de taille 3 ne peut être exclue si l'humidification atteint une couche fragile plus enfouie, avec départ linéaire et/ou au terrain possible. Plus haut, les chutes de neige freinent l'humidification. Très localement une petite purge est possible dans la neige récente, sous les rochers. \n\nDéclenchements provoqués : Peu probables, hormis un risque limité de coulée ponctuelle sous les skis en terrain raide et bien humidifié. Au-dessus de 2600m, possibilité de faire partir des coulées ponctuelles dans les 7 à 15cm de neige récente bien humide. ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis début avril, il devient déficitaire en faces Sud et en moyenne montagne. Il reste correct dans les versants Nord d'altitude.\n\nLimites skiables : Vers 1500/1700m en Nord à 1900/2200m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige mardi :  Regel correct en altitude, médiocre ou inexistant sous 2400 / 2500m. En matinée la couverture nuageuse retarde l'humidification. Dans l'après-midi les averses vont détremper le manteau neigeux sous 2600m, tandis qu'à plus haute altitude on peut attendre jusqu'à 7 à 15cm de neige humide. ",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

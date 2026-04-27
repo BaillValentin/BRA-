@@ -1,11 +1,11 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-04-26T16:00:00",
-  "validUntil": "2026-04-27T18:00:00",
+  "date": "2026-04-27T16:00:00",
+  "validUntil": "2026-04-28T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2400",
+      "altitude": "<2500",
       "level": 1,
       "orientations": [
         "N",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "altitude": ">2400",
+      "altitude": ">2500",
       "level": 1,
       "orientations": [
         "N",
@@ -26,9 +26,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide. Rares, mais possiblement volumineux en ubacs d'altitude.\nDéclenchements skieurs : en neige humide.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER. L'HUMIDIFICATION EN PROFONDEUR EN UBAC D'ALTITUDE SE POURSUIT.\n\nDéparts spontanés : avalanches en neige humide restant rares mais pouvant être volumineuses en cas de départ linéaire. Taille moyenne à grande, dans les pentes nord-ouest / nord / nord-est au-dessus de 2400 m environ, pouvant emporter la totalité du manteau neigeux et s'écoulert jusqu'en bas de pente. Peu probables en début de journée après un bon regel nocturne, puis risque en augmentation au fil du réchauffement et de l’ensoleillement. En dessous de 2400 m environ, et dans les pentes sud jusqu'à haute altitude, le manteau neigeux printanier est désormais dense et bien stabilisé.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis. Dans les ubacs au-dessus de 2400 m environ, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un départ linéaire plus volumineux.\n\nAutres : chutes de seracs signalés.",
-  "snowQuality": "Enneigement déficitaire sur le massif, particulièrement en adrets. \nHauteurs de neige observées : 217 cm à la nivôse des Écrins à 2970 m.    \n\nLimite d'enneigement skiable : très localement vers 1600/1700 m en fond de vallée en cœur de massif, 2300/2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2300/2400 m environ et en adrets d'altitude. Bon regel nocturne, puis reprise de l'humidification en journée. On trouve encore de la neige froide sur les glaciers ou en combes nord de haute altitude, au delà de 2900/3000 m.",
+  "summary": "Départs spontanés : en neige humide. Rares, mais possiblement volumineux en ubacs d'altitude.\nDéclenchements skieurs : en neige humide sous les skis",
+  "stability": "MANTEAU NEIGEUX PRINTANIER. UN PEU D’ACTIVITÉ NATURELLE EN NEIGE HUMIDE\n\nDéparts spontanés : après un bon regel nocturne, l'activité en neige humide reprend en cours de journée sous l'effet de la douceur et des averses de pluie. Avalanches en neige humide restant rares mais pouvant être volumineuses en cas de départ linéaire. Taille moyenne, grande non exclue, dans les pentes nord-ouest / nord / nord-est au-dessus de 2500 m environ, pouvant emporter la totalité du manteau neigeux et s'écouler jusqu'en bas de pente. En dessous de 2500 m environ, et dans les pentes sud jusqu'à haute altitude, le manteau neigeux printanier est désormais dense et bien stabilisé.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis. Dans les ubacs au-dessus de 2500 m environ, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un départ linéaire plus volumineux.",
+  "snowQuality": "Enneigement déficitaire sur le massif, particulièrement en adrets. \nHauteurs de neige observées : 209 cm à la nivôse des Écrins à 2970 m.    \n\nLimite d'enneigement skiable : très localement vers 1900 m en fond de vallée en cœur de massif, 2300/2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets d'altitude. Bon regel nocturne, puis reprise de l'humidification en journée. Quelques cm de fraîche possible sous une averse de neige sur les glaciers ou en combes nord de haute altitude, au delà de 2800/3000 m.",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

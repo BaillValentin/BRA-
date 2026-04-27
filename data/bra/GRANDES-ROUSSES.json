@@ -1,7 +1,7 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-04-26T16:00:00",
-  "validUntil": "2026-04-27T18:00:00",
+  "date": "2026-04-27T16:00:00",
+  "validUntil": "2026-04-28T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -19,9 +19,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Rares avalanches humides ou départs au terrain, plutôt en faces \"froides\".  Une cassure large non exclue en Nord d'altitude.\nDéclenchements skieurs : Peu probables, ou sous les skis en neige très humide (pentes raides)... ",
-  "stability": "MANTEAU NEIGEUX PRINTANIER, RARE AVALANCHE DE \"FONTE\", TRÈS PONCTUELLEMENT UNE CASSURE LINÉAIRE EN FACE NORD ?\n\nDéparts spontanés : Après un bon regel nocturne en altitude, de rares avalanches humides peuvent se produire aux heures chaudes de la journée ou le soir dans les pentes Est, Nord puis Ouest, avec l'humidification qui gagne en profondeur. De taille 1 à 2 avec départ ponctuel, mais exceptionnellement et plutôt en versant Nord, une grande avalanche de taille 3 ne peut être exclue si l'humidification atteint une couche fragile plus enfouie, avec départ linéaire et/ou au terrain possible. En faces Sud, moins de neige et très dense, presque de névé, stable...\n\nDéclenchements provoqués : Peu probables, hormis un risque limité de coulée ponctuelle sous les skis en terrain raide et bien humidifié.\n\nAutres : Neige parfois durcie / croûtée par le regel à l'ombre, en début de journée notamment.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis 3 semaines, il devient déficitaire en faces Sud et moyenne montagne. Il reste correct dans les versants Nord d'altitude.\n\nLimites skiables : Vers 1600/1800m en Nord à 2000/2400m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige lundi :  Neige bosselée, parfois croûtée / durcie par le regel (correct à bon en altitude). Puis l'humidification et la fonte reprennent, assez rapidement au soleil, donnant une neige très humide.",
+  "summary": "Départs spontanés : Rares avalanches humides ou départs au terrain, plutôt en faces \"froides\".  Une cassure large non exclue en Nord.\nDéclenchements skieurs : Peu probables, ou sous les skis en neige très humide (pentes raides)... ",
+  "stability": "MANTEAU NEIGEUX PRINTANIER, RARE AVALANCHE DE \"FONTE\", RETOUR DE LA NEIGE EN HAUTE-MONTAGNE\n\nDéparts spontanés : Regel nocturne bon à très bon en altitude, correct sous 2600m. En matinée le manteau est stable. En journée l'humidification reprends difficilement sous le ciel nuageux, puis s'accélère sous 2600m avec l'arrivée de la pluie en journée. Dans les versants Ouest, Nord et Est, l'humidification gagne en profondeur et de rares avalanches humides peuvent se produire. Dans les versants Nord-Ouest à Nord-Est, une avalanche de grande taille serait exceptionnellement possible si l'humidification gagnerait des couches fragiles enfouies, dans quel cas un départ linéaire serait possible, voire un départ au terrain. \nAu-dessus de 2600 à 2700m, la neige récente freine l'humidification. Les cumuls restent faibles, éventuellement une petite purge en neige récente humide sous les rochers. \n\nDéclenchements provoqués : Peu probables, hormis un risque limité de coulée ponctuelle sous les skis en terrain raide et bien humidifié. Au-dessus de 2600m, possibilité de faire partir une coulée ponctuelles dans les 5 à 10cm de neige récente bien humide. \n\nAutres : Neige parfois durcie / croûtée par le regel.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis début avril, il devient déficitaire en faces Sud et moyenne montagne. Il reste correct dans les versants Nord d'altitude.\n\nLimites skiables : Vers 1600/1800m en Nord à 2000/2400m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige mardi :  Neige bosselée, parfois croûtée / durcie par le regel (bon en altitude, correct sous 2600m). En journée, l'humidification est ralentie par la couverture nuageuse, pas ou très peu de dégel au-dessus de 3000m environ. L'après-midi, des averses apportent 5 à 10cm de neige humide au-dessus de 2600m, tandis que plus bas la pluie vient détremper le manteau. ",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

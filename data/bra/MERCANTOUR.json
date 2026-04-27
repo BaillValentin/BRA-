@@ -1,34 +1,30 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-04-26T16:00:00",
-  "validUntil": "2026-04-27T18:00:00",
+  "date": "2026-04-27T15:00:00",
+  "validUntil": "2026-04-28T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2400",
+      "altitude": "<2600",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "NW"
+        "N"
       ]
     },
     {
-      "altitude": ">2400",
+      "altitude": ">2600",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "NW"
+        "N"
       ]
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques avalanches de neige humide, généralement de petite taille - rare avalanche volumineuse possible en ubacs d'altitude.\nDéclenchements skieurs : en neige humide sous les skis.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER - UN PEU D'ACTIVITÉ NATURELLE EN NEIGE HUMIDE\n\nDéparts spontanés : après regel nocturne correct, l'activité en neige humide reprend en cours de journée sous l'effet de la douceur et des averses de pluie. Quelques avalanches généralement superficielles sont alors possibles par départ ponctuel, de petite taille (taille 1). De rares départs linéaires plus volumineux sont possibles dans les pentes nord-ouest à nord-est au-dessus de 2400/2500 m environ, emportant la totalité du manteau neigeux en place. Taille moyenne, grande non exclue.\n\nDéclenchements provoqués : un skieur coupant tardivement une pente raide peut initier un départ de neige humide sous ses skis, généralement de petite taille. \nDans les ubacs d'altitude au-dessus de 2400/2500 m, une première avalanche superficielle de neige humide peut dans de très rares cas provoquer un seconde départ plus volumineux sous forme linéaire.",
-  "snowQuality": "Enneigement nettement déficitaire pour la période, avec une fonte qui se poursuit à un rythme élevé. Absence de précipitations significatives depuis plus d'un mois et grande douceur en place depuis début avril.\nHauteurs de neige observées : 72 cm à la Nivose de Millefonts à 2430 m, 0 cm à Isola 2000 à 1900 m.\n\nEnneigement skiable généralement à partir de 2000 m en ubacs sur terrain favorable (routes forestières, terrains herbeux) et plus de 2400/2500 m en adrets. \n\nÉtat de la neige en surface : manteau neigeux printanier, voire de névé en toute orientation sous 2300/2500 m et en adrets d'altitude. Bon regel nocturne, puis reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions. La neige peut rester dure dans les pentes nord raides de haute altitude. ",
+  "summary": "Départs spontanés : seulement en ubacs raides de haute altitude\nDéclenchements skieurs : seulement en ubacs raides de haute altitude",
+  "stability": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON BIEN STABLE\n\nDéclenchements provoqués :  le manteau neigeux est très faible pour une fin avril, et très stable. Les instabilités ne sont possibles que dans de rares pentes raides plein nord de haute altitude, au-dessus de 2600/2700 m, où le manteau neigeux n'est pas totalement humidifié jusqu'au sol. Un skieur évoluant en fin de journée peut alors initier un départ de neige humide sur toute l'épaisseur du manteau neigeux, générant une avalanche de taille moyenne. Dans les autres orientations, le manteau neigeux est très stable et le fait de pousser de la neige de névé humide avec les skis ne constitue pas un danger d'avalanche.\n\nDéparts spontanés : très rares et seulement possibles en versants plein nord de haute altitude. Taille petite à moyenne.",
+  "snowQuality": "Enneigement très faible  pour la période, après plus d'un mois sans précipitations notables et avec un iso 0 souvent à plus de 3000 m, l'enneigement est digne d'une mi mai.  A la nivôse de Millefonts, on ne mesure plus que 70 cm de neige.\n\nEnneigement skiable à partir de 2000/2100 m en ubacs, avec beaucoup de relief en surface en raison de l'intense fonte jusqu'à 2500/2600 m environ\n\nÉtat de la neige en surface : manteau neigeux sous forme de névé qui continue de fondre rapidement. Les pentes nord de haute altitude (> 2600 m) ne sont pas encore totalement transformées. Faible regel nocturne, puis reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions.  ",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

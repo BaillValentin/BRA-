@@ -1,7 +1,7 @@
 {
   "massif": "THABOR",
-  "date": "2026-04-27T16:00:00",
-  "validUntil": "2026-04-28T18:00:00",
+  "date": "2026-04-28T16:00:00",
+  "validUntil": "2026-04-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -27,8 +27,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : en neige humide. Rares, mais possiblement volumineux en ubacs d'altitude.\nDéclenchements skieurs : en neige humide sous les skis",
-  "stability": "MANTEAU NEIGEUX PRINTANIER. UN PEU D’ACTIVITÉ NATURELLE EN NEIGE HUMIDE\n\nDéparts spontanés : après un bon regel nocturne, l'activité en neige humide reprend en cours de journée sous l'effet de la douceur et des averses de pluie. Avalanches en neige humide restant rares mais pouvant être volumineuses en cas de départ linéaire. Taille moyenne, grande non exclue, dans les pentes nord-ouest / nord / nord-est au-dessus de 2500 m environ, pouvant emporter la totalité du manteau neigeux et s'écouler jusqu'en bas de pente. En dessous de 2500 m environ, et dans les pentes sud jusqu'à haute altitude, le manteau neigeux printanier est désormais dense et bien stabilisé.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis. Dans les ubacs au-dessus de 2400 m environ, une première avalanche superficielle de neige humide déclenchée par un skieur peut dans de rares cas provoquer un départ linéaire plus volumineux.",
-  "snowQuality": "Enneigement déficitaire sur le massif, particulièrement en adrets. \nHauteurs de neige observées vers 2500 m : 68 cm aux Rochilles, seulement 5 cm à la nivose du Galibier à 2559 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en terrain favorable, 2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets d'altitude. Bon regel nocturne, puis reprise de l'humidification en journée.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER. UN PEU D’ACTIVITÉ NATURELLE EN NEIGE HUMIDE\n\nDéparts spontanés : après un regel nocturne correct, l'activité en neige humide reprend en cours de journée sous l'effet du soleil et de la douceur. Avalanches en neige humide restant rares mais pouvant être volumineuses en cas de départ linéaire. Taille moyenne, grande non exclue, dans les pentes nord-ouest / nord / nord-est au-dessus de 2500 m environ, pouvant emporter la totalité du manteau neigeux. Plus bas, et dans les pentes sud jusqu'à haute altitude, le manteau neigeux est désormais dense et bien stabilisé.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis. Taille limitée et seulement en ubacs raides de haute altitude.",
+  "snowQuality": "Enneigement déficitaire sur le massif, particulièrement en adrets. \nHauteurs de neige observées vers 2500 m : 66 cm aux Rochilles, seulement 5 cm à la nivose du Galibier à 2559 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en terrain favorable, 2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets d'altitude. Regel nocturne, puis reprise de l'humidification en journée.",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

@@ -1,12 +1,12 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-04-27T16:00:00",
-  "validUntil": "2026-04-28T18:00:00",
+  "date": "2026-04-28T16:00:00",
+  "validUntil": "2026-04-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
       "altitude": "Toutes altitudes",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -17,12 +17,11 @@
     }
   ],
   "situations": [
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : avalanche de neige humide\nDéclenchements skieurs : départs en neige humide sous les skis",
-  "stability": "Avalanche de neige humide sous les averses\n\nDéparts spontanés : \n* rares à quelques avalanches de neige humide, plus nombreuses l'après-midi avec l'arrivée des précipitations. Le regel, parfois plus hétérogène peut favoriser un départ dès la matinée. Taille 1 à 2 (petite à moyenne). \n* quelques plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 2 (moyenne). Au-dessus de 2400 m, dans les versants est, ouest et nord, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de fond. Rare taille 3 (grande).\n\nDéclenchements provoqués : \n* avalanches de neige humide. Facile à déclencher tous versants. Départ ponctuel sous les skis. Taille 1 à 2. Causé par les averses et la couverture nuageuse. ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2500 m \nOn peut chausser les skis au-dessus de 2000 m en sud et 1600 m en nord. \n\nQualité de la neige ce mardi matin : \n* sous 2400 m, neige de névé avec un regel nocturne correct\n* au-dessus de 2400 m, neige de printemps avec un regel nocturne correct",
+  "summary": "Départs spontanés : Avalanches de neige humide avec la pluie puis avec le réchauffement diurne. \nDéclenchements skieurs : De la neige humide peut couler sous les skis. ",
+  "stability": "Avalanche de neige humide pendant et après les averses\n\nDéparts spontanés : \n* Avalanches de neige humide à toutes altitudes. Départs possibles pendant les chutes de pluie puis au fil du réchauffement diurne. Taille 1 (petite) à 2 (moyenne)\nFacteur aggravant, au-dessus de 2400 m en versants E/N/O : pendant et après les chutes de pluie, un départ en plaque est possible si l'humification atteint une couche fragile enfouie dans le manteau neigeux. Cassure de 50/80 cm possibles. Taille 2 (moyenne).\n* Quelques plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués : \n* Déclenchements ponctuels de neige humide sous les pieds ou les skis. Facilement déclenchables. Causé par les précipitations pluvieuses puis par le réchauffement diurne. Taille 1 (petite) à 2 (moyenne). ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.  \nOn peut chausser les skis au-dessus de 2000 m en sud et 1700 m en nord. \n\nQualité de la neige ce mercredi :\n* En dessous de 2400 m, manteau neigeux humide en profondeur, voire neige de névé, avec un mauvais regel nocturne. \n* Au-dessus de 2400 m : manteau neigeux printanier, humidifié en surface. Faible regel nocturne. ",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

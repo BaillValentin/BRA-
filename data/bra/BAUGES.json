@@ -1,27 +1,21 @@
 {
   "massif": "BAUGES",
-  "date": "2026-04-27T16:00:00",
-  "validUntil": "2026-04-28T18:00:00",
+  "date": "2026-04-28T16:00:00",
+  "validUntil": "2026-04-29T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : avalanche de neige humide\nDéclenchements skieurs : départs en neige humide sous les skis",
-  "stability": "Avalanche de neige humide sous les averses\n\nDéparts spontanés : \n* rares avalanches de neige humide, plus nombreuses l'après-midi avec l'arrivée des précipitations. Le regel, parfois plus hétérogène peut favoriser un départ dès la matinée. Taille 1 (petite). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. Taille 2 (moyenne). \n\nDéclenchements provoqués : \n* départ ponctuel en neige humide, sous les skis. Taille 1. Causé par le couvert nuageux et les averses. ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct. \nOn peut chausser les skis au-dessus de 1700 m en nord. Les versants sud sont secs. \n\nQualité de la neige ce mardi matin :  neige de névé avec un regel nocturne correct (voile en fin de nuit)",
+  "summary": "Départs spontanés : avalanche de neige humide\nDéclenchements skieurs : De la neige humide peut couler sous les skis. ",
+  "stability": "Manteau neigeux printanier. \n\nDéclenchements provoqués : \n* départ ponctuel en neige humide, sous les skis. Taille 1. Causé par le couvert nuageux et les averses. \n\nDéparts spontanés : \n* rares avalanches de neige humide, plus nombreuses sous les averses puis au fil du réchauffement diurne. Le regel, parfois plus hétérogène peut favoriser un départ dès la matinée. Taille 1 (petite). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. Taille 2 (moyenne). ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à très déficitaire. \nOn peut chausser les skis au-dessus de 1700 m en nord. Les versants sud sont secs. \n\nQualité de la neige ce mercredi :  \nneige de névé à toute altitude avec un mauvais regel nocturne.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

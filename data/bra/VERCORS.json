@@ -1,11 +1,16 @@
 {
   "massif": "VERCORS",
-  "date": "2026-04-27T16:00:00",
-  "validUntil": "2026-04-28T18:00:00",
+  "date": "2026-04-28T16:00:00",
+  "validUntil": "2026-04-29T18:00:00",
   "riskMax": 1,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<0",
+      "level": 1,
+      "orientations": []
+    },
+    {
+      "altitude": ">0",
       "level": 1,
       "orientations": []
     }
@@ -13,9 +18,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables. \nDéclenchements skieurs : Peu probables. Attention le matin aux surfaces durcies par regel.",
-  "stability": "MANTEAU NEIGEUX TRES DENSE, STABLE..\n\nDe moins en moins de neige en place et très dense, presque de névé, donc stable.\nDéparts spontanés : Peu probables, ou très rare coulée humide en pente bien raide sous la pluie.\nDéclenchements provoqués :  Peu probables, ou de manière très rare sous les skis en neige humide. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis début avril et devient déficitaire pour la saison. Au Sud il ne reste plus que de rares névés... la fin de saison approche.\nLimites skiables : Vers 1600 à 2100m environ suivant l'exposition, la raideur de la pente...\n\nQualité de la neige mardi :  Manteau neigeux printanier. Regel nocturne assez médiocre voire inexistant. Neige très humide, dense. Détrempée sous les averses en journée. ",
+  "summary": "Départs spontanés : Peu probables. \nDéclenchements skieurs : Peu probables.",
+  "stability": "MANTEAU NEIGEUX DE FIN DE SAISON, STABLE\n\nDe moins en moins de neige sur le massif où l'on se rapproche de la fin de saison. \nDéparts spontanés : Peu probables, ou très rare coulée humide en pente bien raide sous la pluie.\nDéclenchements provoqués :  Peu probables, ou de manière très rare sous les skis en neige humide. ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis début avril et devient déficitaire pour la saison. Il ne reste souvent que des névés, ou quelques pentes skiables en Nord d'altitude. \nLimites skiables : Vers 1800m en Nord bien abrité. Les pentes Sud ne sont parfois plus du tout enneigées. \n\nQualité de la neige mercredi :  Pas de regel nocturne. Manteau neigeux entièrement humide suite à la pluie de mardi. ",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

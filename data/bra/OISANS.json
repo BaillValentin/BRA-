@@ -1,12 +1,23 @@
 {
   "massif": "OISANS",
-  "date": "2026-04-27T16:00:00",
-  "validUntil": "2026-04-28T18:00:00",
+  "date": "2026-04-28T16:00:00",
+  "validUntil": "2026-04-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2200",
       "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2200",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -21,9 +32,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Rares avalanches humides ou départs au terrain, plutôt en faces \"froides\".  Une cassure large non exclue en Nord.\nDéclenchements skieurs : Peu probables, ou sous les skis en neige très humide (pentes raides)... ",
-  "stability": "MANTEAU NEIGEUX PRINTANIER, RARE AVALANCHE DE \"FONTE\", RETOUR DE LA NEIGE EN HAUTE-MONTAGNE\n\nDéparts spontanés : Regel nocturne bon à très bon en altitude, correct sous 2500m. En matinée le manteau est stable, puis en journée l'humidification reprends difficilement sous le ciel nuageux, puis s'accélère sous 2600m avec l'arrivée de la pluie en journée. Dans les versants Ouest, Nord et Est, l'humidification gagne en profondeur et de rares avalanches humides peuvent se produire. Dans les versants Nord-Ouest à Nord-Est, une avalanche de grande taille serait exceptionnellement possible si l'humidification gagnerait des couches fragiles enfouies, dans quel cas un départ linéaire serait possible, voire un départ au terrain. \nAu-dessus de 2600 à 2700m, la neige récente freine l'humidification. Les cumuls restent faibles, éventuellement une petite purge en neige récente humide sous les rochers. \n\nDéclenchements provoqués : Peu probables, hormis un risque limité de coulée ponctuelle sous les skis en terrain raide et bien humidifié. Au-dessus de 2600m, possibilité de faire partir des coulées ponctuelles dans les 5 à 10cm de neige récente bien humide. En haute montagne, éventuellement des structures de plaques superficielles dans la neige fraîche. \n\nAutres : Neige parfois durcie / croûtée par le regel.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis début avril, il devient déficitaire en faces Sud et en bas de pentes. Il reste correct seulement dans les versants Nord d'altitude.\n\nLimites skiables : Vers 1600/1800m en Nord à 2100/2400m suivant l'exposition au soleil, la raideur de la pente...\n\nQualité de la neige mardi :  Neige bosselée, parfois croûtée / durcie par le regel (bon en altitude, correct sous 2500m). En journée, l'humidification est ralentie par la couverture nuageuse, pas ou très peu de dégel au-dessus de 3000m environ. L'après-midi, des averses apportent 5 à 10cm de neige humide au-dessus de 2600m, tandis que plus bas la pluie vient détremper le manteau. Neige froide au-dessus de 3200m environ. ",
+  "summary": "Départs spontanés : Entre 2200 et 2700m, faible risque de départ d'une plaque sous la pluie.\nDéclenchements skieurs : Peu probables. Coulées humides sous les skis en pente raide. ",
+  "stability": "MANTEAU NEIGEUX DE PLUS EN PLUS HUMIDE SOUS 2600 / 2700M, RETOUR DE LA NEIGE A PLUS HAUTE ALTITUDE \n\nMardi soir, des averses parfois orageuses donnent quelques cm de neige au-dessus de 2600 à 2700m. A plus basse altitude, la pluie accélère l'humidification du manteau neigeux. \nDéparts spontanés : Sous 2600 à 2700m l'humidification gagne en profondeur et pourrait faire partir de rares coulées humides de tailles petites à moyennes. Dans les versants Nord-Ouest à Nord-Est supérieurs à 2200m quelques couches fragiles \"froides\" peuvent subsister dans le manteau neigeux. Exceptionellement, une grande avalanche avec une cassure linéaire ne peut être exclue dans le cas où l'humidification gagnerait ces couches fragiles enfouies. Au-dessus de 2600 / 2700m, les 7 à 15cm de neige récente sont stables. Eventuellement quelques départs d'escargots sous les rochers en journée.\nDéclenchements provoqués : Peu probables, ou un risque limité de coulée ponctuelle sous les skis en terrain raide et bien humidifié. Au-dessus de 2600m, possibilité de faire partir des coulées ponctuelles dans les 7 à 15cm de neige récente bien humide. En haute-montagne ( au-dessus de 3000 / 3200m), de rares structures de plaque superficielles peuvent être présentes dans la neige fraîche.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est bien réduit depuis début avril, il devient déficitaire sur le massif. Il est tout au mieux correct en Nord d'altitude. \n\nLimites skiables : Vers 1600/1800m en Nord à 2000/2300m en versants ensoleillés. \n\nQualité de la neige mercredi :  Pas de regel nocturne, ou très médiocre au-dessus de 2500 / 2600m. Neige gorgée d'eau sous 2600 / 2700m environ. Plus haut, 5 à 10cm de neige récente déjà très humide, collant aux skis. Neige froide au-dessus de 3000 / 3200m. Mercredi après-midi sous les averses, 5 à 10cm de neige supplémentaires possibles au-dessus de 2700m. ",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

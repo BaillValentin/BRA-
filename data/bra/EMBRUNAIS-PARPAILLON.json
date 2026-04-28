@@ -1,18 +1,18 @@
 {
   "massif": "EMBRUNAIS-PARPAILLON",
-  "date": "2026-04-27T16:00:00",
-  "validUntil": "2026-04-28T18:00:00",
+  "date": "2026-04-28T16:00:00",
+  "validUntil": "2026-04-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2600",
+      "altitude": "<2700",
       "level": 1,
       "orientations": [
         "N"
       ]
     },
     {
-      "altitude": ">2600",
+      "altitude": ">2700",
       "level": 1,
       "orientations": [
         "N"
@@ -23,8 +23,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : en neige humide sous les skis",
-  "stability": "MANTEAU NEIGEUX PRINTANIER - DENSE ET STABLE\n\nDéparts spontanés : peu probables au petit matin après un bon regel nocturne, puis petite activité en neige humide en journée sous l'effet de la douceur et des averses de pluie. Avalanches généralement superficielles de taille 1. Une rare taille 2 reste possible dans les pentes nord au dessus de 2500/2700 m.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis. Taille limitée et seulement en ubacs raides de haute altitude.",
-  "snowQuality": "Enneigement  déficitaire pour la période, notamment en adrets.\nHauteurs de neige observées vers 2500 m : 50 cm à la nivôse du Parpaillon.\n\nLimite d'enneigement skiable : au plus bas à 2000 m en ubacs bien protégés ou sur pistes forestières \n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets d'altitude. Bon regel nocturne, puis reprise de l'humidification en journée.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER - DENSE ET STABLE\n\nDéparts spontanés : peu probables au petit matin après un regel nocturne correct, puis petite activité en neige humide en journée sous l'effet du soleil et de la douceur. Avalanches généralement superficielles de taille 1. Une rare taille 2 reste possible dans les pentes nord au dessus de 2500/2700 m.\n\nDéclenchements provoqués : un skieur coupant une pente raide tardivement peut initier un départ de neige humide sous les skis. Taille limitée et seulement en ubacs raides vers les plus hauts sommets.",
+  "snowQuality": "Enneigement  déficitaire pour la période, notamment en adrets.\nHauteurs de neige observées vers 2500 m : 48 cm à la nivôse du Parpaillon.\n\nLimite d'enneigement skiable : au plus bas à 2000 m en ubacs bien protégés ou sur pistes forestières \n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets d'altitude. Regel nocturne, puis reprise de l'humidification en journée.",
   "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_20.png",

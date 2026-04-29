@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-04-28T16:00:00",
-  "validUntil": "2026-04-29T18:00:00",
+  "date": "2026-04-29T15:00:00",
+  "validUntil": "2026-04-30T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,9 +13,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables. \nDéclenchements skieurs : Peu probables.",
-  "stability": "MANTEAU NEIGEUX DE FIN DE SAISON, STABLE\n\nDe moins en moins de neige sur le massif où l'on se rapproche de la fin de saison. \nDéparts spontanés : Peu probables, ou très rare coulée humide en pente bien raide sous la pluie.\nDéclenchements provoqués :  Peu probables, ou de manière très rare sous les skis en neige humide. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis début avril et devient déficitaire pour la saison. Il ne reste souvent que des névés, ou quelques pentes skiables en Nord d'altitude. \nLimites skiables : Vers 1700m en Nord bien abrité. Les pentes Sud ne sont parfois plus du tout enneigées. \n\nQualité de la neige mercredi :  Pas de regel nocturne. Manteau neigeux entièrement humide suite à la pluie de mardi. ",
+  "summary": "Départs spontanés : Peu probables.  Grands névés humides denses, stables\nDéclenchements skieurs : Peu probables.",
+  "stability": "FIN DE SAISON, QUELQUES NEVES STABLES...\n\nDe moins en moins de neige sur le massif, c'est la fin de saison. \nDéparts spontanés : Peu probables... \nDéclenchements provoqués :  Peu probables.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis début avril et devient franchement déficitaire pour la saison. Il ne reste souvent que quelques névés en Nord d'altitude au dessus de 1800m environ..\nQualité de la neige jeudi :  Pas de regel nocturne a priori. Neige humide dense avec des reliefs, des surfaces salies.",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

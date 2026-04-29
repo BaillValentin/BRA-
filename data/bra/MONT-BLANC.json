@@ -1,28 +1,45 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-04-28T16:00:00",
-  "validUntil": "2026-04-29T18:00:00",
+  "date": "2026-04-29T16:00:00",
+  "validUntil": "2026-04-30T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<3200",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">3200",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
         "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "sous_couche_fragile",
+    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Avalanches de neige humide avec la pluie puis avec le réchauffement diurne. \nDéclenchements skieurs : De la neige humide peut couler sous les skis. ",
-  "stability": "Avalanche de neige humide pendant et après les averses\n\nDéparts spontanés : \n* Avalanches de neige humide en-dessous de 4000 m en S et 3000 m en N. Départs possibles pendant les précipitations et dès le matin dû au faible regel, mais de plus en plus nombreuses au fil du réchauffement diurne. Taille 1 (petite) à 2 (moyenne)\nFacteur aggravant, entre 2400 m et 2700 m en versants E/N/O : pendant et après les chutes de pluie, un départ en plaque est possible si l'humification atteint une couche fragile enfouie dans le manteau neigeux. Cassure de 60cm/1m possibles. Taille 2 (moyenne) à 3 (grande).\n* Entre 2400 m et 3000 m en versants E/N/O, un petit départ ponctuel peut déclencher en cascade une plaque dû à la présence d'une couche fragile persistante enfouie. Rare et difficile à déclencher. Taille 3 (grande)\n* En-dessous de 2400 m : quelques plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués : \n* En dessous de 4000 m en S et 3000 m en N : déclenchements ponctuels de neige humide sous les pieds ou les skis. Possibles dès le début de journée mais plus nombreuses au fil du réchauffement diurne. Plus facilement déclenchables entre 2400 m et 2700 m en tous versants dû aux précipitations pluvieuses. Taille 1 (petite) à 2 (moyenne). ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est très déficitaire sous 2100 m et déficitaire au-dessus.  \nOn peut chausser les skis au-dessus de 2000 m en sud et 1700 m en nord. \n\nQualité de la neige ce mercredi :\n* En dessous de 2400 m, manteau neigeux humide en profondeur, voire neige de névé avec un mauvais regel nocturne. \n* Entre 2400 m et 3500 m en N / 4200 m en S : le matin 1-5 cm de neige fraîche sur un manteau neigeux printanier, humidifié en surface. Faible regel nocturne. \n* Au-dessus de 3500 m en N / 4200 m en S : neige encore froide mais souvent dure, avec de nombreux endroits où la glace ressort. ",
+  "summary": "Départs spontanés : Avalanches de neige humide au soleil\nDéclenchements skieurs : petites plaques en altitude dans la neige fraiche",
+  "stability": "Quelques instabilités en altitude dans la neige fraiche\n\nDéclenchements provoqués : \n* Au-dessus de 3200 m : petit départ ponctuel dans la neige fraiche. Sous les premiers rayons de soleil, départ possible en plaques humides. Taille 1 (petite) plus rarement moyenne (taille 2)\n* En dessous de 4000 m en S et 3000 m en N : déclenchements ponctuels de neige humide sous les pieds ou les skis. Plus nombreuses au fil du réchauffement diurne. Plus facilement déclenchables entre 2400 m et 2700 m. Taille 1 (petite) voir 2 (moyenne) dans de grandes pentes raides. \n\nDéparts spontanés : \n* En dessous de 4000 m en Sud et 3000/3200 m en Nord : avalanches de neige humide  au fil de la course du soleil. Taille 1 (petite) rarement 2 (moyenne)\nFacteur aggravant, entre 2400 et 2700 m en versants E/N/O : un départ en cascade en plaque n'est pas exclu. Cassure de 50/80 cm voir 1 m possibles. Taille 2 (moyenne).\n* En-dessous de 2400 m : quelques plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est très déficitaire sous 2100 m et déficitaire au-dessus.  \nOn peut chausser les skis au-dessus de 2000 m en sud et 1700 m en nord. \n\nQualité de la neige jeudi :\n* En dessous de 2400 m, manteau neigeux humide en profondeur, voire neige de névé avec un mauvais regel nocturne. \n* Entre 2400/2700 et 3200 m : très fine couche de neige récente humide sur un fond dure.\n* Au-dessus de 3200 m : 10 à 20 cm de neige fraiche dense sur un fond dure. Avec de nombreux endroits où la glace ressort proche des crêtes et sommets. ",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

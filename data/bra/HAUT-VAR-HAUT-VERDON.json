@@ -1,30 +1,19 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-04-28T16:00:00",
-  "validUntil": "2026-04-29T18:00:00",
-  "riskMax": 2,
+  "date": "2026-04-29T16:00:00",
+  "validUntil": "2026-04-30T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2600",
+      "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N"
-      ]
-    },
-    {
-      "altitude": ">2600",
-      "level": 1,
-      "orientations": [
-        "N"
-      ]
+      "orientations": []
     }
   ],
-  "situations": [
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : seulement en ubacs raides de haute altitude\nDéclenchements skieurs : seulement en ubacs raides de haute altitude",
-  "stability": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON BIEN STABLE\n\nDéclenchements provoqués :  le manteau neigeux est très faible pour une fin avril, et très stable. Les instabilités ne sont possibles que dans de rares pentes raides plein nord de haute altitude, au-dessus de 2600/2700 m, où le manteau neigeux n'est pas totalement humidifié jusqu'au sol. Un skieur évoluant en fin de journée peut alors initier un départ de neige humide sur toute l'épaisseur du manteau neigeux, générant une avalanche de taille moyenne (taille 2). Dans les autres orientations, le manteau neigeux est très stable et le danger négligeable. \n\nDéparts spontanés : très rares et seulement possibles en versants plein nord de haute altitude. Taille petite à moyenne (taille 1 à 2).",
-  "snowQuality": "Enneigement très faible  pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m, l'enneigement est digne d'une mi-mai.  \n\nEnneigement skiable à partir de 2000/2100 m en ubacs, avec beaucoup de relief en surface en raison de l'intense fonte jusqu'à 2500/2600 m environ\n\nÉtat de la neige en surface : manteau neigeux sous forme de névé qui continue de fondre rapidement. Les pentes nord de haute altitude (> 2600 m) ne sont pas encore totalement transformées. Faible regel nocturne, puis reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions.  ",
+  "situations": [],
+  "summary": "Départs spontanés : peu probables, manteau neigeux très stable\nDéclenchements skieurs : peu probables, manteau neigeux très stable",
+  "stability": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON BIEN STABLE\n\nDéclenchements provoqués :  le manteau neigeux est très faible pour une fin avril, et très stable. Les averses orageuses jeudi, plus actives sur le Haut Verdon, ne sont pas en mesure d'aggraver le danger d'avalanches.   \n\nDéparts spontanés : peu probables, le manteau neigeux est entièrement humidifié et bien stable jusqu'à haute altitude.",
+  "snowQuality": "Enneigement très faible  pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m, l'enneigement est digne d'une mi-mai.  \n\nEnneigement skiable à partir de 2000/2100 m en ubacs, avec beaucoup de relief en surface en raison de l'intense fonte jusqu'à 2500/2600 m environ\n\nÉtat de la neige en surface : manteau neigeux sous forme de névé qui continue de fondre rapidement. Les pentes nord de haute altitude (> 2800 m) ne sont pas encore totalement transformées. Faible regel nocturne, puis reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions. En fin de journée, les averses orageuses donnent un peu de neige fraîche très humide à partir de 2500/2600 m, notamment en Haut Verdon.",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

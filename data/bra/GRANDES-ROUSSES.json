@@ -1,11 +1,20 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-04-29T15:00:00",
-  "validUntil": "2026-04-30T18:00:00",
+  "date": "2026-04-30T16:00:00",
+  "validUntil": "2026-05-01T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2300",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2300",
       "level": 2,
       "orientations": [
         "N",
@@ -17,9 +26,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : En altitude quelques coulées de surface de neige récente. En faces Nord, rare avalanche plus volumineuse, parfois au terrain  (sous 2500/2800m environ) ?\nDéclenchements skieurs : RAS ou coulées humides superficielles sous les skis en pente raide. ",
-  "stability": "RARES AVALANCHES HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE SOUS 2800M ENVIRON ?\n\nMercredi soir, des averses locales donnent quelques cm de neige au-dessus de 2700m. Guère de regel jeudi matin sous cette altitude... L'humidification gagne localement en faces Nord, risque d'avalanche de fond non exclu plus bas que 2800m environ ?\n\nDéparts spontanés : Avec un saupoudrage  possible sur les hauts du massif, possibles coulées de surface.\nJeudi suite à un regel faible ou absent, l'humidification s'accentue et pourrait déstabiliser certaines faces Nord raides : On n'exclut pas une nouvelle coulée ou avalanche plus volumineuse, parfois au terrain...\nDans de rares cas, sous 2800m, une cassure large/linéaire est possible (présence de vieille sous couche plus fragile)\nEn faces plus ensoleillées, neige plus dense, de névé, stable.\nDéclenchements provoqués : Peu probables, ou vers les sommets un risque de coulée superficielle sous les skis ?",
-  "snowQuality": "Qualification de l’enneigement :  La fonte s'est récemment accélérée. L'enneigement devient déficitaire sur le massif, avec un aspect presque de fin de saison...\n\nLimites skiables : Vers 1700/1900m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige jeudi :  Quasiment pas de regel nocturne, sous 2500/2700m notamment.\nUn peu de neige récente possible vers les hauts sommets, froide seulement en Nord raide au dessus de 3000/3200m. \nNeige salie/colorée avec pas mal de reliefs.\nNeige très humide en journée, glisse médiocre à faible...",
+  "summary": "Départs spontanés : En altitude quelques coulées de surface de neige récente. En faces Nord, rare avalanche plus volumineuse, parfois au terrain (sous 2500/2800m environ).\nDéclenchements skieurs : Peu probables, ou coulées humides superficielles sous les skis en pente raide. ",
+  "stability": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE SOUS 2800M ENVIRON ?\n\nJeudi jusqu'en soirée, des averses localement orageuses donnent quelques cm de neige au-dessus de 2700m. Peu de regel prévu en nuit de jeudi à vendredi sous cette altitude...\n\nDéparts spontanés : Jeudi soir, avec un saupoudrage possible sur les hauts du massif, possibles coulées de surface (de taille 1).\nVendredi, après un regel nocturne faible ou absent sous 2500/2800 m, l'humidification s'accentue et pourrait déstabiliser certaines faces Nord raides :  on n'exclut pas une rare avalanche plus volumineuse (de taille 2 à 3), parfois au terrain... Très rarement, une cassure large/linéaire est possible (présence de vieille sous couche plus fragile).\nEn faces plus ensoleillées ainsi que sous 2300 m en tous versants, neige devenue plus dense, de névé, stable.\nDéclenchements provoqués : Peu probables, ou vers les sommets un risque de coulée superficielle sous les skis.",
+  "snowQuality": "Qualification de l’enneigement :  La fonte s'est récemment accélérée. L'enneigement devient déficitaire sur le massif, avec un aspect presque de fin de saison...\n\nLimites skiables : Vers 1700/1900m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige vendredi :  Quasiment pas de regel nocturne, sous 2500/2700m notamment.\nUn peu de neige récente possible vers les hauts sommets, froide seulement en Nord raide au dessus de 3000/3200m. \nNeige salie/colorée avec pas mal de reliefs.\nNeige très humide en journée, glisse médiocre à faible...",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

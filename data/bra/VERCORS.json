@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-04-29T15:00:00",
-  "validUntil": "2026-04-30T18:00:00",
+  "date": "2026-04-30T16:00:00",
+  "validUntil": "2026-05-01T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,9 +13,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables.  Grands névés humides denses, stables\nDéclenchements skieurs : Peu probables.",
-  "stability": "NEIGE DE NEVE, STABLES..\n\nDe moins en moins de neige sur le massif, la fin de saison approche. \nDéparts spontanés : Peu probables, ou rare coulée humide l'après-midi, le soir ?. \nDéclenchements provoqués :  Peu probables.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis début avril et devient franchement déficitaire pour la saison. Il ne reste que de grand névés vers les sommets, surtout en Nord d'altitude dès 1700/1800m environ...\nQualité de la neige jeudi :  Pas de regel nocturne a priori. Neige humide dense avec des reliefs, des surfaces salies.",
+  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables.",
+  "stability": "NEIGE DE NÉVÉ, STABLE..\n\nDe moins en moins de neige sur le massif, la fin de saison approche. \nDéparts spontanés : Peu probables, ou rare coulée humide l'après-midi, le soir ?\nDéclenchements provoqués :  Peu probables.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit depuis début avril et devient franchement déficitaire pour la saison. Il ne reste que de grand névés vers les sommets, surtout en Nord d'altitude dès 1700/1800m environ...\nQualité de la neige vendredi :  Pas de regel nocturne a priori. Neige humide dense avec des reliefs, des surfaces salies.",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

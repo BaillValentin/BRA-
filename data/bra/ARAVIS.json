@@ -1,7 +1,7 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-04-29T16:00:00",
-  "validUntil": "2026-04-30T18:00:00",
+  "date": "2026-04-30T16:00:00",
+  "validUntil": "2026-05-01T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -38,7 +38,7 @@
   ],
   "summary": "Départs spontanés : Plaques de fond\nDéclenchements skieurs : De la neige humide peut couler sous les skis. ",
   "stability": "Manteau neigeux stable\n\nDéparts spontanés : \n* Quelques plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n* Avalanches de neige humide  au fil de la course du soleil. Taille 1 (petite) rarement 2 (moyenne)\nFacteur aggravant, au-dessus de 2400 m en versants E/N/O : un départ en cascade en plaque n'est pas exclu. Cassure de 50/80 cm possibles. Taille 2 (moyenne).\n\nDéclenchements provoqués : \n* Déclenchements ponctuels de neige humide sous les pieds ou les skis. Facilement déclenchables. Causé par les précipitations pluvieuses puis par le réchauffement diurne. Taille 1 (petite). ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.  \nOn peut chausser les skis au-dessus de 2000/2300 m en sud et 1700/1900 m en nord. \n\nQualité de la neige jeudi :\n* En dessous de 2400 m, manteau neigeux humide en profondeur, voire neige de névé, avec un bon regel nocturne. \n* Au-dessus de 2400 m : manteau neigeux printanier, qui s'humidifie en surface au fil des heures. Bon regel nocturne. ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.  \nOn peut chausser les skis au-dessus de 2000/2300 m en sud et 1700/1900 m en nord. \n\nQualité de la neige vendredi :\n* En dessous de 2200/2400 m, manteau neigeux humide en profondeur, voire neige de névé, avec un bon regel nocturne. \n* Au-dessus de 2200/2400 m : manteau neigeux printanier, qui s'humidifie en surface au fil des heures. Bon regel nocturne. ",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

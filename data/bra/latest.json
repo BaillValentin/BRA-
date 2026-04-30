@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-04-29T17:58:51.117Z",
+  "lastUpdate": "2026-04-30T09:35:59.559Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 2,
@@ -248,9 +248,7 @@
         "montagne-risques": "./data/bra/img/montagne-risques_21.png",
         "rose-pentes": "./data/bra/img/rose-pentes_21.png",
         "montagne-enneigement": "./data/bra/img/montagne-enneigement_21.png",
-        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_21.png",
-        "apercu-meteo": "./data/bra/img/apercu-meteo_21.png",
-        "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_21.png"
+        "apercu-meteo": "./data/bra/img/apercu-meteo_21.png"
       }
     },
     "HAUT-VAR-HAUT-VERDON": {

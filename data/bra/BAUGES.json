@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-04-30T16:00:00",
-  "validUntil": "2026-05-01T18:00:00",
+  "date": "2026-05-01T16:00:00",
+  "validUntil": "2026-05-02T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,8 +15,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : peu probables",
-  "stability": "Encore des névés d'altitudes.\n\nDéparts spontanés : \nPeu probables : \n* au-dessus de 1700 m : rares et petites coulées de neige humide, au fil du réchauffement diurne. Taille 1 (petite). \n* au-dessus de 1700 m : rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. Taille 2 (moyenne). \n\nDéclenchements provoqués : \n* peu probable. On peut éventuellement pousser un peu de neige humide aux heures les plus chaudes.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à très déficitaire. \nEncore un peu de neige au-dessus de 1700 m en nord. Les versants sud sont secs. \n\nQualité de la neige vendredi : \nAu-dessus de 1700 m en nord : neige de névé. Bon regel nocturne.\nAilleurs, il n'y a plus de neige.",
+  "stability": "Encore des névés d'altitudes.\n\nDéparts spontanés : \nPeu probables : \n* au-dessus de 1800 m : très rares et petites coulées de neige humide, au fil du réchauffement diurne. Taille 1 (petite). \n* au-dessus de 1800 m : très rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. Taille 2 (moyenne). \n\nDéclenchements provoqués : \n* peu probable. On peut éventuellement pousser un peu de neige humide aux heures les plus chaudes.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à très déficitaire. \nEncore un peu de neige au-dessus de 1800 m en nord. Les versants sud sont secs. \n\nQualité de la neige samedi : \nAu-dessus de 1800 m en nord : neige de névé. Bon regel nocturne.\nAilleurs, il n'y a plus de neige.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

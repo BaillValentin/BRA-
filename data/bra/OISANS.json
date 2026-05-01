@@ -1,11 +1,11 @@
 {
   "massif": "OISANS",
-  "date": "2026-04-30T16:00:00",
-  "validUntil": "2026-05-01T18:00:00",
+  "date": "2026-05-01T16:00:00",
+  "validUntil": "2026-05-02T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2300",
+      "altitude": "<2400",
       "level": 1,
       "orientations": [
         "N",
@@ -14,8 +14,8 @@
       ]
     },
     {
-      "altitude": ">2300",
-      "level": 2,
+      "altitude": ">2400",
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -26,9 +26,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : En altitude quelques coulées de surface de neige récente. En faces Nord, rare avalanche plus volumineuse, parfois au terrain (sous 2700/2900m environ)\nDéclenchements skieurs : Peu probables, ou coulées humides superficielles sous les skis en pente raide. ",
-  "stability": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE SOUS 2800M ENVIRON ?\n\nJeudi jusqu'en soirée, des averses localement orageuses donnent quelques cm de neige au-dessus de 2700m. Peu de regel prévu en nuit de jeudi à vendredi sous cette altitude...\n\nDéparts spontanés : Jeudi soir, avec un saupoudrage possible sur les hauts de l'Oisans, possibles coulées de surface (de taille 1).\nVendredi, après un regel nocturne faible ou absent sous 2700/2900 m, l'humidification s'accentue et pourrait déstabiliser certaines faces Nord raides :  on n'exclut pas une rare avalanche plus volumineuse (de taille 2 à 3), parfois au terrain... Très rarement, une cassure large/linéaire est possible (présence de vieille sous couche plus fragile).\nEn faces plus ensoleillées ainsi que sous 2300 m en tous versants, neige devenue plus dense, de névé, stable.\nDéclenchements provoqués : Peu probables, ou vers les sommets un risque de coulée superficielle sous les skis.",
-  "snowQuality": "Qualification de l’enneigement :  La fonte s'est récemment accélérée. L'enneigement devient déficitaire sur le massif, avec un aspect presque de fin de saison. Les hauts sommets et glaciers sont anormalement \"secs\"..\n\nLimites skiables : Vers 1800/2000m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige vendredi :  Quasiment pas de regel nocturne, sous 2600/2800m notamment.\nUn peu de neige récente possible vers les hauts sommets, froide seulement en Nord raide au dessus de 3000/3200m. \nNeige salie/colorée avec pas mal de reliefs.\nNeige très humide en journée, glisse médiocre à faible...",
+  "summary": "Départs spontanés : En faces Nord, rare avalanche de neige humide de taille 2 à 3, parfois au terrain.\nDéclenchements skieurs : Peu probables, ou coulées humides superficielles sous les skis en pente raide. ",
+  "stability": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE.\n\nDéparts spontanés : Après un regel nocturne parfois correct en altitude, l'humidification reprend en journée de samedi au soleil, sous les nuages d'altitude et/ou le vent de Sud qui commence à se lever. Dans certaines faces Nord raides, et surtout entre 2400 et 3100 m, on n'exclut pas une rare avalanche plus volumineuse (taille 2 à 3), parfois au terrain. Très rarement, une cassure large/linéaire est possible (présence de vieille sous couche plus fragile).\nEn faces plus ensoleillées ainsi que sous 2400 m en tous versants, neige devenue plus dense, de névé, stable.\nDéclenchements provoqués : Peu probables, ou vers les sommets un risque de coulée superficielle sous les skis.",
+  "snowQuality": "Qualification de l’enneigement :  La fonte se poursuit. L'enneigement est devenu déficitaire sur le massif, avec un aspect presque de fin de saison. Les hauts sommets et glaciers sont anormalement \"secs\"..\n\nLimites skiables : Vers 1800/2000m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige samedi :  Regel nocturne correct à haute altitude, un peu plus incertain sous 2500/2800m. Neige humide salie/colorée, éventuellement croûtée par regel au petit matin. En journée, neige devenant parfois très humide au soleil ainsi que sous le voile nuageux et/ou le vent de Sud en tous versants, avec glisse médiocre à faible.",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

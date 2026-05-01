@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-04-30T16:00:00",
-  "validUntil": "2026-05-01T18:00:00",
+  "date": "2026-05-01T16:00:00",
+  "validUntil": "2026-05-02T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,11 +13,12 @@
     }
   ],
   "situations": [
+    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : rares en neige humide sous les skis.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER - DENSE ET STABLE\n\nDéparts spontanés : peu probables compte-tenu du faible enneigement. Rare activité superficielle en neige humide au soleil en journée. Une très rare avalanche moyenne (taille 2) par départ linéaire reste possible dans les pentes nord-ouest à nord-est au dessus de 2500/2700 m.\n\nDéclenchements provoqués : un skieur coupant tardivement une pente raide peut initier un départ de neige humide sous les skis, de petite taille et seulement en ubacs raides de haute altitude.",
-  "snowQuality": "Enneigement très déficitaire pour une fin avril, notamment en adrets, souvent secs jusqu'à plus de 2500 m.\nHauteurs de neige observées : 28 cm à la Nivôse du Col Agnel à 2630 m.\n\nLimite d'enneigement skiable : au plus bas à 2000 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais, plus souvent 2000/2100 m. \n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets de haute altitude. Quelques cm de neige fraîche localement possibles, tombés sous une averse de neige de jeudi après-midi, au delà de 2700/2800 m. Regel nocturne modéré, puis reprise de l'humidification en journée. ",
+  "summary": "Départs spontanés : peu probables dans la grande majorité des pentes - très rare avalanche de neige humide non exclue en ubacs de haute altitude.\nDéclenchements skieurs : peu probables.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON, BIEN STABLE EN GÉNÉRAL\n\nDéparts spontanés : peu probables dans la plupart des pentes, le manteau manteau neigeux est bien stabilisé. Dans les pentes nord au-dessus de 2800 m environ, on ne peut exclure un très rare départ linéaire de neige humide, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanche moyenne (taille 2).\n\nDéclenchements provoqués : peu probables, le manteau manteau neigeux est bien stabilisé.",
+  "snowQuality": "Enneigement particulièrement déficitaire pour la période.\nHauteurs de neige observées : 27 cm à la Nivôse du Col Agnel à 2630 m. Il s'agit de la plus faible hauteur relevée un 1er mai (à égalité avec 2002), en 31 ans de mesures.\n\nLimite d'enneigement skiable : au plus bas à 2000 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais, plus souvent 2100/2200 m. \n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets de haute altitude. Reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

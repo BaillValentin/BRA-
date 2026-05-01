@@ -1,7 +1,7 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-04-30T16:00:00",
-  "validUntil": "2026-05-01T18:00:00",
+  "date": "2026-05-01T16:00:00",
+  "validUntil": "2026-05-02T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -27,9 +27,9 @@
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares en neige humide.\nDéclenchements skieurs : rares en neige humide.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER. RARE ACTIVITÉ EN NEIGE HUMIDE\n\nDéparts spontanés : après un regel nocturne modéré, l'humidification du manteau neigeux se poursuit au soleil. Rares avalanches en neige humide généralement par départ ponctuel de petite taille. Très localement départ linéaire possible dans les pentes nord-ouest, nord et nord-est au-dessus de 2500 m environ, de taille moyenne, grande non exclue, en cas d'humidification d'une couche fragile persistante enfouie dans le manteau neigeux.\n\nDéclenchements provoqués : un skieur coupant tardivement une pente raide peut initier un départ de neige humide sous les skis, de petite taille et seulement en ubacs raides de haute altitude.\n\nEn dessous de 2500 m, et dans les adrets jusqu'à haute altitude, le manteau neigeux est désormais dense et bien stabilisé.",
-  "snowQuality": "Enneigement déficitaire, notamment en adrets.\nHauteurs de neige observées  : 35 cm à la nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1900 m en fond de vallée en cœur de massif, 2300/2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets de haute altitude. Quelques cm de neige fraîche localement possibles, tombés sous une averse de neige de jeudi après-midi, au delà de 2700/2800 m. Regel nocturne modéré, puis reprise de l'humidification en journée. ",
+  "summary": "Départs spontanés : rares départs linéaires de neige humide en large nord de haute altitude.\nDéclenchements skieurs : rares en neige humide.",
+  "stability": "MANTEAU NEIGEUX PRINTANIER - RARE ACTIVITÉ EN NEIGE HUMIDE.\n\nDéparts spontanés : peu probables en début de journée, puis, dans les pentes d'un large secteur nord au-dessus de 2500/2700 m, rares départs linéaires de neige humide possibles, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. Partout ailleurs, manteau neigeux bien stabilisé.\n\nDéclenchements provoqués : peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide trop tardivement dans la journée.",
+  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées  : 35 cm à la Nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1900 m en fond de vallée en cœur de massif, 2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets de haute altitude. Reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions. ",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

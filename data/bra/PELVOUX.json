@@ -1,7 +1,7 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-05-01T16:00:00",
-  "validUntil": "2026-05-02T18:00:00",
+  "date": "2026-05-02T16:00:00",
+  "validUntil": "2026-05-03T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "altitude": ">2500",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -28,8 +28,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : rares départs linéaires de neige humide en large nord de haute altitude.\nDéclenchements skieurs : rares en neige humide.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER - RARE ACTIVITÉ EN NEIGE HUMIDE.\n\nDéparts spontanés : peu probables en début de journée, puis, dans les pentes d'un large secteur nord au-dessus de 2500/2700 m, rares départs linéaires de neige humide possibles, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. Partout ailleurs, manteau neigeux bien stabilisé.\n\nDéclenchements provoqués : peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide trop tardivement dans la journée.",
-  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 198 cm à la Nivôse des Écrins à 2970 m.    \n\nLimite d'enneigement skiable : très localement vers 1900 m en fond de vallée en cœur de massif, 2400 m en adrets.\n\nÉtat de la neige de surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets de haute altitude. Reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions. ",
+  "stability": "MANTEAU NEIGEUX PRINTANIER - RARE ACTIVITÉ EN NEIGE HUMIDE.\n\nDéparts spontanés : dans les pentes d'un large secteur nord au-dessus de 2500/2600 m, rares départs linéaires de neige humide possibles notamment l'après-midi, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. Partout ailleurs, manteau neigeux bien stabilisé.\n\nDéclenchements provoqués : peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide humidifiée en profondeur. Un départ plus volumineux est possible en cas de sollicitation des couches fragiles décrites dans le paragraphe précédent. ",
+  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 194 cm à la Nivôse des Écrins à 2970 m.    \n\nLimite d'enneigement skiable : très localement vers 1700 m en ubacs de fond de vallée en cœur de massif, plutot 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier, avec des bandes de neige localement épaisses mais discontinues aux plus basses altitudes.  Regel nocturne très superficiel au levé du jour puis reprise rapide de la fonte en cours de journée dans toutes les expositions. ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

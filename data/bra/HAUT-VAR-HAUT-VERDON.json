@@ -1,21 +1,24 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-05-01T16:00:00",
-  "validUntil": "2026-05-02T18:00:00",
+  "date": "2026-05-02T16:00:00",
+  "validUntil": "2026-05-03T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N"
+      ]
     }
   ],
   "situations": [
+    "sous_couche_fragile",
     "neige_humide"
   ],
   "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : peu probables.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON BIEN STABLE\n\nDéclenchements provoqués : peu probables, le manteau manteau neigeux est bien stabilisé.\n\nDéparts spontanés : peu probables, tout au plus quelques boulettes de neige humides près des rochers aux heures les plus chaudes.",
-  "snowQuality": "Enneigement très faible  pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m.\n\nEnneigement skiable à partir de 2100 m environ en ubacs, avec beaucoup de relief en surface en raison de l'intense fonte jusqu'à 2500/2600 m environ.\n\nÉtat de la neige en surface : manteau neigeux sous forme de névé qui continue de fondre rapidement. Les pentes nord de haute altitude (> 2800 m) ne sont pas encore totalement transformées. Reprise rapide de l'humidification et de la fonte en cours de journée dans toutes les expositions. ",
+  "stability": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON, BIEN STABLE EN GÉNÉRAL\n\nDéparts spontanés : peu probables dans la plupart des pentes, le manteau manteau neigeux est bien stabilisé. Dans les pentes nord au-dessus de 2500/2600 m environ, on ne peut exclure un très rare départ linéaire de neige humide, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanche moyenne (taille 2).\n\nDéclenchements provoqués : peu probables, le manteau manteau neigeux est bien stabilisé.",
+  "snowQuality": "Enneigement très faible  pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m.\n\nEnneigement skiable Limite d'enneigement skiable : vers 2100/2200 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier, voire de névé en toute orientation sous 2300 m environ et en adrets de haute altitude, avec des bandes de neige localement épaisses mais discontinues.  Regel nocturne très superficiel au levé du jour puis reprise rapide de la fonte en cours de journée dans toutes les expositions. ",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

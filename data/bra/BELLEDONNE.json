@@ -1,7 +1,7 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-05-01T16:00:00",
-  "validUntil": "2026-05-02T18:00:00",
+  "date": "2026-05-02T16:00:00",
+  "validUntil": "2026-05-03T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "altitude": ">2300",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -27,8 +27,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : En faces Nord, rare avalanche de neige humide de taille 2 à 3, parfois au terrain.\nDéclenchements skieurs : Peu probables, ou coulées humides superficielles sous les skis en pente raide. ",
-  "stability": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE.\n\nDéparts spontanés : Après un regel nocturne parfois correct en altitude, l'humidification reprend en journée de samedi au soleil, sous les nuages d'altitude et/ou le vent de Sud qui commence à se lever. Dans certaines faces Nord raides, on n'exclut pas une rare avalanche plus volumineuse (taille 2 à 3), parfois au terrain.\nEn faces plus ensoleillées ainsi que sous 2300 m en tous versants, neige devenue plus dense, de névé, stable.\nDéclenchements provoqués : Peu probables, ou vers les sommets un risque de coulée superficielle sous les skis.",
-  "snowQuality": "Qualification de l’enneigement :  La fonte se poursuit. L'enneigement est devenu franchement déficitaire sur le massif, avec un aspect de fin de saison...\n\nLimites skiables : Vers 1600/1800m en Nord à 2100/2400m en versants ensoleillés. \n\nQualité de la neige samedi :  Regel nocturne correct à haute altitude, un peu plus incertain sous 2500/2800m. Neige humide salie/colorée, éventuellement croûtée par regel au petit matin. En journée, neige devenant parfois très humide au soleil ainsi que sous le voile nuageux et/ou le vent de Sud en tous versants, avec glisse médiocre à faible.",
+  "stability": "RARE AVALANCHE HUMIDE EN FACES NORD, POUVANT ETRE VOLUMINEUSE.\n\nDéparts spontanés : Regel nocturne très médiocre sur le haut du massif, inexistant ailleurs. L'ambiance, bien que nuageuse, reste douce dimanche. Dans certaines faces Nord raides, de rares coulées restent possibles. Exceptionnellement une avalanche de grande taille reste possible. Dans les autres versants et sous 2300 / 2400m en Nord, neige devenue plus dense, stable. \nDéclenchements provoqués : Peu probables, ou une coulée ponctuelle en neige humide dans les pentes raides.",
+  "snowQuality": "Qualification de l’enneigement :  La fonte se poursuit. L'enneigement est devenu franchement déficitaire sur le massif, avec un aspect de fin de saison...\n\nLimites skiables : Vers 1600/1800m en Nord à 2100/2400m en versants ensoleillés. \n\nQualité de la neige dimanche :  Regel nocturne médiocre sur le haut du massif, inexistant ailleurs. Neige humide à très humide dés la réveil en tout versant. Neige salie / colorée par le sable. ",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

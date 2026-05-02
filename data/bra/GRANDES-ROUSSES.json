@@ -1,7 +1,7 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-01T16:00:00",
-  "validUntil": "2026-05-02T18:00:00",
+  "date": "2026-05-02T16:00:00",
+  "validUntil": "2026-05-03T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "altitude": ">2400",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -27,8 +27,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : En faces Nord, rare avalanche de neige humide de taille 2 à 3, parfois au terrain.\nDéclenchements skieurs : Peu probables, ou coulées humides superficielles sous les skis en pente raide. ",
-  "stability": "RARE AVALANCHE HUMIDE EN FACES NORD, PARFOIS VOLUMINEUSE.\n\nJeudi jusqu'en soirée, des averses localement orageuses donnent quelques cm de neige au-dessus de 2700m. Peu de regel prévu en nuit de jeudi à vendredi sous cette altitude...\n\nDéparts spontanés : Après un regel nocturne parfois correct en altitude, l'humidification reprend en journée de samedi au soleil, sous les nuages d'altitude et/ou le vent de Sud qui commence à se lever. Dans certaines faces Nord raides,  et surtout entre 2400 et 3100 m, on n'exclut pas une rare avalanche plus volumineuse (taille 2 à 3), parfois au terrain. Très rarement, une cassure large/linéaire est possible (présence de vieille sous couche plus fragile).\nEn faces plus ensoleillées ainsi que sous 2400 m en tous versants, neige devenue plus dense, de névé, stable.\nDéclenchements provoqués : Peu probables, ou vers les sommets un risque de coulée superficielle sous les skis.",
-  "snowQuality": "Qualification de l’enneigement :  La fonte se poursuit. L'enneigement est devenu déficitaire sur le massif, avec un aspect presque de fin de saison...\n\nLimites skiables : Vers 1700/1900m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige samedi :  Regel nocturne correct à haute altitude, un peu plus incertain sous 2500/2800m. Neige humide salie/colorée, éventuellement croûtée par regel au petit matin. En journée, neige devenant parfois très humide au soleil ainsi que sous le voile nuageux et/ou le vent de Sud en tous versants, avec glisse médiocre à faible.",
+  "stability": "RARE AVALANCHE HUMIDE EN FACES NORD, POUVANT ETRE VOLUMINEUSE.\n\nDéparts spontanés : Regel nocturne médiocre vers 3000m et inexistant plus bas. L'ambiance, bien que nuageuse, reste douce dimanche. Dans certaines faces Nord raides, surtout entre 2400m et 3100m, une rare avalanche de grande taille reste possible avec départ au terrain ou cassure linéaire. Au-dessus de 3100m la couche nuageuse limite l'humidification et le manteau reste plus stable. Sous 2400m, neige de névé, très dense et stable. \nDéclenchements provoqués : Peu probables, ou une coulée ponctuelle en neige humide dans les pentes raides sous 3000m.",
+  "snowQuality": "Qualification de l’enneigement :  La fonte se poursuit. L'enneigement est devenu déficitaire sur le massif, avec un aspect presque de fin de saison...\n\nLimites skiables : Vers 1700/1900m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige dimanche : Regel correct sur le haut du massif, médiocre vers 3000m, inexistant plus bas. En journée, manteau humide sous 3000m. Plus haut l'humidification reste limitée par la couverture nuageuse. ",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

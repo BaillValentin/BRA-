@@ -1,24 +1,41 @@
 {
   "massif": "UBAYE",
-  "date": "2026-05-02T16:00:00",
-  "validUntil": "2026-05-03T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-03T16:00:00",
+  "validUntil": "2026-05-04T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2800",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "E",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2800",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "W",
+        "NW"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
+    "plaque_vent",
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables dans la grande majorité des pentes - très rare avalanche de neige humide non exclue en ubacs de haute altitude.\nDéclenchements skieurs : peu probables.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER DE FIN DE SAISON, BIEN STABLE EN GÉNÉRAL\n\nDéparts spontanés : peu probables dans la plupart des pentes, le manteau neigeux est bien stabilisé. Dans les pentes nord au-dessus de 2800 m les mieux enneigées du massif, on ne peut exclure un très rare départ linéaire de neige humide, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanche moyenne (taille 2).\n\nDéclenchements provoqués : peu probables, le manteau manteau neigeux est bien stabilisé.",
-  "snowQuality": "Enneigement exceptionnellement faible pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m. L'enneigement est digne d'une fin mai, voire début juin. Il n'y a plus de neige à la Nivôse de Restefond, c'est la première fois en 30 ans de mesures que l'enneigement disparaît avant le 1er mai à cet endroit.\n\nLimite d'enneigement skiable : vers 2100/2300 m en ubacs bien protégés ou sur pistes forestières, 2700/2900 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier, voire de névé en toute orientation sous 2500 m environ et en adrets de haute altitude, avec des bandes de neige localement épaisses mais discontinues.  Regel nocturne très superficiel au levé du jour puis reprise rapide de la fonte en cours de journée dans toutes les expositions. ",
+  "summary": "Départs spontanés : petits départs de neige fraiche à haute altitude. \nDéclenchements skieurs : petites plaques dans la neige fraîche à haute altitude. ",
+  "stability": "PETITE PLAQUES EN FORMATION DANS LA NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : petites plaques à vent en formation dans la neige fraiche au-dessus de 2600/2800 m, possible en toutes orientations mais plus fréquentes et sensibles en versants nord (vent de sud/sud-est), notamment en fin de journée avec la poursuite des chutes de neige. \nÀ plus basse altitude, manteau neigeux humide et stable.\n\nDéparts spontanés : au dessus de 2600/2800 m, des départs superficiels sont possibles avec les chutes de neige fraiche ventée, notamment en fin de journée. Avalanches restant de petite taille. \nEn versant nord au dessus de 2800 m, on ne peut exclure un très rare départ linéaire par déstabilisation d'une vieille couche fragile persistante enfouie à la base du manteau neigeux, générant des avalanches de taille moyenne (taille 2).",
+  "snowQuality": "Enneigement exceptionnellement faible pour la période, digne d'une fin mai, voire début juin. Il n'y a plus de neige à la Nivôse de Restefond, c'est la première fois en 30 ans de mesures que l'enneigement disparaît avant le 1er mai à cet endroit.\n\nLimite d'enneigement skiable : vers 2100/2200 m en ubacs bien protégés ou sur pistes forestières, 2700/2900 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier ou de névé, avec des bandes de neige discontinues aux plus basses altitudes. Neige humide dès le matin en absence de regel, recouverte d'une petite couche de neige fraiche collante tombant en journée au dessus de 2100/2300 m, plus froide au dessus de 2600/2800 m.",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_21.png",

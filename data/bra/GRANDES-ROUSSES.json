@@ -1,34 +1,46 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-02T16:00:00",
-  "validUntil": "2026-05-03T18:00:00",
+  "date": "2026-05-03T16:00:00",
+  "validUntil": "2026-05-04T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2400",
+      "altitude": "<3000",
       "level": 1,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2400",
+      "altitude": ">3000",
       "level": 2,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : En faces Nord, rare avalanche de neige humide de taille 2 à 3, parfois au terrain.\nDéclenchements skieurs : Peu probables, ou coulées humides superficielles sous les skis en pente raide. ",
-  "stability": "RARE AVALANCHE HUMIDE EN FACES NORD, POUVANT ETRE VOLUMINEUSE.\n\nDéparts spontanés : Regel nocturne médiocre vers 3000m et inexistant plus bas. L'ambiance, bien que nuageuse, reste douce dimanche. Dans certaines faces Nord raides, surtout entre 2400m et 3100m, une rare avalanche de grande taille reste possible avec départ au terrain ou cassure linéaire. Au-dessus de 3100m la couche nuageuse limite l'humidification et le manteau reste plus stable. Sous 2400m, neige de névé, très dense et stable. \nDéclenchements provoqués : Peu probables, ou une coulée ponctuelle en neige humide dans les pentes raides sous 3000m.",
-  "snowQuality": "Qualification de l’enneigement :  La fonte se poursuit. L'enneigement est devenu déficitaire sur le massif, avec un aspect presque de fin de saison...\n\nLimites skiables : Vers 1700/1900m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige dimanche : Regel correct sur le haut du massif, médiocre vers 3000m, inexistant plus bas. En journée, manteau humide sous 3000m. Plus haut l'humidification reste limitée par la couverture nuageuse. ",
+  "summary": "Départs spontanés : Peu probables, ou quelques escargots / boulettes dans la neige récente humide\nDéclenchements skieurs : Rares plaques superficielles formées sous les chutes de neige ventées en haute montagne ",
+  "stability": "INSTABILITES DE SURFACES EN NEIGE VENTEE EN ALTITUDE, NEIGE RECENTE STABLE PLUS BAS\n\nDéparts spontanés : Dans la nuit de dimanche à lundi, une rare coulée humide reste possible en versant Nord sous 2900m environ. Puis à l'arrivée de la neige l'humidification ralentit, avec un risque de départ spontané devenant vraiment faible. Sous 2500m, le manteau est généralement déjà humide jusqu'en profondeur, limitant fortement le risque de coulée humide sous la pluie. Dans la neige récente, départ de quelques escargots / boulettes sous les rochers à la faveur des éclaircies en journée. \nDéclenchements provoqués : Au-dessus de 3000m environ, de petites instabilités de surfaces peuvent se former dans les 7 à 15cm de neige fraîche qui tombent en journée accompagnées d'un vent de Sud-Ouest sensible. Les plaques peuvent être localement assez réactives, mais restent superficielles et peu larges. Sous 3000m, la neige tombe humide / se stabilise rapidement sous les éclaircies. ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est devenu franchement déficitaire sur le massif, avec un aspect de fin de saison... La fonte devrait toutefois cesser au-dessus de 2500m où l'on attends même 5 à 10cm de neige récente. Plus bas, la fonte du manteau neigeux se poursuit sous la pluie. \n\nLimites skiables : Vers 1900/2100m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige lundi : Regel nocturne correct au-dessus de 2900 / 3000m, inexistant plus bas. En journée, des averses de neige apportent jusqu'à 7-15cm de neige fraîche. Elle est cependant humide sous 2900 / 3000m, et s'humidifie parfois jusqu'à 3500m en cas d'éclaircies l'après-midi. Là où la neige reste froide elle est parfois légèrement travaillée par le vent. ",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

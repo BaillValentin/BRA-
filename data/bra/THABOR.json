@@ -1,35 +1,41 @@
 {
   "massif": "THABOR",
-  "date": "2026-05-02T16:00:00",
-  "validUntil": "2026-05-03T18:00:00",
+  "date": "2026-05-03T16:00:00",
+  "validUntil": "2026-05-04T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2500",
+      "altitude": "<2600",
       "level": 1,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2500",
+      "altitude": ">2600",
       "level": 2,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
+    "plaque_vent",
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs linéaires de neige humide en large nord de haute altitude.\nDéclenchements skieurs : rares en neige humide.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER - RARE ACTIVITÉ EN NEIGE HUMIDE.\n\nDéparts spontanés : dans les pentes d'un large secteur nord au-dessus de 2500/2600 m, rares départs linéaires de neige humide possibles notamment l'après-midi, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. Partout ailleurs, manteau neigeux bien stabilisé.\n\nDéclenchements provoqués : peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide humidifiée en profondeur. Un départ plus volumineux est possible en cas de sollicitation des couches fragiles décrites dans le paragraphe précédent. ",
-  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 54 cm à la Nivôse Rochilles à 2444 m, plus de neige à la Nivôse du Galibier à 2559 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en ubacs sur terrain favorable, 2400/2600 m en adrets.\nÉtat de la neige en surface : manteau neigeux printanier, voire de névé en toute orientation sous 2200 m environ et en adrets de haute altitude, avec des bandes de neige localement épaisses mais discontinues.  Regel nocturne très superficiel au levé du jour puis reprise rapide de la fonte en cours de journée dans toutes les expositions. ",
+  "summary": "Départs spontanés : rares départs linéaires de neige humide en versant nord d'altitude.\nDéclenchements skieurs : petites plaques dans la neige fraîche à haute altitude. ",
+  "stability": "PETITE PLAQUES EN FORMATION DANS LA NEIGE FRAICHE EN ALTITUDE - RARE ACTIVITÉ EN NEIGE HUMIDE EN DESSOUS\n\nDéclenchements provoqués : petites plaques à vent en formation dans la neige fraiche au-dessus de 2600/2800 m, possible en toutes orientations mais plus fréquentes et sensibles en versants nord (vent de sud/sud-est), notamment en fin de journée avec la poursuite des chutes de neige. \nÀ plus basse altitude, manteau neigeux humide et stable.\n\nDéparts spontanés : \n - au dessus de 2600/2800 m, des départs superficiels sont possibles avec les chutes de neige fraiche ventée, notamment en fin de journée. Avalanches restant de petite taille. \n - dans les pentes d'un large secteur nord au-dessus de 2500/2600 m, rares départs linéaires de neige humide possibles, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. \n",
+  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 51 cm à la Nivôse Rochilles à 2444 m, plus de neige à la Nivôse du Galibier à 2559 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en ubacs sur terrain favorable, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier ou de névé, avec des bandes de neige discontinues aux plus basses altitudes. Neige humide dès le matin en absence de regel, recouverte d'une petite couche de neige fraiche collante tombant en journée au dessus de 2000/2300 m, plus froide au dessus de 2500/2600 m . ",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

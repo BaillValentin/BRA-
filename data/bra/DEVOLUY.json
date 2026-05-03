@@ -1,23 +1,35 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-05-02T16:00:00",
-  "validUntil": "2026-05-03T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-03T16:00:00",
+  "validUntil": "2026-05-04T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2400",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2400",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
       ]
     }
   ],
   "situations": [
+    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables dans la plupart des pentes. Un très rare départ linéaire de neige humide non exclu en nord de haute altitude.\nDéclenchements skieurs : peu probables.",
-  "stability": "MANTEAU NEIGEUX PRINTANIER - DENSE ET STABLE EN GÉNÉRAL\n\nDéparts spontanés : peu probables, même si une très rare avalanche moyenne de neige humide (taille 2) avec cassure linéaire reste possible en journée, dans les pentes/couloirs plein nord près des plus hauts sommet du massif (au-dessus de 2300/2400 m).\n\nDéclenchements provoqués :  peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide trop tardivement dans la journée.",
-  "snowQuality": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 1800 m en ubacs sur terrain favorable, 2300/2400 m en adrets.\nÉtat de la neige en surface : manteau neigeux printanier, avec des bandes de neige localement épaisses mais discontinues aux plus basses altitudes. Regel nocturne très superficiel au levé du jour puis reprise rapide de la fonte en cours de journée dans toutes les expositions. ",
+  "summary": "Départs spontanés : rares départs linéaires de neige humide en versant nord d'altitude.\nDéclenchements skieurs : peu probables. ",
+  "stability": "RARE ACTIVITÉ EN NEIGE HUMIDE AVEC LA PLUIE. \n\nDéparts spontanés : dans les pentes d'un large secteur nord au-dessus de 2400 m environ, rares départs linéaires de neige humide possibles en journée, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. Partout ailleurs, manteau neigeux bien stabilisé.\n\nDéclenchements provoqués :  peu probables, excepté un petit départ de neige humide sous les skis, en coupant une pente raide fortement humidifiée. ",
+  "snowQuality": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 1800 m en ubacs sur terrain favorable, 2300/2400 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier ou de névé, avec des bandes de neige discontinues aux plus basses altitudes. Neige humide dès le matin en absence de regel, recouverte d'une petite couche de neige fraiche collante tombant en journée vers les plus haut sommet. \n",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

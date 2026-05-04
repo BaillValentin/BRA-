@@ -1,21 +1,36 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-05-03T16:00:00",
-  "validUntil": "2026-05-04T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-04T15:00:00",
+  "validUntil": "2026-05-05T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2700",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2700",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
     }
   ],
   "situations": [
+    "neige_fraiche",
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables, ou quelques escargots / boulettes dans la neige récente \nDéclenchements skieurs : Peu probables, ou coulées humides superficielles sous les skis en pente raide. ",
-  "stability": "MANTEAU STABLE, PETITE COUCHE DE NEIGE RECENTE EN ALTITUDE \n\nDéparts spontanés : Pas de regel nocturne, ou alors uniquement sur le haut du massif. En journée, le retour de la neige au-dessus de 2500m ralentit nettement l'humidification et limite fortement le risque de départ. Plus bas que 2500m, le manteau est généralement entièrement humide. Dans une rare pente Nord bien abritée qui aurait gardé un peu de neige froide en profondeur une avalanche reste possible bien que peu probable. \nSous les éclaircies l'après-midi / en début de soirée, quelques escargots / boulettes peuvent éventuellement partir dans neige récente sous les rochers. \nDéclenchements provoqués : Peu probables, ou une coulée ponctuelle / de gros escargots en neige récente humide dans les pentes raides. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est devenu franchement déficitaire sur le massif, avec un aspect de fin de saison... La fonte devrait toutefois cesser au-dessus de 2500m où l'on attends même 5 à 10cm de neige récente. Plus bas, la fonte du manteau neigeux se poursuit sous la pluie. \n\nLimites skiables : Vers 1600/1800m en Nord à 2100/2400m en versants ensoleillés. \n\nQualité de la neige lundi :  Pas de regel nocturne, ou alors uniquement sur le haut du massif. En journée, on attends 5 à 10cm de neige humide au-dessus de 2500m. Plus bas, neige dense, de névé. ",
+  "summary": "Départs spontanés : Quelques coulées superficielles de neige récente (ou escargots humides) vers les sommets. Rare départ de fonte en Nord d'altitude\nDéclenchements skieurs : En neige sèche ventée (Nord au dessus de 2700/2800m), rares plaques instables. Ailleurs RAS ou coulée humide ponctuelles sous les skis ?",
+  "stability": "MANTEAU STABLE, PETITE COUCHE DE NEIGE RECENTE VENTEE EN ALTITUDE \n\nPetite couche de neige fraîche ventée en altitude (10/20 cm environ), rare plaque en Nord de haute altitude...\n\nDéclenchements provoqués : Mardi, possiblement un peu de neige froide ventée vers les hauts sommets de Belledonne, sous le vent de Sud-Sud-Ouest. Temporairement risque de rupture  accidentelle de (petites) plaques, surtout en Nord au dessus de 2700/2800m environ.\nEn contrebas ou si cette neige est plus humide, plutôt un risque de coulée ponctuelle sous les skis, la neige adhérant peu à la sous couche en névés...\n\nDéparts spontanés : Peu probable, ou des coulées superficielles de neige récente, des boules humides lors d'éclaircies...\nEn Nord d'altitude la neige est humide en profondeur, on n'exclut pas totalement un départ de fonte plus volumineux ?\nAilleurs vieille neige très dense (quasi névé), stable.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est devenu franchement déficitaire sur le massif, avec un aspect de fin de saison... Le paysage va en revanche s'améliorer en altitude avec une petite couche de fraîche qui adoucit le ski...\nLimites skiables : Vers 1600/1900m en Nord à 2100/2400m en versants ensoleillés. \n\nQualité de la neige mardi :  Neige récente s'humidifiant rapidement lors d'éclaircie (devenant collante). En raide faces Nord sommitales (au dessus de 2700m environ ?), neige temporairement sèche, froide, ventée. \nPlus bas neige de névé/reliefs, absence de regel...",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

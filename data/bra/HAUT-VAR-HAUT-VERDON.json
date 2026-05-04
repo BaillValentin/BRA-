@@ -1,7 +1,7 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-05-03T16:00:00",
-  "validUntil": "2026-05-04T18:00:00",
+  "date": "2026-05-04T16:00:00",
+  "validUntil": "2026-05-05T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,8 +10,6 @@
       "orientations": [
         "N",
         "NE",
-        "E",
-        "W",
         "NW"
       ]
     },
@@ -21,21 +19,17 @@
       "orientations": [
         "N",
         "NE",
-        "E",
-        "W",
         "NW"
       ]
     }
   ],
   "situations": [
     "neige_fraiche",
-    "plaque_vent",
-    "sous_couche_fragile",
-    "neige_humide"
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : rares départs linéaires de neige humide en versant nord d'altitude.\nDéclenchements skieurs : petites plaques dans la neige fraîche à haute altitude. ",
-  "stability": "PETITE PLAQUES EN FORMATION DANS LA NEIGE FRAICHE EN ALTITUDE - RARE ACTIVITÉ EN NEIGE HUMIDE EN DESSOUS\n\nDéclenchements provoqués : petites plaques à vent en formation dans la neige fraiche au-dessus de 2600/2800 m, possible en toutes orientations mais plus fréquentes et sensibles en versants nord (vent de sud/sud-est), notamment en fin de journée avec la poursuite des chutes de neige. \nÀ plus basse altitude, manteau neigeux humide et stable.\n\nDéparts spontanés : \n - au dessus de 2600/2800 m, des départs superficiels sont possibles avec les chutes de neige fraiche ventée, notamment en fin de journée. Avalanches restant de petite taille. \n - dans les pentes d'un large secteur nord au-dessus de 2500/2600 m, rares départs linéaires de neige humide possibles, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. ",
-  "snowQuality": "Enneigement très faible  pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m.\n\nEnneigement skiable Limite d'enneigement skiable : vers 2100/2200 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier ou de névé, avec des bandes de neige discontinues aux plus basses altitudes. Neige humide dès le matin en absence de regel, recouverte d'une petite couche de neige fraiche collante tombant en journée au dessus de 2200/2500 m.",
+  "summary": "Départs spontanés : quelques départs en neige fraîche pendant les chutes, ou en neige humidifiée sous une éclaircie.\nDéclenchements skieurs : quelques plaques dans la neige fraîche à haute altitude. ",
+  "stability": "QUELQUES PLAQUES DANS LA NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : quelques nouvelles plaques en place dans la neige fraîche modérément ventée, ou encore en formation en fin de nuit de lundi à mardi, plus ponctuellement en journée de mardi sous averses. Présentes surtout au-dessus de 2600 m environ, possibles en toutes orientations mais plus fréquentes et sensibles en versants nord. D'aspect friable, ou parfois plus durci par le vent, elles peuvent être déclenchées au passage d'un skieur, mais restent généralement peu étendues et d'épaisseur limitée. Avalanches de petite taille, parfois moyenne dans les secteurs d'accumulation de neige (taille 1 à 2). \nPlus bas, même si un peu de neige a pu tomber entre 2000 et 2600 m, elle est déjà plus lourde, et moins propice à la formation de plaques.\n\nDéparts spontanés : \n - quelques départs en neige fraîche sont possibles pendant les chutes de neige plus intenses dans la nuit de lundi à mardi, surtout au dessus de 2400/2600 m environ, en toutes orientations. Avalanches restant généralement de petite taille, rarement moyenne, par départs ponctuels en pentes raides.\n - quelques départs en neige fraîche humidifiée possibles en cours de journée en pentes raides ensoleillées sous les éclaircies. Avalanches de petite taille. ",
+  "snowQuality": "Enneigement très faible  pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m.\n\nEnneigement skiable Limite d'enneigement skiable : vers 2100/2200 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : mardi matin, on trouve de la neige fraîche, sèche et froide au dessus de 2500/2600 m environ, déjà plus lourde jusqu'à 2000 m, parfois modérément ventée. Elle repose sur un manteau neigeux printanier ou de névé.",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

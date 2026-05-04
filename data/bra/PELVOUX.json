@@ -1,7 +1,7 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-05-03T16:00:00",
-  "validUntil": "2026-05-04T18:00:00",
+  "date": "2026-05-04T16:00:00",
+  "validUntil": "2026-05-05T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,8 +10,6 @@
       "orientations": [
         "N",
         "NE",
-        "E",
-        "W",
         "NW"
       ]
     },
@@ -21,8 +19,6 @@
       "orientations": [
         "N",
         "NE",
-        "E",
-        "W",
         "NW"
       ]
     }
@@ -30,12 +26,11 @@
   "situations": [
     "neige_fraiche",
     "plaque_vent",
-    "sous_couche_fragile",
-    "neige_humide"
+    "sous_couche_fragile"
   ],
-  "summary": "Départs spontanés : rares départs linéaires de neige humide en versant nord d'altitude.\nDéclenchements skieurs : petites plaques dans la neige fraîche à haute altitude. ",
-  "stability": "PETITE PLAQUES EN FORMATION DANS LA NEIGE FRAICHE EN ALTITUDE - RARE ACTIVITÉ EN NEIGE HUMIDE EN DESSOUS\n\nDéclenchements provoqués : petites plaques à vent en formation dans la neige fraiche au-dessus de 2600/2800 m, possible en toutes orientations mais plus fréquentes et sensibles en versants nord (vent de sud/sud-est), notamment en fin de journée avec la poursuite des chutes de neige. \nÀ plus basse altitude, manteau neigeux humide et stable.\n\nDéparts spontanés : \n - au dessus de 2600/2800 m, des départs superficiels sont possibles avec les chutes de neige fraiche ventée, notamment en fin de journée. Avalanches restant de petite taille. \n - dans les pentes d'un large secteur nord au-dessus de 2500/2600 m, rares départs linéaires de neige humide possibles, en cas d'humidification d'une vieille couche fragile persistante enfouie à la base du manteau neigeux. Avalanches moyennes voire grandes (taille 2 à 3), emportant le manteau neigeux jusqu'au sol. ",
-  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 189 cm à la Nivôse des Écrins à 2970 m. \n\nLimite d'enneigement skiable : très localement vers 1700 m en ubacs de fond de vallée en cœur de massif, plutot 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier ou de névé, avec des bandes de neige discontinues aux plus basses altitudes. Neige humide dès le matin en absence de regel, recouverte d'une petite couche de neige fraiche collante tombant en journée au dessus de 2000/2300 m, plus froide au dessus de 2500/2700 m.",
+  "summary": "Départs spontanés : quelques départs en neige fraîche pendant les chutes, ou en neige humidifiée sous une éclaircie.\nDéclenchements skieurs : quelques plaques dans la neige fraîche à haute altitude. ",
+  "stability": "QUELQUES PLAQUES DANS LA NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : quelques nouvelles plaques en place dans la neige fraîche modérément ventée, ou encore en formation en fin de nuit de lundi à mardi, plus ponctuellement en journée de mardi sous averses. Présentes surtout au-dessus de 2600 m environ, possibles en toutes orientations mais plus fréquentes et sensibles en versants nord. D'aspect friable, ou parfois plus durci par le vent, elles peuvent être déclenchées au passage d'un skieur. Avalanches de taille petite à moyenne (taille 1 à 2). \nUn rare départ linéaire de plus grande taille (taille 2 à rare 3) reste possible en pente nord si une couche fragile persistante enfouie est déstabilisée en cascade par un premier départ en surface. \nPlus bas, même si un peu de neige a pu tomber entre 2000 et 2600 m, elle est déjà plus lourde, et moins propice à la formation de plaques.\n\nDéparts spontanés : \n - quelques départs en neige fraîche sont possibles pendant les chutes de neige plus intenses dans la nuit de lundi à mardi, surtout au dessus de 2400/2600 m environ, en toutes orientations. Avalanches de taille petite à moyenne, par départs ponctuels en pentes raides.\n - quelques départs en neige fraîche humidifiée possibles en cours de journée en pentes raides ensoleillées sous les éclaircies. Avalanches généralement de petite taille. \n- Possible départ linéaire de plus grande taille en cas de premier départ en neige fraîche en surface, qui viendrait déstabiliser une couche fragile persistante enfouie à la base du manteau neigeux. Avalanche de taille moyenne à rarement grande (taille 2 à 3).",
+  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 185 cm à la Nivôse des Écrins à 2970 m. \n\nLimite d'enneigement skiable : très localement vers 1700 m en ubacs de fond de vallée en cœur de massif, plutot 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : mardi matin, on trouve une belle épaisseur de neige fraîche, sèche et froide au dessus de 2500/2600 m environ, déjà plus lourde jusqu'à 2000 m, parfois modérément ventée. Elle repose sur un manteau neigeux printanier ou de névé.",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

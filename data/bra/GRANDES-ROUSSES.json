@@ -1,34 +1,26 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-03T16:00:00",
-  "validUntil": "2026-05-04T18:00:00",
+  "date": "2026-05-04T15:00:00",
+  "validUntil": "2026-05-05T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<3000",
+      "altitude": "<2700",
       "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     },
     {
-      "altitude": ">3000",
+      "altitude": ">2700",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     }
@@ -38,9 +30,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables, ou quelques escargots / boulettes dans la neige récente humide\nDéclenchements skieurs : Rares plaques superficielles formées sous les chutes de neige ventées en haute montagne ",
-  "stability": "INSTABILITES DE SURFACES EN NEIGE VENTEE EN ALTITUDE, NEIGE RECENTE STABLE PLUS BAS\n\nDéparts spontanés : Dans la nuit de dimanche à lundi, une rare coulée humide reste possible en versant Nord sous 2900m environ. Puis à l'arrivée de la neige l'humidification ralentit, avec un risque de départ spontané devenant vraiment faible. Sous 2500m, le manteau est généralement déjà humide jusqu'en profondeur, limitant fortement le risque de coulée humide sous la pluie. Dans la neige récente, départ de quelques escargots / boulettes sous les rochers à la faveur des éclaircies en journée. \nDéclenchements provoqués : Au-dessus de 3000m environ, de petites instabilités de surfaces peuvent se former dans les 7 à 15cm de neige fraîche qui tombent en journée accompagnées d'un vent de Sud-Ouest sensible. Les plaques peuvent être localement assez réactives, mais restent superficielles et peu larges. Sous 3000m, la neige tombe humide / se stabilise rapidement sous les éclaircies. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est devenu franchement déficitaire sur le massif, avec un aspect de fin de saison... La fonte devrait toutefois cesser au-dessus de 2500m où l'on attends même 5 à 10cm de neige récente. Plus bas, la fonte du manteau neigeux se poursuit sous la pluie. \n\nLimites skiables : Vers 1900/2100m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige lundi : Regel nocturne correct au-dessus de 2900 / 3000m, inexistant plus bas. En journée, des averses de neige apportent jusqu'à 7-15cm de neige fraîche. Elle est cependant humide sous 2900 / 3000m, et s'humidifie parfois jusqu'à 3500m en cas d'éclaircies l'après-midi. Là où la neige reste froide elle est parfois légèrement travaillée par le vent. ",
+  "summary": "Départs spontanés : Quelques coulées superficielles de neige récente (ou escargots humides) vers les sommets. Rare départ de fonte en Nord d'altitude (vers 2500/2800 ?)\nDéclenchements skieurs : En neige sèche ventée (Nord au dessus de 2700/2900m), rares plaques instables. Plus bas ou au soleil possible coulée humide ponctuelle sous les skis ?",
+  "stability": "PETITE COUCHE DE NEIGE RECENTE VENTEE EN ALTITUDE, MINCES PLAQUES LOCALISEES... \n\nPetite couche de neige fraîche ventée en altitude (10 puis 20 cm environ mardi après-midi), rares plaques en Nord de haute altitude...\n\nDéclenchements provoqués : Mardi, possiblement un peu de neige froide ventée vers les hauts du massif, sous le vent de Sud-Sud-Ouest. Temporairement risque de rupture  accidentelle de (petites) plaques, surtout en Nord au dessus de 2700/2900m environ.\nEn contrebas ou si cette neige est plus humide, plutôt un risque de coulée ponctuelle sous les skis, la neige adhérant peu à la sous couche (colorée)...\n\nDéparts spontanés : Peu probable, ou des coulées superficielles de neige récente, des boules humides lors d'éclaircies...\nEn Nord d'altitude la neige est humide en profondeur, on n'exclut pas totalement un départ de fonte plus volumineux, plutôt vers 2500/2800m ?\nAilleurs vieille neige très dense (quasi névé), stable.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est devenu déficitaire sur le massif, avec un aspect de fin de saison... Hauts sommets et faces rocheuses assez sèches pour la saison. Mardi le paysage va en revanche s'améliorer en altitude avec une petite couche de fraîche qui adoucit le ski...\nLimites skiables : Vers 1700/2000m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige mardi :  Neige récente s'humidifiant rapidement lors d'éclaircie (devenant collante). En raide faces Nord sommitales (au dessus de 2700/2900m environ ?), neige temporairement sèche, froide, ventée. \nPlus bas neige de névé/reliefs, absence de regel...",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

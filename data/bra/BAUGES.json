@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-03T16:00:00",
-  "validUntil": "2026-05-04T18:00:00",
+  "date": "2026-05-04T16:00:00",
+  "validUntil": "2026-05-05T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -10,10 +10,12 @@
       "orientations": []
     }
   ],
-  "situations": [],
+  "situations": [
+    "neige_humide"
+  ],
   "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables.",
-  "stability": "La fin de saison approche.\n\nDéparts spontanés : Peu probables au vu du faible enneigement et de la pluie sur le manteau.\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués : Peu probables.\n* Au maximum un peu de neige qui peut être poussé par un skieur. Taille 1 (petite).",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.\nEncore un peu de neige au-dessus de 1800 m en nord. Les versants sud sont secs. \n\nQualité de la neige dimanche :\n* Mauvais regel nocturne.\n* Neige humide à toutes altitudes.",
+  "stability": "La fin de saison approche.\n\nDéparts spontanés : Peu probables au vu du faible enneigement et de la pluie sur le manteau.\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués : Peu probables.\n* Au maximum un peu de neige humide peut être poussé par un skieur. Taille 1 (petite).",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.\nEncore un peu de neige au-dessus de 1800 m en nord. Les versants sud sont secs. \n\nQualité de la neige mardi :\n* Mauvais regel nocturne.\n* Neige humide à toutes altitudes, voire neige de névé. ",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

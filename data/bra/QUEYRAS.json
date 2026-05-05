@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-05-04T16:00:00",
-  "validUntil": "2026-05-05T18:00:00",
+  "date": "2026-05-05T16:00:00",
+  "validUntil": "2026-05-06T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -27,9 +27,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : quelques départs en neige fraîche pendant les chutes, ou en neige humidifiée sous une éclaircie.\nDéclenchements skieurs : quelques plaques dans la neige fraîche à haute altitude. ",
-  "stability": "QUELQUES PLAQUES DANS LA NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : quelques nouvelles plaques en place dans la neige fraîche modérément ventée, ou encore en formation en fin de nuit de lundi à mardi, plus ponctuellement en journée de mardi sous averses. Présentes surtout au-dessus de 2600 m environ, possibles en toutes orientations mais plus fréquentes et sensibles en versants nord. D'aspect friable, ou parfois plus durci par le vent, elles peuvent être déclenchées au passage d'un skieur, mais restent généralement peu étendues et d'épaisseur limitée. Avalanches de petite taille, parfois moyenne dans les secteurs d'accumulation de neige (taille 1 à 2). \nPlus bas, même si un peu de neige a pu tomber entre 2000 et 2600 m, elle est déjà plus lourde, et moins propice à la formation de plaques.\n\nDéparts spontanés : \n - quelques départs en neige fraîche sont possibles pendant les chutes de neige plus intenses dans la nuit de lundi à mardi, surtout au dessus de 2400/2600 m environ, en toutes orientations. Avalanches restant généralement de petite taille, rarement moyenne, par départs ponctuels en pentes raides.\n - quelques départs en neige fraîche humidifiée possibles en cours de journée en pentes raides ensoleillées sous les éclaircies. Avalanches de petite taille. ",
-  "snowQuality": "Enneigement particulièrement déficitaire pour la période.\nHauteurs de neige observées : 16 cm à la Nivôse du Col Agnel à 2630 m. \n\nLimite d'enneigement skiable : au plus bas à 2000 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais, plus souvent 2100/2200 m. Adrets sec jusqu'à 2800/3000 notamment vers l'est du massif. \n\nÉtat de la neige en surface : mardi matin, on trouve un peu de neige fraîche, sèche et froide au dessus de 2500/2600 m environ, déjà plus lourde jusqu'à 2000 m, parfois modérément ventée. Elle repose sur un manteau neigeux printanier ou de névé.",
+  "summary": "Départs spontanés : en neige fraîche pendant les chutes de la nuit, ou en neige humidifiée sous les éclaircies.\nDéclenchements skieurs : quelques plaques à vent dans la neige fraîche à haute altitude. ",
+  "stability": "QUELQUES PLAQUES TEMPORAIRES DANS LA NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : au dessus de 2600 m environ, plaques temporaires en formation dans la nuit de mardi à mercredi et jusqu'à mercredi matin avec une neige beaucoup plus froide. Possibles en toutes orientations mais plus fréquentes et sensibles en versants nord, elles peuvent être déclenchées au passage d'un skieur, mais restent généralement peu étendues et d'épaisseur limitée. Avalanches de petite taille, parfois moyenne dans les secteurs d'accumulation de neige (taille 1 à 2). \nPlus bas, les chutes de neige reposent sur un manteau neigeux déjà bien stabilisé et moins propice à la formation de plaques.\n\n\nDéparts spontanés : en pentes raides, de petites ou moyennes avalanches sont encore possibles sous les dernières averses de neige de la nuit puis en journée, de nombreux départs sont attendus avec le retour des éclaircies qui viennent déstabiliser la neige récente. Avalanches de taille 1. ",
+  "snowQuality": "Enneigement particulièrement déficitaire pour la période.\nHauteurs de neige observées : 127 cm à la Nivôse du Col Agnel à 2630 m. \n\nLimite d'enneigement skiable : au plus bas à 2000 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais, plus souvent 2100/2200 m. Adrets sec jusqu'à 2800/3000 notamment vers l'est du massif. \n\nÉtat de la neige en surface : mercredi matin, on trouve 10/15 cm de neige fraîche, sèche et froide au dessus de 2200/2400 m environ, déjà plus lourde en dessous. Elle repose sur un manteau neigeux printanier ou de névé.",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

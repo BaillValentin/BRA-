@@ -1,12 +1,21 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-05-04T16:00:00",
-  "validUntil": "2026-05-05T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-05T16:00:00",
+  "validUntil": "2026-05-06T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2600",
       "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2600",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -16,12 +25,11 @@
   ],
   "situations": [
     "neige_fraiche",
-    "plaque_vent",
-    "neige_humide"
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : rares départs linéaires de neige humide en versant nord d'altitude.\nDéclenchements skieurs : peu probables. ",
-  "stability": "RARE ACTIVITÉ EN NEIGE FRAICHE.\n\nDéparts spontanés : \n - rares départs en neige fraîche possibles aux plus hautes altitudes du massif (au dessus de 2400/2500m environ), pendant les chutes de neige plus intenses dans la nuit de lundi à mardi. Avalanches restant généralement de petite taille, par départs ponctuels en pentes raides.\n - rares départs superficiels en neige fraîche humidifiée possibles en cours de journée en pentes raides ensoleillées sous les éclaircies. Avalanches de petite taille. \n\nDéclenchements provoqués : peu probables, rares plaques possibles dans la neige fraîche modérément ventée au dessus de 2400/2500 m environ, généralement peu étendues et d'épaisseur limitée (avalanches de taille 1).",
-  "snowQuality": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 1800 m en ubacs sur terrain favorable, 2300/2400 m en adrets.\n\nÉtat de la neige en surface : mardi matin, on trouve un peu de neige fraîche, sèche et froide à partir de 2400/2500 m environ, déjà plus lourde jusqu'à 2000 m, parfois modérément ventée. Elle repose sur un manteau neigeux printanier ou de névé.\n",
+  "summary": "Départs spontanés : en neige fraîche pendant les chutes de la nuit, ou en neige humidifiée sous les éclaircies.\nDéclenchements skieurs : rares plaques à vent dans la neige fraîche vers les plus hauts sommets. ",
+  "stability": "RARES PLAQUES TEMPORAIRES DANS LA NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : dans les ubacs au dessus de 2600 m environ, éventuellement des structures de plaques superficielles et temporaires dans la neige fraîche modérément ventée qui tombe dans la nuit de mardi à mercredi et jusqu'à mercredi matin. Avalanches généralement de petite taille, parfois moyenne vers les plus sommets dans les zones d'accumulation (taille 1 à 2). \nPlus bas, les chutes de neige reposent sur un manteau neigeux déjà bien stabilisé et moins propice à la formation de plaques.\n\nDéparts spontanés : en pentes raides, de petites ou moyennes avalanches sont encore possibles sous les dernières averses de neige de la nuit puis en journée, de nombreux départs sont attendus avec le retour des éclaircies qui viennent déstabiliser la neige récente. Avalanches de taille 1. ",
+  "snowQuality": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 1800 m en ubacs sur terrain favorable, 2300/2400 m en adrets.\n\nÉtat de la neige en surface : mercredi matin, on trouve 10/15 cm de neige fraîche, sèche et froide au dessus de 2200/2400 m environ, déjà plus lourde en dessous. Elle repose sur un manteau neigeux printanier ou de névé.\n",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-05-04T15:00:00",
-  "validUntil": "2026-05-05T18:00:00",
+  "date": "2026-05-05T15:00:00",
+  "validUntil": "2026-05-06T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -11,11 +11,12 @@
     }
   ],
   "situations": [
+    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables (rares névés).\nDéclenchements skieurs : RAS",
-  "stability": "FIN DE SAISON, QUELQUES NÉVÉS STABLES...\n\nPour l'instant, fin de saison neige/ski en Chartreuse, il ne reste que quelques névés stables, en Nord d'altitude.\nDéparts spontanés : Peu probables, neige très humide mais bien dense..\nDéclenchements provoqués :  Peu probables.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bien déficitaire pour la saison. Les névés s'amenuisent, souvent cantonnées en  Nord d'altitude. Chartreuse bien verte en ce début mai...\nQualité de la neige mardi :  Pas de regel nocturne. Neige très humide. ",
+  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables.",
+  "stability": "FIN DE SAISON, QUELQUES NÉVÉS STABLES ET UN PEU DE FRAICHE VERS LES SOMMETS, VITE HUMIDIFIÉE...\n\nFin de saison neige/ski en Chartreuse, il ne reste que quelques névés stables, en Nord d'altitude. L'éventuelle couche de neige fraîche attendue vers les sommets reste peu épaisse et est humide, n'occasionnant pas d'instabilité.\nDéparts spontanés : Peu probables, neige très humide mais bien dense..\nDéclenchements provoqués :  Peu probables.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est bien déficitaire pour la saison. Les névés s'amenuisent, souvent cantonnées en Nord d'altitude. Chartreuse bien verte en ce début mai...\nQualité de la neige mercredi :  Neige très humide. Un peu de neige fraîche est possible vers les sommets du massif, mais elle tombe elle-aussi humide et souffre dès les premières éclaircies ou périodes plus lumineuses...",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

@@ -1,7 +1,7 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-05-04T16:00:00",
-  "validUntil": "2026-05-05T18:00:00",
+  "date": "2026-05-05T16:00:00",
+  "validUntil": "2026-05-06T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,6 +10,11 @@
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     },
@@ -19,17 +24,23 @@
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
     "neige_fraiche",
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : petites avalanches de neige fraîche vers la frontière. \nDéclenchements skieurs : quelques plaques vers la crête frontière. ",
-  "stability": "RETOUR DES CONDITIONS HIVERNALES EN HAUTE MONTAGNE.\n\nDéclenchements provoqués : le long de la frontière italienne, au-dessus de ~2700 m, des plaques sont en place suite à l'épisode venté et neigeux en cours. Elles sont de taille modeste et engendre des avalanches de taille 1 (petite) voire 2 (moyenne) à l'approche de la frontière. \nObservable : accumulation localisée de neige fraîche. \nEn s'éloignant de la frontière, les cumuls de neige fraîche sont trop faibles pour constituer une problématique avalancheuse notable.\n\nDéparts spontanés : à la frontière italienne, des petites plaques de neige fraîche peuvent partir spontanément dans une pente raide, à cause des averses ou du transport de neige en cours. Avalanche petite le plus souvent, rarement moyenne. \n\nAutres : chutes de corniches signalées et attendues. De plus, les ponts de neige au-dessus des ruisseaux deviennent bien fragiles par endroit.",
-  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significative ces dernières semaines.\n\nLimite skiable : vers 1900 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2400 m : neige de névé qui reste dense toute la journée sauf aux abords des rochers/végétations où elle est très souvent croutée pourrie cédant au passage du skieur et encore plus du piéton. Plus haut, le vent frais couplé aux chutes de neige entretiennent la fermeté du manteau.\nIl faut viser la crête frontière au-delà de 2700 m pour trouver 15-30 cm de neige fraîche. ",
+  "summary": "Départs spontanés : nombreux mais  petits dans la neige  fraiche s'humidifiant \nDéclenchements skieurs : rares plaques vers la crête frontière ",
+  "stability": "REGAIN D'INSTABILITE AVEC LES CHUTES DE NEIGE EN COURS A HAUTE ALTITUDE\n\nDéparts spontanés : Nombreuses mais le plus souvent petites avalanches de neige humide emportant  la neige fraiche (au dessus de 2200m )  qui s'humidifie en cours de journée qu'il y ait du soleil ou pas (car on est en mai). Plus rare départ de neige fraiche pendant les chutes dans les pentes très raides aux plus hautes altitudes du massif. Taille 1, rare Taille2.  \n\nDéclenchements provoqués : là il ou il y ara le plus de neige fraiche soit le long de la crête frontalière au sud -ouest du massif , au-dessus de ~2700 m, de rares  plaques temporaires se sont mises en  place suite à l'épisode venté et neigeux en cours. Elles sont de taille modeste et engendre des avalanches de taille 1 (petite) voire 2 (moyenne) à l'approche des crêtes. \nObservable : accumulation localisée de neige fraîche. \n\nEn s'éloignant de la frontière, les cumuls de neige fraîche sont trop faibles pour constituer une problématique avalancheuse notable.\n\nAutres : chutes de corniches signalées et attendues. De plus, les ponts de neige au-dessus des ruisseaux deviennent bien fragiles par endroit.",
+  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significative ces dernières semaines. Les chutes récentes sont bien trop faibles et surtout éphémères pour améliorer durablement l'enneigement \n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2400 m : neige de névé qui reste dense toute la journée sauf aux abords des rochers/végétations où elle est très souvent croutée pourrie cédant au passage du skieur et encore plus du piéton. Plus haut, neige fraiche sur croute au lever du jour tournant vite en neige collante en s'humidifiant ( à la faveur d'éclaircies voir même plus encore à travers les nuages)  \nIl faut viser en Nord raide et au-delà de 2700/2900 m pour trouver  une neige qui reste froide et plus ou moins ventée. ",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

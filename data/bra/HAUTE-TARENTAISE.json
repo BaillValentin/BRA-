@@ -1,26 +1,22 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-05-04T16:00:00",
-  "validUntil": "2026-05-05T18:00:00",
+  "date": "2026-05-05T16:00:00",
+  "validUntil": "2026-05-06T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
-    "plaque_vent",
+    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : peu probables. ",
-  "stability": "CONDITIONS STABLES GRACE AU RETOUR DU FROID SANS PRECIPITATION. \n\nDéparts spontanés : faible activité grâce au vent froid en provenance d'Italie et à l'absence de précipitation. Si par inertie l'humidification des jours passés gagne en profondeur, un exceptionnel départ linéaire (plaque) est possible dans un large secteur Nord au-dessus de 2500 m, donnant alors une avalanche moyenne (ou très exceptionnellement grande).\n\nDéclenchements provoqués : à basse altitude, avalanche de neige humide sous les skis en coupant une pente trop humidifiée en neige pourrie. Observable: l'épaisseur de neige pourrie sous les skis.\n\nAutres : chutes de corniches signalées et attendues. De plus, les ponts de neige au-dessus des ruisseaux deviennent bien fragiles par endroit.",
-  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significative ces dernières semaines.\n\nLimite skiable : vers 1800/1900 m en nord,  2200 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2400 m : neige de névé qui reste dense toute la journée sauf aux abords des rochers/végétations où elle est très souvent croutée pourrie cédant au passage du skieur et encore plus du piéton. Plus haut, le vent frais couplé aux chutes de neige entretiennent la fermeté du manteau.\nIl faut monter au-dessus de 3000m en Nord raide pour trouver un peu de neige récente datant des averses.",
+  "summary": "Départs spontanés : petits en neige humide\nDéclenchements skieurs : peu probables. ",
+  "stability": "CONDITIONS STABLES GRACE AU RETOUR DU FROID SANS PRECIPITATION SIGNIFICATIVES\n\nDéparts spontanés :   Les quelques cm de neige fraiche s'humidifient très vite qu'il y ait du soleil ou pas (car on est en mai). ce qui peut provoquer quelques petites avalanches de neige humide. De la simple boulette ou escargot  à une taille 1.  \n\n\nDéclenchements provoqués : à basse altitude, avalanche de neige humide sous les skis en coupant une pente trop humidifiée en neige pourrie. Observable: l'épaisseur de neige pourrie sous les skis.\n\nAutres : chutes de corniches signalées et attendues. De plus, les ponts de neige au-dessus des ruisseaux deviennent bien fragiles par endroit.",
+  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significative ces dernières semaines.  Les chutes en cours sont bien trop faibles et surtout éphémères pour améliorer durablement l'enneigement \n\nLimite skiable : vers 1800/1900 m en nord,  2200 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2400 m : neige de névé qui reste dense toute la journée sauf aux abords des rochers/végétations où elle est très souvent croutée pourrie cédant au passage du skieur et encore plus du piéton. Plus haut, saupoudrage de fraiche sur neige dure ce saupoudrage devenant collant puis fondant en cours de journée \nIl faut monter au-dessus de 2800m et plutôt en nord raide   pour trouver un peu de neige récente restant froide",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

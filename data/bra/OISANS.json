@@ -1,26 +1,34 @@
 {
   "massif": "OISANS",
-  "date": "2026-05-04T15:00:00",
-  "validUntil": "2026-05-05T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-05T15:00:00",
+  "validUntil": "2026-05-06T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2600",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2600",
+      "altitude": "<2800",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2800",
+      "level": 3,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
@@ -30,9 +38,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Quelques coulées superficielles de neige récente (ou escargots humides) vers les sommets. Rare départ de fonte en Nord d'altitude (vers 2500/2800 ?)\nDéclenchements skieurs : En neige sèche ventée (Nord au dessus de 2600/2800m), quelques plaques instables. Plus bas ou au soleil possible coulée humide ponctuelle sous les skis ?",
-  "stability": "NEIGE RECENTE VENTEE EN ALTITUDE, PETITES PLAQUES LOCALISEES... \n\nPetite couche de neige fraîche ventée en altitude (15 puis 25 cm environ mardi après-midi, voire davantage vers les Hautes Alpes ?), quelques plaques en Nord de haute altitude...\n\nDéclenchements provoqués : Mardi, possiblement un peu de neige froide ventée vers les hauts du massif, sous le vent de Sud-Sud-Ouest. Temporairement risque de rupture accidentelle de (petites) plaques, surtout en Nord au dessus de 2600/2800m environ.\nEn contrebas ou si cette neige est plus humide, plutôt un risque de coulée ponctuelle sous les skis, la neige adhérant peu à la sous couche (dense, colorée)...\n\nDéparts spontanés : Peu probable, ou des coulées superficielles de neige récente, des boules humides lors d'éclaircies...\nEn Nord d'altitude la neige est humide en profondeur, on n'exclut pas totalement un départ de fonte plus volumineux, plutôt vers 2500/2800m ?\nAilleurs vieille neige très dense (quasi névé), stable.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est devenu déficitaire sur le massif, avec un aspect de fin de saison... Hauts sommets et faces glaciaires assez secs pour la saison. Mardi le paysage va en revanche s'améliorer en altitude avec une couche de fraîche qui adoucit le ski...\nLimites skiables : Vers 1800/2000m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige mardi :  Neige récente s'humidifiant rapidement lors d'éclaircie (devenant collante). En raide faces Nord sommitales (au dessus de 2600/2800m environ ?), neige temporairement sèche, froide, ventée. \nPlus bas neige de névé/reliefs, absence de regel...",
+  "summary": "Départs spontanés : Quelques départs dans la neige fraîche / récente, au cours des chutes ou lors de son humidification en journée. Rare départ de fonte en Nord d'altitude.\nDéclenchements skieurs : Quelques instabilités temporairement réactives en neige sèche à haute altitude (aspect parfois poudreux). Plus bas ou au soleil, possible coulée humide ponctuelle sous les skis.",
+  "stability": "QUELQUES INSTABILITÉS TEMPORAIRES MAIS RÉACTIVES A HAUTE ALTITUDE (PARFOIS D'ASPECT POUDREUX) , ET UN PEU D’ACTIVITÉ NATURELLE EN NEIGE FRAICHE OU HUMIDE.\n\nDéclenchements provoqués : - Surtout au-dessus de 2700/3000 m, quelques nouvelles plaques se forment dans les accumulations de neige fraîche au cours des passages perturbés successifs (15-30 cm possibles, mais avec des cumuls parfois hétérogènes). A ces altitudes, la neige fraîche peut se déposer en restant assez froide, et elle est soumise à un vent modéré de Sud-Ouest. Les plaques peuvent donc prendre un aspect poudreux moins identifiable et être temporairement réactives au passage d'un skieur. Elles sont le plus souvent d'épaisseur limitée, mais on ne peut exclure quelques déclenchements plus volumineux là où les cumuls de neige récente de ces derniers jours ont été les plus importants (secteurs Meije, Ecrins, Olan). A noter que le tassement et/ou l'humidification qui interviennent en journée lors des périodes plus lumineuses et sous les éclaircies, contribuent à la stabilisation assez rapide de ces plaques.\n- Par ailleurs, dans les pentes en neige humide, le pratiquant pourrait faire couler la neige sous ses skis.\n\nDéparts spontanés : - Lors des passages perturbés attendus, quelques coulées superficielles de neige récente (de taille 1, rarement 2) sont possibles dans les pentes et les couloirs raides. \n- Au soleil lors des éclaircies, ou encore dans les périodes plus lumineuses de la journée, quelques avalanches de taille 1 à 2 peuvent se produire dans la neige récente qui s'humidifie. Une rare grande avalanche de taille 3 ne peut être exclue dans les pentes d'altitude où les cumuls de neige récente ont été les plus importants. Enfin, localement en Nord d'altitude, la neige humide en profondeur et n'ayant pas regelé, pourrait encore occasionner un départ de fonte volumineux, plutôt vers 2500/2800m ?",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes. \n\nLimites skiables : Vers 1800/2000m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige mercredi :  Couche de neige fraîche / récente s'humidifiant rapidement lors d'éclaircies (devenant collante). En raide faces Nord sommitales (au dessus de 2700/3000m environ ?), neige temporairement sèche, froide, modérément ventée. \nPlus bas la sous-couche est composée de neige très dense, parfois de type névé.",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

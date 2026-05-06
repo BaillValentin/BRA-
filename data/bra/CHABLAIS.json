@@ -1,25 +1,45 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-05-05T16:00:00",
-  "validUntil": "2026-05-06T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-06T16:00:00",
+  "validUntil": "2026-05-07T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2400",
       "level": 1,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2400",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : L'humidification progresse faiblement en profondeur. \nDéclenchements skieurs : Neige récente sous les skis. ",
-  "stability": "Manteau neigeux globalement stable.\n\nDéparts spontanés : \n* Au-dessus de 2400 m : rare départ ponctuel en neige humide. Principalement dans les versants NE/N/NO, où l'humidification se poursuit en profondeur avec la pluie. Taille 1 (petite)\nFacteur aggravant, en versants E/N/O : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 50/80 cm possible. Taille 2 (moyenne).\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Au-dessus de 2400 m : de la neige humide récente peut couler sous les skis. Taille 1 (petite).",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2400 m et correct au-dessus.  \nOn peut chausser les skis au-dessus de 2100 m en sud et 1700 m en nord. \n\nQualité de la neige mercredi :\n* Mauvais regel nocturne.\n* En dessous de 2200 m, manteau neigeux humide en profondeur dès la matinée, voire neige de névé.\n* Au-dessus de 2200 m, la neige qui se dépose s'humidifie directement.",
+  "summary": "Départs spontanés : Neige récente au fil du réchauffement par le soleil.\nDéclenchements skieurs : Neige récente sous les skis. ",
+  "stability": "Instabilités dans la neige récente \n\nDéparts spontanés :\n* Au-dessus de 2400 m : nombreux départs ponctuels dans la neige fraiche s'humidifiant au soleil, dans les pentes E puis S puis W. Ces départs ponctuels entrainent régulièrement des volumes plus importants, taille 1 (petite) à 2 (moyenne). \nFacteur aggravant, en versants E/N/O : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 50/80 cm possible. Taille 2 (moyenne).\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Au-dessus de 2400 m : de la neige humide récente peut couler sous les skis et peut dans quelques cas entrainer de plus gros volumes de neige. Taille 1, parfois 2.\n* En dessous de 2400 m : de la neige humide récente peut couler sous les skis. Taille 1 (petite).",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2400 m et correct au-dessus.  \nOn retrouve de la neige récente au-dessus de 2000 m, jusqu'à 10-15 cm au-dessus de 2400 m.\nOn peut chausser les skis au-dessus de 2100 m en sud et 1700 m en nord. \n\nQualité de la neige jeudi matin :\n* En dessous de 2400 m, manteau neigeux humide jusqu'en profondeur surmonté d'une fine couche de neige récente également humide. Faible regel en début de journée.\n* Au-dessus de 2400 m, 10-15 cm de neige froide reposant sur de la vieille neige, souvent dure.",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

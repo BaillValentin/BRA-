@@ -1,22 +1,46 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-05-05T16:00:00",
-  "validUntil": "2026-05-06T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-06T16:00:00",
+  "validUntil": "2026-05-07T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2600",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2600",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
+      ]
     }
   ],
   "situations": [
     "neige_fraiche",
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : petits en neige humide\nDéclenchements skieurs : peu probables. ",
-  "stability": "CONDITIONS STABLES GRACE AU RETOUR DU FROID SANS PRECIPITATION SIGNIFICATIVES\n\nDéparts spontanés :   Les quelques cm de neige fraiche s'humidifient très vite qu'il y ait du soleil ou pas (car on est en mai). ce qui peut provoquer quelques petites avalanches de neige humide. De la simple boulette ou escargot  à une taille 1.  \n\n\nDéclenchements provoqués : à basse altitude, avalanche de neige humide sous les skis en coupant une pente trop humidifiée en neige pourrie. Observable: l'épaisseur de neige pourrie sous les skis.\n\nAutres : chutes de corniches signalées et attendues. De plus, les ponts de neige au-dessus des ruisseaux deviennent bien fragiles par endroit.",
-  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significative ces dernières semaines.  Les chutes en cours sont bien trop faibles et surtout éphémères pour améliorer durablement l'enneigement \n\nLimite skiable : vers 1800/1900 m en nord,  2200 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2400 m : neige de névé qui reste dense toute la journée sauf aux abords des rochers/végétations où elle est très souvent croutée pourrie cédant au passage du skieur et encore plus du piéton. Plus haut, saupoudrage de fraiche sur neige dure ce saupoudrage devenant collant puis fondant en cours de journée \nIl faut monter au-dessus de 2800m et plutôt en nord raide   pour trouver un peu de neige récente restant froide",
+  "summary": "Départs spontanés : Encore quelques avalanches de la neige fraiche s'humidifiant rapidement en cours de journée.\nDéclenchements skieurs : Rares plaques dans les rares secteurs de haute altitude encore poudreux et froid",
+  "stability": "LE RETOUR DU SOLEIL SUR LA NEIGE RECENTE ENGENDRE UNE PETITE ACTIVITE AVALANCHEUSE\n\nDéparts spontanés :   Premières avalanches de neige humide très tôt le matin dans les pentes raides Nord Est de haute altitude qui verront le soleil en premier et pour la première fois depuis les chutes. L'activité avalancheuse gagnant ensuite les autres orientations en tournant ensuite avec le soleil.  Les volumes de neige récente mobilisable reste faible  donnant de simples boulettes/escargots à quelques  taille 1 en grande pente sous les plus hauts sommets. \nDéclenchements provoqués : Dans les rares endroits ou il restera jeudi matin  de la neige fraiche encore froide non croutée (soit au dessus de 2800 voir 3000 m en Nord et Est  suivant les secteurs ) de rares plaques se sont  mises en  place suite à l'épisode venté et neigeux en cours. Elles sont de taille modeste et engendre des avalanches de taille 1 (petite) \nObservable : accumulation localisée de neige fraîche. \n\nAutres : chutes de corniches possible. De plus, les ponts de neige au-dessus des ruisseaux deviennent bien fragiles par endroit.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significative ces dernières semaines. Les chutes récentes sont  trop faibles et surtout éphémères pour améliorer durablement l'enneigement \n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2400 m : neige de névé qui reste dense toute la journée sauf aux abords des rochers/végétations où elle est très souvent croutée pourrie cédant au passage du skieur et encore plus du piéton. \nPlus haut, neige fraiche souvent croutée au lever du jour tournant vite en neige collante en s'humidifiant \nIl faut viser le Nord raide et au-delà de 2700/2900 m pour trouver  une neige qui reste froide et plus ou moins ventée. ",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

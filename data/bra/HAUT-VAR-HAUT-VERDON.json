@@ -1,35 +1,45 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-05-05T16:00:00",
-  "validUntil": "2026-05-06T18:00:00",
+  "date": "2026-05-06T16:00:00",
+  "validUntil": "2026-05-07T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2600",
+      "altitude": "<2500",
       "level": 1,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2600",
+      "altitude": ">2500",
       "level": 2,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige fraîche pendant les chutes, ou en neige humidifiée sous les éclaircies.\nDéclenchements skieurs : rares plaques à vent dans la neige fraîche à haute altitude. ",
-  "stability": "RARES PLAQUES TEMPORAIRES DANS LA NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : dans les ubacs au dessus de 2600 m environ, éventuellement des structures de plaques superficielles et temporaires dans la neige fraîche modérément ventée qui tombe dans la nuit de mardi à mercredi et jusqu'à mercredi matin. Avalanches généralement de petite taille, parfois moyenne vers les plus sommets dans les zones d'accumulation (taille 1 à 2). \nPlus bas, les chutes de neige reposent sur un manteau neigeux déjà bien stabilisé et moins propice à la formation de plaques.\n\nDéparts spontanés : en pentes raides, de petites ou moyennes avalanches sont encore possibles sous les dernières averses de neige de la nuit puis en journée, de nombreux départs sont attendus avec le retour des éclaircies qui viennent déstabiliser la neige récente. Avalanches de taille 1. ",
-  "snowQuality": "Enneigement très faible  pour la période, après plus d'un mois sans précipitations notables et avec un isotherme 0 degré souvent à plus de 3000 m.\n\nEnneigement skiable Limite d'enneigement skiable : vers 2100/2200 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : mercredi matin, on trouve 10/15 cm de neige fraîche, sèche et froide au dessus de 2400/2500 m environ, déjà plus lourde en dessous. Elle repose sur un manteau neigeux printanier ou de névé.",
+  "summary": "Départs spontanés : en neige humide au soleil.\nDéclenchements skieurs : rares plaques dans la neige récente à haute altitude.",
+  "stability": "RARES PLAQUES TEMPORAIRES EN ALTITUDE, REPRISE DE L'HUMIDIFICATION AU SOLEIL\n\nDéclenchements provoqués : \n- au dessus de 2600 m environ, rares plaques temporaires encore en place, présentes surtout en versants nord raides où elles peuvent être faciles à déclencher au passage d'un skieur. Ailleurs, de rares plaques sont encore possibles en début de journée, mais se stabilisent rapidement au soleil. Elles restent généralement peu étendues et d'épaisseur limitée, provoquant des avalanches par départ linéaire de petite taille, parfois moyenne dans les secteurs d'accumulation de neige (taille 1 à 2). \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : quelques départs ponctuels en pentes raides, par humidification de la neige récente au fil de la course du soleil, un rare départ linéaire n'est pas exclu. Avalanches généralement de petite taille, rare taille moyenne possible au dessus de 2500/2600 m (taille 1 à 2).",
+  "snowQuality": "Enneigement très faible  pour la période.\n\nEnneigement skiable Limite d'enneigement skiable : vers 2100/2200 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : jeudi matin, la neige récente est restée froide au dessus de 2600/2800 m environ, localement modérément ventée. L'épaisseur de neige récente, déjà plus lourde, diminue rapidement en dessous de 2500 m. Elle repose sur un manteau neigeux printanier ou de névé.",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

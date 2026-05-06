@@ -1,46 +1,39 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-05T15:00:00",
-  "validUntil": "2026-05-06T18:00:00",
+  "date": "2026-05-06T16:00:00",
+  "validUntil": "2026-05-07T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2600",
+      "altitude": "<2500",
       "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2600",
+      "altitude": ">2500",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Quelques départs dans la neige fraîche, au cours des chutes ou lors de son humidification en journée. Rare départ de fonte en Nord d'altitude.\nDéclenchements skieurs : Quelques instabilités peu épaisses, mais temporairement réactives, en neige sèche à haute altitude (aspect parfois poudreux). Plus bas ou au soleil, possible coulée humide ponctuelle sous les skis.",
-  "stability": "QUELQUES INSTABILITÉS LOCALES, PEU ÉPAISSES ET TEMPORAIREMENT RÉACTIVES EN HAUTE MONTAGNE, ET UN PEU D’ACTIVITÉ NATURELLE EN NEIGE FRAICHE OU HUMIDE.\n\nDéclenchements provoqués : - Surtout au-dessus de 2600/2900 m, quelques nouvelles plaques se forment localement, dans les accumulations de neige fraîche au cours des passages perturbés successifs (10-20 cm possibles, mais avec des cumuls parfois hétérogènes). A ces altitudes, la neige fraîche peut se déposer en restant assez froide, et elle est soumise à un vent modéré de Sud-Ouest. Ces plaques restent le plus souvent d'épaisseur limitée, mais elle peuvent prendre un aspect poudreux moins identifiable, et être temporairement réactives au passage d'un skieur. A noter que le tassement et l'humidification qui interviennent en journée lors des périodes plus lumineuses et sous les éclaircies, contribuent à la stabilisation assez rapide de ces plaques.\n- Par ailleurs, dans les pentes en neige humide, le pratiquant pourrait faire couler la neige sous ses skis.\n\nDéparts spontanés : - Lors des passages perturbés attendus, quelques coulées superficielles de neige récente (de taille 1) sont possibles dans les pentes et les couloirs raides. \n- Au soleil lors des éclaircies, ou encore dans les périodes plus lumineuses de la journée, quelques avalanches de taille 1 à 2 peuvent se produire dans la neige récente qui s'humidifie. Enfin, localement en Nord d'altitude, la neige humide en profondeur et n'ayant pas regelé, pourrait encore occasionner un départ de fonte plus volumineux, plutôt vers 2500/2800m ?",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste généralement déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes.\n\nLimites skiables : Vers 1700/2000m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige mercredi :  Couche de neige fraîche / récente s'humidifiant rapidement lors d'éclaircies (devenant collante). En raide faces Nord sommitales (au dessus de 2600/2900m environ ?), neige temporairement sèche, froide, modérément ventée. \nPlus bas la sous-couche est composée de neige très dense, parfois de type névé.",
+  "summary": "Départs spontanés : Au fil de l'ensoleillement et sous les cumulus, dans la neige qui s'humidifie en surface puis en profondeur. Rare départ de fonte plus volumineux en Nord d'altitude.\nDéclenchements skieurs : Très rares plaques peu épaisses non exclues près des sommets du massif. Sinon, possibles coulées humides ponctuelles sous les skis.",
+  "stability": "REPRISE D'UNE HUMIDIFICATION PLUS IMPORTANTE APRÈS LA SÉQUENCE PERTURBÉE. ÉVENTUELLEMENT VERS LES SOMMETS, UNE TRÈS RARE PLAQUE PEU ÉPAISSE NON EXCLUE.\n\nDéparts spontanés : Peu probables la nuit avec le bon regel nocturne, puis au fil de l'ensoleillement, ainsi que sous les cumulus de l'après-midi dans toutes les orientations, quelques avalanches de taille 1 à 2 peuvent se produire dans la neige récente qui s'humidifie. Enfin, localement en Nord d'altitude, la reprise de l'humidification en profondeur pourrait occasionner un départ de fonte plus volumineux, plutôt vers 2500/2800m ?\n\nDéclenchements provoqués : - Surtout au-dessus de 2600/2900 m, de très rares plaques pourraient subsister très localement, dans les accumulations de neige récente, si celle-ci est restée assez froide. Le plus souvent souvent d'épaisseur très limitée, et devenant difficiles à déclencher par un pratiquant. De plus, le tassement et l'humidification qui intervient en journée au soleil et sous les cumulus, contribuent à les stabiliser assez rapidement.\n- Cependant, le risque principal pour le pratiquant est plutôt de faire couler la neige sous ses skis, en évoluant à un horaire inadapté dans une pente réchauffée.\n\nAutres : Avec le regel nocturne de la neige humide dans la plupart des pentes, les surfaces peuvent être glissantes notamment en tout début de journée (neige croûtée).",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est temporairement amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste généralement déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes.\n\nLimites skiables : Vers 1700/2000m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige jeudi :  Regel nocturne souvent correct à bon, avec neige souvent croûtée au lever du jour (sauf aux plus basses altitudes si des nuages traînent trop longtemps dans la nuit) En journée, l'humidification reprend au soleil puis sous les cumulus en tous versants, dans la couche de neige récente tombée ces derniers jours qui se réduit parfois rapidement, puis gagne en profondeur dans la vieille neige déjà humidifiée et dense (de type névé par endroits).",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

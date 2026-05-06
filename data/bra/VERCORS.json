@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-05-05T15:00:00",
-  "validUntil": "2026-05-06T18:00:00",
+  "date": "2026-05-06T16:00:00",
+  "validUntil": "2026-05-07T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -10,13 +10,10 @@
       "orientations": []
     }
   ],
-  "situations": [
-    "neige_fraiche",
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : Peu probables, ou rare coulée de neige fraîche humidifiée vers les couloirs raides sommitaux...\nDéclenchements skieurs : Peu probables.",
-  "stability": "NEIGE DE NÉVÉ, STABLE.. UN PEU DE FRAICHE VERS LES SOMMETS, VITE HUMIDIFIÉE...\n\nLa fin de saison approche. L'éventuelle couche de neige fraîche attendue vers les sommets reste assez peu épaisse et est humide, n'occasionnant pas d'instabilité notable, hormis de rares départs spontanés dans les pentes raides.\nDéparts spontanés : Peu probables, ou rare coulée de neige fraîche humidifiée dans une pente ou couloir raide sommital, lors des chutes de neige attendues.\nDéclenchements provoqués :  Peu probables.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit, franchement déficitaire  en ce début mai. Il ne reste que de grand névés vers les sommets, surtout en Nord d'altitude dès 1700/1800m environ... A la limite, un saupoudrage humide vers le Grand Veymont...\nQualité de la neige mercredi :  Neige humide dense. Un peu de neige fraîche tombe vers les sommets du massif, mais elle tombe elle-aussi humide et souffre dès les premières éclaircies ou périodes plus lumineuses...",
+  "situations": [],
+  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables.",
+  "stability": "NEIGE DE NÉVÉ, STABLE...\n\nLa fin de saison est proche. Il ne reste que des névés ou traces de neige stables, principalement en Nord d'altitude.\nDéparts spontanés : Peu probables.\nDéclenchements provoqués :  Peu probables.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit, franchement déficitaire  en ce début mai. Il ne reste que de grand névés vers les sommets, surtout en Nord d'altitude dès 1700/1800m environ... Un saupoudrage humide a pu se produire au-dessus de 2000 m, mais cette neige un peu moins dense sera probablement de courte durée...\nQualité de la neige jeudi :  Peu ou pas de regel attendu. Neige humide dense.",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

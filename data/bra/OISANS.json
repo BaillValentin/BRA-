@@ -1,40 +1,31 @@
 {
   "massif": "OISANS",
-  "date": "2026-05-06T16:00:00",
-  "validUntil": "2026-05-07T18:00:00",
+  "date": "2026-05-07T16:00:00",
+  "validUntil": "2026-05-08T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2500",
+      "altitude": "<2700",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
+        "N"
       ]
     },
     {
-      "altitude": ">2500",
+      "altitude": ">2700",
       "level": 2,
       "orientations": [
-        "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
+        "N"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Au fil de l'ensoleillement et sous les cumulus, dans la neige qui s'humidifie en surface puis en profondeur. Rare départ de fonte plus volumineux en Nord d'altitude.\nDéclenchements skieurs : Rares plaques localement réactives en neige sèche à haute altitude vers Meije / Ecrins / Olan. Sinon, possibles coulées humides ponctuelles sous les skis.",
-  "stability": "RARES PLAQUES A HAUTE ALTITUDE, ET REPRISE D'UNE HUMIDIFICATION PLUS IMPORTANTE APRÈS LA SÉQUENCE PERTURBÉE.\n\nDéclenchements provoqués : - Surtout dans les versants Nord au-dessus de 2800/3000 m, et plutôt dans les secteurs Meije, Ecrins, Olan où les cumuls de neige récente de ces derniers jours ont été les plus importants : de rares plaques pourraient encore subsister dans les accumulations de neige récente. A ces altitudes, la neige fraîche a pu rester assez froide, mais son tassement et son humidification qui intervient en journée au soleil et sous les cumulus, contribuent à les stabiliser assez rapidement. Ces rares plaques peuvent encore être localement réactives au passage d'un skieur ou groupe de skieurs.\n- Partout ailleurs et même dans certains versants Nord d'altitude, dans les pentes en neige humide en surface, le pratiquant pourrait faire couler la neige sous ses skis en évoluant à un horaire inadapté.\n\nDéparts spontanés : Peu probables la nuit avec le bon regel nocturne, puis au fil de l'ensoleillement, ainsi que sous les cumulus de l'après-midi dans toutes les orientations, quelques avalanches de taille 1 à 2 peuvent se produire dans la neige récente qui s'humidifie. Une rare grande avalanche de taille 3 ne peut être exclue dans les pentes d'altitude où les cumuls de neige récente ont été les plus importants. Enfin, localement en Nord d'altitude, la reprise de l'humidification en profondeur pourrait occasionner un départ de fonte volumineux, plutôt vers 2500/2800m ?\n\nAutres : Avec le regel nocturne de la neige humide dans la plupart des pentes, les surfaces peuvent être glissantes notamment en tout début de journée (neige croûtée).",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes. \n\nLimites skiables : Vers 1800/2000m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige jeudi :  Regel nocturne souvent correct à bon, avec neige souvent croûtée au lever du jour (sauf aux plus basses altitudes vers le Taillefer où des nuages peuvent traîner assez longtemps dans la nuit). En raide faces Nord sommitales (au dessus de 2700/3000m environ ?), neige temporairement sèche, froide, modérément ventée. En journée, l'humidification reprend au soleil puis sous les cumulus en tous versants, dans la couche de neige récente tombée ces derniers jours qui se réduit parfois rapidement, puis gagne en profondeur dans la vieille neige déjà humidifiée et dense (de type névé par endroits).",
+  "summary": "Départs spontanés : Au fil de l'ensoleillement et sous les cumulus, dans la neige qui s'humidifie en surface puis en profondeur. \nDéclenchements skieurs : Rares plaques localement réactives en neige sèche à haute altitude vers Meije / Ecrins / Olan. Sinon, possibles coulées humides ponctuelles sous les skis.",
+  "stability": "RARES PLAQUES A HAUTE ALTITUDE, ET POURSUITE DE L'HUMIDIFICATION APRÈS LA SÉQUENCE PERTURBÉE.\n\nDéclenchements provoqués : Dans les versants plein Nord d'altitude (au-dessus de 2600 / 2700m) une rare plaque pourrait subsister localement dans la neige récente, si celle-ci est restée froide (le risque est donc croissant avec l'altitude). Le risque est plus marqué dans les secteurs Meije, Ecrins, Olan où les cumuls de neige récente de ces derniers jours ont été les plus importants. A cette saison le manteau se stabilise toutefois assez rapidement, et ces plaques deviennent souvent difficiles à déclencher. \nDe manière générale, le risque principal sera de faire partir une coulée humide sous les skis dans les pentes raides réchauffées.  \n\nDéparts spontanés : Peu probables la nuit avec le bon regel nocturne, puis au fil de l'ensoleillement, ainsi que sous les cumulus de l'après-midi dans toutes les orientations, quelques avalanches de taille 1 à 2 peuvent se produire dans la neige récente qui s'humidifie. Une rare grande avalanche de taille 3 ne peut être exclue dans les pentes d'altitude où les cumuls de neige récente ont été les plus importants. \n\nAutres : Avec le regel nocturne, les surfaces peuvent être glissantes notamment en tout début de journée (neige croûtée).",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes. \n\nLimites skiables : Vers 1800/2000m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige vendredi :  Bon regel nocturne, neige croûtée au lever du jour, s'humidifiant rapidement au soleil en journée. En raide faces Nord d'altitudes, on peut encore retrouver de la neige froide, parfois densifiée par le vent. ",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

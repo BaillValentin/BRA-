@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-05-06T16:00:00",
-  "validUntil": "2026-05-07T18:00:00",
+  "date": "2026-05-07T16:00:00",
+  "validUntil": "2026-05-08T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,7 +13,7 @@
   "situations": [],
   "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables.",
   "stability": "NEIGE DE NÉVÉ, STABLE...\n\nLa fin de saison est proche. Il ne reste que des névés ou traces de neige stables, principalement en Nord d'altitude.\nDéparts spontanés : Peu probables.\nDéclenchements provoqués :  Peu probables.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit, franchement déficitaire  en ce début mai. Il ne reste que de grand névés vers les sommets, surtout en Nord d'altitude dès 1700/1800m environ... Un saupoudrage humide a pu se produire au-dessus de 2000 m, mais cette neige un peu moins dense sera probablement de courte durée...\nQualité de la neige jeudi :  Peu ou pas de regel attendu. Neige humide dense.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est fortement réduit, franchement déficitaire  en ce début mai. Il ne reste que de grand névés vers les sommets, surtout en Nord d'altitude dès 1700/1800m environ... Un saupoudrage humide a pu se produire au-dessus de 2000 m, mais cette neige un peu moins dense sera probablement de courte durée...\nQualité de la neige vendredi :  Peu ou pas de regel attendu. Neige humide dense.",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-06T16:00:00",
-  "validUntil": "2026-05-07T18:00:00",
+  "date": "2026-05-07T16:00:00",
+  "validUntil": "2026-05-08T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,9 +13,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Neige récente sous les skis. ",
-  "stability": "Rares instabilités dans la neige récente.\n\nDéparts spontanés : Peu probables au vu du faible enneigement.\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Au-dessus de 2000 m : un peu de neige humide peut être poussé par un skieur. Taille 1 (petite).",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.\nOn retrouve de la neige récente au-dessus de 2000 m, jusqu'à 10 cm à 2200 m.\nEncore un peu de neige ancienne au-dessus de 1800 m en nord.\n\nQualité de la neige jeudi :\n* Manteau neigeux humide jusqu'en profondeur surmonté d'une fine couche de neige récente également humide au-dessus de 2000 m. Faible regel en début de journée.",
+  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables.",
+  "stability": "Rares instabilités dans la neige récente.\n\nDéparts spontanés : Peu probables au vu du faible enneigement.\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Au maximum un peu de neige humide peut être poussé par un skieur, dans les pentes raides fortement humidifiées. Taille 1 (petite).",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.\nEncore un peu de neige au-dessus de 1800 m en nord. Les versants sud sont secs.\n\nQualité de la neige vendredi :\n* À toute altitude, manteau neigeux humide jusqu'en profondeur, voire neige de névé.\n* Bon regel nocturne. Humidification rapide dans les pentes au soleil.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

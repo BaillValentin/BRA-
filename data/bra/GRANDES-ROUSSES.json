@@ -1,29 +1,21 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-06T16:00:00",
-  "validUntil": "2026-05-07T18:00:00",
+  "date": "2026-05-07T16:00:00",
+  "validUntil": "2026-05-08T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2500",
+      "altitude": "<2700",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
+        "N"
       ]
     },
     {
-      "altitude": ">2500",
+      "altitude": ">2700",
       "level": 2,
       "orientations": [
-        "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
+        "N"
       ]
     }
   ],
@@ -31,9 +23,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Au fil de l'ensoleillement et sous les cumulus, dans la neige qui s'humidifie en surface puis en profondeur. Rare départ de fonte plus volumineux en Nord d'altitude.\nDéclenchements skieurs : Très rares plaques peu épaisses non exclues près des sommets du massif. Sinon, possibles coulées humides ponctuelles sous les skis.",
-  "stability": "REPRISE D'UNE HUMIDIFICATION PLUS IMPORTANTE APRÈS LA SÉQUENCE PERTURBÉE. ÉVENTUELLEMENT VERS LES SOMMETS, UNE TRÈS RARE PLAQUE PEU ÉPAISSE NON EXCLUE.\n\nDéparts spontanés : Peu probables la nuit avec le bon regel nocturne, puis au fil de l'ensoleillement, ainsi que sous les cumulus de l'après-midi dans toutes les orientations, quelques avalanches de taille 1 à 2 peuvent se produire dans la neige récente qui s'humidifie. Enfin, localement en Nord d'altitude, la reprise de l'humidification en profondeur pourrait occasionner un départ de fonte plus volumineux, plutôt vers 2500/2800m ?\n\nDéclenchements provoqués : - Surtout au-dessus de 2600/2900 m, de très rares plaques pourraient subsister très localement, dans les accumulations de neige récente, si celle-ci est restée assez froide. Le plus souvent souvent d'épaisseur très limitée, et devenant difficiles à déclencher par un pratiquant. De plus, le tassement et l'humidification qui intervient en journée au soleil et sous les cumulus, contribuent à les stabiliser assez rapidement.\n- Cependant, le risque principal pour le pratiquant est plutôt de faire couler la neige sous ses skis, en évoluant à un horaire inadapté dans une pente réchauffée.\n\nAutres : Avec le regel nocturne de la neige humide dans la plupart des pentes, les surfaces peuvent être glissantes notamment en tout début de journée (neige croûtée).",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est temporairement amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste généralement déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes.\n\nLimites skiables : Vers 1700/2000m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige jeudi :  Regel nocturne souvent correct à bon, avec neige souvent croûtée au lever du jour (sauf aux plus basses altitudes si des nuages traînent trop longtemps dans la nuit) En journée, l'humidification reprend au soleil puis sous les cumulus en tous versants, dans la couche de neige récente tombée ces derniers jours qui se réduit parfois rapidement, puis gagne en profondeur dans la vieille neige déjà humidifiée et dense (de type névé par endroits).",
+  "summary": "Départs spontanés : Au fil de l'ensoleillement et sous les cumulus, dans la neige qui s'humidifie en surface puis en profondeur. \nDéclenchements skieurs : Très rares plaques en plein Nord d'altitude. Sinon, possibles coulées humides ponctuelles sous les skis.",
+  "stability": "POURSUITE DE L'HUMIDIFICATION APRÈS LA SÉQUENCE PERTURBÉE. ÉVENTUELLEMENT VERS LES SOMMETS, UNE TRÈS RARE PLAQUE PEU ÉPAISSE NON EXCLUE.\n\nDéparts spontanés : Vendredi des coulées de tailles petites à moyennes restent possibles dans les versants ensoleillés ( ou dans les cumulus l'après-midi) avec l'humidification de la neige récente. Elles deviennent toutefois assez rares, la plupart des pentes ayant déjà purgées ces derniers jours. \n\nDéclenchements provoqués : Dans les versants plein Nord d'altitude (au-dessus de 2600 / 2700m) une rare plaque pourrait subsister localement dans la neige récente, si celle-ci est restée froide. Le plus souvent souvent d'épaisseur très limitée, et devenant difficiles à déclencher par un pratiquant. \nEn pente réchauffée, le risque principal sera de faire partir une coulée humide sous les skis en pente raide. \n\nAutres : Avec le regel nocturne, les surfaces peuvent être glissantes notamment en tout début de journée (neige croûtée).",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est temporairement amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste généralement déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes.\n\nLimites skiables : Vers 1600/1900m en Nord à 2100/2400m en versants ensoleillés. \n\nQualité de la neige vendredi :  Bon regel nocturne, neige souvent croûtée au lever du jour. En journée, l'humidification reprend au soleil puis sous les cumulus en tous versants, dans la couche de neige récente tombée ces derniers jours qui se réduit parfois rapidement, puis gagne en profondeur dans la vieille neige déjà humidifiée et dense (de type névé par endroits). Une pente plein Nord au-dessus de 2700m pourrait encore être en neige froide.",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

@@ -1,45 +1,26 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-05-06T16:00:00",
-  "validUntil": "2026-05-07T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-07T16:00:00",
+  "validUntil": "2026-05-08T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2400",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
         "N",
         "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2400",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Neige récente au fil du réchauffement par le soleil.\nDéclenchements skieurs : Neige récente sous les skis. ",
-  "stability": "Instabilités dans la neige récente \n\nDéparts spontanés :\n* Au-dessus de 2400 m : nombreux départs ponctuels dans la neige fraiche s'humidifiant au soleil, dans les pentes E puis S puis W. Ces départs ponctuels entrainent régulièrement des volumes plus importants, taille 1 (petite) à 2 (moyenne). \nFacteur aggravant, en versants E/N/O : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 50/80 cm possible. Taille 2 (moyenne).\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Au-dessus de 2400 m : de la neige humide récente peut couler sous les skis et peut dans quelques cas entrainer de plus gros volumes de neige. Taille 1, parfois 2.\n* En dessous de 2400 m : de la neige humide récente peut couler sous les skis. Taille 1 (petite).",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2400 m et correct au-dessus.  \nOn retrouve de la neige récente au-dessus de 2000 m, jusqu'à 10-15 cm au-dessus de 2400 m.\nOn peut chausser les skis au-dessus de 2100 m en sud et 1700 m en nord. \n\nQualité de la neige jeudi matin :\n* En dessous de 2400 m, manteau neigeux humide jusqu'en profondeur surmonté d'une fine couche de neige récente également humide. Faible regel en début de journée.\n* Au-dessus de 2400 m, 10-15 cm de neige froide reposant sur de la vieille neige, souvent dure.",
+  "summary": "Départs spontanés : Neige récente dans les ubacs.\nDéclenchements skieurs : Neige récente sous les skis. ",
+  "stability": "Encore quelques instabilités dans la neige récente.\n\nDéparts spontanés :\n* En ubac au-dessus de 2400 m : quelques départs ponctuels dans la neige récente encore faiblement humidifiée. Ces départs ponctuels peuvent entrainer des volumes plus importants, taille 1 (petite) à 2 (moyenne). \nFacteur aggravant, en versants E/N/O : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 50/80 cm possible. Taille 2 (moyenne).\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Dans les versants E, N, et W au-dessus de 2400 m : de la neige humide récente peut couler sous les skis et peut dans de rares cas entrainer de plus gros volumes de neige. Taille 1, rarement 2.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2400 m et correct au-dessus.  \nOn retrouve encore un peu de neige récente tombée ce mercredi au-dessus de 2100/2200 m, jusqu'à 5-10 cm au-dessus de 2400 m.\nOn peut chausser les skis au-dessus de 2100 m en sud et 1700 m en nord. \n\nQualité de la neige vendredi :\n* En dessous de 2400 m, manteau neigeux humide jusqu'en profondeur, voire neige de névé. Bon regel nocturne. Humidification rapide dans les pentes au soleil.\n* Au-dessus de 2400 m, 5-10 cm de neige récente reposant sur de la vieille neige, souvent dure. Neige croutée en début de journée, s'humidifiant rapidement avec le soleil.",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

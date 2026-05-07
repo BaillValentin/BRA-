@@ -1,45 +1,21 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-05-06T16:00:00",
-  "validUntil": "2026-05-07T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-07T16:00:00",
+  "validUntil": "2026-05-08T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2500",
+      "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2500",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide au soleil.\nDéclenchements skieurs : rares plaques dans la neige récente à haute altitude.",
-  "stability": "RARES PLAQUES TEMPORAIRES EN ALTITUDE, REPRISE DE L'HUMIDIFICATION AU SOLEIL\n\nDéclenchements provoqués : \n- au dessus de 2600 m environ, rares plaques temporaires encore en place, présentes surtout en versants nord raides où elles peuvent être faciles à déclencher au passage d'un skieur. Ailleurs, de rares plaques sont encore possibles en début de journée, mais se stabilisent rapidement au soleil. Elles restent généralement peu étendues et d'épaisseur limitée, provoquant des avalanches par départ linéaire de petite taille, parfois moyenne dans les secteurs d'accumulation de neige (taille 1 à 2). \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : quelques départs ponctuels en pentes raides, par humidification de la neige récente au fil de la course du soleil, un rare départ linéaire n'est pas exclu. Avalanches généralement de petite taille, rare taille moyenne possible au dessus de 2500/2600 m (taille 1 à 2).",
-  "snowQuality": "Enneigement très faible pour la période. À la Nivôse de Millefonts, on mesure 62 cm de neige.\n\nLimite d'enneigement skiable : vers 2000/2100 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : jeudi matin, la neige récente est restée froide au dessus de 2600/2800 m environ, localement modérément ventée. L'épaisseur de neige récente, déjà plus lourde, diminue rapidement en dessous de 2500 m. Elle repose sur un manteau neigeux printanier ou de névé.",
+  "summary": "Départs spontanés : en neige humide au soleil.\nDéclenchements skieurs : plaques résiduelles dans la neige récente à haute altitude.",
+  "stability": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : \n- Plaques résiduelles en versant nord aux plus hautes altitudes du massif. Avalanches généralement de petite taille (taille 1), plus rarement moyenne (taille 2) au-dessus de 2600/2800 m. \n- Un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : peu probables en tout début de journée après le regel nocturne, puis rares départs ponctuels en pentes raides au fil de l'ensoleillement. Avalanches de petite taille (taille 1), très rarement moyenne (taille 2) au-dessus de 2600 m. ",
+  "snowQuality": "Enneigement très faible pour la période. À la Nivôse de Millefonts, on mesure 59 cm de neige.\n\nLimite d'enneigement skiable : vers 2000/2100 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : vendredi matin, neige croûtée en surface s'humidifiant au fil de l'ensoleillement. On peut encore trouver de la neige restée froide au-dessus de 2600/2800 m en versant nord. Sinon, manteau neigeux printanier ou de névé. ",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

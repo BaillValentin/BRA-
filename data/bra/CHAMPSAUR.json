@@ -1,25 +1,21 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-05-06T16:00:00",
-  "validUntil": "2026-05-07T18:00:00",
-  "riskMax": 3,
+  "date": "2026-05-07T16:00:00",
+  "validUntil": "2026-05-08T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2800",
-      "level": 2,
+      "altitude": "<2700",
+      "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "NW"
+        "N"
       ]
     },
     {
-      "altitude": ">2800",
-      "level": 3,
+      "altitude": ">2700",
+      "level": 2,
       "orientations": [
-        "N",
-        "NE",
-        "NW"
+        "N"
       ]
     }
   ],
@@ -29,8 +25,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : en neige humide au soleil.\nDéclenchements skieurs : plaques encore faciles à déclencher à haute altitude, parfois épaisses.",
-  "stability": "INSTABILITÉS EN PLACE EN HAUTE ALTITUDE DANS LA NEIGE RÉCENTE, PARFOIS ÉPAISSES.\n\nDéclenchements provoqués : \n- au dessus de 2800 m, des plaques sont en place dans la neige récente modérément ventée tombée entre lundi et mercredi. Plus fréquentes et sensibles en versants nord, elles restent possibles dans les autres orientations, mais elles se stabilisent rapidement au soleil en cours de journée. D'aspect friable, ou parfois plus durci par le vent de sud modéré qui a transporté la neige, elles peuvent être recouvertes par la neige tombée pendant les averses mercredi après-midi et difficiles à détecter. En haute montagne, les cassures peuvent être épaisses et mobiliser d'importants volumes de neige, générant des avalanches de taille moyenne, plus rarement grande (taille 2 à 3). \nA plus basse altitude, la neige récente se densifie rapidement, et le risque de plaques diminue fortement.\n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : quelques départs ponctuels en pentes raides, par humidification de la neige récente au fil de la course du soleil, provoquant des avalanches généralement de taille petite à moyenne (taille 1 à 2). Quelques départs linéaires de plus grande taille sont possibles en haute montagne au dessus de 2700/2800 m, par humidification d'une plaque ventée en place, ou par départ en cascade en cas de déstabilisation d'une couche fragile persistante enfouie à la base du manteau neigeux en versants nord. Avalanches de taille 2 à 3.",
-  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées  : 45 cm à la Nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1700 m en ubacs de fond de vallée en cœur de massif, plutôt 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : jeudi matin, on trouve 60/80 cm de neige récente restée froide au dessus de 2600/2800 m environ, localement modérément ventée. L'épaisseur de neige récente, déjà plus lourde, diminue rapidement en dessous de 2500 m. Elle repose sur un manteau neigeux printanier ou de névé.",
+  "stability": "INSTABILITÉS EN PLACE EN HAUTE ALTITUDE DANS LA NEIGE RÉCENTE, ACTIVITÉ EN NEIGE HUMIDE AU SOLEIL\n\nDéclenchements provoqués : \n- Au-dessus de 2600/2800 m environ, des plaques sont encore en place dans la neige récente modérément ventée tombée en début de semaine. Elles sont plus nombreuses et sensibles en versants nord, mais elles sont encore possibles dans les autres orientations à haute altitude au coeur des Ecrins. D'aspect friable, ou durci par le vent, elles sont difficilement identifiables et peuvent être faciles à déclencher par un seul skieur. Elles provoquent des avalanches de taille petite à moyenne (taille 1 à 2) en mobilisant la neige récente. En haute montagne (au-dessus de 3200/3300 m), les cassures peuvent être plus épaisses et mobiliser d'importants volumes de neige, générant ainsi des avalanches de taille moyenne (taille 2), voire grande (taille 3). \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : peu probables en tout début de journée avec le regel nocturne, puis quelques départs ponctuels en pentes raides au fil de l'ensoleillement et de l'humidification de la neige récente. Avalanches de taille petite à moyenne (taille 1 à 2). Un départ linéaire de plus grande ampleur est possible en haute montagne (au-dessus de 3000/3200 m), par humidification d'une plaque ventée en place, ou par départ en cascade en cas de déstabilisation d'une couche fragile persistante enfouie à la base du manteau neigeux en versants nord. Avalanches de taille moyenne à grande (taille 2 à 3). ",
+  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées  : 41 cm à la Nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1700 m en ubacs de fond de vallée en cœur de massif, plutôt 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : vendredi matin, on trouve une couche de neige récente restée froide à haute altitude dans les versants nord. Dans les autres orientations, neige croûtée le matin puis s'humidifiant en journée. L'épaisseur de neige diminue rapidement en dessous de 2500 m. Sinon, manteau neigeux printanier ou de névé.",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

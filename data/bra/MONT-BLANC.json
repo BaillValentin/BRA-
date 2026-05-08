@@ -1,7 +1,7 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-05-07T16:00:00",
-  "validUntil": "2026-05-08T18:00:00",
+  "date": "2026-05-08T16:00:00",
+  "validUntil": "2026-05-09T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -24,11 +24,12 @@
     }
   ],
   "situations": [
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Neige récente dans les ubacs et à haute altitude.\nDéclenchements skieurs : Neige récente sous les skis. ",
-  "stability": "Encore quelques instabilités dans la neige récente.\n\nDéparts spontanés :\n* En ubac au-dessus de 2400 m et en tous versants au-dessus de 2800 m : départs ponctuels dans la neige récente encore faiblement humidifiée. Ces départs ponctuels peuvent entrainer des volumes plus importants, taille 1 (petite) à 2 (moyenne).\nFacteur aggravant, entre 2400 et 3000 m en versants E/N/O : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 70 cm à 1 m possible. Taille 2, rarement 3.\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* En tous versants au-dessus de 2800 m : de la neige récente peut couler sous les skis et peut entrainer de plus gros volumes de neige. Taille 1 à 2. Phénomène également possible à plus basse altitude, jusqu'à 2400 m, mais avec de plus petits volumes. Taille 1, rarement 2.",
-  "snowQuality": "Enneigement :\nPour la saison, l’enneigement est très déficitaire sous 2400 m et déficitaire au-dessus.  \nOn retrouve encore de la neige récente tombée ce mercredi au-dessus de 2100/2200 m, 10 cm vers 2400 m, 20-30 cm au-dessus de 2800 m.\nOn peut chausser les skis au-dessus de 2100 m en sud et 1700 m en nord. \n\nQualité de la neige vendredi :\n* En dessous de 2400 m, manteau neigeux humide jusqu'en profondeur, voire neige de névé. Bon regel nocturne. Humidification rapide dans les pentes au soleil.\n* Au-dessus de 2400 m, 10 cm de neige récente reposant sur de la vieille neige, souvent dure. Neige croutée en début de journée, s'humidifiant rapidement avec le soleil.\n* Au-dessus de 2800 m, 20-30 cm de neige récente. Légère s'humidifiant lentement en journée dans les ubacs. Croutée et s'humidifiant au fil du réchauffement par le soleil dans les adrets. Localement ventée à cartonnée proche des crêtes ou sommets. ",
+  "summary": "Départs spontanés : quelques avalanches de neige humide au soleil\nDéclenchements skieurs : rares plaques à vent en haute montagne",
+  "stability": "Manteau neigeux printannier sous 3000 m\n\nDéparts spontanés : \n* rares avalanches de neige humide, plus nombreuses au fil du réchauffement et du rayonnement solaire. En dessous de 3200 m en nord et 4000 m en sud. Taille 1 à 2 (petite à moyenne). Dans la tranche 2400/3000 m, dans les versants nord-est, nord-ouest et nord, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de plus grandes ampleurs. Rare taille 3 (grande).\n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne). \n\nDéclenchements provoqués : \n*rares plaques à vent dans la neige encore froide (au-dessus de 2800 m en nord et 3600 m en sud). Assez facile à déclencher. Taille 1 à 2 (petite à moyenne). \n* avalanches de neige humide sous 4000 m en sud et 3200 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis. Taille 1 rarement  2. Causé par le réchauffement et le rayonnement solaire.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 3000 m et correct au-dessus.\nOn peut chausser les skis au-dessus de 2100 m en sud et 1800 m en nord. \n\nQualité de la neige ce samedi matin : \nSous 2400 m, neige de névé avec un mauvais regel nocturne\nSous 2800 m en nord et 3600 m en sud, fine couche de neige récente humide reposant sur de la neige de printemps avec peu de regel nocturne. \nAu-dessus de 2800 m en nord et 3600 m en sud, neige encore froide souvent dense et lourde. ",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

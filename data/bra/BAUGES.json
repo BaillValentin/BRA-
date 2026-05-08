@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-07T16:00:00",
-  "validUntil": "2026-05-08T18:00:00",
+  "date": "2026-05-08T16:00:00",
+  "validUntil": "2026-05-09T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,9 +13,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables.",
-  "stability": "Rares instabilités dans la neige récente.\n\nDéparts spontanés : Peu probables au vu du faible enneigement.\n* Rares plaques de fond dans les pentes raides et lisses (pentes herbeuses, dalles rocheuses). Possibles à toute heure du jour et de la nuit. Taille 2 (moyenne).\n\nDéclenchements provoqués :\n* Au maximum un peu de neige humide peut être poussé par un skieur, dans les pentes raides fortement humidifiées. Taille 1 (petite).",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.\nEncore un peu de neige au-dessus de 1800 m en nord. Les versants sud sont secs.\n\nQualité de la neige vendredi :\n* À toute altitude, manteau neigeux humide jusqu'en profondeur, voire neige de névé.\n* Bon regel nocturne. Humidification rapide dans les pentes au soleil.",
+  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : peu probables",
+  "stability": "Manteau neigeux printannier\n\nDéparts spontanés : \n* rares avalanches de neige humide ou en plaque de fond, dans les versants nord au-dessus de 2000 m. Taille 1 (petite). \n\nDéclenchements provoqués : \n* de la neige humide peu couler sous les skis, dans les versants nord au-dessus de 2000 m. Taille 1 (petite).",
+  "snowQuality": "Enneigement : \nIl reste de la neige uniquement dans les versants nord au-dessus de 2000 m. \n\nQualité de la neige ce samedi matin : \nneige de névé avec un mauvais regel nocturne",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

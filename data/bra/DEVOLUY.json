@@ -1,7 +1,7 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-05-07T16:00:00",
-  "validUntil": "2026-05-08T18:00:00",
+  "date": "2026-05-08T16:00:00",
+  "validUntil": "2026-05-09T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,9 +13,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide au soleil.\nDéclenchements skieurs : plaques résiduelles à haute altitude. ",
-  "stability": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : \n- Plaques résiduelles en versant nord aux plus hautes altitudes du massif. Avalanches de petite taille uniquement (taille 1). \n- Un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : peu probables en tout début de journée après le regel nocturne, puis rares départs ponctuels en pentes raides au fil de l'ensoleillement. Avalanches de petite taille (taille 1), très rarement moyenne (taille 2) au-dessus de 2600 m. ",
-  "snowQuality": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 1800 m en ubacs sur terrain favorable, 2300/2400 m en adrets.\n\nÉtat de la neige en surface : vendredi matin, neige croûtée en surface s'humidifiant au fil de l'ensoleillement. On peut encore trouver de la neige restée froide au-dessus de 2600/2800 m en versant nord. Sinon, manteau neigeux printanier ou de névé. ",
+  "summary": "Départs spontanés : en neige humide au soleil.\nDéclenchements skieurs : peu probables. ",
+  "stability": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : peu probables en tout début de journée après le regel nocturne, puis rares départs ponctuels en pentes raides au fil de l'ensoleillement. Avalanches de petite taille (taille 1), très rarement moyenne (taille 2) au-dessus de 2600 m. ",
+  "snowQuality": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 2000 m en ubacs sur terrain favorable, 2300/2500 m en adrets.\n\nÉtat de la neige en surface : samedi matin, neige croûtée en surface s'humidifiant au fil de l'ensoleillement. Manteau neigeux printanier ou de névé. ",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

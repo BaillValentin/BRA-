@@ -1,7 +1,7 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-05-08T16:00:00",
-  "validUntil": "2026-05-09T18:00:00",
+  "date": "2026-05-09T16:00:00",
+  "validUntil": "2026-05-10T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -17,9 +17,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares avalanches de neige humide au soleil\nDéclenchements skieurs : neige humide coulant sous les skis",
-  "stability": "Manteau neigeux printannier\n\nDéparts spontanés : \n* rares avalanches de neige humide, un peu plus nombreuses au fil du réchauffement et du rayonnement solaire. Taille 1 à 2 (petite à moyenne). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne). \n\nDéclenchements provoqués : \n* de la neige humide peu couler sous les skis. Taille 1 (petite). Causé par le réchauffement et le rayonnement solaire.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nOn peut chausser les skis au-dessus de 2100 m en sud et 1800 m en nord. \n\nQualité de la neige ce samedi matin : \nSous 2400 m, neige de névé avec un mauvais regel nocturne\nAu-dessus de 2400 m, fine couche de neige récente humide reposant sur de la neige de printemps avec peu de regel nocturne. ",
+  "summary": "Départs spontanés : rares avalanches de neige humide sous les plus fortes averses\nDéclenchements skieurs : neige humide coulant sous les skis",
+  "stability": "Manteau neigeux printannier\n\nDéparts spontanés : \n* rares avalanches de neige humide, en particulier sous les plus fortes averses. Taille 1 à 2 (petite à moyenne). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne). \n\nDéclenchements provoqués : \n* de la neige humide peu couler sous les skis. Taille 1 (petite). ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce dimanche matin : \nSous 2400 m, neige de névé avec sans regel nocturne\nAu-dessus de 2400 m, neige de printemps avec peu ou pas de regel nocturne. ",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

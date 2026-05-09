@@ -1,7 +1,7 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-05-08T16:00:00",
-  "validUntil": "2026-05-09T18:00:00",
+  "date": "2026-05-09T16:00:00",
+  "validUntil": "2026-05-10T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -24,12 +24,13 @@
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques avalanches de neige humide au soleil\nDéclenchements skieurs : rares plaques à vent en haute montagne",
-  "stability": "Manteau neigeux printannier sous 3000 m\n\nDéparts spontanés : \n* rares avalanches de neige humide, plus nombreuses au fil du réchauffement et du rayonnement solaire. En dessous de 3200 m en nord et 4000 m en sud. Taille 1 à 2 (petite à moyenne). Dans la tranche 2400/3000 m, dans les versants nord-est, nord-ouest et nord, de petits départs ponctuels peuvent déclencher, en cascade, une plaque de plus grandes ampleurs. Rare taille 3 (grande).\n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne). \n\nDéclenchements provoqués : \n*rares plaques à vent dans la neige encore froide (au-dessus de 2800 m en nord et 3600 m en sud). Assez facile à déclencher. Taille 1 à 2 (petite à moyenne). \n* avalanches de neige humide sous 4000 m en sud et 3200 m en nord. Facile à déclencher au soleil. Départ ponctuel sous les skis. Taille 1 rarement  2. Causé par le réchauffement et le rayonnement solaire.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 3000 m et correct au-dessus.\nOn peut chausser les skis au-dessus de 2100 m en sud et 1800 m en nord. \n\nQualité de la neige ce samedi matin : \nSous 2400 m, neige de névé avec un mauvais regel nocturne\nSous 2800 m en nord et 3600 m en sud, fine couche de neige récente humide reposant sur de la neige de printemps avec peu de regel nocturne. \nAu-dessus de 2800 m en nord et 3600 m en sud, neige encore froide souvent dense et lourde. ",
+  "summary": "Départs spontanés : quelques avalanches de neige humide sous les averses\nDéclenchements skieurs : formation de rares plaques à vent dans la neige fraîche en haute montagne",
+  "stability": "Manteau neigeux printannier sous 3000 m\n\nDéclenchements provoqués : \n*rares plaques à vent dans la neige fraîche ou dans la neige encore froide (au-dessus de 2800 m), un peu plus nombreuses en fin de journée et à proximité de la frontière italienne. Facile à déclencher. Taille 1 à 2 (petite à moyenne). \n* de la neige humide peu couler sous les skis, sous 2600 m. Taille 1 (petite).\n\nDéparts spontanés : \n* rares avalanches de neige humide, particulièrement sous les plus fortes averses. En dessous de 2600 m. Taille 1 à 2 (petite à moyenne).\n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne). ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 3000 m et correct au-dessus.\nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce dimanche matin : \nSous 2400 m, neige de névé avec sans regel nocturne\nSous 3000 m en nord et 3800 m en sud, de la neige de printemps avec peu de regel nocturne. \nAu-dessus de 3000 m en nord et 3800 m en sud, neige encore froide, alternance d'enfoncement piéton important et de neige dure.",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

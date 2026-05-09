@@ -1,21 +1,36 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-05-08T16:00:00",
-  "validUntil": "2026-05-09T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-09T16:00:00",
+  "validUntil": "2026-05-10T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2500",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2500",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
     }
   ],
   "situations": [
+    "neige_fraiche",
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide au soleil.\nDéclenchements skieurs : peu probables. ",
-  "stability": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis.\n\nDéparts spontanés : peu probables en tout début de journée après le regel nocturne, puis rares départs ponctuels en pentes raides au fil de l'ensoleillement. Avalanches de petite taille (taille 1), très rarement moyenne (taille 2) au-dessus de 2600 m. ",
-  "snowQuality": "Enneigement très faible pour la période. À la Nivôse de Millefonts, on mesure 56 cm de neige.\n\nLimite d'enneigement skiable : vers 2000/2100 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : samedi matin, neige croûtée en surface s'humidifiant au fil de l'ensoleillement. Manteau neigeux printanier ou de névé. ",
+  "summary": "Départs spontanés : quelques départs ponctuels en altitude neige humide\nDéclenchements skieurs : plaques localisées et superficielles en formation en haute altitude",
+  "stability": "INSTABILITÉ LIMITÉE DANS LA NEIGE FRAICHE ATTENDUE EN ALTITUDE\n\nDéclenchements provoqués :  plaques localisées en formation vers les hauts sommets avec les chutes de neige ventée. Instabilités de taille limitée, surtout petites, mais faciles à déclencher par un skieur. Principalement en versants nord-ouest / nord / nord-est dans les accumulations par le vent. \n\nDéparts spontanés :  en cours de journée de dimanche, quelques avalanches de neige s’humidifiant en pente raide d’altitude au-dessus de 2400/2500 m environ. Tout versant, surtout de petite taille, rarement moyenne. Causé par le redoux et les averses de pluie. ",
+  "snowQuality": "Enneigement très faible pour la période. À la Nivôse de Millefonts, on mesure 56 cm de neige.\n\nLimite d'enneigement skiable : vers 2000/2100 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux printanier souvent humide ou des névés. Regel alétoire. 3/10 cm de neige fraiche le matin au-dessus de 2400/2500 m, de nouvelles averses neigeuses en haute altitude en journée, sinon sous forme de pluie.",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

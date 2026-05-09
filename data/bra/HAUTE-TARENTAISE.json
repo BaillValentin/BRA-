@@ -1,7 +1,7 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-05-08T16:00:00",
-  "validUntil": "2026-05-09T18:00:00",
+  "date": "2026-05-09T17:00:00",
+  "validUntil": "2026-05-10T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -21,11 +21,12 @@
   ],
   "situations": [
     "neige_fraiche",
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : rare plaque en Nord d'altitude.",
-  "stability": "PRINTANIER OUTRE LES RARES INSTABILITÉS DANS LA NEIGE RÉCENTE EN NORD D'ALTITUDE.\n\nDéclenchements provoqués :\n - En plein Nord de haute altitude, des accumulations de neige récente hébergent de rares structures de plaque pouvant réagir. Elles sont de taille modeste et engendrent des avalanches de taille 1 (petite), voire 2 (moyenne) en très haute montagne, mieux servi en neige fraiche. Observable : accumulation localisée de neige fraîche. \n - Ailleurs, avec le réchauffement en journée, possibilité d'une rare petite avalanche de neige humide sous les skis, en coupant une pente trop humidifiée. Observable : grande épaisseur de neige très humide sous les skis.\n\nDéparts spontanés : Peu probables. Avec le réchauffement en journée puis les averses en soirée, de rares petits départs ponctuels (en poire) sont possibles. Taille 1.\n\nAutres : Chutes de corniche possibles. Ponts de neige au-dessus des ruisseaux fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2600 m, neige de névé, dense toute la journée sauf aux abords des rochers/végétations où elle est croutée pourrie cédant facilement. Plus haut, neige récente croutée et s'humidifiant. Il faut monter au-dessus de 2800 m en nord raide pour trouver un peu de neige récente restée froide (non croutée). On trouve alors 20/40 cm vers 2800/3000 m, plus légère en surface, donc très agréable à skier.",
+  "summary": "Départs spontanés : petits départs en neige humide.\nDéclenchements skieurs : rare plaque en Nord d'altitude.",
+  "stability": "PRINTANIER, RARES INSTABILITÉS EN NORD D'ALTITUDE.\n\nDéclenchements provoqués :\n - En plein Nord de haute altitude, des accumulations de neige récente hébergent de rares structures de plaque en perte de réactivité. Elles sont modestes et engendrent des avalanches de taille 1 (petite), rare 2 (moyenne) en très haute montagne mieux enneigée. Observable : accumulation localisée de neige fraîche. \n - Ailleurs, avec le réchauffement en journée, possibilité d'une petite avalanche de neige humide sous les skis, en coupant une pente trop humidifiée. Observable : grande épaisseur de neige très humide sous les skis.\nSecteur des sources de l'Isère :  Au dessus de 2600m, quelques plaques dans la neige récente, petites à moyennes avalanches, plus fréquentes et réactives en haute altitude.\n\nDéparts spontanés : Avec le réchauffement et une éventuelle averse en journée, de rares petits départs ponctuels (en poire) sont possibles. Taille 1.\nSecteur des sources de l'Isère :  Quelques petites avalanches de neige humide au dessus de 2600 m, Elles sont plus fréquentes au fil des heures dans la neige récente s'humidifiant même en nord avec les nuages bien présents.altitude.\n\nAutres : Chutes de corniche possibles Les ponts de neige au-dessus des ruisseaux sont fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2800 m, neige de névé souvent pourrie par le mauvais regel. Plus haut, neige récente s'humidifiant devenant vite pourrie en Est et partout ensuite avec le chauffage, le foehn et les nuages. Il faut monter au dessus de 3000 m en nord pour trouver de la neige restée froide.",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

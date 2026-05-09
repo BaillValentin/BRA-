@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-08T16:00:00",
-  "validUntil": "2026-05-09T18:00:00",
+  "date": "2026-05-09T16:00:00",
+  "validUntil": "2026-05-10T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,7 +15,7 @@
   ],
   "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : peu probables",
   "stability": "Manteau neigeux printannier\n\nDéparts spontanés : \n* rares avalanches de neige humide ou en plaque de fond, dans les versants nord au-dessus de 2000 m. Taille 1 (petite). \n\nDéclenchements provoqués : \n* de la neige humide peu couler sous les skis, dans les versants nord au-dessus de 2000 m. Taille 1 (petite).",
-  "snowQuality": "Enneigement : \nIl reste de la neige uniquement dans les versants nord au-dessus de 2000 m. \n\nQualité de la neige ce samedi matin : \nneige de névé avec un mauvais regel nocturne",
+  "snowQuality": "Enneigement : \nIl reste de la neige uniquement dans les versants nord au-dessus de 2000 m. \n\nQualité de la neige ce samedi matin : \nneige de névé avec sans regel nocturne",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

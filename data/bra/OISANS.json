@@ -1,31 +1,36 @@
 {
   "massif": "OISANS",
-  "date": "2026-05-08T16:00:00",
-  "validUntil": "2026-05-09T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-09T15:00:00",
+  "validUntil": "2026-05-10T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2800",
-      "level": 1,
+      "altitude": "<3200",
+      "level": 2,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "NW"
       ]
     },
     {
-      "altitude": ">2800",
-      "level": 2,
+      "altitude": ">3200",
+      "level": 3,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "NW"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probable, ou une rare coulée humide au soleil, en versant Nord \nDéclenchements skieurs : Très rares plaques en plein Nord d'altitude. Sinon, possibles coulées humides ponctuelles sous les skis.",
-  "stability": "RARES PLAQUES EN PLEIN NORD D'ALTITUDE, RARE COULEE HUMIDE AU SOLEIL \n\nDéparts spontanés : Peu probables, ou une rare coulée humide (taille petite à moyenne) dans la neige récente qui serait resté froide jusqu'ici, donc plutôt en Nord au-dessus de 2800m. \n\nDéclenchements provoqués : Une rare plaque pourrait subsister localement dans la neige récente, si celle-ci est restée froide ( donc en plein Nord, plutôt au-dessus de 2800m). Le plus souvent souvent d'épaisseur très limitée, et devenant difficiles à déclencher par un pratiquant. \nEn pente réchauffée, le risque principal sera de faire partir une coulée humide sous les skis en pente raide. ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement s'est temporairement amélioré en altitude avec la couche de neige récente tombée depuis lundi, mais il reste généralement déficitaire sur une bonne partie du massif, notamment aux basses et moyennes altitudes.\n\nLimites skiables : Vers 1800/2100m en Nord à 2200/2500m en versants ensoleillés. \n\nQualité de la neige samedi :  Regel nocturne médiocre sous 2600m, correct au-dessus. En journée, l'humidification reprend au soleil puis sous les cumulus en tous versants, dans la couche de neige récente tombée ces derniers jours qui se réduit parfois rapidement, puis gagne en profondeur dans la vieille neige déjà humidifiée et dense (de type névé par endroits). Une pente plein Nord au-dessus de 2800m pourrait encore être en neige froide.",
+  "summary": "Départs spontanés : Coulées de neige fraîche (poudreuses à haute altitude), humides plus bas. Rare cassure sous le vent en Nord raide ?\nDéclenchements skieurs : Risque de plaques (souvent friables/poudreuse dense), sous le vent de Sud-Est puis Sud-Ouest. Au dessus de 3200/3400m en faces raides une cassure plus épaisse non exclue en contrebas?",
+  "stability": "CHUTES DE NEIGE ATTENDUES EN ALTITUDE, PARFOIS VENTEES : RISQUE DE PLAQUES LOCALEMENT MARQUE, NOTAMMENT VERS LES ECRINS, L'OLAN... \n\nDimanche, on attend jusque 20 cm en haut de l'Oisans, voire 30 cm près des Ecrins (Meije/Olan), parfois soufflés par vent de Sud-Est puis Sud-Ouest. Risque accidentel temporaire.\nEn raide faces Nord au dessus de 3200/3400m, une cassure plus épaisse possible en contrebas ?\nSous 2600/2800m environ, essentiellement de la neige de névé stable ou saupoudrage humide.\n\nDéclenchements provoqués : Lors des chutes de neige parfois ventée, risque de formation de plaques assez friables (en poudreuse dense), sous le vent de Sud-Est puis Sud-Ouest. Cumul attendu jusque 30 cm vers les Hautes Alpes, la Meije.\nRisque accidentel temporaire, dans certaines faces d'altitude.  Notez que des sous couches plus fragiles sont présentes en raides faces Nord d'altitude, au dessus de 3200/3400m. Une rupture de surface pourrait entrainer une plus épaisse cassure en contrebas...\nLors d'éclaircies, aussi un risque de coulée humide sous les skis.\nDéparts spontanés :  Lors des intempéries coulées poudreuses en altitude, parfois une cassure sous le vent ? Lors d'éclaircies, coulées ponctuelles/petites avalanches dans la neige fraîche humide, vers les rochers.\nA modeste altitude, sous 2600/2800m, la neige est plus humide mais bien dense, de névé... Attention néanmoins en bas de couloirs...",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude (grâce aux récentes précipitations) au dessus de 2100/2500m suivant le versant...\nLimites skiables : Vers 1800/2100m en Nord à 2300/2500m en versants ensoleillés. \n\nQualité de la neige dimanche:  Pas de regel en bas de pentes, névés humides. \nA haute altitude, neige fraîche localement ventée et assez froide (le matin au moins).\nLors de brèves éclaircies, humidification superficielle.",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

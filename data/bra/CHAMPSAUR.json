@@ -1,7 +1,7 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-05-09T16:00:00",
-  "validUntil": "2026-05-10T18:00:00",
+  "date": "2026-05-10T16:00:00",
+  "validUntil": "2026-05-11T18:00:00",
   "riskMax": 3,
   "risks": [
     {
@@ -10,6 +10,7 @@
       "orientations": [
         "N",
         "NE",
+        "E",
         "NW"
       ]
     },
@@ -19,6 +20,7 @@
       "orientations": [
         "N",
         "NE",
+        "E",
         "NW"
       ]
     }
@@ -28,9 +30,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques départs ponctuels ou avalanches de plaque en neige sèche en haute altitude. Plus bas, quelques départs ponctuels en neige humide\nDéclenchements skieurs : plaques en formation en haute altitude, faciles à déclencher",
-  "stability": "NOUVELLES INSTABILITÉS DANS LA NEIGE FRAICHE ATTENDUE EN ALTITUDE, POUVANT ETRE VOLUMINEUSES EN HAUTE ALTITUDE\n\nDéclenchements provoqués : \n- au-dessus de 3000/3200 m environ, nouvelles plaques en formation avec les chutes de neige ventée. Instabilités faciles à déclencher par un skieur, de taille petite à moyenne, plus rarement grande. Aucune orientation exclue, mais principalement en versants nord-ouest / nord / nord-est dans les accumulations par le vent.\n- plus bas, entre 2700/3000 m environ, plaques en formation en nombre et taille limités, surtout petite. Facilement déclenchables, essentiellement en versants nord-ouest / nord / nord-est dans les accumulations par le vent.\n\nDéparts spontanés :\n- Au-dessus de 3000/3200 m environ, quelques avalanches de neige fraîche en pente raide. Départs ponctuels ou en plaque, parfois en cascade. Taille petite à moyenne, plus rarement grande. Causé par les chutes de neige et le transport de la neige par le vent.\n- Plus bas, entre 2400/3000 m environ, en cours de journée de dimanche, quelques avalanches de neige s’humidifiant en pente raide. Tout versant, surtout de petite taille, rarement moyenne. Causé par le redoux et les averses de pluie.",
-  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées  : 36 cm à la Nivôse d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1700/1900 m en ubacs de fond de vallée en cœur de massif, plutôt 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : neige fraiche dès 2300/2400m, jusqu'à 10/15 cm en haute altitude. Nouvelles chutes sous forme d'averses en journée de dimanche. Sur de la neige restée froide en nord de haute altitude, plus bas sur un manteau neigeux printanier souvent humide ou des névés. Regel aléatoire. ",
+  "summary": "Départs spontanés : en haute altitude, quelques départs ponctuels ou avalanches de plaque en neige sèche. Plus bas, quelques départs ponctuels en neige humide\nDéclenchements skieurs : plaques en haute altitude, faciles à déclencher",
+  "stability": "EN ALTITUDE, INSTABILITÉS DANS LA NEIGE FRAICHE. EN HAUTE ALTITUDE, PLUS NOMBREUSES ET POUVANT ETRE VOLUMINEUSES \n\nDéclenchements provoqués : \n- au-dessus de 3000 m environ, plaques en place, d’autres en formation. Instabilités faciles à déclencher par un skieur, de taille petite à moyenne, plus rarement grande. Aucune orientation exclue, mais principalement en versants de large nord à est dans les accumulations par le vent. Causé par les chutes récentes et nouvelles ainsi que le transport par le vent.\n- plus bas, entre 2700/3000 m environ, plaques localisées, de taille limitée, surtout petites. Facilement déclenchables, essentiellement en versants de large nord à est dans les accumulations par le vent.\n\nDéparts spontanés :\n- au-dessus de 3000 m environ, quelques avalanches de neige fraîche en pente raide. Départs ponctuels ou en plaque, parfois en cascade. Taille petite à moyenne, plus rarement grande. Causé par les chutes de neige et le transport de la neige par le vent.\n- plus bas, entre 2500/3000 m environ, en cours de journée de lundi, quelques départs de neige s’humidifiant en pente raide. Tout versant, surtout superficiels de petite taille, très rarement moyenne. Causé par les quelques éclaircies. ",
+  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées  : 33 cm à la nivose d'Orcières à 2300 m.  \n\nLimite d'enneigement skiable : très localement vers 1700/1900 m en ubacs de fond de vallée en cœur de massif, plutôt 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : neige fraiche / récente en quantité au-dessus de 3000 m, souvent travaillée par le vent. Plus bas, un peu de neige fraiche/récente sur un manteau neigeux printanier ou de type névé. ",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

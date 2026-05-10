@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-05-09T15:00:00",
-  "validUntil": "2026-05-10T18:00:00",
+  "date": "2026-05-10T15:00:00",
+  "validUntil": "2026-05-11T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -11,11 +11,12 @@
     }
   ],
   "situations": [
+    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables, neige de névé humide mais stable.\nDéclenchements skieurs : RAS",
-  "stability": "QUELQUES NÉVÉS, STABLES...\n\n Il ne reste que de grands névés en faces Nord d'altitude, neige humide mais dense, stable...\nDéparts spontanés : Peu probables.\nDéclenchements provoqués : RAS.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement devient bien faible en ce début mai. Il ne reste que de grand névés vers les sommets, surtout en Nord d'altitude dès 1700/1900m... \nQualité de la neige dimanche :  Pluies et nuages, absence de regel. Neige bien humide dense, de névé.",
+  "summary": "Départs spontanés : Peu probables,  ou mini coulée de neige fraîche humide vers les hauts sommets ?\nDéclenchements skieurs : RAS",
+  "stability": "QUELQUES NÉVÉS, STABLES... \n\n Il ne reste que de grands névés en faces Nord d'altitude, neige humide mais dense, stable... Temporairement possible saupoudrage superficiel au dessus de 2200m.\nDéparts spontanés : Peu probables ou min coulée de surface suite à de possibles averses (a priori moins de 5 cm attendus)\nDéclenchements provoqués : RAS.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement devient bien faible en ce début mai. Il ne reste que de grand névés vers les sommets, surtout en Nord d'altitude dès 1700/1900m... \nQualité de la neige lundi :  Pluies passagères et nuages, absence de regel. Neige bien humide dense, de névé.\nTout au plus, temporairement, saupoudrage possible vers les plus hauts sommets.",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

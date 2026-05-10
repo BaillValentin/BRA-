@@ -1,21 +1,27 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-05-09T17:00:00",
-  "validUntil": "2026-05-10T18:00:00",
+  "date": "2026-05-10T16:00:00",
+  "validUntil": "2026-05-11T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2800",
+      "altitude": "<2300",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "E",
+        "NW"
       ]
     },
     {
-      "altitude": ">2800",
+      "altitude": ">2300",
       "level": 2,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "E",
+        "NW"
       ]
     }
   ],
@@ -24,9 +30,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : petits départs en neige humide.\nDéclenchements skieurs : rare plaque en Nord d'altitude.",
-  "stability": "PRINTANIER, RARES INSTABILITÉS EN NORD D'ALTITUDE.\n\nDéclenchements provoqués :\n - En plein Nord de haute altitude, des accumulations de neige récente hébergent de rares structures de plaque en perte de réactivité. Elles sont modestes et engendrent des avalanches de taille 1 (petite), rare 2 (moyenne) en très haute montagne mieux enneigée. Observable : accumulation localisée de neige fraîche. \n - Ailleurs, avec le réchauffement en journée, possibilité d'une petite avalanche de neige humide sous les skis, en coupant une pente trop humidifiée. Observable : grande épaisseur de neige très humide sous les skis.\n\nDéparts spontanés : Avec le réchauffement et une éventuelle averse en journée, de rares petits départs ponctuels (en poire) sont possibles. Taille 1.\n\nAutres : Chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significative ces dernières semaines.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2800 m, neige de névé souvent pourrie par le mauvais regel. Plus haut, neige récente s'humidifiant devenant vite pourrie en Est et partout ensuite avec le chauffage et les nuages. Il faut monter au dessus de 3000 m en nord pour trouver de la neige restée froide.",
+  "summary": "Départs spontanés : rares départs en neige récente ventée, départs en neige humide plus bas.\nDéclenchements skieurs : quelques plaques en neiges récentes en formation sous les averses.",
+  "stability": "INSTABILITéS EN COURS DE FORMATION SOUS LES AVERSES DE NEIGE.\n\nDéclenchements provoqués : \n-Au dessus de 2300m, plaques friables ou dures dans les 10 à 20 cm de neige ventée attendus dans la journée. Rares et de petite taille le matin, elles deviennent plus fréquentes et volumineuses en journée au fil des averses. Petites à moyennes avalanches. On les trouve majoritairement en secteur Nord à Est, sous le vent et près des crêtes et des ruptures de pentes. \n-Plus bas sous la pluie, quelques coulées en neige humides sous les skis. Petites avalanches.\nObservable : accumulation de neige fraîche. \n\nDéparts spontanés : \n-Au dessus de 2300, départs sous l'action du transport par le vent. Petites et rares le matin, elles deviennent plus fréquentes en journée avec les averses. Majoritairement en secteur Nord à Est, sous le vent et près des crêtes et des ruptures de pentes.\n-Sous les 2100 m, il pleut, mais également plus haut la neige récente peut commencer à s'humidifier à la faveur d'une éclaircie entre deux averses : quelques départs ponctuels (coulées en poire) sont possibles. Petites à moyennes avalanches.\n\nAutres : Chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne est quasi sèche à cause des épisodes de vent de l'hiver et de l’absence de précipitations significative ces dernières semaines.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2100 m, neige de névé souvent pourrie par la pluie. Plus haut, neige récente froide au dessus de 2300/2500 m. Elle peut devenir collante en cas d'éclaircies entre deux averses sous le soleil de mai.",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

@@ -1,22 +1,38 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-05-09T17:00:00",
-  "validUntil": "2026-05-10T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-10T16:00:00",
+  "validUntil": "2026-05-11T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2300",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2300",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "NW"
+      ]
     }
   ],
   "situations": [
-    "neige_humide",
-    "glissement"
+    "neige_fraiche",
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables. Rare avalanche de glissement.\nDéclenchements skieurs : peu probables. ",
-  "stability": "CONDITIONS STABLES DE FIN DE SAISON.\n\nDéparts spontanés : Rare départ humide, plutôt sous forme de plaque de fond sur les terrains favorables (pente herbeuse, dalle). En journée, avec les averses, de rares petits départs ponctuels (en poire) sont possibles. Taille 1.\n\nDéclenchements provoqués : Possibilité d'une rare avalanche de neige humide sous les skis, en coupant une pente trop humidifiée. Observable : grande épaisseur de neige très humide sous les skis.\n\nAutres : Chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive.\n\nLimite skiable : vers 1800/1900 m en nord,  2200 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2800 m, neige de névé souvent pourrie par le mauvais regel. Plus haut, neige récente s'humidifiant devenant vite pourrie en Est et partout ensuite avec le chauffage et les nuages.",
+  "summary": "Départs spontanés : rares départs en neige récente ventée, départs en neige humide plus bas.\nDéclenchements skieurs : quelques plaques en neiges récentes en formation sous les averses.",
+  "stability": "INSTABILITéS EN COURS DE FORMATION SOUS LES AVERSES DE NEIGE.\n\nDéclenchements provoqués : \n-Au dessus de 2300m, plaques friables ou dures dans les 10 à 20 cm de neige ventée attendus dans la journée. Rares et de petite taille le matin, elles deviennent plus fréquentes et volumineuses en journée au fil des averses. Petites à moyennes avalanches. On les trouve majoritairement en secteur Nord à Est, sous le vent et près des crêtes et des ruptures de pentes. \n-Plus bas sous la pluie, quelques coulées en neige humides sous les skis. Petites avalanches.\nObservable : accumulation de neige fraîche. \n\nDéparts spontanés : \n-Au dessus de 2300, départs sous l'action du transport par le vent. Petites et rares le matin, elles deviennent plus fréquentes en journée avec les averses. Majoritairement en secteur Nord à Est, sous le vent et près des crêtes et des ruptures de pentes.\n-Sous les 2100 m, il pleut, mais également plus haut la neige récente peut commencer à s'humidifier à la faveur d'une éclaircie entre deux averses : quelques départs ponctuels (coulées en poire) sont possibles. Petites à moyennes avalanches.\n\nAutres : Chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive.\n\nLimite skiable : vers 1800/1900 m en nord,  2200 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2100 m, neige de névé souvent pourrie par la pluie. Plus haut, neige récente froide au dessus de 2300/2500 m. Elle peut devenir collante en cas d'éclaircies entre deux averses sous le soleil de mai.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

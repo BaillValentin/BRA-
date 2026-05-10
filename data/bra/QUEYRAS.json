@@ -1,24 +1,26 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-05-09T16:00:00",
-  "validUntil": "2026-05-10T18:00:00",
+  "date": "2026-05-10T16:00:00",
+  "validUntil": "2026-05-11T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2400",
+      "altitude": "<2500",
       "level": 1,
       "orientations": [
         "N",
         "NE",
+        "E",
         "NW"
       ]
     },
     {
-      "altitude": ">2400",
+      "altitude": ">2500",
       "level": 2,
       "orientations": [
         "N",
         "NE",
+        "E",
         "NW"
       ]
     }
@@ -28,9 +30,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques départs ponctuels en altitude neige humide\nDéclenchements skieurs : plaques localisées et superficielles en formation en haute altitude",
-  "stability": "INSTABILITÉ LIMITÉE DANS LA NEIGE FRAICHE ATTENDUE EN ALTITUDE\n\nDéclenchements provoqués :  plaques localisées en formation vers les hauts sommets avec les chutes de neige ventée. Instabilités de taille limitée, surtout petites, mais faciles à déclencher par un skieur. Principalement en versants nord-ouest / nord / nord-est dans les accumulations par le vent. \n\nDéparts spontanés :  en cours de journée de dimanche, quelques avalanches de neige s’humidifiant en pente raide d’altitude au-dessus de 2400 m environ. Tout versant, surtout de petite taille, rarement moyenne. Causé par le redoux et les averses de pluie. ",
-  "snowQuality": "Enneigement particulièrement déficitaire pour la période.\nHauteurs de neige observées : 21 cm à la Nivôse du Col Agnel à 2630 m. \n\nLimite d'enneigement skiable : au plus bas à 2000/2200 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais, plus souvent 2100/2200 m. Adrets sec jusqu'à 2800/3000 notamment vers l'est du massif. \n\nÉtat de la neige en surface : manteau neigeux printanier souvent humide ou des névés. Regel aléatoire. On peut encore trouver de la neige restée froide au-dessus de 2800/2900 m. 5/10 cm de neige fraiche le matin au-dessus de 2300/2400 m, de nouvelles averses neigeuses en haute altitude en journée, sinon sous forme de pluie.",
+  "summary": "Départs spontanés : quelques départs ponctuels en neige humide en altitude \nDéclenchements skieurs : plaques localisées et superficielles vers les hauts sommets",
+  "stability": "INSTABILITÉ LIMITÉE DANS LA NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : vers les hauts sommets, plaques localisées en place ou en formation. Instabilités de taille limitée dans la neige récente, surtout petites, mais faciles à déclencher par un skieur. Principalement en versants de large nord à est dans les accumulations de neige par le vent. Causé par les nouvelles petites chutes et le transport par le vent.\n\nDéparts spontanés : en cours de journée de lundi, quelques départs de neige s’humidifiant en pente raide d’altitude au-dessus de 2500 m environ. Tout versant, surtout superficiels de petite taille, très rarement moyenne. Causé par les quelques éclaircies. ",
+  "snowQuality": "Enneigement particulièrement déficitaire pour la période.\nHauteurs de neige observées : 25 cm à la nivose du Col Agnel à 2630 m. \n\nLimite d'enneigement skiable : au plus bas à 2000/2200 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais, plus souvent 2100/2200 m. Adrets sec jusqu'à 2800/3000 notamment vers l'est du massif. \n\nÉtat de la neige en surface : un peu de neige fraiche/récente en altitude, souvent travaillée par le vent vers les hauts sommets, sur un manteau neigeux printanier ou de type névé. Plus bas, neige humide dense. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

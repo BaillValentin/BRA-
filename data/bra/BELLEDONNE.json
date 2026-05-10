@@ -1,11 +1,11 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-05-09T15:00:00",
-  "validUntil": "2026-05-10T18:00:00",
+  "date": "2026-05-10T15:00:00",
+  "validUntil": "2026-05-11T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2700",
+      "altitude": "<2400",
       "level": 1,
       "orientations": [
         "N",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "altitude": ">2700",
+      "altitude": ">2400",
       "level": 2,
       "orientations": [
         "N",
@@ -26,9 +26,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Vers les sommets, coulées superficielles de neige fraîche humide... \nDéclenchements skieurs : Temporairement, lors des précipitations, possibles minces plaques sommitales sous le vent de Sud ?",
-  "stability": "UN PEU DE NEIGE FRAICHE VENTEE VERS LES HAUTS SOMMETS DE BELLEDONNE, PLUS BAS NEVES STABLES...\n\nDimanche, sur les hauts sommets de Belledonne on attend  jusque 10/15 cm de neige fraîche parfois ventée : Temporairement, risque de minces plaques friables. Lors d'éclaircies, plutôt des coulées humides spontanées...\nSous 2700m environ, essentiellement de la neige de névé stable ou saupoudrage humide.\nDéclenchements provoqués : Le matin notamment, lors des chutes de neige parfois ventée, risque de formation de minces plaques friables (en poudreuse dense), sous le vent de Sud.\nRisque accidentel très localisé, dans certaines faces sommitales ?\nLors de redoux, plutôt un risque de coulée (superficielle) humide sous les skis.\nDéparts spontanés : Plutôt superficielles, coulées ponctuelles ou boules humides dans la neige fraîche, vers les hauts sommets ?",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis correct en combes d'altitude au dessus de 2100/2400m suivant le versant...\nLimites skiables : Vers 1700/2000m en Nord à 2200/2400m en versants ensoleillés. \n\nQualité de la neige dimanche:  pas de regel en bas de pentes, névés humides. Vers les hauts sommets neige fraîche plus ou moins humide, temporairement froide et un peu ventée au dessus de 2700/2800m environ ?",
+  "summary": "Départs spontanés : Vers les sommets, coulées/boules de neige fraîche (humide lors d'éclaircies)... \nDéclenchements skieurs : Temporairement, près des hautes crêtes, de petites plaques (friables) sous le vent...",
+  "stability": "NEIGE FRAICHE VENTEE EN ALTITUDE, POSSIBLES PETITES PLAQUES TEMPORAIRES + DES COULEES LORS D'ECLAIRCIES... PLUS BAS NEVES STABLES...\n\nLundi on prévoit jusque 15/20 cm de neige fraîche parfois ventée  en altitude : Temporairement, risque de petites plaques friables (en poudreuse dense). Lors d'éclaircies, plutôt des coulées humides spontanées...\nSous 2300/2500m environ, essentiellement de la neige de névé stable avec un saupoudrage humide...\nDéclenchements provoqués :\nLe matin notamment, risque de formation de petites plaques friables (en poudreuse dense), sous le vent de Sud-Ouest.\nRisque accidentel a priori localisé vers les hautes crêtes. Le soir averses et rafraichissement, le vent va tourner à l'Ouest puis Nord-Ouest...\nLors d'éclaircie, avec le solei de mai, plutôt un risque de coulée (superficielle) humide sous les skis.\nDéparts spontanés :\n Lors des précipitations, dans la neige fraîche. Avec les éclaircies en journée, coulées ponctuelles ou boules humides/petites avalanches ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude au dessus de 2100/2400m suivant le versant... La neige prévue camoufle parfois herbes et roches, prudence\nLimites skiables : Vers 1700/1900m en Nord à 2200/2400m en versants ensoleillés. \n\nQualité de la neige lundi :  Pas de regel en bas de pentes, névés humides/fonte. En altitude, neige fraîche attendue dès 2200/2400m, plus froide et ventée vers les hauts sommets. Rapide humidification lors d'éclaircies...",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

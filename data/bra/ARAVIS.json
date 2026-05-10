@@ -1,25 +1,37 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-05-09T16:00:00",
-  "validUntil": "2026-05-10T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-10T16:00:00",
+  "validUntil": "2026-05-11T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2300",
       "level": 1,
       "orientations": [
         "N",
         "NE",
+        "E",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2300",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
         "NW"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares avalanches de neige humide sous les plus fortes averses\nDéclenchements skieurs : neige humide coulant sous les skis",
-  "stability": "Manteau neigeux printannier\n\nDéparts spontanés : \n* rares avalanches de neige humide, en particulier sous les plus fortes averses. Taille 1 à 2 (petite à moyenne). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne). \n\nDéclenchements provoqués : \n* de la neige humide peu couler sous les skis. Taille 1 (petite). ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce dimanche matin : \nSous 2400 m, neige de névé avec sans regel nocturne\nAu-dessus de 2400 m, neige de printemps avec peu ou pas de regel nocturne. ",
+  "summary": "Départs spontanés : quelques purges sous une éclaircie\nDéclenchements skieurs : formation de petites plaques dans la neige fraiche",
+  "stability": "Episode neigeux\n\nDéclenchements provoqués : \n* rares plaques dans la neige fraîche, particulièrement dans les versants est et nord, au-dessus de 2300 m et d'autant plus en montant en altitude.  Facile à déclencher. Au fil des chutes de neige, ces plaques sont un peu plus nombreuses et épaisses.Taille 1 (petite) puis 2 (moyenne).\n* de la neige humide peu couler sous les skis, sous 2300 m. Taille 1 (petite). \n\nDéparts spontanés : \n* quelques avalanches de neige fraîche l'après-midi sous une éclaircie, près des rochers ou dans les falaises, au-dessus de 2300 m. Taille 1 (petite).\n* rares avalanches de neige humide, en particulier sous les plus fortes averses (en dessous de 2300 m). Taille 1 (petite). \n* rares plaques de fond dans les zones herbeuses ou les dalles rocheuses, à toute heure du jour ou de la nuit. En dessous 2500 m. Taille 1 à 2 (petite à moyenne). ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce lundi matin : \nSous 2300 m, neige de névé avec sans regel nocturne\nAu-dessus de 2300 m, 3/7 cm de neige fraîche reposant sur de la vielle neige humide. Au fil de la journée, la quantité de neige fraiche augmente (cf aperçu météo). ",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

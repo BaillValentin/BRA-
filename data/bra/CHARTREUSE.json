@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-05-10T15:00:00",
-  "validUntil": "2026-05-11T18:00:00",
+  "date": "2026-05-11T16:00:00",
+  "validUntil": "2026-05-12T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,7 +15,7 @@
   ],
   "summary": "Départs spontanés : Non (rares névés, stables)\nDéclenchements skieurs : RAS",
   "stability": "FIN DE SAISON, RARES NÉVÉS...\n\nFin de saison en Chartreuse, il ne reste que de rares névés (stables), en Nord d'altitude. Tout au plus, temporairement, saupoudrage possible vers les plus hauts sommets.\nDéparts spontanés : Peu probables, neige très humide mais bien dense..\nDéclenchements provoqués :  RAS",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire pour la saison. Les névés s'amenuisent, souvent cantonnés en Nord d'altitude. Chartreuse bien verte en ce début mai... \nQualité de la neige lundi :  Absence de regel/pluies. Névés bien humides. \nLundi soir possible saupoudrage vers les plus hauts sommets ...",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire pour la saison. Les névés s'amenuisent, souvent cantonnés en Nord d'altitude. Chartreuse bien verte en ce début mai... \nQualité de la neige mardi :  Neige humide / dense. Léger saupoudrage vers les sommets.",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

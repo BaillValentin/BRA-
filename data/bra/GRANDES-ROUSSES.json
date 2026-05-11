@@ -1,34 +1,45 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-10T15:00:00",
-  "validUntil": "2026-05-11T18:00:00",
+  "date": "2026-05-11T16:00:00",
+  "validUntil": "2026-05-12T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2400",
+      "altitude": "<2200",
       "level": 1,
       "orientations": [
         "N",
-        "NE"
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
       ]
     },
     {
-      "altitude": ">2400",
+      "altitude": ">2200",
       "level": 2,
       "orientations": [
         "N",
-        "NE"
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Vers les sommets, coulées, petites avalanches et boules de neige fraîche (humide lors d'éclaircies)... \nDéclenchements skieurs : Vers les hautes crêtes, risque de petites plaques (assez friables) sous le vent...",
-  "stability": "NEIGE FRAICHE VENTEE EN ALTITUDE/RISQUE DE PLAQUES + DES COULEES LORS D'ECLAIRCIES...\n\nLundi on prévoit environ 15 à 20 cm de neige fraîche parfois ventée  en altitude : Temporairement, risque de petites plaques friables (poudreuse dense). Lors d'éclaircies, plutôt des coulées humides spontanées...\nSous 2300/2500m environ, essentiellement de la neige de névé stable avec un saupoudrage humide...\nDéclenchements provoqués :\nLe matin notamment, risque de formation de petites plaques friables (en poudreuse dense), sous le vent de Sud-Ouest. Risque accidentel a priori localisé vers les crêtes, avec davantage de neige mobilisable au dessus de 3000/3200m, jusque 30 cm ? \nLe soir averses et rafraichissement, le vent va tourner à l'Ouest puis Nord-Ouest...  \nLors d'éclaircies, avec le soleil de mai, plutôt un risque de coulée (superficielle) humide sous les skis.\nDéparts spontanés :\n Lors des précipitations, dans la neige fraîche. Avec les éclaircies en journée, coulées ponctuelles ou boules humides/petites avalanches en terrain raide.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude au dessus de 2200/2500m suivant le versant... La neige prévue camoufle parfois herbes et roches, prudence\nLimites skiables : Vers 1800/2000m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige lundi :  Pas de regel en bas de pentes, névés humides/fonte. En altitude, neige fraîche attendue dès 2200/2400m, plus froide et ventée vers la haute montagne (jusque 30 cm de neige froide en faces Nord sommitales ?). Rapide humidification lors d'éclaircies...",
+  "summary": "Départs spontanés : Très nombreuses coulées avec l'humidification de la neige récente en journée \nDéclenchements skieurs : Plaques à vent en altitude, se stabilisant en journée ",
+  "stability": "QUELQUES PLAQUES DE NEIGE VENTEE EN ALTITUDE / COULEES HUMIDES SOUS LE REDOUX EN JOURNEE\n\nDans la nuit de lundi à mardi, on attends 10 à 20cm de neige récente dés 2200m, et localement 30 voire 40cm en altitude. Ces chutes de neige s'accompagnent d'un vent de Nord-Ouest tempétueux, qui ne faiblira qu'en journée de mardI.\nDéclenchements provoqués :\nDe nombreuses plaques se forment en altitude dans la neige récente. Elles sont présentes en tout versants, mais plus nombreuses sous le vent ( généralement en versants Est / Sud-Est). Ces plaques sont généralement peu épaisses, mais peuvent être temporairement très réactives le matin. Elles se stabilisent en cours de journée, assez rapidement au soleil. \nLors d'éclaircie, avec le soleil de mai, neige devenant humide / collante, avec le risque d'un départ en neige humide sous les skis. \nDéparts spontanés :\nMardi avec l'humidification de la neige récente sous les éclaircies de très nombreuses avalanches vont partir. Généralement de tailles petites à moyennes ( selon l'épaisseur de neige récente). ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude au dessus de 2100/2400m suivant le versant... La neige prévue camoufle parfois herbes et roches, prudence\nLimites skiables : Vers 1700/1900m en Nord à 2200/2400m en versants ensoleillés. \n\nQualité de la neige mardi :  10 à 20cm de neige fraîche dés 2200m, localement 30 voire 40cm en altitude. Neige cartonnée par le vent en altitude. En journée la neige s'humidifie rapidement au soleil, devenant lourde et collante. Neige restant plus froide dans les pentes nord suffisament raides pour rester ombragées. ",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

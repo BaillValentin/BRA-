@@ -1,38 +1,45 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-05-10T16:00:00",
-  "validUntil": "2026-05-11T18:00:00",
+  "date": "2026-05-11T15:00:00",
+  "validUntil": "2026-05-12T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2300",
+      "altitude": "<2200",
       "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2300",
+      "altitude": ">2200",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
     "neige_fraiche",
-    "plaque_vent",
-    "neige_humide"
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : rares départs en neige récente ventée, départs en neige humide plus bas.\nDéclenchements skieurs : quelques plaques en neiges récentes en formation sous les averses.",
-  "stability": "INSTABILITéS EN COURS DE FORMATION SOUS LES AVERSES DE NEIGE.\n\nDéclenchements provoqués : \n-Au dessus de 2300m, plaques friables ou dures dans les 10 à 20 cm de neige ventée attendus dans la journée. Rares et de petite taille le matin, elles deviennent plus fréquentes et volumineuses en journée au fil des averses. Petites à moyennes avalanches. On les trouve majoritairement en secteur Nord à Est, sous le vent et près des crêtes et des ruptures de pentes. \n-Plus bas sous la pluie, quelques coulées en neige humides sous les skis. Petites avalanches.\nObservable : accumulation de neige fraîche. \n\nDéparts spontanés : \n-Au dessus de 2300, départs sous l'action du transport par le vent. Petites et rares le matin, elles deviennent plus fréquentes en journée avec les averses. Majoritairement en secteur Nord à Est, sous le vent et près des crêtes et des ruptures de pentes.\n-Sous les 2100 m, il pleut, mais également plus haut la neige récente peut commencer à s'humidifier à la faveur d'une éclaircie entre deux averses : quelques départs ponctuels (coulées en poire) sont possibles. Petites à moyennes avalanches.\n\nAutres : Chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive.\n\nLimite skiable : vers 1800/1900 m en nord,  2200 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2100 m, neige de névé souvent pourrie par la pluie. Plus haut, neige récente froide au dessus de 2300/2500 m. Elle peut devenir collante en cas d'éclaircies entre deux averses sous le soleil de mai.",
+  "summary": "Départs spontanés : nombreux départs dans la neige fraîche s'humidifiant sous le Soleil. \nDéclenchements skieurs : quelques plaques dans la neige fraîche.",
+  "stability": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE EN ALTITUDE.\n\nDéclenchements provoqués :  au-dessus de 2200m, les cumuls de neige récente associés au vent de Nord-Ouest sont suffisants pour créer des plaques friables de taille modeste. Elles engendrent des avalanches petites à moyennes. Bien que possibles en tous versants, celles dans les versants Nord raides échappent aux assauts du Soleil et subsistent ainsi plus longtemps. Observable : accumulation de neige fraîche. \n\nDéparts spontanés : nombreux départs ponctuels (avalanches en poires) se manifestent dans les pentes suffisamment raides et fraichement enneigées au départ des cailloux et des corniches, en suivant la course du Soleil. Avalanches petites, rarement de taille moyenne. \n\nAutres : chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive.\n\nLimite skiable : vers 1800/1900 m en nord,  2200 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : coup de neige en montagne. 10-15 cm dès 2000 m, et autour de 25-30 plus haut et en cœur de massif. Elle réchauffe vite et devient collante avec le retour du puissant Soleil de mai. La poudre appartient à celles et ceux qui se lèvent tôt. ",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

@@ -1,7 +1,7 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-05-10T16:00:00",
-  "validUntil": "2026-05-11T18:00:00",
+  "date": "2026-05-11T15:00:00",
+  "validUntil": "2026-05-12T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,6 +10,11 @@
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     },
@@ -19,17 +24,21 @@
       "orientations": [
         "N",
         "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "plaque_vent",
-    "neige_humide"
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : rares départs humides en journée.\nDéclenchements skieurs : quelques instabilités dans la neige récente.",
-  "stability": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE EN ALTITUDE.\n\nDéclenchements provoqués :\n-Au dessus de 2800m, quelques plaques  friables ou dures dans la neige récente ventée, petites à moyennes avalanches, plus fréquentes et réactives en haute altitude. On les trouve majoritairement en secteur nord, près des crêtes et des ruptures de pentes. Observable : neige plus dense, accumulations. \n- Quelques petites à moyennes avalanches de neige humide sous les skis après quelques heures en versants ensoleillés, en coupant une pente trop réchauffée.\n\nDéparts spontanés : \n-Très rares départs de plaques friables ou dures, en altitude sous le vent et en pentes assez raides. Petites à moyennes avalanches.\n-Rares petites avalanches de neige humide après quelques heures en versant ensoleillés. Elles sont plus fréquentes au fil des heures dans la neige récente s'humidifiant.\n\nAutres : Chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : sous 2600 m regel aléatoire, neige de névé. Plus haut, neige récente le matin s'humidifiant au soleil sous les 2800 m en journée, rester en secteur nord pour avoir de la meilleure neige.",
+  "summary": "Départs spontanés : rares départs durant l'épisode de transport en haute montagne. \nDéclenchements skieurs : quelques instabilités en haute montagne liées au transport de neige.",
+  "stability": "QUELQUES INSTABILITÉS DANS LA NEIGE VENTéE EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2800/3000m, l'épisode de transport de neige par le vent engendre quelques plaques dans la neige récente. Elles sont plus faciles à déclencher en versants Nord et aux premières heures du jour (quand le transport est encore d'actualité). Elles engendrent des avalanches petites à moyennes (taille 1 à 2). Observable : transport de neige en cours. \nPlus bas, les cumuls de neige ne sont pas suffisants pour induire une problématique notable de plaque. \n\nDéparts spontanés :  rares départs de plaques pendant le transport de la neige par le vent, dans une pente raide de haute altitude. Petites à moyennes avalanches.\n\nAutres : chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : bon regel grâce au vent froid qui souffle en tempête. Regel médiocre là où il ne souffle pas. Toujorus à cause du vent : la haute montagne ne dégèle pas et les pentes raides Nord qui hébergeaient de la neige récente \"poudreuse\" se raréfie. Les crêtes et les croupes laissent ressortir une neige très dure. ",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

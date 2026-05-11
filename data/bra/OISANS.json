@@ -1,7 +1,7 @@
 {
   "massif": "OISANS",
-  "date": "2026-05-10T15:00:00",
-  "validUntil": "2026-05-11T18:00:00",
+  "date": "2026-05-11T16:00:00",
+  "validUntil": "2026-05-12T18:00:00",
   "riskMax": 3,
   "risks": [
     {
@@ -11,6 +11,10 @@
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     },
@@ -21,18 +25,21 @@
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Coulées/ petites avalanches de neige fraîche (poudreuses à haute altitude), humides plus bas. Rare cassure sous le vent en Nord à Est raide ?\nDéclenchements skieurs : Risque de plaques (plus conséquentes en altitude) sous le vent Sud-Ouest puis Ouest le soir. Au dessus de 3200/3400m en faces Nord une cassure plus épaisse non exclue en contrebas?",
-  "stability": "PAS MAL DE NEIGE SECHE PARFOIS VENTEE EN ALTITUDE : RISQUE DE PLAQUES LOCALEMENT MARQUE, NOTAMMENT VERS LES ECRINS, LA MEIJE, L'OLAN... \n\nLundi, on attend jusque 30 cm de neige froide en haut de l'Oisans, voire 40 cm près des Ecrins (Meije/Olan), parfois soufflés par vent de Sud-Ouest, puis Ouest le soir. Risque accidentel temporaire.\nEn raide faces Nord au dessus de 3200/3400m, une cassure plus épaisse est possible en contrebas (déclenchement en cascade?).\nSous 2500m environ, saupoudrage humide sur du névé humide, stable.\nDéclenchements provoqués :\nLors des chutes de neige parfois ventée, risque de formation de plaques assez friables (en poudreuse dense), sous le vent de Sud à  Sud-Ouest. Cumul attendu jusque 40 cm vers les Hautes Alpes, l'Olan, la Meije.\nRisque accidentel temporairement marqué en haute montagne, vers les crêtes avec davantage de neige mobilisable au dessus de 3000m environ.  \nNotez que des sous couches plus fragiles sont présentes en raides faces Nord d'altitude, au dessus de 3200/3400m. Une rupture de surface pourrait entrainer une plus épaisse cassure en contrebas...\nLors d'éclaircies, aussi un risque de coulée humide sous les skis.\nDéparts spontanés :  \nLors des intempéries coulées poudreuses en altitude, parfois une cassure sous le vent ? Lors d'éclaircies, coulées ponctuelles/petites avalanches dans la neige fraîche humide, vers les rochers.\nA modeste altitude, sous 2500m, la neige récente est plus humide et repose sur des névés stables... Attention néanmoins en bas de couloirs en cas d'avalanche spontanée...",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude (grâce aux récentes précipitations) au dessus de 2100/2500m suivant le versant...\nDavantage de neige récente près des Ecrins, de l'Olan, de La Meije\nLimites skiables : Vers 1900/2100m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige lundi :  En bas de pentes, névés humides.  Plus en altitude, neige fraîche localement ventée et assez froide, un peu plus conséquente au dessus de 2800/3000m et près des Ecrins. Lors d'éclaircies, humidification superficielle...",
+  "summary": "Départs spontanés : Très nombreuses coulées avec l'humidification de la neige récente en journée \nDéclenchements skieurs : Plaques à vent en altitude, se stabilisant en journée ",
+  "stability": "CONDITIONS HIVERNALES EN HAUTE MONTAGNE EN MATINEE / COULEES HUMIDES SOUS LE REDOUX EN JOURNEE\n\nDans la nuit de lundi à mardi, on attends 7 à 15cm de neige récente dés 2200m, et localement 20cm en altitude. Ces chutes de neige s'accompagnent d'un vent de Nord-Ouest tempétueux, qui ne faiblira qu'en journée de mardi.\nDéclenchements provoqués :\nDe nombreuses plaques se forment en altitude dans la neige récente. Elles peuvent être présentes en tout versant mais devraient être plus réactives en Nord d'altitude (au-dessus de 3000m environ) où de la neige froide était déjà présente avant les chutes. Sous le vent tempétueux en altitude, elles pourront prendre l'aspect de plaque dure près des crêtes, plutôt friables dans les secteurs plus abrités du vent. Les plaques se stabilisent assez rapidement au soleil, mais restent plus sensibles dans les versants Nord raides. \nLors d'éclaircie, avec le soleil de mai, neige devenant humide / collante, avec le risque d'un départ en neige humide sous les skis. \nDéparts spontanés :\nMardi avec l'humidification de la neige récente sous les éclaircies de très nombreuses avalanches vont partir dans les pentes suffisamment raides, surtout sous les rochers et corniches. Généralement de tailles petites à moyennes, une rare grande est possible.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude (grâce aux récentes précipitations) au dessus de 2100/2500m suivant le versant...\nDavantage de neige récente près des Ecrins, de l'Olan, de La Meije\nLimites skiables : Vers 1900/2100m en Nord à 2300/2600m en versants ensoleillés. \n\nQualité de la neige mardi :  7 à 15cm de neige fraîche dés 2200m, localement 20cm en altitude. Neige cartonnée par le vent en altitude. En journée la neige s'humidifie rapidement au soleil, devenant lourde et collante. Neige restant plus froide dans les pentes nord suffisament raides pour rester ombragées. ",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

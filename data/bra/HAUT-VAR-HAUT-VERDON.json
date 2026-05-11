@@ -1,7 +1,7 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-05-10T16:00:00",
-  "validUntil": "2026-05-11T18:00:00",
+  "date": "2026-05-11T16:00:00",
+  "validUntil": "2026-05-12T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,7 +10,6 @@
       "orientations": [
         "N",
         "NE",
-        "E",
         "NW"
       ]
     },
@@ -20,19 +19,17 @@
       "orientations": [
         "N",
         "NE",
-        "E",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques départs ponctuels en neige humide en altitude \nDéclenchements skieurs : plaques localisées et superficielles vers les hauts sommets",
-  "stability": "INSTABILITÉ LIMITÉE DANS LA NEIGE FRAICHE EN ALTITUDE\n\nDéclenchements provoqués : vers les hauts sommets, plaques localisées en place ou en formation. Instabilités de taille limitée dans la neige récente, surtout petites, mais faciles à déclencher par un skieur. Principalement en versants de large nord à est dans les accumulations de neige par le vent. Causé par les nouvelles petites chutes et le transport par le vent.\n\nDéparts spontanés : en cours de journée de lundi, quelques départs de neige s’humidifiant en pente raide d’altitude au-dessus de 2500 m environ. Tout versant, surtout superficiels de petite taille, très rarement moyenne. Causé par les quelques éclaircies. ",
-  "snowQuality": "Enneigement très faible  pour la période.\n\nEnneigement skiable Limite d'enneigement skiable : vers 2100/2200 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : un peu de neige fraiche/récente en altitude, souvent travaillée par le vent vers les hauts sommets, sur un manteau neigeux bien printanier ou de type névé. Plus bas, neige humide dense. ",
+  "summary": "Départs spontanés : en neige humide en altitude. \nDéclenchements skieurs : plaques localisées et superficielles vers les hauts sommets. ",
+  "stability": "RARES INSTABILITÉS EN ALTITUDE\n\nDéclenchements provoqués : \n- vers les plus hauts sommets (au-dessus de 2500/2700 m environ), rares plaques en place, formées par les faibles chutes de neige et le vent de nord-ouest. Elles sont de taille limitée, mais parfois faciles à déclencher par un seul skieur. Elles sont localisées principalement en versants nord-ouest, nord et nord-est dans les accumulations de neige par le vent. Elles engendrent des avalanches de taille petite (taille 1), voire moyenne (taille 2). \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis. \n\nDéparts spontanés : quelques départs de neige humide en pentes raides au fil de l'ensoleillement, avec le retour d'un temps ensoleillé et la remontée de l'isotherme 0 degré. Avalanches de taille petite (taille 1), très rarement moyenne (taille 2). ",
+  "snowQuality": "Enneigement très faible  pour la période.\n\nEnneigement skiable Limite d'enneigement skiable : vers 2100/2200 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : un peu de neige récente en altitude, souvent travaillée par le vent vers les hauts sommets, sur un manteau neigeux bien printanier ou de type névé. Plus bas, neige humide dense. ",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

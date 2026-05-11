@@ -19,10 +19,8 @@
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",
-    "rose-pentes": "./data/bra/img/rose-pentes_7.png",
     "montagne-enneigement": "./data/bra/img/montagne-enneigement_7.png",
     "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_7.png",
-    "apercu-meteo": "./data/bra/img/apercu-meteo_7.png",
     "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_7.png"
   }
 }

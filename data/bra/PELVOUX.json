@@ -1,7 +1,7 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-05-11T16:00:00",
-  "validUntil": "2026-05-12T18:00:00",
+  "date": "2026-05-12T16:00:00",
+  "validUntil": "2026-05-13T18:00:00",
   "riskMax": 3,
   "risks": [
     {
@@ -11,9 +11,6 @@
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
@@ -25,9 +22,6 @@
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
@@ -38,8 +32,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : en neige humide dans les pentes raides. \nDéclenchements skieurs : plaques en haute altitude, faciles à déclencher et localement épaisses. ",
-  "stability": "NOMBREUSES INSTABILITÉS EN ALTITUDE, LOCALEMENT VOLUMINEUSES\n\nDéclenchements provoqués : \n- au-dessus de 3000 m environ, de nombreuses plaques sont en place, formées par les récentes chutes de neige et le transport par le vent de nord-ouest. Elles sont présentes en toutes orientations, même si plus nombreuses en versants de large nord. Elles sont parfois difficiles à identifier et facilement déclenchables par le passage d'un seul skieur. Elles engendrent des avalanches de taille petite à moyenne (taille 1 à 2), voire grande si une première avalanche de surface vient solliciter une couche fragile plus profondément enfouie, encore potentiellement présente en versants nord-ouest, nord et nord-est de haute altitude. \n- plus bas, entre 2700/3000 m environ, plaques localisées, de taille limitée, surtout petites. Encore facilement déclenchables, essentiellement en versants de large nord à est dans les accumulations par le vent.\n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis. \n\nDéparts spontanés : en pentes raides, avalanches de neige récente s'humidifiant au fil de l'ensoleillement. Départs ponctuels ou en plaques. Elles sont possibles en toutes orientations avec le retour d'un temps ensoleillé et la hausse de l'isotherme 0 degré en journée. Avalanches généralement de taille moyenne, plus rarement grande au-dessus de 3000 m, plutôt de taille limitée en dessous. \n",
-  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 218 cm à la nivose des Écrins à 2970 m. \n\nLimite d'enneigement skiable : très localement vers 1700/1900 m en ubacs de fond de vallée en cœur de massif, plutôt 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : neige récente en quantité au-dessus de 3000 m, souvent travaillée par le vent. Plus bas, un peu de neige fraiche/récente sur un manteau neigeux printanier ou de type névé. ",
+  "stability": "INSTABILITÉS EN ALTITUDE, LOCALEMENT VOLUMINEUSES\n\nDéclenchements provoqués : \n- au-dessus de 3000 m environ, des plaques sont en place, formées par les récentes chutes de neige et le transport par le vent de nord-ouest. Elles sont présentes en toutes orientations, même si plus nombreuses en versants de large nord. Elles sont parfois difficiles à identifier et facilement déclenchables au passage d'un seul skieur. Elles engendrent des avalanches de taille petite à moyenne (taille 1 à 2), voire grande si une première avalanche de surface vient solliciter une couche fragile plus profondément enfouie, encore potentiellement présente en versants nord-ouest, nord et nord-est de haute altitude. \n- plus bas, entre 2700 et 3000 m, plaques résiduelles de petite taille. \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis. \n\nDéparts spontanés : en pentes raides, avalanches de neige récente s'humidifiant au fil de l'ensoleillement. Départs ponctuels ou en plaques. Elles sont possibles en toutes orientations avec le retour d'un temps ensoleillé et la hausse de l'isotherme 0 degré en journée. Avalanches généralement de taille moyenne, plus rarement grande au-dessus de 3000 m, plutôt de taille limitée en dessous. \n",
+  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées : 226 cm à la nivose des Écrins à 2970 m. 60 cm au Pré de Madame Carle. \n\nLimite d'enneigement skiable : très localement vers 1700/1900 m en ubacs de fond de vallée en cœur de massif, plutôt 1900/2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : neige récente en quantité au-dessus de 3000 m, souvent travaillée par le vent. Plus bas, un peu de neige fraiche/récente sur un manteau neigeux printanier ou de type névé. ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

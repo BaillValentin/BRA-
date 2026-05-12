@@ -1,34 +1,20 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-05-11T16:00:00",
-  "validUntil": "2026-05-12T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-12T16:00:00",
+  "validUntil": "2026-05-13T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2500",
+      "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2500",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide vers les hauts sommets. \nDéclenchements skieurs : plaques localisées et superficielles vers les hauts sommets. ",
-  "stability": "INSTABILITÉS RÉSIDUELLES EN ALTITUDE\n\nDéclenchements provoqués : \n- vers les plus hauts sommets (au-dessus de 2500 m environ), rares plaques en place, formées par les faibles chutes de neige et le vent de nord-ouest. Elles sont de taille limitée, mais parfois faciles à déclencher par un seul skieur. Elles sont localisées principalement en versants nord-ouest, nord et nord-est dans les accumulations de neige par le vent. Elles engendrent des avalanches de taille petite (taille 1), voire moyenne (taille 2). \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis. \n\nDéparts spontanés : quelques départs de neige humide en pentes raides au fil de l'ensoleillement, avec le retour d'un temps ensoleillé et la remontée de l'isotherme 0 degré. Avalanches de taille petite (taille 1), très rarement moyenne (taille 2). ",
+  "summary": "Départs spontanés : en neige humide en altitude, généralement de petite taille. \nDéclenchements skieurs : peu probables. ",
+  "stability": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis. \n- généralement peu probables. On ne peut exclure la présence de plaques résiduelles en versant nord de haute altitude. Ces instabilités sont de taille limitée et facilement identifiables. \n\nDéparts spontanés : manteau neigeux bien stabilisé. Départs de neige humide en pentes raides au fil de l'ensoleillement, principalement de petite taille (taille 1), exceptionnellement de taille moyenne (taille 2). ",
   "snowQuality": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 2000 m en ubacs sur terrain favorable, 2300/2500 m en adrets.\n\nÉtat de la neige en surface : un peu de neige récente en altitude, souvent travaillée par le vent vers les hauts sommets, sur un manteau neigeux printanier ou de type névé. Plus bas, neige humide dense. ",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {

@@ -1,29 +1,30 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-11T16:00:00",
-  "validUntil": "2026-05-12T18:00:00",
+  "date": "2026-05-12T16:00:00",
+  "validUntil": "2026-05-13T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "NW"
+      ]
     }
   ],
   "situations": [
-    "neige_fraiche",
     "neige_humide"
   ],
   "summary": "Départs spontanés : Un peu de neige récente au soleil.\nDéclenchements skieurs : Peu probables.",
-  "stability": "Quelques petites instabilités dans la neige récente proche des sommets.\n\nDéparts spontanés : \n* Rares plaques de fond, dans les versants N au-dessus de 2000 m. Taille 1 (petite), rarement 2 (moyenne). \n* Au-dessus de 2000 m dans les pentes E puis S puis W : quelques départs ponctuels dans la neige fraiche s'humidifiant au soleil. Taille 1, très rarement 2.\n\nDéclenchements provoqués :\n* Au-dessus de 2000 m : de la neige humide récente peut couler sous les skis. Taille 1.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.\nOn retrouve de la neige récente au-dessus de 1500 m en début de matinée, jusqu'à 15 cm à 2200 m.\nEncore un peu de neige ancienne au-dessus de 2000 m en nord.\n\nQualité de la neige ce mardi matin :\nManteau neigeux humide jusqu'en profondeur surmonté d'une couche de neige récente, légèrement humide à humide suivant l'altitude. Cette neige s'humidifie rapidement dès le début de journée.",
+  "stability": "Rares instabilités dans la neige récente proche des sommets.\n\nDéparts spontanés : \n* Rares plaques de fond, dans les versants N au-dessus de 2000 m. Taille 1 (petite), rarement 2 (moyenne). \n* Au-dessus de 2000 m dans les pentes E/N/NW : quelques départs ponctuels dans la neige récente continuant de s'humidifier avec le soleil. Taille 1.\n\nDéclenchements provoqués :\n* Au-dessus de 2000 m : de la neige humide récente peut couler sous les skis. Taille 1.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.\nOn retrouve de la neige récente au-dessus de 2000 m en début de matinée, jusqu'à 10 cm à 2200 m.\nEncore un peu de neige ancienne au-dessus de 2000 m en nord.\n\nQualité de la neige ce mercredi :\nManteau neigeux humide jusqu'en profondeur surmonté d'une couche de neige récente, humide et croutée. Cette neige s'humidifie rapidement dès le début de journée.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",
-    "rose-pentes": "./data/bra/img/rose-pentes_4.png",
     "montagne-enneigement": "./data/bra/img/montagne-enneigement_4.png",
-    "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_4.png",
-    "apercu-meteo": "./data/bra/img/apercu-meteo_4.png",
     "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_4.png"
   }
 }

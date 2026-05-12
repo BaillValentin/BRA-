@@ -1,34 +1,26 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-05-11T15:00:00",
-  "validUntil": "2026-05-12T18:00:00",
+  "date": "2026-05-12T17:00:00",
+  "validUntil": "2026-05-13T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2300",
+      "altitude": "<2500",
       "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2300",
+      "altitude": ">2500",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     }
@@ -37,9 +29,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : nombreux départs dans la neige fraîche s'humidifiant sous le Soleil. \nDéclenchements skieurs : quelques plaques dans la neige fraîche.",
-  "stability": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2300m, les cumuls de neige récente associés au vent de Nord-Ouest sont suffisants pour créer des plaques friables de taille modeste. Elles engendrent des avalanches petites à moyennes. Bien que possibles en tous versants, celles dans les versants Nord raides échappent aux assauts du Soleil et subsistent ainsi plus longtemps. Observable : accumulation de neige fraîche. \n\nDéparts spontanés : nombreux départs ponctuels (avalanches en poires) se manifestent dans les pentes suffisamment raides et fraichement enneigées au départ des cailloux et des corniches, en suivant la course du Soleil. Avalanches petites, rarement de taille moyenne. \n\nAutres : chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : petit coup de neige en montagne. 5-10 cm entre 2000 et 2500 m, puis plutôt 10-20 au-dessus, notamment vers les Sybelles. Elle réchauffe vite et devient collante avec le retour du puissant Soleil de mai. La poudre appartient à celles et ceux qui se lèvent tôt. ",
+  "summary": "Départs spontanés : quelques départs dans la neige fraîche s'humidifiant sous le Soleil. \nDéclenchements skieurs : quelques plaques dans la neige fraîche.",
+  "stability": "QUELQUES INSTABILITÉS DANS LA NEIGE RÉCENTE EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2500m, et plutôt dans les versants NO à Est -là où la neige est restée froide-, la neige récente ventée héberge quelques structures de plaques friables. Elles engendrent des avalanches petites à moyennes. Observable : accumulation de neige fraîche. \nEn très haute montagne, la problématique concerne toutes les orientations car le vent a maintenu la neige bien froide. En versant Nord (>3000 m), les plaques sont plus réactives et les volumes mobilisables plus importants.  \n\nDéparts spontanés : quelques départs ponctuels (boulettes/escargots/avalanches en poires) se manifestent dans les pentes suffisamment raides au départ des cailloux et des corniches, en suivant la course du Soleil. Plus probables le matin : en versant NE, puis E, puis SE. Avalanches petites, rarement de taille moyenne. \n\nAutres : chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 1900/2000 m en nord, 2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : grâce à la dernière chute de neige, il est possible de trouver de la neige fraîche à des altitudes modestes (sous 3000 m), probablement en versant NO, à E. Dans les pentes abritées du vent, on peut trouver 15 cm de neige poudreuse dense. Au fil des heures, la neige chauffe et se met à coller. La poudre appartient à celles et ceux qui se lèvent tôt. \nDans les autres orientations, la neige est croutée au réveil. Avec le Soleil, elle chauffe et devient collante. \nEn très haute montagne, la neige est restée froide. Dans les pentes Nord raides et épargnées du vent fort, grâce aux chutes de neiges passées, on trouve 30/40 cm de neige meuble. ",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

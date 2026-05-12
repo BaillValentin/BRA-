@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-12T18:09:21.868Z",
+  "lastUpdate": "2026-05-12T18:22:19.870Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 2,
@@ -42,7 +42,10 @@
       "date": "2026-05-12T16:00:00",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_4.png",
+        "rose-pentes": "./data/bra/img/rose-pentes_4.png",
         "montagne-enneigement": "./data/bra/img/montagne-enneigement_4.png",
+        "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_4.png",
+        "apercu-meteo": "./data/bra/img/apercu-meteo_4.png",
         "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_4.png"
       }
     },

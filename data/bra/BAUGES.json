@@ -24,7 +24,10 @@
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",
+    "rose-pentes": "./data/bra/img/rose-pentes_4.png",
     "montagne-enneigement": "./data/bra/img/montagne-enneigement_4.png",
+    "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_4.png",
+    "apercu-meteo": "./data/bra/img/apercu-meteo_4.png",
     "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_4.png"
   }
 }

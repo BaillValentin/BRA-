@@ -1,37 +1,44 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-05-12T16:00:00",
-  "validUntil": "2026-05-13T18:00:00",
+  "date": "2026-05-13T16:00:00",
+  "validUntil": "2026-05-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2400",
+      "altitude": "<2200",
       "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2400",
+      "altitude": ">2200",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "plaque_vent",
-    "neige_humide"
+    "neige_fraiche"
   ],
-  "summary": "Départs spontanés : Neige récente au fil du réchauffement par le soleil.\nDéclenchements skieurs : Quelques plaques dans la neige récente.",
-  "stability": "Instablilités causées par le vent dans la neige récente.\n\nDéclenchements provoqués :\n* Versants NW à E au-dessus de 2400 m : quelques plaques dans la neige récente dans les pentes où le vent a accumulé la neige et où la neige est encore peu humidifiée. Plaques d'autant plus nombreuses en montant en altitude. Facilement déclenchable par un skieur. Taille 1 (petite) à 2 (moyenne).\nObservables : neige travaillée par le vent, accumulations, vaguelettes\n* Au-dessus de 2400 m : de la neige humide récente peut couler sous les skis et peut dans quelques cas entrainer de plus gros volumes de neige. Taille 1, parfois 2. Départs également possibles sous 2400 m, mais avec de plus petits volumes. Taille 1.\n\nDéparts spontanés :\n* Au-dessus de 2400 m dans les pentes  E/N/O : départs ponctuels dans la neige récente continuant de s'humidifier avec le soleil. Ces départs ponctuels entrainent régulièrement des volumes plus importants, taille 1 à 2. En versant S, la neige récente est déjà fortement humifiée, uniquement quelques départs ponctuels. Taille 1.\nFacteur aggravant : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 50/80 cm possible. Taille 2.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nNeige récente présente dès 2000 m en début de matinée, jusqu'à 15/20 cm au-dessus de 2400 m.\nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige ce mercredi :\nSous 2400 m, neige récente humide, légèrement croutée reposant une neige de névé compacte. Cette neige s'humidifie rapidement avec le soleil. \nAu-dessus de 2400 m, 15/25 cm de neige récente, légèrement croutée dans les adrets, encore assez légère ou tout juste humidifiée dans les ubacs abrités du vent. Neige ventée voire cartonnée dans les pentes exposées au vent de NW. Humidification rapide dans les versants au soleil, plus lente dans les ubacs.",
+  "summary": "Départs spontanés : petites purges dans la neige fraiche\nDéclenchements skieurs : quelques plaques dans la neige récente en altitude.",
+  "stability": "Instabilité dans la neige fraiche\n\nDéclenchements provoqués :\n* Au-dessus de 2200 m : quelques plaques dans la neige fraiche.  Plaques d'autant plus nombreuses et épaisses en montant en altitude et au fil des averses de neige. Facilement déclenchable par un skieur. Taille 1 (petite) à 2 (moyenne).\n\nDéparts spontanés :\n* Au-dessus de 2200 m : départs ponctuels dans la neige fraiche sous les averses de neige. De plus en plus probable au fil des heures et sous les averses les plus intenses. Taille 1 à 2.\nFacteur aggravant : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 50/80 cm possible. Taille 2.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige jeudi :\nEntre 1500 et 2200 m : fine couche neige récente humide, sans sous couche en général ou quelques névés en ubacs.\nAu-dessus de 2200 m :  en début de matinée 20/25 cm de neige fraiche froide posé sur un fond dure. L'épaisseur de neige augmente au fil des averses.",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

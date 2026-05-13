@@ -1,21 +1,32 @@
 {
   "massif": "HAUT-VAR-HAUT-VERDON",
-  "date": "2026-05-12T16:00:00",
-  "validUntil": "2026-05-13T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-13T16:00:00",
+  "validUntil": "2026-05-14T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2500",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2500",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
     }
   ],
-  "situations": [
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : en neige humide en altitude, généralement de petite taille. \nDéclenchements skieurs : peu probables. ",
-  "stability": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis. \n- généralement peu probables. On ne peut exclure la présence de plaques résiduelles en versant nord de haute altitude. Ces instabilités sont de taille limitée et facilement identifiables. \n\nDéparts spontanés : manteau neigeux bien stabilisé. Départs de neige humide en pentes raides au fil de l'ensoleillement, principalement de petite taille (taille 1), exceptionnellement de taille moyenne (taille 2). ",
-  "snowQuality": "Enneigement très faible  pour la période. Vers 2000 m, on relève 9 cm dans le Haut-Verdon alors qu'il n'y a plus de neige dans le Haut-Var à cette altitude. \n\nEnneigement skiable Limite d'enneigement skiable : vers 2100/2200 m en ubacs bien protégés ou sur pistes forestières, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : un peu de neige récente en altitude, souvent travaillée par le vent vers les hauts sommets, sur un manteau neigeux bien printanier ou de type névé. Plus bas, neige humide dense. ",
+  "situations": [],
+  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : petites plaques en formation près des crêtes / sommets, essentiellement sur le Haut-Verdon et à proximité/",
+  "stability": "PETITES INSTABILITÉS EN FORMATION EN ALTITUDE\n\nDéclenchements provoqués : en cours d'après-midi de jeudi, quelques petites plaques se forment dans les accumulations près des crêtes et sommets, suite aux averses de neige attendues. Elles sont faciles à déclencher mais ne génèrent que de petites avalanches (taille 1). Ces instabilités deviennent un peu plus fréquentes en cours de nuit suivante, avec la poursuite des chutes de neige, essentiellement sur le Haut-Verdon et à proximité.\n\nDéparts spontanés : peu probables, en raison du temps nuageux et de plus en plus froid.",
+  "snowQuality": "Enneigement déficitaire pour la période. Vers 2000 m, on relève 9 cm dans le Haut-Verdon, alors qu'il n'y a plus de neige dans le Haut-Var à cette altitude.\n\nLimite d'enneigement skiable : vers 2200/2300 m en ubacs bien protégés ou sur pistes forestières, 2500/2700 m en adrets.\n\nÉtat de la neige en surface : un peu de neige récente en altitude, souvent travaillée par le vent vers les hauts sommets, sur un manteau neigeux bien printanier ou de type névé. \nEn journée de jeudi, un peu de neige fraîche se dépose sur ce manteau neigeux peu épais en place, ou bien à même le sol dans de nombreuses orientations et altitudes.",
   "pdfUrl": "./data/bra/HAUT-VAR-HAUT-VERDON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_22.png",

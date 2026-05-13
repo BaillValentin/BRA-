@@ -1,12 +1,12 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-12T17:00:00",
-  "validUntil": "2026-05-13T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-13T17:00:00",
+  "validUntil": "2026-05-14T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2200",
-      "level": 1,
+      "altitude": "<2600",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -19,8 +19,8 @@
       ]
     },
     {
-      "altitude": ">2200",
-      "level": 2,
+      "altitude": ">2600",
+      "level": 3,
       "orientations": [
         "N",
         "NE",
@@ -34,13 +34,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent",
-    "neige_humide"
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : Quelques coulées avec l'humidification de la neige récente en journée.\nDéclenchements skieurs : Plaques à vent en altitude.",
-  "stability": "QUELQUES PLAQUES DE NEIGE VENTEE EN ALTITUDE \n\nDans la nuit de lundi à mardi, 15 à 20 cm de neige fraiche sont tombés avec un vent de Nord-Ouest parfois tempétueux.\nDéclenchements provoqués :\nDe nombreuses plaques se sont formées en altitude dans la neige récente. Elles sont présentes en tout versants, mais plus nombreuses sous le vent ( généralement en versants Est / Sud-Est). Ces plaques sont généralement peu épaisses, mais peuvent être encore très réactives le matin.  Les plaques se stabilisent en cours de journée au soleil, mais restent plus sensibles dans les versants Nord raides. \nLors d'éclaircies, avec le soleil de mai, neige devenant humide / collante, avec le risque d'un départ en neige humide sous les skis. \n\nDéparts spontanés :\nMercredi, l'humidification de la neige récente se poursuit sous les éclaircies et quelques avalanches sont envisageables dans les pentes suffisamment raides, surtout sous les rochers et corniches. Généralement de tailles petites à moyennes ( selon l'épaisseur de neige récente). ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude au dessus de 2100/2400m suivant le versant... La neige prévue camoufle parfois herbes et roches, prudence\nLimites skiables : Vers 1700/1900m en Nord à 2200/2400m en versants ensoleillés. \n\nQualité de la neige mercredi :  10 à 20cm de neige fraîche dés 2200m, localement 30  en altitude. Neige cartonnée par le vent en altitude. En journée la neige s'humidifie rapidement au soleil, devenant lourde et collante. Neige restant plus froide dans les pentes nord suffisament raides pour rester ombragées. ",
+  "summary": "Départs spontanés : Quelques départs de petites et moyennes tailles\nDéclenchements skieurs : Plaques à vent en secteurs d'altitude exposés.",
+  "stability": "FORMATION DE NOUVELLES PLAQUES\n\nChutes de neige prévues cette nuit de mercredi à jeudi et jeudi en journée.\nDéclenchements provoqués :\nDe nombreuses plaques se forment en altitude dans la neige récente. Elles peuvent être présentes en tout versant mais sont plus réactives en secteurs Nord d'altitude (au-dessus de 2400/2600m environ) où de la neige froide était déjà présente avant les chutes. Sous le vent en altitude, elles pourront prendre l'aspect de plaque dure près des crêtes, plutôt friables dans les secteurs plus abrités du vent. Les plaques se multiplient en cours de journée et sont particulièrement sensibles et mobilisant une plus grosse épaisseur dans les versants nords. Sous 2200/2400m, les plaques sont moins nombreuses et l'épaisseur mobilisable bien plus faible.\n\n\nDéparts spontanés :\nJeudi, au fur et à mesure des chutes de neige en journée, le risque de départs spontanés augmente. Ainsi, au-dessus de 200/2400m, ou le manteau était encore bien présent on note la possibilité de départs spontanés de petites et moyennes tailles. Très rarement, un départ de plus grande ampleur est possible à très haute altitude venant solliciter les anciennes couches.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude (grâce aux récentes précipitations) au dessus de 2000/2200m suivant le versant...\nLa neige prévue camoufle parfois herbes et roches, prudence\n\nLimites skiables : Vers 1900/2100m avec les dernières chutes de neige.\n\nQualité de la neige jeudi :  10 à 15cm de neige fraîche dés 1500m, localement 20cm en altitude. Neige cartonnée par le vent en altitude, encore légère et fraiche partout ailleurs.",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

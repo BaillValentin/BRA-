@@ -1,21 +1,32 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-05-12T16:00:00",
-  "validUntil": "2026-05-13T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-13T16:00:00",
+  "validUntil": "2026-05-14T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2200",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2200",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
     }
   ],
-  "situations": [
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : en neige humide en altitude, généralement de petite taille. \nDéclenchements skieurs : peu probables. ",
-  "stability": "FAIBLE ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis. \n- généralement peu probables. On ne peut exclure la présence de plaques résiduelles en versant nord de haute altitude. Ces instabilités sont de taille limitée et facilement identifiables. \n\nDéparts spontanés : manteau neigeux bien stabilisé. Départs de neige humide en pentes raides au fil de l'ensoleillement, principalement de petite taille (taille 1), exceptionnellement de taille moyenne (taille 2). ",
-  "snowQuality": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 2000 m en ubacs sur terrain favorable, 2300/2500 m en adrets.\n\nÉtat de la neige en surface : un peu de neige récente en altitude, souvent travaillée par le vent vers les hauts sommets, sur un manteau neigeux printanier ou de type névé. Plus bas, neige humide dense. ",
+  "situations": [],
+  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : petites plaques en formation près des crêtes / sommets.",
+  "stability": "PETITES INSTABILITÉS EN FORMATION EN ALTITUDE\n\nDéclenchements provoqués : en cours d'après-midi de jeudi, quelques petites plaques se forment dans les accumulations près des crêtes et sommets, suite aux averses de neige attendues. Elles sont faciles à déclencher mais ne génèrent que de petites avalanches (taille 1). Ces instabilités deviennent un peu plus fréquentes en cours de nuit suivante, avec la poursuite des chutes de neige.\n\nDéparts spontanés : peu probables, en raison du temps nuageux et de plus en plus froid.",
+  "snowQuality": "Enneigement globalement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : très localement vers 2000 m en ubacs sur terrain favorable, 2300/2500 m en adrets.\n\nÉtat de la neige en surface : un peu de neige récente en altitude, souvent travaillée par le vent vers les sommets, sur un manteau neigeux bien printanier ou de type névé. \nEn journée de jeudi, un peu de neige fraîche se dépose sur ce manteau neigeux en place, ou bien à même le sol dans les adrets ou les ubacs de basse altitude.",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

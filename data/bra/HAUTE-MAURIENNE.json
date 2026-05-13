@@ -1,7 +1,7 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-05-12T17:00:00",
-  "validUntil": "2026-05-13T18:00:00",
+  "date": "2026-05-13T16:00:00",
+  "validUntil": "2026-05-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -11,6 +11,7 @@
         "N",
         "NE",
         "E",
+        "W",
         "NW"
       ]
     },
@@ -21,17 +22,19 @@
         "N",
         "NE",
         "E",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
     "neige_fraiche",
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
   "summary": "Départs spontanés : rares départs dans la neige fraîche s'humidifiant sous le Soleil. \nDéclenchements skieurs : quelques plaques dans la ventée à très haute altitude. ",
-  "stability": "QUELQUES INSTABILITÉS DANS LA NEIGE VENTéE EN ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2800/3000m dans un large secteur Nord, l'épisode de transport de neige par le vent a engendré quelques plaques dans la neige récente. Elles sont faciles à déclencher quand la pente est très raide et suffisent à déstabiliser une personne. Une grosse accumulation peut engendrer une avalanche de taille moyenne (taille 2). Observable : accumulation visible de neige récente et dense. \nPlus bas, les cumuls de neige ne sont pas suffisants pour induire une problématique notable de plaque. \n\nDéparts spontanés : rares départs ponctuels (boulettes/escargots/avalanches en poires) se manifestent dans les pentes suffisamment raides au départ des cailloux et des corniches, en suivant la course du Soleil. Plus probables le matin : en versant NE, puis E, puis SE. Avalanches petites, rarement de taille moyenne. \n\nAutres : chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent, semble commencer à un peu mieux s'enneiger.\n\nLimite skiable : vers 2000 m en nord, 2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : regel correct au-delà de 2200/2400 m. Il faut monter au delà de 2600/2800 m en versant Nord pour trouver une neige froide densifiée par le vent. A très haute altitude, on la trouve dans des orientations plus larges mais le Soleil du jour aura vite raison de son existence. \nDans les autres orientations à altitude modeste, alternance de croûte portante (ancienne neige en surface) et croûte cassante (neige récente humidifiée ce mardi). Avec le soleil, la vieille neige ramollie et glisse bien, la neige récente se met à coller. ",
+  "stability": "PETITES  INSTABILITÉS DANS LA NEIGE VENTEE A HAUTE ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2800/3000m dans un large secteur Nord, Les chutes récentes et à venir accompagnées de vent ont engendré quelques plaques dans la neige récente. Elles sont peu nombreuses mais assez faciles à déclencher quand la pente est très raide et suffisent à déstabiliser une personne. Une grosse accumulation peut engendrer une avalanche de taille moyenne (taille 2). Observable : accumulation visible de neige récente et dense. \nPlus bas, les cumuls de neige ne sont pas suffisants pour induire une problématique notable de plaque. \n\nDéparts spontanés : rares départs ponctuels humides  (boulettes/escargots/avalanches en poires) se manifestent dans les pentes suffisamment raides au départ des cailloux et des corniches, dans les rares pentes de hautes altitudes qui vont chauffer suffisamment à travers les nuages en cours de journée . Avalanches petites\n\nAutres : chutes de corniche possibles. Les ponts de neige au-dessus des ruisseaux sont fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent à cause des vents forts, s'est temporairement un peu mieux enneigée.\n\nLimite skiable : vers 2200 m en nord, 2500/2600 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : bon regel jeudi matin de la neige de surface. Neige souvent croutée sous 2500m et Neige froide et ventée au dessus de 2500/2800m suivant les versants. En cours de journée les averses viendront  déposer un saupoudrage de 2 à 5 cm sur ce manteau. A noter que le vent fort attendu va transporter la neige restée froide à haute altitude     \nEn cours de journée il se peut que même à travers les nuages la neige récente chauffe assez pour se mettre à coller car on est mi-mai.   ",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

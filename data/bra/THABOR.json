@@ -1,31 +1,32 @@
 {
   "massif": "THABOR",
-  "date": "2026-05-12T16:00:00",
-  "validUntil": "2026-05-13T18:00:00",
+  "date": "2026-05-13T16:00:00",
+  "validUntil": "2026-05-14T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2500",
+      "altitude": "<2200",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "NW"
       ]
     },
     {
-      "altitude": ">2500",
+      "altitude": ">2200",
       "level": 2,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "NW"
       ]
     }
   ],
-  "situations": [
-    "plaque_vent",
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : en neige humide en altitude. \nDéclenchements skieurs : plaques localisées et superficielles vers les hauts sommets. ",
-  "stability": "INSTABILITÉS RÉSIDUELLES EN ALTITUDE\n\nDéclenchements provoqués : \n- vers les plus hauts sommets (au-dessus de 2500/2700 m environ), plaques résiduelles en place, formées par les faibles chutes de neige et le vent de nord-ouest. Elles sont de taille limitée, mais parfois faciles à déclencher par un seul skieur. Elles sont localisées \nprincipalement en versants nord dans les accumulations de neige par le vent. Elles engendrent des avalanches de taille petite (taille 1), voire moyenne (taille 2). \n- un skieur évoluant tardivement dans une pente raide ensoleillée peut provoquer un départ superficiel de neige humide sous les skis. \n\nDéparts spontanés : quelques départs de neige humide en pentes raides au fil de l'ensoleillement. Avalanches de taille petite (taille 1), très rarement moyenne (taille 2). ",
-  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 53 cm à la nivose Rochilles à 2450 m, 9 cm à la nivose du Galibier à 2559 m. \n\nLimite d'enneigement skiable : très localement vers 2000/2100 m en ubacs sur terrain favorable, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : un peu de neige récente en altitude, souvent travaillée par le vent vers les hauts sommets, sur un manteau neigeux printanier ou de type névé. Plus bas, neige humide dense. ",
+  "situations": [],
+  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : petites plaques en formation près des crêtes / sommets.",
+  "stability": "NOUVELLES PETITES INSTABILITÉS EN FORMATION EN ALTITUDE\n\nDéclenchements provoqués : - au-dessus de 2500/2700 m environ, quelques plaques récentes sont encore en place, essentiellement dans les accumulations de neige en pentes d'un large secteur nord, là où le manteau neigeux est resté froid. Elles engendrent de petites avalanches (taille 1), voire moyennes (taille 2). \n- En cours de journée de jeudi, de nouvelles petites plaques faciles à déclencher se forment dans les accumulations près des crêtes et sommets, suite aux averses de neige attendues. Ces instabilités deviennent un peu plus fréquentes en cours de nuit suivante, avec la poursuite des chutes de neige.\n\nDéparts spontanés : peu probables, en raison du temps nuageux et de plus en plus froid.",
+  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 50 cm à la Nivôse Rochilles à 2450 m, 9 cm à la nivose du Galibier à 2559 m. \n\nLimite d'enneigement skiable : très localement vers 2000/2100 m en ubacs sur terrain favorable, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : un peu de neige récente en altitude, souvent travaillée par le vent vers les sommets, sur un manteau neigeux bien printanier ou de type névé. \nEn journée de jeudi, un peu de neige fraîche se dépose sur ce manteau neigeux peu épais en place, ou bien à même le sol dans les adrets ou les ubacs de basse altitude.",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

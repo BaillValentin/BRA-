@@ -1,21 +1,33 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-13T16:00:00",
-  "validUntil": "2026-05-14T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-14T16:00:00",
+  "validUntil": "2026-05-15T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2000",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N",
+        "NE"
+      ]
+    },
+    {
+      "altitude": ">2000",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE"
+      ]
     }
   ],
   "situations": [
-    "neige_fraiche"
+    "neige_fraiche",
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : Peu probables\nDéclenchements skieurs : Peu probables.",
-  "stability": "Rares instabilités dans la neige fraiche proche des sommets.\n\nDéparts spontanés : \n* Rares plaques de fond, dans les versants N au-dessus de 2000 m. Taille 1 (petite)\n* Au-dessus de 2000 m surtout dans les ubacs : rares petits départs ponctuels dans la neige fraiche. Taille 1.\n\nDéclenchements provoqués :\n* Au-dessus de 2000 m : de la neige fraiche peut couler sous les skis voir partir sous formes de petites plaques. Taille 1.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire à toutes altitudes.\nChutes de neige sur le sol ou sur un peu de neige ancienne au-dessus de 2000 m en nord.\n\nQualité de la neige jeudi :\nFine couche neige récente humide, reposant sur des névés en ubacs (au-dessus de 2000 m) et sans sous couche en adret.",
+  "summary": "Départs spontanés : rares purges\nDéclenchements skieurs : rares plaques à vent dans la neige fraîche des versant nord au-dessus de 2000 m",
+  "stability": "Petit hiver\n\nDéclenchements provoqués :\n* rares plaques à vent dans la neige fraiche, formées jeudi et vendredi par le fort vent de sud-ouest, au-dessus de 2000 m dans les versants nord/nord-est. Facile à  déclencher. Taille 1 à 2 (petite à moyenne). \nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes, transport de neige par le vent.\n* un peu de neige fraiche peut couler sous les skis (sluff). Taille 1.  \n\nDéparts spontanés :\n* très rares avalanches de neige fraiche, surtout sous les plus fortes averses ou les éclaircies, Très petite sous 2000 m et petite au-dessus.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire. \nOn peut chausser les skis au-dessus de 1700 m (sous-couche uniquement dans les versants nord au-dessus de 2000 m). \n\nQualité de la neige ce vendredi matin : \nVers 1200/1800 m : 3/7 cm de neige fraiche, fondant en journée sous une éclaircie. \nAu-dessus de 1800 m, 5/15 cm de neige fraîche reposant sur de la vielle neige humide, versants ouest souvent décapés.  ",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

@@ -1,44 +1,40 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-05-13T16:00:00",
-  "validUntil": "2026-05-14T18:00:00",
-  "riskMax": 3,
+  "date": "2026-05-14T16:00:00",
+  "validUntil": "2026-05-15T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2200",
+      "altitude": "<2400",
       "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2200",
+      "altitude": ">2400",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche"
+    "neige_fraiche",
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Quelques départs dans la neige fraîche\nDéclenchements skieurs : Formation de quelques  plaques dans la neige fraîche.",
-  "stability": "NOUVELLES CHUTES DE NEIGE GENERANT DE NOUVELLES INSTABILITES\n\nDéclenchements provoqués :  Les chutes attendues d'ici jeudi soir de 5 à 30 cm au dessus  de 2000m d'est en ouest du massif  vont progressivement former de nouvelles plaques sur couche fragile temporaire. On les trouvera un peu en tous versants déjà enneigés  mais elles plus plus épaisses  dans les versants NO à Est -là où la neige est restée froide-  Ces plaques temporaires vont  être sensible à la surcharge ce jeudi  engendrant des plaques friables d'abord petites puis moyennes là ou le cumul de fraiche deviendra conséquent  . Observable : accumulation de neige fraîche hétérogène. \n\nDéparts spontanés : quelques départs ponctuels ou en plaques sont possibles pendant les chutes surtout dans les pentes les plus raides du massif qui vont se purger en premier.   Avalanches petites, rarement de taille moyenne. \n\nAutres :  Sous 2200m la neige fraiche va tomber sur un sol nu ou de la neige de névé en trop faible quantité pour générer autres choses que de petites avalanches de plaques dans de rares zones d'accumulation ",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. Les chutes en cours ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 2000 m en nord,  2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige :Petite couche de neige fraiche dès 1800/2000m ce jeudi matin qui va s'épaissir ensuite en journée au fil  des averses. Là ou cette neige fraiche repose sur u sol nu elle va vite devenir collante voir fondre même à travers les nuages. Ailleurs cette neige va reposer sur les chutes récentes qui se sont croutée assez vite sauf en nord au dessus de 2500/2800m ou la neige est restée froide. Dans ces secteurs on pourra facilement trouver ce jeudi après midi plus de 50 cm de fraiche souvent travaillée par le vent.   ",
+  "summary": "Départs spontanés : rares départs dans la neige fraîche s'humidifiant\nDéclenchements skieurs : quelques plaques dans la ventée à très haute altitude. ",
+  "stability": "PETITES  INSTABILITÉS DANS LA NEIGE VENTEE A HAUTE ALTITUDE.\n\nDéclenchements provoqués : au-dessus de 2500m dans un large secteur Nord, Les chutes récentes et à venir accompagnées de vent ont engendré quelques plaques dans la neige récente. Elles sont peu nombreuses mais assez faciles à déclencher quand la pente est très raide et suffisent à déstabiliser une personne. Une grosse accumulation peut engendrer une avalanche de taille moyenne (taille 2). Observable : accumulation conséquente  de neige fraîche hétérogène. \nPlus bas, les cumuls de neige ne sont pas suffisants pour induire une problématique notable de plaque. \n\nDéparts spontanés : rares départs ponctuels humides  (boulettes/escargots/avalanches en poires, taille 1 ) dans les pentes les plus raides au départ des cailloux. Départ  dans les  pentes de hautes altitudes qui vont chauffer suffisamment à la faveur d'une trouée voir souvent même à travers les nuages en cours de journée .\n\nAutres :  Les ponts de neige au-dessus des ruisseaux sont fragiles par endroit.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent à cause des vents forts, s'est temporairement un peu mieux enneigée.\n\nLimite skiable : vers 2200 m en nord, 2500/2600 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Petite couche de neige fraiche dès 1500/1600m ce vendredi  matin qui va encore s'épaissir un peu  en journée au fil  des averses. Cependant là ou cette neige fraiche repose sur un sol nu elle va vite devenir collante et même  fondre, et ce  même à travers les nuages. Plus haut  cette neige fraiche repose sur les chutes récentes qui se sont croutées assez vite sauf en nord au dessus de 2500/2800m ou la neige a pu  restée froide. Dans ces secteurs de haute altitude on pourra facilement trouver ce vendredi après midi plus de 20 cm de fraiche souvent travaillée par le vent.       \nEn cours de journée et ce jusqu'à assez haute altitude il se peut que même à travers les nuages la neige récente chauffe assez pour se mettre à coller car on est mi-mai.   ",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

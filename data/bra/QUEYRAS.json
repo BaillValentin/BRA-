@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-05-13T16:00:00",
-  "validUntil": "2026-05-14T18:00:00",
+  "date": "2026-05-14T16:00:00",
+  "validUntil": "2026-05-15T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,23 +10,29 @@
       "orientations": [
         "N",
         "NE",
+        "E",
         "NW"
       ]
     },
     {
       "altitude": ">2400",
-      "level": 1,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
+        "E",
         "NW"
       ]
     }
   ],
-  "situations": [],
-  "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : petites plaques en formation près des crêtes / sommets.",
-  "stability": "PETITES INSTABILITÉS EN FORMATION EN ALTITUDE\n\nDéclenchements provoqués : en cours d'après-midi de jeudi, quelques petites plaques se forment dans les accumulations près des crêtes et sommets, suite aux averses de neige attendues. Elles sont faciles à déclencher mais ne génèrent que de petites avalanches (taille 1). Ces instabilités deviennent un peu plus fréquentes en cours de nuit suivante, avec la poursuite des chutes de neige.\n\nDéparts spontanés : peu probables, en raison du temps nuageux et de plus en plus froid.",
-  "snowQuality": "Enneigement très déficitaire pour la période.\nHauteurs de neige observées : 27 cm à la Nivôse du Col Agnel à 2630 m. \n\nLimite d'enneigement skiable : au plus bas à 2200 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais. Adrets secs jusqu'à 2800/3000 m notamment vers l'est du massif. \n\nÉtat de la neige en surface : un peu de neige récente en altitude, souvent travaillée par le vent vers les hauts sommets, sur un manteau neigeux bien printanier ou de type névé. \nEn journée de jeudi, un peu de neige fraîche se dépose sur ce manteau neigeux peu épais en place, ou bien à même le sol dans de nombreuses orientations et altitudes.",
+  "situations": [
+    "neige_fraiche",
+    "plaque_vent",
+    "sous_couche_fragile"
+  ],
+  "summary": "Départs spontanés : quelques petits départs de neige fraiche.\nDéclenchements skieurs : petites plaques en place près des crêtes / sommets.",
+  "stability": "PETITES INSTABILITÉS EN PLACE EN ALTITUDE\n\nDéclenchements provoqués : quelques petites plaques sont en place dans les accumulations de neige fraiche près des crêtes et sommets, possibles en toutes orientations en présence de sous-couche, mais plus nombreuses dans un large secteur nord à est avec le transport par le vent. Plaques faciles à déclencher, générant des avalanches de petite taille en général (taille 1), rarement moyenne en cas de déstabilisation d'une plaque plus ancienne en versant nord au dessus de 2500/2700 m.\n\n\nDéparts spontanés : Des petits départs ponctuels de neige fraiche sont possibles en pente raides à la faveur d'une éclaircies. ",
+  "snowQuality": "Enneigement très déficitaire pour la période.\nHauteurs de neige observées : 22 cm à la Nivôse du Col Agnel à 2630 m, 50 cm en versant nord du col de l'Izoard.\n\nLimite d'enneigement skiable : au plus bas à 2200 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais. Adrets secs jusqu'à 2800/3000 m notamment vers l'est du massif. \n\nÉtat de la neige en surface : on retrouve 5 à 10 cm de neige récente, localement plus dans les ubacs des plus hauts sommets,  encore froide au dessus de 1800/2000 et souvent travaillée par le vent en altitude. Elle repose sur un sol nu, ou sur un manteau de type névé en ubacs au dessus de  2200/2400 m. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

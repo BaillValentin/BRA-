@@ -1,11 +1,11 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-05-13T17:00:00",
-  "validUntil": "2026-05-14T18:00:00",
+  "date": "2026-05-14T16:00:00",
+  "validUntil": "2026-05-15T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2100",
+      "altitude": "<2000",
       "level": 1,
       "orientations": [
         "N",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "altitude": ">2100",
+      "altitude": ">2000",
       "level": 2,
       "orientations": [
         "N",
@@ -27,8 +27,8 @@
     "plaque_vent"
   ],
   "summary": "Départs spontanés : Risque faible, coulées dans les zones raides d'altitude.\nDéclenchements skieurs : Quelques plaques à vent temporaire.",
-  "stability": "NOUVELLES CHUTES DE NEIGE EN ALTITUDE\n\nLe manteau reste dans l'ensemble stable mais de nouvelles chutes de neige sur les hauteurs ont lieu dans la nuit de mercredi à jeudi et en journée de jeudi. \nDéparts spontanés : Peu probables dans l'ensemble mais des départs de petite taille sont possibles en altitude, particulièrement en versants Nords ou une sous couche est encore présente.\nDéclenchements provoqués :  Les chutes de neige à venir sont accompagnées de vent et ainsi des plaques se forment en divers versants d'altitude au-dessus de 2000/2100m. Ces plaques sont facilement déclenchables mais reste d'épaisseur limitée.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire pour la saison. Les névés s'amenuisent, souvent cantonnés en Nord d'altitude. Saupoudrage et même une belle couche de neige fraiche à venir les prochains jours au-dessus de 1300m.\n\nQualité de la neige jeudi :  Couche de neige fraiche dès 1300/1400m au matin, avec 5 à 10cm légèrement ventée.",
+  "stability": "NOUVELLES CHUTES DE NEIGE EN ALTITUDE\n\nLe manteau reste dans l'ensemble stable mais de nouvelles chutes de neige sur les hauteurs ont lieu dans la nuit de jeudi à vendredi et en journée de vendredi. \nDéparts spontanés : Peu probables dans l'ensemble mais des départs de petite taille sont possibles en altitude, particulièrement en versants Nords ou une sous couche est encore présente.\nDéclenchements provoqués :  Les chutes de neige à venir sont accompagnées de vent et ainsi des plaques se forment en divers versants d'altitude au-dessus de 2000/2100m. Ces plaques sont facilement déclenchables mais reste d'épaisseur limitée.",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire pour la saison. Les névés s'amenuisent, souvent cantonnés en Nord d'altitude. Une belle couche de neige fraiche à venir les prochains jours au-dessus de 1300m.\n\nQualité de la neige vendredi :  Couche de neige fraiche dès 1300/1400m avec 5 à 10cm légèrement ventée, et 15/20cm supplémentaires d'ici vendredi soir.",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

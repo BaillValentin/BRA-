@@ -1,44 +1,37 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-05-13T16:00:00",
-  "validUntil": "2026-05-14T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-14T16:00:00",
+  "validUntil": "2026-05-15T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2200",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2200",
+      "altitude": "<2600",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2600",
+      "level": 3,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche"
+    "neige_fraiche",
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : petites purges dans la neige fraiche\nDéclenchements skieurs : quelques plaques dans la neige récente en altitude.",
-  "stability": "Instabilité dans la neige fraiche\n\nDéclenchements provoqués :\n* Au-dessus de 2200 m : quelques plaques dans la neige fraiche.  Plaques d'autant plus nombreuses et épaisses en montant en altitude et au fil des averses de neige. Facilement déclenchable par un skieur. Taille 1 (petite) à 2 (moyenne).\n\nDéparts spontanés :\n* Au-dessus de 2200 m : départs ponctuels dans la neige fraiche sous les averses de neige. De plus en plus probable au fil des heures et sous les averses les plus intenses. Taille 1 à 2.\nFacteur aggravant : un départ en plaque n'est pas exclu lors d'une avalanche en cascade. Cassure de 50/80 cm possible. Taille 2.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est correct au-dessus de 2400 m et déficitaire en dessous. \nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord. \n\nQualité de la neige jeudi :\nEntre 1500 et 2200 m : fine couche neige récente humide, sans sous couche en général ou quelques névés en ubacs.\nAu-dessus de 2200 m :  en début de matinée 20/30 cm de neige fraiche froide posé sur un fond dure. L'épaisseur de neige augmente au fil des averses.",
+  "summary": "Départs spontanés : purges dans les pentes raides\nDéclenchements skieurs : plaques à vent dans la neige fraîche",
+  "stability": "Petit hiver\n\nDéclenchements provoqués :\n* plaques à vent dans la neige fraiche, formées jeudi et vendredi par le fort vent de sud-ouest, rares dans la tranche 2000/2600 m, plus nombreuses et épaisses au-dessus de 2600 m. Facile à  déclencher. Taille 1 à 2 (petite à moyenne). \nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes, transport de neige par le vent.\n* un peu de neige fraiche peut couler sous les skis (sluff). Taille 1 sous 2600 m et taille 2 possible au-dessus de 2600 m.  \n\nDéparts spontanés :\n* rares avalanches de neige fraiche, un peu plus nombreuses sous les plus fortes averses ou les éclaircies, Très petite sous 2000 m, taille 1 à 2 (petite à moyenne) au-dessus.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2500 m \nOn peut chausser les skis au-dessus de 1700 m (sous-couche à partir de 1900/2000 m en nord et 2300 m en sud). \n\nQualité de la neige ce vendredi matin : \nVers 1200/1800 m : 3/7 cm de neige fraiche, fondant en journée sous une éclaircie. \nVers 1800/2600 m, 5/15 cm de neige fraîche reposant sur  de la vielle neige humide, versants ouest souvent décapés.  \nAu-dessus de 2600 m, une vingtaine de cm de neige fraîche très soufflée avec une alternance de zones décapées et des congères. ",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

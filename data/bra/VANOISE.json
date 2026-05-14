@@ -1,44 +1,39 @@
 {
   "massif": "VANOISE",
-  "date": "2026-05-13T16:00:00",
-  "validUntil": "2026-05-14T18:00:00",
+  "date": "2026-05-14T16:00:00",
+  "validUntil": "2026-05-15T18:00:00",
   "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2200",
+      "altitude": "<2300",
       "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2200",
+      "altitude": ">2300",
       "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
-        "S",
-        "SW",
         "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche"
+    "neige_fraiche",
+    "plaque_vent"
   ],
   "summary": "Départs spontanés : Quelques départs dans la neige fraîche\nDéclenchements skieurs : Formation de quelques  plaques dans la neige fraîche.",
-  "stability": "NOUVELLES CHUTES DE NEIGE GENERANT DE NOUVELLES INSTABILITES\n\nDéclenchements provoqués :  Les chutes attendues d'ici jeudi soir de 10 à 30 cm au dessus  de 2000m d'est en ouest du massif  vont progressivement former de nouvelles plaques sur couche fragile temporaire. On les trouvera un peu en tous versants déjà enneigés  mais elles plus plus épaisses  dans les versants NO à Est -là où la neige est restée froide-  Ces plaques temporaires vont  être sensible à la surcharge ce jeudi  engendrant des plaques friables d'abord petites puis moyennes là ou le cumul de fraiche deviendra conséquent  . Observable : accumulation de neige fraîche hétérogène. \n\nDéparts spontanés : quelques départs ponctuels ou en plaques sont possibles pendant les chutes surtout dans les pentes les plus raides du massif qui vont se purger en premier.   Avalanches petites, rarement de taille moyenne. \n\nAutres :  Sous 2200m la neige fraiche va tomber sur un sol nu ou de la neige de névé en trop faible quantité pour générer autres choses que de petites avalanches de plaques dans de rares zones d'accumulation ",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. Les chutes en cours ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 2000 m en nord,  2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige :Petite couche de neige fraiche dès 1800/2000m ce jeudi matin qui va s'épaissir ensuite en journée au fil  des averses. Là ou cette neige fraiche repose sur u sol nu elle va vite devenir collante voir fondre même à travers les nuages. Ailleurs cette neige va reposer sur les chutes récentes qui se sont croutée assez vite sauf en nord au dessus de 2500/2800m ou la neige est restée froide. Dans ces secteurs on pourra facilement trouver ce jeudi après midi plus de 50 cm de fraiche souvent travaillée par le vent.   ",
+  "stability": "CHUTES DE NEIGE EN COURS GENERANT DE NOUVELLES INSTABILITES\n\nDéclenchements provoqués :  De nouvelles plaques se forment avec les chutes ventées en cours depuis ce mercredi soir qui vont finir par faire un cumul ce vendredi soir de 20/30 cm au dessus  de 2000m et localement 40 cm au-dessus de 2500m (secteur glacière de Val Thorens ). Ces chutes  accompagnées d'un vent soutenu forment  progressivement  de nouvelles plaques sur couche fragile temporaire. On les trouvera un peu en tous versants déjà enneigés  mais elles sont plus épaisses  dans les versants N à Est -là où la neige est restée froide depuis les derniers épisodes.  Ces plaques temporaires vont  être sensible à la surcharge ce vendredi  engendrant des plaques friables d'abord petites puis moyennes là ou le cumul de fraiche deviendra conséquent  . Observable : accumulation conséquente  de neige fraîche hétérogène. \n\nDéparts spontanés : quelques départs ponctuels ou en plaques sont possibles pendant les chutes surtout dans les pentes les plus raides du massif qui vont se purger en premier.   Avalanches petites, rarement de taille moyenne. \n\nAutres :  Sous 2300m la neige fraiche va tomber en trop faible quantité, et surtout sur un sol nu ou de la neige de névé,  pour générer autre chose que de petites avalanches de plaques dans de rares zones d'accumulation ",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. Les chutes en cours ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 2100 m en nord,  2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige :Petite couche de neige fraiche dès 1500/1600m ce vendredi  matin qui va encore s'épaissir un peu  en journée au fil  des averses. Cependant là ou cette neige fraiche repose sur un sol nu elle va vite devenir collante et même  fondre, et ce  même à travers les nuages. Plus haut  cette neige fraiche repose sur les chutes récentes qui se sont croutées assez vite sauf en nord au dessus de 2500/2800m ou la neige a pu  restée froide. Dans ces secteurs de haute altitude, surtout à l'ouest du massif plus concernés par les chutes,  on pourra facilement trouver ce vendredi après midi plus de 30/40 cm de fraiche souvent travaillée/plaquée par le vent.   ",
   "pdfUrl": "./data/bra/VANOISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_10.png",

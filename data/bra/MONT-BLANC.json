@@ -1,7 +1,7 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-05-14T16:00:00",
-  "validUntil": "2026-05-15T18:00:00",
+  "date": "2026-05-15T16:00:00",
+  "validUntil": "2026-05-16T18:00:00",
   "riskMax": 3,
   "risks": [
     {
@@ -12,6 +12,9 @@
         "NE",
         "E",
         "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     },
@@ -23,6 +26,9 @@
         "NE",
         "E",
         "SE",
+        "S",
+        "SW",
+        "W",
         "NW"
       ]
     }
@@ -31,9 +37,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : avalanche de neige fraiche\nDéclenchements skieurs : plaques à vent dans la neige fraîche",
-  "stability": "Petit hiver\n\nDéclenchements provoqués :\n* plaques à vent dans la neige fraiche, formées jeudi et vendredi par le fort vent de sud-ouest, rares dans la tranche 2000/2600 m, plus nombreuses et épaisses au-dessus de 2600 m. Facile à  déclencher. Taille 1 à 2 (petite à moyenne).  Au-dessus de 3000 m, de grandes cassures sont possibles (60/90 cm), taille 3 (grande) possible.\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes, transport de neige par le vent.\n* un peu de neige fraiche peut couler sous les skis (sluff). Taille 1 sous 2600 m et taille 2 possible au-dessus de 2600 m.  \n\nDéparts spontanés :\n* rares avalanches de neige fraiche, un peu plus nombreuses sous les plus fortes averses ou les éclaircies, Très petite sous 2000 m, taille 1 à 2 (petite à moyenne) au-dessus. Au-dessus de 3000 m, une taille 3 n’est pas exclue (cassure de 60/90 cm). ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2700 m \nOn peut chausser les skis au-dessus de 1700 m (sous-couche à partir de 1900/2000 m en nord et 2300 m en sud). \n\nQualité de la neige ce vendredi matin : \nVers 1200/1800 m : 3/7 cm de neige fraiche, fondant en journée sous une éclaircie. \nVers 1800/2600 m, 5/15 cm de neige fraîche reposant sur  de la vielle neige humide, versants ouest souvent décapés.  \nAu-dessus de 2600 m, une vingtaine de cm de neige fraîche très soufflée avec une alternance de zones décapées et des congères. Au-dessus de 3200 m, enfoncement piéton important (60/80 cm). ",
+  "summary": "Départs spontanés : Neige récente au fil du réchauffement.\nDéclenchements skieurs : Plaques à vent dans la neige récente.",
+  "stability": "Petit hiver. Instabilités dans la neige récente.\n\nDéclenchements provoqués :\n* Plaques à vent dans la neige fraiche, rares dans la tranche 2000/2600 m, plus nombreuses et épaisses au-dessus de 2600 m. Assez faciles à déclencher. Taille 1 à 2 (petite à moyenne). Au-dessus de 3000 m, de grandes cassures sont possibles (70/100 cm), taille 3 (grande) possible. Ces plaques se sont formées jeudi et vendredi par le fort vent de sud-ouest, et dans une moindre mesure dans la nuit de vendredi à samedi par le vent de nord.\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes, transport de neige par le vent.\n* Entre 2000 et 3000 m : de la neige récente, au fil du réchauffement en journée, peut couler sous les skis et peut entrainer de plus gros volumes de neige. Taille 1 à 2. Départs également possibles sous 2000 m, mais avec de plus petits volumes, taille 1.\n\nDéparts spontanés :\n* Entre 2000 et 3000 m : départs ponctuels dans la neige fraiche s'humidifiant au fil de la journée. Ces départs ponctuels entrainent régulièrement des volumes plus importants. Taille 1 à 2.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2700 m \nNeige récente présente dès 1400/1500m en début de matinée, 10 cm vers 2000 m et jusqu'à 30 cm au-dessus de 2600 m.\nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord.\n\nQualité de la neige ce samedi : \nSous 2000 m, neige récente légèrement humide à humide, légèrement regelée en début de matinée. Cette neige s'humidifie progressivement en journée.\nEntre 2000 et 2600 m, 10 cm de neige récente légère, ventée proche des crêtes et des sommets. Localement croutée dans les adrets. Versants ouest souvent décapés.\nAu-dessus de 2600 m, une 20/30 cm de neige récente très soufflée avec une alternance de zones décapées et de congères. Au-dessus de 3200 m, enfoncement piéton important (60/80 cm). ",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

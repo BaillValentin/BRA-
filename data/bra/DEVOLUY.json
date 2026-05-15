@@ -1,7 +1,7 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-05-14T16:00:00",
-  "validUntil": "2026-05-15T18:00:00",
+  "date": "2026-05-15T16:00:00",
+  "validUntil": "2026-05-16T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,7 +10,6 @@
       "orientations": [
         "N",
         "NE",
-        "E",
         "NW"
       ]
     },
@@ -20,19 +19,17 @@
       "orientations": [
         "N",
         "NE",
-        "E",
         "NW"
       ]
     }
   ],
   "situations": [
     "neige_fraiche",
-    "plaque_vent",
     "sous_couche_fragile"
   ],
-  "summary": "Départs spontanés : quelques petits départs de neige fraiche.\nDéclenchements skieurs : petites plaques en place près des crêtes / sommets.",
-  "stability": "PETITES INSTABILITÉS EN PLACE EN ALTITUDE\n\nDéclenchements provoqués : des petites plaques sont en place dans les accumulations de neige fraiche près des crêtes et sommets, possibles en toutes orientations en présence de sous-couche, mais plus nombreuses dans un large secteur nord à est avec le transport par le vent. Plaques faciles à déclencher mais ne générant que de petites avalanches (taille 1).\n\nDéparts spontanés : Des petits départs ponctuels de neige fraiche sont possibles en pente raides à la faveur d'une éclaircies. ",
-  "snowQuality": "Enneigement légèrement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : vers 1800/2000 m en ubacs sur terrain favorable, 2200/2400 m en adrets.\n\nÉtat de la neige en surface : on retrouve 10 à 20 cm de neige récente, froide au dessus de 1800/2000 et souvent travaillée par le vent. Elle repose sur un sol nu, ou sur un manteau de type névé en Ubacs. ",
+  "summary": "Départs spontanés : quelques petits départs de neige fraiche s'humidifiant. \nDéclenchements skieurs : petites plaques en place près des crêtes / sommets.",
+  "stability": "PETITES INSTABILITÉS EN PLACE EN ALTITUDE\n\nDéclenchements provoqués : quelques petites plaques sont en place dans les accumulations de neige fraiche près des crêtes et sommets, principalement en secteur nord au dessus de 2000/2200 m où la sous-couche est suffisamment homogène. Plaques faciles à déclencher, mais ne générant que de petites avalanches (taille 1).\n\nDéparts spontanés : quelques petits départs ponctuels de neige fraiche s'humidifiant sont possibles en pente raides avec le retour du soleil.  ",
+  "snowQuality": "Enneigement légèrement déficitaire pour la période, mais encore correct dans les pentes nord près des plus hauts sommets.\n\nLimite d'enneigement skiable : vers 1800/2000 m en ubacs sur terrain favorable, 2200/2400 m en adrets.\n\nÉtat de la neige en surface : on retrouve 5 à 10 cm de neige récente, encore froide le matin au dessus de 1800/2000 et souvent travaillée par le vent. Elle repose sur un sol nu, ou sur un manteau de type névé en Ubacs. ",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

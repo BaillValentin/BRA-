@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-14T16:00:00",
-  "validUntil": "2026-05-15T18:00:00",
+  "date": "2026-05-15T16:00:00",
+  "validUntil": "2026-05-16T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -9,7 +9,13 @@
       "level": 1,
       "orientations": [
         "N",
-        "NE"
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
       ]
     },
     {
@@ -17,7 +23,13 @@
       "level": 2,
       "orientations": [
         "N",
-        "NE"
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
       ]
     }
   ],
@@ -25,9 +37,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : rares purges\nDéclenchements skieurs : rares plaques à vent dans la neige fraîche des versant nord au-dessus de 2000 m",
-  "stability": "Petit hiver\n\nDéclenchements provoqués :\n* rares plaques à vent dans la neige fraiche, formées jeudi et vendredi par le fort vent de sud-ouest, au-dessus de 2000 m dans les versants nord/nord-est. Facile à  déclencher. Taille 1 à 2 (petite à moyenne). \nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes, transport de neige par le vent.\n* un peu de neige fraiche peut couler sous les skis (sluff). Taille 1.  \n\nDéparts spontanés :\n* très rares avalanches de neige fraiche, surtout sous les plus fortes averses ou les éclaircies, Très petite sous 2000 m et petite au-dessus.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire. \nOn peut chausser les skis au-dessus de 1700 m (sous-couche uniquement dans les versants nord au-dessus de 2000 m). \n\nQualité de la neige ce vendredi matin : \nVers 1200/1800 m : 3/7 cm de neige fraiche, fondant en journée sous une éclaircie. \nAu-dessus de 1800 m, 5/15 cm de neige fraîche reposant sur de la vielle neige humide, versants ouest souvent décapés.  ",
+  "summary": "Départs spontanés : Neige récente au fil du réchauffement.\nDéclenchements skieurs : Rares plaques à vent dans la neige récente.",
+  "stability": "Petit hiver. Instabilités dans la neige récente.\n\nDéclenchements provoqués :\n* Rares plaques à vent dans la neige fraiche, au-dessus de 2000 m, plus nombreuses et épaisses en montant en altitude. Assez faciles à déclencher. Taille 1 à 2 (petite à moyenne). Ces plaques se sont formées jeudi et vendredi par le fort vent de sud-ouest, et dans une moindre mesure dans la nuit de vendredi à samedi par le vent de nord.\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes, transport de neige par le vent.\n* Au-dessus de 2000 m : de la neige récente, au fil du réchauffement en journée, peut couler sous les skis et peut entrainer de plus gros volumes de neige. Taille 1 à 2. Départs également possibles sous 2000 m, mais avec de plus petits volumes, taille 1.\n\nDéparts spontanés :\n* Au-dessus de 2000 m : départs ponctuels dans la neige fraiche s'humidifiant au fil de la journée. Ces départs ponctuels entrainent des volumes plus importants. Taille 1 à 2.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire. \nNeige récente présente dès 1400/1500m en début de matinée, 15/20 cm vers 2000 m.\nEncore un peu de neige ancienne au-dessus de 2000 m en nord.\n\nQualité de la neige ce samedi :\nSous 2000 m, neige récente légèrement humide à humide, légèrement regelée en début de matinée. Cette neige s'humidifie progressivement en journée.\nAu-dessus de 2000 m, 15/20 cm de neige récente légère, ventée proche des crêtes et des sommets. Localement croutée dans les adrets. Versants ouest souvent décapés.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

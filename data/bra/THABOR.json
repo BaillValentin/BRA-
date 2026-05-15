@@ -1,7 +1,7 @@
 {
   "massif": "THABOR",
-  "date": "2026-05-14T16:00:00",
-  "validUntil": "2026-05-15T18:00:00",
+  "date": "2026-05-15T16:00:00",
+  "validUntil": "2026-05-16T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,7 +10,6 @@
       "orientations": [
         "N",
         "NE",
-        "E",
         "NW"
       ]
     },
@@ -20,19 +19,17 @@
       "orientations": [
         "N",
         "NE",
-        "E",
         "NW"
       ]
     }
   ],
   "situations": [
     "neige_fraiche",
-    "plaque_vent",
     "sous_couche_fragile"
   ],
-  "summary": "Départs spontanés : quelques petits départs de neige fraiche.\nDéclenchements skieurs : petites plaques en place près des crêtes / sommets.",
-  "stability": "PETITES INSTABILITÉS EN PLACE EN ALTITUDE.\n\nDéclenchements provoqués : des petites plaques sont en place dans les accumulations de neige fraiche près des crêtes et sommets, possibles en toutes orientations en présence de sous-couche, mais plus nombreuses dans un large secteur nord à est avec le transport par le vent. Plaques faciles à déclencher, générant des avalanches de petite taille en général (taille 1), rarement moyenne en cas de déstabilisation d'une plaque plus ancienne en versant nord au dessus de 2500/2700 m.\n\nDéparts spontanés : Des petits départs ponctuels de neige fraiche sont possibles en pente raides à la faveur d'une éclaircies. ",
-  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 49 cm à la Nivôse Rochilles à 2450 m, 90 dans le vallon du Chardonnet à 2450 m d'altitude.\n\nLimite d'enneigement skiable : très localement vers 2000/2200 m en ubacs sur terrain favorable, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : on retrouve 10 à 20 cm de neige récente, froide au dessus de 1800/2000 et souvent travaillée par le vent proche des sommets. Elle repose sur un sol nu, ou sur un manteau de type névé en ubacs au dessus de 2200/2300 m. ",
+  "summary": "Départs spontanés : quelques petits départs de neige fraiche s'humidifiant. \nDéclenchements skieurs : petites plaques en place près des crêtes / sommets.",
+  "stability": "PETITES INSTABILITÉS EN PLACE EN ALTITUDE.\n\nDéclenchements provoqués : quelques petites plaques sont en place dans les accumulations de neige fraiche près des crêtes et sommets, principalement en secteur nord au dessus de 2100/2300 m où la sous-couche est suffisamment homogène. Plaques faciles à déclencher, générant des avalanches de petite taille en général (taille 1), rarement moyenne en cas de déstabilisation d'une plaque plus ancienne en versant nord au dessus de 2500/2700 m.\n\nDéparts spontanés : quelques petits départs ponctuels de neige fraiche s'humidifiant sont possibles en pente raides avec le retour du soleil.  ",
+  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées vers 2500 m : 54 cm à la Nivôse Rochilles à 2450 m, 90 dans le vallon du Chardonnet à 2450 m d'altitude.\n\nLimite d'enneigement skiable : très localement vers 2000/2200 m en ubacs sur terrain favorable, 2400/2600 m en adrets.\n\nÉtat de la neige en surface : on retrouve 5 à 15 cm de neige récente, encore froide le matin au dessus de 1800/2000 et souvent travaillée par le vent proche des sommets. Elle repose sur un sol nu, ou sur un manteau de type névé en ubacs au dessus de 2200/2300 m. ",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

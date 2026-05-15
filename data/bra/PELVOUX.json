@@ -1,7 +1,7 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-05-14T16:00:00",
-  "validUntil": "2026-05-15T18:00:00",
+  "date": "2026-05-15T16:00:00",
+  "validUntil": "2026-05-16T18:00:00",
   "riskMax": 3,
   "risks": [
     {
@@ -12,6 +12,8 @@
         "NE",
         "E",
         "SE",
+        "S",
+        "SW",
         "W",
         "NW"
       ]
@@ -24,6 +26,8 @@
         "NE",
         "E",
         "SE",
+        "S",
+        "SW",
         "W",
         "NW"
       ]
@@ -34,9 +38,9 @@
     "plaque_vent",
     "sous_couche_fragile"
   ],
-  "summary": "Départs spontanés : quelques avalanches de neige fraîche en journée.\nDéclenchements skieurs : plaques dans la neige venté, plus nombreuses et parfois épaisses en altitude.",
-  "stability": "PLAQUES EN ALTITUDE PARFOIS ÉPAISSES - CONDITIONS HIVERNALES\n\nDéclenchements provoqués : des plaques sont en place dans les accumulations de neige fraiche, possibles en toutes orientations en présence de sous-couche, mais plus nombreuses dans un large secteur nord à est avec le transport par le vent. Plaques faciles à déclencher, générant des avalanches de taille moyenne à grande au dessus de 2500/2700 m notamment en cas de déstabilisation d'une plaque plus ancienne en versant nord. \nÀ plus basse altitude, avalanche de taille petite à moyenne (taille 1 à 2) avec la plus faible épaisseur de neige mobilisable.\n\nDéparts spontanés : Des départs ponctuels ou linéaire de neige fraiche sont possibles dans les pentes raides et couloirs en journée. Avalanche de taille petite à moyenne, notamment en altitude.\n",
-  "snowQuality": "Enneigement déficitaire à moyenne altitude, mais correct pour la saison en haute montagne.\nHauteurs de neige observées : 216 cm à la Nivôse des Écrins à 2970 m, 54 cm au Pré de Madame Carle à 1870 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en ubacs de fond de vallée en cœur de massif, plutôt 2000/2200 dans les autres ubacs et 2400/2500 m en adrets.\n\nÉtat de la neige en surface : neige récente en quantité au-dessus de 3000 m, souvent travaillée par le vent. Plus bas, on retrouve 10 à 20 cm de neige fraîche, encore froide au dessus de 1800/2000, et reposant sur un sol nu, ou sur un manteau de type névé en ubacs.",
+  "summary": "Départs spontanés : quelques petites avalanches de neige fraîche s'humidifiant en journée.\nDéclenchements skieurs : plaques dans la neige venté, plus nombreuses et parfois épaisses en altitude.",
+  "stability": "PLAQUES EN ALTITUDE PARFOIS ÉPAISSES - CONDITIONS HIVERNALES\n\nDéclenchements provoqués : des plaques sont en place dans les accumulations de neige fraiche, possibles en toutes orientations en présence de sous-couche. Plaques faciles à déclencher, générant des avalanches de taille petite à moyenne, parfois grande au dessus de 2500/2700 m en cas de déstabilisation d'une plaque plus ancienne, plutôt en versant nord. \n\nDéparts spontanés : quelques petits départs ponctuels de neige fraiche s'humidifiant sont possibles en pente raides avec le retour du soleil.  ",
+  "snowQuality": "Enneigement déficitaire à moyenne altitude, mais correct pour la saison en haute montagne.\nHauteurs de neige observées : 225 cm à la Nivôse des Écrins à 2970 m, 54 cm au Pré de Madame Carle à 1870 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en ubacs de fond de vallée en cœur de massif, plutôt 2000/2200 dans les autres ubacs et 2400/2500 m en adrets.\n\nÉtat de la neige en surface : neige récente en quantité au-dessus de 3000 m, souvent travaillée par le vent. Plus bas, on retrouve 10 à 20 cm de neige fraîche, encore froide le matin au dessus de 1800/2000, et reposant sur un sol nu, ou sur un manteau de type névé en ubacs.",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

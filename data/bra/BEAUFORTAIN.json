@@ -1,12 +1,12 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-05-14T16:00:00",
-  "validUntil": "2026-05-15T18:00:00",
+  "date": "2026-05-15T17:00:00",
+  "validUntil": "2026-05-16T18:00:00",
   "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2300",
-      "level": 1,
+      "altitude": "<2500",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -16,8 +16,8 @@
       ]
     },
     {
-      "altitude": ">2300",
-      "level": 2,
+      "altitude": ">2500",
+      "level": 3,
       "orientations": [
         "N",
         "NE",
@@ -28,12 +28,12 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent"
+    "plaque_vent",
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Quelques départs dans la neige fraîche\nDéclenchements skieurs : Formation de quelques  plaques dans la neige fraîche.",
-  "stability": "CHUTES DE NEIGE EN COURS GENERANT DE NOUVELLES INSTABILITES\n\nDéclenchements provoqués :  De nouvelles plaques se forment avec les chutes ventées en cours depuis ce mercredi soir qui vont finir par faire un cumul ce vendredi soir de 20/30 cm au dessus  de 2000m et localement 40 cm au-dessus de 2500m. Ces chutes  accompagnées d'un vent soutenu forment  progressivement  de nouvelles plaques sur couche fragile temporaire. On les trouvera un peu en tous versants déjà enneigés  mais elles sont plus épaisses  dans les versants N à Est -là où la neige est restée froide depuis les derniers épisodes.  Ces plaques temporaires vont  être sensible à la surcharge ce vendredi  engendrant des plaques friables d'abord petites puis moyennes là ou le cumul de fraiche deviendra conséquent  . Observable : accumulation conséquente  de neige fraîche hétérogène. \n\nDéparts spontanés : quelques départs ponctuels ou en plaques sont possibles pendant les chutes surtout dans les pentes les plus raides du massif qui vont se purger en premier.   Avalanches petites, rarement de taille moyenne. \n\nAutres :  Sous 2300m la neige fraiche va tomber en trop faible quantité, et surtout sur un sol nu ou de la neige de névé,  pour générer autre chose que de petites avalanches de plaques dans de rares zones d'accumulation ",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. Les chutes en cours ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 1900 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige :Petite couche de neige fraiche dès 1500/1600m ce vendredi  matin qui va encore s'épaissir un peu  en journée au fil  des averses. Cependant là ou cette neige fraiche repose sur un sol nu elle va vite devenir collante et même  fondre, et ce  même à travers les nuages. Plus haut  cette neige fraiche repose sur les chutes récentes qui se sont croutées assez vite sauf en nord au dessus de 2500/2800m ou la neige a pu  restée froide. Dans ces secteurs de haute altitude on pourra facilement trouver ce vendredi après midi plus de 30/40 cm de fraiche souvent travaillée par le vent.   ",
+  "summary": "Départs spontanés : petites coulées de neige humide en versant ensoleillés raides.\nDéclenchements skieurs : quelques plaques friables ou dures dans la neige récente ventée.",
+  "stability": "INSTABILITES DANS LA NEIGE RéCENTE VENTéE\n\nDéclenchements provoqués :\n-Quelques plaques friables ou dures sont en place dans la neige récente ventée. Assez réactives, ces structures de plaques temporaires occasionnent de petites à moyennes avalanches. On les retrouve près des crêtes et des ruptures de pentes. Elles sont plus nombreuses et volumineuses au dessus de 2500 m dans les versants nord à est car la neige des derniers épisodes y est restée froide et transportable. Observables : accumulations, neige localement plus dense, whoompfs.\n-Quelques petites coulées de neige alourdie sous les skis après quelques heures de réchauffement.\n\nDéparts spontanés :\n-(très) rares départs de plaques de neige froide sous le vent localement plus soutenu. petite à moyenne avalanche.\n-petites coulées de neige humide en pentes raides et en versants ensoleillés.\n\nAutres :\nChute de corniches possibles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive cet avril. Les chutes en cours ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 1900 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : \n-Le matin sous les 2300 m, neige récente de la soirée/nuit restée froide qui peut co-exister avec de la neige croûtée. Au  dessus de 2400/2500 m, la neige a pu rester entièrement froide mais peut être travaillée par le vent, densifiée ou durcie.\n-En journée la neige s'humidifie même sous les nuages et peut devenir collante, elle fond vite là ou elle n'a pas de sous-couche.\nIl faut rester au dessus de 2600/2800 en nord pour espérer la garder froide.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

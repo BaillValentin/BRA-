@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-05-15T17:00:00",
-  "validUntil": "2026-05-16T18:00:00",
+  "date": "2026-05-16T16:00:00",
+  "validUntil": "2026-05-17T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -11,12 +11,11 @@
     }
   ],
   "situations": [
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Risque faible, coulées dans les zones raides d'altitude.\nDéclenchements skieurs : Quelques plaques à vent temporaire.",
-  "stability": "GLOBALEMENT STABLE\n\nLe manteau reste dans l'ensemble stable malgré les chutes de neige qui ont eu lieu ces derniers jours en altitude.\nDéparts spontanés : Peu probables dans l'ensemble mais des départs de petite taille sont possibles en altitude, particulièrement en versants Nords ou une sous couche est encore présente. L'après-midi, à la faveur de quelques éclaircies, on peut attendre quelques départs en neige récente humide de petites tailles.\n\nDéclenchements provoqués :  Les chutes de neige des derniers jours ont laissé quelques rares plaques formés en divers versants d'altitude au-dessus de 2000/2100m. Ces plaques sont facilement déclenchables mais reste d'épaisseur limitée. L'après-midi dans les versants ensoleillés, des petits départs en neige humide sont possibles sous les skis.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire pour la saison. Les névés s'amenuisent, souvent cantonnés en Nord d'altitude. Une couche de neige fraiche est maintenant présente au-dessus de 1500m.\n\nQualité de la neige samedi :  Couche de neige fraiche dès 1300/1400m avec 10 à 15cm légèrement ventée, localement 20.",
+  "summary": "Départs spontanés : Peu d'activité ou des coulées/boules humides au soleil vers les pentes sommitales...\nDéclenchements skieurs : Peu probable ou coulée ponctuelle sous les skis ?",
+  "stability": "PEU DE NEIGE, ASSEZ STABLE\n\nLe récent et modeste couvert neigeux (5/15 cm environ) se tasse rapidement, rare coulée spontanée en journée...\nDéparts spontanés : Peu de neige en place et reposant souvent au terrain. Sous couche seulement dans quelques combes Nord sommitales (névés).\nAprès le regel nocturne, rapide humidification au soleil, possibles petites coulées de surface en pentes raides, près des rochers d'altitude.\n\nDéclenchements provoqués :  Peu probable... Ou en neige humide, possible coulée ponctuelle sous les skis ? (sur les névés)",
+  "snowQuality": "Qualification de l’enneigement :  Massif récemment saupoudré depuis vendredi mais la petite couche va rapidement s'amenuiser dimanche. Rares pentes skiables vers la haute altitude, là où il restait des névés ?\n\nQualité de la neige dimanche : Neige croutée par regel dimanche matin puis rapide humidification en journée.\nSommets récemment soufflés par vvent de Nord entre petites congères et secteurs dégarnis...",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

@@ -1,11 +1,11 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-05-15T16:00:00",
-  "validUntil": "2026-05-16T18:00:00",
+  "date": "2026-05-16T16:00:00",
+  "validUntil": "2026-05-17T18:00:00",
   "riskMax": 3,
   "risks": [
     {
-      "altitude": "<2600",
+      "altitude": "<3000",
       "level": 2,
       "orientations": [
         "N",
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "altitude": ">2600",
+      "altitude": ">3000",
       "level": 3,
       "orientations": [
         "N",
@@ -34,12 +34,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Neige récente au fil du réchauffement.\nDéclenchements skieurs : Plaques à vent dans la neige récente.",
-  "stability": "Petit hiver. Instabilités dans la neige récente.\n\nDéclenchements provoqués :\n* Plaques à vent dans la neige fraiche, rares dans la tranche 2000/2600 m, plus nombreuses et épaisses au-dessus de 2600 m. Assez faciles à déclencher. Taille 1 à 2 (petite à moyenne). Au-dessus de 3000 m, de grandes cassures sont possibles (70/100 cm), taille 3 (grande) possible. Ces plaques se sont formées jeudi et vendredi par le fort vent de sud-ouest, et dans une moindre mesure dans la nuit de vendredi à samedi par le vent de nord.\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes, transport de neige par le vent.\n* Entre 2000 et 3000 m : de la neige récente, au fil du réchauffement en journée, peut couler sous les skis et peut entrainer de plus gros volumes de neige. Taille 1 à 2. Départs également possibles sous 2000 m, mais avec de plus petits volumes, taille 1.\n\nDéparts spontanés :\n* Entre 2000 et 3000 m : départs ponctuels dans la neige fraiche s'humidifiant au fil de la journée. Ces départs ponctuels entrainent régulièrement des volumes plus importants. Taille 1 à 2.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2700 m \nNeige récente présente dès 1400/1500m en début de matinée, 10 cm vers 2000 m et jusqu'à 30 cm au-dessus de 2600 m.\nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord.\n\nQualité de la neige ce samedi : \nSous 2000 m, neige récente légèrement humide à humide, légèrement regelée en début de matinée. Cette neige s'humidifie progressivement en journée.\nEntre 2000 et 2600 m, 10 cm de neige récente légère, ventée proche des crêtes et des sommets. Localement croutée dans les adrets. Versants ouest souvent décapés.\nAu-dessus de 2600 m, une 20/30 cm de neige récente très soufflée avec une alternance de zones décapées et de congères. Au-dessus de 3200 m, enfoncement piéton important (60/80 cm). ",
+  "summary": "Départs spontanés : Neige récente au fil du réchauffement.\nDéclenchements skieurs : Instabilités dans la niege récente, plus nombreuses en altitude.",
+  "stability": "Manteau neigeux hivernal en altitude avec 50cm/1m de neige récente au-dessus de 3000 m. \n\nDéclenchements provoqués :\n* Plaques à vent. Formées par le vent d'Ouest à Nord dans la neige récente, pendant et après les chutes. Présentes dès 2300 m mais, au-dessus de 3000 m, elles sont plus nombreuses (notamment vers les crêtes et arêtes) et plus épaisses (cassure de 50cm/1m possibles). Taille 1 (petite) à 2 (moyenne), et jusqu'à 3 (grande) au-dessus de 3000 m.\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes en surface ... \n* De la neige récente peut couler sous les skis à toute altitude et en toutes orientations. De plus en plus probables au fil du réchauffement diurne. Taille 1 (petite) à 2 (moyenne). \n\nDéparts spontanés : \n* Départs ponctuels de neige récente. Plus nombreux dans les pentes raides et vers les rochers au fil de l'ensoleillement / du réchauffement diurne. Plus nombreux en-dessous de 3000 m. Taille 1 (petite) à 2 (moyenne). ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2700 m et bon au-dessus.  \nTrace de neige récente au sol à partir de 1400/1500m en début de matinée.\nPeu de sous-couches sous 2000 m en nord et 2300 m en sud. \n\nQualité de la neige ce dimanche :\n* Entre 1400  et 2000/2300 m : 15/30 cm de neige récente sans sous couche (elle repose localement sur quelques névés). Elle est légèrement regelée au lever du jour puis s'humidifie au fil de la journée.\n* Entre 2000/2300 m et 3000 m : 30/50 cm de neige récente froide et légère. Elle se densifie et s'humifie en surface avec le soleil.\n* Au-dessus de 3000 m : 50 cm à 1m de neige récente (épaisseurs très irrégulières). Elle est restée poudreuse et froide dans la plupart des pentes, mais elle a été travaillée par le vent d'Ouest à Nord vers les crêtes et dans les pentes exposées (congères, zones décapées). Enfoncement piéton important.",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

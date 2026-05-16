@@ -1,31 +1,36 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-15T17:00:00",
-  "validUntil": "2026-05-16T18:00:00",
+  "date": "2026-05-16T16:00:00",
+  "validUntil": "2026-05-17T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2700",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2700",
       "level": 2,
       "orientations": [
         "N",
         "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     }
   ],
   "situations": [
     "plaque_vent",
+    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Quelques départs de petites tailles\nDéclenchements skieurs : Plaques à vent en secteurs d'altitude exposés.",
-  "stability": "PLAQUES A VENT EN ALTITUDE\n\nConditions encore hivernales en montagne.\n\nCes derniers jours ont amené des chutes de neige jusqu'à basse altitude parfois ventées.\nDéclenchements provoqués :\nQuelques plaques sont encore présentes dans la neige récente. Elles peuvent être présentes en tout versant mais sont plus réactives en secteurs Nord d'altitude (au-dessus de 2400/2600m environ) où de la neige froide était déjà présente avant les chutes. Sous le vent en altitude, elles pourront prendre l'aspect de plaque dure près des crêtes, plutôt friables dans les secteurs plus abrités du vent.  Sous 2200/2400m, les plaques sont moins nombreuses et l'épaisseur mobilisable bien plus faible. L'après-midi à la faveur de quelques éclaircies, quelques départs en neige humide sous les skis sont possibles.\n\n\nDéparts spontanés :\nAu-dessus de 2200/2400m, ou le manteau neigeux était encore bien présent on note la possibilité de départs spontanés de petites et moyennes tailles. L'après-midi, avec les éclaircies, on peut attendre quelques départs en neige humide en versants ensoleillés.",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est déficitaire en bas du massif, puis devient correct en combes d'altitude (grâce aux récentes précipitations) au dessus de 2000/2200m suivant le versant...\nLa neige des derniers jours camoufle parfois herbes et roches, prudence.\n\nLimites skiables : Vers 1800/2000m avec les dernières chutes de neige.\n\nQualité de la neige samedi :  15 à 20cm de neige fraîche dés 1500m, localement 30cm en altitude. Neige cartonnée par le vent en altitude, encore légère et fraiche partout ailleurs. ",
+  "summary": "Départs spontanés : Au soleil, en altitude, coulées ou petites avalanches humides  (en faces raides, près rochers)...\nDéclenchements skieurs : Petites plaques encore localement instables en altitude ? Plutôt en faces Nord, près des crêtes. En neige humide, coulée humide ponctuelle sous les skis...",
+  "stability": "NEIGE FROIDE ET VENTEE EN FACES NORD D'ALTITUDE, RARES PLAQUES INSTABLES...\n\nRécemment 15/30 cm de neige soufflée en altitude. Amorce de stabilisation, mais aussi quelques coulées humides possibles lors d'éclaircies...\n\nDéclenchements provoqués :\nDans les pentes d'altitude où la neige est restée sèche (surtout en faces Nord au dessus de 2500/2700m environ),  le risque accidentel serait encore très localement présent. \nGlobalement tassement et moindre instabilités des congères. Cependant on n'exclut pas des sous couches froides à moindre cohésion : risque de cassure accidentelle de plaque assez dure (neige sculptée)... \nVigilance surtout à l'abord des crêtes en zones d'accumulations. Noter que le vent de Sud-Ouest peut chasser encore un peu de neige dimanche après-midi...\nDéparts spontanés :\nEclaircie et rapide humidification superficielle dimanche. On s'attend à de nouvelles coulée ou petites avalanches humides (en altitude) au fil de la course du soleil. Et ce en priorité près des rochers là où demeure une sous-couche.\n\nAutres : Neige localement croutée par regel nocturne, des rochers affleurants. Le ski sera temporairement délicat...",
+  "snowQuality": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est amélioré, là où il y avait une sous-couche.\nPlus bas saupoudrage insuffisant. La neige récente camouffle souvent les rochers, ski délicat... Haute montagne et glaciers sont mieux garnis par rapport à la fin avril...\nLimites skiables : Vers 2100/2500m suivant le versant.\n\nQualité de la neige dimanche :  10 cm de neige récente en alpage et jusque 20/30 cm parfois soufflés en altitude.\nNeige cartonnée en altitude, encore poudreuse dans de rares combes et couloirs Nord abrités? Sinon neige récente croutée par regel. Au soleil rapide tassement/humidification.",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

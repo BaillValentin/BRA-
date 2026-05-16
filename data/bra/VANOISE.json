@@ -1,12 +1,12 @@
 {
   "massif": "VANOISE",
-  "date": "2026-05-15T17:00:00",
-  "validUntil": "2026-05-16T18:00:00",
-  "riskMax": 3,
+  "date": "2026-05-16T16:00:00",
+  "validUntil": "2026-05-17T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
       "altitude": "<2600",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -17,7 +17,7 @@
     },
     {
       "altitude": ">2600",
-      "level": 3,
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -31,9 +31,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : petites coulées de neige humide en versant ensoleillés raides.\nDéclenchements skieurs : quelques plaques friables ou dures dans la neige récente ventée.",
-  "stability": "INSTABILITES DANS LA NEIGE RéCENTE VENTéE\n\nDéclenchements provoqués :\n-Quelques plaques friables ou dures sont en place dans la neige récente ventée. Assez réactives, ces structures de plaques temporaires occasionnent de petites à moyennes avalanches. On les retrouve près des crêtes et des ruptures de pentes. Elles sont plus nombreuses et volumineuses au dessus de 2500 m dans les versants nord à est car la neige des derniers épisodes y est restée froide et transportable. Observables : accumulations, neige localement plus dense, whoompfs.\n-Quelques petites coulées de neige alourdie sous les skis après quelques heures de réchauffement.\n\nDéparts spontanés :\n-(très) rares départs de plaques de neige froide sous le vent localement plus soutenu. petite à moyenne avalanche.\n-petites coulées de neige humide en pentes raides et en versants ensoleillés.\n\nAutres :\nChute de corniches possibles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. Les chutes en cours ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 2100 m en nord,  2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige :-Le matin sous les 2300 m, neige récente de la soirée/nuit restée froide qui peut co-exister avec de la neige croûtée. Au  dessus de 2400/2500 m, la neige a pu rester entièrement froide mais peut être travaillée par le vent, densifiée ou durcie.\n-En journée la neige s'humidifie même sous les nuages et peut devenir collante, elle fond vite là ou elle n'a pas de sous-couche.\nIl faut rester au dessus de 2600/2800 en nord pour espérer la garder froide.",
+  "summary": "Départs spontanés : rares départs en neige humide\nDéclenchements skieurs : quelques plaques friables ou dures en neige ventée.",
+  "stability": "INSTABILITES EN NEIGE VENTéE\n\nCONDITIONS REMARQUABLEMENT HIVERNALES EN MONTAGNE POUR UNE MI-MAI.\nDéclenchements provoqués :\n-Quelques plaques friables ou dures sont en place dans la neige récente ventée. En perte de réactivité, ces structures de plaques temporaires occasionnent encore de petites à moyennes avalanches. On les retrouve près des crêtes et des ruptures de pentes. Elles sont plus fréquentes, réactives et volumineuses au dessus de 2600 m dans les versants nord car la neige des derniers épisodes y est restée froide et transportable. Observables : accumulations, neige localement plus dense, whoompfs.\n-Quelques coulées de neige alourdie sous les skis après quelques heures de réchauffement. Petites à moyennes avalanches.\n\nDéparts spontanés :\n-petites coulées de neige humide en pentes raides et en versants ensoleillés.\n\nAutres :\nChute de corniches possibles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. Les chutes en cours ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 2100 m en nord,  2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Bon regel, le matin neige souvent croûtée sauf en nord  au dessus de 2500 m où la neige a pu rester froide mais est souvent travaillée par le vent, densifiée ou durcie. En journée la neige s'humifie, collante puis vite très alourdie d'abord en est, partout ensuite avec le réchauffement. Il faut rester au dessus de 2800/3000 m en plein nord pour espérer la garder froide.",
   "pdfUrl": "./data/bra/VANOISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_10.png",

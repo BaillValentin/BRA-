@@ -1,25 +1,11 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-05-15T16:00:00",
-  "validUntil": "2026-05-16T18:00:00",
+  "date": "2026-05-16T16:00:00",
+  "validUntil": "2026-05-17T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2000",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2000",
+      "altitude": "Toutes altitudes",
       "level": 2,
       "orientations": [
         "N",
@@ -34,12 +20,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : Neige récente au fil du réchauffement.\nDéclenchements skieurs : Rares plaques à vent dans la neige récente.",
-  "stability": "Petit hiver. Instabilités dans la neige récente.\n\nDéclenchements provoqués :\n* Rares plaques à vent dans la neige fraiche, au-dessus de 2000 m, plus nombreuses et épaisses en montant en altitude. Assez faciles à déclencher. Taille 1 à 2 (petite à moyenne). Ces plaques se sont formées jeudi et vendredi par le fort vent de sud-ouest, et dans une moindre mesure dans la nuit de vendredi à samedi par le vent de nord.\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes, transport de neige par le vent.\n* Au-dessus de 2000 m : de la neige récente, au fil du réchauffement en journée, peut couler sous les skis et peut entrainer de plus gros volumes de neige. Taille 1 à 2. Départs également possibles sous 2000 m, mais avec de plus petits volumes, taille 1.\n\nDéparts spontanés :\n* Au-dessus de 2000 m : départs ponctuels dans la neige fraiche s'humidifiant au fil de la journée. Ces départs ponctuels entrainent régulièrement des volumes plus importants. Taille 1 à 2.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2500 m.\nNeige récente présente dès 1400/1500m en début de matinée, 15/20 cm vers 2000 m et jusqu'à 30 cm au-dessus de 2600 m.\nOn peut chausser les skis au-dessus de 2300 m en sud et 1900 m en nord.\n\nQualité de la neige ce samedi :\nSous 2000 m, neige récente légèrement humide à humide, légèrement regelée en début de matinée. Cette neige s'humidifie progressivement en journée.\nAu-dessus de 2000 m, 15/20 cm de neige récente légère, ventée proche des crêtes et des sommets. Localement croutée dans les adrets. Versants ouest souvent décapés.",
+  "summary": "Départs spontanés : Neige récente au fil du réchauffement.\nDéclenchements skieurs : Instabilités dans la niege récente.",
+  "stability": "Manteau neigeux hivernal en altitude.\n\nDéclenchements provoqués :\n* Au-dessus de 2300 m : plaques à vent d'aspect friables. Formées par le vent d'Ouest à Nord dans la neige récente, pendant et après les chutes. Elles sont plus nombreuses et plus épaisses en montant en altitude et vers les crêtes et arêtes. Taille 1 (petite) à 2 (moyenne).\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes en surface ... \n* De la neige récente peut couler sous les skis à toute altitude et en toutes orientations. De plus en plus probables au fil du réchauffement diurne. Taille 1 (petite) à 2 (moyenne). \n\nDéparts spontanés : \n* Départs ponctuels de neige récente. Plus nombreux dans les pentes raides et vers les rochers au fil de l'ensoleillement / du réchauffement diurne. Taille 1 (petite) à 2 (moyenne). ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est bon sous à toutes altitudes.\nTrace de neige récente au sol à partir de 1400/1500m en début de matinée.\nPeu de sous-couches sous 2000 m en nord et 2300 m en sud. \n\nQualité de la neige ce dimanche :\n* Entre 1400 et 2000/2300 m : 15/25 cm de neige récente sans sous couche (elle repose localement sur quelques névés). Elle est légèrement regelée au lever du jour puis s'humidifie au fil de la journée.\n* Au-dessus de 2000/2300 m : 25/40 cm de neige récente froide et légère (épaisseur irrégulière). Elle a été localement travaillée par le vent d'Ouest à Nord, notamment vers les crêtes et dans les pentes exposées (congères, zones décapées). Elle se densifie et s'humifie en surface avec le soleil.",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

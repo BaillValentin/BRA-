@@ -1,46 +1,35 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-05-15T16:00:00",
-  "validUntil": "2026-05-16T18:00:00",
-  "riskMax": 3,
+  "date": "2026-05-16T16:00:00",
+  "validUntil": "2026-05-17T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2600",
-      "level": 2,
+      "altitude": "<2500",
+      "level": 1,
       "orientations": [
         "N",
         "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2600",
-      "level": 3,
+      "altitude": ">2500",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent",
-    "sous_couche_fragile"
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques petites avalanches de neige fraîche s'humidifiant en journée.\nDéclenchements skieurs : plaques dans la neige venté, plus nombreuses et parfois épaisses en altitude.",
-  "stability": "PLAQUES EN ALTITUDE PARFOIS ÉPAISSES - CONDITIONS HIVERNALES\n\nDéclenchements provoqués : des plaques sont en place dans les accumulations de neige fraiche, possibles en toutes orientations en présence de sous-couche. Plaques faciles à déclencher, générant des avalanches de taille petite à moyenne, parfois grande au dessus de 2500/2700 m en cas de déstabilisation d'une plaque plus ancienne, plutôt en versant nord. \n\nDéparts spontanés : quelques petits départs ponctuels de neige fraiche s'humidifiant sont possibles en pente raides avec le retour du soleil.  ",
-  "snowQuality": "Enneigement déficitaire pour la période à moyenne altitude, mais correct en haute montagne en bordure des massifs de l'Oisans et du Pelvoux.\nHauteurs de neige observées  : 30 cm à la Nivôse d'Orcières à 2280 m, 114 cm au dessus de Prapic à 2500 m.\n\nLimite d'enneigement skiable : très localement vers 1800/2000 m en ubacs de fond de vallée en cœur de massif, plutôt 2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : neige récente en quantité au-dessus de 3000 m, souvent travaillée par le vent. Plus bas, on retrouve 10 à 20 cm de neige fraîche, encore froide le matin au dessus de 1800/2000, et reposant sur un sol nu, ou sur un manteau de type névé en ubacs.",
+  "summary": "Départs spontanés : quelques petites avalanches de neige humide.\nDéclenchements skieurs : plaques en place dans la neige récene ventée, plus nombreuses et parfois épaisses en haute montagne.",
+  "stability": "PLAQUES EN ALTITUDE PARFOIS ÉPAISSES - CONDITIONS HIVERNALES EN HAUTE MONTAGNE\n\nDéclenchements provoqués : des plaques récentes sont en place en haute altitude, principalement en large versant nord au dessus de 2500/2600 m environ, plus rares dans les autres orientations. On les trouve plus souvent à proximité des crêtes et ruptures de pentes où le vent d'ouest à nord-ouest des derniers jours a pu former des accumulations. Plaques en cours de stabilisation, mais pouvant encore être localement facile à déclencher en pente peu ensoleillée. En cas de départ, avalanches de taille petite à moyenne (taille 1 à 2 ), une rare grande (taille 3) n'est pas exclue en haute montagne en cas de déstabilisation d'une structure de plaque plus ancienne.\n\nDéparts spontanés : peu probables en début de journée, puis quelques départs ponctuels de neige s'humidifiant en pentes raides ensoleillées, généralement de petite taille, parfois moyenne.",
+  "snowQuality": "Enneigement déficitaire pour la période à moyenne altitude, mais correct en haute montagne en bordure des massifs de l'Oisans et du Pelvoux.\nHauteurs de neige observées  : 34 cm à la Nivôse d'Orcières à 2280 m, 116 cm au dessus de Prapic à 2500 m.\n\nLimite d'enneigement skiable : très localement vers 1800/2000 m en ubacs de fond de vallée en cœur de massif, plutôt 2000 dans les autres ubacs et 2300/2500 m en adrets.\n\nÉtat de la neige en surface : conditions hivernales en haute montagne, avec de la neige récente en quantité au-dessus de 3000 m, souvent travaillée par le vent. Vers 2500 m, localement petit saupoudrage de fraîche sur les quelques cm de neige déjà plus dense des derniers jours, reposant sur un manteau de type névé, voire un sol nu en adrets. Humidification superficielle au soleil en journée.",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

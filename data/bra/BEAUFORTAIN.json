@@ -1,11 +1,11 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-05-16T16:00:00",
-  "validUntil": "2026-05-17T18:00:00",
+  "date": "2026-05-17T16:00:00",
+  "validUntil": "2026-05-18T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2500",
+      "altitude": "<2600",
       "level": 1,
       "orientations": [
         "N",
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "altitude": ">2500",
+      "altitude": ">2600",
       "level": 2,
       "orientations": [
         "N",
@@ -31,9 +31,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : quelques plaques friables ou dures en neige ventée.",
-  "stability": "INSTABILITES EN NEIGE VENTéE\n\nCONDITIONS REMARQUABLEMENT HIVERNALES EN MONTAGNE POUR UNE MI-MAI.\nDéclenchements provoqués :\n-Quelques plaques friables ou dures sont en place dans la neige récente ventée. En perte de réactivité, ces structures de plaques temporaires occasionnent encore de petites à moyennes avalanches. On les retrouve près des crêtes et des ruptures de pentes. Elles sont plus fréquentes, réactives et volumineuses au dessus de 2500 m dans les versants nord car la neige des derniers épisodes y est restée froide et transportable. Observables : accumulations, neige localement plus dense, whoompfs.\n-Quelques coulées de neige alourdie sous les skis après quelques heures de réchauffement. Petites à moyennes avalanches.\n\nDéparts spontanés :\n-petites coulées de neige humide en pentes raides et en versants ensoleillés.\n\nAutres :\nChute de corniches possibles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive cet avril. Les chutes récentes ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 1900 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : \nBon regel, le matin neige souvent croûtée sauf en nord au dessus de 2500 m où la neige a pu rester froide mais est souvent travaillée par le vent, densifiée ou durcie. En journée la neige s'humifie, collante puis vite très alourdie d'abord en est, partout ensuite avec le réchauffement.",
+  "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : rares plaques friables ou dures en neige ventée et quelques coulées humides sous les skis.",
+  "stability": "RARES INSTABILITES VENTéE EN ALTITUDE\n\nDéclenchements provoqués :\n-Rares plaques friables ou dures en place dans la neige récente ventée. De moins en moins réactives, ces structures de plaques temporaires peuvent encore donner une petite à moyenne avalanche. On les trouve au dessus 2600 m dans les versants nord,  près des crêtes et des ruptures de pentes. Observables : accumulations, neige localement plus dense, whoompfs.\n-Quelques coulées de neige alourdie sous les skis après quelques heures de réchauffement. Petites à moyennes avalanches.\n\nDéparts spontanés :\n-petites coulées de neige humide en pentes raides et en versants ensoleillés.\n\nAutres :\nChute de corniches possibles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive cet avril. Les chutes récentes ne compenseront pas durablement ce déficit \n\nLimite skiable : vers 1900 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Mauvais regel, le matin neige souvent molle et collante sous les 2300 m, au dessus neige souvent croûtée. Plus haut en nord elle est travaillée par le vent, densifiée ou durcie. En journée la neige est vite très alourdie partout avec le réchauffement. En nord au dessus de 2600 la neige est collante et botte.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

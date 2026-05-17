@@ -1,26 +1,22 @@
 {
   "massif": "UBAYE",
-  "date": "2026-05-16T16:00:00",
-  "validUntil": "2026-05-17T18:00:00",
+  "date": "2026-05-17T16:00:00",
+  "validUntil": "2026-05-18T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares en neige humide.\nDéclenchements skieurs : rares petites plaques en place en haute altitude.",
-  "stability": "RARES INSTABILITÉS EN PLACE EN ALTITUDE.\n\nDéclenchements provoqués : de rares plaques récentes sont encore en place, principalement en large versant nord au dessus de 2600 m environ, le plus souvent à proximité des crêtes et ruptures de pentes où le vent d'ouest à nord-ouest des derniers jours a pu former des accumulations. Plaques devenant plus difficiles à déclencher par un seul skieur, générant des avalanches de petite taille en général (taille 1), très rarement moyenne.\n\nDéparts spontanés : peu probables en début de journée, puis rares petits départs ponctuels de neige s'humidifiant en pente raides ensoleillées.",
-  "snowQuality": "Enneigement très déficitaire pour la période. Il n'y a plus de neige à la Nivôse de Restefond. \n\nLimite d'enneigement skiable : vers 2300 m en ubacs bien protégés ou sur pistes forestières, 2700/2900 m en adrets.\n\nÉtat de la neige en surface : on trouve quelques cm de neige récente, encore froide le matin en versants nord raides de haute altitude, souvent travaillée par le vent proche des crêtes et ruptures de pentes. Elle repose sur un sol nu, ou sur un manteau de type névé en ubacs au dessus de 2200/2300 m. Petite humidification superficielle au soleil en journée.",
+  "summary": "Départs spontanés : quelques départs au soleil en neige humide.\nDéclenchements skieurs : rares petites plaques en place en haute altitude.",
+  "stability": "RARES INSTABILITÉS EN PLACE EN HAUTE ALTITUDE.\n\nDéclenchements provoqués : de rares plaques récentes peuvent être encore en place, aux plus hautes altitudes du massif en versant nord raide, le plus souvent à proximité des crêtes et ruptures de pentes où le vent d'ouest à nord-ouest des jours précédents a pu former des accumulations. Plaques devenant difficiles à déclencher par un seul skieur, générant des avalanches de petite taille en général (taille 1).\n\nDéparts spontanés : quelques départs ponctuels de neige s'humidifiant en pentes raides au fil de la course du soleil. Avalanches généralement de petite taille (taille 1).",
+  "snowQuality": "Enneigement très déficitaire pour la période. Il n'y a plus de neige à la Nivôse de Restefond. \n\nLimite d'enneigement skiable : vers 2300 m en ubacs bien protégés ou sur pistes forestières, 2700/2900 m en adrets.\n\nÉtat de la neige en surface : on trouve quelques cm de neige récente encore froide en versant nord raide aux plus hautes altitudes du massif, souvent travaillée par le vent proche des crêtes et ruptures de pentes. Elle repose sur un sol nu, ou sur un manteau de type névé en ubacs au dessus de 2200/2300 m. Après un regel nocturne limité, reprise rapide d'une humidification superficielle au soleil en journée.",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_21.png",

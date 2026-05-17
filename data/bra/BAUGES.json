@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-16T16:00:00",
-  "validUntil": "2026-05-17T18:00:00",
+  "date": "2026-05-17T16:00:00",
+  "validUntil": "2026-05-18T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,11 +15,11 @@
     }
   ],
   "situations": [
-    "sous_couche_fragile"
+    "neige_humide"
   ],
-  "summary": "Départs spontanés : Départs de niege récente au fil du réchauffement. \nDéclenchements skieurs : Instabilités dans la niege récente.",
-  "stability": "15/30 cm de neige récente encore froide avec peu de sous-couche. \n\nDéclenchements provoqués :\n* De la neige récente peut couler sous les skis à toute altitude. De plus en plus probables au fil du réchauffement diurne. Plus nombreux en ubacs. Taille 1 (petite), rarement 2 (moyenne). \n\nDéparts spontanés : \n* Départs ponctuels de neige récente. Plus nombreux dans les pentes raides et vers les rochers au fil de l'ensoleillement / du réchauffement diurne. Taille 1 (petite), rarement 2 (moyenne). ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est bon. \nTrace de neige récente au sol à partir de 1400/1500m en début de matinée. Peu de sous-couches. \n\nQualité de la neige ce dimanche :\n15/30 cm de neige récente sans sous couche (elle repose localement sur quelques névés). Elle est légèrement regelée au lever du jour puis s'humidifie au fil de la journée.",
+  "summary": "Départs spontanés : Départs de niege récente au fil du réchauffement. \nDéclenchements skieurs : Neige humide sous les skis. ",
+  "stability": "Fine couche de neige récente qui s'alourdit.\n\nDéclenchements provoqués :\n* De la neige récente peut couler sous les skis. De plus en plus probables au fil du réchauffement diurne. Plus nombreux en ubacs. Taille 1 (petite). \n\nDéparts spontanés : \n* Départs ponctuels de neige récente. Plus nombreux dans les pentes raides et vers les rochers au fil de l'ensoleillement / du réchauffement diurne. Taille 1 (petite). ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est bon. \nTrace de neige récente au sol à partir de 1600/1700m en début de matinée. Rares sous-couches. \n\nQualité de la neige ce lundi :\nTrace à 20 cm de neige récente sans sous-couche (elle repose localement sur quelques névés). La neige récente est déjà tassée et légèrement humide en surface. Faible regel nocturne. ",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

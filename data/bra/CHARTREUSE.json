@@ -1,21 +1,23 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-05-16T16:00:00",
-  "validUntil": "2026-05-17T18:00:00",
+  "date": "2026-05-17T16:00:00",
+  "validUntil": "2026-05-18T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N"
+      ]
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu d'activité ou des coulées humides au soleil vers les pentes sommitales...\nDéclenchements skieurs : Peu probable ou coulée ponctuelle sous les skis ?",
-  "stability": "PEU DE NEIGE, ASSEZ STABLE\n\nLe récent et modeste couvert neigeux (10/20 cm environ sur l'herbe) se tasse rapidement, rare coulée spontanée en journée...\nDéparts spontanés : Peu de neige en place et reposant souvent au terrain. Sous couche seulement dans de rares faces Nord sommitales.\nAprès le regel nocturne, rapide humidification au soleil, possibles petites coulées de surface en pentes herbeuse raides, près des rochers d'altitude.\n\nDéclenchements provoqués :  Peu probable... Ou en neige humide, possible coulée ponctuelle sous les skis ?",
-  "snowQuality": "Qualification de l’enneigement :  Massif récemment blanchi depuis vendredi mais la petite couche va rapidement s'amenuiser dimanche. Rares pentes herbeuses skiables vers la haute altitude ?\n\nQualité de la neige dimanche : Neige croutée par regel dimanche matin puis rapide humidification en journée.\nSommets récemment soufflés entre congères et secteurs dégarnis...",
+  "summary": "Départs spontanés : Peu d'activité ou une rare coulée humide en face Nord sommitale ? Neige récente glissant sur les névés...\nDéclenchements skieurs : Peu probable ou coulée ponctuelle sous les skis ?",
+  "stability": "DE MOINS EN MOINS DE NEIGE... RARE COULEE HUMIDE ?\n\nLe récent et modeste couvert neigeux (15/20 cm environ en faces Nord) s'humidifie et fond rapidement...\nDéparts spontanés : Peu de neige en place et reposant souvent au terrain. Sous couche seulement dans de rares faces Nord sommitales.\nAvec les petites pluies ou ondées envisagées lundi, possible coulée superficielle en Nord d'altitude, là où restait des névés ?\n\nDéclenchements provoqués :  Peu probable... Ou très localement possible coulée (humide) ponctuelle sous les skis ?",
+  "snowQuality": "Qualification de l’enneigement :  La petite couche de neige récente s'amenuise...\nTrès rares secteurs skiables vers la haute altitude, plutôt au Nord ? La Chartreuse va redevenir de plus en plus verte... \n\nQualité de la neige lundi : Pas de regel a priori, neige très humide ou fonte.\nDe petites congères résistent un peu mieux en altitude....",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

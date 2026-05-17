@@ -1,7 +1,7 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-05-16T16:00:00",
-  "validUntil": "2026-05-17T18:00:00",
+  "date": "2026-05-17T16:00:00",
+  "validUntil": "2026-05-18T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,7 +10,6 @@
       "orientations": [
         "N",
         "NE",
-        "E",
         "NW"
       ]
     },
@@ -20,7 +19,6 @@
       "orientations": [
         "N",
         "NE",
-        "E",
         "NW"
       ]
     }
@@ -30,9 +28,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : quelques plaques dans la ventée à haute altitude. ",
-  "stability": "PETITES  INSTABILITÉS VENTéES EN ALTITUDE.\n\nCONDITIONS REMARQUABLEMENT HIVERNALES EN MONTAGNE POUR UNE MI-MAI.\nDéclenchements provoqués : Quelques plaques friables ou dures en neige ventée au dessus de 2600 m en secteur nord à est. Elles sont peu nombreuses mais encore assez faciles à déclencher quand la pente est très raide et suffisent à déstabiliser une personne. Une grosse accumulation peut engendrer une avalanche de taille moyenne (taille 2). Observable : accumulation conséquente  de neige fraîche hétérogène. \nPlus bas, les cumuls de neige n'ont pas été suffisants pour induire une problématique notable de plaque.\nDans les secteurs partagés avec le Nord-Belledonne mieux servis pendant les dernières chutes : quelques plaques friables ou dures sont en place, en perte d'activité. Elles sont plus fréquentes et encore assez réactives au dessus de 2600 m en secteur nord. petites à moyennes avalanches.\n\nDéparts spontanés : rares départs ponctuels humides  (boulettes/escargots/avalanches en poires, taille 1 ) dans les pentes raides et ensoleillées.\n\nAutres :  Les ponts de neige au-dessus des ruisseaux sont souvent fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent à cause des vents forts, s'est temporairement un peu mieux enneigée.\n\nLimite skiable : vers 2200 m en nord, 2500/2600 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Bon regel, le matin neige souvent croûtée sauf en nord  au dessus de 2600 m où la neige a pu rester froide mais est souvent travaillée par le vent, densifiée ou durcie. En journée la neige s'humifie, collante puis vite très alourdie d'abord en est, partout ensuite avec le réchauffement. Il faut rester au dessus de 2800/3000 m en plein nord pour espérer la garder froide.",
+  "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : rares plaques friables ou dures en neige ventée et quelques coulées humides sous les skis.",
+  "stability": "RARES  INSTABILITÉS VENTéES EN ALTITUDE.\n\nDéclenchements provoqués : \n-Rares plaques friables ou dures en neige ventée au dessus de 2600 m en secteur nord à est. Elles sont peu fréquentes mais encore assez faciles à déclencher quand la pente est très raide et suffisent à déstabiliser une personne. Une grosse accumulation peut engendrer une avalanche de taille moyenne (taille 2). Observable : accumulation conséquente  de neige fraîche hétérogène. \nPlus bas, les cumuls de neige n'ont pas été suffisants pour induire une problématique notable de plaque.\n-Quelques coulées de neige alourdie sous les skis après quelques heures de réchauffement. Petites à moyennes avalanches.\n\nDéparts spontanés : rares départs ponctuels humides  (boulettes/escargots/avalanches en poires, taille 1 ) dans les pentes raides et ensoleillées.\n\nAutres :  Les ponts de neige au-dessus des ruisseaux sont souvent fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive. La très haute montagne, quasi sèche jusqu'à présent à cause des vents forts, s'est temporairement un peu mieux enneigée.\n\nLimite skiable : vers 2200 m en nord, 2500/2600 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Mauvais regel, le matin neige souvent molle et collante sous les 2300 m, au dessus neige souvent croûtée. En nord vers 2800 m elle est travaillée par le vent, densifiée ou durcie. En journée la neige est vite très alourdie partout avec le réchauffement. En nord au dessus de 2600 m la neige est collante et botte. Il faut rester au dessus de 3000 m en plein nord pour espérer la garder froide.",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

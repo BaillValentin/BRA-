@@ -1,7 +1,7 @@
 {
   "massif": "OISANS",
-  "date": "2026-05-17T16:00:00",
-  "validUntil": "2026-05-18T18:00:00",
+  "date": "2026-05-18T16:00:00",
+  "validUntil": "2026-05-19T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -10,17 +10,18 @@
       "orientations": [
         "N",
         "NE",
+        "E",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : En pentes raides (à moyennes altitudes), possibles, coulées et petites avalanches humides...\nDéclenchements skieurs : En Nord d'altitude, rares minces plaques (sous le vent d'Ouest) ?   En pente soutenue et humidifiée, possible coulée humide ponctuelle sous les skis... ",
-  "stability": "QUELQUES INSTABILITES DE SURFACE...\n\nIl reste 15/30 cm de neige récente en versants froids d'altitude (notamment en haut du Taillefer et vers La Meije). Amorce de stabilisation, mais avec les petites pluies prévues, de possibles nouvelles coulées humides, notamment en pentes Nord jusque vers 2600/2800m environ...\nDéparts spontanés :\nPas de regel sous 2400m et humidification lundi en toutes orientations jusque vers 2600 voire 2800m. En faces Nord notamment on s'attend à quelques nouvelles coulées spontanées ou petites avalanches humides.\nEn faces Sud moins de neige en place et plus dense déjà...\nDéclenchements provoqués :\nEn faces Nord d'altitude, à l'abord des crêtes (au dessus de 2800/3000m environ), il peut rester un peu de neige froide ventée. Une rupture accidentelle de mince plaque n'est pas totalement exclue (sous le vent d'Ouest).\nLà où la neige est bien humide en surface, en pentes soutenues, un skieur pourrait facilement amorcer une coulée ponctuelle. Accroche assez médiocre sur le fond plus dense/ferme ? ",
-  "snowQuality": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est récemment amélioré, mais lundi les limites skiables remontent à nouveau. Rochers parfois juste recouverts....En revanche les combes/couloirs d'altitude et glaciers sont bien enneigés... \nLimites skiables : Vers 2000/2500m environ, parfois plus haut en Sud raide.\n\nQualité de la neige lundi :   Neige bien humide jusque vers 2400 puis 2600/2800m suivant les faibles précipitations et le éclaircies.\nLocalement saupoudrage de neige fraîche possible en altitude... Il peut rester un peu de neige froide (poudreuse ou ventée) en Nord raide supérieur à 2800/3000m environ.",
+  "summary": "Départs spontanés : En large Nord, possibles coulées et petites avalanches humides, surtout entre 2600 et 3000m\nDéclenchements skieurs : En Nord sommital, rare plaque en neige meuble. En pente soutenue et humidifiée, possible coulée humide ponctuelle sous les skis.",
+  "stability": "CONDITIONS HIVERNALES EN HAUTE MONTAGNE, MANTEAU S'HUMIDIFIANT EN JOURNEE SOUS LE REDOUX  \n\nDéclenchements provoqués : \n- Rares plaques dans la neige récente restée froide, au-dessus de 2600 m dans un large secteur Nord. Elles deviennent plus fréquentes et plus volumineuses au-delà de 3200 m en Nord où les conditions demeurent pleinement hivernales. Une avalanche de taille moyenne (taille 2) est possible. \nObservable : accumulation conséquente de neige meuble. \n- Là où la neige s'alourdit en cours de journée avec le redoux, (jusqu'à 3200 m ? ), coulées sous le skis en coupant une pente suffisamment raide. Petites à moyennes avalanches.\n\nDéparts spontanés : \nAvec le redoux prévu en cours de journée, la neige encore froide au réveil s'humidifie à partir de la fin de matinée. Des avalanches naturelles sont à prévoir dans un très large secteur Nord, partout où la neige se transforme (dans une tranche 2600-3200 m ?). L'épaisseur de neige mobilisable peut-être localement importante et générer des avalanches petites à moyennes (taille 1 à 2). L'activité sera plus faible dans les pentes ayant déjà chauffées les jours précédents (notamment le très large secteur Sud).\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
+  "snowQuality": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est récemment amélioré, mais lundi les limites skiables remontent à nouveau. Rochers parfois juste recouverts....En revanche les combes/couloirs d'altitude et glaciers sont bien enneigés... \nLimites skiables : Vers 2000/2500m environ, parfois plus haut en Sud raide.\n\nQualité de la neige mardi :  Bon regel nocturne. En journée humidification jusqu'à 2800 / 2900m en tout versants sous les nuages, parfois jusqu'à 3000 voire 3200m dans les versants les plus exposés. Dans les versants Nord, la neige colle / botte lorsqu'elle s'humidifie pour la première fois. Au-dessus, la neige reste encore poudreuse, avec des quantités parfois importantes ( 40 à 50cm au-dessus de 3000m, mais parfois près de 1m dans les accumulations.)",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

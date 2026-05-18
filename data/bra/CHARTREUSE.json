@@ -1,23 +1,21 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-05-17T16:00:00",
-  "validUntil": "2026-05-18T18:00:00",
+  "date": "2026-05-18T16:00:00",
+  "validUntil": "2026-05-19T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu d'activité ou une rare coulée humide en face Nord sommitale ? Neige récente glissant sur les névés...\nDéclenchements skieurs : Peu probable ou coulée ponctuelle sous les skis ?",
-  "stability": "DE MOINS EN MOINS DE NEIGE... RARE COULEE HUMIDE ?\n\nLe récent et modeste couvert neigeux (15/20 cm environ en faces Nord) s'humidifie et fond rapidement...\nDéparts spontanés : Peu de neige en place et reposant souvent au terrain. Sous couche seulement dans de rares faces Nord sommitales.\nAvec les petites pluies ou ondées envisagées lundi, possible coulée superficielle en Nord d'altitude, là où restait des névés ?\n\nDéclenchements provoqués :  Peu probable... Ou très localement possible coulée (humide) ponctuelle sous les skis ?",
-  "snowQuality": "Qualification de l’enneigement :  La petite couche de neige récente s'amenuise...\nTrès rares secteurs skiables vers la haute altitude, plutôt au Nord ? La Chartreuse va redevenir de plus en plus verte... \n\nQualité de la neige lundi : Pas de regel a priori, neige très humide ou fonte.\nDe petites congères résistent un peu mieux en altitude....",
+  "summary": "Départs spontanés : Peu d'activité ou une rare coulée humide en face Nord sommitale ? \nDéclenchements skieurs : Peu probable ",
+  "stability": "DE MOINS EN MOINS DE NEIGE... RARE COULEE HUMIDE ?\n\nLe récent et modeste couvert neigeux (15/20 cm environ en faces Nord) s'humidifie et fond rapidement...\nDéparts spontanés : Peu de neige en place et reposant souvent au terrain. Sous couche seulement dans de rares faces Nord sommitales.\nAvec les petites pluies ou ondées envisagées lundi, possible coulée superficielle en Nord d'altitude, là où restait des névés ?\n\nDéclenchements provoqués :  Peu probable.",
+  "snowQuality": "Qualification de l’enneigement :  La petite couche de neige récente s'amenuise...\n\nQualité de la neige mardi : Bon regel nocturne en altitude. Neige s'humidifiant fortement en journée. La neige récente disparait progressivement.",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

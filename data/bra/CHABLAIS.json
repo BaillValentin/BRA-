@@ -1,26 +1,15 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-05-17T16:00:00",
-  "validUntil": "2026-05-18T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-18T16:00:00",
+  "validUntil": "2026-05-19T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2400",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
         "N",
         "NE",
-        "E",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2400",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
         "NW"
       ]
     }
@@ -29,9 +18,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Neige humide au fil du réchauffement diurne.\nDéclenchements skieurs : Quelques plaques à vent dans la neige récente froide en altitude. ",
-  "stability": "Les chutes de neige récente se stabilisent progressivement. \n\nDéclenchements provoqués :\n* De la neige récente peut couler sous les skis à toutes altitudes. De plus en plus facile au fil du réchauffement diurne. Taille 1 (petite) à 2 (moyenne). \n* Au-dessus de 2400 m en larges versants Nord et Est : rares plaques à vent. Formées par le vent d'Ouest à Nord dans la neige récente au moment des chutes de neige. Taille 1 (petite).\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes en surface ... \n\nDéparts spontanés : \n* Quelques départs ponctuels de neige récente au fil du réchauffement diurne. Principalement dans les pentes raides et vers les rochers. Taille 1 (petite) à 2 (moyenne). ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est bon à toutes altitudes.  \nTrace de neige récente au sol à partir de 1600/1700 m en début de matinée.\nRares sous-couches sous 2000 m en nord et 2300 m en sud. \n\nQualité de la neige ce lundi :\n* En dessous de 2000/2300 m : trace à 20 cm de neige récente sans sous-couche (elle repose localement sur quelques névés). La neige récente est déjà tassée et légèrement humide en surface. Faible regel nocturne. \n* Au-dessus de 2000/2300 m : 20/40 cm de neige récente sur un fond dur. Elle est densifiée et alourdie en surface. Faible regel le matin. ",
+  "summary": "Départs spontanés : Neige humide au fil de l'humidification.\nDéclenchements skieurs : Quelques plaques à vent dans la neige récente froide sur les plus hauts sommets.",
+  "stability": "Les chutes de neige récente se stabilisent.\n\nDéparts spontanés : \n* Quelques départs ponctuels de neige récente à toutes altitudes et orientations. Ces départs concernent principalement l'après-midi au vu des températures qui remontent assez nettement. Taille 1, rarement 2.\n\nDéclenchements provoqués :\n* De la neige récente peut couler sous les skis à toutes altitudes. De plus en plus facile au fil de l'humidification. Taille 1 (petite) à 2 (moyenne). \n* Sur le massif du Giffre/Haut-Giffre, on retrouve de rares plaques à vent, formées par le vent d'Ouest des dernières chutes de neige. Taille 1 (petite). Dans les zones d'accumulations, une taille 2 (moyenne) reste possible mais rare.\nObservables : fissures sous les skis, accumulation de neige récente, vaguelettes en surface ... ",
+  "snowQuality": "Enneigement : \nPour la saison, l'enneigement est bon au-dessus de 2100m. On retrouve des traces de neige à partir de 1700m et les sous-couches ne sont réellement présentes qu'au-dessus de 2000m en Nord et 2300m en Sud.\n\nQualité de la neige ce lundi :\n* Au-delà de 2000m, on retrouve encore un peu de neige récente (10/15 cm). Cette neige repose sur un sol nu sous 2300m (elle repose localement sur quelques névés). La neige récente est déjà tassée et humide.\n* Sur les plus hauts sommets, les quantités de neige sont un peu plus importantes. Cette neige est densifiée et alourdie en surface.",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

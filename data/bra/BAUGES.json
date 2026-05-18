@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-17T16:00:00",
-  "validUntil": "2026-05-18T18:00:00",
+  "date": "2026-05-18T16:00:00",
+  "validUntil": "2026-05-19T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -17,9 +17,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Départs de niege récente au fil du réchauffement. \nDéclenchements skieurs : Neige humide sous les skis. ",
-  "stability": "Fine couche de neige récente qui s'alourdit.\n\nDéclenchements provoqués :\n* De la neige récente peut couler sous les skis. De plus en plus probables au fil du réchauffement diurne. Plus nombreux en ubacs. Taille 1 (petite). \n\nDéparts spontanés : \n* Départs ponctuels de neige récente. Plus nombreux dans les pentes raides et vers les rochers au fil de l'ensoleillement / du réchauffement diurne. Taille 1 (petite). ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est bon. \nTrace de neige récente au sol à partir de 1600/1700m en début de matinée. Rares sous-couches. \n\nQualité de la neige ce lundi :\nTrace à 20 cm de neige récente sans sous-couche (elle repose localement sur quelques névés). La neige récente est déjà tassée et légèrement humide en surface. Faible regel nocturne. ",
+  "summary": "Départs spontanés : Peu probables. Humidification à toutes altitudes.\nDéclenchements skieurs : Peu probables. Neige humide sous les skis. ",
+  "stability": "La fonte du manteau se poursuit. Neige lourde.\n\nDéclenchements provoqués :\nPeu probables. De la neige meuble peut couler sous les skis, plutôt l'après-midi. Le risque est un peu plus marqué en ubacs. Taille 1 (petite).\n\nDéparts spontanés :\nPeu probables. Départs ponctuels de neige meuble possible dans les versants ombragés, là où l'humidification est un peu plus significative par rapport aux jours précédents. Taille 1.",
+  "snowQuality": "Enneigement : \nAvec l'humidification et la fonte, l'enneigement redevient déficitaire.\nTrace de neige récente au sol à partir de 1700m en début de matinée. Les sous-couches ne sont réellement présentes que sur les sommets à plus de 2000m.\n\nQualité de la neige ce lundi :\nRegel nocturne plutôt bon. Le matin la neige est dure, mais elle s'humidifie très rapidement à toutes altitudes et orientations.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

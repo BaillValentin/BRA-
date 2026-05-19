@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-05-18T16:00:00",
-  "validUntil": "2026-05-19T18:00:00",
+  "date": "2026-05-19T16:00:00",
+  "validUntil": "2026-05-20T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -17,9 +17,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques départs au soleil en neige humide.\nDéclenchements skieurs : rares plaques en place en haute altitude.",
-  "stability": "RARES PETITES INSTABILITÉS EN PLACE EN HAUTE ALTITUDE.\n\nDéclenchements provoqués : de rares plaques récentes sont encore en place en haute altitude, principalement en versant nord raide au dessus de 2800 m environ. Plaques en cours de stabilisation et devenant plus difficiles à déclencher, générant des avalanches de petite taille en général (taille 1), rarement moyenne en cas de déstabilisation d'une plaque plus ancienne. au gré des éclaircies. Plus bas, un skieur peut initier un départ de neige alourdie de faible ampleur.\n\nDéparts spontanés : quelques départs ponctuels de neige s'humidifiant en pentes raides au fil de la course du soleil. Avalanches généralement de petite taille, rarement moyenne (taille 1 à 2).",
-  "snowQuality": "Enneigement très déficitaire pour la période.\nHauteurs de neige observées : 23 cm à la Nivôse du Col Agnel à 2630 m, 49 cm en versant nord du col de l'Izoard.\n\nLimite d'enneigement skiable : au plus bas à 2200 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais. Adrets secs jusqu'à 2800/3000 m notamment vers l'est du massif. \n\nÉtat de la neige en surface : ambiance encore hivernale au dessus de 2800/3000 m avec une petite couche de neige récente encore froide en versants nord raides, souvent travaillée par le vent proche des crêtes et ruptures de pentes. En dessous de 2500 m environ, manteau neigeux généralement de type névé, voire sol nu en adrets sous 2500 m. Après un regel nocturne correct, reprise rapide d'une humidification superficielles mais en toutes orientations en journée.",
+  "summary": "Départs spontanés : en neige humide au soleil surtout entre 2600 et 3000 m\nDéclenchements skieurs : en nord sommital, rares plaques résiduelles. Plus bas, possibles départs ponctuels sous les skis",
+  "stability": "MANTEAU NEIGEUX S'HUMIDIFIANT AVEC LE REDOUX\n\nDéparts spontanés : peu probable au petit matin avec un regel correct, puis activité naturelle à prévoir dans un large secteur nord, principalement dans la tranche 2600/3000 m. Avalanches généralement de petite taille, rarement moyenne. L'activité est moindre dans les pentes sud, déjà chauffées par le soleil de mai. \n\nDéclenchements provoqués : de très rares plaques persistent en versant nord raide au dessus de 3000/3200 m. Une avalanche de petite taille en général (taille 1), rarement moyenne reste possible en cas de déstabilisation d'une plaque plus ancienne. Plus bas, un skieur peut initier un départ de neige alourdie de faible ampleur (taille 1 à 2).",
+  "snowQuality": "Enneigement très déficitaire pour la période.\nHauteurs de neige observées : 25 cm à la Nivôse du Col Agnel à 2630 m, 45 cm en versant nord du col de l'Izoard.\n\nLimite d'enneigement skiable : au plus bas à 2200 m en ubacs bien protégés ou sur pistes forestières vers le Briançonnais. Adrets secs jusqu'à 2800/3000 m notamment vers l'est du massif. \n\nÉtat de la neige en surface : ambiance hivernale en nord au dessus de 3000 m avec encore un peu de neige froide plein nord raide, souvent travaillée par le vent proche des crêtes et ruptures de pentes. Elle repose sur un sol nu, ou sur un manteau de type névé en ubacs au dessus de 2500 m. Après un regel nocturne correct, reprise rapide d'une humidification qui gagne en profondeur et en altitude.",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

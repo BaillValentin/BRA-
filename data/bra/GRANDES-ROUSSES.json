@@ -1,27 +1,35 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-18T16:00:00",
-  "validUntil": "2026-05-19T18:00:00",
+  "date": "2026-05-19T16:00:00",
+  "validUntil": "2026-05-20T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<3000",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">3000",
       "level": 2,
       "orientations": [
         "N",
         "NE",
-        "E",
-        "W",
         "NW"
       ]
     }
   ],
   "situations": [
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : En large Nord, possibles coulées et petites avalanches humides, surtout entre 2600 et 3000m\nDéclenchements skieurs : En Nord sommital, rare plaque en neige meuble. En pente soutenue et humidifiée, possible coulée humide ponctuelle sous les skis.",
-  "stability": "CONDITIONS HIVERNALES EN HAUTE MONTAGNE, MANTEAU S'HUMIDIFIANT EN JOURNEE SOUS LE REDOUX  \n\nDéclenchements provoqués : \n- Rares plaques dans la neige récente restée froide, au-dessus de 2600 m dans un large secteur Nord. Elles deviennent plus fréquentes et plus volumineuses au-delà de 3200 m en Nord où les conditions demeurent pleinement hivernales. Une avalanche de taille moyenne (taille 2) est possible. \nObservable : accumulation conséquente de neige meuble. \n- Là où la neige s'alourdit en cours de journée avec le redoux, (jusqu'à 3200 m ? ), coulées sous le skis en coupant une pente suffisamment raide. Petites à moyennes avalanches.\n\nDéparts spontanés : \nAvec le redoux prévu en cours de journée, la neige encore froide au réveil s'humidifie à partir de la fin de matinée. Des avalanches naturelles sont à prévoir dans un très large secteur Nord, partout où la neige se transforme (dans une tranche 2600-3200 m ?). L'épaisseur de neige mobilisable peut-être localement importante et générer des avalanches petites à moyennes (taille 1 à 2). L'activité sera plus faible dans les pentes ayant déjà chauffées les jours précédents (notamment le très large secteur Sud).\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
-  "snowQuality": "Qualification de l’enneigement :  Grâce au récent coup de froid l'enneigement s'est récemment amélioré, mais lundi les limites skiables remontent à nouveau. Rochers parfois juste recouverts....En revanche les combes d'altitude et glaciers sont bien enneigées... \nLimites skiables : Vers 1900/2400m environ, parfois plus haut en Sud raide.\n\nQualité de la neige mardi :  Bon regel nocturne. En journée humidification jusqu'à 2800 / 2900m en tout versants sous les nuages, parfois jusqu'à 3000 voire 3200m dans les versants les plus exposés. Dans les versants Nord, la neige colle / botte lorsqu'elle s'humidifie pour la première fois. Au-dessus, la neige reste encore poudreuse, avec des quantités parfois importantes ( 40 à 50cm au-dessus de 3000m, mais parfois près de 1m dans les accumulations.)",
+  "summary": "Départs spontanés : Surtout en Nord, possibles avalanches humides avec l'humidification de la neige sous l'effet du soleil et du redoux \nDéclenchements skieurs : En Nord d'altitude, rares plaques en neige froide. En pente soutenue et humidifiée, possible coulée humide ponctuelle sous les skis.",
+  "stability": "LE MANTEAU S'HUMIDIFIE SOUS LE REDOUX EN JOURNEE, QUELQUES PENTES NORD D'ALTITUDE PEUVENT ENCORE HEBERGER DES INSTABILITES EN NEIGE FROIDE\n\nDéparts spontanés : \nAvec le redoux prévu en cours de journée, la neige encore froide au réveil s'humidifie rapidement. Quelques avalanches naturelles sont à prévoir surtout en large secteur Nord, là où la neige restée froide se transforme ( jusqu'aux sommets du massif). L'épaisseur de neige mobilisable peut-être localement importante et générer des avalanches petites à moyennes (taille 1 à 2). L'activité sera plus faible dans les pentes ayant déjà chauffées les jours précédents (notamment le très large secteur Sud).\n\nDéclenchements provoqués : \n- Rares plaques dans la neige récente restée froide, au-dessus de 3000 m en secteur Nord (surtout en pentes raides). Elles deviennent difficiles à déclencher, et poursuivent leur stabilisation en journée.  \nObservable : accumulation conséquente de neige meuble. \n- Là où la neige s'alourdit en cours de journée avec le redoux, (jusqu'au sommet dans la plupart des pentes), coulées sous le skis en coupant une pente suffisamment raide. Petites à moyennes avalanches.\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
+  "snowQuality": "Qualification de l’enneigement :  Les combes d'altitudes et glaciers sont bien enneigés. La fonte reprend et s'accélère mercredi sous l'effet du redoux. \nLimites skiables : Vers 1900/2400m environ, parfois plus haut en Sud raide.\n\nQualité de la neige mercredi :  Bon regel nocturne. Humidification très rapide et jusqu'aux pentes sommitales sous le soleil. La neige s'alourdit et s'humidifie parfois même dans les pentes Nord sous l'effet des nuages. De rares pentes Nord d'altitude peuvent encore être en neige froide au réveil. ",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

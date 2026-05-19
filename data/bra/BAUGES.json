@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-18T16:00:00",
-  "validUntil": "2026-05-19T18:00:00",
+  "date": "2026-05-19T16:00:00",
+  "validUntil": "2026-05-20T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -17,9 +17,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables. Humidification à toutes altitudes.\nDéclenchements skieurs : Peu probables. Neige humide sous les skis. ",
-  "stability": "La fonte du manteau se poursuit. Neige lourde.\n\nDéclenchements provoqués :\nPeu probables. De la neige meuble peut couler sous les skis, plutôt l'après-midi. Le risque est un peu plus marqué en ubacs. Taille 1 (petite).\n\nDéparts spontanés :\nPeu probables. Départs ponctuels de neige meuble possible dans les versants ombragés, là où l'humidification est un peu plus significative par rapport aux jours précédents. Taille 1.",
-  "snowQuality": "Enneigement : \nAvec l'humidification et la fonte, l'enneigement redevient déficitaire.\nTrace de neige récente au sol à partir de 1700m en début de matinée. Les sous-couches ne sont réellement présentes que sur les sommets à plus de 2000m.\n\nQualité de la neige ce lundi :\nRegel nocturne plutôt bon. Le matin la neige est dure, mais elle s'humidifie très rapidement à toutes altitudes et orientations.",
+  "summary": "Départs spontanés : Peu probables. Quelques départs dans les ubacs d'altitude.\nDéclenchements skieurs : Peu probables. Neige humide sous les skis. ",
+  "stability": "La fonte du manteau neigeux s'accélère. Stabilisation rapide.\n\nDéclenchements provoqués :\nPeu probables. De la neige meuble récente peut couler sous les skis, déclenchement de plus en plus facile au fil de l'humidification. Le risque est un peu plus marqué en ubacs. Taille 1 (petite).\n\nDéparts spontanés :\nPeu probables. Quelques départs ponctuels en neige récente possible dans les versants ombragés proches des sommets, là où l'humidification est un peu plus significative que les jours précédents. Taille 1.",
+  "snowQuality": "Enneigement : \nAvec l'humidification et la fonte, l'enneigement redevient déficitaire.\nTrace de neige récente au sol à partir de 1800m en début de matinée. Les sous-couches ne sont réellement présentes que sur les sommets à plus de 2000m.\n\nQualité de la neige ce mercredi :\n* Au-dessus de 1800m, on retrouve encore un peu de neige récente, jusqu'à 10/15 cm vers 2200 m. Cette neige déjà bien tassée est humide à très humide dès le début de matinée  Elle repose sur de la neige de névés, humide et compacte ou sur un sol nu.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

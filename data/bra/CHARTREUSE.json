@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-05-18T16:00:00",
-  "validUntil": "2026-05-19T18:00:00",
+  "date": "2026-05-19T16:00:00",
+  "validUntil": "2026-05-20T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -10,12 +10,10 @@
       "orientations": []
     }
   ],
-  "situations": [
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : Peu d'activité ou une rare coulée humide en face Nord sommitale ? \nDéclenchements skieurs : Peu probable ",
-  "stability": "DE MOINS EN MOINS DE NEIGE... RARE COULEE HUMIDE ?\n\nLe récent et modeste couvert neigeux (15/20 cm environ en faces Nord) s'humidifie et fond rapidement...\nDéparts spontanés : Peu de neige en place et reposant souvent au terrain. Sous couche seulement dans de rares faces Nord sommitales.\nAvec les petites pluies ou ondées envisagées lundi, possible coulée superficielle en Nord d'altitude, là où restait des névés ?\n\nDéclenchements provoqués :  Peu probable.",
-  "snowQuality": "Qualification de l’enneigement :  La petite couche de neige récente s'amenuise...\n\nQualité de la neige mardi : Bon regel nocturne en altitude. Neige s'humidifiant fortement en journée. La neige récente disparait progressivement.",
+  "situations": [],
+  "summary": "Départs spontanés : Peu probable \nDéclenchements skieurs : Peu probable ",
+  "stability": "FIN DE SAISON\n\nLes dernières neiges fondent rapidement et laissent place à de derniers névés. La saison est désormais bel et bien terminée en Chartreuse. \nDéparts spontanés : Peu probable. \nDéclenchements provoqués :  Peu probable.",
+  "snowQuality": "Qualification de l’enneigement :  A part quelques névés sommitaux et en versants Nord, il ne reste plus de neige en Chartreuse. ",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

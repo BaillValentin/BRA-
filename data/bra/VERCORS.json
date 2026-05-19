@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-05-18T16:00:00",
-  "validUntil": "2026-05-19T18:00:00",
+  "date": "2026-05-19T16:00:00",
+  "validUntil": "2026-05-20T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -10,12 +10,10 @@
       "orientations": []
     }
   ],
-  "situations": [
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : Peu d'activité ou une rare coulée humide en faces Nord sommitale ?\nDéclenchements skieurs : Peu probable",
-  "stability": "DE MOINS EN MOINS DE NEIGE... RARE COULEE HUMIDE ?\n\nLes 10-15cm de neige récente s'humidifient et fondent rapidement. \n\nDéparts spontanés : Peu probable, ou une rare coulée de petite taille avec l'humidification de la neige récente, en pente raide / sous les rochers. \n\nDéclenchements provoqués :  Peu probable.",
-  "snowQuality": "Qualification de l’enneigement :  La petite couche de neige récente s'amenuise...\n\nQualité de la neige mardi : Bon regel nocturne en altitude. Neige s'humidifiant fortement en journée. La neige récente disparait progressivement.",
+  "situations": [],
+  "summary": "Départs spontanés : Peu probable \nDéclenchements skieurs : Peu probable ",
+  "stability": "FIN DE SAISON\n\nLes dernières neiges fondent rapidement et laissent place à de derniers névés. La saison est désormais bel et bien terminée sur le Vercors. \nDéparts spontanés : Peu probable. \nDéclenchements provoqués :  Peu probable.",
+  "snowQuality": "Qualification de l’enneigement :  Enneigement de fin de saison. Quelques pentes Nord encore skiables en altitude. La plupart du temps en neige de névé. \nQualité de la neige : Bon regel nocturne. Neige de névé la plupart du temps. Parfois encore un peu de neige récente résiduelle, très humide. ",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

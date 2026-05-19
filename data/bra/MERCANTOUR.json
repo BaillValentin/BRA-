@@ -1,7 +1,7 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-05-18T16:00:00",
-  "validUntil": "2026-05-19T18:00:00",
+  "date": "2026-05-19T16:00:00",
+  "validUntil": "2026-05-20T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -11,12 +11,11 @@
     }
   ],
   "situations": [
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs au gré des éclaircies en neige humide.\nDéclenchements skieurs : rares petites plaques vers les plus hauts sommets.",
-  "stability": "RARES INSTABILITÉS RÉSIDUELLES EN HAUTE ALTITUDE\n\nDéclenchements provoqués : de rares plaques récentes peuvent être encore en place, aux plus hautes altitudes du massif en versant nord raide. Plaques devenant difficiles à déclencher, générant des avalanches de petite taille en général (taille 1). Plus bas, un skieur peut initier un départ de neige alourdie de faible ampleur.\n\nDéparts spontanés : rares départs ponctuels de neige s'humidifiant en pentes raides et ensoleillées. Avalanches généralement de petite taille (taille 1).",
-  "snowQuality": "Enneigement déficitaire pour la période. À la Nivôse de Millefonts (2430 m), on mesure 43 cm de neige.\n\nLimite d'enneigement skiable : vers 2300 m en ubacs bien protégés ou sur pistes forestières, 2600 m en adrets.\n\nÉtat de la neige en surface : ambiance encore hivernale aux plus hautes altitudes avec de la neige récente encore froide en versant nord raide, souvent travaillée par le vent proche des crêtes et ruptures de pentes. Elle repose sur un sol nu, ou sur un manteau de type névé en ubacs au dessus de 2500 m. Après un regel nocturne correct, reprise rapide d'une humidification superficielle mais en toutes orientations en journée.",
+  "summary": "Départs spontanés : en neige humide surtout en nord sommital\nDéclenchements skieurs : possibles départs ponctuels et humidifiés sous les skis",
+  "stability": "MANTEAU NEIGEUX S'HUMIDIFIANT AVEC LE REDOUX\n\nDéparts spontanés : petite activité naturelle en neige humide à prévoir dans un large secteur nord, principalement près des sommets. Avalanches de taille 1. L'activité est moindre dans les pentes sud, déjà chauffées par le soleil de mai. \n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ de neige alourdie de faible ampleur (taille 1).",
+  "snowQuality": "Enneigement déficitaire pour la période. À la Nivôse de Millefonts (2430 m), on mesure 43 cm de neige.\n\nLimite d'enneigement skiable : vers 2300 m en ubacs bien protégés ou sur pistes forestières, 2600 m en adrets.\n\nÉtat de la neige en surface : manteau neigeux en cycle printanier. Après un regel nocturne correct, reprise rapide d'une humidification qui gagne en profondeur et en altitude, jusqu'au nord sommital.",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

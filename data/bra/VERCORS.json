@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-05-19T16:00:00",
-  "validUntil": "2026-05-20T18:00:00",
+  "date": "2026-05-20T16:00:00",
+  "validUntil": "2026-05-21T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -10,10 +10,12 @@
       "orientations": []
     }
   ],
-  "situations": [],
-  "summary": "Départs spontanés : Peu probable \nDéclenchements skieurs : Peu probable ",
-  "stability": "FIN DE SAISON\n\nLes dernières neiges fondent rapidement et laissent place à de derniers névés. La saison est désormais bel et bien terminée sur le Vercors. \nDéparts spontanés : Peu probable. \nDéclenchements provoqués :  Peu probable.",
-  "snowQuality": "Qualification de l’enneigement :  Enneigement de fin de saison. Quelques pentes Nord encore skiables en altitude. La plupart du temps en neige de névé. \nQualité de la neige : Bon regel nocturne. Neige de névé la plupart du temps. Parfois encore un peu de neige récente résiduelle, très humide. ",
+  "situations": [
+    "neige_humide"
+  ],
+  "summary": "Départs spontanés : Peu probable ou une coulée humide ponctuelle en Nord sommital ?  \nDéclenchements skieurs : Non, ou rare coulée humide ponctuelle sous les skis ?",
+  "stability": "IL NE RESTE QUE PETITS NEVES EN NORD SOMMITAL.  REGEL A L'AUBE, PUIS RARE COULEE HUMIDE...\n\nLa neige du week-end passé a quasiment entièrement fondue. Il ne reste que de (petits) névés en Nord sommital, au dessus de 1900m environ.\nDéparts spontanés : Peu probable, ou une coulée humide ponctuelle là où il reste de la neige ? (petits névés  en place généralement stables)\nDéclenchements provoqués :  Non ou rare coulée humide ponctuelle sous les skis...\n\nAutres : Peu de neige mais des surfaces légèrement croutées par regel à l'aube",
+  "snowQuality": "Qualification de l’enneigement :  Il ne reste que de petits névés en faces Nord sommitales, au dessus de 1800/1900m environ...\nRegel de surface le matin, puis rapide humidification...\nOn approche franchement de la fin de saison ski pour 2026 (pas d'intempéries, et chaleur en vue)...",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

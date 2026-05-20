@@ -1,11 +1,11 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-05-19T16:00:00",
-  "validUntil": "2026-05-20T18:00:00",
+  "date": "2026-05-20T15:00:00",
+  "validUntil": "2026-05-21T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<3000",
+      "altitude": "<3600",
       "level": 1,
       "orientations": [
         "N",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "altitude": ">3000",
+      "altitude": ">3600",
       "level": 2,
       "orientations": [
         "N",
@@ -24,11 +24,12 @@
     }
   ],
   "situations": [
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide au soleil surtout entre 2600 et 3000 m\nDéclenchements skieurs : plaques résiduelles en large nord en haute montagne. Plus bas, possibles départs ponctuels sous les skis",
-  "stability": "RARES PLAQUES EN HAUTE ALTITUDE - PLUS BAS MANTEAU NEIGEUX S'HUMIDIFIANT\n\nDéparts spontanés : peu probable au petit matin avec un regel correct, puis activité naturelle à prévoir dans un large secteur nord, principalement dans la tranche 2600/3000 m. Avalanches généralement de petite taille, parfois moyenne. L'activité est moindre dans les pentes sud, déjà chauffées par le soleil de mai. \n\nDéclenchements provoqués : de rares plaques persistent en versant nord au dessus de de 3000/3200 m, là où les conditions restent encore hivernales. A noter que leur déclenchement peut être facilité par l'humidification superficielle en cours de journée. Avalanches de taille petite à moyenne (taille 1 à 2 ), une rare grande (taille 3) n'est pas exclue en haute montagne en cas de déstabilisation d'une structure de plaque plus ancienne. Plus bas, un skieur peut initier un départ de neige alourdie de faible ampleur (taille 1 à 2).",
-  "snowQuality": "Enneigement déficitaire à moyenne altitude, mais correct pour la saison en haute montagne.\nHauteurs de neige observées : 225 cm à la Nivôse des Écrins à 2970 m, 46 cm au Pré de Madame Carle à 1870 m. \n\nLimite d'enneigement skiable : très localement vers 1900 m en ubacs de fond de vallée en cœur de massif, plutôt 2000/2200 dans les autres ubacs et 2400/2500 m en adrets.\n\nÉtat de la neige en surface : ambiance encore hivernale au dessus de 3000 m avec de la neige récente en quantité, souvent travaillée par le vent en secteurs exposés, encore froide en nord raide. Vers 2500 m, neige récente déjà plus dense, reposant sur un manteau de type névé, voire un sol nu en adrets. Après un regel nocturne correct, reprise rapide d'une humidification superficielles mais en toutes orientations en journée.",
+  "summary": "Départs spontanés : en neige humide en versants nord \nDéclenchements skieurs : plaques résiduelles en large nord à très haute altitude. ",
+  "stability": "RARES INSTABILITÉS A TRES HAUTE ALTITUDE, ACTIVITÉ EN NEIGE HUMIDE\n\nDéclenchements provoqués : instabilités  en large versant nord au-dessus de 3600 m. Formées sous l'effet du vent de nord qui souffle assez fort à ces altitudes, elles sont plutôt identifiables dans la neige ventée, mais facilement déclenchables par un seul skieur et peuvent générer des avalanches de taille petite à moyenne (taille 1 à 2). Plus bas, un skieur peut initier un départ de neige humide de taille 1 à 2.\n\nDéparts spontanés : peu probables au petit matin avec le bon regel nocturne. En journée, avalanches de neige humide au soleil, taille petite, rarement moyenne en versants nord de haute altitude entre 2800 et 3300 m environ. Le fort réchauffement de la masse d'air achève l'humidification des couches de neige successives tombées depuis le début du mois.  \n",
+  "snowQuality": "Enneigement déficitaire à moyenne altitude, mais correct pour la saison en haute montagne, au-dessus de 2800/3000 m\nHauteurs de neige observées : 215 cm à la Nivôse des Écrins à 2970 m, 40 cm au Pré de Madame Carle à 1870 m. \n\nLimite d'enneigement skiable :  vers 2000/2100 m en versant nord, entre 2400 et 2800 m dans les autres orientations\n\nÉtat de la neige en surface : neige froide fortement durcie par le vent en nord raide d’altitude supérieure à 3200 m. Dans les autres orientations, neige déjà humidifiée, bon regel nocturne puis poursuite de l'humidification en journée ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

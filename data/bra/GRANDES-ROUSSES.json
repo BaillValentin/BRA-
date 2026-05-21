@@ -1,11 +1,11 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-20T16:00:00",
-  "validUntil": "2026-05-21T18:00:00",
+  "date": "2026-05-21T15:00:00",
+  "validUntil": "2026-05-22T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2800",
+      "altitude": "<3000",
       "level": 1,
       "orientations": [
         "N",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "altitude": ">2800",
+      "altitude": ">3000",
       "level": 1,
       "orientations": [
         "N",
@@ -27,8 +27,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : En journée ou dès le matin, possibles coulées humides, voire avalanches en faces Nord d'altitude...\nDéclenchements skieurs : En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue)... Pas de risque de plaque a priori...",
-  "stability": " NEIGE DURCIE PAR REGEL A L'AUBE, PUIS POSSIBLE COULEES  OU AVALANCHES HUMIDES (PRINCIPALEMENT EN FACES NORD D'ALTITUDE ) ...\n\nLa neige du week-end passé a fondu à basses altitude et s'est stabilisée ailleurs. Regel au matin, puis rapide humidification, un peu d'activité printanière possible, notamment en faces Nord d'altitude...\n\nDéparts spontanés : A la faveur du net redoux ensoleillé,  la neige récente peut s'humidifier plus en profondeur. On s'attend à de possibles coulées humides ponctuelles ou petites avalanches (en pentes raides, près des rochers, notamment).\nPas mal de pentes ont déjà \"bougé\", il reste davantage de neige mobilisable en faces Nord d'altitude  au dessus de 2800/3000m environ...\n\nDéclenchements provoqués :  En neige bien humidifiée et pente raide, possible coulée humide ponctuelle sous les skis... La neige plus récente glissant sur d'anciennes surfaces denses.\nA priori il n'y aurait plus de risque de plaques...\n\nAutres :  Des surfaces croutées ou durcies par regel à l'aube et à l'ombre. En journée neige devenant trop humide \"attrapant\" les skis...",
-  "snowQuality": "Qualification de l’enneigement :  Le manteau neigeux reste bon pour la saison en combes froides d'altitude, vers les glaciers, grâce aux épisodes frais du début de mois... En revanche la fonte s'est récemment accélérée en Sud et en bas du massif...\nLa neige de névé réapparait davantage...\nLimites skiables : Vers 2000/2400m environ, parfois plus haut en Sud raide...\n\nQualité de la neige jeudi :   Assez bon regel nocturne, neige croutée à durcie/béton. En journée très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée,  devenant difficile à skier au fil des heures....",
+  "stability": " NEIGE DURCIE A L'AUBE, PUIS POSSIBLES COULEES  OU AVALANCHES HUMIDES (PRINCIPALEMENT EN FACES NORD D'ALTITUDE ) ...\n\nLa neige du week-end passé a fondu à basses altitude et s'est stabilisée ailleurs. Regel au matin, puis rapide humidification, un peu d'activité printanière possible, notamment en faces Nord d'altitude...\n\nDéparts spontanés : A la faveur du net redoux ensoleillé,  la neige récente peut s'humidifier plus en profondeur. On s'attend à de possibles coulées humides ponctuelles ou petites avalanches (en pentes raides, près des rochers, notamment).\nPas mal de pentes ont déjà \"bougé\", il reste davantage de neige mobilisable en faces Nord d'altitude  au dessus de 2900/3100m environ...\n\nDéclenchements provoqués :  En neige bien humidifiée et pente raide, possible coulée humide ponctuelle sous les skis... La neige plus récente glissant sur d'anciennes surfaces denses.\n\nAutres :  Des surfaces croutées ou durcies par regel à l'aube et à l'ombre. En journée neige devenant vite trop humide \"attrapant\" les skis...",
+  "snowQuality": "Qualification de l’enneigement :  Le manteau neigeux reste bon pour la saison en combes froides d'altitude, vers les glaciers, grâce aux épisodes frais du début de mois... En revanche la fonte s'est récemment accélérée en Sud et en bas du massif...\nLa neige de névé réapparait davantage...\nLimites skiables : Vers 2000/2500m environ, parfois plus haut en Sud raide...\n\nQualité de la neige Vendredi :    Pentes raides pas mal abimées par les coulées. Léger regel nocturne, neige croutée à durcie en altitude. En journée, avec cette masse d'air estivale, très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée,  devenant difficile à skier au fil des heures... En plein Nord raide sommital (au dessus de 3200m), neige moins transformée, s'humidifiant près des rochers...",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

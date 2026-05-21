@@ -1,25 +1,21 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-20T16:00:00",
-  "validUntil": "2026-05-21T18:00:00",
+  "date": "2026-05-21T16:00:00",
+  "validUntil": "2026-05-22T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables. Neige humide récente sous les skis. ",
-  "stability": "La fonte du manteau neigeux s'accélère. Stabilisation rapide.\n\nDéclenchements provoqués :\nPeu probables. Dans les ubacs proches des sommets, de la neige meuble récente peut couler sous les skis, déclenchement de plus en plus facile au fil de l'humidification. Taille 1 (petite).\n\nDéparts spontanés :\nPeu probables. Quelques départs ponctuels en neige récente possible dans les versants ombragés proches des sommets. Taille 1.",
-  "snowQuality": "Enneigement : \nAvec l'humidification et la fonte, l'enneigement redevient déficitaire.\nTrace de neige récente au sol à partir de 2000m. Les sous-couches ne sont réellement présentes que dans les ubacs proches des plus hauts sommets.\n\nQualité de la neige ce jeudi :\n* Au-dessus de 2000 m, on retrouve encore un peu de neige récente, jusqu'à 5/10 cm vers 2200 m. Cette neige déjà bien tassée, regelée en début de matinée puis rapidement très humide.  Elle repose sur de la neige de névés, humide et compacte ou sur un sol nu.",
+  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables. ",
+  "stability": "La fonte du manteau neigeux s'accélère. Manteau neigeux stable.\n\nDéclenchements provoqués :\nPeu probables. \n\nDéparts spontanés :\nPeu probables. ",
+  "snowQuality": "Enneigement : \nEnneigement déficitaire.\n\nQualité de la neige vendredi :\n* neige continue dans les ubacs au-dessus de 1900 m environ. Neige de névé : regelée le matin qui transforme rapidement en journée.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

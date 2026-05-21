@@ -1,7 +1,7 @@
 {
   "massif": "EMBRUNAIS-PARPAILLON",
-  "date": "2026-05-20T16:00:00",
-  "validUntil": "2026-05-21T18:00:00",
+  "date": "2026-05-21T16:00:00",
+  "validUntil": "2026-05-22T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,9 +15,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares en neige humide en ubacs de haute altitude\nDéclenchements skieurs : rares et peu volumineux en neige humide",
-  "stability": "MANTEAU NEIGEUX BIEN STABILISÉ\n\nDéparts spontanés : peu probables au petit matin avec le bon regel nocturne. En journée, rares avalanches de neige humide au soleil, de petite taille en versants nord de haute altitude, au-dessus de 2800 m environ. \n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. De rares instabilités se situent en versants nord de haute altitude où les chutes de neige tombées depuis le début du mois ne sont pas entièrement humidifiées. Avalanches de taille petite, déclenchables par un seul skieur.  \n",
-  "snowQuality": "Enneigement déficitaire pour la période.\nHauteurs de neige observées :  51 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : au plus bas vers 2200/2300 m\n\nÉtat de la neige en surface :manteau neigeux humidifié avec un bon regel nocturne et une poursuite de humidification en journée. ",
+  "summary": "Départs spontanés : rares départs encore possibles dans les plus hauts versants nord\nDéclenchements skieurs : rares en neige humide",
+  "stability": "TRÈS CHAUD EN ALTITUDE, MAIS FAIBLE ACTIVITÉ AVALANCHEUSE\n\nDéparts spontanés : peu probables au petit matin avec le  bon regel nocturne. En journée, de rares avalanches de neige humide sont possibles dans les versants nord de haute altitude (au-delà de 2800/2900 m) et sont de petite taille.\n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. En versant nord de haute altitude, un skieur peut faire glisser de la neige humide sous les skis. Ailleurs, manteau neigeux très stable, de type névé.",
+  "snowQuality": "Enneigement déficitaire, et le temps très chaud et ensoleillé ces prochains jours va accélérer la fonte.\nHauteurs de neige observées : 46 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne correct, mais une humidification rapide en journée. ",
   "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_20.png",

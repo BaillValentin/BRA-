@@ -1,11 +1,11 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-05-20T16:00:00",
-  "validUntil": "2026-05-21T18:00:00",
+  "date": "2026-05-21T16:00:00",
+  "validUntil": "2026-05-22T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<3000",
+      "altitude": "<3200",
       "level": 1,
       "orientations": [
         "N",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "altitude": ">3000",
+      "altitude": ">3200",
       "level": 2,
       "orientations": [
         "N",
@@ -26,9 +26,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs en neige humide à cause du redoux.\nDéclenchements skieurs : rares plaques friables  résiduelles dans les plus  hautes pentes du massif. ",
-  "stability": "FORT REDOUX \n\nDéparts spontanés : Poursuite du redoux avec encore  de rares avalanches naturelles de neige humide dans un très large secteur Nord, plus nombreuses au dessus de 3000m  dans les plus hautes pentes du massif à cause du redoux  qui grimpe encore d'un cran en journée (isotherme 0 °C passe à 4000m ) après un bon regel nocturne. Ces départs concernent surtout l'épaisseur de neige tombée en fin de semaine dernière donnant des avalanches surtout petites et rarement à moyenne Taille 1 à 2  . L'activité sera plus faible dans les pentes ayant déjà bien chauffées les jours précédents (toutes orientations sous 3000m  et toutes altitudes en large secteur Sud).    \n\nDéclenchements provoqués :\n- rare plaques plaques friables de taille modeste dans la neige récente encore froide , soit  au-dessus de 3200 m au moins et  en pentes raides Nord.  Partout ailleurs la neige récente est maintenant à minima croutée/humidifiée et elle a même déjà fondue dans de nombreuses pentes. \n- Coulées possible sous le skis en coupant une pente suffisamment raide en neige pourrie par le redoux. Déclenchant alors de petites avalanches.\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale qui va s'installer durablement pour les jours à venir va siffler la fin de cette saison 25/26\n\nLimite skiable : vers 2100 m en nord,  2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige  Bon regel au réveil jeudi matin après une nuit claire. Neige de névé sous 2500m. Au dessus, neige de printemps bien portante puis rapidement bien humide avec la chaleur attendue. Plus haut que 2800/3000 et en plein Nord neige croutée le matin devenant humide/collante . Il faut aller en plein Nord au dessus de 3200/3300m pour trouver encore un peu de neige froide et ventée.  Avec le redoux qui gagne en altitude en journée ces quelques restes de  neige froide deviennent à leur tour  collants jusqu'à 3400/3500 m au moins.  ",
+  "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : rares plaques résiduelles dans les plus hautes pentes du massif. ",
+  "stability": "CHAUD, HUMIDIFICATION JUSQU'à TRèS HAUT\n\nDéparts spontanés : Rares avalanches naturelles de neige humide dans un très large secteur Nord, plus nombreuses au dessus de 3200m dans les plus hautes pentes du massif à cause de la chaleur qui s'accentue encore en journée (isotherme 0 °C vers 4000m ) après un regel nocturne correct. Ces départs concernent surtout l'épaisseur de neige tombée en fin de semaine dernière donnant des avalanches surtout petites, rarement moyennes. Départs peu probables dans les pentes ayant déjà bien chauffé les jours précédents (toute orientation sous 3000m et toute altitude en large secteur sud).    \n\nDéclenchements provoqués :\n- rare plaques plaques friables de tailles modestes dans la neige récente encore froide, soit  au-dessus de 3200 m au moins et en pentes raides Nord. Partout ailleurs la neige récente restante est maintenant stabilisée, croutée/humidifiée quand elle n'a pas déjà fondu... \n- Coulées possibles sous le skis en coupant une pente suffisamment raide en neige pourrie par le réchauffement. Petites avalanches.\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale des jours à venir va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2100 m en nord,  2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige  Regel correct après une nuit claire. Neige de névé sous 2700m en nord. Au dessus, neige croutée de printemps bien portante puis rapidement pourrie avec la chaleur attendue, en nord neige très humide et collante. \nLa pente et l'ombre gouverne la fraîcheur de la neige en haute altitude. En nord raide au dessus de 3200m la neige reste froide mais les pentes plus douces s'humidifient jusqu'au plus hauts sommets.",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

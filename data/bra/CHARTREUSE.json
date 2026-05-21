@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-05-20T16:00:00",
-  "validUntil": "2026-05-21T18:00:00",
+  "date": "2026-05-21T15:00:00",
+  "validUntil": "2026-05-22T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,9 +13,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probable ou une coulée humide ponctuelle en Nord sommital ?  \nDéclenchements skieurs : Non, très peu probable",
-  "stability": "IL NE RESTE QUE PETITS NEVES EN NORD SOMMITAL...\n\nLa neige du week-end passé a quasiment entièrement fondue. Il ne reste que de rares (petits) névés en Nord sommital.\nDéparts spontanés : Peu probable, ou une coulée humide ponctuelle là où il reste de la neige ? (petits névés  en place généralement stables)\nDéclenchements provoqués :  Non ou rare coulée humide ponctuelle sous les skis...\n\nAutres : Peu de neige mais des surfaces légèrement croutées par regel à l'aube",
-  "snowQuality": "Qualification de l’enneigement :  Il ne reste que de petits névés en faces Nord sommitales, au dessus de 1800/1900m environ...\nRegel de surface le matin, puis rapide humidification...\nChartreuse presque toute verte, fin de saison ski pour 2026 (pas d'intempéries, et chaleur en vue)...",
+  "summary": "Départs spontanés : Peu probable... ou une coulée humide ponctuelle en Nord sommital ?  \nDéclenchements skieurs : Non, très peu probable",
+  "stability": "MASSIF SEC,  RARES NEVES EN NORD SOMMITAL...\n\nLa neige du week-end passé a quasiment entièrement fondue. Il ne reste que de rares (et petits) névés en Nord sommital.\nDéparts spontanés : Peu probable, ou une coulée humide ponctuelle là où il reste de la neige/ en alpage ? (petits névés généralement stables)\nDéclenchements provoqués :  Non ou rare coulée humide ponctuelle sous les \"skis\" d'un éventuel passionné...\n",
+  "snowQuality": "Qualification de l’enneigement :  Il ne reste que de petits névés en faces Nord sommitales, au dessus de 1900m environ...\nNeige rapidement très humide à détrempée, fonte accélérée...\nChartreuse presque toute verte... Fin de saison ski pour 2026 (pas d'intempéries, et chaleur en vue)...",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

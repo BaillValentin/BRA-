@@ -1,34 +1,23 @@
 {
   "massif": "THABOR",
-  "date": "2026-05-20T15:00:00",
-  "validUntil": "2026-05-21T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-21T16:00:00",
+  "validUntil": "2026-05-22T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2800",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2800",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
+        "N"
       ]
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide en versants nord au dessus de 2800 m\nDéclenchements skieurs : en neige humide sous les skis",
-  "stability": "ACTIVITÉ EN NEIGE HUMIDE EN UBACS DE HAUTE ALTITUDE\n\nDéparts spontanés : peu probables au petit matin avec le bon regel nocturne. En journée, avalanches de neige humide au soleil, taille petite, rarement moyenne en versants nord de haute altitude, au-dessus de 2800 m environ. Le fort réchauffement de la masse d'air achève l'humidification des couches de neige successives tombées depuis le début du mois.  \n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. Les instabilités se situent en versants nord de haute altitude où les chutes de neige tombées depuis le début du mois ne sont pas entièrement humidifiées. Avalanches de taille petite à moyenne, déclenchables par un seul skieur.  \n",
-  "snowQuality": "Enneigement déficitaire.\nHauteurs de neige observées : 45 cm à la Nivôse Rochilles à 2450 m, à la même altitude 79 cm dans le vallon du Chardonnet.\n\nLimite d'enneigement skiable : très localement vers 2200 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux humidifié avec un bon regel nocturne et une poursuite de humidification en journée. ",
+  "summary": "Départs spontanés : rares départs encore possibles dans les plus hauts versants nord\nDéclenchements skieurs : rares en neige humide",
+  "stability": "TRÈS CHAUD EN ALTITUDE, MAIS FAIBLE ACTIVITÉ AVALANCHEUSE\n\nDéparts spontanés : peu probables au petit matin avec le  bon regel nocturne. En journée, de rares avalanches de neige humide sont possibles dans les versants nord de haute altitude (au-delà de 2800/2900 m) et sont de taille petite, rarement moyenne.  \n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. En versant nord de haute altitude, un skieur peut faire glisser de la neige humide sous les skis. Ailleurs, manteau neigeux très stable, de type névé.",
+  "snowQuality": "Enneigement déficitaire, et le temps très chaud et ensoleillé ces prochains jours va accélérer la fonte.\nHauteurs de neige observées : 39 cm à la Nivôse Rochilles à 2450 m, à la même altitude 71 cm dans le vallon du Chardonnet.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne correct, mais une humidification rapide en journée. ",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-05-21T16:00:00",
-  "validUntil": "2026-05-22T18:00:00",
+  "date": "2026-05-22T16:00:00",
+  "validUntil": "2026-05-23T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,9 +15,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs encore possibles dans les plus hauts versants nord\nDéclenchements skieurs : rares en neige humide",
-  "stability": "TRÈS CHAUD EN ALTITUDE, MAIS FAIBLE ACTIVITÉ AVALANCHEUSE\n\nDéparts spontanés : peu probables au petit matin avec le  bon regel nocturne. En journée, de rares avalanches de neige humide sont possibles dans les versants nord de haute altitude (au-delà de 2800/2900 m) et sont de petite taille.\n\nDéclenchements provoqués : le manteau neigeux est bien stabilisé. En versant nord de haute altitude, un skieur peut faire glisser de la neige humide sous les skis. Ailleurs, manteau neigeux très stable, de type névé.",
-  "snowQuality": "Enneigement très déficitaire, et le temps très chaud et ensoleillé ces prochains jours va accélérer la fonte.\nHauteurs de neige observées : 14 cm à la Nivôse du Col Agnel à 2630 m, 33 cm en versant nord du col de l'Izoard.\n\nLimite d'enneigement skiable : 2300/2400 m\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne correct, mais une humidification rapide en journée. ",
+  "summary": "Départs spontanés : en neige humide, rares, vers les plus hauts sommets.\nDéclenchements skieurs : rares départs ponctuels en neige humide vers les plus hauts sommets.",
+  "stability": "MANTEAU NEIGEUX BIEN STABLE DANS L'ENSEMBLE. FAIBLE ACTIVITÉ EN NEIGE HUMIDE VERS LES PLUS HAUTS SOMMETS\n\nDéparts spontanés : rares avalanches de neige humide, de taille petite, rarement moyenne, en versant nord des plus hauts sommets. Peu probables au petit matin avec le regel nocturne, puis risque en hausse au fil de la journée avec l’iso0 très élevé et l’ensoleillement. \n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige humide de petite taille en pente nord raide de haute altitude.  ",
+  "snowQuality": "Enneigement très déficitaire. Ces prochains jours la fonte se maintient avec les conditions estivales. \nHauteurs de neige observées : 5 cm à la Nivôse du Col Agnel à 2630 m, 28 cm en versant nord du col de l'Izoard.\n\nLimite d'enneigement skiable : 2400/2500 m\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, souvent de type névé, avec un regel nocturne correct, mais une re-humidification rapide en journée. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

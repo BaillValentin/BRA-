@@ -1,7 +1,7 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-05-21T16:00:00",
-  "validUntil": "2026-05-22T18:00:00",
+  "date": "2026-05-22T16:00:00",
+  "validUntil": "2026-05-23T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -18,8 +18,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : Peu probable à part en coupant une pente en neige pourrie.",
-  "stability": "CHAUD, EN VOIE DE STABILISATION PARTOUT.\n\nDéparts spontanés :  (très) rares avalanches naturelles de neige humide isotherme 0 °C passe à 4000m après un bon regel nocturne. Ces départs concernent les rares pentes les plus hautes en petit secteur nord non encore complètement purgées. Petites avalanches. \nDéparts peu probables dans pentes ayant déjà bien chauffé les jours précédents soit en toute altitude en large secteur sud.    \n\nDéclenchements provoqués :\n- Coulées possibles sous le skis en coupant une pente suffisamment raide en neige pourrie. Petites avalanches.\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale des jours à venir va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2000 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige  Regel correct après une nuit claire. Neige de névé sous 2700m. Au dessus, neige croutée de printemps bien portante puis rapidement pourrie avec la chaleur attendue, en nord neige très humide et collante.",
+  "stability": "CHAUD, PARTOUT HUMIDIFIé.\n\nDéparts spontanés :  très rares avalanches naturelles de neige humide. Ces départs concernent les rares pentes les plus hautes en petit secteur nord non encore complètement purgées. Petites avalanches. \nDéparts peu probables dans pentes ayant déjà bien chauffé les jours précédents soit en toute altitude en large secteur sud.    \n\nDéclenchements provoqués :\n- Coulées possibles sous le skis en coupant une pente suffisamment raide en neige pourrie. Petites avalanches.\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale des jours à venir va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2000 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige  Regel tout juste médiocre après une nuit claire. Neige de névé sous 2700m. Au dessus, neige croutée de printemps portante et rapidement pourrie.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

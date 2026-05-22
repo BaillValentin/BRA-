@@ -1,7 +1,7 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-05-21T16:00:00",
-  "validUntil": "2026-05-22T18:00:00",
+  "date": "2026-05-22T16:00:00",
+  "validUntil": "2026-05-23T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -26,9 +26,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs encore possibles dans les plus hauts versants nord\nDéclenchements skieurs : rares en neige humide",
-  "stability": "TRÈS CHAUD EN ALTITUDE, MAIS FAIBLE ACTIVITÉ AVALANCHEUSE\n\nDéparts spontanés : peu probables au petit matin avec le  bon regel nocturne. En journée,  avalanches de neige humide  possibles dans les versants nord de haute altitude, taille petite à moyenne. Une grande avalanche n'est pas exclue, en versant plein nord au-delà de 3000/3100 m : avec la chaleur exceptionnelle en altitude, l'humidification est très prononcée et peut atteindre pour la première fois des couches fragiles enfouies depuis le milieu de l'hiver.\n\nDéclenchements provoqués : le manteau neigeux est printanier et bien stabilisé. En versant nord de haute altitude, au-dessus de 3000/3100 m,  l'humidification du manteau neigeux n'est pas complète; un skieur évoluant tardivement peut générer une avalanche de taille petite à moyenne.  Ailleurs, manteau neigeux très stable, de type névé.",
-  "snowQuality": "Enneigement déficitaire, et le temps très chaud et ensoleillé ces prochains jours va accélérer la fonte.\nHauteurs de neige observées : 95 cm au-dessus de Prapic à 2500 m.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable, très localement 2000/2100 m en cœur de massif.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne correct, mais une humidification rapide en journée. ",
+  "summary": "Départs spontanés : en neige humide, peu fréquents, à très haute altitude.\nDéclenchements skieurs : rares départs ponctuels en neige humide, à très haute altitude. ",
+  "stability": "ACTIVITÉ LIMITÉE EN NEIGE HUMIDE A TRES HAUTE ALTITUDE \n\nDéparts spontanés : éventuelles avalanches de neige humide, de taille petite à moyenne, dans les versants nord raides de très haute altitude, au-delà de 3200 m environ. Une grande non exclue, si l’humidification qui gagne en profondeur atteint pour la première fois des couches fragiles enfouies dans le manteau neigeux. Peu probables au petit matin avec le regel nocturne, puis risque en hausse au fil de la journée avec l’iso0 très élevé et l’ensoleillement.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige humide de taille limitée en pentes raides de très haute altitude. ",
+  "snowQuality": "Enneigement déficitaire. Ces prochains jours la fonte se maintient avec les conditions estivales. \nHauteurs de neige observées : 92 cm au-dessus de Prapic à 2500 m.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable, très localement 1900/2000 m en cœur de massif.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne correct, mais une re-humidification rapide en journée. ",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

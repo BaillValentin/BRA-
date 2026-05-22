@@ -1,7 +1,7 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-05-21T15:00:00",
-  "validUntil": "2026-05-22T18:00:00",
+  "date": "2026-05-22T16:00:00",
+  "validUntil": "2026-05-23T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,9 +15,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probable ou une coulée humide/ petite avalanche ponctuelle, plutôt en Nord sommital, près des rochers ?  \nDéclenchements skieurs : En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue,)...",
-  "stability": " NEIGE CROUTEE PAR REGEL A L'AUBE, PUIS RARES COULEES  OU PETITES AVALANCHES HUMIDES (EN NORD D'ALTITUDE ?) ...\n\nLa neige du week-end passé a fondu à basses altitude et s'est stabilisée ailleurs. Léger regel au matin, puis rapide humidification...\n\nDéparts spontanés : Peu probable, puis à la faveur du redoux de rares coulées humides ponctuelles ou petites avalanches (en pentes raides, près des rochers)? \nPas mal de pentes ont déjà \"bougé\", il resterait un peu plus de neige mobilisable en faces Nord d'altitude...\n\nDéclenchements provoqués :  En neige bien humidifiée et pente raide, possible coulée humide ponctuelle sous les skis... La neige plus récente glissant sur d'anciennes surfaces denses.\n\nAutres :  Des surfaces croutées ou durcies par regel à l'aube et à l'ombre. En journée neige rapidement trop humide \"attrapant\" les skis...",
-  "snowQuality": "Qualification de l’enneigement :  Le manteau neigeux reste correct en combes d'altitude grâce aux épisodes frais du début de mois... En revanche la fonte s'est récemment accélérée en Sud et en bas du massif... Les surfaces colorées ressortent.\nLimites skiables : Vers 1900/2400m environ...\n\nQualité de la neige vendredi :   Léger regel nocturne, neige croutée ou durcie vers les sommets. En journée avec cette masse d'air estivale très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée, devenant difficile à skier au fi des heures....",
+  "summary": "Départs spontanés : Peu probable ou une rare avalanche, plutôt en Nord sommital ?  \nDéclenchements skieurs : Peu probables. En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue)...",
+  "stability": " NEIGE PARFOIS DURCIE A L'AUBE, PUIS RARE AVALANCHE HUMIDE NON EXCLUE EN NORD D'ALTITUDE...\n\nLa neige du week-end passé a fondu à basse altitude et s'est stabilisée ailleurs. Léger regel au matin, puis rapide humidification...\n\nDéparts spontanés : Peu probables la nuit, puis avec la chaleur en journée, une rare avalanche humide de taille 2 ne peut être exclue, principalement dans les faces Nord d'altitude où il reste un peu plus de neige. Mais beaucoup de pentes ont déjà \"bougé\"...\n\nDéclenchements provoqués :  Peu probables, ou ponctuellement sous les skis en neige bien humidifiée dans une pente raide... La neige plus récente glissant sur d'anciennes surfaces denses.\n\nAutres :  Des surfaces croutées ou durcies par regel à l'aube et à l'ombre. En journée neige rapidement très humide \"attrapant\" les skis...",
+  "snowQuality": "Qualification de l’enneigement :  Le manteau neigeux reste correct en combes d'altitude grâce aux épisodes frais du début de mois... C'est beaucoup moins bon en Sud et en bas du massif où la fonte s'est récemment accélérée... Les surfaces colorées ressortent.\nLimites skiables : Vers 1900/2500m environ...\n\nQualité de la neige samedi : Encore un peu de regel nocturne possible, neige croutée ou durcie vers les sommets. En journée, très rapide humidification au soleil puis avec la chaleur en tous versants. Neige humide puis détrempée, devenant difficile à skier au fil des heures....",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

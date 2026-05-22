@@ -1,7 +1,7 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-05-21T16:00:00",
-  "validUntil": "2026-05-22T18:00:00",
+  "date": "2026-05-22T16:00:00",
+  "validUntil": "2026-05-23T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -18,8 +18,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : Rares petites coulées dans les ubacs d'altitude.\nDéclenchements skieurs : neige humide récente sous les skis.",
-  "stability": "Manteau neigeux stable.\n\nDéparts spontanés : \n* En ubacs au-dessus de 2500 m : départs ponctuels, au fil du réchauffement par le soleil, dans la neige récente en cours d'humidification. Taille 1 (petite). Dans les adrets et à plus basse altitude, la neige récente est déjà bien humidifiée.\n\nDéclenchements provoqués :\n* En ubacs au-dessus de 2500 m : de la neige récente humide peut couler sous les skis. Déclenchement de plus en plus facile au fil de l'humidification. Taille 1. Départs également possibles dans les adrets, mais avec des volumes plus petits. Taille 1.",
-  "snowQuality": "Enneigement : \nPour la saison, l'enneigement est bon au-dessus de 2400m. Neige présente en quantité qu'au-dessus de 2000m en Nord et 2300m en Sud.\n\nQualité de la neige vendredi :\n* Au-dessus de 2500 m, neige regelée le matin qui s'humidifie au fil de l'ensoleillement.\n* En dessous de 2500 m :  Neige de névé, regelée le matin puis très rapidement mouillée.",
+  "stability": "Manteau neigeux stable.\n\nDéparts spontanés : \n* Surtout sur les ubacs au-dessus de 2500 m : rares départs ponctuels, au fil du réchauffement par le soleil, dans la neige récente en cours d'humidification. Taille 1 (petite). Dans les adrets et à plus basse altitude, la neige récente est déjà bien humidifiée.\n\nDéclenchements provoqués :\n* Surtout sur les ubacs au-dessus de 2500 m : de la neige récente humide peut couler sous les skis. Déclenchement de plus en plus facile au fil de l'humidification. Taille 1. Départs également possibles dans les adrets, mais avec des volumes plus petits. Taille 1.",
+  "snowQuality": "Enneigement : \nPour la saison, l'enneigement est correct au-dessus de 2400m. Neige présente en quantité qu'au-dessus de 2000/2100 m en Nord et 2300/2400 m en Sud.\n\nQualité de la neige samedi :\n* Au-dessus de 2500 m, neige de printemps : regelée le matin qui s'humidifie rapidement en journée. \n* En dessous de 2500 m :  Neige de névé, regelée le matin puis très rapidement mouillée.\nNombreux dépôts d'avalanches datant du début de semaine au-dessus de 2000/2200 m.",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

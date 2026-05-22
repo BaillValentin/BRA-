@@ -1,7 +1,7 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-05-21T16:00:00",
-  "validUntil": "2026-05-22T18:00:00",
+  "date": "2026-05-22T16:00:00",
+  "validUntil": "2026-05-23T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -26,9 +26,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : rares plaques résiduelles dans les plus  hautes pentes du massif. ",
-  "stability": "CHAUD, HUMIDIFICATION JUSQU'à TRèS HAUT\n\nDéparts spontanés : Rares avalanches naturelles de neige humide dans un très large secteur Nord, plus nombreuses au dessus de 3200m dans les plus hautes pentes du massif à cause de la chaleur qui s'accentue encore en journée (isotherme 0 °C vers 4000m ) après un regel nocturne correct. Ces départs concernent surtout l'épaisseur de neige tombée en fin de semaine dernière donnant des avalanches surtout petites, rarement moyennes. Départs peu probables dans les pentes ayant déjà bien chauffé les jours précédents (toute orientation sous 3000m et toute altitude en large secteur sud).    \n\nDéclenchements provoqués :\n- rare plaques plaques friables de tailles modestes dans la neige récente encore froide, soit  au-dessus de 3200 m au moins et en pentes raides Nord. Partout ailleurs la neige récente restante est maintenant stabilisée, croutée/humidifiée quand elle n'a pas déjà fondu... \n- Coulées possibles sous le skis en coupant une pente suffisamment raide en neige pourrie par le réchauffement. Petites avalanches.\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
-  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale des jours à venir va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2100 m en nord,  2500 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige  Regel correct après une nuit claire. Neige de névé sous 2700m en nord. Au dessus, neige croutée de printemps bien portante puis rapidement pourrie avec la chaleur attendue, en nord neige très humide et collante. \nLa pente et l'ombre gouverne la fraîcheur de la neige en haute altitude. En nord raide au dessus de 3200m la neige reste froide mais les pentes plus douces s'humidifient jusqu'au plus hauts sommets.",
+  "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : rares plaques résiduelles dans les plus hautes pentes du massif. ",
+  "stability": "CHAUD, HUMIDIFICATION à HAUTE ALTITUDE.\n\nDéparts spontanés : Rares avalanches naturelles de neige humide en secteur Nord, au dessus de 3200m dans les plus hautes pentes du massif avec la chaleur en journée (isotherme 0 °C vers 4000m). On les observe dans la neige tombée en fin de semaine dernière, petites avalanches, rarement moyennes. Départs peu probables dans les pentes ayant déjà bien chauffé les jours précédents (large nord sous 3000m et toute altitude en large secteur sud).    \n\nDéclenchements provoqués :\n- rares plaques friables de tailles modestes dans la neige récente encore froide, soit  au-dessus de 3200/3300 m au moins et en pentes raides Nord. Partout ailleurs la neige récente restante est maintenant stabilisée, croutée/humidifiée quand elle n'a pas déjà fondu... \n- Coulées possibles sous le skis en coupant une pente suffisamment raide en neige pourrie par le réchauffement. Petites avalanches.\n\nAutres : chute de corniches possibles, les ponts de neige sur les torrents sont fragiles.",
+  "snowQuality": "Enneigement : Déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale en cours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2100 m en nord,  2500 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige  Regel tout juste médiocre après une nuit claire. Neige de névé sous 2800m en nord. Au dessus, neige croutée de printemps portante, rapidement pourrie avec la chaleur, en nord neige très humide et collante. \nLa pente et l'ombre gouverne la fraîcheur de la neige en haute altitude. En nord raide au dessus de 3200m la neige reste froide mais les pentes plus douces s'humidifient jusqu'au plus hauts sommets.",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

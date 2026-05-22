@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-21T16:00:00",
-  "validUntil": "2026-05-22T18:00:00",
+  "date": "2026-05-22T16:00:00",
+  "validUntil": "2026-05-23T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,7 +15,7 @@
   ],
   "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables. ",
   "stability": "La fonte du manteau neigeux s'accélère. Manteau neigeux stable.\n\nDéclenchements provoqués :\nPeu probables. \n\nDéparts spontanés :\nPeu probables. ",
-  "snowQuality": "Enneigement : \nEnneigement déficitaire.\n\nQualité de la neige vendredi :\n* neige continue dans les ubacs au-dessus de 1900 m environ. Neige de névé : regelée le matin qui transforme rapidement en journée.",
+  "snowQuality": "Enneigement : \nEnneigement déficitaire.\n\nQualité de la neige samedi :\n* La fonte s'accélère, encore de la neige dans les ubacs au-dessus de 1900 m environ. Neige de névé : regelée le matin qui transforme rapidement en journée.",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

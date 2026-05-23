@@ -1,11 +1,11 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-22T16:00:00",
-  "validUntil": "2026-05-23T18:00:00",
+  "date": "2026-05-23T16:00:00",
+  "validUntil": "2026-05-24T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<3200",
+      "altitude": "<2800",
       "level": 1,
       "orientations": [
         "N",
@@ -14,8 +14,8 @@
       ]
     },
     {
-      "altitude": ">3200",
-      "level": 1,
+      "altitude": ">2800",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -26,9 +26,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : En journée, quelques avalanches humides possibles en faces Nord d'altitude...\nDéclenchements skieurs : En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue).",
-  "stability": " NEIGE DURCIE A L'AUBE, PUIS QUELQUES AVALANCHES HUMIDES POSSIBLES (PRINCIPALEMENT EN FACES NORD D'ALTITUDE)\n\nLa neige du week-end passé a fondu à basse altitude et s'est stabilisée ailleurs. Regel possible au matin, puis rapide humidification...\n\nDéparts spontanés : Peu probables la nuit, puis avec le soleil et la chaleur en journée, l'humidification reprend et gagne en profondeur dans les faces Nord de haute montagne, occasionnant quelques avalanches humides de taille 1 à 2 en pentes raides, près des rochers, notamment.\nPas mal de pentes ont déjà \"bougé\", mais il reste davantage de neige mobilisable en faces Nord d'altitude... et notamment au-dessus de 3200m environ où une rare avalanche plus volumineuse (taille 3) n'est pas exclue, si l'humidification atteint une couche fragile enfouie en profondeur.\n\nDéclenchements provoqués :  En neige bien humidifiée et pente raide, possible coulée humide ponctuelle sous les skis... La neige plus récente glissant sur d'anciennes surfaces denses.\n\nAutres :  Des surfaces croutées ou durcies par regel à l'aube et à l'ombre. En journée neige devenant vite trop humide, \"attrapant\" les skis...",
-  "snowQuality": "Qualification de l’enneigement :  Le manteau neigeux reste correct pour la saison en combes froides d'altitude, vers les glaciers, grâce aux épisodes frais du début de mois... C'est beaucoup moins bon en Sud et en bas du massif où la fonte s'est récemment accélérée... La neige de névé réapparait davantage.\nLimites skiables : Vers 2100/2600m environ, parfois plus haut en Sud raide...\n\nQualité de la neige samedi : Pentes raides pas mal abimées par les coulées, parfois \"goulottées\".  Léger regel nocturne, neige croutée ou durcie en altitude. En journée, très rapide humidification au soleil puis avec la chaleur en tous versants. Neige humide puis détrempée,  devenant difficile à skier au fil des heures... En plein Nord raide sommital (au dessus de 3200m), neige moins transformée, s'humidifiant près des rochers...",
+  "summary": "Départs spontanés : Dès le matin, rares avalanches humides possibles en faces Nord d'altitude...\nDéclenchements skieurs : En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue).",
+  "stability": " NEIGE DENSE, MAIS DES LE MATIN UNE AVALANCHE HUMIDE EST POSSIBLE (PRINCIPALEMENT EN FACES NORD D'ALTITUDE)..\n\nMoins de regel attendu dimanche matin, très rapide humidification. Bien que la neige se soit densifiée, on ne peut exclure de rares avalanches de fonte, notamment en faces Nord d'altitude ?\n\nDéparts spontanés :  L'humidification est importante dès le matin et gagne en profondeur dans les faces Nord d'altitude, au dessus de 2800/3000m environ. \nOn peut redouter une avalanche de fonte dans ces orientations, de taille moyenne, rarement grande.\nDans les orientations plus ensoleillées la neige est plus dense, presque de névé, peu de risque ou juste une coulée de surface, près des rochers ?\nDéclenchements provoqués :  En neige bien humidifiée et pente raide, possible coulée humide ponctuelle sous les skis... \n\nAutres :  Des surfaces croutées par regel à l'aube et à l'ombre. En journée neige devenant vite trop humide, \"attrapant\" les skis...",
+  "snowQuality": "Qualification de l’enneigement :  Le manteau neigeux reste correct pour la saison en combes froides d'altitude, vers les glaciers, grâce aux épisodes frais du début de mois... C'est moins bon en Sud et en bas du massif où la fonte s'est récemment accélérée... La neige de névé réapparait davantage.\nLimites skiables : Vers 2100/2600m environ, parfois plus haut en Sud raide...\n\nQualité de la neige dimanche : Pentes raides pas mal abimées par les coulées, parfois \"goulottées\".  Léger regel nocturne au dessus de 2800/3000m, neige juste  croutée en altitude. En matinée, très rapide humidification au soleil puis (avec la chaleur) en tous versants. Neige devenant détrempée, difficile à skier...",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

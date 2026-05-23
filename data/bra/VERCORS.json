@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-05-22T16:00:00",
-  "validUntil": "2026-05-23T18:00:00",
+  "date": "2026-05-23T16:00:00",
+  "validUntil": "2026-05-24T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -10,9 +10,11 @@
       "orientations": []
     }
   ],
-  "situations": [],
-  "summary": "Départs spontanés : RAS, neige de névé stable.\nDéclenchements skieurs : RAS.",
-  "stability": "MASSIF QUASI SEC, QUELQUES NÉVÉS EN FACES SOMMITALES...\n\nLa neige du week-end passé a quasiment entièrement fondue. Il ne reste que de (petits) névés stables en Nord sommital, au dessus de 1900m environ.",
+  "situations": [
+    "neige_humide"
+  ],
+  "summary": "Départs spontanés : RAS, neige de névé humide mais stable.\nDéclenchements skieurs : RAS.",
+  "stability": "MASSIF QUASI SEC, QUELQUES NÉVÉS EN FACES SOMMITALES...\n\nLa neige du week-end passé a quasiment entièrement fondue. Il ne reste que de (petits) névés en versants Nord sommitaux. Neige humide mais très dense, stable...",
   "snowQuality": "Qualification de l’enneigement :  Il ne reste que de petits névés en faces Nord sommitales, au dessus de 1800/1900m environ...\nRegel de surface le matin, puis rapide humidification/ fonte accélérée...\nFin de saison ski pour 2026 (pas d'intempéries, et chaleur en vue)...",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {

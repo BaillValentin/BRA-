@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-23T17:13:24.822Z",
+  "lastUpdate": "2026-05-23T17:34:42.663Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 1,
@@ -147,7 +147,7 @@
     },
     "THABOR": {
       "risk": 1,
-      "date": "2026-05-22T16:00:00",
+      "date": "2026-05-23T16:00:00",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_13.png",
         "rose-pentes": "./data/bra/img/rose-pentes_13.png",
@@ -195,7 +195,7 @@
     },
     "QUEYRAS": {
       "risk": 1,
-      "date": "2026-05-23T16:00:00",
+      "date": "2026-05-22T16:00:00",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_17.png",
         "rose-pentes": "./data/bra/img/rose-pentes_17.png",

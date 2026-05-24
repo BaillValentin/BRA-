@@ -1,23 +1,19 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-05-23T16:00:00",
-  "validUntil": "2026-05-24T18:00:00",
+  "date": "2026-05-24T16:00:00",
+  "validUntil": "2026-05-25T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N"
-      ]
+      "orientations": []
     }
   ],
-  "situations": [
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : en neige humide, rares, vers les plus hauts sommets.\nDéclenchements skieurs : rares départs ponctuels en neige humide vers les plus hauts sommets.",
-  "stability": "MANTEAU NEIGEUX BIEN STABLE DANS L'ENSEMBLE. FAIBLE ACTIVITÉ EN NEIGE HUMIDE VERS LES PLUS HAUTS SOMMETS\n\nDéparts spontanés : rares avalanches de neige humide, de taille petite, rarement moyenne, en versant nord des plus hauts sommets. Possibles rapidement le matin avec le regel nocturne médiocre, puis risque en hausse au fil de la journée avec l’isotherme 0 degré très élevé et l’ensoleillement. \n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige humide de petite taille en pente nord raide de haute altitude.  ",
-  "snowQuality": "Enneigement déficitaire pour la période. À la Nivôse de Millefonts (2430 m), on mesure 14 cm de neige.\n\nLimite d'enneigement skiable : vers 2300 m en ubacs bien protégés \n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, généralement de type névé, avec un regel nocturne médiocre, et une ré-humidification rapide en journée. ",
+  "situations": [],
+  "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : peu probables. ",
+  "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nDéparts spontanés : peu probables. \n\nDéclenchements provoqués : peu probables. ",
+  "snowQuality": "Enneigement déficitaire pour la période. À la Nivôse de Millefonts (2430 m), on mesure 5 cm de neige.\n\nLimite d'enneigement skiable : vers 2300 m en ubacs bien protégés \n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, généralement de type névé, avec un regel nocturne médiocre, et une ré-humidification rapide en journée. ",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

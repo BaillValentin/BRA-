@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-05-23T16:00:00",
-  "validUntil": "2026-05-24T18:00:00",
+  "date": "2026-05-24T16:00:00",
+  "validUntil": "2026-05-25T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -12,7 +12,7 @@
   ],
   "situations": [],
   "summary": "Départs spontanés : RAS, neige de névé stable.\nDéclenchements skieurs : RAS.",
-  "stability": "MASSIF SEC,  RARES NÉVÉS EN NORD SOMMITAL...\n\nLa neige du week-end passé a quasiment entièrement fondu. Il ne reste que de rares (et petits) névés stables en Nord sommital.\n",
+  "stability": "MASSIF SEC,  RARES NÉVÉS EN NORD SOMMITAL...\n\nIl ne reste que de rares (et petits) névés stables en Nord sommital.\n",
   "snowQuality": "Qualification de l’enneigement :  Il ne reste que de petits névés en faces Nord sommitales, au dessus de 1900m environ...\nNeige rapidement très humide à détrempée, fonte accélérée...\nChartreuse presque toute verte... Fin de saison ski pour 2026 (pas d'intempéries, et chaleur persistantes)...",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {

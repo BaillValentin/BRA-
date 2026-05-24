@@ -1,11 +1,11 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-05-23T16:00:00",
-  "validUntil": "2026-05-24T18:00:00",
+  "date": "2026-05-24T15:00:00",
+  "validUntil": "2026-05-25T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<3000",
+      "altitude": "<2800",
       "level": 1,
       "orientations": [
         "N",
@@ -14,8 +14,8 @@
       ]
     },
     {
-      "altitude": ">3000",
-      "level": 1,
+      "altitude": ">2800",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -28,8 +28,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : rares plaques résiduelles dans les plus hautes pentes Nord du massif. ",
-  "stability": "HUMIDIFICATION DU MANTEAU EN PROFONDEUR JUSQU'A TRES HAUTE ALTITUDE. \n\nDéparts spontanés : activité faible au levé du jour. Puis, avec le réchauffement diurne, de rares avalanches naturelles de neige humide sont possibles principalement au-dessus de 3000 m dans un large secteur Nord. Les volumes mobilisés peuvent être importants dans le rare cas où l'eau de fonte percole jusqu'à une couche fragile enfouie et déstabilise l'épaisseur du manteau concerné par l'humidification. \nDans les autres orientations (et altitudes), le manteau est moins hivernal et présente donc moins de risque (exceptées les plaques de fond résiduelles). \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie (très humide). Petites avalanches.\nDans une pente très raide et plein Nord de haute montagne -là où la neige est encore froide-, une petite plaque résiduelle peut suffire à déséquilibrer le skieur qui la déclenche. \n\nAutres : chute de corniches et rares plaques de fond possibles.",
-  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale des jours à venir va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2100 m en nord,  2400 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : regel médiocre en bas, meilleur sur le haut des pentes. La croûte lâche rapidement à cause des fortes chaleurs et du Soleil de Mai. Avec le réchauffement diurne, la neige devient collante en large versant Nord au-dessus de 3000 m. La neige de printemps est meilleure à altitude égale dans les autres orientations.\nLa neige froide est désormais réservée aux skieurs/skieuses de pente raide de haute montagne - Nord à plus de 40° au moins. Ailleurs, le Soleil très haut dans le ciel fait chauffer la neige restée froide jusqu'alors.",
+  "stability": "HUMIDIFICATION DU MANTEAU EN PROFONDEUR JUSQU'A TRES HAUTE ALTITUDE. \n\nDéparts spontanés : activité faible au levé du jour. Puis, avec le réchauffement diurne, de rares avalanches naturelles de neige humide sont possibles principalement au-dessus de 3000 m dans un large secteur Nord. Les volumes mobilisés peuvent être importants dans le rare cas où l'eau de fonte percole jusqu'à une couche fragile enfouie et déstabilise l'épaisseur du manteau concerné par l'humidification. \nDans les autres orientations (et altitudes), le manteau est davantage printanier et présente moins de risque (exceptées les plaques de fond résiduelles). \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie (très humide). Petites avalanches.\nDans une pente très raide et plein Nord de haute montagne -là où la neige est encore froide-, une petite plaque résiduelle peut suffire à déséquilibrer le skieur qui la déclenche. \n\nAutres : chute de corniches et rares plaques de fond possibles.",
+  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale des jours à venir va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2100 m en nord,  2500 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : regel mauvais dans l'ensemble. La croûte lâche rapidement à cause des fortes chaleurs et du Soleil de Mai. Avec le réchauffement diurne, la neige devient collante en large versant Nord au-dessus de 3000 m. La neige de printemps est meilleure à altitude égale dans les autres orientations.\nLa neige froide est désormais réservée aux skieurs/skieuses de pente raide de haute montagne  -Nord à plus de 3200 m et 40° au moins-. ",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

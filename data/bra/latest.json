@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-23T17:34:42.663Z",
+  "lastUpdate": "2026-05-24T09:28:47.508Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 1,
@@ -231,7 +231,7 @@
     },
     "EMBRUNAIS-PARPAILLON": {
       "risk": 1,
-      "date": "2026-05-23T16:00:00",
+      "date": "2026-05-22T16:00:00",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_20.png",
         "rose-pentes": "./data/bra/img/rose-pentes_20.png",

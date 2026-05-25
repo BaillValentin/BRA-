@@ -1,7 +1,7 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-05-24T15:00:00",
-  "validUntil": "2026-05-25T18:00:00",
+  "date": "2026-05-25T15:00:00",
+  "validUntil": "2026-05-26T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -17,7 +17,7 @@
   ],
   "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : en coupant une pente en neige pourrie.",
   "stability": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES PENTES NORD POTENTIELLEMENT INSTABLES. \n\nDéparts spontanés :  très rares avalanches naturelles de neige humide. Ce risque ne concerne que les quelques hautes pentes Nord du massif. Petites à moyennes avalanches. \nDans les autres orientations (et altitudes), le manteau est entièrement humidifié et donc quasiment inerte (exceptées les plaques de fond résiduelles). \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie (très humide). Petites avalanches.\n\nAutres : chute de corniches et rares plaques de fond possibles.",
-  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale des jours à venir va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2000 m en nord,  2300 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : mauvais regel. La neige est rapidement pourrie à cause des fortes chaleurs et du Soleil de Mai. Neige de névé partout sauf en plein Nord au-dessus de 2700-2800 m.  ",
+  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale des jours à venir va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2000 m en nord,  2500 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : mauvais regel. La neige est rapidement pourrie à cause des fortes chaleurs et du Soleil de Mai. Neige de névé partout sauf en plein Nord au-dessus de 2700-2800 m.  ",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

@@ -1,7 +1,7 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-05-24T16:00:00",
-  "validUntil": "2026-05-25T18:00:00",
+  "date": "2026-05-25T16:00:00",
+  "validUntil": "2026-05-26T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -16,8 +16,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : Peu probable ou une rare avalanche, plutôt en faces Nord sommitales ?  \nDéclenchements skieurs : Peu probables. En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue)...",
-  "stability": " NEIGE HUMIDE DENSE, RARE AVALANCHE EN FACES NORD D'ALTITUDE ?\n\nLéger regel nocturne vers les sommets du massif, puis rapide humidification...\n\nDéparts spontanés : Peu probable car la plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. Lundi, avec une neige humide à détrempée dès le matin, on n'exclut pas totalement une avalanche ponctuelle de taille 2 (moyenne), plutôt en faces Nord sommitales...\n\nDéclenchements provoqués :  Peu probables, ou ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... La neige plus récente glissant sur d'anciennes surfaces denses.\n\nAutres :  Neige localement croûtée par regel aux plus hautes altitudes (à l'aube). En journée neige très humide, difficile à skier...",
-  "snowQuality": "Qualification de l’enneigement :  Le manteau neigeux reste encore correct en combes Nord d'altitude grâce aux épisodes frais du début de mois... C'est beaucoup moins bon en Sud, en bas du massif où la fonte s'est récemment accélérée... Les surfaces colorées/névés ressortent.\nLimites skiables : Vers 1900/2500m environ...\n\nQualité de la neige lundi : Presque pas de regel nocturne, ou faible vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée, devenant difficile à skier au fil des heures....",
+  "stability": " NEIGE HUMIDE DENSE, RARE AVALANCHE EN FACES NORD D'ALTITUDE ?\n\nLéger regel nocturne non exclu vers les sommets du massif, puis rapide humidification...\n\nDéparts spontanés : Peu probable car la plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. Lundi, avec une neige humide à détrempée dès le matin, on n'exclut pas totalement une avalanche ponctuelle de taille 2 (moyenne), plutôt en faces Nord sommitales...\n\nDéclenchements provoqués :  Peu probables, ou ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... La neige plus récente glissant sur d'anciennes surfaces denses.\n\nAutres :  Neige localement croûtée par regel aux plus hautes altitudes (à l'aube). En journée neige très humide, difficile à skier...",
+  "snowQuality": "Qualification de l’enneigement :  Le manteau neigeux fond plus vite sous la chaleur de ces derniers jours, même s'il reste encore correct pour la saison en combes Nord d'altitude grâce aux épisodes frais du début de mois... C'est moins bon en Sud et en bas du massif où la fonte a déjà fait des ravages...\nLimites skiables : Vers 1900/2500m environ...\n\nQualité de la neige mardi : Presque pas de regel nocturne, ou très faible vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée, devenant difficile à skier au fil des heures....",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

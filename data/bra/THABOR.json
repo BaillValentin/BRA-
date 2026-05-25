@@ -1,7 +1,7 @@
 {
   "massif": "THABOR",
-  "date": "2026-05-24T16:00:00",
-  "validUntil": "2026-05-25T18:00:00",
+  "date": "2026-05-25T16:00:00",
+  "validUntil": "2026-05-26T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,9 +15,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide, rares, vers les plus hauts sommets.\nDéclenchements skieurs : rares départs ponctuels en neige humide vers les plus hauts sommets.",
-  "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nDéparts spontanés : rares avalanches de neige humide, de taille petite, très rarement moyenne, en versant nord des plus hauts sommets. Possibles rapidement le matin avec le regel nocturne médiocre, puis risque en hausse au fil de la journée avec l’isotherme 0 degré très élevé et l’ensoleillement. \n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige humide de petite taille en pente nord raide de haute altitude.  ",
-  "snowQuality": "Enneigement déficitaire. Ces prochains jours la fonte se maintient avec les conditions estivales. \nHauteurs de neige observées : 21 cm à la nivôse Rochilles à 2450 m, à la même altitude 51 cm dans le vallon du Chardonnet.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, souvent de type névé, avec un regel nocturne médiocre, et une ré-humidification rapide en journée. ",
+  "summary": "Départs spontanés : en neige humide, très rares, vers les plus hauts sommets.\nDéclenchements skieurs : rares départs ponctuels en neige bien humide",
+  "stability": "MANTEAU NEIGEUX STABLE\n\nDéparts spontanés : très rares avalanches de neige humide, de taille petite, moyenne non exclue, en versant nord des plus hauts sommets. Risque en hausse au fil de la journée avec l’isotherme 0 degré qui reste très élevé et l’ensoleillement. \n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige \"pourrie\" de petite taille en pente nord raide de haute altitude.  ",
+  "snowQuality": "Enneigement déficitaire. La fonte se maintient avec la chaleur excessive en cette fin mai.\nHauteurs de neige observées : 9 cm à la nivôse Rochilles à 2450 m, à la même altitude 45 cm dans le vallon du Chardonnet.\n\nLimite d'enneigement skiable : 2300 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne, ou médiocre aux plus hautes altitudes. ",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_13.png",

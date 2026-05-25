@@ -1,7 +1,7 @@
 {
   "massif": "EMBRUNAIS-PARPAILLON",
-  "date": "2026-05-24T16:00:00",
-  "validUntil": "2026-05-25T18:00:00",
+  "date": "2026-05-25T16:00:00",
+  "validUntil": "2026-05-26T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -12,8 +12,8 @@
   ],
   "situations": [],
   "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : peu probables. ",
-  "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nDéparts spontanés : peu probables. \n\nDéclenchements provoqués : peu probables. ",
-  "snowQuality": "Enneigement déficitaire. ,\nHauteurs de neige observées : 26 cm à la Nivôse du Parpaillon à 2550 m.\n\nLimite d'enneigement skiable : 2400/2500 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, souvent de type névé, avec un regel nocturne médiocre, et une ré-humidification rapide en journée. ",
+  "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nLe manteau neigeux résiduel est bien stable.\n\nDéparts spontanés : peu probables. \n\nDéclenchements provoqués : peu probables. ",
+  "snowQuality": "Enneigement déficitaire. La fonte se maintient avec la chaleur excessive en cette fin mai.\nHauteurs de neige observées : 18 cm à la Nivôse du Parpaillon à 2550 m. \n\nLimite d'enneigement skiable : 2400/2500 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne.",
   "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_20.png",

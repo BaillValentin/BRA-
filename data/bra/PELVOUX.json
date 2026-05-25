@@ -1,7 +1,7 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-05-24T16:00:00",
-  "validUntil": "2026-05-25T18:00:00",
+  "date": "2026-05-25T16:00:00",
+  "validUntil": "2026-05-26T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -26,9 +26,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide, peu fréquents, à très haute altitude.\nDéclenchements skieurs : rares départs ponctuels en neige humide, à très haute altitude. ",
-  "stability": "ACTIVITÉ LIMITÉE EN NEIGE HUMIDE À TRÈS HAUTE ALTITUDE \n\nDéparts spontanés : éventuelles avalanches de neige humide, de taille petite à moyenne, dans les versants nord raides de très haute altitude, au-delà de 2800/3000 m environ. Une grande non exclue, si l’humidification qui gagne en profondeur atteint pour la première fois des couches fragiles enfouies dans le manteau neigeux. Ces départs sont possibles rapidement le matin en raison du regel nocturne médiocre, puis risque en hausse au fil de la journée avec l’isotherme 0 degré très élevé et l’ensoleillement.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige humide de taille limitée en pentes raides de très haute altitude. ",
-  "snowQuality": "Enneigement déficitaire. Ces prochains jours la fonte se maintient avec les conditions estivales. \nHauteurs de neige observées : 190 cm à la nivôse des Écrins à 2970 m.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable, localement 1900/2000 m en cœur de massif.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié avec un regel nocturne médiocre, et une ré-humidification rapide en journée. ",
+  "summary": "Départs spontanés : en neige humide, peu fréquents, en nord de très haute altitude.\nDéclenchements skieurs : rares départs ponctuels en neige humide, à très haute altitude. ",
+  "stability": "ACTIVITÉ LIMITÉE EN NEIGE HUMIDE À TRÈS HAUTE ALTITUDE \n\nDéparts spontanés : éventuelles avalanches de neige humide, de taille petite à moyenne, dans les versants nord raides de très haute altitude, au-delà de 2800/3000 m environ. Une grande non exclue, cassure linéaire, si l’humidification qui continue de gagner en profondeur atteint pour la première fois des couches fragiles enfouies dans le manteau neigeux. Peu probables au petit matin avec le regel nocturne, puis risque en hausse au fil de la journée avec l’isotherme 0 degré qui reste très élevé et l’ensoleillement.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige humide de taille limitée en pentes raides de très haute altitude. ",
+  "snowQuality": "Enneigement correct à très haute altitude, déficitaire en dessous. La fonte / tassement se maintient avec la chaleur excessive en cette fin mai.\nHauteurs de neige observées : 186 cm à la nivôse des Écrins à 2970 m.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable, localement moins en cœur de massif.\n\nÉtat de la neige en surface : en dessous de 3000 m environ, manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne. Au-dessus, neige de printemps. Regel limité et re-humidification rapide et en profondeur. ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

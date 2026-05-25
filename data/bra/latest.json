@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-05-25T17:50:00.495Z",
+  "lastUpdate": "2026-05-25T18:10:11.909Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 1,
@@ -75,7 +75,7 @@
     },
     "CHARTREUSE": {
       "risk": 1,
-      "date": "2026-05-24T16:00:00",
+      "date": "2026-05-25T16:00:00",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_7.png",
         "rose-pentes": "./data/bra/img/rose-pentes_7.png",
@@ -159,7 +159,7 @@
     },
     "VERCORS": {
       "risk": 1,
-      "date": "2026-05-24T16:00:00",
+      "date": "2026-05-25T16:00:00",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_14.png",
         "rose-pentes": "./data/bra/img/rose-pentes_14.png",

@@ -1,7 +1,7 @@
 {
   "massif": "MERCANTOUR",
-  "date": "2026-05-25T16:00:00",
-  "validUntil": "2026-05-26T18:00:00",
+  "date": "2026-05-26T16:00:00",
+  "validUntil": "2026-05-27T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,7 +13,7 @@
   "situations": [],
   "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : peu probables. ",
   "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nLe manteau neigeux résiduel est bien stable.\n\nDéparts spontanés : peu probables. \n\nDéclenchements provoqués : peu probables. ",
-  "snowQuality": "Enneigement déficitaire pour la période. La fonte se maintient avec la chaleur excessive en cette fin mai.\nIl n'y a plus de neige à la nivôse de Millefonts (2430 m). \n\nLimite d'enneigement skiable : vers 2400/2500 m en ubacs bien protégés \n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne. ",
+  "snowQuality": "Enneigement déficitaire pour la période. La fonte se poursuit avec la chaleur excessive pour une fin mai.\nIl n'y a plus de neige à la nivôse de Millefonts (2430 m). \n\nLimite d'enneigement skiable : vers 2400/2500 m en ubacs bien protégés \n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, de type névé. Pas de regel nocturne. ",
   "pdfUrl": "./data/bra/MERCANTOUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_23.png",

@@ -1,14 +1,25 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-05-25T15:00:00",
-  "validUntil": "2026-05-26T18:00:00",
-  "riskMax": 1,
+  "date": "2026-05-26T16:00:00",
+  "validUntil": "2026-05-27T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<2700",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">2700",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "NW"
       ]
     }
   ],
@@ -16,8 +27,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : en coupant une pente en neige pourrie.",
-  "stability": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES PENTES NORD POTENTIELLEMENT INSTABLES. \n\nDéparts spontanés :  très rares avalanches naturelles de neige humide. Ce risque ne concerne que les quelques hautes pentes Nord du massif. Petites à moyennes avalanches. \nDans les autres orientations (et altitudes), le manteau est entièrement humidifié et donc quasiment inerte (exceptées les plaques de fond résiduelles). \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie (très humide). Petites avalanches.\n\nAutres : chute de corniches et rares plaques de fond possibles.",
-  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale qui va s'installer durablement pour les jours à venir va siffler la fin de cette saison 25/26\n\nLimite skiable : vers 2100 m en nord,  2500 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : mauvais regel. La neige est rapidement pourrie à cause des fortes chaleurs et du Soleil de Mai. Neige de névé partout sauf en plein Nord au-dessus de 2700-2800 m.  ",
+  "stability": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES PENTES NORD POTENTIELLEMENT INSTABLES. \n\nDéparts spontanés :  La crue avalancheuse en haute altitude semble avoir atteint son apogée ce week-end , de ce fait les avalanches naturelles de neige humide deviennent rares. Ce risque ne concerne que les quelques hautes pentes Nord NE et NO du massif. Petites à moyennes avalanches .Taille 1 à 2  \nDans les autres orientations (et altitudes), le manteau est entièrement humidifié et donc quasiment inerte exceptées les plaques de fond résiduelles (très rares elles aussi) . \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie (très humide). Petites avalanches.\n\nAutres : chute de corniches et rares plaques de fond possibles.",
+  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2200 m en nord,  2600 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Forte chaleur et regel mauvais ou au moins peu durable ne laisse pas beaucoup de temps pour skier. A haute altitude :  la neige est rapidement pourrie à cause des fortes chaleurs et du Soleil de Mai.  Sous 2700m neige de névé partout. ",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

@@ -1,7 +1,7 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-05-25T16:00:00",
-  "validUntil": "2026-05-26T18:00:00",
+  "date": "2026-05-26T16:00:00",
+  "validUntil": "2026-05-27T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -10,10 +10,12 @@
       "orientations": []
     }
   ],
-  "situations": [],
+  "situations": [
+    "neige_humide"
+  ],
   "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : peu probables. ",
-  "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nLe manteau neigeux résiduel est bien stable.\n\nDéparts spontanés : peu probables.\n\nDéclenchements provoqués : peu probables.",
-  "snowQuality": "Enneigement devenant déficitaire. La fonte se maintient avec la chaleur excessive en cette fin mai.\n\nLimite d'enneigement skiable : vers 2300/2400 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne.",
+  "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nLe manteau neigeux résiduel est bien stable.\n\nDéparts spontanés : peu probables. Rare départs ponctuels en neige humide en versant nord d'altitude, restant de petite taille. \n\nDéclenchements provoqués : peu probables.",
+  "snowQuality": "Enneigement devenant déficitaire. La fonte se poursuit avec la chaleur excessive pour une fin mai.\n\nLimite d'enneigement skiable : vers 2100/2200 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié de type névé. Pas de regel nocturne.",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

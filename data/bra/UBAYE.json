@@ -1,23 +1,21 @@
 {
   "massif": "UBAYE",
-  "date": "2026-05-25T16:00:00",
-  "validUntil": "2026-05-26T18:00:00",
+  "date": "2026-05-26T16:00:00",
+  "validUntil": "2026-05-27T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : en neige humide, très rares, vers les plus hauts sommets.\nDéclenchements skieurs : rares départs ponctuels en neige bien humide",
-  "stability": "MANTEAU NEIGEUX STABLE\n\nDéparts spontanés : très rares avalanches de neige humide, de taille petite, moyenne non exclue, en versant nord des plus hauts sommets. Risque en hausse au fil de la journée avec l’isotherme 0 degré qui reste très élevé et l’ensoleillement. \n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel en neige humide de petite taille en pente nord raide de haute altitude.  ",
-  "snowQuality": "Enneigement très déficitaire pour la période. La fonte se maintient avec la chaleur excessive en cette fin mai.\nIl n'y a plus de neige à la nivôse de Restefond. \n\nLimite d'enneigement skiable : vers 2400/2500 m en ubacs bien protégés.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne, ou médiocre aux plus hautes altitudes. ",
+  "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : peu probables. ",
+  "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nLe manteau neigeux résiduel est bien stable.\n\nDéparts spontanés : peu probables. Rare départs ponctuels en neige humide en versant nord d'altitude, restant de petite taille. \n\nDéclenchements provoqués : peu probables.",
+  "snowQuality": "Enneigement très déficitaire pour la période. La fonte se poursuit avec la chaleur excessive pour une fin mai.\nIl n'y a plus de neige à la nivôse de Restefond à 2550 m d'altitude. \n\nLimite d'enneigement skiable : vers 2400/2500 m en ubacs bien protégés.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié de type névé. Pas de regel nocturne, ou regel médiocre aux plus hautes altitudes. ",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_21.png",

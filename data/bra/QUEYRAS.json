@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-05-26T16:00:00",
-  "validUntil": "2026-05-27T18:00:00",
+  "date": "2026-05-27T16:00:00",
+  "validUntil": "2026-05-28T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,7 +15,7 @@
   ],
   "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : peu probables. ",
   "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nLe manteau neigeux résiduel est bien stable.\n\nDéparts spontanés : peu probables. Rare départs ponctuels en neige humide en versant nord d'altitude, restant de petite taille. \n\nDéclenchements provoqués : peu probables.",
-  "snowQuality": "Enneigement très déficitaire. La fonte se poursuit avec la chaleur excessive pour une fin mai.\nIl n'y a plus de neige à la nivôse du col Agnel.\n\nLimite d'enneigement skiable : 2500/2600 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié de type névé. Pas de regel nocturne, ou regel médiocre aux plus hautes altitudes. ",
+  "snowQuality": "Enneigement très déficitaire. La fonte se poursuit avec la chaleur excessive pour une fin mai.\nIl n'y a plus de neige à la nivôse du col Agnel à 2600 m\n\nLimite d'enneigement skiable : 2600/2700 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié de type névé. Pas de regel nocturne, ou regel médiocre au-dessus de 3000 m. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

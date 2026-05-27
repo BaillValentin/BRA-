@@ -1,7 +1,7 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-05-26T16:00:00",
-  "validUntil": "2026-05-27T18:00:00",
+  "date": "2026-05-27T16:00:00",
+  "validUntil": "2026-05-28T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,9 +15,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probable ou une rare avalanche humide, plutôt en faces Nord sommitales ?  \nDéclenchements skieurs : Peu probables. En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue)...",
-  "stability": " NEIGE HUMIDE DENSE, RARE AVALANCHE EN FACES NORD D'ALTITUDE ?\n\nTrès peu de regel nocturne, neige très humide mais dense/de névé et donc généralement stable...\n\nDéparts spontanés : Peu probable car la plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. \nMercredi, avec une neige humide à détrempée dès le matin, on n'exclut pas totalement une avalanche ponctuelle de taille moyenne, plutôt en faces Nord sommitales...\n\nDéclenchements provoqués :  Peu probables, ou ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n",
-  "snowQuality": "Qualification de l’enneigement :  Le manteau neigeux fond plus vite sous la chaleur de ces derniers jours, même s'il reste encore correct pour la saison en combes Nord d'altitude... Les faces Sud sont de plus en plus sèches.\nLimites skiables : Vers 1750/1900m en plein Nord, 2200/2500m au soleil...\n\nQualité de la neige mercredi : Neige de névé \"sale\". Presque pas de regel nocturne, ou très faible vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée, devenant plus difficile à skier au fil des heures....",
+  "summary": "Départs spontanés : Peu probable ou une rare avalanche de fonte en faces Nord sommitales ?  \nDéclenchements skieurs : Peu probables. En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue)...",
+  "stability": "MOINS DE NEIGE ET DENSE... RARE AVALANCHE DE FONTE EN FACES NORD D'ALTITUDE ?\n\nLéger regel nocturne en altitude. En journée, neige très humide mais dense/de névé et donc généralement stable...\n\nDéparts spontanés : Peu probable car la plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. \nJeudi, avec une neige rapidement humide à détrempée dès le matin, on n'exclut pas totalement une avalanche ponctuelle de taille moyenne, plutôt en faces Nord sommitales...\nDéclenchements provoqués :  Peu probables, ou ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n\nAutres : Neige durcie ou croutée par regel à l'aube",
+  "snowQuality": "Qualification de l’enneigement :  La fonte s'accélère et la fin de saison approche en Belledonne, avec environ 2 semaines d'avance par rapport aux \"normales\"... \nLimites skiables : Vers 1800/2000m en plein Nord, 2200/2500m au soleil...\n\nQualité de la neige jeudi : Neige de névé \"sale\". Léger regel nocturne, meilleure vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée, devenant plus difficile à skier au fil des heures....",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

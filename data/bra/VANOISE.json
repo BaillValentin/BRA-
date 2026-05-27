@@ -1,34 +1,32 @@
 {
   "massif": "VANOISE",
-  "date": "2026-05-26T16:00:00",
-  "validUntil": "2026-05-27T18:00:00",
+  "date": "2026-05-27T15:00:00",
+  "validUntil": "2026-05-28T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2700",
+      "altitude": "<2800",
       "level": 1,
       "orientations": [
         "N",
-        "NE",
-        "NW"
+        "NE"
       ]
     },
     {
-      "altitude": ">2700",
+      "altitude": ">2800",
       "level": 2,
       "orientations": [
         "N",
-        "NE",
-        "NW"
+        "NE"
       ]
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs en neige humide.\nDéclenchements skieurs : en coupant une pente en neige pourrie.",
-  "stability": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES PENTES NORD POTENTIELLEMENT INSTABLES. \n\nDéparts spontanés :  La crue avalancheuse en haute altitude semble avoir atteint son apogée ce week-end , de ce fait les avalanches naturelles de neige humide deviennent rares. Ce risque ne concerne que les quelques hautes pentes Nord NE et NO du massif. Petites à moyennes avalanches .Taille 1 à 2  \nDans les autres orientations (et altitudes), le manteau est entièrement humidifié et donc quasiment inerte exceptées les plaques de fond résiduelles (très rares elles aussi) . \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie (très humide). Petites avalanches.\n\nAutres : chute de corniches et rares plaques de fond possibles.",
-  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2200 m en nord,  2600 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Forte chaleur et regel mauvais ou au moins peu durable ne laisse pas beaucoup de temps pour skier. A haute altitude :  la neige est rapidement pourrie à cause des fortes chaleurs et du Soleil de Mai.  Sous 2700m neige de névé partout. ",
+  "summary": "Départs spontanés : rares départs en neige humide à haute altitude\nDéclenchements skieurs : en coupant une pente en neige pourrie.",
+  "stability": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHE DE FONTE  EN PENTES NORD \n\nDéparts spontanés :  La crue avalancheuse en haute altitude semble avoir atteint son apogée ce week-end , de ce fait les avalanches naturelles de neige humide deviennent rares. Ce risque ne concerne plus que les quelques hautes pentes Nord et NE du massif (supérieure à 2800m) . Petites à moyennes avalanches de neige humides de taille 1 à 2  \nDans les autres orientations (et altitudes), le manteau est entièrement humidifié et donc quasiment inerte exceptées de très rares départs en plaques de fond sur dalles rocheuses encore enneigées  . \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie  déclenchant de petites avalanches.\n\nAutres : chute de corniches là ou il en reste  et ponts de neige fragiles sur les ruisseaux",
+  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2300 m en nord,  2700 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : Forte chaleur et regel mauvais ou au moins peu durable ne laissant pas beaucoup de temps pour skier. A haute altitude :  la neige est rapidement pourrie à cause des fortes chaleurs et du soleil de fin Mai qui tape tôt et fort.  Sous 2800m neige de névé partout. ",
   "pdfUrl": "./data/bra/VANOISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_10.png",

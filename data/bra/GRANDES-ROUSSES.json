@@ -1,7 +1,7 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-26T16:00:00",
-  "validUntil": "2026-05-27T18:00:00",
+  "date": "2026-05-27T16:00:00",
+  "validUntil": "2026-05-28T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "altitude": ">3000",
-      "level": 2,
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -26,9 +26,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Dès le matin, rares avalanches humides possibles en faces Nord d'altitude...\nDéclenchements skieurs : En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue).",
-  "stability": " NEIGE DENSE, MAIS DES LE MATIN UNE AVALANCHE HUMIDE EST POSSIBLE (PRINCIPALEMENT EN FACES NORD D'ALTITUDE)...\n\nPeu de regel nocturne attendu, puis très rapide humidification. Quelques avalanches de fonte en face Nord d'altitude.\n\nDéparts spontanés :  L'humidification est importante dès le matin et gagne en profondeur dans les faces Nord d'altitude, au dessus de 3000m environ. Quelques avalanches de fonte sont possibles dans ces orientations, de taille moyenne, rarement grande (taille 3). \nDans les orientations plus ensoleillées la neige est plus dense, presque de névé, peu de risque ou juste une coulée de surface, près des rochers.\n\nDéclenchements provoqués :  En neige bien humidifiée et pente raide, possible coulée humide ponctuelle sous les skis... \n\nAutres :  En altitude des surfaces croûtées par regel à l'aube et à l'ombre. En journée neige devenant vite trop humide, \"attrapant\" les skis...",
-  "snowQuality": "Qualification de l’enneigement :  Malgré la chaleur précoce, l'enneigement reste assez correct pour la saison en combes \"froides\" d'altitude, vers les glaciers (grâce aux épisodes frais du début de mois)... C'est moins bon en Sud et en bas du massif où la fonte s'accélère franchement...\nLimites skiables : Vers 2000/2200m en plein Nord, 2500/2800m en Sud...\n\nQualité de la neige mardi : De plus en plus neige de névé. Pentes raides pas mal abimées par les coulées.  Léger regel nocturne au dessus de 3000m, neige juste croûtée en altitude. En matinée, très rapide humidification au soleil puis (avec la chaleur) en tous versants. Neige devenant détrempée, difficile à skier...",
+  "summary": "Départs spontanés : Dès le matin ou la mi-journée, rares avalanches humides possibles en faces Nord d'altitude...\nDéclenchements skieurs : En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue).",
+  "stability": " NEIGE DENSE/ REGEL A L'AUBE... EN JOURNEE, DE RARES AVALANCHES HUMIDES (PRINCIPALEMENT EN FACES NORD D'ALTITUDE)...\n\nRegel nocturne correct en altitude, puis rapide humidification. Rares avalanches de fonte locales, plutôt en face Nord d'altitude.\n\nDéparts spontanés :  L'humidification est importante dès la matinée et gagne en profondeur dans les faces Nord d'altitude, au dessus de 3000m environ. De rares avalanches de fonte sont possibles dans ces orientations, de taille moyenne, rarement grande (taille 3). \nDans les orientations plus ensoleillées la neige est plus dense, presque de névé, peu de risque ou juste une coulée de surface, près des rochers.\n\nDéclenchements provoqués :  En neige bien humidifiée et pente raide, possible coulée humide ponctuelle sous les skis... \n\nAutres :  En altitude des surfacesdurcies par regel à l'aube et à l'ombre. En journée neige devenant vite trop humide, \"attrapant\" les skis...",
+  "snowQuality": "Qualification de l’enneigement :  Avec cette chaleur précoce, la fonte est rapide avec environ 2 semaines d'avance par rapport aux \"normales\". Néanmoins il reste pas mal de neige en combes \"froides\" d'altitude, vers les glaciers.\nLimites skiables : Vers 2100/2300m en Nord, 2500/2800m au soleil...\n\nQualité de la neige jeudi : Neige de névé prédominante, avec un regel correct en altitude. Pentes raides pas mal abimées par les coulées.  En matinée, très rapide humidification au soleil puis (avec la chaleur) en tous versants. Neige devenant détrempée, difficile à skier...",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

@@ -1,34 +1,23 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-05-26T16:00:00",
-  "validUntil": "2026-05-27T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-27T16:00:00",
+  "validUntil": "2026-05-28T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<3000",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">3000",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
+        "N"
       ]
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : possibles en neige humide en versants nords de très haute altitude.\nDéclenchements skieurs : rares départs superficiels en neige humide à haute altitude. ",
-  "stability": "MANTEAU GÉNÉRALEMENT STABLE. QUELQUES DÉPARTS EN NEIGE HUMIDE À TRÈS HAUTE ALTITUDE \n\nDéparts spontanés : éventuelles avalanches de neige humide, de taille petite à moyenne, dans les versants nords raides, au-delà de 3000/3200 m environ. Une grande non exclue avec cassure linéaire, si l’humidification atteint pour la première fois des couches fragiles enfouies en profondeur. Départs possibles dès le matin avec les premiers rayon du soleil en versant nord-est. Risque en hausse au fil de la journée avec la poursuite de l'humidification.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel de petite taille en pentes raides fortement humidifiées de haute altitude. ",
-  "snowQuality": "Enneigement déficitaire. La fonte se poursuit avec la chaleur excessive pour une fin mai.\nHauteurs de neige observées : 66 cm au-dessus de Prapic à 2500 m. Il n'y a plus de neige à la nivôse d'Orcières.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable, très localement moins en cœur de massif.\n\nÉtat de la neige en surface : en dessous de 3000 m environ, manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne. Au-dessus, neige de printemps. Regel limité et re-humidification rapide et en profondeur. ",
+  "summary": "Départs spontanés : très rares petits départs de neige humide vers les plus hauts sommets.\nDéclenchements skieurs : peu probables. ",
+  "stability": "MANTEAU NEIGEUX STABLE\n\nDéparts spontanés : très rares avalanches de neige humide de taille petite, moyenne non exclue en versant nord des plus hauts sommets. Risque en hausse au fil de la journée avec la reprise de l'humidification.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel de petite taille en pentes nord de haute altitude fortement humidifiées.",
+  "snowQuality": "Enneigement déficitaire. La fonte se poursuit avec la chaleur excessive pour une fin mai.\nHauteurs de neige observées : 63 cm au-dessus de Prapic à 2500 m. Il n'y a plus de neige à la nivôse d'Orcières.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : en dessous de 3000 m environ, manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne. Au-dessus, neige de printemps. Regel limité et re-humidification rapide et en profondeur. ",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

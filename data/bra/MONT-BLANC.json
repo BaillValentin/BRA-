@@ -1,30 +1,32 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-05-27T16:00:00",
-  "validUntil": "2026-05-28T18:00:00",
+  "date": "2026-05-28T16:00:00",
+  "validUntil": "2026-05-29T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2800",
+      "altitude": "<3000",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE"
       ]
     },
     {
-      "altitude": ">2800",
+      "altitude": ">3000",
       "level": 2,
       "orientations": [
-        "N"
+        "N",
+        "NE"
       ]
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Rares départs en neige humide.\nDéclenchements skieurs : De la neige humide coule sous les skis au fil du réchauffement.",
-  "stability": "L'humidification du manteau neigeux se poursuit.\n\nDéparts spontanés :\n* Au-dessus de 2800 m, le plus souvent dans les ubacs : rares avalanches de neige humide au fil de l'ensoleillement. Taille 1 (petite), parfois 2 (moyenne).  Dans de rares cas, l'eau de fonte peut percoler jusqu'à une couche fragile enfouie et déstabilise l'épaisseur du manteau concernée par l'humidification. Les volumes mobilisés peuvent être plus importants, taille 2. \n* Dans les ubacs en dessous de 2800 m : rares départs ponctuels, au fil du réchauffement par le soleil, dans la neige humide récente. Taille 1.\n\nDéclenchements provoqués :\n* Au-dessus de 2800 m : de la neige humide coule sous les skis, de plus en plus facilement au fil du réchauffement par le soleil. Départs plus nombreux en large secteur nord, où l'humidification est encore partielle, mais gagne progressivement en profondeur. Taille 1, parfois 2.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2800 m et bon au-dessus. Neige continue au-dessus de 2000 m en Nord et 2200m en Sud.\n\nQualité de la neige ce jeudi :\n* En dessous de 2400 m : neige de névé.  Pas de regel nocturne. \n* Entre 2400 et 3300 m : neige de printemps. Vieille neige bien tassée, légèrement regelée en début de journée qui s'humidifie rapidement en matinée. Enfoncement piéton important.\n* Au-dessus de 3300m en Nord et 4000m en Sud, la neige est restée froide. La neige est parfois travaillée par le vent proche des crêtes et des sommets. La glace peut ressortir en haute-montagne.",
+  "summary": "Départs spontanés : avalanches de neige humide\nDéclenchements skieurs : en neige humide sous les skis",
+  "stability": "manteau neigeux en cours d'humidification en haute montagne\n\nDéparts spontanés :\nAvalanches de neige humide, rares en début de journée, puis plus nombreuses au fil de la course du soleil et du réchauffement, surtout entre 3000 m et 4000 m. Petite sous 3000 m, taille 1 à 2 (petite à moyenne) au-dessus. \nObservables : escargots, enfoncement piéton important. \n\nDéclenchements provoqués : \nUn peu de neige humide peut couler sous les skis, surtout aux heures les plus chaudes. Taille 1 sous 3000 m et taille 2 possible au-dessus.  \n",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire.\nOn peut chausser les skis au-dessus de 2000 m en nord et 2400 m en sud. \n\nQualité de la neige ce vendredi matin : \nSous 3200 m, neige humide ou de névé avec un très mauvais regel nocturne. \nEntre 3200 m et 4000 m (voire 4500 m dans les adrets) : bon regel nocturne, la neige s’humidifie progressivement en journée. Enfoncement piéton important. \nAu-dessus de 4000 m dans les ubacs et 4500 m dans les adrets, neige encore froide, localement ventée.\nEn haute montagne, la glace ressort à certains endroits. ",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

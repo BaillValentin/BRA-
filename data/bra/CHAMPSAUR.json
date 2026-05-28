@@ -1,7 +1,7 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-05-27T16:00:00",
-  "validUntil": "2026-05-28T18:00:00",
+  "date": "2026-05-28T16:00:00",
+  "validUntil": "2026-05-29T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -16,8 +16,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : très rares petits départs de neige humide vers les plus hauts sommets.\nDéclenchements skieurs : peu probables. ",
-  "stability": "MANTEAU NEIGEUX STABLE\n\nDéparts spontanés : très rares avalanches de neige humide de taille petite, moyenne non exclue en versant nord des plus hauts sommets. Risque en hausse au fil de la journée avec la reprise de l'humidification.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel de petite taille en pentes nord de haute altitude fortement humidifiées.",
-  "snowQuality": "Enneigement déficitaire. La fonte se poursuit avec la chaleur excessive pour une fin mai.\nHauteurs de neige observées : 63 cm au-dessus de Prapic à 2500 m. Il n'y a plus de neige à la nivôse d'Orcières.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : en dessous de 3000 m environ, manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne. Au-dessus, neige de printemps. Regel limité et re-humidification rapide et en profondeur. ",
+  "stability": "MANTEAU NEIGEUX RÉSIDUEL BIEN STABLE\n\nDéparts spontanés : rare départs ponctuels en neige humide en nord sommital sous les averses de pluie de l'après-midi. Avalanche de taille petite, moyenne non exclue en versant nord des plus hauts sommets. \n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel de petite taille en pentes nord de haute altitude fortement humidifiées.",
+  "snowQuality": "Enneigement déficitaire. La fonte se poursuit avec la chaleur excessive pour une fin mai.\nHauteurs de neige observées : 47 cm au-dessus de Prapic à 2500 m. Il n'y a plus de neige à la nivôse d'Orcières.\n\nLimite d'enneigement skiable : 2200/2300 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : en dessous de 3000 m environ, manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne. Au-dessus, neige de printemps. Regel limité et re-humidification rapide et en profondeur. ",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

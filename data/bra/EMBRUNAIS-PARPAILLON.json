@@ -1,7 +1,7 @@
 {
   "massif": "EMBRUNAIS-PARPAILLON",
-  "date": "2026-05-27T16:00:00",
-  "validUntil": "2026-05-28T18:00:00",
+  "date": "2026-05-28T16:00:00",
+  "validUntil": "2026-05-29T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -14,7 +14,7 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : peu probables. ",
-  "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nLe manteau neigeux résiduel est bien stable.\n\nDéparts spontanés : peu probables. Rare départs ponctuels en neige humide en versant nord d'altitude, restant de petite taille. \n\nDéclenchements provoqués : peu probables.",
+  "stability": "MANTEAU NEIGEUX RÉSIDUEL BIEN STABLE\n\nDéparts spontanés : peu probables. Rare départs ponctuels en neige humide en nord sommital sous les averses de pluie de l'après-midi. Avalanche de taille 1. \n\nDéclenchements provoqués : peu probables.",
   "snowQuality": "Enneigement déficitaire. La fonte se poursuit avec la chaleur excessive pour une fin mai.\nll n'y a plus de neige à la nivôse du Parpaillon à 2550 m. \n\nLimite d'enneigement skiable : 2400/2500 m en ubacs sur terrain favorable.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, de type névé. Pas de regel nocturne.",
   "pdfUrl": "./data/bra/EMBRUNAIS-PARPAILLON.pdf",
   "imageUrls": {

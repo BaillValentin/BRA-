@@ -1,34 +1,23 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-28T16:00:00",
-  "validUntil": "2026-05-29T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-29T15:00:00",
+  "validUntil": "2026-05-30T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<3000",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">3000",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
+        "N"
       ]
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Dès le matin, rares avalanches humides possibles en faces Nord d'altitude...\nDéclenchements skieurs : En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue).",
-  "stability": " NEIGE DENSE/ REGEL A L'AUBE... EN JOURNÉE, DE RARES AVALANCHES HUMIDES (PRINCIPALEMENT EN FACES NORD D'ALTITUDE)...\n\nRegel nocturne correct en altitude, puis rapide humidification.\n\nDéparts spontanés :  L'humidification est importante dès la matinée et continue à gagner en profondeur dans les faces Nord d'altitude, au dessus de 3000m environ. De rares avalanches de fonte y sont alors possibles, de taille moyenne, rarement grande (taille 3). \nDans les orientations plus ensoleillées la neige est plus dense, presque de névé, peu de risque ou juste une coulée de surface, près des rochers.\n\nDéclenchements provoqués :  En neige bien humidifiée et pente raide, une coulée humide ponctuelle sous les skis reste possible... \n\nAutres :  En altitude des surfaces durcies par regel à l'aube et à l'ombre. En journée neige devenant vite trop humide, \"attrapant\" les skis...",
-  "snowQuality": "Qualification de l’enneigement :  Avec cette chaleur précoce, la fonte est rapide avec environ 2 semaines d'avance par rapport aux \"normales\". Néanmoins il reste pas mal de neige en combes \"froides\" d'altitude, vers les glaciers.\nLimites skiables : Vers 2100/2300m en Nord, 2500/2800m au soleil...\n\nQualité de la neige samedi : Neige de névé prédominante, avec un regel correct en altitude. Pentes raides pas mal abimées par les coulées.  En matinée, très rapide humidification au soleil puis (avec la chaleur) en tous versants. Neige devenant détrempée, difficile à skier...",
+  "summary": "Départs spontanés : Peu probable ou une très rare avalanche de fonte en faces Nord au-dessus de 3000/3200m ?  \nDéclenchements skieurs : Peu probables. En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue)...",
+  "stability": " NEIGE DENSE... (TRÈS) RARE AVALANCHE DE FONTE EN FACE NORD D'ALTITUDE ?\n\nDéparts spontanés : La plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. Cependant, dimanche, avec une neige rapidement humide à détrempée dès le début de journée, on ne peut exclure une très rare avalanche ponctuelle, plutôt en face Nord au-dessus de 3000/3200m...\n\nDéclenchements provoqués :  Peu probables, ou très ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n\nAutres : En altitude, neige localement durcie ou croûtée par regel à l'aube, mais celui-ci devrait être un peu moins efficace avec le voile nuageux d'altitude.",
+  "snowQuality": "Qualification de l’enneigement :  Avec cette chaleur précoce, la fonte est rapide avec environ 2 semaines d'avance par rapport aux \"normales\". Néanmoins il reste pas mal de neige en combes \"froides\" d'altitude, vers les glaciers.\nLimites skiables : Vers 2100/2300m en Nord, 2500/2800m au soleil...\n\nQualité de la neige samedi : Neige de névé prédominante, avec peut-être un regel local en altitude. Pentes raides pas mal abimées par les coulées.  En matinée, très rapide humidification au soleil puis (avec la chaleur) en tous versants. Neige humide puis détrempée, devenant plus difficile à skier au fil des heures....",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

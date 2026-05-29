@@ -1,7 +1,7 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-05-28T16:00:00",
-  "validUntil": "2026-05-29T18:00:00",
+  "date": "2026-05-29T15:00:00",
+  "validUntil": "2026-05-30T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -16,8 +16,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : Peu probable ou une très rare avalanche de fonte en faces Nord sommitales ?  \nDéclenchements skieurs : Peu probables. En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue)...",
-  "stability": "MOINS DE NEIGE ET DENSE... (TRÈS) RARE AVALANCHE DE FONTE EN FACE NORD D'ALTITUDE ?\n\nLéger regel nocturne en altitude. En journée, neige très humide mais dense/de névé et donc généralement stable...\n\nDéparts spontanés : Peu probable car la plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. \nSamedi, avec une neige rapidement humide à détrempée dès le matin, on n'exclut pas totalement une avalanche ponctuelle de taille moyenne, plutôt en face Nord sommitale...\nDéclenchements provoqués :  Peu probables, ou ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n\nAutres : Neige durcie ou croûtée par regel à l'aube",
-  "snowQuality": "Qualification de l’enneigement :  La fonte s'accélère et la fin de saison approche en Belledonne, avec environ 2 semaines d'avance par rapport aux normales... \nLimites skiables : Vers 1800/2000m en plein Nord, 2200/2500m au soleil...\n\nQualité de la neige samedi : Neige de névé \"sale\". Léger regel nocturne, meilleur vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée, devenant plus difficile à skier au fil des heures....",
+  "stability": "MOINS DE NEIGE ET DENSE... (TRÈS) RARE AVALANCHE DE FONTE EN FACE NORD D'ALTITUDE ?\n\nDéparts spontanés : Peu probable car la plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. Dimanche, avec une neige rapidement humide à détrempée dès le début de journée, on n'exclut pas totalement une avalanche ponctuelle, plutôt en face Nord sommitale...\n\nDéclenchements provoqués :  Peu probables, ou très ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n\nAutres : Vers les sommets, neige localement durcie ou croûtée par regel à l'aube, mais celui-ci devrait être moins efficace avec le voile nuageux d'altitude.",
+  "snowQuality": "Qualification de l’enneigement :  La fonte s'accélère et la fin de saison approche en Belledonne, avec environ 2 semaines d'avance par rapport aux normales... \nLimites skiables : Vers 1800/2000m en plein Nord, 2200/2500m au soleil...\n\nQualité de la neige samedi : Neige de névé \"sale\". Léger regel nocturne non exclu vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée, devenant plus difficile à skier au fil des heures....",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

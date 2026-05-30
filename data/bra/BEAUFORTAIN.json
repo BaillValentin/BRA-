@@ -1,23 +1,21 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-05-29T16:00:00",
-  "validUntil": "2026-05-30T18:00:00",
+  "date": "2026-05-30T16:00:00",
+  "validUntil": "2026-05-31T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "neige_humide"
   ],
   "summary": "Départs spontanés : rares départs en neige humide à haute altitude.\nDéclenchements skieurs : en coupant une pente en neige pourrie.",
-  "stability": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHES DE FONTE EN PENTES NORD DE HAUTE ALTITUDE.\n\nDéparts spontanés :  les avalanches naturelles de neige humide sont rares. Ce risque ne concerne plus que les quelques hautes pentes Nord et NE du massif (supérieure à 2800m). Petites à moyennes avalanches de neige humides (taille 1 à 2).  \nPartout ailleurs, le manteau est entièrement humidifié et donc quasiment inerte exceptées de très rares départs en plaques de fond sur dalles rocheuses encore enneigées. \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie. Petites avalanches.\n\nAutres : chute de corniches là où il en reste, les ponts de neige sur les ruisseaux sont fragiles.",
-  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2000 m en nord,  2700 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : forte chaleur et regel mauvais, ou au mieux très peu durable en haute altitude ne laissant pas beaucoup de temps pour skier. Sous 2800m, neige de névé partout. À haute altitude, la neige est rapidement pourrie par les fortes chaleurs associées au soleil de fin Mai qui tape tôt et fort.",
+  "stability": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHES DE FONTE EN PENTES NORD DE HAUTE ALTITUDE.\n\nDéparts spontanés : les avalanches naturelles de neige humide sont rares. Ce risque ne concerne plus que les quelques hautes pentes Nord et NE du massif (supérieures à 2800m). Petites à moyennes avalanches de neige humides (taille 1 à 2).  \nPartout ailleurs, on trouve une neige de névé, quasiment inerte en dehors d'un très rare départ en plaque de fond sur dalle rocheuse encore enneigée. \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie. Petites avalanches.\n\nAutres : chute de corniches là où il en reste, les ponts de neige sur les ruisseaux sont fragiles.",
+  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2000 m en nord,  2700 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : forte chaleur et regel mauvais, ou au mieux très peu durable en haute altitude ne laissant pas beaucoup de temps pour skier. Neige de névé presque partout.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

@@ -1,35 +1,23 @@
 {
   "massif": "OISANS",
-  "date": "2026-05-29T15:00:00",
-  "validUntil": "2026-05-30T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-30T16:00:00",
+  "validUntil": "2026-05-31T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<3000",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">3000",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
+        "N"
       ]
     }
   ],
   "situations": [
-    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Rares avalanches humides, parfois dès le matin ; principalement en faces Nord d'altitude...\nDéclenchements skieurs : En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue).",
-  "stability": " NEIGE DENSE/ REGEL A L'AUBE... EN JOURNÉE, DE RARES AVALANCHES HUMIDES (PRINCIPALEMENT EN FACES NORD D'ALTITUDE)...\n\nRegel nocturne parfois correct en altitude, mais peut-être moins efficace que les jours précédents en raison d'un voile nuageux. Puis rapide humidification dès le matin.\n\nDéparts spontanés :  L'humidification est importante, parfois dès le début de journée, et continue à gagner en profondeur dans les faces Nord d'altitude, au dessus de 3000/3200m environ. De rares avalanches de fonte y sont alors possibles, de taille moyenne, rarement grande (taille 3). \nEn Nord au dessus de 3500/3600m, l'humidification pourrait atteindre des sous-couches à moindre cohésion (là où le manteau est moins épais)  : une large cassure linéaire ne peut être totalement exclue.\nDans les orientations plus ensoleillées la neige est plus dense, de névé, peu de risque ou juste des coulées de surface, près des rochers.\n\nDéclenchements provoqués :  En neige bien humidifiée et pente raide, une coulée humide ponctuelle sous les skis reste possible... \n\nAutres :  En altitude, des surfaces durcies par regel à l'aube et à l'ombre. En journée neige devenant vite trop humide, \"attrapant\" les skis...",
-  "snowQuality": "Qualification de l’enneigement :  Avec cette chaleur précoce, la fonte est rapide avec environ 3 semaines d'avance par rapport aux \"normales\". Néanmoins il reste pas mal de neige en combes \"froides\" d'altitude, vers les glaciers.\nLimites skiables : Vers 2200/2400m en Nord, 2600/2900m au soleil (un peu plus bas en Taillefer)...\n\nQualité de la neige samedi : La neige devient de plus en plus dense, presque de névé, avec un regel parfois correct à haute altitude. Pentes raides pas mal abimées par les coulées/ parfois \"goulottées\".  En matinée, rapide humidification au soleil puis (avec la chaleur) en tous versants. Neige devenant détrempée, parfois difficile à skier...",
+  "summary": "Départs spontanés : Très rares avalanches humides en faces Nord d'altitude...\nDéclenchements skieurs : Peu probables, ou en neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue).",
+  "stability": " NEIGE DENSE/ REGEL A L'AUBE... (TRÈS) RARES AVALANCHES DE FONTE EN FACES NORD DE HAUTE-ALTITUDE\n\nDéparts spontanés :  L'humidification en profondeur et la fonte du manteau neigeux se poursuivent, étant efficace depuis plusieurs jours jusque dans les faces Nord d'altitude, au dessus de 3200/3400m environ, où de très rares avalanches de fonte restent possibles localement en journée de dimanche. Cependant, la transformation en neige de type névé au fil des jours a tendance à réduire de plus en plus cette possibilité. Dans les autres orientations, la neige plus dense, déjà de type névé, présente encore moins de risque, ou juste des coulées de surface, près des rochers.\n\nDéclenchements provoqués :  En neige bien humidifiée et pente raide, une coulée humide ponctuelle sous les skis reste possible... \n\nAutres :  En altitude, des surfaces durcies par regel à l'aube et à l'ombre. En journée neige devenant vite trop humide, \"attrapant\" les skis...",
+  "snowQuality": "Qualification de l’enneigement :  Avec cette chaleur précoce, la fonte est rapide avec environ 3 semaines d'avance par rapport aux \"normales\". Néanmoins il reste pas mal de neige en combes \"froides\" d'altitude, vers les glaciers.\nLimites skiables : Vers 2300/2500m en Nord, 2700/3000m au Sud.\n\nQualité de la neige dimanche : La neige devient de plus en plus dense, progressivement de type névé, avec un regel parfois correct à haute altitude. Pentes raides pas mal abimées par les coulées/ parfois \"goulottées\".  En matinée, rapide humidification au soleil puis (avec la chaleur) en tous versants. Neige parfois difficile à skier...",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

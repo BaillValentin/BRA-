@@ -1,7 +1,7 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-05-29T16:00:00",
-  "validUntil": "2026-05-30T18:00:00",
+  "date": "2026-05-30T16:00:00",
+  "validUntil": "2026-05-31T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -16,8 +16,8 @@
     "neige_humide"
   ],
   "summary": "Départs spontanés : rares petites avalanches de neige humide\nDéclenchements skieurs : peu probables",
-  "stability": "manteau neigeux stable\n\nDéparts spontanés :\nRares avalanches de neige humide, surtout aux heures les plus chaudes, au-dessus de 2500 m et dans les versants nord. Taille 1 à 2 (petite à moyenne).\n\nDéclenchements provoqués : \nUn peu de neige humide peut couler sous les skis, principalement dans les versants nord. Taille 1 (petite).  \n",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2500 m \nOn peut chausser les skis au-dessus de 2100 m en nord et 2400 m en sud. \n\nQualité de la neige ce samedi matin : \nSous 2500 m, neige de névé sans regel nocturne. \nAu-dessus de 2500 m, vielle neige humide avec un très mauvais regel nocturne. Enfoncement piéton important",
+  "stability": "Manteau neigeux stable. Orages l'après-midi.\n\nDéparts spontanés :\nRares avalanches de neige humide, surtout sous les orages les plus marqués, au-dessus de 2500 m et dans les versants nord. Taille 1 (petite).\n\nDéclenchements provoqués : \nEn altitude : un peu de neige humide peut couler sous les skis, principalement dans les versants nord. Taille 1 (petite).  ",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2500 m \nOn peut chausser les skis au-dessus de 2100 m en nord et 2400 m en sud. \n\nQualité de la neige dimanche : \nEn dessous de 2500 m, neige de névé sans regel nocturne. \nAu-dessus de 2500 m, vielle neige humide avec un très mauvais regel nocturne. ",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

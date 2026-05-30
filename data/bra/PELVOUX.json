@@ -1,34 +1,23 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-05-29T16:00:00",
-  "validUntil": "2026-05-30T18:00:00",
-  "riskMax": 2,
+  "date": "2026-05-30T15:00:00",
+  "validUntil": "2026-05-31T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<3200",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">3200",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
+        "N"
       ]
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : possibles en neige humide en versants nords de très haute altitude.\nDéclenchements skieurs : rares départs superficiels en neige humide à haute altitude. ",
-  "stability": "MANTEAU GÉNÉRALEMENT STABLE\n\nDéparts spontanés : éventuelles avalanches de neige humide, de taille petite à moyenne, dans les versants nord raides, au-delà de 3000/3200 m environ. Une grande non exclue avec cassure linéaire, si l’humidification atteint des couches fragiles enfouies en profondeur. Risque en hausse au fil de la journée avec la poursuite de l'humidification.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel de petite taille en pentes raides fortement humidifiées de haute altitude. ",
-  "snowQuality": "Enneigement correct à très haute altitude, déficitaire en dessous. La fonte se poursuit avec la chaleur excessive pour une fin mai.\nHauteurs de neige observées : 166 cm à la nivôse des Écrins à 2970 m. Il n'y a plus de neige au refuge de Cézanne.\n\nLimite d'enneigement skiable : 2300/2400 m en ubacs sur terrain favorable. Plutôt 2700/2900 en versant sud.  \n\nÉtat de la neige en surface : en dessous de 3000 m environ, manteau neigeux totalement humidifié, presque de type névé. Pas de regel nocturne. Au-dessus, neige de printemps. Regel limité et re-humidification rapide et en profondeur. En fin de journée, averses de neige humide possibles au dessus de 3500 m.",
+  "summary": "Départs spontanés : rares et de faible ampleur en versants nord de très haute altitude.\nDéclenchements skieurs : rares départs superficiels en neige humide à haute altitude. ",
+  "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nLe manteau neigeux est bien stable.\nDéparts spontanés : avalanches de neige humide de petite taille dans les versants nord raides de haute altitude.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel de petite taille en pentes raides fortement humidifiées de haute altitude. ",
+  "snowQuality": "Enneigement déficitaire en raison de la chaleur excessive pour une fin mai.\nHauteurs de neige observées : 154 cm à la nivôse des Écrins à 2970 m. \n\nLimite d'enneigement skiable : à partir de 2400 m dans les secteurs les plus enneigés. A pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié. Regel nocturne à partir de 3000 m environ. ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

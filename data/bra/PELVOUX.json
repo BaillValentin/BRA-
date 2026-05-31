@@ -1,7 +1,7 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-05-30T15:00:00",
-  "validUntil": "2026-05-31T18:00:00",
+  "date": "2026-05-31T15:00:00",
+  "validUntil": "2026-06-01T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -17,7 +17,7 @@
   ],
   "summary": "Départs spontanés : rares et de faible ampleur en versants nord de très haute altitude.\nDéclenchements skieurs : rares départs superficiels en neige humide à haute altitude. ",
   "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nLe manteau neigeux est bien stable.\nDéparts spontanés : avalanches de neige humide de petite taille dans les versants nord raides de haute altitude.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel de petite taille en pentes raides fortement humidifiées de haute altitude. ",
-  "snowQuality": "Enneigement déficitaire en raison de la chaleur excessive pour une fin mai.\nHauteurs de neige observées : 154 cm à la nivôse des Écrins à 2970 m. \n\nLimite d'enneigement skiable : à partir de 2400 m dans les secteurs les plus enneigés. A pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié. Regel nocturne à partir de 3000 m environ. ",
+  "snowQuality": "Enneigement déficitaire en raison de la chaleur excessive de la fin mai.\nHauteurs de neige observées : 150 cm à la nivôse des Écrins à 2970 m. \n\nLimite d'enneigement skiable : à partir de 2400 m dans les secteurs les plus enneigés. A pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, sauf dans de rares pentes nord > 3600 m. Regel nocturne superficiel au-dessus de 3200/3300 m environ. ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

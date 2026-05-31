@@ -1,7 +1,7 @@
 {
   "massif": "UBAYE",
-  "date": "2026-05-30T15:00:00",
-  "validUntil": "2026-05-31T18:00:00",
+  "date": "2026-05-31T15:00:00",
+  "validUntil": "2026-06-01T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,7 +13,7 @@
   "situations": [],
   "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : peu probables",
   "stability": "MANTEAU NEIGEUX RÉSIDUEL TRÈS STABLE \n\n Manteau neigeux résiduel, très dense et stable. Départs spontanés et déclenchements provoqués d'avalanches peu probables.",
-  "snowQuality": "Enneigement désormais résiduel et très déficitaire pour une fin mai. Le temps ensoleillé et très chaud de cette fin mai a accéléré la fonte du manteau neigeux. Celui ci est totalement humidifié, avec un regel nocturne faible à inexistant.\nNévés présents sur les sentiers de randonnée à partir de 2400/2500 m en nord, un peu plus bas au niveau des dépôts d'avalanches.",
+  "snowQuality": "Enneigement résiduel et déficitaire pour une fin mai, sous forme de névés avec un regel nocturne inexistant.\nNévés présents sur les sentiers de randonnée à partir de 2400/2500 m en nord, un peu plus bas au niveau des dépôts d'avalanches. ",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_21.png",

@@ -1,7 +1,7 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-05-30T16:00:00",
-  "validUntil": "2026-05-31T18:00:00",
+  "date": "2026-05-31T15:00:00",
+  "validUntil": "2026-06-01T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -15,9 +15,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probable ou une très rare avalanche de fonte en faces Nord sommitales ?  \nDéclenchements skieurs : Peu probables. En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue)...",
-  "stability": "MOINS DE NEIGE ET DENSE, LA FIN DE SAISON SKI APPROCHE...\n\nDéparts spontanés : Peu probable car la plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. Dimanche, avec une neige rapidement humide à détrempée dès le début de journée, on n'exclut pas totalement une avalanche ponctuelle, plutôt en face Nord sommitale...\n\nDéclenchements provoqués :  Peu probables, ou très ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n\nAutres : Vers les sommets, neige localement durcie ou croûtée par regel à l'aube, mais celui-ci devrait être moins efficace avec le voile nuageux d'altitude.",
-  "snowQuality": "Qualification de l’enneigement :  La fonte s'accélère et la fin de saison approche en Belledonne, avec environ 2 semaines d'avance par rapport aux normales... \nLimites skiables : Vers 2000/2200m en Nord, 2500/2700m en Sud...\n\nQualité de la neige dimanche : Neige de névé \"sale\". Léger regel nocturne non exclu vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. Neige humide puis détrempée, devenant plus difficile à skier au fil des heures....",
+  "summary": "Départs spontanés : Peu probable ou une très rare avalanche de fonte en faces Nord sommitales ?  \nDéclenchements skieurs : Peu probables. ",
+  "stability": "MOINS DE NEIGE ET DENSE, DE NEVE, LA FIN DE SAISON SKI APPROCHE...\n\nDéparts spontanés : Peu probable. Le manteau en place, bien qu'humide, devient très dense, de névé.\nLundi, avec une neige rapidement humide à détrempée, on n'exclut pas totalement une avalanche ponctuelle, plutôt en face Nord sommitale...\n\nDéclenchements provoqués :  Peu probables.\n\nAutres : Vers les sommets, neige localement croûtée par regel à l'aube...",
+  "snowQuality": "Qualification de l’enneigement :  La fonte s'accélère et la fin de saison ski approche en Belledonne, avec environ 3 semaines d'avance par rapport aux \"normales\"... Plus d'enneigement continu en Sud.\nLimites skiables : Vers 1900/2200m en plein Nord.\n\nQualité de la neige lundi dimanche : Neige de névé \"sale\". Léger regel nocturne non exclu vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. ",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

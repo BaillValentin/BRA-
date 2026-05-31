@@ -1,31 +1,44 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-05-30T16:00:00",
-  "validUntil": "2026-05-31T18:00:00",
+  "date": "2026-05-31T17:00:00",
+  "validUntil": "2026-06-01T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<3000",
+      "altitude": "<3200",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
       ]
     },
     {
-      "altitude": ">3000",
-      "level": 1,
+      "altitude": ">3200",
+      "level": 2,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "E",
+        "SE",
+        "S",
+        "SW",
+        "W",
+        "NW"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "neige_humide"
+    "neige_fraiche"
   ],
-  "summary": "Départs spontanés : avalanches de neige humide\nDéclenchements skieurs : en neige humide sous les skis",
-  "stability": "Manteau neigeux plutôt stable. Orages l'après-midi\n\nDéparts spontanés :\n* Avalanches de neige humide, rares en début de journée, puis plus nombreuses au fil de la course du soleil et du réchauffement, surtout entre 3000 m et 4000 m. Ou plus nombreuses sous les averses de pluie l'après-midi en dessous de 3200/3000m. Taille 1 (petite) sous 3000 m, 1 rarement 2 (moyenne) au-dessus. \nObservables : escargots, enfoncement piéton important. \n* En fin d'après-midi/début de soirée au-dessus de 3200/3400 m : avalanches/purges dans la neige fraîche tombées dans l'après-midi sous les orages. Taille 1.\n\nDéclenchements provoqués : \n*Un peu de neige humide peut couler sous les skis, surtout aux heures les plus chaudes ou sous les averses de pluies l'après-midi. Taille 1 rarement 2.\n* En fin d'après-midi/début de soirée au-dessus de 3200/3400 m : plaques friables qui s'épaississent et se généralisent au fil des chutes de neige sous les orages. Facilement déclenchable. Taille 1 en journée.",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire.\nOn peut chausser les skis au-dessus de 2100 m en nord et 2400 m en sud. \n\nQualité de la neige dimanche le matin : \nEn dessous de 3000 m, neige humide ou de névé avec un très mauvais regel nocturne. \nAu-dessus de 3000 m : bon regel nocturne, la neige s’humidifie progressivement en journée. Enfoncement piéton important. \nEn haute montagne, la glace ressort à certains endroits. À partir de la mi-journée les orages viennent apporter de la neige fraiche 3200 m puis 3000 m.",
+  "summary": "Départs spontanés : Purges de neige fraiche au soleil.\nDéclenchements skieurs : petites plaques dans la neige fraiche.",
+  "stability": "Quelques instabilités en haute montagne.\n\nDéparts spontanés :\n*  Au-dessus de 3200 m : au soleil, petits départs ponctuels dans la neige fraiche. Taille 1 rarement 2  (petite rarement grande).\n\nDéclenchements provoqués : \n* Au-dessus de 3200/3400 m : plaques friables dans la neige fraiche. Épaisseur très variable de 5/10 à 20/30 cm.  Facilement déclenchable. Taille 1 à 2.\n* Un peu de neige fraiche en cours d'humidification peut couler sous les skis, surtout aux heures les plus chaudes. Taille 1 rarement 2.",
+  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire.\nOn peut chausser les skis au-dessus de 2100 m en nord et 2400 m en sud. \n\nQualité de la neige lundi : \nEn dessous de 3200 m, neige humide ou de névé avec un très mauvais regel nocturne. \nAu-dessus de 3200 m : 5/30 cm de neige fraiche tombé sous les orages de la veille. La neige s’humidifie rapidement en journée. ",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

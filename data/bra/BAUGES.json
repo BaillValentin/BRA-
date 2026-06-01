@@ -1,7 +1,7 @@
 {
   "massif": "BAUGES",
-  "date": "2026-05-31T17:00:00",
-  "validUntil": "2026-06-01T18:00:00",
+  "date": "2026-06-01T16:00:00",
+  "validUntil": "2026-06-02T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -12,8 +12,8 @@
   ],
   "situations": [],
   "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : peu probables",
-  "stability": "Neige quasiment absente du massif. \n\nOn retrouve encore quelques névés dans les ubacs au-dessus de 2000/2100m.\n",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire.\nIl reste de la neige uniquement au-dessus de 2000/2100 m en nord.\n\nQualité de la neige lundi : \nNeige de névé sans regel nocturne. ",
+  "stability": "Neige quasiment absente du massif. \n\nOn retrouve encore quelques névés dans les ubacs au-dessus de 2000/2100m.",
+  "snowQuality": "Enneigement : Pour la saison, l’enneigement est déficitaire.Il reste de la neige uniquement au-dessus de 2000/2100 m en nord.Qualité de la neige mardi : Neige de névé sans regel nocturne. ",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

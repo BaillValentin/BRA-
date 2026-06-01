@@ -1,23 +1,37 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-05-31T15:00:00",
-  "validUntil": "2026-06-01T18:00:00",
-  "riskMax": 1,
+  "date": "2026-06-01T16:00:00",
+  "validUntil": "2026-06-02T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<3000",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "E",
+        "NW"
+      ]
+    },
+    {
+      "altitude": ">3000",
+      "level": 1,
+      "orientations": [
+        "N",
+        "NE",
+        "E",
+        "NW"
       ]
     }
   ],
   "situations": [
-    "neige_humide"
+    "neige_fraiche",
+    "plaque_vent"
   ],
-  "summary": "Départs spontanés : rares et de faible ampleur en versants nord de très haute altitude.\nDéclenchements skieurs : rares départs superficiels en neige humide à haute altitude. ",
-  "stability": "MANTEAU NEIGEUX BIEN STABLE\n\nLe manteau neigeux est bien stable.\nDéparts spontanés : avalanches de neige humide de petite taille dans les versants nord raides de haute altitude.\n\nDéclenchements provoqués : un skieur évoluant tardivement peut initier un départ ponctuel de petite taille en pentes raides fortement humidifiées de haute altitude. ",
-  "snowQuality": "Enneigement déficitaire en raison de la chaleur excessive de la fin mai.\nHauteurs de neige observées : 150 cm à la nivôse des Écrins à 2970 m. \n\nLimite d'enneigement skiable : à partir de 2400 m dans les secteurs les plus enneigés. A pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.\n\nÉtat de la neige en surface : manteau neigeux totalement humidifié, sauf dans de rares pentes nord > 3600 m. Regel nocturne superficiel au-dessus de 3200/3300 m environ. ",
+  "summary": "Départs spontanés : quelques petits départs à très haute altitude pendant les chutes de neige l'après-midi.\nDéclenchements skieurs : quelques plaques en formation dans la neige fraîche ventée.",
+  "stability": "QUELQUES INSTABILITÉS EN HAUTE MONTAGNE, FORMÉES PAR LES NOUVELLES CHUTES DE NEIGE.\n\nDéparts spontanés : peu probables en matinée, puis quelques départs ponctuels en neige fraîche deviennent possibles en pentes raides au dessus de 3000 m au fil des chutes de l'après-midi, provoquant des avalanches de petite taille (taille 1).Déclenchements provoqués : peu probables, puis quelques nouvelles plaques peuvent se former au dessus de 3000 m, au fil des chutes de neige de l'après-midi. D'aspect friable, ou durcies par le vent de secteur ouest, elles peuvent être localement faciles à déclencher, mais restent généralement de taille limitée, provoquant des avalanches par départ linéaire de petite taille, très rarement moyenne en cas d'accumulation. Observables : accumulations de neige, travail du vent.En dessous de 3000 m, départs spontanés et déclenchements provoqués d'avalanches peu probables, la pluie de l'après-midi tombant sur un manteau neigeux résiduel, dense et stable.",
+  "snowQuality": "Enneigement déficitaire en raison de la chaleur excessive de la fin mai.Hauteurs de neige observées : 148 cm à la nivôse des Écrins à 2970 m. Limite d'enneigement skiable : à partir de 2400 m dans les secteurs les plus enneigés. A pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.État de la neige en surface : manteau neigeux totalement humidifié, sauf dans de rares pentes nord au dessus de 3600 m. Regel nocturne superficiel au-dessus de 3200/3300 m environ. ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

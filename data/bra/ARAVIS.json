@@ -1,21 +1,23 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-05-31T17:00:00",
-  "validUntil": "2026-06-01T18:00:00",
+  "date": "2026-06-01T16:00:00",
+  "validUntil": "2026-06-02T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": []
+      "orientations": [
+        "N"
+      ]
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : peu probables",
-  "stability": "Manteau neigeux stable. \n\nDéparts spontanés :\nPeu probables : très rares petites avalanches de neige humide proches des plus hauts sommets dans les versants nord. Taille 1 (petite).\n\nDéclenchements provoqués : \nPeu probables : un peu de neige humide peut couler sous les skis, principalement dans les versants nord. Taille 1 (petite).  ",
-  "snowQuality": "Enneigement : \nPour la saison, l’enneigement est déficitaire sous 2500 m \nOn peut chausser les skis au-dessus de 2100 m en nord et 2400 m en sud. \n\nQualité de la neige lundi : \nNeige de névé sur tous versants.",
+  "summary": "Départs spontanés : rares petites avalanches de neige humide sous les fortes averses\nDéclenchements skieurs : peu probables",
+  "stability": "Manteau neigeux stable. \n\nDéparts spontanés :Rares avalanches de neige humide proches des plus hauts sommets dans les versants nord, particulièrement sous les fortes averses de mardi après-midi. Taille 1 (petite).Déclenchements provoqués : Peu probables : un peu de neige humide peut couler sous les skis, principalement dans les versants nord. Taille 1 (petite).  ",
+  "snowQuality": "Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2100 m en nord. Les pentes sud sont sèches, hormis de rares névés. Qualité de la neige mardi : Neige de névé sur tous versants. Pas de regel nocturne",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

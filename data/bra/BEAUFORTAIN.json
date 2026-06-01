@@ -1,23 +1,27 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-05-31T16:00:00",
-  "validUntil": "2026-06-01T18:00:00",
+  "date": "2026-06-01T16:00:00",
+  "validUntil": "2026-06-02T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "E",
+        "NW"
       ]
     }
   ],
   "situations": [
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs en neige humide à haute altitude.\nDéclenchements skieurs : en coupant une pente en neige pourrie.",
-  "stability": "MANTEAU NEIGEUX DE FIN DE SAISON. RARES AVALANCHES DE FONTE EN PENTES NORD DE HAUTE ALTITUDE.\n\nDéparts spontanés : les avalanches naturelles de neige humide sont rares. Ce risque ne concerne plus que les quelques hautes pentes Nord et NE du massif (supérieures à 2800m). Petites à moyennes avalanches de neige humides (taille 1 à 2).  \nPartout ailleurs, on trouve une neige de névé, quasiment inerte en dehors d'un très rare départ en plaque de fond sur dalle rocheuse encore enneigée. \n\nDéclenchements provoqués : coulées sous le skis en coupant une pente suffisamment raide en neige pourrie. Petites avalanches.\n\nAutres : chute de corniches là où il en reste, les ponts de neige sur les ruisseaux sont fragiles.",
-  "snowQuality": "Enneigement : déficitaire pour la saison à cause de la chaleur durablement excessive ce printemps. La chaleur estivale de ces  jours va siffler la fin de cette saison 25/26.\n\nLimite skiable : vers 2000 m en nord,  2700 m en sud en pente douce, bien plus haut en pente sud raide.\n\nQualité de la neige : forte chaleur et regel mauvais. Neige de névé partout.",
+  "summary": "Départs spontanés : rares départs en neige humide à haute altitude\nDéclenchements skieurs : en coupant une pente en neige pourrie",
+  "stability": " \n\nDéparts spontanés : la neige de névé ne bouge plus, sauf une éventuelle plaque de fond sur dalle rocheuse raide encore enneigée. Vers 2800/3000 m, en versants N/NE, on peut encore trouver un peu de neige mobilisable. Ces départs spontanés, surtout des coulées, sont peu probables. Possibles principalement l'après-midi, soit au réchauffement, soit suite à l'alourdissement par les averses ou giboulées orageuses. Taille 1 à 2 (petites à moyennes).Déclenchements provoqués : coulées sous le skis en coupant une pente raide en neige humide ou lourde. Surtout l'après-midi. Taille 1 (petite).Autres : attention aux ponts de neige fragiles, notamment sur les ruisseaux.",
+  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200/2300 m en Nord, 2700/2800 m en Sud en pente peu raide.Qualité de la neige : regel nocturne moyen. Neige type névé presque partout.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

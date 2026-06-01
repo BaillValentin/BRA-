@@ -1,23 +1,36 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-05-31T15:00:00",
-  "validUntil": "2026-06-01T18:00:00",
-  "riskMax": 1,
+  "date": "2026-06-01T15:00:00",
+  "validUntil": "2026-06-02T18:00:00",
+  "riskMax": 2,
   "risks": [
     {
-      "altitude": "Toutes altitudes",
+      "altitude": "<3000",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE",
+        "E"
+      ]
+    },
+    {
+      "altitude": ">3000",
+      "level": 2,
+      "orientations": [
+        "N",
+        "NE",
+        "E"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probable ou une très rare avalanche de fonte en faces Nord au-dessus de 3000/3200m ?  \nDéclenchements skieurs : Peu probables. En neige bien humidifiée, possible coulée ponctuelle sous les skis (en pente soutenue)...",
-  "stability": " NEIGE DENSE... (TRÈS) RARE AVALANCHE DE FONTE EN FACE NORD DE HAUTE ALTITUDE ?\n\nDéparts spontanés : La plupart des pentes ont déjà bougé. Le manteau en place, bien qu'humide, devient de plus en plus dense, de névé souvent. Cependant, lundi, avec une neige rapidement humide à détrempée dès le début de journée, on ne peut exclure une très rare avalanche ponctuelle, plutôt en face Nord sommitale ?\nDéclenchements provoqués :  Peu probable, ou très ponctuellement risque de coulée sous les skis en neige bien humidifiée (en pentes raides)... \n\nAutres : En altitude, neige temporairement durcie ou croûtée par regel à l'aube.",
-  "snowQuality": "Qualification de l’enneigement :  Avec cette chaleur précoce, la fonte est rapide avec environ 3 semaines d'avance par rapport aux \"normales\". Néanmoins il reste pas mal de neige en combes \"froides\" d'altitude, vers les glaciers.\nLimites skiables : Vers 2200/2400m en plein Nord, 2700/3000m au Sud...\n\nQualité de la neige dimanche : Neige de névé prédominante, avec un faible regel à l'aube en altitude, au dessus de 2800m environ. Pentes raides pas mal abimées par les coulées.  En matinée, très rapide humidification au soleil puis (avec la chaleur) en tous versants. ",
+  "summary": "Départs spontanés : L'après ou le soir, quelques coulées de surface (neige fraîche locale sous averses orageuses)....\nDéclenchements skieurs : En fin d'après-midi, possibles petites plaques locales sous le vent de Sud-Ouest à Ouest, au dessus de 3000/3200m plutôt...",
+  "stability": "MARDI EN FIN D'APRES-MIDI RISQUE DE PETITES PLAQUES (NEIGE FRAICHE VENTEE A HAUTE ALTITUDE)...\n\nPoursuite de la fonte ce mardi. Puis passage d'averses orageuses l'après-midi, rafraichissement le soir, il pourra neiger localement dès 3000 puis 2600m environ.Mardi soir, possible petite couche de neige fraîche ventée en haut des Grandes Rousses (10/15 cm)...Déclenchements provoqués :  En cours d'après-midi/ mardi soir, petite couche ventée possible en haut du massifs (neige plus froide au dessus de 3000/3200m).Risque de petites plaques temporairement instables au passage de skieurs.Plus bas neige fraîche souvent collante/humide, plutôt un risque de  coulée ponctuelle humide sous les skis.Départs spontanés : Peu probable le matin (vieille neige dense/névé). Puis mardi après-midi/soir avec les averses prévues, on n'exclut pas quelques coulées superficielles en terrain raide ou près des hautes crêtes, dans un couloir un peu \"chargé par le vent...",
+  "snowQuality": "Qualification de l’enneigement :  La fonte s'est accélérée.Mardi après-midi et en soirée,  grâce aux averses, sommets puis pentes localement enneigées dès 3000 puis 2600m environ...Limites skiables : Vers 2200 à 2800m environ.Qualité de la neige mardi : Le matin neige de névé \"sale\", très humide. En fin d'après-midi neige fraîche (souvent humide sous 3000m), ventée vers les hauts sommets. 10/15 cm locaux",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

@@ -1,23 +1,25 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-05-31T15:00:00",
-  "validUntil": "2026-06-01T18:00:00",
+  "date": "2026-06-01T15:00:00",
+  "validUntil": "2026-06-02T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE"
       ]
     }
   ],
   "situations": [
+    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Peu probable ou une très rare avalanche de fonte en faces Nord sommitales ?  \nDéclenchements skieurs : Peu probables. ",
-  "stability": "MOINS DE NEIGE ET DENSE, DE NEVE, LA FIN DE SAISON SKI APPROCHE...\n\nDéparts spontanés : Peu probable. Le manteau en place, bien qu'humide, devient très dense, de névé.\nLundi, avec une neige rapidement humide à détrempée, on n'exclut pas totalement une avalanche ponctuelle, plutôt en face Nord sommitale...\n\nDéclenchements provoqués :  Peu probables.\n\nAutres : Vers les sommets, neige localement croûtée par regel à l'aube...",
-  "snowQuality": "Qualification de l’enneigement :  La fonte s'accélère et la fin de saison ski approche en Belledonne, avec environ 3 semaines d'avance par rapport aux \"normales\"... Plus d'enneigement continu en Sud.\nLimites skiables : Vers 1900/2200m en plein Nord.\n\nQualité de la neige lundi dimanche : Neige de névé \"sale\". Léger regel nocturne non exclu vers les sommets. Dès le matin très rapide humidification au soleil puis en tous versants. ",
+  "summary": "Départs spontanés : Peu probable ou une très rare avalanche de fonte en faces Nord sommitales ?  \nDéclenchements skieurs : Peu probables, ou le soir en altitude coulée de surface avec la neige récente humide. ",
+  "stability": "NEIGE DE NEVE,  LE SOIR SAUPOUDRAGE POSSIBLE VERS LES HAUTS DE BELLEDONNE...\n\nPoursuite de la fonte ce mardi. Puis  passage d'averses orageuses, rafraichissement le soir, il pourra neiger localement dès 2700 puis 2500m environ.Mardi soir, possible petite couche de neige fraîche ventée/humide en haut de Belledonne...Départs spontanés : Peu probable. Le manteau en place, bien qu'humide, devient très dense, de névé. Puis mardi soir avec les averses pluvieuses, on n'exclut pas totalement une avalanche ponctuelle, plutôt en face Nord sommitale...Vers les hauts sommets 5/10 cm possibles mardi soir, possibles coulées superficielles ?Déclenchements provoqués :  Peu probables, neige ventée mais humide, adhérant aux névés. Le soir, possible coulée ponctuelle sous les skis (neige fraîche humide).",
+  "snowQuality": "Qualification de l’enneigement :  La fonte s'accélère et la fin de saison ski approche en Belledonne, avec environ 3 semaines d'avance par rapport aux \"normales\"... Plus d'enneigement continu en Sud.Mardi soir, sommets localement blanchis sous les averses au dessus de 2500/2700m environLimites skiables : Vers 1900/2200m en plein Nord.Qualité de la neige mardi : Neige de névé \"sale\", très humide. Le soir neige fraîche (souvent humide) localement au dessus de 2700 puis 2500m. ",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

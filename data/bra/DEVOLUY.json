@@ -1,7 +1,7 @@
 {
   "massif": "DEVOLUY",
-  "date": "2026-06-01T16:00:00",
-  "validUntil": "2026-06-02T18:00:00",
+  "date": "2026-06-02T16:00:00",
+  "validUntil": "2026-06-03T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -12,8 +12,8 @@
   ],
   "situations": [],
   "summary": "Départs spontanés : peu probables\nDéclenchements skieurs : peu probables",
-  "stability": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nDéparts spontanés et déclenchements provoqués d'avalanches peu probables, la pluie de l'après-midi tombant sur un manteau neigeux résiduel, dense et stable.",
-  "snowQuality": "Enneigement résiduel et déficitaire pour une fin mai, sous forme de névés, avec un regel nocturne inexistant.Névés présents sur les sentiers de randonnée à partir de 2100/2200 m en nord, un peu plus bas au niveau des dépôts d'avalanches. ",
+  "stability": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nDéparts spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
+  "snowQuality": "Enneigement résiduel et déficitaire pour une début juin, sous forme de névés. Mercredi matin, léger saupoudrage possible aux plus hautes altitudes du massif à proximité de l'Isère.Névés présents sur les sentiers de randonnée à partir de 2100/2200 m en nord, un peu plus bas au niveau des dépôts d'avalanches. ",
   "pdfUrl": "./data/bra/DEVOLUY.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_18.png",

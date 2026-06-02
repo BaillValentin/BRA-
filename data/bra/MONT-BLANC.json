@@ -1,12 +1,12 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-06-01T16:00:00",
-  "validUntil": "2026-06-02T18:00:00",
-  "riskMax": 2,
+  "date": "2026-06-02T16:00:00",
+  "validUntil": "2026-06-03T18:00:00",
+  "riskMax": 3,
   "risks": [
     {
-      "altitude": "<3000",
-      "level": 1,
+      "altitude": "<3200",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "altitude": ">3000",
-      "level": 2,
+      "altitude": ">3200",
+      "level": 3,
       "orientations": [
         "N",
         "NE",
@@ -27,11 +27,12 @@
   ],
   "situations": [
     "neige_fraiche",
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : petites avalanches de neige fraîche sous les plus fortes averses, mardi après-midi\nDéclenchements skieurs : petites plaques dans la neige fraiche, en cours de formation.",
-  "stability": "Quelques instabilités en haute montagne.\n\nDéclenchements provoqués : * rares plaques friables dans la neige fraiche. Facilement déclenchable. Le matin, elles se situent au-dessus de 3200 m et sont petites (taille 1). L'après-midi, sous les fortes averses de neige, formations de rares nouvelles plaques au-dessus de 3000 m, taille 1, voire 2 (moyenne) en fin de journée et au-dessus de 3500 m. * Un peu de neige humide peut couler sous les skis, surtout sous les plus fortes averses de pluie, mardi après-midi, sous 3000 m. Taille 1 (petite). Départs spontanés :* rares petits départs ponctuels dans la neige fraiche, sous les plus fortes averses de neige, au-dessus de 3000 m. Taille 1 rarement 2. * rares petits départs ponctuels dans la neige humide, sous les plus fortes averses de pluie, en dessous de 3000 m. Taille 1. ",
-  "snowQuality": "Enneigement : Pour la saison, l’enneigement est déficitaire.On peut chausser les skis au-dessus de 2100 m en nord et 2400 m en sud. Qualité de la neige mardi : En dessous de 3200 m, neige humide ou de névé avec un très mauvais regel nocturne. Vers 3200/4000 m : neige de printemps avec un bon regel nocturne. Au-dessus de 4000 m : fine couche de neige récente reposant sur une croute de regel. ",
+  "summary": "Départs spontanés : avalanches de neige fraîche en haute montagne\nDéclenchements skieurs : plaques à vent dans la neige fraiche.",
+  "stability": "Neige fraîche et ventée en haute montagne\n\nDéclenchements provoqués : * plaques friables dans la neige fraiche, au-dessus de 3200 m, formées par le fort vent de secteur sud-ouest à nord-ouest mardi après-midi et mercredi en journée. Facilement déclenchable. Taille 2 (moyenne). Facilement déclenchable. En dessous de 3200 m, elles sont plus rares et plus petites. * Un peu de neige (fraiche le matin et humide l'après-midi) peut couler sous les skis (sluff), surtout avec le réchauffement mercredi après-midi Taille 1 (petite) voire 2 (moyenne) au-dessus de 3200 m.  Départs spontanés :* départs ponctuels dans la neige récente (purges), surtout avec le réchauffement mercredi après-midi Taille 1 (petite) voire 2 (moyenne) au-dessus de 3200 m.  ",
+  "snowQuality": "Enneigement : Pour la saison, l’enneigement est déficitaire.On peut chausser les skis au-dessus de 2100 m en nord et 2400 m en sud. Qualité de la neige mercredi : En dessous de 2300 m, neige de névé sans regel nocturne.Vers 2300/2700 m, 1/10 cm de neige fraîche reposant sur de la neige de névé.Vers 2700/3200 m, 10/25 cm de neige fraîche très ventée. Au-dessus de 3200 m, 25/40 cm de neige fraîche très ventée. ",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

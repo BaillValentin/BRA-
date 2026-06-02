@@ -1,7 +1,7 @@
 {
   "massif": "QUEYRAS",
-  "date": "2026-06-01T16:00:00",
-  "validUntil": "2026-06-02T18:00:00",
+  "date": "2026-06-02T16:00:00",
+  "validUntil": "2026-06-03T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,9 +13,9 @@
   "situations": [
     "neige_fraiche"
   ],
-  "summary": "Départs spontanés : peu probables, rares départs de neige fraîche à très haute altitude l'après-midi.\nDéclenchements skieurs : peu probables",
-  "stability": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nDéparts spontanés et déclenchements provoqués d'avalanches peu probables, la pluie de l'après-midi tombant sur un manteau neigeux résiduel, dense et stable. Néanmoins au dessus de 3000 m dans quelques pentes raides, de rares petits départs ponctuels de neige fraîche sont possibles en cas d'accumulation de neige sous les chutes de l'après-midi.",
-  "snowQuality": "Enneigement résiduel et très déficitaire pour une fin mai, sous forme de névés, avec un regel nocturne superficiel seulement aux plus hautes altitudes.Névés présents sur les sentiers de randonnée à partir de 2400/2500 m en nord, un peu plus bas vers le Briançonnais, notamment au niveau des dépôts d'avalanches. ",
+  "summary": "Départs spontanés : peu probables, rares départs de neige fraîche s'humidifiant au soleil à haute altitude.\nDéclenchements skieurs : peu probables",
+  "stability": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nAu dessus de 3000 m environ en pentes raides, rares départs ponctuels superficiels de neige fraîche s'humidifiant au soleil.Sinon, départs spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable. ",
+  "snowQuality": "Enneigement résiduel et très déficitaire pour une début juin, sous forme de névés. Mercredi matin, léger saupoudrage de neige fraîche au dessus de 3000 m environ.Névés présents sur les sentiers de randonnée à partir de 2400/2500 m en nord, un peu plus bas vers le Briançonnais, notamment au niveau des dépôts d'avalanches. ",
   "pdfUrl": "./data/bra/QUEYRAS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_17.png",

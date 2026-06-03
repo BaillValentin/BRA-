@@ -1,23 +1,22 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-06-02T16:00:00",
-  "validUntil": "2026-06-03T18:00:00",
+  "date": "2026-06-03T16:00:00",
+  "validUntil": "2026-06-04T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares pettes avalanches de neige humide\nDéclenchements skieurs : peu probables",
-  "stability": "Manteau neigeux stable. \n\nDéparts spontanés :Rares avalanches de neige humide proches des plus hauts sommets, surtout l'après-midi avec le réchauffement et les éclaircies.  Taille 1 (petite).Déclenchements provoqués : un peu de neige humide peut couler sous les skis, surtout l'après-midi avec le réchauffement et les éclaircies.  Taille 1 (petite).  ",
-  "snowQuality": "Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2100 m en nord. Les pentes sud sont saupoudrées de neige fraîche au-dessus de 2300 m. Qualité de la neige mercredi : En dessous de 2300 m, neige de névé sans regel nocturne.Vers 2300/2500 m, 1/3 cm de neige fraîche reposant sur de la neige de névé.Vers 2500/2700 m, 3/10 cm de neige fraîche reposant sur de la neige de névé.",
+  "summary": "Départs spontanés : Rares petites avalanches.\nDéclenchements skieurs : Peu probables, rares plaques à vent.",
+  "stability": "Manteau neigeux globalement stable. \n\nDéparts spontanés :En altitude (au-delà de 2400m), sous les averses de neige, une petite avalanche est possible sur les pentes des hautes combes. Taille 1 (petite).Déclenchements provoqués : Peu probables.Un peu de neige humide peut couler sous les skis, sans prendre d'ampleur. Taille 1 (petite).  ",
+  "snowQuality": "Enneigement : L'enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Les pentes sud sont saupoudrées de neige fraîche au-dessus de 2300 m.Qualité de la neige ce jeudi : En dessous de 2300 m, l'enneigement n'est pas continu et on retrouve des névés sans regel nocturne.Au-dessus de 2300m, on retrouve 5/10 cm de neige récente lourde. Au-dessus de 2700m, on attend 15/20 cm de neige fraîche.",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

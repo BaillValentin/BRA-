@@ -1,11 +1,11 @@
 {
   "massif": "VANOISE",
-  "date": "2026-06-02T16:00:00",
-  "validUntil": "2026-06-03T18:00:00",
+  "date": "2026-06-03T16:00:00",
+  "validUntil": "2026-06-04T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2600",
+      "altitude": "<3000",
       "level": 1,
       "orientations": [
         "N",
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "altitude": ">2600",
+      "altitude": ">3000",
       "level": 2,
       "orientations": [
         "N",
@@ -31,9 +31,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs dans la neige récent alourdie\nDéclenchements skieurs : quelques plaques dans la couche de neige récente",
-  "stability": " \n\nDéclenchements provoqués :* quelques structures de plaques nouvelles dans la couche de neige hétérogène tombée mardi sous les orages. Cette neige adhère généralement bien à l'ancienne, mais les vents d'W puis de NW fabriquent des accumulations sensibles au passage d'un skieur (plaques à vent). Au-dessus de 2600/2800 m, surtout en orientations N/NE/E/SE. Taille 1 à 2 (petite à moyenne).Observables : accumulations, changement de qualité de neige sur une courte distance.* petites avalanches de neige récente humide, en coupant une pente raide réchauffée, au-dessus de 2600 m.Départs spontanés :* avalanches de surface, dans la neige récente humidifiée par le soleil et le redoux. Taille 1 à 2.Autres : attention aux ponts de neige fragiles, notamment sur les ruisseaux.",
-  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200 m en Nord,  2700/2800 m en Sud en pente peu raide.Qualité de la neige : neige très dense, humidifiée par les averses orageuses. Petite couche de neige fraîche en altitude, vite alourdie : 5/10 cm à 2700 m, 20/25 cm à 3200 m, un peu soufflée.",
+  "summary": "Départs spontanés : rares petits départs en neige humide, possibles à toutes heures du jour.\nDéclenchements skieurs : quelques nouvelles petites plaques se forment en fin de journée en très haute montagne.",
+  "stability": " NOUVELLE PERTURBATION EN FIN DE JOURNÉE : +15/20 CM VERS 3000 M.\n\nDéclenchements provoqués :- quelques petites plaques en neige ventée vont se former en fin de journée, au passage de la perturbation, plutôt au-dessus de 3000 m. On les trouve en tous versants, dans les zones d'accumulation par le vent (vent de sud à ouest). Les cassures augmentent progressivement au fil de chutes pour atteindre au maximum 20-30 cm, donnant des avalanches de taille 1 (petite), très rarement 2 (moyenne).Observables : accumulations, changement de qualité de neige sur une courte distance.- petites avalanches de neige humide, en coupant une pente raide, plutôt au-dessus de 2600/2700 m.Départs spontanés : - rares petits départs ponctuels de surface, en neige humide, possibles à toutes heures de la journée. Avalanches de taille 1.- il subsiste un très faible risque d'une avalanche humide un peu plus conséquente en face Nord de très haute altitude, avec éventuellement une rupture linéaire (au-dessus de 3200/3500 m).Autres : attention aux ponts de neige fragiles, notamment sur les ruisseaux.",
+  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200 m en Nord,  2700/2800 m en Sud en pente peu raide.Qualité de la neige : le manteau neigeux est \"pourri\", humidifié en profondeur et non regelé. Au-dessus de 2700/2900 m, il reste des vestiges des quelques centimètres de neige fraîche tombés dans la nuit de mardi à mercredi, déjà humidifiés dans la plupart des orientations/altitudes. Peut-être encore localement du ski correct en très haute montagne (nord raide > 3200/3500 m?).En fin de journée, il tombe 15/20 cm de neige fraîche au-delà de 3000 m, 5/10 cm vers 2500 m et un léger saupoudrage dès 2200/2300 m.",
   "pdfUrl": "./data/bra/VANOISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_10.png",

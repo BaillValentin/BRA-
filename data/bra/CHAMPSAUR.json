@@ -1,7 +1,7 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-06-02T16:00:00",
-  "validUntil": "2026-06-03T18:00:00",
+  "date": "2026-06-03T15:00:00",
+  "validUntil": "2026-06-04T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -10,12 +10,10 @@
       "orientations": []
     }
   ],
-  "situations": [
-    "neige_fraiche"
-  ],
+  "situations": [],
   "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : peu probables.",
-  "stability": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nRares départs ponctuels en neige fraîche s'humidifiant en pentes raides ensoleillées, possibles au dessus de 3000 m, voire un peu plus bas à proximité de l'Isère, provoquant des avalanches de petite taille (taille 1).Sinon, départs spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
-  "snowQuality": "Enneigement résiduel et déficitaire pour une début juin, sous forme de névés. Mercredi matin, quelques cm de neige fraîche en haute montagne, voire léger saupoudrage au dessus de 2400/2600 m à proximité de l'Isère.Névés présents sur les sentiers de randonnée à partir de 2100/2200 m en nord, un peu plus bas au niveau des dépôts d'avalanches. ",
+  "stability": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nDéparts spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
+  "snowQuality": "Enneigement résiduel et déficitaire pour un début juin, sous forme de névés, présents sur les sentiers de randonnée à partir de 2100/2200 m en nord, un peu plus bas au niveau des dépôts d'avalanches. ",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_19.png",

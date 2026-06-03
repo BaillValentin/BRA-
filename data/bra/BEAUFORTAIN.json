@@ -1,11 +1,11 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-06-02T16:00:00",
-  "validUntil": "2026-06-03T18:00:00",
+  "date": "2026-06-03T16:00:00",
+  "validUntil": "2026-06-04T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2600",
+      "altitude": "<2700",
       "level": 1,
       "orientations": [
         "N",
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "altitude": ">2600",
+      "altitude": ">2700",
       "level": 2,
       "orientations": [
         "N",
@@ -31,9 +31,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs dans la neige récent alourdie\nDéclenchements skieurs : quelques plaques dans la couche de neige récente",
-  "stability": " \n\nDéclenchements provoqués :* quelques plaques nouvelles en formation dans la couche de neige tombée irrégulièrement mardi sous les orages. Cette neige adhère assez bien à l'ancienne, mais en cas d'accumulation par le vent, une plaque peut céder au passage d'un skieur. Surtout au-dessus de 2600/2800 m. Taille 1 (petites), rarement 2 (moyenne).Observables : accumulations, changement de qualité de neige sur une courte distance.* petites avalanches de neige récente humide, en coupant une pente raide réchauffée, au-dessus de 2600/2700 m.Départs spontanés :* petites avalanches de surface, dans la neige récente humidifiée par le soleil et le redoux. Taille 1.Autres : attention aux ponts de neige fragiles, notamment sur les ruisseaux.",
-  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200/2400 m en Nord, 2600/2800 m en Sud en pente peu raide.Qualité de la neige : neige très dense, humidifiée par les averses orageuses. Petite couche de neige fraîche en altitude, vite alourdie : 5/7 cm à 2700 m, 10/15 cm à 3000 m.",
+  "summary": "Départs spontanés : rares petits départs en neige humide, possibles à toutes heures du jour.\nDéclenchements skieurs : quelques nouvelles petites plaques se forment en fin de journée sur les plus hauts sommets.",
+  "stability": " NOUVELLE PERTURBATION EN FIN DE JOURNÉE : +15/20 CM VERS 2700 M.\n\nDéclenchements provoqués :- quelques petites plaques en neige ventée vont se former en fin de journée, au passage de la perturbation, au-dessus de 2700/2800 m. On les trouve en tous versants, dans les zones d'accumulation par le vent (vent de sud à ouest). Les cassures augmentent progressivement au fil de chutes pour atteindre au maximum 20-30 cm, donnant des avalanches de taille 1 (petite), très rarement 2 (moyenne).Observables : accumulations, changement de qualité de neige sur une courte distance.- petites avalanches de neige humide, en coupant une pente raide, plutôt au-dessus de 2600/2700 m.Départs spontanés : rares et petites avalanches de surface en neige humide, possibles à toutes heures de la journée. Taille 1.Autres : attention aux ponts de neige fragiles, notamment sur les ruisseaux.",
+  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200/2400 m en Nord, 2600/2800 m en Sud en pente peu raide.Qualité de la neige : le manteau neigeux est \"pourri\", humidifié en profondeur et non regelé. Au-dessus de 2600/2800 m, il reste des vestiges des quelques centimètres de neige fraîche tombés dans la nuit de mardi à mercredi, là aussi déjà humidifiés à tous niveaux et dans toutes les orientations. Il semble délicat de trouver du \"bon ski\" quelque part...En fin de journée, il tombe 15/20 cm de neige fraîche au-delà de 2700 m et un léger saupoudrage dès 2200 m.",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

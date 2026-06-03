@@ -1,11 +1,11 @@
 {
   "massif": "OISANS",
-  "date": "2026-06-02T16:00:00",
-  "validUntil": "2026-06-03T18:00:00",
+  "date": "2026-06-03T16:00:00",
+  "validUntil": "2026-06-04T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2700",
+      "altitude": "<3000",
       "level": 1,
       "orientations": [
         "N",
@@ -16,8 +16,8 @@
       ]
     },
     {
-      "altitude": ">2700",
-      "level": 2,
+      "altitude": ">3000",
+      "level": 1,
       "orientations": [
         "N",
         "NE",
@@ -30,11 +30,12 @@
   "situations": [
     "neige_fraiche",
     "plaque_vent",
+    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Coulées superficielles dans la neige fraîche (qui s'humidifie en journée). Très rare avalanche de fonte en face Nord de haute montagne ?  \nDéclenchements skieurs : Quelques plaques temporaires peu épaisses en haute montagne + quelques coulées humides sous les skis.",
-  "stability": "QUELQUES INSTABILITÉS TEMPORAIRES EN HAUTE MONTAGNE DANS LA NEIGE FRAICHE VENTÉE. TASSEMENT/HUMIDIFICATION EN JOURNÉE DE MERCREDI...\n\nDéclenchements provoqués :  - De petites plaques temporaires pourraient se former mardi soir et en nuit de mardi à mercredi vers les hautes crêtes avec le retour d'un peu de neige en haute montagne (15/30 cm possibles au-dessus de 2700/3000m), modérément ventée mais souvent humide et adhérant aux névés. Localisées dans les zones d'accumulations par le vent, elles sont temporairement faciles à déclencher mais restent le plus souvent de faible épaisseur. Ce risque a tendance à s'atténuer assez rapidement en journée avec le tassement et l'humidification de cette neige fraîche.- Par ailleurs, le skieur pourrait faire \"couler\" ponctuellement la neige sous ses skis (dans cette neige fraîche humide ou s'humidifiant).Départs spontanés : - Mardi soir et en nuit de mardi à mercredi, à haute altitude, possibles coulées superficielles de taille 1 dans les couloirs raides lors des chutes de neige attendues (essentiellement au-dessus de 2700m). - Puis mercredi en journée, quelques coulées de taille 1 peuvent se produire au soleil et près des rochers dans cette neige fraîche qui s'humidifie assez rapidement. En parallèle, on conserve le très faible risque d'une avalanche humide un peu plus conséquente en face Nord de très haute altitude (au-dessus de 3200/3500m)...",
-  "snowQuality": "Qualification de l’enneigement :  La fonte s'est nettement accélérée...Mardi après-midi et en soirée,  grâce aux averses, pentes localement enneigées dès 3100 puis 2700m environ...Limites skiables : Vers 2400 à 2900m environ (un peu plus bas en Taillefer).Qualité de la neige mercredi : Une couche de neige fraîche (15/30 cm possibles au-dessus de 3000m, 7/15 cm entre 2500 et 3000m), se dépose mardi en soirée/nuit, recouvrant une neige de névé \"sale\", très humide. Vers les hautes crêtes, cette neige est plus \"froide\" et peut être davantage travaillée/soufflée par le vent. En journée de mercredi, la neige fraîche se tasse et/ou s'humidifie assez rapidement avec le retour du soleil et le redoux des températures.",
+  "summary": "Départs spontanés : Très rare avalanche de fonte en face Nord de haute-montagne + L'après-midi et le soir, coulées superficielles dans la neige fraîche. \nDéclenchements skieurs : Dès le matin, quelques coulées sous les skis dans la neige humide. Puis l'après-midi et le soir, formation de plaques peu épaisses vers les sommets. ",
+  "stability": "PLUTÔT STABLE JEUDI MATIN (TRÈS RARE AVALANCHE HUMIDE), PUIS QUELQUES INSTABILITÉS LOCALES L'APRÈS-MIDI ET LE SOIR EN HAUTE MONTAGNE, DANS LA NEIGE FRAICHE VENTÉE.\n\nDéclenchements provoqués :  - Jeudi après-midi et soir, de nouvelles plaques temporaires se forment dans la neige fraîche attendue (20/25 cm possibles au-dessus de 3000m), sous l'effet d'un vent de Sud-Ouest puis Nord-Ouest sensible à soutenu. Localisées dans les zones d'accumulations par le vent à proximité des crêtes, ces plaques peuvent être faciles à déclencher par un skieur. Cependant, elles restent le plus souvent d'épaisseur limitée et demeurent assez localisées. En effet, la neige fraîche a tendance à adhérer facilement à la sous-couche humide en-dessous. Plus bas que 3000m, où il pleut dans un premier temps l'après-midi, le risque est plus faible avec des quantités de neige fraîche moindres (7/15 cm assez humides envisagés au-dessus de 2400m), qui tombent sur une neige elle-même très humide et dense, n'occasionnant que peu d'instabilités.- On notera également, dès le début de journée de jeudi, avec le peu de regel attendu, un risque de coulée humide ponctuelle sous les skis.Départs spontanés : - Dès le matin, on ne peut exclure une très rare avalanche humide dans une face Nord de haute altitude, mais ce risque semble devenu très localisé/ponctuel, la plupart des pentes ayant déjà \"bougé\" ces dernières semaines.- Jeudi après-midi et soir, à haute altitude, des coulées superficielles de taille 1 (voire quelques tailles 2 dans la soirée), peuvent se produire dans les couloirs raides lors des chutes de neige attendues au-dessus de 3000 m d'abord,  puis un peu plus bas ensuite.",
+  "snowQuality": "Qualification de l’enneigement :  Les sommets vont blanchir à nouveau ce jeudi après-midi/soir au-dessus de 3000 puis 2400m. Plus bas, la fonte continue.Limites skiables : Vers 2400 à 2900m environ (un peu plus bas en Taillefer).Qualité de la neige jeudi : Peu de regel nocturne attendu. Au-dessus de 2600/2700m, petite couche de neige récente mais déjà humidifiée, sinon neige de névé \"sale\", très humide. L'après-midi et le soir sous la perturbation, une nouvelle couche de neige fraîche tombe sur le massif. D'abord au-dessus de 3000m, puis la limite pluie-neige qui s'abaisse vers 2300 m. Vers les hautes crêtes, la neige fraîche plus \"froide\" est souvent travaillée ou soufflée par le vent de Sud-Ouest puis Nord-Ouest.",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

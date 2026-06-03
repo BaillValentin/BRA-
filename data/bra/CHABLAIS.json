@@ -1,38 +1,22 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-06-02T16:00:00",
-  "validUntil": "2026-06-03T18:00:00",
-  "riskMax": 2,
+  "date": "2026-06-03T16:00:00",
+  "validUntil": "2026-06-04T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2600",
+      "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2600",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares petites avalanches de neige fraîche sur les plus hauts sommets\nDéclenchements skieurs : rares petites plaques à vent sur les plus hauts sommets",
-  "stability": "Manteau neigeux stable. \n\nDéclenchements provoqués : * rares petites plaques friables dans la neige fraîche, au-dessus de 2600 m, formées par le fort vent de secteur sud-ouest à nord-ouest. Facile à déclencher. Taille 1 (petite), rarement 2 (moyenne) vers 2800/3000 m. Observables : accumulation de neige fraîche, fissures sous les skis.* un peu de neige (fraîche le matin et humide l'après-midi) peut couler sous les skis, au-dessus de 2500 m, surtout l'après-midi avec le réchauffement et les éclaircies. Taille 1 (petite).  Départs spontanés :Rares avalanches (en neige fraiche, le matin et humide l'après-midi), proches des plus hauts sommets, au-dessus de 2600 m, surtout l'après-midi avec le réchauffement et les éclaircies. Taille 1 (petite).",
-  "snowQuality": "Enneigement : Pour la saison, l’enneigement est déficitaire, sous 2600 m et correct au-dessus. On peut chausser les skis au-dessus de 2100 m en nord et 2500 m en sud (petit saupoudrage vers 2300/2500 ). Qualité de la neige mercredi : En dessous de 2300 m, neige de névé sans regel nocturne.Vers 2300/2500 m, 1/3 cm de neige fraîche reposant sur de la neige de névé.Vers 2500/2700 m, 3/10 cm de neige fraîche reposant sur de la neige de névé.Vers 2700/3000 m, 10/20 cm de neige fraîche reposant sur de la neige de névé.",
+  "summary": "Départs spontanés : Rares petites avalanches.\nDéclenchements skieurs : Peu probables, rares plaques à vent.",
+  "stability": "Manteau neigeux globalement stable. \n\nDéparts spontanés :En altitude (au-delà de 2400m), sous les averses de neige, une petite avalanche est possible sur les sommets du secteur du Haut-Giffre. Taille 1 (petite).Déclenchements provoqués : Peu probables.Un peu de neige humide peut couler sous les skis, sans prendre d'ampleur. Taille 1 (petite).  ",
+  "snowQuality": "Enneigement : L'enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Les pentes sud sont saupoudrées de neige fraîche au-dessus de 2300 m. Qualité de la neige ce jeudi : En dessous de 2300 m, l'enneigement n'est pas continu et on retrouve des névés sans regel nocturne.Au-dessus de 2300m, on retrouve 5 cm de neige récente lourde. Au maximum 10 cm sur les plus hauts points.",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

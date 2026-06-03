@@ -1,25 +1,15 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-06-02T16:00:00",
-  "validUntil": "2026-06-03T18:00:00",
-  "riskMax": 2,
+  "date": "2026-06-03T15:00:00",
+  "validUntil": "2026-06-04T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<3000",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
         "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">3000",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
+        "NE"
       ]
     }
   ],
@@ -27,9 +17,9 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : quelques petits départs à haute altitude en neige fraîche s'humidifiant.\nDéclenchements skieurs : quelques petites plaques en place en haute altitude dans la neige fraîche ventée.",
-  "stability": "QUELQUES INSTABILITÉS EN HAUTE MONTAGNE, FORMÉES PAR LES DERNIÈRES CHUTES DE NEIGE.\n\nDéparts spontanés : quelques départs ponctuels en neige fraîche s'humidifiant en pentes raides ensoleillées, possibles au dessus de 3000 m, voire un peu plus bas à proximité de l'Isère, provoquant des avalanches de petite taille (taille 1).Déclenchements provoqués : quelques nouvelles plaques ont pu se former au dessus de 3000 m avec les chutes de neige de mardi après-midi. D'aspect friable, ou durcies par le vent de secteur ouest, elles peuvent être localement faciles à déclencher, mais elles se stabilisent rapidement avec le retour du soleil en journée. Elles restent généralement de taille limitée, provoquant des avalanches par départ linéaire de petite taille, rarement moyenne en cas d'accumulation de neige. Observables : accumulations de neige, travail du vent.Ailleurs, départs spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux étant résiduel, dense et stable.",
-  "snowQuality": "Enneigement déficitaire suite à l'épisode de chaleur notable de la fin mai.Hauteurs de neige observées : 143 cm à la nivôse des Écrins à 2970 m. Limite d'enneigement skiable : à partir de 2400 m dans les secteurs les plus enneigés. A pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.État de la neige en surface : manteau neigeux totalement humidifié, sauf dans de rares pentes nord au dessus de 3600 m. Mercredi matin, quelques cm de neige fraîche présents au dessus de 3000 m, voire saupoudrage jusqu'à 2300/2400 m à proximité de l'Isère.",
+  "summary": "Départs spontanés : peu probables avant la chute du soir \nDéclenchements skieurs : rares et minces plaques rapidement stabilisées, avant la chute du soir",
+  "stability": "RARES INSTABILITÉS A TRÈS HAUTE ALTITUDE\n\nLe manteau neigeux est bien stable. Départs spontanés : peu probables en journée, le manteau neigeux est bien stabilisé. En soirée, rares avalanches de neige fraîche ventée de petite taille (taille 1).Déclenchements provoqués : possibles seulement en orientations nord ou nord-est de très haute altitude (au delà de 3600 m). Formées sous l'effet du transport de neige par le vent mercredi matin, elles se sont la plupart stabilisées,  un déclenchement de petite taille par un skieur reste cependant non exclu très tôt le matin.",
+  "snowQuality": "Enneigement déficitaire, en raison du printemps particulièrement chaud et sec. Hauteurs de neige observées : 141 cm à la nivôse des Écrins à 2970 m. Limite d'enneigement skiable : à partir de 2600 m dans les secteurs les plus enneigés, localement 2300/2400 m. A pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.État de la neige en surface : manteau neigeux totalement humidifié, sauf dans les pentes nord au dessus de 3800 m, où on trouve encore un peu de neige récente tombée mardi soir, 10/15 cm",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

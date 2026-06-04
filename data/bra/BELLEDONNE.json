@@ -1,41 +1,39 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-06-03T16:00:00",
-  "validUntil": "2026-06-04T18:00:00",
+  "date": "2026-06-04T16:00:00",
+  "validUntil": "2026-06-05T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2600",
+      "altitude": "<2700",
       "level": 1,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
+        "W",
         "NW"
       ]
     },
     {
-      "altitude": ">2600",
-      "level": 1,
+      "altitude": ">2700",
+      "level": 2,
       "orientations": [
         "N",
         "NE",
         "E",
-        "SE",
+        "W",
         "NW"
       ]
     }
   ],
   "situations": [
     "neige_fraiche",
-    "plaque_vent",
-    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Très rare avalanche de fonte en face Nord sommitale + L'après-midi et le soir, quelques coulées superficielles dans la neige fraîche. \nDéclenchements skieurs : Dès le matin, quelques coulées sous les skis dans la neige humide. Puis l'après-midi et le soir, formation de quelques plaques peu épaisses vers les sommets. ",
-  "stability": "PLUTÔT STABLE JEUDI EN JOURNÉE (TRÈS RARE AVALANCHE HUMIDE), PUIS QUELQUES INSTABILITÉS LOCALES EN FIN DE JOURNÉE/SOIRÉE VERS LES HAUTS DE BELLEDONNE.\n\nDéclenchements provoqués :  - Jeudi en fin de journée et soirée, quelques plaques temporaires pourraient se former dans la neige fraîche attendue (10/20 cm possibles après la pluie au-dessus de 2600m), sous l'effet d'un vent de Sud-Ouest puis Nord-Ouest sensible à soutenu. Localisées dans les zones d'accumulations par le vent à proximité des crêtes, ces plaques pourraient être faciles à déclencher par un skieur. Cependant, elles restent le plus souvent d'épaisseur très limitée et demeurent localisées. En effet, la neige fraîche a tendance à adhérer facilement à la sous-couche humide en-dessous, limitant le risque de structure instable. Plus bas que 2600m, le risque est plus faible avec une neige qui reste humide, des quantités de fraîche bien moindres, tombant sur une neige elle-même très humide et dense, n'occasionnant que très peu d'instabilités.- On notera également, dès le début de journée de jeudi, avec le peu de regel attendu, un risque de coulée humide ponctuelle sous les skis.Départs spontanés : - Dès le matin, on ne peut exclure une très rare avalanche humide dans une face Nord sommitale, mais ce risque semble devenu très localisé/ponctuel, la plupart des pentes ayant déjà \"bougé\" ces dernières semaines.- Jeudi en fin de journée et soirée, vers les sommets du massif, quelques coulées superficielles de taille 1, peuvent se produire dans les couloirs raides lors des chutes de neige attendues au-dessus de 2400/2500m.",
-  "snowQuality": "Qualification de l’enneigement :  Les sommets vont blanchir à nouveau ce jeudi soir au-dessus de 2400m. Plus bas, la fonte continue.Limites skiables : Vers 2000/2200m en plein Nord.Qualité de la neige jeudi : Peu ou pas de regel nocturne attendu. Au-dessus de 2600/2700m, petite couche de neige récente mais déjà humidifiée, sinon neige de névé \"sale\", très humide. L'après-midi sous la perturbation, il pleut dans un premier temps à toutes altitudes, puis la limite pluie-neige s'abaisse vers 2300 m, avec 7/15 cm possibles au-dessus de 2400/2500 m entre la toute fin de journée et la soirée.",
+  "summary": "Départs spontanés : Durant les intempéries et vendredi matin, nombreuses coulées de surfaces/boules en pentes raides d'altitude...\nDéclenchements skieurs : Peu de risque de plaques. Possible coulée humide ponctuelle sous les skis (neige fraîche glissant sur les anciens névés denses)...",
+  "stability": "PETITE COUCHE DE FRAICHE EN ALTITUDE (jusque 10/15 cm), DES COULEES DE SURFACE VENDREDI MATIN...\n\nNEIGE FRAICHE PREVUE JEUDI SOIR EN ALTITUDE (10/15 cm) PUIS RAPIDE HUMIDIFICATION VENDREDI MATIN, DES COULEES SPONTANEES EN TERRAIN RAIDE, SURTOUT AU DESSUS DE 2500/2700mDéparts spontanés :  Durant les chutes de neige (jeudi soir surtout), puis vendredi matin lors d'éclaircies : des coulées ponctuelles de neige fraîche/ boules humides vendredi en terrain raide.Risque temporaire surtout là où il neige plus, au dessus de 2500/2700m : 10/15 cm glissant sur la sous couche dense (névés).L'après-midi suite au tassement cette activité superficielle devrait cesser.Déclenchements provoqués :  Vendredi pas de risque de plaque a priori, plutôt un risque de coulée humide ponctuelle sous les skis (le matin surtout)...",
+  "snowQuality": "Qualification de l’enneigement :  Hauts du massif sans doute blanchis vendredi matin, puis rapide tassement.La fonte est précoce cette saison, seules de rares pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2000/2300m en combes Nord.Qualité de la neige vendredi : Pentes saupoudrés au dessus de 2200/2400m et plus blanchies vers les hauts sommets (jusque 15 cm possibles). Rapide humidification en matinée, tassement.Reprise de la fonte l'après-midi...",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

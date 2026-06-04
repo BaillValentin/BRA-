@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-06-03T16:00:00",
-  "validUntil": "2026-06-04T18:00:00",
+  "date": "2026-06-04T16:00:00",
+  "validUntil": "2026-06-05T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -12,8 +12,8 @@
   ],
   "situations": [],
   "summary": "Départs spontanés : RAS.\nDéclenchements skieurs : RAS.",
-  "stability": "FIN DE SAISON... MASSIF SEC...  \n\nIl ne reste plus de neige en Chartreuse ou de rares (et petits) névés stables en Nord sommital.",
-  "snowQuality": "Qualification de l’enneigement :  Il ne reste plus de neige en Chartreuse, à part de rares névés. La fonte s'est accélérée avec quelques semaines d'avance par rapport aux normales... De nouvelles pluies sont attendues ce jeudi après-midi et soir.Chartreuse verte... Fin de saison ski",
+  "stability": "FIN DE SAISON... MASSIF SEC...  \n\nIl ne reste plus de neige en Chartreuse.",
+  "snowQuality": "Qualification de l’enneigement :  Il ne reste plus de neige en Chartreuse. Fonte précoce cette saison.Pluies prévues jeudi soir.Chartreuse verte... Fin de saison ski",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

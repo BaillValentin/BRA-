@@ -1,7 +1,7 @@
 {
   "massif": "THABOR",
-  "date": "2026-06-03T15:00:00",
-  "validUntil": "2026-06-04T18:00:00",
+  "date": "2026-06-04T16:00:00",
+  "validUntil": "2026-06-05T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -12,7 +12,7 @@
   ],
   "situations": [],
   "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : peu probables.",
-  "stability": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nDéparts spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
+  "stability": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nLa chute de neige de jeudi en fin de journée n'aggrave pas significativement le danger d'avalanche et elle disparaît rapidement au soleil vendredi. De rares départs ponctuels sont possibles dans les pentes raides aux plus hautes altitudes pendant la chute et dès les premières heures d'ensoleillement. Avalanches de taille petite uniquement (taille 1). En journée, départs spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
   "snowQuality": "Enneigement résiduel et déficitaire pour un début juin, sous forme de névés, présents sur les sentiers de randonnée à partir de 2100/2200 m en nord, un peu plus bas au niveau des dépôts d'avalanches. ",
   "pdfUrl": "./data/bra/THABOR.pdf",
   "imageUrls": {

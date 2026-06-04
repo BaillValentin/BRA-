@@ -1,7 +1,7 @@
 {
   "massif": "VERCORS",
-  "date": "2026-06-03T16:00:00",
-  "validUntil": "2026-06-04T18:00:00",
+  "date": "2026-06-04T16:00:00",
+  "validUntil": "2026-06-05T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -11,12 +11,11 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
     "neige_humide"
   ],
   "summary": "Départs spontanés : RAS.\nDéclenchements skieurs : RAS.",
-  "stability": "FIN DE SAISON. MASSIF SEC, HORMIS QUELQUES (PETITS) NÉVÉS SOMMITAUX...\n\nIl ne reste que de (petits) névés vers les sommets, voire temporairement une fine couche de neige fraîche au-dessus de 2200 m. Neige humide mais très dense, stable, malgré les averses prévues...",
-  "snowQuality": "Qualification de l’enneigement :  Il ne reste que de petits névés en faces sommitale, sous les falaises... De nouvelles pluies sont attendues ce jeudi après-midi et soir.Fin de saison ski en Vercors.",
+  "stability": "FIN DE SAISON, MASSIF SEC  (RARES PETITS NÉVÉS SOMMITAUX)...\n\nIl ne reste que de  rares (petits) névés vers les sommets. Neige humide mais très dense, stable (malgré les averses prévues)...",
+  "snowQuality": "Qualification de l’enneigement :  Il ne reste que de rares petits névés en faces sommitales, sous les falaises... Fonte précoce cette saison...Fin de saison ski en Vercors.",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

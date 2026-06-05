@@ -1,29 +1,23 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-06-04T16:00:00",
-  "validUntil": "2026-06-05T18:00:00",
+  "date": "2026-06-05T15:00:00",
+  "validUntil": "2026-06-06T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2800",
+      "altitude": "<3300",
       "level": 1,
       "orientations": [
         "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
+        "NE"
       ]
     },
     {
-      "altitude": ">2800",
+      "altitude": ">3300",
       "level": 2,
       "orientations": [
         "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
+        "NE"
       ]
     }
   ],
@@ -31,8 +25,8 @@
     "neige_fraiche",
     "plaque_vent"
   ],
-  "summary": "Départs spontanés : en neige fraîche au cours des chutes ce jeudi soir. En neige récente s'humidifiant au soleil vendredi. \nDéclenchements skieurs : quelques petites plaques en place à haute altitude dans la neige fraîche ventée. ",
-  "stability": "INSTABILITÉS À HAUTE ALTITUDE\n\nDéparts spontanés : ce jeudi en soirée, des petites avalanches (taille 1) de neige fraîche ventée se produisent au cours des chutes de neige. Vendredi, dès les premières heures d'ensoleillement, quelques avalanches de neige récente s'humidifiant en pentes raides, possibles au-dessus de 2800/3000 m. Avalanches de taille petite (taille 1), très rarement moyenne (taille 2). Déclenchements provoqués : quelques nouvelles plaques se forment au-dessus de 2800/3000 m avec les chutes de neige ventées de jeudi soir. D'aspect friables, ou durcies par le vent de secteur nord-ouest, elles peuvent être localement faciles à déclencher, mais elles ont tendance à rapidement se stabiliser avec le retour du soleil vendredi. Elles sont de taille limitée et provoquent des avalanches de taille petite (taille 1), rarement moyenne (taille 2) en cas d'accumulation de neige par le vent. Observables : accumulations de neige, travail par le vent. À plus basse altitude, le manteau neigeux est bien stable. ",
+  "summary": "Départs spontanés : rares départs ponctuels de petite taille à haute altitude. \nDéclenchements skieurs : quelques plaques à vent en versant nord de haute altitude. ",
+  "stability": "QUELQUES INSTABILITÉS EN VERSANT NORD DE HAUTE ALTITUDE\n\nDéparts spontanés : rares départs ponctuels en neige fraiche s'humidifiant en versant nord au dessus de 3200/3400 m. Avalanches restants de petite taille (taille 1). Déclenchements provoqués : quelques plaques sont en place dans la neige récente encore froide en versant nord et nord-est, au-dessus de 3200/3400 m.  D'aspect friables, ou durcies par le vent de secteur nord-ouest, elles peuvent être localement faciles à déclencher, et génèrent des avalanches de petite taille (taille 1), rarement moyenne (taille 2) en cas d'accumulation de neige par le vent. Observables : accumulations de neige, travail par le vent. À plus basse altitude, le manteau neigeux est bien stable. ",
   "snowQuality": "Enneigement déficitaire, en raison du printemps particulièrement chaud et sec. Hauteurs de neige observées : 138 cm à la nivôse des Écrins à 2970 m. Limite d'enneigement skiable : à partir de 2600 m dans les secteurs les plus enneigés, localement 2300/2400 m. À pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.État de la neige en surface : manteau neigeux totalement humidifié, sauf dans les pentes nord au-dessus de 2800/3000m, où les chutes de neige de jeudi ont apporté entre 20 et 30 cm en coeur de massif. ",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {

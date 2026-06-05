@@ -1,46 +1,30 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-06-04T16:00:00",
-  "validUntil": "2026-06-05T18:00:00",
+  "date": "2026-06-05T15:00:00",
+  "validUntil": "2026-06-06T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<3000",
+      "altitude": "<3200",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
+        "N"
       ]
     },
     {
-      "altitude": ">3000",
+      "altitude": ">3200",
       "level": 2,
       "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
+        "N"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques petits départs ponctuels dans la neige fraîche qui s'humidifie en journée.\nDéclenchements skieurs : quelques petites plaques sur les plus hauts sommets. / neige humide sous les skis.",
-  "stability": "REDOUX ET RETOUR TIMIDE DU SOLEIL, LA NEIGE FRAICHE S'HUMIDIFIE RAPIDEMENT.\n\nDéclenchements provoqués :- quelques petites plaques subsistent le matin dans la neige récente ventée, dès 2800/3000 m. On les trouve en tous versants, dans les zones d'accumulation par le vent. Cassures maximum 20-30 cm, donnant des avalanches de taille 1 (petite), très rarement 2 (moyenne). Puis rapidement en journée, la neige récente s'humidifie et la problématique de plaque se restreint alors uniquement aux pentes nord de très haute altitude. Observables : accumulations, changement de qualité de neige sur une courte distance.- quelques petites avalanches humides sous les skis dans les 15/20 cm de neige fraîche qui prennent un coup de chaud en cours de journée, en coupant une pente raide plutôt au-dessus de 2700/3000 m (en-dessous les volumes de neige mobilisables sont maigres).Départs spontanés : - quelques départs ponctuels (poires) dans la neige récente qui s'humidifie en journée. Tous versants et plutôt au-delà de 2700/3000 m. Avalanches de taille 1, rarement une taille 2. - il subsiste un très faible risque d'une avalanche humide un peu plus conséquente en face Nord de très haute altitude, avec éventuellement une rupture linéaire (au-dessus de 3200/3500 m).Autres : attention aux ponts de neige fragiles, notamment sur les ruisseaux.",
-  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200 m en Nord, 2700/2800 m en Sud en pente peu raide.Qualité de la neige : au matin saupoudrage vers 2200 m. Dès 2700/3000 m, environ 10/20 cm de neige fraîche posés sur un ancien manteau type \"pourri\" ou \"névé\" selon l'altitude et l'orientation. En journée la neige récente s'humidifie, elle devient collante (et disparaît rapidement aux plus basses altitudes).",
+  "summary": "Départs spontanés : petits départs ponctuels dans la neige récente qui s'humidifie en journée.\nDéclenchements skieurs : rares plaques sur les plus hautes pentes Nord / neige humide sous les skis.",
+  "stability": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALESPRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE. \n\nDéclenchements provoqués :- une rare petite plaque subsiste dans les pentes nord et raides de très haute montagne (>3200 m ?). Cassure ~20 cm, donnant une avalanche de taille 1 (petite)Observables : accumulations, changement de qualité de neige sur une courte distance.- coulée sous les skis dans les 10 cm de neige récente qui réchauffent en journée, en coupant une pente raide plutôt au-dessus de 2800 m en versant Nord, plus haut en Sud.Départs spontanés : - quelques départs ponctuels (poires) dans la neige récente qui s'humidifie en journée, en versant Nord au-delà de 2700/3000 m. Avalanches de taille 1.",
+  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200 m en Nord, 2700/2800 m en Sud en pente peu raide.Qualité de la neige : regel médiocre au réveil sous 3000 m, meilleur au-dessus. La neige récente est croutée au réveil en tous versants/toutes altitudes. Avec le Soleil, elle ramollie et devient rapidement collante/lourde. Il n'y a qu'en versant Nord de haute montagne, très raide (type face Nord Tsanteleina), qu'on peut espérer trouver un peu de neige froide. ",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

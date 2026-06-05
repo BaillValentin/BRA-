@@ -1,29 +1,23 @@
 {
   "massif": "OISANS",
-  "date": "2026-06-04T16:00:00",
-  "validUntil": "2026-06-05T18:00:00",
+  "date": "2026-06-05T15:00:00",
+  "validUntil": "2026-06-06T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<2800",
+      "altitude": "<3300",
       "level": 1,
       "orientations": [
         "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
+        "NE"
       ]
     },
     {
-      "altitude": ">2800",
+      "altitude": ">3300",
       "level": 2,
       "orientations": [
         "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
+        "NE"
       ]
     }
   ],
@@ -33,9 +27,9 @@
     "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Durant les intempéries et vendredi matin, nombreuses coulées ponctuelles de surfaces/boules en pentes raides d'altitude...\nDéclenchements skieurs : Rares plaques temporaires au dessus de 3200/3400m? Possible coulée humide ponctuelle sous les skis (neige fraîche glissant sur les anciens névés denses)...",
-  "stability": "PETITE COUCHE DE FRAICHE EN ALTITUDE (15/25 cm),  RARES PLAQUES EN ALTITUDE, DES COULEES DE SURFACE VENDREDI MATIN...\n\nNEIGE FRAICHE PREVUE JEUDI SOIR EN ALTITUDE (15/25 cm) PUIS RAPIDE HUMIDIFICATION VENDREDI MATIN, DES COULEES SPONTANEES EN TERRAIN RAIDE, VERS LES HAUTES CRETES, QUELQUES PLAQUES TEMPORAIRES ?Déclenchements provoqués :  Vendredi matin risque de plaque temporaire a priori limité vers les hautes crêtes, au dessus de 3200/3400m, sous le vent de Sud-Ouest ?Sinon risque de coulée humide ponctuelle sous les skis (neige fraîche glissant sur la sous-couche dense).Départs spontanés :  Durant les chutes de neige (jeudi soir surtout), puis vendredi matin lors d'éclaircies : des coulées ponctuelles de neige fraîche/ boules humides vendredi en terrain raide.Risque temporaire surtout là où il neige plus, au dessus de 2800/3000m : 15/25 cm glissant sur la sous couche dense (névés).L'après-midi suite au tassement cette activité superficielle devrait s'estomper.",
-  "snowQuality": "Qualification de l’enneigement :  Haute montagne blanchie vendredi matin (surtout au dessus de 2800/3000m), puis rapide tassement. La fonte a été précoce cette saison, seules quelques pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2300/2500m en combes Nord, 2800/3000m au soleil.Qualité de la neige vendredi : Pentes saupoudrés au dessus de 2300/2500m, devenant davantage blanchies en altitude (jusque 15/25 cm possibles, parfois soufflés vers les hautes crêtes ?). Rapide humidification en matinée, tassement.Reprise de la fonte l'après-midi...",
+  "summary": "Départs spontanés : Risque cantonné à la très haute montagne ensoleillée, en neige humide, plutôt en faces Nord d'altitude...\nDéclenchements skieurs : Risque temporaires de petites plaques en faces Nord à Nord-Est, où la neige est restée sèche plutôt au dessus de 3300/3500m? (Vent de Sud-Ouest durant la nuit de vendredi à samedi)...",
+  "stability": "RARES PLAQUES A TRES HAUTE ALTITUDE, PUIS UN RISQUE DE COULEES HUMIDES SUPERFICIELLES...\n\n15/20 cm de neige récente sèche en faces Nord de très haute altitude, parfois ventée près des crêtes. Risque temporaire de plaques samedi matin. En journée humidification, possibles coulées humides...Déclenchements provoqués :  Samedi matin risque de plaque temporaire a priori limité vers les très hautes crêtes, au dessus de 3300/3500m, sous le vent de Sud-Ouest ? Vigilance dans de rares faces/sorties de couloirs Nord à Nord-Est...En journée, avec le soleil, les cumulus, risque de coulée humide ponctuelle sous les skis (neige fraîche glissant sur la sous-couche dense).Départs spontanés :  Peu d'activité attendue, regel de surface en altitude.Puis en journée au soleil, possibles nouvelles coulées de surface de neige récente, en pentes raides, près des rochers.Plus bas que 2700/3000m, neige de névé prédominante, stable.",
+  "snowQuality": "Qualification de l’enneigement :  Haute montagne récemment blanchie ( jusque 20 cm vendredi matin), avec tassement rapide... La fonte a été précoce cette saison, seules quelques pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2300/2500m en combes Nord, 2800/3000m au soleil.Qualité de la neige samedi :  Sous 2800m neige de névé humide.Plus haut saupoudrage récent, léger regel nocturne puis rapide humidification en journée de samedi...En pentes raides d'altitude, vers les rochers, de récentes coulées de surface/boules se sont déjà produites.",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

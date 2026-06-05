@@ -1,29 +1,14 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-06-04T16:00:00",
-  "validUntil": "2026-06-05T18:00:00",
-  "riskMax": 2,
+  "date": "2026-06-05T15:00:00",
+  "validUntil": "2026-06-06T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2800",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2800",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
+        "N"
       ]
     }
   ],
@@ -32,9 +17,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Durant les intempéries et vendredi matin, nombreuses coulées ponctuelles de surfaces/boules en pentes raides d'altitude...\nDéclenchements skieurs : Peu de risque de plaques ou rare au dessus de 3200m? Possible coulée humide ponctuelle sous les skis (neige fraîche glissant sur les anciens névés denses)...",
-  "stability": "PETITE COUCHE DE FRAICHE EN ALTITUDE (jusque 20/25 cm), DES COULEES DE SURFACE VENDREDI MATIN...\n\nNEIGE FRAICHE PREVUE JEUDI SOIR EN ALTITUDE (20 cm) PUIS RAPIDE HUMIDIFICATION VENDREDI MATIN, DES COULEES SPONTANEES EN TERRAIN RAIDE, SURTOUT AU DESSUS DE 2800/3000mDéparts spontanés :  Durant les chutes de neige (jeudi soir surtout), puis vendredi matin lors d'éclaircies : des coulées ponctuelles de neige fraîche/ boules humides vendredi en terrain raide.Risque temporaire surtout là où il neige plus, au dessus de 2800/3000m : 15/25 cm glissant sur la sous couche dense (névés).L'après-midi suite au tassement cette activité superficielle devrait cesser.Déclenchements provoqués :  Vendredi pas de risque de plaque a priori ou très localement au dessus de 3200m, sous le vent de Sud-Ouest ?Plutôt un risque de coulée humide ponctuelle sous les skis (le matin surtout, à l'humidification de la neige fraîche)...",
-  "snowQuality": "Qualification de l’enneigement :  Haute montagne blanchie vendredi matin (surtout au dessus de 2800/3000m), puis rapide tassement. La fonte a été précoce cette saison, seules quelques pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2200/2400m en combes Nord, 2600/3000m au soleil.Qualité de la neige vendredi : Pentes saupoudrés au dessus de 2300/2500m, devenant davantage blanchies en altitude (jusque 15/25 cm possibles, parfois soufflés vers les hautes crêtes ?). Rapide humidification en matinée, tassement.Reprise de la fonte l'après-midi...",
+  "summary": "Départs spontanés : Possible coulées humides de surface au soleil, plutôt en faces Nord d'altitude, où il a récemment neigé ?\nDéclenchements skieurs : Possible coulée humide ponctuelle sous les skis (neige fraîche glissant sur les anciens névés denses)... ",
+  "stability": "NEIGE SOUVENT STABLE, OU RARES COULEES DE SURFACE, PLUTOT EN FACES NORD D'ALTITUDE ?\n\nEn haute montagne, rares coulées humides de surface, plutôt en faces Nord (là où la neige récente est moins transformée)Départs spontanés :  Peu d'activité attendue, la neige récente  a déjà \"bougé\", en pentes raides d'altitude, près des rochers, sous forme de coulées ponctuelles.Samedi ce risque serait cantonné à de rares faces Nord sommitales (où la neige a moins évolué la veille), avec 10/15 cm mobilisables...Plus bas neige de névé humide mais très stableDéclenchements provoqués :  Samedi a priori pas de risque de plaque, plutôt un risque de coulée humide ponctuelle sous les skis en altitude, la neige récente glissant sur les névés ?",
+  "snowQuality": "Qualification de l’enneigement :  Haute montagne récemment blanchie ( jusque 20 cm vendredi matin), avec tassement rapide... La fonte a été précoce cette saison, seules quelques pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2200/2400m en combes Nord, 2700/3000m au soleil.Qualité de la neige samedi :  Sous 2700m neige de névé humide.Plus haut saupoudrage récent, léger regel nocturne puis rapide humidification en journée de samedi...En pentes raides d'altitude, vers les rochers, de récentes coulées de surface.",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

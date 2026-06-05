@@ -1,39 +1,23 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-06-04T16:00:00",
-  "validUntil": "2026-06-05T18:00:00",
-  "riskMax": 2,
+  "date": "2026-06-05T15:00:00",
+  "validUntil": "2026-06-06T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2700",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2700",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "W",
-        "NW"
+        "N"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Durant les intempéries et vendredi matin, nombreuses coulées de surfaces/boules en pentes raides d'altitude...\nDéclenchements skieurs : Peu de risque de plaques. Possible coulée humide ponctuelle sous les skis (neige fraîche glissant sur les anciens névés denses)...",
-  "stability": "PETITE COUCHE DE FRAICHE EN ALTITUDE (jusque 10/15 cm), DES COULEES DE SURFACE VENDREDI MATIN...\n\nNEIGE FRAICHE PREVUE JEUDI SOIR EN ALTITUDE (10/15 cm) PUIS RAPIDE HUMIDIFICATION VENDREDI MATIN, DES COULEES SPONTANEES EN TERRAIN RAIDE, SURTOUT AU DESSUS DE 2500/2700mDéparts spontanés :  Durant les chutes de neige (jeudi soir surtout), puis vendredi matin lors d'éclaircies : des coulées ponctuelles de neige fraîche/ boules humides vendredi en terrain raide.Risque temporaire surtout là où il neige plus, au dessus de 2500/2700m : 10/15 cm glissant sur la sous couche dense (névés).L'après-midi suite au tassement cette activité superficielle devrait cesser.Déclenchements provoqués :  Vendredi pas de risque de plaque a priori, plutôt un risque de coulée humide ponctuelle sous les skis (le matin surtout)...",
-  "snowQuality": "Qualification de l’enneigement :  Hauts du massif sans doute blanchis vendredi matin, puis rapide tassement.La fonte est précoce cette saison, seules de rares pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2000/2300m en combes Nord.Qualité de la neige vendredi : Pentes saupoudrés au dessus de 2200/2400m et plus blanchies vers les hauts sommets (jusque 15 cm possibles). Rapide humidification en matinée, tassement.Reprise de la fonte l'après-midi...",
+  "summary": "Départs spontanés : RAS ou rares coulées de surface, plutôt en faces Nord sommitales ?\nDéclenchements skieurs : Peu de risque. ou possible coulée humide ponctuelle sous les skis (neige récente glissant sur les anciens névés denses)...",
+  "stability": "NEIGE DE NEVE PREDOMINANTE, STABLE...\n\nDe moins en moins de neige avec des névés récemment saupoudrés en altitude... Rare coulée humide de surface ?Départs spontanés :  Peu d'activité attendue, la neige récente  a déjà formé des boules / coulées ponctuelles locales en pentes raides altitude.Samedi ce risque serait cantonné à de rares faces Nord sommitales.Déclenchements provoqués :  Samedi pas de risque de plaque, à la limite un risque de coulée humide ponctuelle sous les skis en altitude, la neige récente glissant sur les névés ?",
+  "snowQuality": "Qualification de l’enneigement :  Hauts du massif récemment blanchis (vendredi matin), rapide tassement.La fonte est précoce cette saison, seules de rares pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2000/2300m en combes Nord.Qualité de la neige samedi : Guère de regel à l'aube et humidification rapidement généralisée.5/10 cm de neige récente au dessus de 2500m environ reposant sur de la neige de névé (humide), ce qui adoucit temporairement les surfaces.",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

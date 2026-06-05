@@ -1,46 +1,23 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-06-04T16:00:00",
-  "validUntil": "2026-06-05T18:00:00",
-  "riskMax": 2,
+  "date": "2026-06-05T15:00:00",
+  "validUntil": "2026-06-06T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<2800",
+      "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">2800",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "E",
-        "SE",
-        "S",
-        "SW",
-        "W",
-        "NW"
+        "N"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : quelques petits départs ponctuels dans la neige fraîche qui s'humidifie en journée.\nDéclenchements skieurs : neige humide sous les skis. / rares petites plaques sur les plus hauts sommets.",
-  "stability": " JOURNÉE NUAGEUSE ACCOMPAGNÉE D'UN REDOUX, LA NEIGE FRAICHE S'HUMIDIFIE RAPIDEMENT.\n\nDéclenchements provoqués :- quelques petites avalanches humides sous les skis dans les 15/20 cm de neige fraîche qui prennent un coup de chaud en cours de journée, en coupant une pente raide plutôt au-dessus de 2600/2800 m (en-dessous les volumes de neige mobilisables sont maigres).- de rares petites plaques subsistent le matin dans la neige récente ventée, au-dessus de 2700/2800 m. On les trouve en tous versants, dans les zones d'accumulation par le vent. Cassures maximum 20-30 cm, donnant des avalanches de taille 1 (petite), très rarement 2 (moyenne). Puis rapidement en journée, cette couche de neige récente s'humidifie et le déclenchement d'une plaque devient peu probable. Observables : accumulations, changement de qualité de neige sur une courte distance.Départs spontanés : quelques départs ponctuels (poires) dans la neige récente qui s'humidifie en journée. Tous versants et plutôt au-delà de 2600/2800 m. Avalanches de taille 1, rarement une taille 2. Autres : attention aux ponts de neige fragiles, notamment sur les ruisseaux.",
-  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200/2400 m en Nord, 2600/2800 m en Sud en pente peu raide.Qualité de la neige : au matin saupoudrage vers 2200 m. Dès 2600/2800 m, environ 10/20 cm de neige fraîche posés sur un ancien manteau type \"pourri\" ou \"névé\" selon l'altitude et l'orientation. En journée la neige récente s'humidifie, elle devient collante (et disparaît rapidement aux plus basses altitudes).",
+  "summary": "Départs spontanés : rares départs dans la neige récente humidifiée. \nDéclenchements skieurs : neige humide sous les skis.",
+  "stability": "RETOUR A DES CONDITIONS ESTIVALES. \n\nDéclenchements provoqués : coulée sous les skis dans les 10 cm de neige récente qui réchauffent en journée, en coupant une pente raide plutôt au-dessus de 2600/2800 m.Départs spontanés : rares départs ponctuels (poires) dans la neige récente (neige blanche) qui s'humidifie en journée. Versant Nord au-delà de de 2600/2800 m. Avalanches de taille 1 - petites. ",
+  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200/2400 m en Nord, 2600/2800 m en Sud en pente peu raide.Qualité de la neige : au matin regel médiocre à mauvais. Le Soleil humidifie rapidement la neige à peine regelée. La neige blanche, issue de la dernière chute devient collante. C'est la neige de névé (jaunâtre/brune) qui glisse le mieux à ski.",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

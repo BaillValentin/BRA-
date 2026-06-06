@@ -1,25 +1,24 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-06-05T15:00:00",
-  "validUntil": "2026-06-06T18:00:00",
+  "date": "2026-06-06T16:00:00",
+  "validUntil": "2026-06-07T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
       "orientations": [
-        "N"
+        "N",
+        "NE"
       ]
     }
   ],
   "situations": [
-    "neige_fraiche",
-    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Possible coulées humides de surface au soleil, plutôt en faces Nord d'altitude, où il a récemment neigé ?\nDéclenchements skieurs : Possible coulée humide ponctuelle sous les skis (neige fraîche glissant sur les anciens névés denses)... ",
-  "stability": "NEIGE SOUVENT STABLE, OU RARES COULEES DE SURFACE, PLUTOT EN FACES NORD D'ALTITUDE ?\n\nEn haute montagne, rares coulées humides de surface, plutôt en faces Nord (là où la neige récente est moins transformée)Départs spontanés :  Peu d'activité attendue, la neige récente  a déjà \"bougé\", en pentes raides d'altitude, près des rochers, sous forme de coulées ponctuelles.Samedi ce risque serait cantonné à de rares faces Nord sommitales (où la neige a moins évolué la veille), avec 10/15 cm mobilisables...Plus bas neige de névé humide mais très stableDéclenchements provoqués :  Samedi a priori pas de risque de plaque, plutôt un risque de coulée humide ponctuelle sous les skis en altitude, la neige récente glissant sur les névés ?",
-  "snowQuality": "Qualification de l’enneigement :  Haute montagne récemment blanchie ( jusque 20 cm vendredi matin), avec tassement rapide... La fonte a été précoce cette saison, seules quelques pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2200/2400m en combes Nord, 2700/3000m au soleil.Qualité de la neige samedi :  Sous 2700m neige de névé humide.Plus haut saupoudrage récent, léger regel nocturne puis rapide humidification en journée de samedi...En pentes raides d'altitude, vers les rochers, de récentes coulées de surface.",
+  "summary": "Départs spontanés : rares coulées de neige récente humide\nDéclenchements skieurs : peu probable, coulée humide ponctuelle sous les skis",
+  "stability": "RARES COULEES DE SURFACE\n\nDéparts spontanés :  peu d'activité attendue. Rares coués ponctuelles de surface en versant N près des sommets, là où il reste encore un peu de neige récente.Déclenchements provoqués : peu probables. Possible coulée humide sous les skis en traversant une pente très raide réchauffée, en neige récente pas encore complètement tassée. Taille 1.",
+  "snowQuality": "Qualification de l’enneigement :  les 20 cm de neige tombés vendredi ont déjà pris un coup de chaud. Il reste encore quelques zones en neige récente dense, près des sommets, en versants N. Les pentes encore skiables sont plutôt rares et nécéssitent un long portage.Limites skiables : 2300/2400 m en combes Nord, anecdotiques en versants S.Qualité de la neige dimanche : * en dessous de 2800/3000 m : neige de névé humide.* au-dessus de 3000 m : petite couche de neige récente lourde humide, reposant sur névé. Croûtée en début de matinée, puis rapide humidification.",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

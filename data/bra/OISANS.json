@@ -1,7 +1,7 @@
 {
   "massif": "OISANS",
-  "date": "2026-06-05T15:00:00",
-  "validUntil": "2026-06-06T18:00:00",
+  "date": "2026-06-06T16:00:00",
+  "validUntil": "2026-06-07T18:00:00",
   "riskMax": 2,
   "risks": [
     {
@@ -22,14 +22,12 @@
     }
   ],
   "situations": [
-    "neige_fraiche",
     "plaque_vent",
-    "sous_couche_fragile",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Risque cantonné à la très haute montagne ensoleillée, en neige humide, plutôt en faces Nord d'altitude...\nDéclenchements skieurs : Risque temporaires de petites plaques en faces Nord à Nord-Est, où la neige est restée sèche plutôt au dessus de 3300/3500m? (Vent de Sud-Ouest durant la nuit de vendredi à samedi)...",
-  "stability": "RARES PLAQUES A TRES HAUTE ALTITUDE, PUIS UN RISQUE DE COULEES HUMIDES SUPERFICIELLES...\n\n15/20 cm de neige récente sèche en faces Nord de très haute altitude, parfois ventée près des crêtes. Risque temporaire de plaques samedi matin. En journée humidification, possibles coulées humides...Déclenchements provoqués :  Samedi matin risque de plaque temporaire a priori limité vers les très hautes crêtes, au dessus de 3300/3500m, sous le vent de Sud-Ouest ? Vigilance dans de rares faces/sorties de couloirs Nord à Nord-Est...En journée, avec le soleil, les cumulus, risque de coulée humide ponctuelle sous les skis (neige fraîche glissant sur la sous-couche dense).Départs spontanés :  Peu d'activité attendue, regel de surface en altitude.Puis en journée au soleil, possibles nouvelles coulées de surface de neige récente, en pentes raides, près des rochers.Plus bas que 2700/3000m, neige de névé prédominante, stable.",
-  "snowQuality": "Qualification de l’enneigement :  Haute montagne récemment blanchie ( jusque 20 cm vendredi matin), avec tassement rapide... La fonte a été précoce cette saison, seules quelques pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2300/2500m en combes Nord, 2800/3000m au soleil.Qualité de la neige samedi :  Sous 2800m neige de névé humide.Plus haut saupoudrage récent, léger regel nocturne puis rapide humidification en journée de samedi...En pentes raides d'altitude, vers les rochers, de récentes coulées de surface/boules se sont déjà produites.",
+  "summary": "Départs spontanés : coulées de neige récente humide\nDéclenchements skieurs : rares couées de neige humide sous les skis, éventuellement une dernière petite plaque dans la neige récente",
+  "stability": "COULEES HUMIDES SUPERFICIELLES\n\nLes 15/20 cm de neige tombés cette semaine se sont déjà bien tassés. Il en reste un peu par endroit en versants N au-dessus de 3300/3500 m.Déclenchements provoqués :  * au fil du réchauffement par le soleil, petites coulées de neige humide sous les skis en coupant une pente raide. Au-dessus de 320300/3500 m, principalement en versants N/NE. Taille 1 (petite). * les rares plaques à vent formées dernièrement (par le vent de SW) sont quasiment stabilisées, sauf peut-être dans les pentes froides les plus hautes. Taille 1, peu large.Départs spontanés :  en journée au réchauffement, petites coulées de surface dans cette neige récente pas encore complètement tassée, en pentes raides, surtout N/NE, plus haut que 3200/3300 m. Taiille 1.",
+  "snowQuality": "Qualification de l’enneigement :  les 20 cm de neige tombés vendredi ont déjà pris un coup de chaud. Il reste encore quelques zones en neige récente dense, près des sommets, en versants N. Les pentes encore skiables sont plutôt rares et nécéssitent un long portage.Limites skiables : 2300/2500 m en combes N, 3000 m en versants S.Qualité de la neige dimanche : * en dessous de 2800/3000 m : neige de névé humide.* au-dessus de 3000 m : petite couche de neige récente lourde humide, reposant sur névé. Croûtée en début de matinée, puis rapide humidification.",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

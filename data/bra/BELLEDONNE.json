@@ -1,23 +1,21 @@
 {
   "massif": "BELLEDONNE",
-  "date": "2026-06-05T15:00:00",
-  "validUntil": "2026-06-06T18:00:00",
+  "date": "2026-06-06T16:00:00",
+  "validUntil": "2026-06-07T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "neige_humide"
   ],
   "summary": "Départs spontanés : RAS ou rares coulées de surface, plutôt en faces Nord sommitales ?\nDéclenchements skieurs : Peu de risque. ou possible coulée humide ponctuelle sous les skis (neige récente glissant sur les anciens névés denses)...",
-  "stability": "NEIGE DE NEVE PREDOMINANTE, STABLE...\n\nDe moins en moins de neige avec des névés récemment saupoudrés en altitude... Rare coulée humide de surface ?Départs spontanés :  Peu d'activité attendue, la neige récente  a déjà formé des boules / coulées ponctuelles locales en pentes raides altitude.Samedi ce risque serait cantonné à de rares faces Nord sommitales.Déclenchements provoqués :  Samedi pas de risque de plaque, à la limite un risque de coulée humide ponctuelle sous les skis en altitude, la neige récente glissant sur les névés ?",
-  "snowQuality": "Qualification de l’enneigement :  Hauts du massif récemment blanchis (vendredi matin), rapide tassement.La fonte est précoce cette saison, seules de rares pentes restent skiables et nécessitent du portage...Limites skiables : Vers 2000/2300m en combes Nord.Qualité de la neige samedi : Guère de regel à l'aube et humidification rapidement généralisée.5/10 cm de neige récente au dessus de 2500m environ reposant sur de la neige de névé (humide), ce qui adoucit temporairement les surfaces.",
+  "stability": "NEIGE DE NEVE PREDOMINANTE, STABLE...\n\nDéparts spontanés :  peu d'activité attendue. Rares coulées près des faces N sommitales, mobilisant la neige récente humidifiée. Départs en forme de poire. Taille 1 (petite).Déclenchements provoqués : rare coulée humide de surface, ponctuelle, partant sous les skis en coupant une pente très raide et réchauffée.",
+  "snowQuality": "Qualification de l’enneigement :  la fine couche de neige tombée ces derniers jours a déjà bien fondu, il en reste encore un peu en versants Nord des plus hauts sommets. Il reste principalement des névés, parfois épais. Les rares pentes encore skiables nécessitent un long portage.Limites skiables : 2200/2400 m en combes Nord.Qualité de la neige dimanche : regel nocturne assez bon. Humidification rapide dimanche en journée. Les 5/10 cm restants des chutes récentes sont déjà bien humidifiés et adoucissent l'ancienne surface.",
   "pdfUrl": "./data/bra/BELLEDONNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_8.png",

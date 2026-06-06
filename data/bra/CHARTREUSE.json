@@ -1,7 +1,7 @@
 {
   "massif": "CHARTREUSE",
-  "date": "2026-06-05T15:00:00",
-  "validUntil": "2026-06-06T18:00:00",
+  "date": "2026-06-06T16:00:00",
+  "validUntil": "2026-06-07T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -11,9 +11,9 @@
     }
   ],
   "situations": [],
-  "summary": "Départs spontanés : RAS.\nDéclenchements skieurs : RAS.",
-  "stability": "FIN DE SAISON... MASSIF SEC...  \n\nIl ne reste plus de neige en Chartreuse.",
-  "snowQuality": "Qualification de l’enneigement :  Il ne reste plus de neige en Chartreuse. La fonte s'est révélée précoce cette saison.Chartreuse verte... Fin de saison ski",
+  "summary": "Départs spontanés : RAS\nDéclenchements skieurs : RAS",
+  "stability": "FIN DE SAISON, MASSIF SEC\n\nIl ne reste plus de neige en Chartreuse.",
+  "snowQuality": "Qualification de l’enneigement :  Il ne reste plus de neige en Chartreuse.",
   "pdfUrl": "./data/bra/CHARTREUSE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_7.png",

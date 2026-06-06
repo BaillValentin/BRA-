@@ -1,7 +1,7 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-06-05T16:00:00",
-  "validUntil": "2026-06-06T18:00:00",
+  "date": "2026-06-06T16:00:00",
+  "validUntil": "2026-06-07T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -13,9 +13,9 @@
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : Coulées au soleil, sans ampleur.\nDéclenchements skieurs : Peu probables.",
-  "stability": "Manteau neigeux globalement stable. \n\nDéparts spontanés : Peu probablesAu-dessus de 2400/2500 m : de rares boulettes / petites avalanches de neige humides sont possibles au fil de l'ensoleillement. Taille 1 (petite).Déclenchements provoqués : Peu probables.Au-dessus de 2400/2500 m : un peu de neige humide peut couler sous les skis, sans prendre d'ampleur. Taille 1 (petite).  ",
-  "snowQuality": "Enneigement : L'enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Les pentes sud sont saupoudrées de neige fraîche au-dessus de 2300 m. Qualité de la neige samedi : En dessous de 2300m, l'enneigement n'est pas continu et on retrouve des névés sans regel nocturne.Au-dessus de 2500m, on retrouve 5/10 cm de neige récente mouillé.",
+  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables.",
+  "stability": "Manteau neigeux stable. \n\nDéparts spontanés : Peu probables : très rares petites avalanches de neige humide proches des plus hauts sommets dans les versants nord. Taille 1 (petite).Déclenchements provoqués : Peu probables : un peu de neige humide peut couler sous les skis, principalement dans les versants nord, proches des plus hauts sommets. Taille 1.",
+  "snowQuality": "Enneigement : L'enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Qualité de la neige dimanche :Neige de névé en tous versants, léger regel nocturne au-dessus de 2500 m. La neige s'humidifie rapidement en matinée.",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

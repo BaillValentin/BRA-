@@ -1,34 +1,21 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-06-06T15:00:00",
-  "validUntil": "2026-06-07T18:00:00",
-  "riskMax": 2,
+  "date": "2026-06-07T16:00:00",
+  "validUntil": "2026-06-08T18:00:00",
+  "riskMax": 1,
   "risks": [
     {
-      "altitude": "<3200",
+      "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">3200",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "neige_humide"
   ],
   "summary": "Départs spontanés : petits départs ponctuels dans la neige récente qui s'humidifie en journée.\nDéclenchements skieurs : neige humide sous les skis.",
-  "stability": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALES PRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE. \n\nDéclenchements provoqués : coulée sous les skis dans les 5 cm de neige récente qui réchauffent en journée, en coupant une pente raide plutôt au-dessus de 2800 m en versant Nord, plus haut en Sud.Départs spontanés : rares départs ponctuels (poires) dans la neige récente qui s'humidifie en journée, en versant Nord au-delà de 2700/3000 m. Avalanches de taille 1.",
-  "snowQuality": "Enneigement : déficitaire pour la saison suit au récent épisode de chaleur.Limite skiable : vers 2300 m en Nord,  2700/2800 m en Sud en pente peu raide.Qualité de la neige : regel modéré sous 3000 m, meilleur au-dessus. La neige récente est croutée au réveil en tous versants/toutes altitudes. Avec le Soleil, elle ramollie et devient rapidement collante/lourde. Il n'y a qu'en versant Nord de haute montagne, très raide (type face Nord Petite Ciamarella), qu'on peut espérer trouver un peu de neige froide. ",
+  "stability": "DERNIER BULLETIN DE LA SAISON \n\nDéparts spontanés : rares départs ponctuels et superficiels (en forme de poire) dans la neige humide après réchauffement. Surtout versants N/NE au-dessus de 2800/3000 m. Taille 1 (petite). Déclenchements provoqués : coulée sous les skis dans la neige de surface humidifiée. En coupant une pente raide, au-dessus de 2700/2900 m. Talle 1.",
+  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2300/2400 m en N, 2800/3000 m en S en pente peu raide.Qualité de la neige : bon regel, neige majoritairement dure au lever du jour. Humidification de surface assez rapide, mais limitée par le vent (croûte). En versants N très raide de haute-montagne (par exemple face N Petite Ciamarella), on peut trouver un peu de neige froide, travaillée par les vents d'W/NW. ",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

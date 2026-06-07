@@ -1,33 +1,32 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-06-06T15:00:00",
-  "validUntil": "2026-06-07T18:00:00",
+  "date": "2026-06-07T16:00:00",
+  "validUntil": "2026-06-08T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<3200",
+      "altitude": "<3400",
       "level": 1,
       "orientations": [
         "N",
-        "NE",
-        "NW"
+        "NE"
       ]
     },
     {
-      "altitude": ">3200",
+      "altitude": ">3400",
       "level": 2,
       "orientations": [
         "N",
-        "NE",
-        "NW"
+        "NE"
       ]
     }
   ],
   "situations": [
+    "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : petits départs ponctuels dans la neige récente qui s'humidifie en journée.\nDéclenchements skieurs : rares plaques sur les plus hautes pentes Nord / neige humide sous les skis.",
-  "stability": "REDOUX ET RETOUR A DES CONDITIONS ESTIVALESPRESQUE PARTOUT. NEIGE FROIDE EN NORD D'ALTITUDE. \n\nDéclenchements provoqués :- une rare petite plaque subsiste dans les pentes nord et raides de très haute montagne (>3200 m ?). Cassure ~20 cm, donnant une avalanche de taille 1 (petite)Observables : accumulations, changement de qualité de neige sur une courte distance.- coulée sous les skis dans les 10 cm de neige récente qui réchauffent en journée, en coupant une pente raide plutôt au-dessus de 2800 m en versant Nord, plus haut en Sud.Départs spontanés : - rares départs ponctuels (poires) dans la neige récente qui s'humidifie en journée, en versant Nord au-delà de 2700/3000 m. Avalanches de taille 1.",
+  "summary": "Départs spontanés : petits départs ponctuels, neige humide de surface\nDéclenchements skieurs : neige humide sous les skis",
+  "stability": "DERNIER BULLETIN DE LA SAISON\n\nDéclenchements provoqués :* coulée sous les skis dans la neige de surface humidifiée. En coupant une pente raide, au-dessus de 2700/2900 m. Talle 1.* petite plaque à vent encore possible (mais très rare). Pentes N très raides de haute-montagne, au-dessus de 3200/3400 m, il peut subsister une peu de neige sèche. Surveiller les changements de qualité de neige sur une courte distance.Départs spontanés : rares départs ponctuels et superficiels (en forme de poire) dans la neige humide après réchauffement. Surtout versants N/NE au-dessus de 2800/3000 m. Taille 1 (petite). ",
   "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200 m en Nord, 2700/2800 m en Sud en pente peu raide.Qualité de la neige : regel médiocre au réveil sous 3000 m, meilleur au-dessus. La neige récente est croutée au réveil en tous versants/toutes altitudes. Avec le Soleil, elle ramollie et devient rapidement collante/lourde. Il n'y a qu'en versant Nord de haute montagne, très raide (type face Nord Tsanteleina), qu'on peut espérer trouver un peu de neige froide. ",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {

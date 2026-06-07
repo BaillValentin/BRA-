@@ -1,23 +1,21 @@
 {
   "massif": "MAURIENNE",
-  "date": "2026-06-06T15:00:00",
-  "validUntil": "2026-06-07T18:00:00",
+  "date": "2026-06-07T16:00:00",
+  "validUntil": "2026-06-08T18:00:00",
   "riskMax": 1,
   "risks": [
     {
       "altitude": "Toutes altitudes",
       "level": 1,
-      "orientations": [
-        "N"
-      ]
+      "orientations": []
     }
   ],
   "situations": [
     "neige_humide"
   ],
-  "summary": "Départs spontanés : rares départs dans la neige récente humidifiée. \nDéclenchements skieurs : neige humide sous les skis.",
-  "stability": "RETOUR A DES CONDITIONS ESTIVALES. \n\nDéclenchements provoqués : coulée sous les skis dans les 10 cm de neige récente qui réchauffent en journée, en coupant une pente raide plutôt au-dessus de 2600/2800 m.Départs spontanés : rares départs ponctuels (poires) dans la neige récente (neige blanche) qui s'humidifie en journée. Versant Nord au-delà de de 2600/2800 m. Avalanches de taille 1 - petites. ",
-  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200/2400 m en Nord, 2600/2800 m en Sud en pente peu raide.Qualité de la neige : au matin regel médiocre à mauvais. Le Soleil humidifie rapidement la neige à peine regelée. La neige blanche, issue de la dernière chute devient collante. C'est la neige de névé (jaunâtre/brune) qui glisse le mieux à ski.",
+  "summary": "Départs spontanés : rares départs superficiels dans la neige humide \nDéclenchements skieurs : neige humide sous les skis",
+  "stability": "DERNIER BULLETIN DE LA SAISON\n\nDéparts spontanés : rares départs ponctuels et superficiels (en forme de poire) dans la neige humide après réchauffement. Surtout versants N/NE au-dessus de 2700/2800 m. Taille 1 (petite). Déclenchements provoqués : coulée sous les skis dans la neige de surface humidifiée. En coupant une pente raide, au-dessus de 2700/2900 m. Talle 1.",
+  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2400/2500 m en N, 2800/3000 m en S en pente peu raide.Qualité de la neige : bon regel au petit matin. Neige majoritairement dure. Humidification de surface assez rapide, mais limitée par le vent.",
   "pdfUrl": "./data/bra/MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_9.png",

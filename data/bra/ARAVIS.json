@@ -1,7 +1,7 @@
 {
   "massif": "ARAVIS",
-  "date": "2026-06-06T16:00:00",
-  "validUntil": "2026-06-07T18:00:00",
+  "date": "2026-06-07T16:00:00",
+  "validUntil": "2026-06-08T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -10,12 +10,10 @@
       "orientations": []
     }
   ],
-  "situations": [
-    "neige_humide"
-  ],
+  "situations": [],
   "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables.",
-  "stability": "Manteau neigeux stable. \n\nDéparts spontanés : Peu probables : très rares petites avalanches de neige humide proches des plus hauts sommets dans les versants nord. Taille 1 (petite).Déclenchements provoqués : Peu probables : un peu de neige humide peut couler sous les skis, principalement dans les versants nord, proches des plus hauts sommets. Taille 1.",
-  "snowQuality": "Enneigement : L'enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Qualité de la neige dimanche :Neige de névé en tous versants, léger regel nocturne au-dessus de 2500 m. La neige s'humidifie rapidement en matinée.",
+  "stability": "DERNIER BULLETIN DE LA SAISON.\n\nDéparts spontanés : Peu probables.Déclenchements provoqués : Peu probables.",
+  "snowQuality": "Enneigement : L'enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Qualité de la neige lundi :Neige de névé en tous versants, léger regel nocturne au-dessus de 2500 m. La neige s'humidifie rapidement en matinée.",
   "pdfUrl": "./data/bra/ARAVIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_2.png",

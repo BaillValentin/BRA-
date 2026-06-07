@@ -1,11 +1,11 @@
 {
   "massif": "OISANS",
-  "date": "2026-06-06T16:00:00",
-  "validUntil": "2026-06-07T18:00:00",
+  "date": "2026-06-07T16:00:00",
+  "validUntil": "2026-06-08T18:00:00",
   "riskMax": 2,
   "risks": [
     {
-      "altitude": "<3300",
+      "altitude": "<3500",
       "level": 1,
       "orientations": [
         "N",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "altitude": ">3300",
+      "altitude": ">3500",
       "level": 2,
       "orientations": [
         "N",
@@ -25,9 +25,9 @@
     "plaque_vent",
     "neige_humide"
   ],
-  "summary": "Départs spontanés : coulées de neige récente humide\nDéclenchements skieurs : rares couées de neige humide sous les skis, éventuellement une dernière petite plaque dans la neige récente",
-  "stability": "COULEES HUMIDES SUPERFICIELLES\n\nLes 15/20 cm de neige tombés cette semaine se sont déjà bien tassés. Il en reste un peu par endroit en versants N au-dessus de 3300/3500 m.Déclenchements provoqués :  * au fil du réchauffement par le soleil, petites coulées de neige humide sous les skis en coupant une pente raide. Au-dessus de 320300/3500 m, principalement en versants N/NE. Taille 1 (petite). * les rares plaques à vent formées dernièrement (par le vent de SW) sont quasiment stabilisées, sauf peut-être dans les pentes froides les plus hautes. Taille 1, peu large.Départs spontanés :  en journée au réchauffement, petites coulées de surface dans cette neige récente pas encore complètement tassée, en pentes raides, surtout N/NE, plus haut que 3200/3300 m. Taiille 1.",
-  "snowQuality": "Qualification de l’enneigement :  les 20 cm de neige tombés vendredi ont déjà pris un coup de chaud. Il reste encore quelques zones en neige récente dense, près des sommets, en versants N. Les pentes encore skiables sont plutôt rares et nécéssitent un long portage.Limites skiables : 2300/2500 m en combes N, 3000 m en versants S.Qualité de la neige dimanche : * en dessous de 2800/3000 m : neige de névé humide.* au-dessus de 3000 m : petite couche de neige récente lourde humide, reposant sur névé. Croûtée en début de matinée, puis rapide humidification.",
+  "summary": "Départs spontanés : Peu probables, ou une rare coulée de surface, plutôt en Nord d'altitude \nDéclenchements skieurs : De rares plaques peu épaisses en nord d'altitude. ",
+  "stability": "DERNIER BULLETIN DE LA SAISON : MANTEAU NEIGEUX SOUVENT STABLE \n\nDéclenchements provoqués : De fines plaques de surface peuvent subsister en versants Nord à Nord-Est suffisamment raide, au-dessus de 3400m environ, dans les 15 à 30cm de neige récente. En neige réchauffée, de petites coulées humides sont possibles sous les skis en coupant une pente raide. Départs spontanés : Peu probables, ou une rare coulée de surface, dans les pentes Nord / Nord-Est au-dessus de 3500m. Dernier bulletin de la saison. L'équipe de Grenoble vous souhaite un bel été ! A l'année prochaine ! ",
+  "snowQuality": "Qualification de l’enneigement :  L'enneigement est plutôt déficitaire pour la saison. Après un coeur d'hiver assez bien enneigé, la fonte du manteau neigeux a été particulièrement rapide au printemps, avec un mois d'avril chaud et sec, et une fin mai caniculaire ... Les épisodes neigeux associés à la période fraîche de début mai n'auront été qu'un répit de courte durée pour le manteau neigeux. L'enneigement reste au mieux correct dans certaines combes Nord d'altitude. Limites skiables : 2400/2600 m en combes N, 3000 m en versants S. A pied, névés encore nombreux dés 2000 / 2200 m en Nord. Qualité de la neige lundi : * en dessous de 2900/3100 m : neige de névé humide.* au-dessus de 3100 / 3200m : Petite couche de neige récente lourde humide, reposant sur névé. Croûtée en début de matinée, puis rapide humidification.* au-dessus de 3500m : Possiblité de trouver encore un peu de neige froide en pente Nord suffisamment raide. ",
   "pdfUrl": "./data/bra/OISANS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_15.png",

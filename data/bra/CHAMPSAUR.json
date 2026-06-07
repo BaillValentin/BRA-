@@ -1,7 +1,7 @@
 {
   "massif": "CHAMPSAUR",
-  "date": "2026-06-06T16:00:00",
-  "validUntil": "2026-06-07T18:00:00",
+  "date": "2026-06-07T16:00:00",
+  "validUntil": "2026-06-08T18:00:00",
   "riskMax": 1,
   "risks": [
     {
@@ -12,7 +12,7 @@
   ],
   "situations": [],
   "summary": "Départs spontanés : peu probables.\nDéclenchements skieurs : peu probables.",
-  "stability": "MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nDéparts spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
+  "stability": "DERNIER BULLETIN DE LA SAISON - MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nDéparts spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
   "snowQuality": "Enneigement résiduel et déficitaire pour un début juin, sous forme de névés, présents sur les sentiers de randonnée à partir de 2100/2200 m en nord, un peu plus bas au niveau des dépôts d'avalanches. ",
   "pdfUrl": "./data/bra/CHAMPSAUR.pdf",
   "imageUrls": {

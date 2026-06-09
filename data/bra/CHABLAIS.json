@@ -1,21 +1,13 @@
 {
   "massif": "CHABLAIS",
-  "date": "2026-06-07T16:00:00",
-  "validUntil": "2026-06-08T18:00:00",
-  "riskMax": 1,
-  "risks": [
-    {
-      "altitude": "Toutes altitudes",
-      "level": 1,
-      "orientations": []
-    }
-  ],
-  "situations": [
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables.",
-  "stability": "DERNIER BULLETIN DE LA SAISON.\n\nDéparts spontanés : Peu probables. Au-dessus de 2700 m en ubacs : très rares petites avalanches de neige récente humide. Taille 1 (petite).Déclenchements provoqués : Peu probables. Au-dessus de 2700 m en ubacs : un peu de neige humide peut couler sous les skis. Taille 1.",
-  "snowQuality": "Enneigement : L'enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en nord. Qualité de la neige lundi :Neige de névé en tous versants, léger regel nocturne au-dessus de 2500 m. La neige s'humidifie rapidement en matinée.",
+  "date": "2026-06-09T18:17:40.548Z",
+  "validUntil": "",
+  "riskMax": 0,
+  "risks": [],
+  "situations": [],
+  "summary": "",
+  "stability": "",
+  "snowQuality": "",
   "pdfUrl": "./data/bra/CHABLAIS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_1.png",

@@ -1,21 +1,13 @@
 {
   "massif": "GRANDES-ROUSSES",
-  "date": "2026-06-07T16:00:00",
-  "validUntil": "2026-06-08T18:00:00",
-  "riskMax": 1,
-  "risks": [
-    {
-      "altitude": "Toutes altitudes",
-      "level": 1,
-      "orientations": []
-    }
-  ],
-  "situations": [
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : Peu probables.\nDéclenchements skieurs : Peu probables ",
-  "stability": "DERNIER BULLETIN DE LA SAISON : MANTEAU NEIGEUX SOUVENT STABLE \n\nDéparts spontanés :  Peu probables. Déclenchements provoqués : Peu probables, ou éventuellement une rare coulée humide sous les skis en coupant une pente très raide et réchauffée.Dernier bulletin de la saison. L'équipe de Grenoble vous souhaite un bel été ! A l'année prochaine ! ",
-  "snowQuality": "Qualification de l’enneigement :  L'enneigement est plutôt déficitaire pour la saison. Après un coeur d'hiver assez bien enneigé, la fonte du manteau neigeux a été particulièrement rapide au printemps, avec un mois d'avril chaud et sec, et une fin mai caniculaire ... Les épisodes neigeux associés à la période fraîche de début mai n'auront été qu'un répit de courte durée pour le manteau neigeux. Quelques pentes restent skiables en altitude, mais nécessitent un long portage. Limites skiables : 2400/2600 m en combes Nord. 2800 / 2900m en Sud. A pied, névés encore nombreux dés 2000 / 2200 m en Nord. Qualité de la neige lundi : Regel nocturne assez bon en altitude. Humidification rapide lundi en journée. ",
+  "date": "2026-06-09T18:19:53.011Z",
+  "validUntil": "",
+  "riskMax": 0,
+  "risks": [],
+  "situations": [],
+  "summary": "",
+  "stability": "",
+  "snowQuality": "",
   "pdfUrl": "./data/bra/GRANDES-ROUSSES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_12.png",

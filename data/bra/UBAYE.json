@@ -1,19 +1,13 @@
 {
   "massif": "UBAYE",
-  "date": "2026-06-07T16:00:00",
-  "validUntil": "2026-06-08T18:00:00",
-  "riskMax": 1,
-  "risks": [
-    {
-      "altitude": "Toutes altitudes",
-      "level": 1,
-      "orientations": []
-    }
-  ],
+  "date": "2026-06-09T18:21:40.877Z",
+  "validUntil": "",
+  "riskMax": 0,
+  "risks": [],
   "situations": [],
-  "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : peu probables. ",
-  "stability": "DERNIER BULLETIN DE LA SAISON - MANTEAU NEIGEUX RÉSIDUEL STABLE \n\nDéparts spontanés et déclenchements provoqués d'avalanches peu probables, le manteau neigeux résiduel est dense et stable.",
-  "snowQuality": "Enneigement résiduel et très déficitaire pour une début juin, sous forme de névés, présents sur les sentiers de randonnée à partir de 2500/2600 m en nord, un peu plus bas au niveau des dépôts d'avalanches. ",
+  "summary": "",
+  "stability": "",
+  "snowQuality": "",
   "pdfUrl": "./data/bra/UBAYE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_21.png",

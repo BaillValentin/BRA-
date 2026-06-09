@@ -1,31 +1,13 @@
 {
   "massif": "PELVOUX",
-  "date": "2026-06-07T16:00:00",
-  "validUntil": "2026-06-08T18:00:00",
-  "riskMax": 2,
-  "risks": [
-    {
-      "altitude": "<3500",
-      "level": 1,
-      "orientations": [
-        "N"
-      ]
-    },
-    {
-      "altitude": ">3500",
-      "level": 2,
-      "orientations": [
-        "N"
-      ]
-    }
-  ],
-  "situations": [
-    "plaque_vent",
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : peu probables. \nDéclenchements skieurs : en neige humide sous les skis, en nord de haute altitude",
-  "stability": "DERNIER BULLETIN DE LA SAISON - RARES DÉPARTS DE NEIGE HUMIDE EN VERSANT NORD DE HAUTE ALTITUDE \n\nDéclenchements provoqués : au dessus de 3300/3500 m, un skieur évoluant tardivement peut initier un départ en neige humide de faible ampleur. Une rare plaque à vent peut subsister dans les pentes froides les plus hautes. Avalanches de petite taille (taille 1), rarement moyenne (taille 2). À plus basse altitude, le manteau neigeux est bien stable. Départs spontanés : peu probables, les averses de pluie ou de neige de la fin de journée étant trop faibles pour générer de l'activité naturelle.",
-  "snowQuality": "Enneigement déficitaire, en raison du printemps particulièrement chaud et sec. Hauteurs de neige observées : 130 cm à la nivôse des Écrins à 2970 m. Limite d'enneigement skiable : à partir de 2600 m dans les secteurs les plus enneigés, localement 2400 m. À pieds, les névés sont encore nombreux à partir de 2100/2200 m en nord, bien plus bas dans les dépôts d'avalanches.État de la neige en surface : manteau neigeux totalement humidifié, sauf dans les pentes nord au-dessus de 3300/3500m, où les chutes de neige de jeudi soir ont apporté entre 10/20 cm en cœur de massif. ",
+  "date": "2026-06-09T18:20:40.856Z",
+  "validUntil": "",
+  "riskMax": 0,
+  "risks": [],
+  "situations": [],
+  "summary": "",
+  "stability": "",
+  "snowQuality": "",
   "pdfUrl": "./data/bra/PELVOUX.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_16.png",

@@ -1,21 +1,13 @@
 {
   "massif": "HAUTE-MAURIENNE",
-  "date": "2026-06-07T16:00:00",
-  "validUntil": "2026-06-08T18:00:00",
-  "riskMax": 1,
-  "risks": [
-    {
-      "altitude": "Toutes altitudes",
-      "level": 1,
-      "orientations": []
-    }
-  ],
-  "situations": [
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : petits départs ponctuels dans la neige récente qui s'humidifie en journée.\nDéclenchements skieurs : neige humide sous les skis.",
-  "stability": "DERNIER BULLETIN DE LA SAISON \n\nDéparts spontanés : rares départs ponctuels et superficiels (en forme de poire) dans la neige humide après réchauffement. Surtout versants N/NE au-dessus de 2800/3000 m. Taille 1 (petite). Déclenchements provoqués : coulée sous les skis dans la neige de surface humidifiée. En coupant une pente raide, au-dessus de 2700/2900 m. Talle 1.",
-  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2300/2400 m en N, 2800/3000 m en S en pente peu raide.Qualité de la neige : bon regel, neige majoritairement dure au lever du jour. Humidification de surface assez rapide, mais limitée par le vent (croûte). En versants N très raide de haute-montagne (par exemple face N Petite Ciamarella), on peut trouver un peu de neige froide, travaillée par les vents d'W/NW. ",
+  "date": "2026-06-09T18:19:40.426Z",
+  "validUntil": "",
+  "riskMax": 0,
+  "risks": [],
+  "situations": [],
+  "summary": "",
+  "stability": "",
+  "snowQuality": "",
   "pdfUrl": "./data/bra/HAUTE-MAURIENNE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_11.png",

@@ -1,21 +1,13 @@
 {
   "massif": "BEAUFORTAIN",
-  "date": "2026-06-07T16:00:00",
-  "validUntil": "2026-06-08T18:00:00",
-  "riskMax": 1,
-  "risks": [
-    {
-      "altitude": "Toutes altitudes",
-      "level": 1,
-      "orientations": []
-    }
-  ],
-  "situations": [
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : rares départs superficiels dans la neige humide \nDéclenchements skieurs : neige humide sous les skis",
-  "stability": "DERNIER BULLETIN DE LA SAISON\n\nDéparts spontanés : rares départs ponctuels et superficiels (en forme de poire) dans la neige humide après réchauffement. Surtout versants N/NE au-dessus de 2700/2800 m. Taille 1 (petite). Déclenchements provoqués : coulée sous les skis dans la neige de surface humidifiée. En coupant une pente raide, au-dessus de 2700/2900 m. Talle 1.",
-  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2400/2500 m en N, 2800/3000 m en S en pente peu raide.Qualité de la neige : bon regel au petit matin. Neige majoritairement dure. Humidification de surface assez rapide, mais limitée par le vent.",
+  "date": "2026-06-09T18:18:29.171Z",
+  "validUntil": "",
+  "riskMax": 0,
+  "risks": [],
+  "situations": [],
+  "summary": "",
+  "stability": "",
+  "snowQuality": "",
   "pdfUrl": "./data/bra/BEAUFORTAIN.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_5.png",

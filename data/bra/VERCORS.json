@@ -1,19 +1,13 @@
 {
   "massif": "VERCORS",
-  "date": "2026-06-07T16:00:00",
-  "validUntil": "2026-06-08T18:00:00",
-  "riskMax": 1,
-  "risks": [
-    {
-      "altitude": "Toutes altitudes",
-      "level": 1,
-      "orientations": []
-    }
-  ],
+  "date": "2026-06-09T18:20:16.982Z",
+  "validUntil": "",
+  "riskMax": 0,
+  "risks": [],
   "situations": [],
-  "summary": "Départs spontanés : Pas de risque\nDéclenchements skieurs : Pas de risque",
-  "stability": "DERNIER BULLETIN DE LA SAISON : FIN DE SAISON, PLUS DE NEIGE SUR LE MASSIF\n\nLa saison est terminée sur le Vercors. Dernier bulletin de la saison, l'équipe de Grenoble vous souhaite un bel été ! A l'année prochaine. ",
-  "snowQuality": "Le massif est sec. Quelques névés sommitaux peuvent subsister localement. ",
+  "summary": "",
+  "stability": "",
+  "snowQuality": "",
   "pdfUrl": "./data/bra/VERCORS.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_14.png",

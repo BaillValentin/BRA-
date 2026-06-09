@@ -1,35 +1,13 @@
 {
   "massif": "MONT-BLANC",
-  "date": "2026-06-07T16:00:00",
-  "validUntil": "2026-06-08T18:00:00",
-  "riskMax": 2,
-  "risks": [
-    {
-      "altitude": "<3400",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    },
-    {
-      "altitude": ">3400",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE",
-        "NW"
-      ]
-    }
-  ],
-  "situations": [
-    "plaque_vent",
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : Neige récente humide au soleil.\nDéclenchements skieurs : Quelques plaques à vent dans la neige récente.",
-  "stability": "DERNIER BULLETIN DE LA SAISON.\n\nDéclenchements provoqués :* Dans les ubacs au-dessus de 3400 m : rares plaques friables dans la neige récente (10 à 30 cm), assez facilement déclenchables par un skieur. Ces plaques se sont formées avec le vent de W/SW vendredi et samedi. Ces plaques peuvent également être présentes dans les adrets au-dessus de 4000 m, là où la neige récente n'a pas encore été humidifiée. Taille 1 (petite), rarement 2 (moyenne). * Lundi soir au-dessus de 3400 m : quelques plaques à vent forment lors des chutes de neige. Plaques peu épaisses (10 cm), facilement déclenchables par un skieur. Ces plaques sont formées par le fort vent d'W. Taille 1, rarement 2.* Au-dessus de 2800 m : de la neige récente humide peut couler sous les skis l'après-midi. Taille 1.Départs spontanés :* Au-dessus de 2800 m, principalement dans les ubacs : quelques boulettes / petites avalanches de neige humide récente au fil de l'ensoleillement, notamment proche des rochers/falaises. Taille 1.",
-  "snowQuality": "Enneigement : Pour la saison, l’enneigement est déficitaire. On peut chausser les skis au-dessus de 2300 m en Nord.Qualité de la neige lundi :En dessous de 2800 m, Neige de névé en tous versants, léger regel nocturne au-dessus de 2500 m. La neige s'humidifie rapidement en matinée.Entre 2800 m et 3400 m : encore un peu de neige récente lourde sur fond dur. Neige croutée en début de journée, dégelant en cours de matinée. Au-dessus de 3400 en Nord et 4000 m en Sud : 10 à 15 cm de neige récente, assez légère, encore peu humidifiée. Neige ventée proche des crêtes et sommets. Lundi soir au-dessus de 3400 m : 5-10 cm de neige apportés par les averses. Neige souvent travaillée par le vent.",
+  "date": "2026-06-09T18:18:04.765Z",
+  "validUntil": "",
+  "riskMax": 0,
+  "risks": [],
+  "situations": [],
+  "summary": "",
+  "stability": "",
+  "snowQuality": "",
   "pdfUrl": "./data/bra/MONT-BLANC.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_3.png",

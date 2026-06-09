@@ -1,33 +1,13 @@
 {
   "massif": "HAUTE-TARENTAISE",
-  "date": "2026-06-07T16:00:00",
-  "validUntil": "2026-06-08T18:00:00",
-  "riskMax": 2,
-  "risks": [
-    {
-      "altitude": "<3400",
-      "level": 1,
-      "orientations": [
-        "N",
-        "NE"
-      ]
-    },
-    {
-      "altitude": ">3400",
-      "level": 2,
-      "orientations": [
-        "N",
-        "NE"
-      ]
-    }
-  ],
-  "situations": [
-    "plaque_vent",
-    "neige_humide"
-  ],
-  "summary": "Départs spontanés : petits départs ponctuels, neige humide de surface\nDéclenchements skieurs : neige humide sous les skis",
-  "stability": "DERNIER BULLETIN DE LA SAISON\n\nDéclenchements provoqués :* coulée sous les skis dans la neige de surface humidifiée. En coupant une pente raide, au-dessus de 2700/2900 m. Talle 1.* petite plaque à vent encore possible (mais très rare). Pentes N très raides de haute-montagne, au-dessus de 3200/3400 m, il peut subsister une peu de neige sèche. Surveiller les changements de qualité de neige sur une courte distance.Départs spontanés : rares départs ponctuels et superficiels (en forme de poire) dans la neige humide après réchauffement. Surtout versants N/NE au-dessus de 2800/3000 m. Taille 1 (petite). ",
-  "snowQuality": "Enneigement : déficitaire pour la saison suite au récent épisode de chaleur.Limite skiable : vers 2200 m en Nord, 2700/2800 m en Sud en pente peu raide.Qualité de la neige : regel médiocre au réveil sous 3000 m, meilleur au-dessus. La neige récente est croutée au réveil en tous versants/toutes altitudes. Avec le Soleil, elle ramollie et devient rapidement collante/lourde. Il n'y a qu'en versant Nord de haute montagne, très raide (type face Nord Tsanteleina), qu'on peut espérer trouver un peu de neige froide. ",
+  "date": "2026-06-09T18:18:41.045Z",
+  "validUntil": "",
+  "riskMax": 0,
+  "risks": [],
+  "situations": [],
+  "summary": "",
+  "stability": "",
+  "snowQuality": "",
   "pdfUrl": "./data/bra/HAUTE-TARENTAISE.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_6.png",

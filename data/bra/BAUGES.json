@@ -1,19 +1,13 @@
 {
   "massif": "BAUGES",
-  "date": "2026-06-07T16:00:00",
-  "validUntil": "2026-06-08T18:00:00",
-  "riskMax": 1,
-  "risks": [
-    {
-      "altitude": "Toutes altitudes",
-      "level": 1,
-      "orientations": []
-    }
-  ],
+  "date": "2026-06-09T18:18:16.960Z",
+  "validUntil": "",
+  "riskMax": 0,
+  "risks": [],
   "situations": [],
-  "summary": "Départs spontanés : Peu probables\nDéclenchements skieurs : Peu probables",
-  "stability": "DERNIER BULLETIN DE LA SAISON.\n\nRien à signaler.",
-  "snowQuality": "Enneigement :Il reste de la neige uniquement au-dessus de 2000/2100 m en Nord.Qualité de la neige lundi :Neige de névé sans regel nocturne. ",
+  "summary": "",
+  "stability": "",
+  "snowQuality": "",
   "pdfUrl": "./data/bra/BAUGES.pdf",
   "imageUrls": {
     "montagne-risques": "./data/bra/img/montagne-risques_4.png",

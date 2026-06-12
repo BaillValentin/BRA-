@@ -1,6 +1,6 @@
 {
   "massif": "VERCORS",
-  "date": "2026-06-12T11:29:11.811Z",
+  "date": "2026-06-12T18:17:54.705Z",
   "validUntil": "",
   "riskMax": 0,
   "risks": [],
@@ -9,12 +9,5 @@
   "stability": "",
   "snowQuality": "",
   "pdfUrl": "./data/bra/VERCORS.pdf",
-  "imageUrls": {
-    "montagne-risques": "./data/bra/img/montagne-risques_14.png",
-    "rose-pentes": "./data/bra/img/rose-pentes_14.png",
-    "montagne-enneigement": "./data/bra/img/montagne-enneigement_14.png",
-    "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_14.png",
-    "apercu-meteo": "./data/bra/img/apercu-meteo_14.png",
-    "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_14.png"
-  }
+  "imageUrls": {}
 }

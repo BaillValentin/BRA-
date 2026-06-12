@@ -1,6 +1,6 @@
 {
   "massif": "BAUGES",
-  "date": "2026-06-12T11:27:16.005Z",
+  "date": "2026-06-12T18:15:57.190Z",
   "validUntil": "",
   "riskMax": 0,
   "risks": [],
@@ -9,12 +9,5 @@
   "stability": "",
   "snowQuality": "",
   "pdfUrl": "./data/bra/BAUGES.pdf",
-  "imageUrls": {
-    "montagne-risques": "./data/bra/img/montagne-risques_4.png",
-    "rose-pentes": "./data/bra/img/rose-pentes_4.png",
-    "montagne-enneigement": "./data/bra/img/montagne-enneigement_4.png",
-    "graphe-neige-fraiche": "./data/bra/img/graphe-neige-fraiche_4.png",
-    "apercu-meteo": "./data/bra/img/apercu-meteo_4.png",
-    "sept-derniers-jours": "./data/bra/img/sept-derniers-jours_4.png"
-  }
+  "imageUrls": {}
 }

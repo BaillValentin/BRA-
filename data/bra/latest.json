@@ -1,9 +1,9 @@
 {
-  "lastUpdate": "2026-06-29T12:15:28.392Z",
+  "lastUpdate": "2026-06-29T18:18:05.272Z",
   "massifs": {
     "CHABLAIS": {
       "risk": 0,
-      "date": "2026-06-29T12:15:29.149Z",
+      "date": "2026-06-29T18:18:06.016Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_1.png",
         "rose-pentes": "./data/bra/img/rose-pentes_1.png",
@@ -15,7 +15,7 @@
     },
     "ARAVIS": {
       "risk": 0,
-      "date": "2026-06-29T12:15:41.570Z",
+      "date": "2026-06-29T18:18:18.583Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_2.png",
         "rose-pentes": "./data/bra/img/rose-pentes_2.png",
@@ -27,7 +27,7 @@
     },
     "MONT-BLANC": {
       "risk": 0,
-      "date": "2026-06-29T12:15:53.876Z",
+      "date": "2026-06-29T18:18:30.569Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_3.png",
         "rose-pentes": "./data/bra/img/rose-pentes_3.png",
@@ -39,12 +39,12 @@
     },
     "BAUGES": {
       "risk": 0,
-      "date": "2026-06-29T12:16:05.995Z",
+      "date": "2026-06-29T18:18:42.598Z",
       "img": {}
     },
     "BEAUFORTAIN": {
       "risk": 0,
-      "date": "2026-06-29T12:16:17.855Z",
+      "date": "2026-06-29T18:18:54.436Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_5.png",
         "rose-pentes": "./data/bra/img/rose-pentes_5.png",
@@ -56,7 +56,7 @@
     },
     "HAUTE-TARENTAISE": {
       "risk": 0,
-      "date": "2026-06-29T12:16:29.733Z",
+      "date": "2026-06-29T18:19:06.290Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_6.png",
         "rose-pentes": "./data/bra/img/rose-pentes_6.png",
@@ -68,12 +68,12 @@
     },
     "CHARTREUSE": {
       "risk": 0,
-      "date": "2026-06-29T12:16:41.585Z",
+      "date": "2026-06-29T18:19:18.165Z",
       "img": {}
     },
     "BELLEDONNE": {
       "risk": 0,
-      "date": "2026-06-29T12:16:53.433Z",
+      "date": "2026-06-29T18:19:30.282Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_8.png",
         "rose-pentes": "./data/bra/img/rose-pentes_8.png",
@@ -85,7 +85,7 @@
     },
     "MAURIENNE": {
       "risk": 0,
-      "date": "2026-06-29T12:17:05.447Z",
+      "date": "2026-06-29T18:19:42.151Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_9.png",
         "rose-pentes": "./data/bra/img/rose-pentes_9.png",
@@ -97,7 +97,7 @@
     },
     "VANOISE": {
       "risk": 0,
-      "date": "2026-06-29T12:17:17.312Z",
+      "date": "2026-06-29T18:19:54.018Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_10.png",
         "rose-pentes": "./data/bra/img/rose-pentes_10.png",
@@ -109,7 +109,7 @@
     },
     "HAUTE-MAURIENNE": {
       "risk": 0,
-      "date": "2026-06-29T12:17:29.136Z",
+      "date": "2026-06-29T18:20:06.060Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_11.png",
         "rose-pentes": "./data/bra/img/rose-pentes_11.png",
@@ -121,7 +121,7 @@
     },
     "GRANDES-ROUSSES": {
       "risk": 0,
-      "date": "2026-06-29T12:17:41.143Z",
+      "date": "2026-06-29T18:20:18.101Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_12.png",
         "rose-pentes": "./data/bra/img/rose-pentes_12.png",
@@ -133,7 +133,7 @@
     },
     "THABOR": {
       "risk": 0,
-      "date": "2026-06-29T12:17:53.432Z",
+      "date": "2026-06-29T18:20:30.137Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_13.png",
         "rose-pentes": "./data/bra/img/rose-pentes_13.png",
@@ -145,12 +145,12 @@
     },
     "VERCORS": {
       "risk": 0,
-      "date": "2026-06-29T12:18:06.120Z",
+      "date": "2026-06-29T18:20:41.971Z",
       "img": {}
     },
     "OISANS": {
       "risk": 0,
-      "date": "2026-06-29T12:18:18.575Z",
+      "date": "2026-06-29T18:20:54.339Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_15.png",
         "rose-pentes": "./data/bra/img/rose-pentes_15.png",
@@ -162,7 +162,7 @@
     },
     "PELVOUX": {
       "risk": 0,
-      "date": "2026-06-29T12:18:30.447Z",
+      "date": "2026-06-29T18:21:05.989Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_16.png",
         "rose-pentes": "./data/bra/img/rose-pentes_16.png",
@@ -174,7 +174,7 @@
     },
     "QUEYRAS": {
       "risk": 0,
-      "date": "2026-06-29T12:18:42.376Z",
+      "date": "2026-06-29T18:21:17.720Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_17.png",
         "rose-pentes": "./data/bra/img/rose-pentes_17.png",
@@ -186,7 +186,7 @@
     },
     "DEVOLUY": {
       "risk": 0,
-      "date": "2026-06-29T12:18:54.272Z",
+      "date": "2026-06-29T18:21:29.618Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_18.png",
         "rose-pentes": "./data/bra/img/rose-pentes_18.png",
@@ -198,7 +198,7 @@
     },
     "CHAMPSAUR": {
       "risk": 0,
-      "date": "2026-06-29T12:19:06.174Z",
+      "date": "2026-06-29T18:21:41.486Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_19.png",
         "rose-pentes": "./data/bra/img/rose-pentes_19.png",
@@ -210,7 +210,7 @@
     },
     "EMBRUNAIS-PARPAILLON": {
       "risk": 0,
-      "date": "2026-06-29T12:19:19.021Z",
+      "date": "2026-06-29T18:21:53.228Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_20.png",
         "rose-pentes": "./data/bra/img/rose-pentes_20.png",
@@ -222,7 +222,7 @@
     },
     "UBAYE": {
       "risk": 0,
-      "date": "2026-06-29T12:19:31.154Z",
+      "date": "2026-06-29T18:22:04.959Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_21.png",
         "rose-pentes": "./data/bra/img/rose-pentes_21.png",
@@ -234,7 +234,7 @@
     },
     "HAUT-VAR-HAUT-VERDON": {
       "risk": 0,
-      "date": "2026-06-29T12:19:43.150Z",
+      "date": "2026-06-29T18:22:16.711Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_22.png",
         "rose-pentes": "./data/bra/img/rose-pentes_22.png",
@@ -246,7 +246,7 @@
     },
     "MERCANTOUR": {
       "risk": 0,
-      "date": "2026-06-29T12:19:55.009Z",
+      "date": "2026-06-29T18:22:28.775Z",
       "img": {
         "montagne-risques": "./data/bra/img/montagne-risques_23.png",
         "rose-pentes": "./data/bra/img/rose-pentes_23.png",
